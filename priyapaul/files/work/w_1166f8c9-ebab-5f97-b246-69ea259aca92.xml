@@ -1,0 +1,84 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_1166f8c9-ebab-5f97-b246-69ea259aca92" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-e9cc4e6f-bc9b-5bb9-b1ec-2ff69c3eec33">Imperial Chemical Industries (India) Ltd.</name>
+				<role/>
+  			</agent>
+		</agentSet>
+ 		<dateSet>
+			<date type="creation">
+				<earliestDate>1957</earliestDate>
+				<latestDate>1957</latestDate>
+			</date>
+		</dateSet>
+		<descriptionSet>
+			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+		</descriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>48 cm x 30 cm, portrait</notes>
+			<measurements type="height" unit="cm">48</measurements>
+			<measurements type="width" unit="cm">30</measurements>
+			<measurements shape="portrait" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_03d83612-1275-575f-8f2e-d50069ec6692" refid="118940" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Imperial Chemical Industries 1957</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+			<worktype>posters</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>Flowers</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/20080701_1738.jpg</hra:value>
+				<hra:value>explanatory comments/crosstagging:
+Calendar Poster Torn, Stains, Frame Good</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118940</hra:value>
+				<hra:value>118940</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:46">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

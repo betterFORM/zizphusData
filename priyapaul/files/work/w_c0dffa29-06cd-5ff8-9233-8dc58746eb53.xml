@@ -1,0 +1,91 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_c0dffa29-06cd-5ff8-9233-8dc58746eb53" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">This textile label is bearing an image of an aristocrat riding an elephant. A white palace with yellow roofing is filling the background.</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">578
+Copyright</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_06b75bae-4958-58bc-b420-e8753ddef16b" refid="118096" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
+				<term>elephant</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
+				<term>textile label</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="787be248-a07a-525c-b455-3d4bd5f3ed6e">
+				<term>multicolored</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f9e695e4-1726-53fa-a215-e85230165e8a">
+				<term>palace</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+				<term>recheck-Medialab</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+				<term>recheck-Gerhard</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
+				<term>recheck-Matthias</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e3b0a51b-8a1d-5af6-b624-59b5fab60de2">
+				<term>aristocrat</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b2340835-33bd-5d41-800a-95ea3484daea">
+				<term>labels</term>
+			</subject>
+		</subjectSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">An aristocrat on an elephant</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+578
+Copyright</hra:value>
+				<hra:value>description-en:
+This textile label is bearing an image of an aristocrat riding an elephant. A white palace with yellow roofing is filling the background.</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118096</hra:value>
+				<hra:value>118096</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:37:55">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

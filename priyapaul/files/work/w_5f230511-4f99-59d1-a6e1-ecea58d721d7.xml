@@ -1,0 +1,105 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_5f230511-4f99-59d1-a6e1-ecea58d721d7" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">On this postcard with the title &quot;Bamboo Avenue, Jubbolpore&quot;, we see a couple of workers standing on an avenue with bamboo trees along it.</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">Bamboo Avenue, Jubbolpore
+Hands &amp; Son, C.F.</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>H 12 cm, W 7 cm, portrait</notes>
+			<measurements type="height" unit="cm">12</measurements>
+			<measurements type="width" unit="cm">7</measurements>
+			<measurements shape="portrait" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_65778c76-3c0d-5c83-a8b3-1bd14928f1a0" refid="120714" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+				<term>tree</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+				<term>recheck-new</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
+				<term>picture postcards</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="9119622f-6f06-5da2-aee4-0d7ee835b29f">
+				<term>avenue</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e44e83ce-077b-59cb-a55d-0bc9ef2a1d0d">
+				<term>bamboo</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f709a0bc-7931-5ab5-8a1f-4ac6c591bb51">
+				<term>alley</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Bamboo Avenue, Jubbulpore&quot;</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+Bamboo Avenue, Jubbolpore
+Hands &amp; Son, C.F.</hra:value>
+				<hra:value>description-en:
+On this postcard with the title &quot;Bamboo Avenue, Jubbolpore&quot;, we see a couple of workers standing on an avenue with bamboo trees along it. (gs)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/2085.tif</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>damaged</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120714</hra:value>
+				<hra:value>120714</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:41:47">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

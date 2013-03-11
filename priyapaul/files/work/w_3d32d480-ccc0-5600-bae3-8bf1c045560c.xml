@@ -1,0 +1,98 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_3d32d480-ccc0-5600-bae3-8bf1c045560c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-6a2e3bc2-f7f2-534f-bcac-5870a237313e">Ravi Varma, Raja</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-46ab475d-6467-58f7-83df-ecdac56fb468">The Bombay Company Ltd.</name>
+				<role/>
+  			</agent>
+		</agentSet>
+ 		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>17 cm x 12 cm, portrait</notes>
+			<measurements type="height" unit="cm">17</measurements>
+			<measurements type="width" unit="cm">12</measurements>
+			<measurements shape="portrait" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_0c6027a2-04df-5f11-914c-330f87fcfcd6" refid="120689" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="b4de6888-0ad1-5d98-a569-35967541f46f">
+				<term>worship</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
+				<term>temple</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="98cdd292-9b30-5297-a6f8-99dfdfc40644">
+				<term>red sari</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
+				<term>cow</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
+				<term>textile label</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e38635c9-239d-529e-b2ef-09d0617e47a8">
+				<term>perception of women</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Textile label by The Bombay Company Limited</title>
+			<title type="descriptive" pref="false" lang="" script="">घी बॉम्बे कंपनी लिमिटेड देहली अमृतसर क्राची</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/2060.tif</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>torn</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120689</hra:value>
+				<hra:value>120689</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:40:25">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

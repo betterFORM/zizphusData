@@ -1,0 +1,76 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_6a4c0f61-8148-57db-8585-5def2f379760" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+		</agentSet>
+ 		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<measurementsSet>
+			<notes>20 cm x 15 cm, portrait</notes>
+			<measurements type="height" unit="cm">20</measurements>
+			<measurements type="width" unit="cm">15</measurements>
+			<measurements shape="portrait" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_28e553c3-7b78-5192-a572-3bd1655f331b" refid="120756" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="10e5a796-6cb2-5e02-a043-8d56aa80d829">
+				<term>black-and-white photographs</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Film still showing a dancing girl</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
+			<worktype vocab="local" source="EXC" refid="aaeaf6d5-4858-553f-8a4d-03a9552e2efc">film stills</worktype>
+			<worktype>lobby cards</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>A woman is performing dance. She is surrounded by the audience.</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/2129.tif</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>Good</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120756</hra:value>
+				<hra:value>120756</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:44:06">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

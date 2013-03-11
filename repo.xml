@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Ziziphus Data Bundle</description>
+    <author>betterFORM</author>
+    <website>http://www.betterform.de</website>
+    <status>beta</status>
+    <license/>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>ziziphusData</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions user="admin" password="" group="dba" mode="rw-rw-r--"/>
+</meta>

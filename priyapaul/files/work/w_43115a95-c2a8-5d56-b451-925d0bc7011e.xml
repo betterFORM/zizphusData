@@ -1,0 +1,94 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_43115a95-c2a8-5d56-b451-925d0bc7011e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-b48d1160-e490-5472-8f4d-938355ab4cea">Kali</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-dfc58ea6-295f-5f25-a46b-84c54142bbb8">Sharma, S. N.</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">S. N. Sharma</text>
+			</inscription>
+			<inscription>
+				<text type="signature">S. N. Sharma</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="1c7d6eac-19d4-5d62-b1b1-2210092b5bad" type="medium">panels (wood)</material>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_8181e9d6-203b-5d5b-afaf-d906cd75db56" refid="118835" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Kali and Vishnu, Hindu deities</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
+			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<hra:value>Sharma, S. N.</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+S. N. Sharma</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/20080604_1441.jpg</hra:value>
+				<hra:value>explanatory comments/crosstagging:
+Painting for a calendar. (ja)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118835</hra:value>
+				<hra:value>118835</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:09">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

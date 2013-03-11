@@ -1,0 +1,107 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_b3c3cc34-2367-5cd6-812b-81699c578a1b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-f16038a5-7630-5bb9-8d9e-a3d5f7faa3a2">Sita</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-048694c0-93ed-5b54-8923-fb9017e4b9ae">Rama</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">In the presence of royal gathering, Rama's marriage is getting solemnised. He has held Sita's hand while two women, among others, are standing nearby, with two plates full of dry colour and flowers in their hands.</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">Rama's Marriage.</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>W 10 cm, H 15 cm, landscape</notes>
+			<measurements type="height" unit="cm">10</measurements>
+			<measurements type="width" unit="cm">15</measurements>
+			<measurements shape="landscape" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_56aabbfc-020c-5875-a4dd-cdf3900cf2e7" refid="108035" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
+				<term>deity</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
+				<term>Hinduism</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+				<term>recheck-new</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
+				<term>picture postcards</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Rama's marriage</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+Rama's Marriage.</hra:value>
+				<hra:value>description-en:
+In the presence of royal gathering, Rama's marriage is getting solemnised. He has held Sita's hand while two women, among others, are standing nearby, with two plates full of dry colour and flowers in their hands. (gs)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/215a.tif</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>Yellowish due to ageing</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108035</hra:value>
+				<hra:value>108035</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:35:44">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

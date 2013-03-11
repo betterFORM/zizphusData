@@ -1,0 +1,124 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_7f2e063d-585c-5b21-b66c-4ffb95177954" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-459b4de8-c2f9-55ec-9929-3b045a4941e3">Buddha</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-162aa8ff-be95-506b-8f36-615aef6db02c">Gobind Ram &amp; Ooday Ram</name>
+				<role/>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">On this image, the Jain temple in Jaipur can be seen. The shrine is beautifully ornamented and shelters several Buddha statues.</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">No. 52 
+Images of Paras Nath
+Jain temple Sanganeer
+Jaipur</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="en">Gobin Ram &amp; Oodey Ram, Jaipur</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>H 15 cm, W 10 cm, portrait</notes>
+			<measurements type="height" unit="cm">15</measurements>
+			<measurements type="width" unit="cm">10</measurements>
+			<measurements shape="portrait" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_2d62f514-ca7c-5fc3-8e7f-204732e10b65" refid="107948" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
+				<term>temple</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="29b98cac-7b0c-5102-9f00-6ab6460f7790">
+				<term>temple architecture</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+				<term>recheck-new</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="0123308f-a030-5263-8ee2-03a6c76c8a30">
+				<term>shrine</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="57761aa4-c273-58ee-8693-34da4ffe6fd3">
+				<term>clock</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
+				<term>picture postcards</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Images of Parasnath</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+No. 52 
+Images of Paras Nath
+Jain temple Sanganeer
+Jaipur</hra:value>
+				<hra:value>text-en:
+Gobin Ram &amp; Oodey Ram, Jaipur</hra:value>
+				<hra:value>description-en:
+On this image, the Jain temple in Jaipur can be seen. The shrine is beautifully ornamented and shelters several Buddha statues. (gs)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/190a.tif</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>good</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/107948</hra:value>
+				<hra:value>107948</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:31:59">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

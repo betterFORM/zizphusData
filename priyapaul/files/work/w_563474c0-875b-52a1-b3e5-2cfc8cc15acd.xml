@@ -1,0 +1,107 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_563474c0-875b-52a1-b3e5-2cfc8cc15acd" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-7b799212-bc20-50d5-8b39-785e2df7c160">H.A. Mirza and Sons.</name>
+				<role/>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">Long shot of a portion of Upper Tola of Murree Hill which has a narrow path which bifurcates the locality and a number of white canopies have been erected. Some people who are standing on different parts of the frame, are also in view.</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">Upper Topa, Murree Hill.</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>W 10 cm, H 15 cm, landscape</notes>
+			<measurements type="height" unit="cm">10</measurements>
+			<measurements type="width" unit="cm">15</measurements>
+			<measurements shape="landscape" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_f18123ee-6f67-5514-a5af-cd8f2fbc58c6" refid="107984" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="bd1ec0ee-088e-5f94-9c7d-3acabacfc680">
+				<term>Murree Hill</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+				<term>recheck-new</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1ab0b791-c983-5d5a-90d5-dfc85c8b2c23">
+				<term>Made in Germany</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
+				<term>hill stations</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
+				<term>picture postcards</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Upper Topa, Murree Hill</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+Upper Topa, Murree Hill.</hra:value>
+				<hra:value>description-en:
+Long shot of a portion of Upper Tola of Murree Hill which has a narrow path which bifurcates the locality and a number of white canopies have been erected. Some people who are standing on different parts of the frame, are also in view.	(gs)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/198a.tif</hra:value>
+				<hra:value>explanatory comments/crosstagging:
+H. A. Mirza &amp; Sons, Delhi. Made in Germany. [on backside?]</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>Good</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/107984</hra:value>
+				<hra:value>107984</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:33:28">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

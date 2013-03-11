@@ -1,0 +1,83 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_c21eaa60-aa63-5a40-96d1-ed9ca2dea7aa" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-8e7b749e-228b-5762-b0ed-56ca0360f648">Shivaji</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">A poster shows a saint blessing Shivaji, the 17th century maratha king, India. The royal maratha flag is hoisted in the background. A castle can be seen in the back.</description>
+		</descriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_ba5c338e-5f99-5f3c-be89-9f1f180e9666" refid="139334" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
+				<term>flag</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+				<term>recheck-new</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="28989cd3-71b3-55ce-8d5a-21af8fed25f2">
+				<term>red flag</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="23d83f75-f4b1-538c-ba65-cf3e89d7cc75">
+				<term>castle</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+				<term>signet</term>
+			</subject>
+		</subjectSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Shivaji</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype>posters</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text:
+247</hra:value>
+				<hra:value>description-en:
+A poster shows a saint blessing Shivaji, the 17th century maratha king, India. The royal maratha flag is hoisted in the background. A castle can be seen in the back.</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+20090901_3253</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/139334</hra:value>
+				<hra:value>139334</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:00">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

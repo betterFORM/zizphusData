@@ -1,0 +1,105 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_7289d417-1ce9-5f4c-b8b9-54df248a3c77" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+		</agentSet>
+ 		<dateSet>
+			<date type="creation">
+				<earliestDate>1940</earliestDate>
+				<latestDate>1940</latestDate>
+			</date>
+		</dateSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>15 cm x 20 cm, landscape</notes>
+			<measurements type="height" unit="cm">15</measurements>
+			<measurements type="width" unit="cm">20</measurements>
+			<measurements shape="landscape" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_f7fb1caa-14e7-520a-8d7c-50d12bc33c5f" refid="119810" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="858d1451-3f0c-52d5-a388-4e88e5f459fb">
+				<term>tea pot</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term>Times of India</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
+				<term>tea</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="2da00547-3dee-5b48-8288-3c3ae822879d">
+				<term>biscuits</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="432039d5-a19e-562f-b809-58d088031aea">
+				<term>Lipton's Tea</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="cf3a9fdc-1712-5073-a037-be79a82991c7">
+				<term>tea plantation</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="51d253d7-f9e6-5654-8588-b46d6053b6b9">
+				<term>Lipton</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="ecadb337-d65e-5a9c-aa21-df4ff05bf3b0">
+				<term>plantation</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e38635c9-239d-529e-b2ef-09d0617e47a8">
+				<term>perception of women</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
+				<term>Times of India Yearbook</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Lipton's Tea</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/1146.tif</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>good</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119810</hra:value>
+				<hra:value>119810</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:44:14">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

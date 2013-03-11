@@ -1,0 +1,96 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_452f6979-6b64-5150-9350-8211167872b4" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-3d0ca245-a4fb-5b35-87ec-a72e21e5f7f3">Soni, Prithvi</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">Prithvi Soni</text>
+			</inscription>
+			<inscription>
+				<text type="signature">Prithvi Soni</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="1c7d6eac-19d4-5d62-b1b1-2210092b5bad" type="medium">panels (wood)</material>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>54 cm x 65 cm</notes>
+			<measurements type="height" unit="cm">54</measurements>
+			<measurements type="width" unit="cm">65</measurements>
+			<measurements shape="" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_fb4c9f0b-e352-58ca-809b-fada88b5dbdd" refid="118834" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">painting of Mumtaz, the film actress</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
+			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<hra:value>Soni, Prithvi</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>Close up of a film actress Mumtaz</hra:value>
+				<hra:value>text-en:
+Prithvi Soni</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/20080604_1439.jpg</hra:value>
+				<hra:value>explanatory comments/crosstagging:
+Painting for a calendar. (ja)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>Good</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118834</hra:value>
+				<hra:value>118834</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:06">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

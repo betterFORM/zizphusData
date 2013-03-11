@@ -1,0 +1,96 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_e0054023-4897-5185-9108-492c3d3cd5bd" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-b2759fa0-e1f8-58d3-a9cc-4b60f9078ade">Ravi Varma Press</name>
+				<role/>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-debc21eb-564b-52f1-97d2-f48a73c3b6b9">Oriental Calendar Manufacturing Company</name>
+				<role/>
+  			</agent>
+		</agentSet>
+ 		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>27 cm x 20 cm</notes>
+			<measurements type="height" unit="cm">27</measurements>
+			<measurements type="width" unit="cm">20</measurements>
+			<measurements shape="" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_1ab3436b-ca9e-5f99-93ea-b20b515addde" refid="106210" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
+				<term>Hindu woman</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+				<term>sari</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Hindu Mythological scenes, n.t.</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>A collage of 9 images: 1. a woman jumps into water with a baby in her hands, 2. two women enjoy a boat-journey while one of them has a musical instrument in her hand, 3. Lord Hanumana carries a part of the Himalayas, 4. a lady stands against a tree with a basket of flowers in her hand, 5. A king courts a woman, 6. an ascetic and a woman wander in a hilly-terrain, 7. ?  8. Rama and Sita cross a river through a boat. The boat-man and Lakshmana are also onboard. 9. a fish-god emerges from the sea, with a number of children clinched to its body.
+Very much in the style of Ravi Varma press</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/127.tif</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>torn</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/106210</hra:value>
+				<hra:value>106210</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:28:54">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

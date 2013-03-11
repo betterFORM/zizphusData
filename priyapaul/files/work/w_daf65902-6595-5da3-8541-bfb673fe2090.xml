@@ -1,0 +1,126 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_daf65902-6595-5da3-8541-bfb673fe2090" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-549f1ccf-7908-52d7-8bdb-c615611e76bd">Lukachuri</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-8680bab7-6601-573a-9750-172232dcddcf">Graham &amp; Co.</name>
+				<role/>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">In this painting by Lukachuri for Graham &amp; Co., Lord Krishna can be seen playing with several gopis wearing saris in a scenic garden surrounded by buildings, birds, trees and flowers. Krishna is wearing a crown and he and the gopi whose eyes he is covering with his palms have halos around their heads.</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">Graham &amp; Co.
+Manchester.
+No. 1434
+Lukachuri</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="bn">PLEASE ENTER HERE.</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_b210c05d-045a-5fd8-a810-a01723c6b906" refid="108860" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+				<term>flower</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+				<term>halo</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
+				<term>crown</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="c0102a51-5293-573e-97e6-d863e90a33bf">
+				<term>bird</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
+				<term>architecture</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
+				<term>Hindu woman</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+				<term>sari</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
+				<term>garden</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+				<term>recheck</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+				<term>recheck-Gerhard</term>
+			</subject>
+		</subjectSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Graham &amp; Co., Manchester&quot;</title>
+		</titleSet>
+		<hra:heidicon>
+			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<hra:value>Lukachuri</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+Graham &amp; Co.
+Manchester.
+No. 1434
+Lukachuri</hra:value>
+				<hra:value>text-bn:
+PLEASE ENTER HERE.</hra:value>
+				<hra:value>description-en:
+In this painting by Lukachuri for Graham &amp; Co., Lord Krishna can be seen playing with several gopis wearing saris in a scenic garden surrounded by buildings, birds, trees and flowers. Krishna is wearing a crown and he and the gopi whose eyes he is covering with his palms have halos around their heads. (gs/sp)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+The gopi whose eyes Krishna is covering is possibly Radha, his consort. (sp)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108860</hra:value>
+				<hra:value>108860</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:37:33">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

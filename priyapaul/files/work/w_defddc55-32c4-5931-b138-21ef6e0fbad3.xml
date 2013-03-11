@@ -1,0 +1,89 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_defddc55-32c4-5931-b138-21ef6e0fbad3" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-45bb815a-a472-5b47-b7a1-dd93c467f10e">Radha</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">Lord Krishna can be seen with a halo around his head, playing holi with his companion Radha in a temple like surrounding. In front of them, a peacock is depicted.</description>
+		</descriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_39e8f73d-b8a4-5cd0-94f0-8f47bac7b525" refid="120935" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+				<term>flower</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+				<term>halo</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+				<term>sari</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
+				<term>peacock</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="691ebeac-a255-5cce-a4da-dea272a31081">
+				<term>Holi</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+				<term>recheck-Gerhard</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
+				<term>peacock's feather</term>
+			</subject>
+		</subjectSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Krishna playing Holi with Radha</title>
+		</titleSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>description-en:
+Lord Krishna can be seen with a halo around his head, playing holi with his companion Radha in a temple like surrounding. In front of them, a peacock is depicted. (gs)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+Holi - the festival of colors - is undoubtedly the most fun-filled and boisterous of Hindu festival. It's an occasion that brings in unadulterated joy and mirth, fun and play, music and dance, and, of course, lots of bright colors. It is also strongly connected to Lord Krishna. (gs)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120935</hra:value>
+				<hra:value>120935</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:33:03">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

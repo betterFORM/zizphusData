@@ -1,0 +1,113 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_e8c724d8-1078-5c8d-8a9d-282c68dda3c6" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-b0383a4d-50ce-5db9-824d-16247aa14773">Sarasvati</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-d3782798-b6d5-5409-a81e-57abcc688b92">Chari and Ram</name>
+				<role/>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">Goddess Saraswati sits on a lotus flower and plays a Veena. A perfectly white Hamsa (a swan, or a white goose) swims around her feet. Her head is surrounded by a Halo. The image is surrounded by a green frame containing some text: South India, Chari &amp; Ram, Madura.</description>
+			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">South India. Chari &amp; Ram. Madura.</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>50 cm x 38 cm, portrait</notes>
+			<measurements type="height" unit="cm">50</measurements>
+			<measurements type="width" unit="cm">38</measurements>
+			<measurements shape="portrait" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_6e203ae4-b972-536a-a329-8c0478fc0a0b" refid="118963" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+				<term>halo</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
+				<term>swan</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
+				<term>river</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+				<term>recheck</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6facbb83-19f9-5a88-8200-330516c39021">
+				<term>veena</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="c3a14034-a0ed-5813-a44a-94c2dbb92fc0">
+				<term>Hamsa</term>
+			</subject>
+		</subjectSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Chari &amp; Ram</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+			<worktype>posters</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>description-en:
+Goddess Saraswati sits on a lotus flower and plays a Veena. A perfectly white Hamsa (a swan, or a white goose) swims around her feet. Her head is surrounded by a Halo. The image is surrounded by a green frame containing some text: South India, Chari &amp; Ram, Madura.</hra:value>
+				<hra:value>text-en:
+South India. Chari &amp; Ram. Madura.</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+/20080701_1832.jpg</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>Good</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118963</hra:value>
+				<hra:value>118963</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:30:51">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

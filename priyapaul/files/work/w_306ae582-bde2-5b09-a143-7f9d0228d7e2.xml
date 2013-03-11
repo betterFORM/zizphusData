@@ -1,0 +1,103 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_306ae582-bde2-5b09-a143-7f9d0228d7e2" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-8948072e-242b-5872-96d1-2f5fbca682bc">Shirin</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-5ac1ee25-3dbc-5e1d-a9e9-034b6baa1d7e">Ferhad</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+		</agentSet>
+ 		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">38</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="en">Oriental Calendar 
+Calcutta 14
+OCMCO</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_dc2cbeb0-4f06-5ab2-886f-fb9dc50cc6f4" refid="139329" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
+				<term>moon</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
+				<term>couple</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+				<term>recheck-new</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="d617c2d5-d35c-5145-94ab-496461f792f0">
+				<term>embrace</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+				<term>signet</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="349e1a13-73e9-59dd-b1fd-aa267461c848">
+				<term>full moon</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="902c6b90-07dc-5a44-a757-7bee2dffb57a">
+				<term>Shirin Ferhad</term>
+			</subject>
+		</subjectSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">Sheeren Farhad</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype>posters</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+38</hra:value>
+				<hra:value>text-en:
+Oriental Calendar 
+Calcutta 14
+OCMCO</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+20090901_3242.jpg</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/139329</hra:value>
+				<hra:value>139329</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:49:31">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

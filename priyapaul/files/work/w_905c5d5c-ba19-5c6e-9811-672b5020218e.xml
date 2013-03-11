@@ -1,0 +1,138 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_905c5d5c-ba19-5c6e-9811-672b5020218e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-af321bf5-dea5-5e57-ba81-21f09bad8a18">Shakuntala</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-d6dbe511-0883-5b96-b890-fd7f901959be">Kalidasa</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-49144f98-1d8b-570a-aa66-7b9411143962">Dushyant</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-4e80c54f-d35c-5b5c-903b-58f3ebbaabbe">Banshi</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">Illustration in a calendar sample showing of Shakuntala, being helped by two of her friends to dress up with garlands of flowers in front of an ashram or hermitage. There is a deer standing by her side. In the distance we can see a richly dressed man, carrying a bow and an arrow arriving with a group of armed men. Trees and a few bushes can also be seen in the image.</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">Sakuntala
+No. 473</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="en">Banshi</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="en">HAP [publisher's signet]</text>
+			</inscription>
+			<inscription>
+				<text type="signature">Banshi</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_e24ce972-34f1-54f1-bf69-6e8585e4c54d" refid="119353" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="e36dcd57-8439-59ad-9e63-6934403a3a63">
+				<term>army</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term>garland</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
+				<term>woman</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+				<term>tree</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="d9dd4950-4421-58b0-8c4c-6948f8311099">
+				<term>deer</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
+				<term>Indian woman</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+				<term>recheck</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+				<term>signet</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8d2520aa-558c-52d5-bdb9-63a2ece7ce48">
+				<term>ashram</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
+				<term>calendars</term>
+			</subject>
+		</subjectSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Sakuntala&quot;</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<hra:value>Banshi</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+Sakuntala
+No. 473</hra:value>
+				<hra:value>text-en:
+Banshi</hra:value>
+				<hra:value>text-en:
+HAP [publisher's signet]</hra:value>
+				<hra:value>description-en:
+Illustration in a calendar sample showing of Shakuntala, being helped by two of her friends to dress up with garlands of flowers in front of an ashram or hermitage. There is a deer standing by her side. In the distance we can see a richly dressed man, carrying a bow and an arrow arriving with a group of armed men. Trees and a few bushes can also be seen in the image. (sp)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+Sakuntala is possibly a local spelling of Shakuntala. The ashram or hermitage possibly is the ashram where she lived with her adoptive father, Kanva Rishi in the forest. The man in the image is perhaps Dushyanta, the king who she later marries.</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119353</hra:value>
+				<hra:value>119353</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:54">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>

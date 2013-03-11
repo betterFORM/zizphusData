@@ -1,0 +1,175 @@
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+	<work id="w_12f52d77-470c-5c1f-b6bf-364ee1ae82f1" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+		<agentSet>
+			<agent>
+				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+				<role vocab="marcrelator" code="col">Collector</role>
+			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-b0383a4d-50ce-5db9-824d-16247aa14773">Sarasvati</name>
+				<role vocab="marcrelator" code="dpc">Depicted</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-23f8a72d-8146-59a7-a914-6b553fa16d1e">Das, Sushil</name>
+				<role vocab="marcrelator" code="art">Artist</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+				<role/>
+  			</agent>
+		</agentSet>
+ 		<descriptionSet>
+			<description source=" " lang="en" script="latn">A sample image from a catalogue of Empire Calender Manufacturing Co., depicting the Hindu goddess Saraswati, of wisdom and learning with a halo. Dressed in white, Saraswati holds a mala (rosary) and a palm leaf scroll, indicating knowledge. She is playing the sitar, sitting on a big boulder next to a river. Her left foot is touching a lotus flower and on her right side two peacocks are looking towards her. Behind her, a big bush with red flowers can be seen as well as some swans swimming in the river.</description>
+		</descriptionSet>
+		<inscriptionSet>
+			<inscription>
+				<text type="text" lang="en">ECM [publisher's signet]</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="en">Saraswati 
+No. 633</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="en">Sushil Das..</text>
+			</inscription>
+			<inscription>
+				<text type="signature">Sushil Das</text>
+			</inscription>
+		</inscriptionSet>
+		<locationSet>
+			<location type="repository">
+				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+				<refid/>
+			</location>
+			<location source="EXC" type="repository">
+				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+		</locationSet>
+		<materialSet>
+			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+		</materialSet>
+		<measurementsSet>
+			<notes>H 25 cm, W 20 cm, portrait</notes>
+			<measurements type="height" unit="cm">25</measurements>
+			<measurements type="width" unit="cm">20</measurements>
+			<measurements shape="portrait" />
+		</measurementsSet>
+		<relationSet>
+			<relation type="imageIs" relids="i_ded8aef1-0ab7-5210-a611-6b9fc9c16748" refid="119444" source="EXC Priya Paul Collection" pref="true"></relation>
+		</relationSet>
+		<rightsSet>
+			<rights type="copyrighted">
+				<rightsHolder/>
+				<text>Copyrighted. Copyright with the original artists and publishers.</text>
+			</rights>
+		</rightsSet>
+		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
+				<term>mountain</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+				<term>halo</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
+				<term>swan</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="2e729391-6532-52d8-8683-1602a3277fec">
+				<term>red</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
+				<term>river</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
+				<term>lotus</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
+				<term>palm tree</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b675fb76-330b-5b1f-80c7-1a150859c76a">
+				<term>sitar</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="40344771-1132-5fc6-acf5-9757c17a99d9">
+				<term>waterfall</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
+				<term>peacock</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+				<term>recheck</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="ebc0b75f-85c8-542d-b804-3ea382335073">
+				<term>boulder</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+				<term>signet</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
+				<term>peacock's feather</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
+				<term>trade catalogs</term>
+			</subject>
+		</subjectSet>
+		<techniqueSet>
+			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+		</techniqueSet>
+		<titleSet>
+			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Saraswati&quot;</title>
+		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+		</worktypeSet>
+		<hra:heidicon>
+			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<hra:value>Das, Sushil</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Description">
+				<hra:value>text-en:
+ECM [publisher's signet]</hra:value>
+				<hra:value>text-en:
+Saraswati 
+No. 633</hra:value>
+				<hra:value>text-en:
+Sushil Das..</hra:value>
+				<hra:value>description-en:
+A sample image from a catalogue of Empire Calender Manufacturing Co., depicting the Hindu goddess Saraswati, of wisdom and learning with a halo. Dressed in white, Saraswati holds a mala (rosary) and a palm leaf scroll, indicating knowledge. She is playing the sitar, sitting on a big boulder next to a river. Her left foot is touching a lotus flower and on her right side two peacocks are looking towards her. Behind her, a big bush with red flowers can be seen as well as some swans swimming in the river. (sp)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_description" status="0"  display="Kommentar">
+				<hra:value>explanatory comments/crosstagging:
+Saraswati is the Hindu goddess of knowledge, music and all creative arts. Saraswati is called the Mother of the Vedas and the repository of Brahma's creative intelligence. Saraswati is also called Vak Devi, the goddess of speech. Saraswati usually rides a swan and sometimes a peacock, while playing music on a veena. Here though, the musical instrument depicted seems to be a sitar. This image could be a reproduction of a famous Raja Ravi Varma painting of the goddess. (sp)</hra:value>
+				<hra:value>related hyperlinks:
+http://www.sanatansociety.org/hindu_gods_and_goddesses/saraswati.htm, last accessed 2011-08-01, information about the goddess Saraswati (sp)</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<hra:value>http://www.sanatansociety.org/hindu_gods_and_goddesses/saraswati.htm</hra:value>
+				<hra:value>2011-08-01</hra:value>
+				<hra:value>information about the goddess Saraswati</hra:value>
+				<hra:value>|19|</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<hra:value>good</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119444</hra:value>
+				<hra:value>119444</hra:value>
+			</hra:item>
+		</hra:heidicon>
+		<hra:heidicon>
+			<hra:administrative type="heidicon2vra" date="2013-01-23 14:28:24">
+			</hra:administrative>
+		</hra:heidicon>
+	</work>
+</vra>
