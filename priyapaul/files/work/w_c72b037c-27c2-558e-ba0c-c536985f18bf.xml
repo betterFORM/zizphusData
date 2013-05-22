@@ -1,19 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_c72b037c-27c2-558e-ba0c-c536985f18bf" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1907</earliestDate>
-				<latestDate>1907</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A landscape can be seen that includes a couple of trees, a road, two boys sitting on a fence and a church as well as some housings in the background.</description>
+			<description lang="en" script="Latn">
+				<text>A landscape can be seen that includes a couple of trees, a road, two boys sitting on a fence and a church as well as some housings in the background.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -26,10 +26,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108159" type="corporate">HeidICON Image Database</name>
+				<refid>108159</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -42,7 +45,8 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_05f97e50-496c-5cd8-88da-48c1f419a434" refid="108159" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_05f97e50-496c-5cd8-88da-48c1f419a434" refid="108159" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_7e75082b-162f-5138-ac78-6dbb8acdd91c" refid="108160" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -50,78 +54,129 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>early 20th century</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="60671271-0213-5534-9c27-7c7d70eafb36">
-				<term>church</term>
+				<term type="concept">churches (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ed362138-ff1f-54e7-87c4-9316781c46c7">
-				<term>Cocking Church</term>
+				<term type="work (architecture)">Cocking Church (monument)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
-				<term>hill stations</term>
+				<term type="concept">hill stations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="62c12533-9100-5e6b-80c0-b398939351e3">
+				<term type="geographic">Cocking</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Cocking Church</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Cocking Church</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Cocking Church</hra:value>
-				<hra:value>text-en:
-..[unreadable] Series 53591</hra:value>
-				<hra:value>description-en:
-A landscape can be seen that includes a couple of trees, a road, two boys sitting on a fence and a church as well as some housings in the background. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>ffff Ort/Gebäude: Cocking/St. Catherine's Church [http://www.cocking.org/index.php?option=com_content&amp;view=article&amp;id=97&amp;Itemid=57]</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-This was the model for many hill station landscapes in colonial India. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Hill stations in India were viewed as a blank slate for re-producing an idealized vision of England, an imagined place that was the unchanging abode of the English rural aristocracy. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>related literature:
-Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html (17.12.2010)(gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html (17.12.2010)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108159</hra:value>
-				<hra:value>108159</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:40:43">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Cocking Church</ext:value>
+				<ext:value>text-en:
+..[unreadable] Series 53591</ext:value>
+				<ext:value>description-en:
+A landscape can be seen that includes a couple of trees, a road, two boys sitting on a fence and a church as well as some housings in the background. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>ffff Ort/Gebäude: Cocking/St. Catherine's Church [http://www.cocking.org/index.php?option=com_content&amp;view=article&amp;id=97&amp;Itemid=57]</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+This was the model for many hill station landscapes in colonial India. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Hill stations in India were viewed as a blank slate for re-producing an idealized vision of England, an imagined place that was the unchanging abode of the English rural aristocracy. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>related literature:
+Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html (17.12.2010)(gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html (17.12.2010)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This was the model for many hill station landscapes in colonial India.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Hill stations in India were viewed as a blank slate for re-producing an idealized vision of England, an imagined place that was the unchanging abode of the English rural aristocracy.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108160</ext:value>
+				<ext:value>i_7e75082b-162f-5138-ac78-6dbb8acdd91c</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108159</ext:value>
+				<ext:value>108159</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:08">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

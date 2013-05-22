@@ -1,34 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_c38f7fd9-f6f8-5819-a078-28899e06fa04" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-a124dec0-5697-5814-ba3e-1f063c2cf496">Sridevi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-277edd4a-e237-5b88-9775-ab2d90bb4292">Rajnikanth</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<name vocab="local" type="personal" refid="uuid-277edd4a-e237-5b88-9775-ab2d90bb4292">Rajnikantho</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-a4d4d622-0453-5010-94b8-2c0a33442340">Mahendran, J.</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1980</earliestDate>
-				<latestDate>1980</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this lobby card for the Hindi Movie &quot;Jhony Ustad&quot; from 1980, two of the main actors, Rajnikanth and Siredevi, are pictured in stills of different key scenes. He is can be seen either sitting on a table with two other men, striking out with an axe, or standing next with either a tree bvetween them or her while she is playing piano.</description>
+			<description lang="en" script="Latn">
+				<text>On this lobby card for the Hindi Movie &quot;Jhony Ustad&quot; from 1980, two of the main actors, Rajnikanth and Siredevi, are pictured in stills of different key scenes. He is can be seen either sitting on a table with two other men, striking out with an axe, or standing next with either a tree bvetween them or her while she is playing piano.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -50,10 +50,13 @@ USTAD</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119335" type="corporate">HeidICON Image Database</name>
+				<refid>119335</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -68,93 +71,122 @@ USTAD</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0187188/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7487bf8c-07df-5b3b-a733-6e0ea4b7defe">
-				<term>axe &lt;tools&gt;</term>
+				<term type="concept">axes (tools)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9a483dbc-8127-5b0c-97c6-77b19739d59e">
-				<term>piano</term>
+				<term type="concept">pianos</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="62a6c979-0065-5ddd-bbc5-cd053e784202">
-				<term>Jhony Ustad</term>
+				<term type="work (movie)">Jhony Ustad</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5cb3ba8-a3f4-53e4-b00e-b1edbaadb6c4">
-				<term>glasses</term>
+				<term type="concept">glasses</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Jhony Ustad&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jhony Ustad&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">जानी उस्ताद</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 RAJINIKANTH, SRIDEVI &amp; DEEPA (sex bomb[)]
-in double role</hra:value>
-				<hra:value>text-en:
+in double role</ext:value>
+				<ext:value>text-en:
 DINESHI SALGIA presents
 JHONY
-USTAD</hra:value>
-				<hra:value>text-ur:
-ADD TEXT HERE</hra:value>
-				<hra:value>text-en:
-director: MAHENDRA music[:] SONIK OMI lyrics[:] BRIJ BIHARI</hra:value>
-				<hra:value>description-en:
-On this lobby card for the Hindi Movie &quot;Jhony Ustad&quot; from 1980, two of the main actors, Rajnikanth and Siredevi, are pictured in stills of different key scenes. He is can be seen either sitting on a table with two other men, striking out with an axe, or standing next with either a tree bvetween them or her while she is playing piano. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Story line of the movie: Counting every Naya Paisa like a miser, Jani, makes a living as a Barbar from 8am to 7pm. His life is enlivened by the entry of gorgeous Padma, who he hires as his maid, and eventually falls in love with. His life undergoes changes drastically after he finds out that Padma has fallen in love with another male; and the entry of his look-alike, Johny - a gangster! (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0187188/, last accessed 2011-12-23, story line, leading actors, director. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0187188/</hra:value>
-				<hra:value>2011-12-23</hra:value>
-				<hra:value>story line, leading actors, director.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119335</hra:value>
-				<hra:value>119335</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:06">
-			</hra:administrative>
-		</hra:heidicon>
+USTAD</ext:value>
+				<ext:value>text-ur:
+ADD TEXT HERE</ext:value>
+				<ext:value>text-en:
+director: MAHENDRA music[:] SONIK OMI lyrics[:] BRIJ BIHARI</ext:value>
+				<ext:value>description-en:
+On this lobby card for the Hindi Movie &quot;Jhony Ustad&quot; from 1980, two of the main actors, Rajnikanth and Siredevi, are pictured in stills of different key scenes. He is can be seen either sitting on a table with two other men, striking out with an axe, or standing next with either a tree bvetween them or her while she is playing piano. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Story line of the movie: Counting every Naya Paisa like a miser, Jani, makes a living as a Barbar from 8am to 7pm. His life is enlivened by the entry of gorgeous Padma, who he hires as his maid, and eventually falls in love with. His life undergoes changes drastically after he finds out that Padma has fallen in love with another male; and the entry of his look-alike, Johny - a gangster! (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0187188/, last accessed 2011-12-23, story line, leading actors, director. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0187188/</ext:value>
+				<ext:value type="accessed">2011-12-23</ext:value>
+				<ext:value type="comment">story line, leading actors, director.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Story line of the movie: Counting every Naya Paisa like a miser, Jani, makes a living as a Barbar from 8am to 7pm. His life is enlivened by the entry of gorgeous Padma, who he hires as his maid, and eventually falls in love with. His life undergoes changes drastically after he finds out that Padma has fallen in love with another male; and the entry of his look-alike, Johny - a gangster!</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0187188/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119335</ext:value>
+				<ext:value>119335</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:00">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

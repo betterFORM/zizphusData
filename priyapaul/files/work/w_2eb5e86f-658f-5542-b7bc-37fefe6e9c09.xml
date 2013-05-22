@@ -1,12 +1,12 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_2eb5e86f-658f-5542-b7bc-37fefe6e9c09" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<inscriptionSet>
+		<inscriptionSet>
 			<inscription>
 				<text type="text" lang="en">&quot;Health and wealth and happiness&quot;
 How oft that wish we send,
@@ -17,10 +17,13 @@ Each well beloved friend.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120637" type="corporate">HeidICON Image Database</name>
+				<refid>120637</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -33,7 +36,8 @@ Each well beloved friend.</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_8e565a5d-7be8-5e31-9a69-25083dd0e305" refid="120637" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_8e565a5d-7be8-5e31-9a69-25083dd0e305" refid="120637" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_44cf5caa-8148-5cd2-bd51-bfbde2262d5e" refid="118014" source="EXC Priya Paul Collection">inside</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -45,40 +49,58 @@ Each well beloved friend.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Christmas greeting card sent to Mr.&amp; Mrs. Sohan Lal</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Christmas greeting card sent to Mr.&amp; Mrs. Sohan Lal</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">greeting cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 &quot;Health and wealth and happiness&quot;
 How oft that wish we send,
 With fervent hope that God will bless
-Each well beloved friend.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/2005.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120637</hra:value>
-				<hra:value>120637</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:38:03">
-			</hra:administrative>
-		</hra:heidicon>
+Each well beloved friend.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/2005.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/2005.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118014</ext:value>
+				<ext:value>i_44cf5caa-8148-5cd2-bd51-bfbde2262d5e</ext:value>
+				<ext:value>inside</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120637</ext:value>
+				<ext:value>120637</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:29">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

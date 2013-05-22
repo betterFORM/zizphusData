@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_e3fdc386-f7e9-5a4c-940d-e9debdfe0719" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-b2759fa0-e1f8-58d3-a9cc-4b60f9078ade">Ravi Varma Press</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A female dancer performing on a galloping horse that is pepped by a tamer in the center of a circus arena. In the background some seemingly noble people are watching the procedure.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A female dancer performing on a galloping horse that is pepped by a tamer in the center of a circus arena. In the background some seemingly noble people are watching the procedure.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -32,10 +38,13 @@ BOMBAY.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118076" type="corporate">HeidICON Image Database</name>
+				<refid>118076</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -47,94 +56,159 @@ BOMBAY.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>early 20th century</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="7f51d07a-1a1a-5623-8c43-4d045f35a1c3">
-				<term>Bombay</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9053717d-df14-57da-a2cf-2aa3209aaa63">
-				<term>19th century</term>
+				<term type="time">19th century</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term>textile label</term>
+				<term type="worktype">textile label</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="10c45a89-4ba3-593b-82a1-5e00a6bf1687">
+				<term type="geographic">Bombay</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b231d6d8-c37b-5dc8-9659-80c29e8197e7">
-				<term>circus</term>
+				<term type="concept">circuses (performances)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b2340835-33bd-5d41-800a-95ea3484daea">
-				<term>labels</term>
+				<term type="worktype">labels (identifying artifacts)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Circus Ticket, Bombay</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Circus Ticket, Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 CIRCUS TICKET.
-BOMBAY.</hra:value>
-				<hra:value>text-en:
-A. D. C.</hra:value>
-				<hra:value>text-en:
-Registered.</hra:value>
-				<hra:value>text-en:
-Ravi Varma - Press, Karla - Lonavla.</hra:value>
-				<hra:value>description-en:
-A female dancer performing on a galloping horse that is pepped by a tamer in the center of a circus arena. In the background some seemingly noble people are watching the procedure. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Such imagery did indeed reflect some realities of subaltern performance culture: Indian ‘jugglers’ (magicians) were an integral part of the street culture of the bazaars, alongside acrobats, snake charmers, and performing animals, even as late as the 1930s. (Pran Neville)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Since the mid-eighteenth century the circus had been gradually introduced alongside this culture; by the start of the twentieth century Indian circuses, incorporating Indian traditional martial arts, acrobatics, magic and lion-taming acts, were travelling India’s entertainment circuits alongside circuses from Europe, Russia, Japan and elsewhere, inviting audiences to wonder at apparently impossible feats that confounded the rules of the ordinary world. All such shows celebrated bodies pushed to their extremes and wild beasts subdued by men’s - and women’s - remarkable powers. An underclass of artistes from European, middle-Eastern, Indian and Anglo-Indian backgrounds provided the bodies that peopled these extravaganzas, which were, in many senses, transcultural shows, seen as ambiguously both modern and traditional. European and Asian traditions merged to present hybrid fantasies of exotic otherness. Anecdotal accounts suggest circus images were almost as popular as Hindu gods and goddesses in the turn-of-century magic lantern shows that toured India. It is perhaps not surprising that circus scenes found their way onto textile labels designed to encourage Indian consumers to buy British wares. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>related literature:
-Lamont, Peter and Crispin Bates 2007.&quot;Conjuring Images of India in Nineteenth-century Britain&quot; in Social History, Vol. 32(3). (gs)</hra:value>
-				<hra:value>related literature:
-Nevile, Pran 1997. &quot;Lahore: A Sentimental Journey&quot; New Delhi: Harper Collins. (gs)</hra:value>
-				<hra:value>related literature:
-Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</hra:value>
-				<hra:value>related literature:
-Schmidt, Richard 1908. &quot;Fakire und Fakirtum im alten und modernen Indien&quot;. Berlin: Barsdorf. (gs)</hra:value>
-				<hra:value>related literature:
-Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (12.11.2010) (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Nevile, Pran 1997. &quot;Lahore: A Sentimental Journey&quot; New Delhi: Harper Collins.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Schmidt, Richard 1908. &quot;Fakire und Fakirtum im alten und modernen Indien&quot;. Berlin: Barsdorf.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Lamont, Peter and Crispin Bates 2007.&quot;Conjuring Images of India in Nineteenth-century Britain&quot; in Social History, Vol. 32(3).</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (12.11.2010)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118076</hra:value>
-				<hra:value>118076</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:36:47">
-			</hra:administrative>
-		</hra:heidicon>
+BOMBAY.</ext:value>
+				<ext:value>text-en:
+A. D. C.</ext:value>
+				<ext:value>text-en:
+Registered.</ext:value>
+				<ext:value>text-en:
+Ravi Varma - Press, Karla - Lonavla.</ext:value>
+				<ext:value>description-en:
+A female dancer performing on a galloping horse that is pepped by a tamer in the center of a circus arena. In the background some seemingly noble people are watching the procedure. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Such imagery did indeed reflect some realities of subaltern performance culture: Indian ‘jugglers’ (magicians) were an integral part of the street culture of the bazaars, alongside acrobats, snake charmers, and performing animals, even as late as the 1930s. (Pran Neville)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Since the mid-eighteenth century the circus had been gradually introduced alongside this culture; by the start of the twentieth century Indian circuses, incorporating Indian traditional martial arts, acrobatics, magic and lion-taming acts, were travelling India’s entertainment circuits alongside circuses from Europe, Russia, Japan and elsewhere, inviting audiences to wonder at apparently impossible feats that confounded the rules of the ordinary world. All such shows celebrated bodies pushed to their extremes and wild beasts subdued by men’s - and women’s - remarkable powers. An underclass of artistes from European, middle-Eastern, Indian and Anglo-Indian backgrounds provided the bodies that peopled these extravaganzas, which were, in many senses, transcultural shows, seen as ambiguously both modern and traditional. European and Asian traditions merged to present hybrid fantasies of exotic otherness. Anecdotal accounts suggest circus images were almost as popular as Hindu gods and goddesses in the turn-of-century magic lantern shows that toured India. It is perhaps not surprising that circus scenes found their way onto textile labels designed to encourage Indian consumers to buy British wares. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>related literature:
+Lamont, Peter and Crispin Bates 2007.&quot;Conjuring Images of India in Nineteenth-century Britain&quot; in Social History, Vol. 32(3). (gs)</ext:value>
+				<ext:value>related literature:
+Nevile, Pran 1997. &quot;Lahore: A Sentimental Journey&quot; New Delhi: Harper Collins. (gs)</ext:value>
+				<ext:value>related literature:
+Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</ext:value>
+				<ext:value>related literature:
+Schmidt, Richard 1908. &quot;Fakire und Fakirtum im alten und modernen Indien&quot;. Berlin: Barsdorf. (gs)</ext:value>
+				<ext:value>related literature:
+Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (12.11.2010) (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Nevile, Pran 1997. &quot;Lahore: A Sentimental Journey&quot; New Delhi: Harper Collins.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Schmidt, Richard 1908. &quot;Fakire und Fakirtum im alten und modernen Indien&quot;. Berlin: Barsdorf.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Lamont, Peter and Crispin Bates 2007.&quot;Conjuring Images of India in Nineteenth-century Britain&quot; in Social History, Vol. 32(3).</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (12.11.2010)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Such imagery did indeed reflect some realities of subaltern performance culture: Indian ‘jugglers’ (magicians) were an integral part of the street culture of the bazaars, alongside acrobats, snake charmers, and performing animals, even as late as the 1930s.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Pran Neville</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Since the mid-eighteenth century the circus had been gradually introduced alongside this culture; by the start of the twentieth century Indian circuses, incorporating Indian traditional martial arts, acrobatics, magic and lion-taming acts, were travelling India’s entertainment circuits alongside circuses from Europe, Russia, Japan and elsewhere, inviting audiences to wonder at apparently impossible feats that confounded the rules of the ordinary world. All such shows celebrated bodies pushed to their extremes and wild beasts subdued by men’s - and women’s - remarkable powers. An underclass of artistes from European, middle-Eastern, Indian and Anglo-Indian backgrounds provided the bodies that peopled these extravaganzas, which were, in many senses, transcultural shows, seen as ambiguously both modern and traditional. European and Asian traditions merged to present hybrid fantasies of exotic otherness. Anecdotal accounts suggest circus images were almost as popular as Hindu gods and goddesses in the turn-of-century magic lantern shows that toured India. It is perhaps not surprising that circus scenes found their way onto textile labels designed to encourage Indian consumers to buy British wares.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118076</ext:value>
+				<ext:value>118076</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:08">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

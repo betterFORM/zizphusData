@@ -1,13 +1,23 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_646a5d29-1554-5ebe-8eb2-eaa73f0c2c10" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The image shows a man lifting a diaphanous veil off a sleeping woman. He is wearing a turban with a feather as well as a colorful kurta. She is wearing a light colored sari and is reclining against cushions. Wall carpets as well as Mughal period architectural elements can be seen. Through a window the cloudless sky can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The image shows a man lifting a diaphanous veil off a sleeping woman. He is wearing a turban with a feather as well as a colorful kurta. She is wearing a light colored sari and is reclining against cushions. Wall carpets as well as Mughal period architectural elements can be seen. Through a window the cloudless sky can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -18,10 +28,13 @@ Copyright</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119550" type="corporate">HeidICON Image Database</name>
+				<refid>119550</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -44,65 +57,66 @@ Copyright</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a2c1b6ad-3105-55a8-b39b-cf71d9de6c66">
-				<term>window</term>
+				<term type="concept">windows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cc2666c-59e6-54a3-a82d-badc01f229e8">
-				<term>Mughal Architecture</term>
+				<term type="work">Mughal architecture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eed84547-cf14-5240-afe2-2eee9da1e3ae">
-				<term>sleep</term>
+				<term type="concept">sleeping</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97e02-1a4f-5f17-b8da-356232c6ad86">
-				<term>cushion</term>
+				<term type="concept">cushions</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Textile label showing man and woman in the bedchamber</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label showing man and woman in the bedchamber</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-The image shows a man lifting a diaphanous veil off a sleeping woman. He is wearing a turban with a feather as well as a colorful kurta. She is wearing a light colored sari and is reclining against cushions. Wall carpets as well as Mughal period architectural elements can be seen. Through a window the cloudless sky can be seen. (gs/sp)</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+The image shows a man lifting a diaphanous veil off a sleeping woman. He is wearing a turban with a feather as well as a colorful kurta. She is wearing a light colored sari and is reclining against cushions. Wall carpets as well as Mughal period architectural elements can be seen. Through a window the cloudless sky can be seen. (gs/sp)</ext:value>
+				<ext:value>text-en:
 B.T. 1620.
-Copyright</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119550</hra:value>
-				<hra:value>119550</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:33:20">
-			</hra:administrative>
-		</hra:heidicon>
+Copyright</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119550</ext:value>
+				<ext:value>119550</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:09">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

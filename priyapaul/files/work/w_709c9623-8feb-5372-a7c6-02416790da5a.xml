@@ -1,31 +1,40 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_709c9623-8feb-5372-a7c6-02416790da5a" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-45bb815a-a472-5b47-b7a1-dd93c467f10e">Radha</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Lord Krishna can be seen standing in a forest with a halo around his head, wearing a crown and holding a flute in his right hand. Next to him, a woman, probably his female companion Radha, is kneeing on the ground. In the background, some blossoming trees and a scenic lake can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Lord Krishna can be seen standing in a forest with a halo around his head, wearing a crown and holding a flute in his right hand. Next to him, a woman, probably his female companion Radha, is kneeing on the ground. In the background, some blossoming trees and a scenic lake can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119871" type="corporate">HeidICON Image Database</name>
+				<refid>119871</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -48,65 +57,66 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term>crown</term>
+				<term type="concept">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term>flute</term>
+				<term type="work">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term>lake</term>
+				<term type="concept">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Krishna and Radha, in a sample poster calender</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Krishna and Radha, in a sample poster calender</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-Lord Krishna can be seen standing in a forest with a halo around his head, wearing a crown and holding a flute in his right hand. Next to him, a woman, probably his female companion Radha, is kneeing on the ground. In the background, some blossoming trees and a scenic lake can be seen. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119871</hra:value>
-				<hra:value>119871</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:58">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+Lord Krishna can be seen standing in a forest with a halo around his head, wearing a crown and holding a flute in his right hand. Next to him, a woman, probably his female companion Radha, is kneeing on the ground. In the background, some blossoming trees and a scenic lake can be seen. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119871</ext:value>
+				<ext:value>119871</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:45">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

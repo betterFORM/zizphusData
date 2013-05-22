@@ -1,24 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_3c401e42-792a-5bfc-aa4e-b1f1361f48d4" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1937</earliestDate>
-				<latestDate>1937</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Lord Krishna is depicted surrounded by a group of gopis (female  cowherds) as he dances with one of them in the centre. Krishna is wearing a turban with a feather and all the gopis are wearing jewellery. The depicted dancers are on a raised platform that extends from a building with a scenic garden in the background. The building's doors and a second floor with pillars and Mughal architecture can be seen. The garden has a tree and the sun is shining in the background.</description>
+			<description lang="en" script="Latn">
+				<text>Lord Krishna is depicted surrounded by a group of gopis (female  cowherds) as he dances with one of them in the centre. Krishna is wearing a turban with a feather and all the gopis are wearing jewellery. The depicted dancers are on a raised platform that extends from a building with a scenic garden in the background. The building's doors and a second floor with pillars and Mughal architecture can be seen. The garden has a tree and the sun is shining in the background.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -29,10 +33,13 @@ From the picture in the Sir Ratan Tata Collection by kind permission of the Trus
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119755" type="corporate">HeidICON Image Database</name>
+				<refid>119755</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -55,80 +62,92 @@ From the picture in the Sir Ratan Tata Collection by kind permission of the Trus
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term>sun</term>
+				<term type="geographic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cc2666c-59e6-54a3-a82d-badc01f229e8">
-				<term>Mughal Architecture</term>
+				<term type="work">Mughal architecture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term>dancing</term>
+				<term type="concept">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b27ed56a-1061-5368-b193-4ee92fc01e2d">
-				<term>gopi</term>
+				<term type="concept">gopi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
-				<term>Times of India</term>
+				<term type="work (daily)">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
-				<term>garden</term>
+				<term type="concept">gardens</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term>Times of India Yearbook</term>
+				<term type="work">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Krishna and the Gopis&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Krishna and the Gopis&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Krishna and the Gopis.
-From the picture in the Sir Ratan Tata Collection by kind permission of the Trustees of the Prince of Wales Museum of Western India, Bombay.</hra:value>
-				<hra:value>description-en:
-Lord Krishna is depicted surrounded by a group of gopis (female  cowherds) as he dances with one of them in the centre. Krishna is wearing a turban with a feather and all the gopis are wearing jewellery. The depicted dancers are on a raised platform that extends from a building with a scenic garden in the background. The building's doors and a second floor with pillars and Mughal architecture can be seen. The garden has a tree and the sun is shining in the background. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The Persian inscriptions as well as the Mughal style architecture depicted on the image might implicate that this painting is coming from a Hindu background painter. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119755</hra:value>
-				<hra:value>119755</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:41:44">
-			</hra:administrative>
-		</hra:heidicon>
+From the picture in the Sir Ratan Tata Collection by kind permission of the Trustees of the Prince of Wales Museum of Western India, Bombay.</ext:value>
+				<ext:value>description-en:
+Lord Krishna is depicted surrounded by a group of gopis (female  cowherds) as he dances with one of them in the centre. Krishna is wearing a turban with a feather and all the gopis are wearing jewellery. The depicted dancers are on a raised platform that extends from a building with a scenic garden in the background. The building's doors and a second floor with pillars and Mughal architecture can be seen. The garden has a tree and the sun is shining in the background. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The Persian inscriptions as well as the Mughal style architecture depicted on the image might implicate that this painting is coming from a Hindu background painter. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The Persian inscriptions as well as the Mughal style architecture depicted on the image might implicate that this painting is coming from a Hindu background painter.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119755</ext:value>
+				<ext:value>119755</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:36">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

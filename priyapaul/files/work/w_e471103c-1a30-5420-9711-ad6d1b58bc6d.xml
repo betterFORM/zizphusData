@@ -1,23 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_e471103c-1a30-5420-9711-ad6d1b58bc6d" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-58a1979a-b923-5e14-b50c-903d7a9a0b6c">Sreenivasen, M.</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-d29efc92-afb4-52c1-8c78-3b32416d56e3">Venkateshwara</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Venkateshwara is a Hindu deity, the incarnation of Vishnu in his Kali Yuga age. In this image he is depicted in flower garlands in an golden arch. two elephants on red background waive garlands on both sides of the arch. This central scene is highlighted by a circle.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Venkateshwara is a Hindu deity, the incarnation of Vishnu in his Kali Yuga age. In this image he is depicted in flower garlands in an golden arch. two elephants on red background waive garlands on both sides of the arch. This central scene is highlighted by a circle.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -31,10 +37,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118839" type="corporate">HeidICON Image Database</name>
+				<refid>118839</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -51,65 +60,85 @@
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="cb864bb3-1f65-520a-b623-38cd14ee81d2">
-				<term>South India</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
-				<term>elephant</term>
+				<term type="animal">elephants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term>garland</term>
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ebb69a2e-22b0-5f48-b771-be0e3287b9d2">
-				<term>ornament</term>
+				<term type="concept">ornaments</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="cb864bb3-1f65-520a-b623-38cd14ee81d2">
+				<term type="geographic">South India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term>flower garland</term>
+				<term type="concept">husk (motif)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Venkateshwara</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Venkateshwara</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Sreenivasen, M.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-M. Sreenivasen...</hra:value>
-				<hra:value>description-en:
-Venkateshwara is a Hindu deity, the incarnation of Vishnu in his Kali Yuga age. In this image he is depicted in flower garlands in an golden arch. two elephants on red background waive garlands on both sides of the arch. This central scene is highlighted by a circle.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080604_1449.jpg</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Painting for a calendar. (ja)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118839</hra:value>
-				<hra:value>118839</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:17">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Sreenivasen, M.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+M. Sreenivasen...</ext:value>
+				<ext:value>description-en:
+Venkateshwara is a Hindu deity, the incarnation of Vishnu in his Kali Yuga age. In this image he is depicted in flower garlands in an golden arch. two elephants on red background waive garlands on both sides of the arch. This central scene is highlighted by a circle.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080604_1449.jpg</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Painting for a calendar. (ja)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Painting for a calendar.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Alisch, Johannes</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080604_1449.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118839</ext:value>
+				<ext:value>118839</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:40">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

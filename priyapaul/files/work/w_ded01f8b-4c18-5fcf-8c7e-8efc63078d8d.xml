@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_ded01f8b-4c18-5fcf-8c7e-8efc63078d8d" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-92272c4f-9960-532a-a9de-ac90a1aaa052">Anand Singh &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for Anand Singh &amp; Co. Harmoniums, we see two fair skinned girl children feeding a family of swans on a pond close to a spacious park with a luxurious house in the centre of it. The upper section of the image hosts several logos and emblems.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for Anand Singh &amp; Co. Harmoniums, we see two fair skinned girl children feeding a family of swans on a pond close to a spacious park with a luxurious house in the centre of it. The upper section of the image hosts several logos and emblems.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -36,10 +42,13 @@ Nai Sarak, New Delhi</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119056" type="corporate">HeidICON Image Database</name>
+				<refid>119056</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -52,7 +61,9 @@ Nai Sarak, New Delhi</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_dc1050ba-7411-5d0e-9873-891ebfcef60e" refid="119056" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_dc1050ba-7411-5d0e-9873-891ebfcef60e" refid="119056" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_e771faa2-0547-56d4-b692-75340155cb30" refid="119058" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_bdb02fe9-990f-5223-8d42-bf13e9ffcf9b" refid="119057" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -62,95 +73,121 @@ Nai Sarak, New Delhi</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term>child</term>
+				<term type="concept">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
-				<term>swan</term>
+				<term type="animal">swans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="38badb36-8a99-5821-b97f-a64e3b6e0ce9">
-				<term>girl</term>
+				<term type="concept">girls</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="489bbc57-16cc-5f57-b489-8ab8375cfe8f">
-				<term>animal</term>
+				<term type="concept">animals</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term>musical instrument</term>
+				<term type="concept">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b8bec4ca-f38a-573c-b950-641275362104">
-				<term>park</term>
+				<term type="concept">parks (recreation areas)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9043bcfe-439b-5b01-8945-95d720f76a48">
-				<term>house</term>
+				<term type="concept">houses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
-				<term>fair skin</term>
+				<term type="concept">fair skin</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e7eade51-a62c-536d-ad72-5805e2e49f58">
-				<term>harmonium</term>
+				<term type="concept">harmonium</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="ec384af3-848a-5e36-9ed3-be26f36e831b">
+				<term type="concept">floral patterns</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Two kids play, in an advertisement of Anand Singh &amp; Co., Delhi.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Two kids play, in an advertisement of Anand Singh &amp; Co., Delhi.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Anand Singh &amp; Co.,
 (Gold Medalists)
 Manufacturers of all kinds of HIGH CLASS HARMONIUMS.
-Nai Sarak, New Delhi</hra:value>
-				<hra:value>text-hi:
+Nai Sarak, New Delhi</ext:value>
+				<ext:value>text-hi:
 आनन्द सिंह एण्ड कम्पनी
-हारमोनियम मेकर्स.</hra:value>
-				<hra:value>text-hi:
-नईसडक, देहली</hra:value>
-				<hra:value>text-en:
-Always Buy ANAND FLUTE.</hra:value>
-				<hra:value>description-en:
-On this advertisement for Anand Singh &amp; Co. Harmoniums, we see two fair skinned girl children feeding a family of swans on a pond close to a spacious park with a luxurious house in the centre of it. The upper section of the image hosts several logos and emblems. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080709_2010.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119056</hra:value>
-				<hra:value>119056</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:34:56">
-			</hra:administrative>
-		</hra:heidicon>
+हारमोनियम मेकर्स.</ext:value>
+				<ext:value>text-hi:
+नईसडक, देहली</ext:value>
+				<ext:value>text-en:
+Always Buy ANAND FLUTE.</ext:value>
+				<ext:value>description-en:
+On this advertisement for Anand Singh &amp; Co. Harmoniums, we see two fair skinned girl children feeding a family of swans on a pond close to a spacious park with a luxurious house in the centre of it. The upper section of the image hosts several logos and emblems. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080709_2010.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080709_2010.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119058</ext:value>
+				<ext:value>i_e771faa2-0547-56d4-b692-75340155cb30</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119057</ext:value>
+				<ext:value>i_bdb02fe9-990f-5223-8d42-bf13e9ffcf9b</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119056</ext:value>
+				<ext:value>119056</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:52">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

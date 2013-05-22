@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a5066ac8-d473-55ba-b3fd-065fb0a44c63" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The chart shows an alphabet chart for English, with phonetic help in Urdu and Hindi. It also has numerals in Hindi, English and Urdu. The image in the center shows two soldiers in different uniforms resting near a group of shrubs. A statue of a woman with a lion lying by her feet is in the foreground and an elephant can also be seen to the right side of the image. A building can be seen in the background.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The chart shows an alphabet chart for English, with phonetic help in Urdu and Hindi. It also has numerals in Hindi, English and Urdu. The image in the center shows two soldiers in different uniforms resting near a group of shrubs. A statue of a woman with a lion lying by her feet is in the foreground and an elephant can also be seen to the right side of the image. A building can be seen in the background.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -62,10 +68,13 @@ Alphabet.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118939" type="corporate">HeidICON Image Database</name>
+				<refid>118939</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -88,117 +97,128 @@ Alphabet.</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term>lion</term>
+				<term type="animal">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
-				<term>elephant</term>
+				<term type="animal">elephants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7988e2a-b5f0-5795-bb25-2b2c930db904">
-				<term>soldier</term>
+				<term type="concept">soldiers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="adf9d29b-8aae-5d5f-bbf3-7ca6362e969d">
-				<term>building</term>
+				<term type="concept">buildings (structures)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term>uniform</term>
+				<term type="concept">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term>statue</term>
+				<term type="concept">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fcb8fa1f-42c3-5d1c-9392-aa9205421cd2">
-				<term>Latin letters</term>
+				<term type="concept">Latin letters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d355c410-7da7-5a42-9f8f-ea6a7af43d54">
-				<term>education</term>
+				<term type="concept">education</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="75ba1119-bd95-565a-b0af-6832480e4039">
-				<term>shrubs</term>
+				<term type="concept">shrubs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0c001e4-367f-557b-9542-e92cf25f6f8c">
-				<term>recheck-Sri</term>
+				<term type="internal workflow">recheck-Sri</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Alphabet Chart (Mellin's Food)</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Alphabet Chart (Mellin's Food)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Mellin's Food</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Mellin's Food</ext:value>
+				<ext:value>text-en:
 ora et labora
-Trade Mark</hra:value>
-				<hra:value>text-en:
+Trade Mark</ext:value>
+				<ext:value>text-en:
 For Infants
-and Invalids.</hra:value>
-				<hra:value>text-en:
+and Invalids.</ext:value>
+				<ext:value>text-en:
 Untouched
-by Hand.</hra:value>
-				<hra:value>text-en:
+by Hand.</ext:value>
+				<ext:value>text-en:
 English
 Alphabet
-with Pronunciation</hra:value>
-				<hra:value>text-en:
+with Pronunciation</ext:value>
+				<ext:value>text-en:
 This Chart teaches Indian Pupils the English
 Alphabet. The Pronunciation is given in both the
-Persian and Nagri characters.</hra:value>
-				<hra:value>text-en:
+Persian and Nagri characters.</ext:value>
+				<ext:value>text-en:
 The Publishers have also issued a similar
 Companion Chart for teaching the Hindustani
-Alphabet.</hra:value>
-				<hra:value>text-en:
-Copyright. All Rights Reserved.</hra:value>
-				<hra:value>text-en:
-London: George Gill</hra:value>
-				<hra:value>text-en:
+Alphabet.</ext:value>
+				<ext:value>text-en:
+Copyright. All Rights Reserved.</ext:value>
+				<ext:value>text-en:
+London: George Gill</ext:value>
+				<ext:value>text-en:
 Edited by .. DAIRD, City ..
-30-32, Ludgate Hill, London, E.C.</hra:value>
-				<hra:value>text-en:
+30-32, Ludgate Hill, London, E.C.</ext:value>
+				<ext:value>text-en:
 Edited by G.[...]O DAIRD, City Institute
-30-32, Ludgate Hill, London, E.C.</hra:value>
-				<hra:value>text-hi:</hra:value>
-				<hra:value>description-en:
-The chart shows an alphabet chart for English, with phonetic help in Urdu and Hindi. It also has numerals in Hindi, English and Urdu. The image in the center shows two soldiers in different uniforms resting near a group of shrubs. A statue of a woman with a lion lying by her feet is in the foreground and an elephant can also be seen to the right side of the image. A building can be seen in the background. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080701_1733.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Chart torn</hra:value>
-			</hra:item>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>frame good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118939</hra:value>
-				<hra:value>118939</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:45">
-			</hra:administrative>
-		</hra:heidicon>
+30-32, Ludgate Hill, London, E.C.</ext:value>
+				<ext:value>text-hi:</ext:value>
+				<ext:value>description-en:
+The chart shows an alphabet chart for English, with phonetic help in Urdu and Hindi. It also has numerals in Hindi, English and Urdu. The image in the center shows two soldiers in different uniforms resting near a group of shrubs. A statue of a woman with a lion lying by her feet is in the foreground and an elephant can also be seen to the right side of the image. A building can be seen in the background. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080701_1733.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080701_1733.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Chart torn</ext:value>
+			</ext:item>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>frame good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118939</ext:value>
+				<ext:value>118939</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:25">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

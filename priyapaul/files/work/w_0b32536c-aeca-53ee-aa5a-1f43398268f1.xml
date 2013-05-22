@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_0b32536c-aeca-53ee-aa5a-1f43398268f1" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A collection of four picture postcards: The first one on the upper left shows Mr. B.R. Dutt in hunger strike, protesting against the bad conditions for political prisoners. A man with a halo around his head is standing next to him. On the right, a woman can be seen on the shores of a river, seemingly having an unusual encounter with a ghost carrying his own head on a plate. The lower left image shows Mata India, India's geo body, in her typical iconography, with tricolor flag and spinning wheel. The last image on the lower right shows a couple of men, partly wearing flower garlands and bindis. All four images carry different information concerning their publishers.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A collection of four picture postcards: The first one on the upper left shows Mr. B.R. Dutt in hunger strike, protesting against the bad conditions for political prisoners. A man with a halo around his head is standing next to him. On the right, a woman can be seen on the shores of a river, seemingly having an unusual encounter with a ghost carrying his own head on a plate. The lower left image shows Mata India, India's geo body, in her typical iconography, with tricolor flag and spinning wheel. The last image on the lower right shows a couple of men, partly wearing flower garlands and bindis. All four images carry different information concerning their publishers.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -45,10 +51,13 @@ Punjabi Press, Delhi</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120674" type="corporate">HeidICON Image Database</name>
+				<refid>120674</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -71,88 +80,105 @@ Punjabi Press, Delhi</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="59aa25e0-c595-5e13-b93e-e3504c739cd6">
-				<term>Hindu nationalism</term>
+				<term type="concept">Hindu nationalism</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="c15a508b-6394-5b93-ae14-b90d74b868be">
+				<term type="concept">nationalism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term>river</term>
+				<term type="concept">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
-				<term>Indian flag</term>
+				<term type="concept">Indian flag</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term>flower garland</term>
+				<term type="concept">husk (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7bc1a5ec-d17a-5c51-9650-0c4d7abc2327">
-				<term>prison</term>
+				<term type="concept">prisons (institutions)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term>picture postcards</term>
+				<term type="worktype">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">four postcards with nationalist themes, including mother India on a map of India</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">four postcards with nationalist themes, including mother India on a map of India</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Fighting for the emancipation of Political Prisoners.</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Fighting for the emancipation of Political Prisoners.</ext:value>
+				<ext:value>text-en:
 Mr. B. R. Dutt on hunger strike
 &quot;The mission of late Jatin who died fighting for the betterment of Political Prisoners must be fought to the finished.&quot;
-Imperial Picture House Anarkali Lahore</hra:value>
-				<hra:value>text-en: 
+Imperial Picture House Anarkali Lahore</ext:value>
+				<ext:value>text-en: 
 No. 2004 Copyright
 Coronattion Press Cawnpore 
 Publishers.
 Ganganarian Beharilal, 
 Post Box No. 57
-Cawnpore</hra:value>
-				<hra:value>text-en: 
+Cawnpore</ext:value>
+				<ext:value>text-en: 
 Sri Bharat Mata
-Punjabi Press, Delhi</hra:value>
-				<hra:value>text-en:
-B.B. Press Lucknow</hra:value>
-				<hra:value>text-hi:
-ADD TEXT HERE</hra:value>
-				<hra:value>description-en:
-A collection of four picture postcards: The first one on the upper left shows Mr. B.R. Dutt in hunger strike, protesting against the bad conditions for political prisoners. A man with a halo around his head is standing next to him. On the right, a woman can be seen on the shores of a river, seemingly having an unusual encounter with a ghost carrying his own head on a plate. The lower left image shows Mata India, India's geo body, in her typical iconography, with tricolor flag and spinning wheel. The last image on the lower right shows a couple of men, partly wearing flower garlands and bindis. All four images carry different information concerning their publishers. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/2045.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120674</hra:value>
-				<hra:value>120674</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:39:46">
-			</hra:administrative>
-		</hra:heidicon>
+Punjabi Press, Delhi</ext:value>
+				<ext:value>text-en:
+B.B. Press Lucknow</ext:value>
+				<ext:value>text-hi:
+ADD TEXT HERE</ext:value>
+				<ext:value>description-en:
+A collection of four picture postcards: The first one on the upper left shows Mr. B.R. Dutt in hunger strike, protesting against the bad conditions for political prisoners. A man with a halo around his head is standing next to him. On the right, a woman can be seen on the shores of a river, seemingly having an unusual encounter with a ghost carrying his own head on a plate. The lower left image shows Mata India, India's geo body, in her typical iconography, with tricolor flag and spinning wheel. The last image on the lower right shows a couple of men, partly wearing flower garlands and bindis. All four images carry different information concerning their publishers. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/2045.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/2045.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120674</ext:value>
+				<ext:value>120674</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:18">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

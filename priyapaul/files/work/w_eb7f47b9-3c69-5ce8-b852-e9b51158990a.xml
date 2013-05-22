@@ -1,33 +1,43 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_eb7f47b9-3c69-5ce8-b852-e9b51158990a" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-af321bf5-dea5-5e57-ba81-21f09bad8a18">Shakuntala</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-d6dbe511-0883-5b96-b890-fd7f901959be">Kalidasa</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-4e80c54f-d35c-5b5c-903b-58f3ebbaabbe">Banshi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Illustration in a calendar sample showing the story of Sakuntala, an ancient Indian play written by Kalidasa, showing a woman with a deer groomed by two other women in front of a hut, while a man with his army approaches from a forest. In the background at the horizon line a lake and mountains can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Illustration in a calendar sample showing the story of Sakuntala, an ancient Indian play written by Kalidasa, showing a woman with a deer groomed by two other women in front of a hut, while a man with his army approaches from a forest. In the background at the horizon line a lake and mountains can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a">Gruening, Simon</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -47,10 +57,13 @@ No. 473</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/123074" type="corporate">HeidICON Image Database</name>
+				<refid>123074</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -64,99 +77,110 @@ No. 473</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e36dcd57-8439-59ad-9e63-6934403a3a63">
-				<term>army</term>
+				<term type="concept">armies</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term>mountain</term>
+				<term type="concept">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f674a6fc-bd8c-505a-a0c8-13ec564a55b6">
-				<term>spear</term>
+				<term type="concept">spears (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d9dd4950-4421-58b0-8c4c-6948f8311099">
-				<term>deer</term>
+				<term type="animal">deer (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term>lake</term>
+				<term type="concept">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="888a51f9-f4a9-5650-ad5f-679c20dde22a">
-				<term>yellow</term>
+				<term type="concept">yellow (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="06e05211-e15e-563d-a4ac-f9b555be755b">
-				<term>horizon</term>
+				<term type="concept">horizon line</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf659b4d-e759-5642-aaa1-5f4907058a38">
-				<term>footpath</term>
+				<term type="concept">footpaths</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9ef4338c-0564-5209-8a91-d1c3bd4d4821">
-				<term>hut</term>
+				<term type="concept">huts (houses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="78ba6b32-47d2-5d8a-bf11-c582409baad8">
-				<term>thatched roof</term>
+				<term type="concept">thatched roof</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term>flower garland</term>
+				<term type="concept">husk (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="74486317-b2ef-5c4a-b8cd-86cddf2f9f94">
-				<term>yellow sari</term>
+				<term type="concept">yellow sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="75ba1119-bd95-565a-b0af-6832480e4039">
-				<term>shrubs</term>
+				<term type="concept">shrubs</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Sakuntala&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sakuntala&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Banshi</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Banshi</hra:value>
-				<hra:value>text-en:
-HAP [manufacturer's signet]</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Banshi</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Banshi</ext:value>
+				<ext:value>text-en:
+HAP [manufacturer's signet]</ext:value>
+				<ext:value>text-en:
 Sakuntala
-No. 473</hra:value>
-				<hra:value>description-en:
-Illustration in a calendar sample showing the story of Sakuntala, an ancient Indian play written by Kalidasa, showing a woman with a deer groomed by two other women in front of a hut, while a man with his army approaches from a forest. In the background at the horizon line a lake and mountains can be seen. (gs/sg)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-20080522_1214.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/123074</hra:value>
-				<hra:value>123074</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:16">
-			</hra:administrative>
-		</hra:heidicon>
+No. 473</ext:value>
+				<ext:value>description-en:
+Illustration in a calendar sample showing the story of Sakuntala, an ancient Indian play written by Kalidasa, showing a woman with a deer groomed by two other women in front of a hut, while a man with his army approaches from a forest. In the background at the horizon line a lake and mountains can be seen. (gs/sg)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+20080522_1214.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">20080522_1214.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/123074</ext:value>
+				<ext:value>123074</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:52">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

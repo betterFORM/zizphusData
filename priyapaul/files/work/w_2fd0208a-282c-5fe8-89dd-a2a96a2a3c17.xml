@@ -1,18 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_2fd0208a-282c-5fe8-89dd-a2a96a2a3c17" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-b22d3858-3f3e-59c3-8531-c0819786c9df">Danoda Roadlines</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for the transport company Danoda Roadlines, a baby with a turban on his head can be seen sitting on a road with a basket of vegetables and a bag of wheat next to him. In the background, an Indian village can be seen with rows of houses, electricity poles, bullock carts and a water pump.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for the transport company Danoda Roadlines, a baby with a turban on his head can be seen sitting on a road with a basket of vegetables and a bag of wheat next to him. In the background, an Indian village can be seen with rows of houses, electricity poles, bullock carts and a water pump.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -40,17 +50,21 @@ Ghaziabad (U.P.) 201006</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118861" type="corporate">HeidICON Image Database</name>
+				<refid>118861</refid>
 			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_cb4b18b5-47df-50fa-9e5f-8fd6d458d0c9" refid="118861" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_cb4b18b5-47df-50fa-9e5f-8fd6d458d0c9" refid="118861" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_b55217d8-a23a-54e5-ac10-09dfb8d61c92" refid="118862" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -60,87 +74,114 @@ Ghaziabad (U.P.) 201006</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="747cc752-b60c-5d8c-853a-4dba8a1c5b50">
-				<term>baby</term>
+				<term type="concept">infants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="94a5efb7-b989-57ce-9543-bb9f43403256">
-				<term>vegetables</term>
+				<term type="concept">vegetables</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="925954ad-11c8-5edb-a164-f3d5649c81c6">
-				<term>water pump</term>
+				<term type="concept">water pumps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c9b7db9c-bda8-5dd6-82db-339f18cdb3ba">
-				<term>cottage</term>
+				<term type="concept">cottages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e61eab37-a723-51bc-b617-0bc0da28cb84">
-				<term>fertilizer</term>
+				<term type="concept">fertilizer</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="12d0256f-73d3-5afe-bab7-d3914c2527c4">
-				<term>Indian village</term>
+				<term type="concept">Indian village</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="031830f0-5cdb-5577-b5f8-b22487cfc8e0">
-				<term>Studio Svaras</term>
+				<term type="corporation">Studio Svaras</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eb53fa21-fe31-5428-a7b1-0f71986e8079">
-				<term>irrigation systems</term>
+				<term type="concept">irrigation systems</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advertisement for Danoda Roadlines</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Danoda Roadlines</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Studio Svaras</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Studio Svaras</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 With best compliments from DRL [telephone symbol]: 20 25 76
 Danoda Roadlines
 Transporters &amp; Forwarding Agents
 Opposit Sangam Cinema, Post Office Chikamberpur
-Ghaziabad (U.P.) 201006</hra:value>
-				<hra:value>text-en:
-Atv[indecipherable] Fertilizer</hra:value>
-				<hra:value>text-hi:
+Ghaziabad (U.P.) 201006</ext:value>
+				<ext:value>text-en:
+Atv[indecipherable] Fertilizer</ext:value>
+				<ext:value>text-hi:
 [on paper on which image is pasted - top right]
 जन सेवा ही ईश्वर  सेवा है 
-[indecipherable]</hra:value>
-				<hra:value>text-translation-en:
-Service to people is service to god.</hra:value>
-				<hra:value>description-en:
-On this advertisement for the transport company Danoda Roadlines, a baby with a turban on his head can be seen sitting on a road with a basket of vegetables and a bag of wheat next to him. In the background, an Indian village can be seen with rows of houses, electricity poles, bullock carts and a water pump. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The usage of elements such as a water pump and electricity wires might intend to create the picture of a modern rural India with well working infrastructure. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080624_1617.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118861</hra:value>
-				<hra:value>118861</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:49:19">
-			</hra:administrative>
-		</hra:heidicon>
+[indecipherable]</ext:value>
+				<ext:value>text-translation-en:
+Service to people is service to god.</ext:value>
+				<ext:value>description-en:
+On this advertisement for the transport company Danoda Roadlines, a baby with a turban on his head can be seen sitting on a road with a basket of vegetables and a bag of wheat next to him. In the background, an Indian village can be seen with rows of houses, electricity poles, bullock carts and a water pump. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The usage of elements such as a water pump and electricity wires might intend to create the picture of a modern rural India with well working infrastructure. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080624_1617.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The usage of elements such as a water pump and electricity wires might intend to create the picture of a modern rural India with well working infrastructure.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080624_1617.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118862</ext:value>
+				<ext:value>i_b55217d8-a23a-54e5-ac10-09dfb8d61c92</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118861</ext:value>
+				<ext:value>118861</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:32">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

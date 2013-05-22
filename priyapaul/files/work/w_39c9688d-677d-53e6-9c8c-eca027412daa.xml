@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_39c9688d-677d-53e6-9c8c-eca027412daa" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">This circular textile label of the Pratap Spinning, Weaving &amp; Manufacturing Company Ltd. from Amalner in the Khandesh region, consists of three concentric areas. in the center, the sun with yellow rose chubby cheek face is rising, emanating rays of light into the sky above a lotus pond and a distant shore line showing forest and mountain silhouette. The second area bears the company name. The third, outer area shows four floral patterns and repeats the company name in Hindi.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>This circular textile label of the Pratap Spinning, Weaving &amp; Manufacturing Company Ltd. from Amalner in the Khandesh region, consists of three concentric areas. in the center, the sun with yellow rose chubby cheek face is rising, emanating rays of light into the sky above a lotus pond and a distant shore line showing forest and mountain silhouette. The second area bears the company name. The third, outer area shows four floral patterns and repeats the company name in Hindi.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -35,10 +41,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120242" type="corporate">HeidICON Image Database</name>
+				<refid>120242</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -61,79 +70,90 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term>sun</term>
+				<term type="geographic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9bd2f0d0-4d9b-5925-b7de-9147a5d09b0f">
-				<term>sunray</term>
+				<term type="concept">sunbursts</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term>river</term>
+				<term type="concept">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term>lotus</term>
+				<term type="plant">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="03a7bcf1-4769-5087-a894-87c0f5d666a1">
-				<term>sunrise</term>
+				<term type="concept">sunrise</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a0f3e68b-1bc1-5b2b-940b-d970f99d9de5">
-				<term>pond</term>
+				<term type="concept">ponds (water)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Textile label of the Pratap Spinning, Weaving &amp; Manufacturing Company Ltd., Amalner, Khandesh</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of the Pratap Spinning, Weaving &amp; Manufacturing Company Ltd., Amalner, Khandesh</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Amalner Khandesh</hra:value>
-				<hra:value>text-en:
-The Pratap Spinning, Weaving and Manufacturing Company Ltd.</hra:value>
-				<hra:value>text-en:
-The Pratap S. W. &amp; M. Co. Ltd</hra:value>
-				<hra:value>text-hi:
-रजीस्टर ट्रेड मार्क.</hra:value>
-				<hra:value>text-hi:
-धी  प्रताप मिल्स</hra:value>
-				<hra:value>text-hi:
-अमलनेर, पूर्व रवानदेश.</hra:value>
-				<hra:value>text-hi:
-मोतीलाल माणकचंद आणी कं.</hra:value>
-				<hra:value>description-en:
-This circular textile label of the Pratap Spinning, Weaving &amp; Manufacturing Company Ltd. from Amalner in the Khandesh region, consists of three concentric areas. in the center, the sun with yellow rose chubby cheek face is rising, emanating rays of light into the sky above a lotus pond and a distant shore line showing forest and mountain silhouette. The second area bears the company name. The third, outer area shows four floral patterns and repeats the company name in Hindi. (ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/1603.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120242</hra:value>
-				<hra:value>120242</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:41:17">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Amalner Khandesh</ext:value>
+				<ext:value>text-en:
+The Pratap Spinning, Weaving and Manufacturing Company Ltd.</ext:value>
+				<ext:value>text-en:
+The Pratap S. W. &amp; M. Co. Ltd</ext:value>
+				<ext:value>text-hi:
+रजीस्टर ट्रेड मार्क.</ext:value>
+				<ext:value>text-hi:
+धी  प्रताप मिल्स</ext:value>
+				<ext:value>text-hi:
+अमलनेर, पूर्व रवानदेश.</ext:value>
+				<ext:value>text-hi:
+मोतीलाल माणकचंद आणी कं.</ext:value>
+				<ext:value>description-en:
+This circular textile label of the Pratap Spinning, Weaving &amp; Manufacturing Company Ltd. from Amalner in the Khandesh region, consists of three concentric areas. in the center, the sun with yellow rose chubby cheek face is rising, emanating rays of light into the sky above a lotus pond and a distant shore line showing forest and mountain silhouette. The second area bears the company name. The third, outer area shows four floral patterns and repeats the company name in Hindi. (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/1603.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/1603.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120242</ext:value>
+				<ext:value>120242</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:25">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

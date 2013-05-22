@@ -1,23 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_9c1f6731-567a-57a9-810d-1a2d69f06b6e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-45bb815a-a472-5b47-b7a1-dd93c467f10e">Radha</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Sitting on a stone in Madhoovana, Radha is eager to embrace her lover who coming from behind, sports with her by closing her eyes with his hands.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Sitting on a stone in Madhoovana, Radha is eager to embrace her lover who coming from behind, sports with her by closing her eyes with his hands.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -30,10 +36,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108048" type="corporate">HeidICON Image Database</name>
+				<refid>108048</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -46,7 +55,8 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_fd6b00ab-b265-51d6-a132-55ffbebe0d26" refid="108048" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_fd6b00ab-b265-51d6-a132-55ffbebe0d26" refid="108048" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_1b051270-5971-512e-aaff-4cdd09f1ddc2" refid="108049" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -56,69 +66,87 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term>river</term>
+				<term type="concept">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term>picture postcards</term>
+				<term type="worktype">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Radha &amp; Madhava, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Radha &amp; Madhava, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-Sitting on a stone in Madhoovana, Radha is eager to embrace her lover who coming from behind, sports with her by closing her eyes with his hands. (gs)</hra:value>
-				<hra:value>text-en:
-Radha Madhav.</hra:value>
-				<hra:value>text-en:
-P.S.Joshi, Art Publisher, 132 Kalbadevi Road, Bombay [on backside? (ja)]</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/219d.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Cracks</hra:value>
-			</hra:item>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>yellowish due to ageing</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108048</hra:value>
-				<hra:value>108048</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:36:22">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+Sitting on a stone in Madhoovana, Radha is eager to embrace her lover who coming from behind, sports with her by closing her eyes with his hands. (gs)</ext:value>
+				<ext:value>text-en:
+Radha Madhav.</ext:value>
+				<ext:value>text-en:
+P.S.Joshi, Art Publisher, 132 Kalbadevi Road, Bombay [on backside? (ja)]</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/219d.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/219d.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Cracks</ext:value>
+			</ext:item>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>yellowish due to ageing</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108049</ext:value>
+				<ext:value>i_1b051270-5971-512e-aaff-4cdd09f1ddc2</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108048</ext:value>
+				<ext:value>108048</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:38">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

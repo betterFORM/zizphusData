@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_10d8f22a-91cf-5ada-b40f-f93fa2f79d9c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this lobby card for the 1961 released Hindi film &quot;Apsara&quot;, we see several actresses wearing saris and performing a dance. One of them is wearing a slightly more extensive costume and dances in an elevated area above the others.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this lobby card for the 1961 released Hindi film &quot;Apsara&quot;, we see several actresses wearing saris and performing a dance. One of them is wearing a slightly more extensive costume and dances in an elevated area above the others.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -21,10 +27,13 @@ Apsara</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120326" type="corporate">HeidICON Image Database</name>
+				<refid>120326</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -38,65 +47,76 @@ Apsara</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term>dancing</term>
+				<term type="concept">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term>movie still</term>
+				<term type="concept">movie still</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">still from the film &quot;Apsara&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">still from the film &quot;Apsara&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Chitralaya presents
-Apsara</hra:value>
-				<hra:value>text-hi:
-ADD TEXT HERE</hra:value>
-				<hra:value>description-en:
-On this lobby card for the 1961 released Hindi film &quot;Apsara&quot;, we see several actresses wearing saris and performing a dance. One of them is wearing a slightly more extensive costume and dances in an elevated area above the others. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1717.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120326</hra:value>
-				<hra:value>120326</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:45:13">
-			</hra:administrative>
-		</hra:heidicon>
+Apsara</ext:value>
+				<ext:value>text-hi:
+ADD TEXT HERE</ext:value>
+				<ext:value>description-en:
+On this lobby card for the 1961 released Hindi film &quot;Apsara&quot;, we see several actresses wearing saris and performing a dance. One of them is wearing a slightly more extensive costume and dances in an elevated area above the others. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1717.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1717.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120326</ext:value>
+				<ext:value>120326</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:11">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

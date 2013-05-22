@@ -1,33 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_36e2bf48-5ec7-5bab-9dca-7ec9416230ee" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="137010656" pref="true">Chowdhury, Sudhir</name>
-				<role/>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="personal" refid="uuid-65b17df2-f3f5-5439-bc9a-f9574da16339">Vivekananda, Swami</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-a1621c82-d56e-5b80-9df4-2ff7a71f61c2">Chowdhury, Sudhir</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">An image in a sample calender poster of the Empire Calender Manufacturing Co., Calcutta showing Swami Vivekananda in America. He stands in front of map of America with the Pacific Ocean as well as the Atlantic Ocean clearly marked. In the background, several well known buildings of Chicago can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>An image in a sample calender poster of the Empire Calender Manufacturing Co., Calcutta showing Swami Vivekananda in America. He stands in front of map of America with the Pacific Ocean as well as the Atlantic Ocean clearly marked. In the background, several well known buildings of Chicago can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -49,10 +50,13 @@ No. 692</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119476" type="corporate">HeidICON Image Database</name>
+				<refid>119476</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -74,89 +78,104 @@ No. 692</text>
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="b24f4a87-fd3b-5f2b-98d1-a58250ceea70">
-				<term>Chicago</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8b649548-d3eb-5669-ab53-534befea688d">
-				<term>globe</term>
+				<term type="concept">globes (cartographic spheres)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b24f4a87-fd3b-5f2b-98d1-a58250ceea70">
+				<term type="geographic">Chicago</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1f38e8c6-a91c-54de-a947-76b31257484a">
-				<term>skyscraper</term>
+				<term type="work (architecture)">skyscrapers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term>map</term>
+				<term type="concept">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3511117e-3fd2-5bf2-8a43-d34af234bfd3">
-				<term>map of North America</term>
+				<term type="work (map)">map of North America</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b5859290-1538-5d89-97e2-2668abc19a58">
+				<term type="concept">terrestrial globes</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Swami Vivekanand&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Swami Vivekanand&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Chowdhury, Sudhir</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Chowdhury, Sudhir</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Asia
 America
-Pacific Ocean</hra:value>
-				<hra:value>text-en:
+Pacific Ocean</ext:value>
+				<ext:value>text-en:
 Swami Vivekanand
-No. 692</hra:value>
-				<hra:value>text-en:
-Sudhir Chowdhury</hra:value>
-				<hra:value>description-en:
-An image in a sample calender poster of the Empire Calender Manufacturing Co., Calcutta showing Swami Vivekananda in America. He stands in front of map of America with the Pacific Ocean as well as the Atlantic Ocean clearly marked. In the background, several well known buildings of Chicago can be seen. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The image emphasizes Vivekananda's visit to America in 1897 for the world congress of religions. It was the first visit of a teacher of Hindu philosophy to the USA. He emphasized the difference between monotheistic religions and Hinduism as well as the excessive material culture of the west, to which the skyscraper and the other architectorial elements might refer to. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119476</hra:value>
-				<hra:value>119476</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:48">
-			</hra:administrative>
-		</hra:heidicon>
+No. 692</ext:value>
+				<ext:value>text-en:
+Sudhir Chowdhury</ext:value>
+				<ext:value>description-en:
+An image in a sample calender poster of the Empire Calender Manufacturing Co., Calcutta showing Swami Vivekananda in America. He stands in front of map of America with the Pacific Ocean as well as the Atlantic Ocean clearly marked. In the background, several well known buildings of Chicago can be seen. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The image emphasizes Vivekananda's visit to America in 1897 for the world congress of religions. It was the first visit of a teacher of Hindu philosophy to the USA. He emphasized the difference between monotheistic religions and Hinduism as well as the excessive material culture of the west, to which the skyscraper and the other architectorial elements might refer to. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The image emphasizes Vivekananda's visit to America in 1897 for the world congress of religions. It was the first visit of a teacher of Hindu philosophy to the USA. He emphasized the difference between monotheistic religions and Hinduism as well as the excessive material culture of the west, to which the skyscraper and the other architectorial elements might refer to.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119476</ext:value>
+				<ext:value>119476</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:11">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

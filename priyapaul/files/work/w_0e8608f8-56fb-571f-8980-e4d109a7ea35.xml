@@ -1,19 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_0e8608f8-56fb-571f-8980-e4d109a7ea35" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1927</earliestDate>
-				<latestDate>1927</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A one page calendar of designers &amp; printers,  &quot;Norbury, Natzio &amp; Co Pvt. Ltd.&quot;, Manchester, England.</description>
+			<description lang="en" script="Latn">
+				<text>A one page calendar of designers &amp; printers,  &quot;Norbury, Natzio &amp; Co Pvt. Ltd.&quot;, Manchester, England.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -38,10 +38,13 @@ Manchester</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139326" type="corporate">HeidICON Image Database</name>
+				<refid>139326</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -54,45 +57,56 @@ Manchester</text>
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Arabian dancer seated in oyster</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Arabian dancer seated in oyster</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-22. [handwritten number on yellow post-it]</hra:value>
-				<hra:value>text-en:
-1927</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+22. [handwritten number on yellow post-it]</ext:value>
+				<ext:value>text-en:
+1927</ext:value>
+				<ext:value>text-en:
 Norbury, Natzio  Co. Ltd.
 Designers &amp; Printers
 Head office &amp; works
-Manchester</hra:value>
-				<hra:value>text-en:
-Glasgow London Shanghai</hra:value>
-				<hra:value>text-en:
-1928. Calendar. 1928.</hra:value>
-				<hra:value>description-en:
-A one page calendar of designers &amp; printers,  &quot;Norbury, Natzio &amp; Co Pvt. Ltd.&quot;, Manchester, England.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-20090901_3236.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/139326</hra:value>
-				<hra:value>139326</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:49">
-			</hra:administrative>
-		</hra:heidicon>
+Manchester</ext:value>
+				<ext:value>text-en:
+Glasgow London Shanghai</ext:value>
+				<ext:value>text-en:
+1928. Calendar. 1928.</ext:value>
+				<ext:value>description-en:
+A one page calendar of designers &amp; printers,  &quot;Norbury, Natzio &amp; Co Pvt. Ltd.&quot;, Manchester, England.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+20090901_3236.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">20090901_3236.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/139326</ext:value>
+				<ext:value>139326</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:26">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

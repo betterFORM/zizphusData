@@ -1,23 +1,33 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_0d07cb3d-7428-55c4-8b6f-71771f88c2cd" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-92d555b9-d5e3-5a93-8727-b57a4f66bdc8">Pahalwan, Gama</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-394ad1f6-27d6-5e01-8908-647f8d5355d5">Shyam Sunder Lal Agrawal</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The picture shows a muscular wrestler with a mustache. The wrestler is standing on a leopard skin rug and  he is holding a gada (mace) in his right hand.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The picture shows a muscular wrestler with a mustache. The wrestler is standing on a leopard skin rug and  he is holding a gada (mace) in his right hand.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -45,13 +55,13 @@ Chauk, Kanpur.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
-			</location>
-			<location type="creation">
-				<name type="geographic" vocab="" refid="">Kanpur</name>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108679" type="corporate">HeidICON Image Database</name>
+				<refid>108679</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -72,106 +82,171 @@ Chauk, Kanpur.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1930s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="73029b5e-0249-55d9-b898-3f04365656b3">
-				<term>Indian wrestlers</term>
+				<term type="concept">Indian wrestlers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="627e7b9c-f9d6-555c-86ec-9fe01d4be42e">
-				<term>wrestler</term>
+				<term type="concept">wrestlers (athletes)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="57ee3339-e4a6-576c-a74c-cdcc94e12a1e">
+				<term type="geographic">Kanpur</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Gama World's Champion Wrestler</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Gama World's Champion Wrestler</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en: 
-Gama World's Champion Wrestler</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en: 
+Gama World's Champion Wrestler</ext:value>
+				<ext:value>text-en:
 S. S. L.
 Shyam Sunder Lal Agrawal
 Picture Publisher
-Chauk, Kanpur.</hra:value>
-				<hra:value>text-ur:
-ADD TEXT HERE</hra:value>
-				<hra:value>text-hi:
+Chauk, Kanpur.</ext:value>
+				<ext:value>text-ur:
+ADD TEXT HERE</ext:value>
+				<ext:value>text-hi:
 विश्व विजयी
-गामा पहलवान</hra:value>
-				<hra:value>text-hi:
+गामा पहलवान</ext:value>
+				<ext:value>text-hi:
 श्यामसुन्दर लाल अग्रवाल
 चित्र प्रकाशक 
-चौक, कनपुर ।</hra:value>
-				<hra:value>description-en:
-The picture shows a muscular wrestler with a mustache. The wrestler is standing on a leopard skin rug and  he is holding a gada (mace) in his right hand. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The wrestler depicted is Gama Pahalwan, one of the most famous indian wrestlers in the 20th century. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Indian wrestling developed within its own long and distinctive martial arts traditions—quite independently of western wrestling—with Hindu and Muslim variants celebrating, respectively, Hanuman and Ali. Most cities had akharas (gymnasia), communities in which boys and young men could learn wrestling and its strict disciplines: rigorous training regimes, high fat diets, religious ritual and celibacy (see Alter 1992). Wrestling was central to subaltern male performance cultures of early twentieth century India: its champions became folk heroes, celebrated with nationalist zeal. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Gama, ‘Lion of Punjab,’ was a legend even amongst wrestling heroes. Undefeated throughout his life, his daily diet included ten litres of milk, half a litre of ghee, a litre and a half of butter, and two kilograms of fruit. In 1910 in London, Gama and his brother, Imam Bakhsh, routed a succession of Europeans who, to that date, had considered themselves ‘champions;’ in 1928 Gama definitively defeated the European Zbyszko, the previous world champion, in forty-two seconds in front of forty thousand triumphant spectators in Patiala. After that, no one agreed to fight him again. Hamida, who fought as one of his proxies, was also part of this extraordinary Punjabi Muslim extended family, which provided nationalist role models to lower class men. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>related literature:
-Alter, Joseph S. 1992. &quot;The Wrestler’s Body: Identity and Ideology in North India&quot;. Berkeley, Oxford: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Muzumdar, S. 1942 &quot;Strong men over the years. A chronicle of athletes&quot;.Lucknow: Oudh Printing Works. (gs)</hra:value>
-				<hra:value>related literature:
-Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (24.11.2010) (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Muzumdar, S. 1942 &quot;Strong men over the years. A chronicle of athletes&quot;.Lucknow: Oudh Printing Works.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (24.11.2010)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Alter, Joseph S. 1992. &quot;The Wrestler’s Body: Identity and Ideology in North India&quot;. Berkeley, Oxford: University of California Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Gama Pahalwan</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108679</hra:value>
-				<hra:value>108679</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:10">
-			</hra:administrative>
-		</hra:heidicon>
+चौक, कनपुर ।</ext:value>
+				<ext:value>description-en:
+The picture shows a muscular wrestler with a mustache. The wrestler is standing on a leopard skin rug and  he is holding a gada (mace) in his right hand. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The wrestler depicted is Gama Pahalwan, one of the most famous indian wrestlers in the 20th century. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Indian wrestling developed within its own long and distinctive martial arts traditions—quite independently of western wrestling—with Hindu and Muslim variants celebrating, respectively, Hanuman and Ali. Most cities had akharas (gymnasia), communities in which boys and young men could learn wrestling and its strict disciplines: rigorous training regimes, high fat diets, religious ritual and celibacy (see Alter 1992). Wrestling was central to subaltern male performance cultures of early twentieth century India: its champions became folk heroes, celebrated with nationalist zeal. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Gama, ‘Lion of Punjab,’ was a legend even amongst wrestling heroes. Undefeated throughout his life, his daily diet included ten litres of milk, half a litre of ghee, a litre and a half of butter, and two kilograms of fruit. In 1910 in London, Gama and his brother, Imam Bakhsh, routed a succession of Europeans who, to that date, had considered themselves ‘champions;’ in 1928 Gama definitively defeated the European Zbyszko, the previous world champion, in forty-two seconds in front of forty thousand triumphant spectators in Patiala. After that, no one agreed to fight him again. Hamida, who fought as one of his proxies, was also part of this extraordinary Punjabi Muslim extended family, which provided nationalist role models to lower class men. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>related literature:
+Alter, Joseph S. 1992. &quot;The Wrestler’s Body: Identity and Ideology in North India&quot;. Berkeley, Oxford: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Muzumdar, S. 1942 &quot;Strong men over the years. A chronicle of athletes&quot;.Lucknow: Oudh Printing Works. (gs)</ext:value>
+				<ext:value>related literature:
+Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (24.11.2010) (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Muzumdar, S. 1942 &quot;Strong men over the years. A chronicle of athletes&quot;.Lucknow: Oudh Printing Works.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (24.11.2010)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Alter, Joseph S. 1992. &quot;The Wrestler’s Body: Identity and Ideology in North India&quot;. Berkeley, Oxford: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Gama, ‘Lion of Punjab,’ was a legend even amongst wrestling heroes. Undefeated throughout his life, his daily diet included ten litres of milk, half a litre of ghee, a litre and a half of butter, and two kilograms of fruit. In 1910 in London, Gama and his brother, Imam Bakhsh, routed a succession of Europeans who, to that date, had considered themselves ‘champions;’ in 1928 Gama definitively defeated the European Zbyszko, the previous world champion, in forty-two seconds in front of forty thousand triumphant spectators in Patiala. After that, no one agreed to fight him again. Hamida, who fought as one of his proxies, was also part of this extraordinary Punjabi Muslim extended family, which provided nationalist role models to lower class men.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The wrestler depicted is Gama Pahalwan, one of the most famous indian wrestlers in the 20th century.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Indian wrestling developed within its own long and distinctive martial arts traditions—quite independently of western wrestling—with Hindu and Muslim variants celebrating, respectively, Hanuman and Ali. Most cities had akharas (gymnasia), communities in which boys and young men could learn wrestling and its strict disciplines: rigorous training regimes, high fat diets, religious ritual and celibacy (see Alter 1992). Wrestling was central to subaltern male performance cultures of early twentieth century India: its champions became folk heroes, celebrated with nationalist zeal.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Gama Pahalwan</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108679</ext:value>
+				<ext:value>108679</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:00">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

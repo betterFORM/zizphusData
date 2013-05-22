@@ -1,18 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_77543cdc-51b1-5995-aead-6cb9b047bae9" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-937f274c-2fcc-5764-b07e-58cf93df1e1f">All India Calendar Company</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">An image on the title page of a Champion Series catalogue of images (All India Calender Company, Calcutta) depicts a landscape with trees, a meadow and cows crossing a stream. A man stands near a tree looking toward the cows. In the distance a row of huts can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>An image on the title page of a Champion Series catalogue of images (All India Calender Company, Calcutta) depicts a landscape with trees, a meadow and cows crossing a stream. A man stands near a tree looking toward the cows. In the distance a row of huts can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -23,10 +33,13 @@ No. 527</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120937" type="corporate">HeidICON Image Database</name>
+				<refid>120937</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -49,74 +62,75 @@ No. 527</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8b41ef52-992d-532b-8e69-9ab992af8834">
-				<term>man</term>
+				<term type="concept">men (male humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9690f13a-ec24-50a6-af14-6d414f45e156">
-				<term>village</term>
+				<term type="concept">villages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a607ab4d-4d55-5515-9767-bb12040c3bdf">
-				<term>landscape</term>
+				<term type="concept">landscapes (environments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term>cow</term>
+				<term type="animal">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3a61449f-6f30-50ed-9cde-c95a68808149">
-				<term>village life</term>
+				<term type="concept">country life</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
-				<term>Indian man</term>
+				<term type="concept">Indian men</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9ef4338c-0564-5209-8a91-d1c3bd4d4821">
-				<term>hut</term>
+				<term type="concept">huts (houses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Sun-Set&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sun-Set&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Sun-set
-No. 527</hra:value>
-				<hra:value>description-en:
-An image on the title page of a Champion Series catalogue of images (All India Calender Company, Calcutta) depicts a landscape with trees, a meadow and cows crossing a stream. A man stands near a tree looking toward the cows. In the distance a row of huts can be seen. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120937</hra:value>
-				<hra:value>120937</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:33:09">
-			</hra:administrative>
-		</hra:heidicon>
+No. 527</ext:value>
+				<ext:value>description-en:
+An image on the title page of a Champion Series catalogue of images (All India Calender Company, Calcutta) depicts a landscape with trees, a meadow and cows crossing a stream. A man stands near a tree looking toward the cows. In the distance a row of huts can be seen. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120937</ext:value>
+				<ext:value>120937</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:42">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,38 +1,39 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_e38a2be8-84a3-5888-9990-dee2869151df" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-89680d5a-b44c-514e-b7c4-590326809ca7">Ganesha</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-23f8a72d-8146-59a7-a914-6b553fa16d1e">Das, Sushil</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-debc21eb-564b-52f1-97d2-f48a73c3b6b9">Oriental Calendar Manufacturing Company</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A woman wearing a pink sari and a pink flower in her hair is holding two oil lamps while sitting in front of a Ganesh statue. In the background, a candleholder and architectural elements such as an archway can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A woman wearing a pink sari and a pink flower in her hair is holding two oil lamps while sitting in front of a Ganesh statue. In the background, a candleholder and architectural elements such as an archway can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -52,10 +53,13 @@ No. 651</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109990" type="corporate">HeidICON Image Database</name>
+				<refid>109990</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -76,158 +80,272 @@ No. 651</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=81&amp;EId=97&amp;ImageId=11</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/97/index_2.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>mid 20th century</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term>lion</term>
+				<term type="animal">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3e4b9f88-b977-53c4-b9ea-0d7a5fc4574d">
-				<term>archway</term>
+				<term type="concept">archways</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term>pearl necklace</term>
+				<term type="concept">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term>crown</term>
+				<term type="concept">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term>necklace</term>
+				<term type="concept">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d557079d-1393-5c29-b3aa-365e104c5044">
-				<term>fruit</term>
+				<term type="concept">fruit</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term>rose</term>
+				<term type="plant">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ba3075b4-2471-56a5-bc06-fb4c8a788b76">
-				<term>devotional pictures</term>
+				<term type="concept">devotional pictures</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf13fdb5-676a-595d-b2ce-8249b1156c7f">
-				<term>Puja</term>
+				<term type="concept">Puja</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term>signet</term>
+				<term type="concept">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6bd4fbf3-f8a4-5211-905f-c4293b8e9b8b">
-				<term>mouse</term>
+				<term type="animal">mice (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
-				<term>pearls</term>
+				<term type="concept">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Ganesh Pujan&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Ganesh Pujan&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Das, Sushil</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-ECM [publisher's signet]</hra:value>
-				<hra:value>text-en:
-Sushil Das..</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Das, Sushil</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+ECM [publisher's signet]</ext:value>
+				<ext:value>text-en:
+Sushil Das..</ext:value>
+				<ext:value>text-en:
 GANESH PUJAN
-No. 651</hra:value>
-				<hra:value>description-en:
-A woman wearing a pink sari and a pink flower in her hair is holding two oil lamps while sitting in front of a Ganesh statue. In the background, a candleholder and architectural elements such as an archway can be seen. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-In this image, entitled “Ganesh Pujan,” also set in an indoor shrine, a woman holds two oil lamps before a seated Ganesha. The artist Sushil Das has depicted Ganesha not as a simple statue, but as a miniature elephant-headed living being, much as a Hindu worshipper might imagine an animate image to be.  And here the female worshiper has turned abruptly away from the image and towards the viewer, so she can display her own beautiful form.  The poster images of puja are gendered.  Female worshipers make offerings to male deities.  The male poster artists (for with very rare exception they have been male) seem to delight in the opportunity to portray female devotees who look, not surprisingly, like the movie stars of the period. (Richard H. Davis) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Contextual background of image has taken advantage of the luxury of a larger format and more complex printing capacity to convey much more: not least here are the modern lighting fixture, as well as the implication of fashionable, up-to-date accoutrements on the devotee. (Sandria B. Freitag) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-&quot;Modern” accoutrements, as well as three-way relationships amongst devotee, god, and viewer distinguish these visual representations. (Sandria B. Freitag) (gs)</hra:value>
-				<hra:value>related literature:
-Braudel, Fernand (1981). &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel (1984). &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Davis, Richard H. (2010). &quot;Temple in a Frame. God Posters For and Of Worship&quot; http://www.tasveergharindia.net/cmsdesk/essay/97/index.html (11.01.2011)(gs)</hra:value>
-				<hra:value>related literature:
-Freitag, Sandria B. (2010). &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot;, http://www.tasveergharindia.net/cmsdesk/essay/96/index.html,  2011-01-30 (gs)</hra:value>
-				<hra:value>related literature:
-Storey, John (1999). &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/97/index.html, last accessed 2011-01-11 (sg)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Freitag, Sandria B. (2010). &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot;, http://www.tasveergharindia.net/cmsdesk/essay/96/index.html,  2011-01-30</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John (1999). &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Davis, Richard H. (2010). &quot;Temple in a Frame. God Posters For and Of Worship&quot; http://www.tasveergharindia.net/cmsdesk/essay/97/index.html (11.01.2011)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Braudel, Fernand (1981). &quot;The Structures of Everyday Life&quot;. London: Collins.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel (1984). &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/97/index.html</hra:value>
-				<hra:value>2011-01-11</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|21|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109990</hra:value>
-				<hra:value>109990</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:51:11">
-			</hra:administrative>
-		</hra:heidicon>
+No. 651</ext:value>
+				<ext:value>description-en:
+A woman wearing a pink sari and a pink flower in her hair is holding two oil lamps while sitting in front of a Ganesh statue. In the background, a candleholder and architectural elements such as an archway can be seen. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+In this image, entitled “Ganesh Pujan,” also set in an indoor shrine, a woman holds two oil lamps before a seated Ganesha. The artist Sushil Das has depicted Ganesha not as a simple statue, but as a miniature elephant-headed living being, much as a Hindu worshipper might imagine an animate image to be.  And here the female worshiper has turned abruptly away from the image and towards the viewer, so she can display her own beautiful form.  The poster images of puja are gendered.  Female worshipers make offerings to male deities.  The male poster artists (for with very rare exception they have been male) seem to delight in the opportunity to portray female devotees who look, not surprisingly, like the movie stars of the period. (Richard H. Davis) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Contextual background of image has taken advantage of the luxury of a larger format and more complex printing capacity to convey much more: not least here are the modern lighting fixture, as well as the implication of fashionable, up-to-date accoutrements on the devotee. (Sandria B. Freitag) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+&quot;Modern” accoutrements, as well as three-way relationships amongst devotee, god, and viewer distinguish these visual representations. (Sandria B. Freitag) (gs)</ext:value>
+				<ext:value>related literature:
+Braudel, Fernand (1981). &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel (1984). &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Davis, Richard H. (2010). &quot;Temple in a Frame. God Posters For and Of Worship&quot; http://www.tasveergharindia.net/cmsdesk/essay/97/index.html (11.01.2011)(gs)</ext:value>
+				<ext:value>related literature:
+Freitag, Sandria B. (2010). &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot;, http://www.tasveergharindia.net/cmsdesk/essay/96/index.html,  2011-01-30 (gs)</ext:value>
+				<ext:value>related literature:
+Storey, John (1999). &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/97/index.html, last accessed 2011-01-11 (sg)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Freitag, Sandria B. (2010). &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot;, http://www.tasveergharindia.net/cmsdesk/essay/96/index.html,  2011-01-30</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John (1999). &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Davis, Richard H. (2010). &quot;Temple in a Frame. God Posters For and Of Worship&quot; http://www.tasveergharindia.net/cmsdesk/essay/97/index.html (11.01.2011)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Braudel, Fernand (1981). &quot;The Structures of Everyday Life&quot;. London: Collins.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel (1984). &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/97/index.html</ext:value>
+				<ext:value type="accessed">2011-01-11</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Gruening, Simon</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In this image, entitled “Ganesh Pujan,” also set in an indoor shrine, a woman holds two oil lamps before a seated Ganesha. The artist Sushil Das has depicted Ganesha not as a simple statue, but as a miniature elephant-headed living being, much as a Hindu worshipper might imagine an animate image to be.  And here the female worshiper has turned abruptly away from the image and towards the viewer, so she can display her own beautiful form.  The poster images of puja are gendered.  Female worshipers make offerings to male deities.  The male poster artists (for with very rare exception they have been male) seem to delight in the opportunity to portray female devotees who look, not surprisingly, like the movie stars of the period.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Richard H. Davis</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Contextual background of image has taken advantage of the luxury of a larger format and more complex printing capacity to convey much more: not least here are the modern lighting fixture, as well as the implication of fashionable, up-to-date accoutrements on the devotee.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sandria B. Freitag</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">&quot;Modern” accoutrements, as well as three-way relationships amongst devotee, god, and viewer distinguish these visual representations.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sandria B. Freitag</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=81&amp;EId=97&amp;ImageId=11</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/97/index_2.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109990</ext:value>
+				<ext:value>109990</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:41">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

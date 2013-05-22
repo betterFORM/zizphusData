@@ -1,53 +1,59 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_51aedac5-1034-53b8-93c8-d54c4e8bd4aa" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-93b49709-83eb-503b-b1d4-08427c9f4414">Christ</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-65d331c8-aea5-564e-a372-b0b6cd6f30df">Gandhi, Mohandas Karamchand</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-459b4de8-c2f9-55ec-9929-3b045a4941e3">Buddha</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ddaa9cf1-f534-56a7-8e66-7534b767bfce">Nehru, Jawaharlal</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-dc78c966-8c82-5611-9e03-7e44c0449108">Prasad, Rajendra</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-4e80c54f-d35c-5b5c-903b-58f3ebbaabbe">Banshi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-f865632d-6e04-5113-aa2e-1438496ae4ee">Shastri, Lal Bahadur</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this sample calendar poster of Empire Calendar Manufacturing Co., Calcutta, we can see several oval frames with different motives. One, right at the centre of the calendar, shows a tractor and a farmer ploughing his field with two oxen, and a village with palm trees in the background. Three framed portraits below show Lal Bahadur Shastri (left), Pandit Nehru (middle), Sardar Patel (right). On top of the central frame are Jesus Christ on the cross (left), Mohandas K. Gandhi with a halo (centre) and Buddha on a lotus flower (right). The backdrop of all this is an image of the sea with some large ship.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this sample calendar poster of Empire Calendar Manufacturing Co., Calcutta, we can see several oval frames with different motives. One, right at the centre of the calendar, shows a tractor and a farmer ploughing his field with two oxen, and a village with palm trees in the background. Three framed portraits below show Lal Bahadur Shastri (left), Pandit Nehru (middle), Sardar Patel (right). On top of the central frame are Jesus Christ on the cross (left), Mohandas K. Gandhi with a halo (centre) and Buddha on a lotus flower (right). The backdrop of all this is an image of the sea with some large ship.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -64,10 +70,13 @@ AGRICULTURE</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122993" type="corporate">HeidICON Image Database</name>
+				<refid>122993</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -88,135 +97,214 @@ AGRICULTURE</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=82&amp;EId=100&amp;ImageId=18</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/100/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1960s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="44ac94f4-ee8b-58c8-b219-a380770a6c05">
-				<term>nation</term>
+				<term type="concept">nations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term>national leader</term>
+				<term type="concept">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a11996a4-a33a-5a54-b6fa-d996f8216c1f">
-				<term>ship</term>
+				<term type="concept">ships</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9e472931-5729-5175-b0ad-fda0a51e5d23">
-				<term>crosses (visual works)</term>
+				<term type="concept">crosses (motifs)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="124615a8-1fc5-51e3-8327-63c0763c7a5c">
-				<term>white cap</term>
+				<term type="concept">white cap</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term>ocean</term>
+				<term type="concept">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9690f13a-ec24-50a6-af14-6d414f45e156">
-				<term>village</term>
+				<term type="concept">villages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5512566d-eab7-5ea2-a645-21e20952530a">
-				<term>cap</term>
+				<term type="concept">caps (headgear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term>lotus</term>
+				<term type="plant">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7827f591-4d4b-5f24-80b8-57c311eecdea">
-				<term>tractor</term>
+				<term type="concept">tractors (agricultural equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f5c0838-4d89-5a07-9950-47075f45cc7d">
-				<term>agriculture</term>
+				<term type="concept">agriculture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b13fad2b-e13b-5bdf-865c-ecfddfbf0950">
-				<term>crucifixion</term>
+				<term type="concept">crucifixion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
-				<term>spectacles</term>
+				<term type="concept">spectacles (eye glasses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c5fdb294-2a89-51f8-8664-317a5b78ec64">
-				<term>plough</term>
+				<term type="concept">plows (agricultural equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4766f327-15c1-5e9c-bbe7-f5c010c59943">
-				<term>agricultural development</term>
+				<term type="concept">agricultural development</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec8a209b-e763-572c-9a9a-2997f5c6db70">
-				<term>harrow</term>
+				<term type="concept">harrows</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
+				<term type="concept">leaders (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Agriculture&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Agriculture&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Banshi</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-HAP [publisher's signet]</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Banshi</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+HAP [publisher's signet]</ext:value>
+				<ext:value>text-en:
 No. 406
-AGRICULTURE</hra:value>
-				<hra:value>description-en:
-On this sample calendar poster of Empire Calendar Manufacturing Co., Calcutta, we can see several oval frames with different motives. One, right at the centre of the calendar, shows a tractor and a farmer ploughing his field with two oxen, and a village with palm trees in the background. Three framed portraits below show Lal Bahadur Shastri (left), Pandit Nehru (middle), Sardar Patel (right). On top of the central frame are Jesus Christ on the cross (left), Mohandas K. Gandhi with a halo (centre) and Buddha on a lotus flower (right). The backdrop of all this is an image of the sea with some large ship.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-In this image, we have scenes of agricultural development, with mechanical farming presumably meant to signal modernization. Whether they are meant to domesticate technologies that are considered strange and threatening, or to extend the spiritual or political charisma of national leaders and religious figures to technology and agricultural development, they reflect an interesting compositional strategy. (Arvind Rajagopal) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The absence of women on the fields perhaps helps to locate the picture in terms of date and region, but it may appeal to prevailing patriarchal assumptions to render the image better able to circulate, presenting as it does male peasant labor alongside national leadership. Depiction of agricultural scenes alone would be uncertain in their meaning, presumably – even the sight of a prosperous field would not necessarily signal prosperity for all the viewers of these pictures. Images of technological development too do not necessarily provide the grounds of their own authority. But the figures of Christ and the Buddha above, and of Gandhi, Nehru and Rajendra Prasad imply an assurance that these scenes benefits from the moral authority of gods and political leaders both, with the halo around Gandhi suggesting he is both. The picture of a man driving bullocks on a field, encountering a boy on a tractor, with thatched roofs in the background, proposes, perhaps, the possibility of a reconciliation between the Gandhian republic and Nehruvian industrialism. The bubble in which this picture is contained, between sea and sky, and above the heads of political leaders, could indicate an idea as much as a real event. At any rate, political, technical and theological conventions intersect here, in a complex attempt at developmental propaganda, albeit one from below. (Arvind Rajagopal) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-A very similar print can be found in Pinney (2004) where he characterises Nehru's vision of a developed nation: &quot;... High-profile heavy engineering projects and a centralized administration were marks of his success, but most of India's rural population, while venerating him as a deity-like figure, experienced the state as a distant presence and their most pressing problems were those predicaments of poverty that had previously afflicted them.&quot; Cf. Christopher Pinney: Photos of the Gods, 2004, p. 146, with reference to image 111, on p. 147. (gs)</hra:value>
-				<hra:value>related literature:
-Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot;, http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-19 (gs)</hra:value>
-				<hra:value>related literature:
-Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot;, http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-19</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>cut at the sides</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/122993</hra:value>
-				<hra:value>122993</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:39:45">
-			</hra:administrative>
-		</hra:heidicon>
+AGRICULTURE</ext:value>
+				<ext:value>description-en:
+On this sample calendar poster of Empire Calendar Manufacturing Co., Calcutta, we can see several oval frames with different motives. One, right at the centre of the calendar, shows a tractor and a farmer ploughing his field with two oxen, and a village with palm trees in the background. Three framed portraits below show Lal Bahadur Shastri (left), Pandit Nehru (middle), Sardar Patel (right). On top of the central frame are Jesus Christ on the cross (left), Mohandas K. Gandhi with a halo (centre) and Buddha on a lotus flower (right). The backdrop of all this is an image of the sea with some large ship.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+In this image, we have scenes of agricultural development, with mechanical farming presumably meant to signal modernization. Whether they are meant to domesticate technologies that are considered strange and threatening, or to extend the spiritual or political charisma of national leaders and religious figures to technology and agricultural development, they reflect an interesting compositional strategy. (Arvind Rajagopal) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The absence of women on the fields perhaps helps to locate the picture in terms of date and region, but it may appeal to prevailing patriarchal assumptions to render the image better able to circulate, presenting as it does male peasant labor alongside national leadership. Depiction of agricultural scenes alone would be uncertain in their meaning, presumably – even the sight of a prosperous field would not necessarily signal prosperity for all the viewers of these pictures. Images of technological development too do not necessarily provide the grounds of their own authority. But the figures of Christ and the Buddha above, and of Gandhi, Nehru and Rajendra Prasad imply an assurance that these scenes benefits from the moral authority of gods and political leaders both, with the halo around Gandhi suggesting he is both. The picture of a man driving bullocks on a field, encountering a boy on a tractor, with thatched roofs in the background, proposes, perhaps, the possibility of a reconciliation between the Gandhian republic and Nehruvian industrialism. The bubble in which this picture is contained, between sea and sky, and above the heads of political leaders, could indicate an idea as much as a real event. At any rate, political, technical and theological conventions intersect here, in a complex attempt at developmental propaganda, albeit one from below. (Arvind Rajagopal) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+A very similar print can be found in Pinney (2004) where he characterises Nehru's vision of a developed nation: &quot;... High-profile heavy engineering projects and a centralized administration were marks of his success, but most of India's rural population, while venerating him as a deity-like figure, experienced the state as a distant presence and their most pressing problems were those predicaments of poverty that had previously afflicted them.&quot; Cf. Christopher Pinney: Photos of the Gods, 2004, p. 146, with reference to image 111, on p. 147. (gs)</ext:value>
+				<ext:value>related literature:
+Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot;, http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-19 (gs)</ext:value>
+				<ext:value>related literature:
+Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot;, http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-19</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In this image, we have scenes of agricultural development, with mechanical farming presumably meant to signal modernization. Whether they are meant to domesticate technologies that are considered strange and threatening, or to extend the spiritual or political charisma of national leaders and religious figures to technology and agricultural development, they reflect an interesting compositional strategy.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Arvind Rajagopal</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The absence of women on the fields perhaps helps to locate the picture in terms of date and region, but it may appeal to prevailing patriarchal assumptions to render the image better able to circulate, presenting as it does male peasant labor alongside national leadership. Depiction of agricultural scenes alone would be uncertain in their meaning, presumably – even the sight of a prosperous field would not necessarily signal prosperity for all the viewers of these pictures. Images of technological development too do not necessarily provide the grounds of their own authority. But the figures of Christ and the Buddha above, and of Gandhi, Nehru and Rajendra Prasad imply an assurance that these scenes benefits from the moral authority of gods and political leaders both, with the halo around Gandhi suggesting he is both. The picture of a man driving bullocks on a field, encountering a boy on a tractor, with thatched roofs in the background, proposes, perhaps, the possibility of a reconciliation between the Gandhian republic and Nehruvian industrialism. The bubble in which this picture is contained, between sea and sky, and above the heads of political leaders, could indicate an idea as much as a real event. At any rate, political, technical and theological conventions intersect here, in a complex attempt at developmental propaganda, albeit one from below.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Arvind Rajagopal</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">A very similar print can be found in Pinney (2004) where he characterises Nehru's vision of a developed nation: &quot;... High-profile heavy engineering projects and a centralized administration were marks of his success, but most of India's rural population, while venerating him as a deity-like figure, experienced the state as a distant presence and their most pressing problems were those predicaments of poverty that had previously afflicted them.&quot; Cf. Christopher Pinney: Photos of the Gods, 2004, p. 146, with reference to image 111, on p. 147.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>cut at the sides</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=82&amp;EId=100&amp;ImageId=18</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/100/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/122993</ext:value>
+				<ext:value>122993</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:43">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

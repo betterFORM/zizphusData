@@ -1,34 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_ca2dfcea-3b2a-572e-bebb-610763c08963" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-0d27f21e-6ecb-5155-baff-0b7f8972b19e">Narang, S. D.</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-e3dc302a-5bad-5c51-be05-4e12762bbf52">Pilgaonkar, Sachin</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-5c5aa027-1fda-50bf-a324-94dbd0c48b4b">Bindiya Goswami</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<name vocab="local" type="personal" refid="uuid-5c5aa027-1fda-50bf-a324-94dbd0c48b4b">Goswami, Bindiya</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1978</earliestDate>
-				<latestDate>1978</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Half-clad man and woman in at a sea beach in a scene from a 1978 Hindi movie 'College Girl'. Produced by Shantilal Soni, directed by S. D. Narang. The film stars are Sachin, Bindiya Goswami, Rita Bhaduri, Bhagwan, Paintal and Shreeram Lagoo.</description>
+			<description lang="en" script="Latn">
+				<text>Half-clad man and woman in at a sea beach in a scene from a 1978 Hindi movie 'College Girl'. Produced by Shantilal Soni, directed by S. D. Narang. The film stars are Sachin, Bindiya Goswami, Rita Bhaduri, Bhagwan, Paintal and Shreeram Lagoo.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -44,10 +44,13 @@ Music Bhappi Lahiri</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119045" type="corporate">HeidICON Image Database</name>
+				<refid>119045</refid>
 			</location>
 		</locationSet>
 		<measurementsSet>
@@ -57,7 +60,8 @@ Music Bhappi Lahiri</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_40ede49d-891d-540b-b88a-da7c5c63aed2" refid="119045" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_40ede49d-891d-540b-b88a-da7c5c63aed2" refid="119045" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_73b811bf-c95d-52a6-81c6-47401970d1cb" refid="119046" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -65,77 +69,113 @@ Music Bhappi Lahiri</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0247257/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term>ocean</term>
+				<term type="concept">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d682edd8-6174-5fed-b5e8-e1dff9769f45">
-				<term>beach</term>
+				<term type="concept">beaches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a4079e9f-c552-5151-8946-ee9fa47142d7">
-				<term>College Girl</term>
+				<term type="concept">College Girl</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;College Girl&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;College Girl&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 S.D. Narang's 
 College Girls
 A Teenager Musical Romantic Thriller
 Produced &amp; Supervised by S.D. Narang
 Story &amp; Screenplay Shashi Bhooshan
 Directed by S.L. Soni
-Music Bhappi Lahiri</hra:value>
-				<hra:value>description-en:
-Half-clad man and woman in at a sea beach in a scene from a 1978 Hindi movie 'College Girl'. Produced by Shantilal Soni, directed by S. D. Narang. The film stars are Sachin, Bindiya Goswami, Rita Bhaduri, Bhagwan, Paintal and Shreeram Lagoo. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Story line of the movie: A newspaper editor, Shrivastav, is killed when he was about to expose the underworld links of a very rich and influential person. C.I.D. Inspector Shekhar is assigned to this case, an investigation of which leads him to suspect Dharamdas and his men. But Dharamdas spins a web of lies and deceit, and Shekhar himself becomes a suspect, and is arrested by the police, and loses his job, leaving Dharamdas and his men to carry on undeterred. http://www.imdb.com/title/tt0247257/ (gs)</hra:value>
-				<hra:value>related hyperlink:
-http://www.imdb.com/title/tt0247257/, last accessed 2011-12-04, story line, leading actors, director. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0247257/</hra:value>
-				<hra:value>2011-12-04</hra:value>
-				<hra:value>story line, leading actors, director.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119045</hra:value>
-				<hra:value>119045</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:34:31">
-			</hra:administrative>
-		</hra:heidicon>
+Music Bhappi Lahiri</ext:value>
+				<ext:value>description-en:
+Half-clad man and woman in at a sea beach in a scene from a 1978 Hindi movie 'College Girl'. Produced by Shantilal Soni, directed by S. D. Narang. The film stars are Sachin, Bindiya Goswami, Rita Bhaduri, Bhagwan, Paintal and Shreeram Lagoo. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Story line of the movie: A newspaper editor, Shrivastav, is killed when he was about to expose the underworld links of a very rich and influential person. C.I.D. Inspector Shekhar is assigned to this case, an investigation of which leads him to suspect Dharamdas and his men. But Dharamdas spins a web of lies and deceit, and Shekhar himself becomes a suspect, and is arrested by the police, and loses his job, leaving Dharamdas and his men to carry on undeterred. http://www.imdb.com/title/tt0247257/ (gs)</ext:value>
+				<ext:value>related hyperlink:
+http://www.imdb.com/title/tt0247257/, last accessed 2011-12-04, story line, leading actors, director. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0247257/</ext:value>
+				<ext:value type="accessed">2011-12-04</ext:value>
+				<ext:value type="comment">story line, leading actors, director.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Story line of the movie: A newspaper editor, Shrivastav, is killed when he was about to expose the underworld links of a very rich and influential person. C.I.D. Inspector Shekhar is assigned to this case, an investigation of which leads him to suspect Dharamdas and his men. But Dharamdas spins a web of lies and deceit, and Shekhar himself becomes a suspect, and is arrested by the police, and loses his job, leaving Dharamdas and his men to carry on undeterred. http://www.imdb.com/title/tt0247257/</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119046</ext:value>
+				<ext:value>i_73b811bf-c95d-52a6-81c6-47401970d1cb</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0247257/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119045</ext:value>
+				<ext:value>119045</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:24">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

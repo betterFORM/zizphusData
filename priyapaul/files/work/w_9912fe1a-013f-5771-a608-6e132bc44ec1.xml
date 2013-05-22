@@ -1,28 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_9912fe1a-013f-5771-a608-6e132bc44ec1" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-088240fa-d01e-587a-bee4-7bf0ac401445">Shiva</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-1685fe15-a821-57c3-b652-75f1b6fb75bd">Ravi &lt;artist&gt;</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-81b2891f-3075-539b-a5c7-f6edac212276">Ajanta Art Calender Mfg. Co.</name>
-				<role/>
+				<name vocab="local" type="corporate" refid="uuid-81b2891f-3075-539b-a5c7-f6edac212276">Ajanta Art Calendar Mfg. Co.</name>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">An image of Shiva with a snake around his neck and a woman wearing flowers and jewellery, performing puja (worship) with a lit lamp in her hand.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>An image of Shiva with a snake around his neck and a woman wearing flowers and jewellery, performing puja (worship) with a lit lamp in her hand.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -50,10 +56,13 @@ C A L C U T T A - 1</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109948" type="corporate">HeidICON Image Database</name>
+				<refid>109948</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -76,85 +85,86 @@ C A L C U T T A - 1</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e3d90b31-d015-5f0f-9b69-7844b074ef32">
-				<term>lamp</term>
+				<term type="concept">lamps (lighting devices)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term>snake</term>
+				<term type="animal">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ba3075b4-2471-56a5-bc06-fb4c8a788b76">
-				<term>devotional pictures</term>
+				<term type="concept">devotional pictures</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf13fdb5-676a-595d-b2ce-8249b1156c7f">
-				<term>Puja</term>
+				<term type="concept">Puja</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term>flower garland</term>
+				<term type="concept">husk (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Shiv Pujan&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Shiv Pujan&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">Worshipping Shiva</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Ravi</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Ravi</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Ajanta Art Calendar MFG. Co.
 17, Godown Street, P.B. No. 255
-M A D R A S - 1</hra:value>
-				<hra:value>text-en:
-Copyright Reserved</hra:value>
-				<hra:value>text-en:
+M A D R A S - 1</ext:value>
+				<ext:value>text-en:
+Copyright Reserved</ext:value>
+				<ext:value>text-en:
 703
-Shiv Pujan (2)</hra:value>
-				<hra:value>text-en:
+Shiv Pujan (2)</ext:value>
+				<ext:value>text-en:
 Ajanta Art Calendar MFG. Co.
 12, Lower Chitpur Road, 1st Floor, P. B. No. 962
 Room No. FF2 EAST, 
-C A L C U T T A - 1</hra:value>
-				<hra:value>description-en:
-An image of Shiva with a snake around his neck and a woman wearing flowers and jewellery, performing puja (worship) with a lit lamp in her hand. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109948</hra:value>
-				<hra:value>109948</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:14">
-			</hra:administrative>
-		</hra:heidicon>
+C A L C U T T A - 1</ext:value>
+				<ext:value>description-en:
+An image of Shiva with a snake around his neck and a woman wearing flowers and jewellery, performing puja (worship) with a lit lamp in her hand. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109948</ext:value>
+				<ext:value>109948</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:02">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

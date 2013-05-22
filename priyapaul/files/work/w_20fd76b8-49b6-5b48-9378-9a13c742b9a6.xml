@@ -1,24 +1,32 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_20fd76b8-49b6-5b48-9378-9a13c742b9a6" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-cfad0f4f-6122-51fd-9b39-3a1edf75ef8d">Robert Barbour &amp; Brother</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1905</earliestDate>
-				<latestDate>1905</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for Robert Barbour &amp; Brother, a young Caucasian woman with exposed shoulders and soft looking skin is sniffing yellow roses. The image is titled &quot;My Queen&quot;.</description>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for Robert Barbour &amp; Brother, a young Caucasian woman with exposed shoulders and soft looking skin is sniffing yellow roses. The image is titled &quot;My Queen&quot;.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-af8f5807-adaa-53c7-86ae-d4e2b4cec252">Schmidt, Matthias</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -67,10 +75,13 @@ Dhooties, &amp;c. Printed Sarries.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118945" type="corporate">HeidICON Image Database</name>
+				<refid>118945</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -91,74 +102,91 @@ Dhooties, &amp;c. Printed Sarries.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term>rose</term>
+				<term type="plant">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term>Caucasian type</term>
+				<term type="concept">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term>recheck-Matthias</term>
+				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
-				<term>black hair</term>
+				<term type="concept">black hair</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Robert Barbour &amp; Brother</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Robert Barbour &amp; Brother</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Robert Barbour &amp; Brother
 Merchants &amp; Shippers, Manchester.
-1905</hra:value>
-				<hra:value>text-en:
-&quot;My Queen.&quot;</hra:value>
-				<hra:value>text-en:
-MacLure, MacDonald &amp; Co., Ornamental Printers to the late Queen, Glasgow.</hra:value>
-				<hra:value>text-en:
+1905</ext:value>
+				<ext:value>text-en:
+&quot;My Queen.&quot;</ext:value>
+				<ext:value>text-en:
+MacLure, MacDonald &amp; Co., Ornamental Printers to the late Queen, Glasgow.</ext:value>
+				<ext:value>text-en:
 With Best Wishes for a Prosperous New Year
 ...From...
 Robert Barbour &amp; Brother, 
 Manchester. 
 Shippers to
-All Markets of the World.</hra:value>
-				<hra:value>text-en:
+All Markets of the World.</ext:value>
+				<ext:value>text-en:
 Virtute Tutus [on emblem]
-Established 1815.</hra:value>
-				<hra:value>text-en:
+Established 1815.</ext:value>
+				<ext:value>text-en:
 Silcar (unclear)
-Pintro (unclear) 56750</hra:value>
-				<hra:value>text-en:
+Pintro (unclear) 56750</ext:value>
+				<ext:value>text-en:
 Virtute Tutus [on emblem]
-Established 1815.</hra:value>
-				<hra:value>text-en:
+Established 1815.</ext:value>
+				<ext:value>text-en:
 Specialities:
 Hand &amp; Key White Shirtings,
 Prints, Woollens,
@@ -166,55 +194,118 @@ Printed and Cotton Domettes,
 Velvets, Trouserings,
 And all kinds of Fancies.
 Grey and white Shirtings, Nainsooks,
-Dhooties, &amp;c. Printed Sarries.</hra:value>
-				<hra:value>description-en:
-On this advertisement for Robert Barbour &amp; Brother, a young Caucasian woman with exposed shoulders and soft looking skin is sniffing yellow roses. The image is titled &quot;My Queen&quot;. (gs/ms/tb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080701_1754.jpg</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The Barbours were manufacturers and traders of linen. (ys)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Robt. Barbour &amp; Brother was the trading name of George Beatson Blair and James Thomas Blair, Manchester, merchants and shippers, cf. http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3 (ma)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-George Beatson Blair lived 1859-1940, James Thomas Blair lived 1863-1917, cf. http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16 (ma)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3, last accessed 2012-01-18, document of 1 Ja. 1909, held at Manchester Archives and Local Studies which identifies the Blair brothers George Beatson and James Thomas with &quot;Robt. Barbour and Brother&quot; (ma)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16, last accessed 2012-01-18, genealogy data record (ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</hra:value>
-				<hra:value>2012-01-18</hra:value>
-				<hra:value>genealogy data record</hra:value>
-				<hra:value>|3|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</hra:value>
-				<hra:value>2012-01-18</hra:value>
-				<hra:value>document of 1 Ja. 1909, held at Manchester Archives and Local Studies which identifies the Blair brothers George Beatson and James Thomas with &quot;Robt. Barbour and Brother&quot;</hra:value>
-				<hra:value>|3|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>The poster is torn but the frame is good.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118945</hra:value>
-				<hra:value>118945</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:30:01">
-			</hra:administrative>
-		</hra:heidicon>
+Dhooties, &amp;c. Printed Sarries.</ext:value>
+				<ext:value>description-en:
+On this advertisement for Robert Barbour &amp; Brother, a young Caucasian woman with exposed shoulders and soft looking skin is sniffing yellow roses. The image is titled &quot;My Queen&quot;. (gs/ms/tb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080701_1754.jpg</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The Barbours were manufacturers and traders of linen. (ys)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Robt. Barbour &amp; Brother was the trading name of George Beatson Blair and James Thomas Blair, Manchester, merchants and shippers, cf. http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3 (ma)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+George Beatson Blair lived 1859-1940, James Thomas Blair lived 1863-1917, cf. http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16 (ma)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3, last accessed 2012-01-18, document of 1 Ja. 1909, held at Manchester Archives and Local Studies which identifies the Blair brothers George Beatson and James Thomas with &quot;Robt. Barbour and Brother&quot; (ma)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16, last accessed 2012-01-18, genealogy data record (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</ext:value>
+				<ext:value type="accessed">2012-01-18</ext:value>
+				<ext:value type="comment">genealogy data record</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</ext:value>
+				<ext:value type="accessed">2012-01-18</ext:value>
+				<ext:value type="comment">document of 1 Ja. 1909, held at Manchester Archives and Local Studies which identifies the Blair brothers George Beatson and James Thomas with &quot;Robt. Barbour and Brother&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">George Beatson Blair lived 1859-1940, James Thomas Blair lived 1863-1917, cf. http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080701_1754.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Robt. Barbour &amp; Brother was the trading name of George Beatson Blair and James Thomas Blair, Manchester, merchants and shippers, cf. http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The Barbours were manufacturers and traders of linen.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Saeed, Yousuf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-0fa63dfc-fbb1-5698-9896-cce0c0ac1c2b</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>The poster is torn but the frame is good.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118945</ext:value>
+				<ext:value>118945</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:38">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

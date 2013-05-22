@@ -1,29 +1,33 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_9668c156-00b8-51f8-9a82-f35a14baead6" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-91b60b26-decc-5f43-a36f-56217e9ac3b0">Kumar, Vinod</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-aff1c52b-5b53-5054-8cd2-fc2969585efb">Sinha, Mala</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1964</earliestDate>
-				<latestDate>1964</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Shashikala, one of the main actresses of Vinod Kumar's &quot;Jahan Ara&quot; is depicted running down the stairs into a hall of a palace, where Mala Sinha is sitting above a flight of stairs. The stairs have a number of tiger hide rugs lying on them. The hall is decorated in the Mughal style with pillars and arches.</description>
+			<description lang="en" script="Latn">
+				<text>Shashikala, one of the main actresses of Vinod Kumar's &quot;Jahan Ara&quot; is depicted running down the stairs into a hall of a palace, where Mala Sinha is sitting above a flight of stairs. The stairs have a number of tiger hide rugs lying on them. The hall is decorated in the Mughal style with pillars and arches.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -59,10 +63,13 @@ Om Prakash Bakshi</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120857" type="corporate">HeidICON Image Database</name>
+				<refid>120857</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -83,52 +90,69 @@ Om Prakash Bakshi</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.imdb.com/title/tt0137847/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1960s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a7268665-ba9d-5c6f-b4fe-ccaaa7062497">
-				<term>Jahan Ara Movie</term>
+				<term type="work (movie)">Jahan Ara (movie)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Jahan Ara&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jahan Ara&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">जहाँ आरा, جہاں آرا</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Light &amp; Shade presents</hra:value>
-				<hra:value>text-en:
-Jahan ara</hra:value>
-				<hra:value>text-en:
-eastmancolor</hra:value>
-				<hra:value>text-hi:
-जहाँ आरा</hra:value>
-				<hra:value>text-ur:
- جہاں آرا</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Light &amp; Shade presents</ext:value>
+				<ext:value>text-en:
+Jahan ara</ext:value>
+				<ext:value>text-en:
+eastmancolor</ext:value>
+				<ext:value>text-hi:
+जहाँ आरा</ext:value>
+				<ext:value>text-ur:
+ جہاں آرا</ext:value>
+				<ext:value>text-en:
 written &amp; directed by
 Vinod Kumar
 music
@@ -140,68 +164,147 @@ G. Singh
 art
 Sant Singh
 produced by
-Om Prakash Bakshi</hra:value>
-				<hra:value>description-en:
-Shashikala, one of the main actresses of Vinod Kumar's &quot;Jahan Ara&quot; is depicted running down the stairs into a hall of a palace, where Mala Sinha is sitting above a flight of stairs. The stairs have a number of tiger hide rugs lying on them. The hall is decorated in the Mughal style with pillars and arches. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging: 
-This cinema lobby card from Jahan Ara (Vinod Kumar, 1964) encapsulates the dream-like beauty of a quasi-Mughal imaginary. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging: 
-The padded tigers next to Mala Sinha contribute to the orientalist image constructed in this image. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging: 
-Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights. (Rosie Thomas) (gs)</hra:value>
-				<hra:value>related literature: 
-Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</hra:value>
-				<hra:value>related literature: 
-Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-18. 18. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0137847/plotsummary, last accessed 2010-10-28. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010-10-28. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-18. 18.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0137847/plotsummary</hra:value>
-				<hra:value>2010-10-28</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</hra:value>
-				<hra:value>2010-10-28</hra:value>
-				<hra:value>Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Mala Sinha</hra:value>
-			</hra:item>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Shashikala</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120857</hra:value>
-				<hra:value>120857</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:04">
-			</hra:administrative>
-		</hra:heidicon>
+Om Prakash Bakshi</ext:value>
+				<ext:value>description-en:
+Shashikala, one of the main actresses of Vinod Kumar's &quot;Jahan Ara&quot; is depicted running down the stairs into a hall of a palace, where Mala Sinha is sitting above a flight of stairs. The stairs have a number of tiger hide rugs lying on them. The hall is decorated in the Mughal style with pillars and arches. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging: 
+This cinema lobby card from Jahan Ara (Vinod Kumar, 1964) encapsulates the dream-like beauty of a quasi-Mughal imaginary. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging: 
+The padded tigers next to Mala Sinha contribute to the orientalist image constructed in this image. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging: 
+Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights. (Rosie Thomas) (gs)</ext:value>
+				<ext:value>related literature: 
+Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</ext:value>
+				<ext:value>related literature: 
+Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-18. 18. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0137847/plotsummary, last accessed 2010-10-28. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010-10-28. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-18. 18.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0137847/plotsummary</ext:value>
+				<ext:value type="accessed">2010-10-28</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+				<ext:value type="accessed">2010-10-28</ext:value>
+				<ext:value type="comment">Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This cinema lobby card from Jahan Ara (Vinod Kumar, 1964) encapsulates the dream-like beauty of a quasi-Mughal imaginary.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The padded tigers next to Mala Sinha contribute to the orientalist image constructed in this image.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Mala Sinha</ext:value>
+			</ext:item>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Shashikala</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.imdb.com/title/tt0137847/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120857</ext:value>
+				<ext:value>120857</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:12">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,28 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_1a3de861-c763-5ab4-bbca-1ebff28a0456" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-e8ea5c01-359f-5bd1-807f-dc309b1d8eb6">Ram, Atma</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-70aa51a2-0cc1-54f1-841e-0a2d62293928">Akashdeep</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-e65441e0-75c6-5e4f-94a9-fcfb47d482d8">Bose, Bela</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this movie poster for the 1960s Hindi film &quot;Chanda aur Bijli&quot;  two of the main actors are depicted sitting together and filling liquor into a glass. One of them smokes a cigarette, there is food and a candle on the table in front of them. In the background, a window with colored glass as well as several pictures of women can be seen on the wall.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this movie poster for the 1960s Hindi film &quot;Chanda aur Bijli&quot;  two of the main actors are depicted sitting together and filling liquor into a glass. One of them smokes a cigarette, there is food and a candle on the table in front of them. In the background, a window with colored glass as well as several pictures of women can be seen on the wall.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -36,10 +42,13 @@ Music Shanker Jaikishan</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119044" type="corporate">HeidICON Image Database</name>
+				<refid>119044</refid>
 			</location>
 		</locationSet>
 		<measurementsSet>
@@ -57,96 +66,125 @@ Music Shanker Jaikishan</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0147973/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="3ef8b896-8dbc-511d-a14c-97abc67bf367">
-				<term>table</term>
+				<term type="concept">tables (support furniture)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1abc249a-51a4-52a0-8d0e-ba323124f1c5">
-				<term>candle</term>
+				<term type="concept">candles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c1b6ad-3105-55a8-b39b-cf71d9de6c66">
-				<term>window</term>
+				<term type="concept">windows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92d81854-48e0-5626-a990-1482be071f71">
-				<term>food</term>
+				<term type="concept">food</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4666e2ff-4cf6-5025-9525-c0cc88c84df9">
-				<term>cigarette</term>
+				<term type="concept">cigarettes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
-				<term>smoking</term>
+				<term type="concept">smoking (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0f802bfe-42d5-5765-8075-da5c5506733c">
-				<term>Chanda aur Bijli</term>
+				<term type="work (movie)">Chanda aur Bijli</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="112bac83-ccb5-5208-97c3-308028506ba8">
-				<term>liquor</term>
+				<term type="concept">liquor</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Chanda Aur Bijli&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Chanda Aur Bijli&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Guru Dutt Films Combine present
 Chanda aur Bijli
 in Eastmancolor
 Direction Atma Ram
-Music Shanker Jaikishan</hra:value>
-				<hra:value>description-en:
-On this movie poster for the 1960s Hindi film &quot;Chanda aur Bijli&quot;  two of the main actors are depicted sitting together and filling liquor into a glass. One of them smokes a cigarette, there is food and a candle on the table in front of them. In the background, a window with colored glass as well as several pictures of women can be seen on the wall. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Story line of the movie: A beautiful street dancer Bijli is in a gang of petty thieves. Sachin is the heir to a heritage household but due to the death of his parents lands up in a orphanage. In the orphanage when the children are ill -treated by the manager, his royal blood automatically singles him out to take cudgels for the rest of the children. He dares to challenge the Orphanage manager and is severely beaten and reprimanded. Meanwhile the servant woman (midwife) who had helped to deliver him, and who stole his mother's bangles and other proof of his royal lineage is on her death bed. She summons the orphanage manager and gives him the proof of Chanda's birth to atone for her sins before dyeing. But the orphanage manager plays mischief and along with the adopted son of the royal grandparents plans to eliminate Chanda. Chanda runs away and joins a petty thieves gang by chance, but is unable to adapt himself to their ways... http://www.imdb.com/title/tt0147973/ (gs)</hra:value>
-				<hra:value>related hyperlink:
-http://www.imdb.com/title/tt0147973/, last accessed 2011-12-03, storly line, leading actors, director.(gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0147973/</hra:value>
-				<hra:value>2011-12-03</hra:value>
-				<hra:value>storly line, leading actors, director.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119044</hra:value>
-				<hra:value>119044</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:34:28">
-			</hra:administrative>
-		</hra:heidicon>
+Music Shanker Jaikishan</ext:value>
+				<ext:value>description-en:
+On this movie poster for the 1960s Hindi film &quot;Chanda aur Bijli&quot;  two of the main actors are depicted sitting together and filling liquor into a glass. One of them smokes a cigarette, there is food and a candle on the table in front of them. In the background, a window with colored glass as well as several pictures of women can be seen on the wall. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Story line of the movie: A beautiful street dancer Bijli is in a gang of petty thieves. Sachin is the heir to a heritage household but due to the death of his parents lands up in a orphanage. In the orphanage when the children are ill -treated by the manager, his royal blood automatically singles him out to take cudgels for the rest of the children. He dares to challenge the Orphanage manager and is severely beaten and reprimanded. Meanwhile the servant woman (midwife) who had helped to deliver him, and who stole his mother's bangles and other proof of his royal lineage is on her death bed. She summons the orphanage manager and gives him the proof of Chanda's birth to atone for her sins before dyeing. But the orphanage manager plays mischief and along with the adopted son of the royal grandparents plans to eliminate Chanda. Chanda runs away and joins a petty thieves gang by chance, but is unable to adapt himself to their ways... http://www.imdb.com/title/tt0147973/ (gs)</ext:value>
+				<ext:value>related hyperlink:
+http://www.imdb.com/title/tt0147973/, last accessed 2011-12-03, storly line, leading actors, director.(gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0147973/</ext:value>
+				<ext:value type="accessed">2011-12-03</ext:value>
+				<ext:value type="comment">storly line, leading actors, director.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Story line of the movie: A beautiful street dancer Bijli is in a gang of petty thieves. Sachin is the heir to a heritage household but due to the death of his parents lands up in a orphanage. In the orphanage when the children are ill -treated by the manager, his royal blood automatically singles him out to take cudgels for the rest of the children. He dares to challenge the Orphanage manager and is severely beaten and reprimanded. Meanwhile the servant woman (midwife) who had helped to deliver him, and who stole his mother's bangles and other proof of his royal lineage is on her death bed. She summons the orphanage manager and gives him the proof of Chanda's birth to atone for her sins before dyeing. But the orphanage manager plays mischief and along with the adopted son of the royal grandparents plans to eliminate Chanda. Chanda runs away and joins a petty thieves gang by chance, but is unable to adapt himself to their ways... http://www.imdb.com/title/tt0147973/</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0147973/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119044</ext:value>
+				<ext:value>119044</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:21">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

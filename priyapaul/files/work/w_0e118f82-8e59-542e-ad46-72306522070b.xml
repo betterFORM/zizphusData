@@ -1,33 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_0e118f82-8e59-542e-ad46-72306522070b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="11928295X" pref="true">Ravi Varma, Raja</name>
-				<role/>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="personal" refid="uuid-f16038a5-7630-5bb9-8d9e-a3d5f7faa3a2">Sita</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-6a2e3bc2-f7f2-534f-bcac-5870a237313e">Ravi Varma, Raja</name>
-				<role vocab="marcrelator" code="art">Artist</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this image Sita is depicted sitting alone on a boulder in front of a tree.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>In this image Sita is depicted sitting alone on a boulder in front of a tree.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -43,10 +39,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109757" type="corporate">HeidICON Image Database</name>
+				<refid>109757</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -59,7 +58,8 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_38872cce-6db6-5b94-af9f-034e81ab9373" refid="109757" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_38872cce-6db6-5b94-af9f-034e81ab9373" refid="109757" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_e3825533-9945-5fd9-b6c1-a2ca49eaeaf8" refid="108074" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -69,74 +69,96 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3db1d222-d591-5e56-9c91-097667ccf170">
-				<term>Ramayana</term>
+				<term type="work (epic)">Ramayana</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term>lake</term>
+				<term type="concept">lakes (bodies of water)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term>picture postcards</term>
+				<term type="worktype">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Sita-Vanvas&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sita-Vanvas&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Ravi Varma, Raja</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Ravi Varma</hra:value>
-				<hra:value>text-en:
-Sita-Vanvas.</hra:value>
-				<hra:value>description-en:
-In this image Sita is depicted sitting alone on a boulder in front of a tree. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-While Sita was with Rama in exile in the forest, Ravana the king of Lanka kidnapped her and kept her confined in Ashok Vana in Lanka with demons to watch over her. This picture possibly represents that. The image is a postcard of a famous Raja Ravi Varma painting. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109757</hra:value>
-				<hra:value>109757</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:42:13">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Ravi Varma, Raja</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Ravi Varma</ext:value>
+				<ext:value>text-en:
+Sita-Vanvas.</ext:value>
+				<ext:value>description-en:
+In this image Sita is depicted sitting alone on a boulder in front of a tree. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+While Sita was with Rama in exile in the forest, Ravana the king of Lanka kidnapped her and kept her confined in Ashok Vana in Lanka with demons to watch over her. This picture possibly represents that. The image is a postcard of a famous Raja Ravi Varma painting. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">While Sita was with Rama in exile in the forest, Ravana the king of Lanka kidnapped her and kept her confined in Ashok Vana in Lanka with demons to watch over her. This picture possibly represents that. The image is a postcard of a famous Raja Ravi Varma painting.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108074</ext:value>
+				<ext:value>i_e3825533-9945-5fd9-b6c1-a2ca49eaeaf8</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109757</ext:value>
+				<ext:value>109757</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:50">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

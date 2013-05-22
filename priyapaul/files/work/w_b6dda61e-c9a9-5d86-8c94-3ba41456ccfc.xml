@@ -1,24 +1,32 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_b6dda61e-c9a9-5d86-8c94-3ba41456ccfc" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-cfad0f4f-6122-51fd-9b39-3a1edf75ef8d">Robert Barbour &amp; Brother</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1907</earliestDate>
-				<latestDate>1907</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">This poster calendar of Robert Barbour &amp; Brother depicts different women in various costumes. The corners of the poster bear depictions of famous Indian tourist spots such as the Taj Mahal. There is a picture of a forearm holding a golden key in its hand in the lower middle of the poster.</description>
+			<description lang="en" script="Latn">
+				<text>This poster calendar of Robert Barbour &amp; Brother depicts different women in various costumes. The corners of the poster bear depictions of famous Indian tourist spots such as the Taj Mahal. There is a picture of a forearm holding a golden key in its hand in the lower middle of the poster.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -83,10 +91,13 @@ Warehouse</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118492" type="corporate">HeidICON Image Database</name>
+				<refid>118492</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -99,7 +110,13 @@ Warehouse</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_5566f903-d9a9-5cc8-80bd-96a252c728de" refid="118492" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_5566f903-d9a9-5cc8-80bd-96a252c728de" refid="118492" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_e4deec97-8521-5a2d-82c2-4ba2bdcd34d9" refid="118501" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_30268668-341f-5121-898d-0f260078c87f" refid="118499" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_5e2dc338-351e-50c9-9bf3-c11ddc74ff03" refid="118496" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_ed185f61-441b-52e4-b4de-6ad9debb6119" refid="118498" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_ec0f1cfc-65e6-5e0c-b6fa-886892a7d9d5" refid="118500" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_4d0df47a-79e6-5dfc-b38c-17e512e5bc46" refid="118497" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,87 +124,104 @@ Warehouse</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="3436658c-0d9d-5948-82c5-5fc5952189b8">
-				<term>key</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="91e82ec4-e08d-5170-9d2e-60785a644748">
-				<term>Taj Mahal, Agra</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="5cb39fb7-c9ee-5f79-86ef-9e52ab7e4752">
-				<term>Lahore</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7ea790a6-94bc-5b76-bd89-dafa07e2ba64">
-				<term>emblem</term>
+				<term type="concept">emblem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d422a5e0-c57f-520d-b80d-9ce67fff49e1">
-				<term>hat</term>
+				<term type="concept">hats</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3436658c-0d9d-5948-82c5-5fc5952189b8">
+				<term type="concept">keys (hardware)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="91e82ec4-e08d-5170-9d2e-60785a644748">
+				<term type="work (architecture)">Taj Mahal</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="75c2ae8a-d15e-502f-a615-3436e2909c3f">
-				<term>fashion</term>
+				<term type="concept">fashion (concept)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="497e7cde-6ecd-552d-86fe-4d2ff6797b29">
-				<term>clown</term>
+				<term type="concept">clowns</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="334ddc14-ee9e-5771-9e4f-80546b768f29">
-				<term>dress</term>
+				<term type="concept">dresses (garments)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="5cb39fb7-c9ee-5f79-86ef-9e52ab7e4752">
+				<term type="geographic">Lahore</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term>Caucasian type</term>
+				<term type="concept">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
-				<term>western woman</term>
+				<term type="concept">Western women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
-				<term>garden</term>
+				<term type="concept">gardens</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f2ea685-3886-5251-808e-9dc57c8feac2">
-				<term>warehouse</term>
+				<term type="concept">warehouse</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">With Compliments from Robert Barbour &amp; Brother, Manchester</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">With Compliments from Robert Barbour &amp; Brother, Manchester</title>
 		</titleSet>
 		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
-			<worktype>posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 With compliments from
 Robt. Barbour &amp; Bro.
-Manchester</hra:value>
-				<hra:value>text-en:
+Manchester</ext:value>
+				<ext:value>text-en:
 With best wishes for a 
 prosperous year
 From
 Robt. Barbour &amp; Bro.
 Manchester
 Merchants &amp; Shippers
-to all Markets of the World.</hra:value>
-				<hra:value>text-en:
+to all Markets of the World.</ext:value>
+				<ext:value>text-en:
 Leading Specialities
 Domettes. Printed and Dyed.
 Prints. Shirting and Fancy.
@@ -196,78 +230,173 @@ Fancies, Oxfords, Flannelettes, Zephyrs, Trouserings, Velvets, etc.
 Sarries, Printed and White.
 Shirtings, Grey and White.
 Nainsooks, Dhooties etc.
-Hand &amp; Key White Shirtings.</hra:value>
-				<hra:value>text-en:
-Armitage &amp; Ibbetson, Ltd., Lithos, Manchester &amp; Bradford.</hra:value>
-				<hra:value>text-en:
-25.460 [indecipherable handwriting, lower edge]</hra:value>
-				<hra:value>text-en:
+Hand &amp; Key White Shirtings.</ext:value>
+				<ext:value>text-en:
+Armitage &amp; Ibbetson, Ltd., Lithos, Manchester &amp; Bradford.</ext:value>
+				<ext:value>text-en:
+25.460 [indecipherable handwriting, lower edge]</ext:value>
+				<ext:value>text-en:
 Virtute Tutus
 Ich Dien
-Virtute Tutus</hra:value>
-				<hra:value>text-en:
+Virtute Tutus</ext:value>
+				<ext:value>text-en:
 Wonderful Gardens 
-of Lahore</hra:value>
-				<hra:value>text-en:
+of Lahore</ext:value>
+				<ext:value>text-en:
 The Taj Mahal
-Agra</hra:value>
-				<hra:value>text-en:
-Pearl Mosque at Delhi</hra:value>
-				<hra:value>text-en:
+Agra</ext:value>
+				<ext:value>text-en:
+Pearl Mosque at Delhi</ext:value>
+				<ext:value>text-en:
 Robt. Barbour &amp; Bro.
-Warehouse</hra:value>
-				<hra:value>text-en:
-Palace of Udaipur from the Lake.</hra:value>
-				<hra:value>text-en:
-1907 Calendar 1907</hra:value>
-				<hra:value>description-en:
-This poster calendar of Robert Barbour &amp; Brother depicts different women in various costumes. The corners of the poster bear depictions of famous Indian tourist spots such as the Taj Mahal. There is a picture of a forearm holding a golden key in its hand in the lower middle of the poster. (ma/gs/tb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080502_0484.jpg</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The Barbours were manufacturers and traders of linen. (ys)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Robt. Barbour &amp; Brother was the trading name of George Beatson Blair and James Thomas Blair, Manchester, merchants and shippers, cf. http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3 (ma)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-George Beatson Blair lived 1859-1940, James Thomas Blair lived 1863-1917, cf. http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16 (ma)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3, last accessed 2012-01-18, document of 1 Ja. 1909, held at Manchester Archives and Local Studies which identifies the Blair brothers George Beatson and James Thomas with &quot;Robt. Barbour and Brother&quot; (ma)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16, last accessed 2012-01-18, genealogy data record (ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</hra:value>
-				<hra:value>2012-01-18</hra:value>
-				<hra:value>genealogy data record</hra:value>
-				<hra:value>|3|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</hra:value>
-				<hra:value>2012-01-18</hra:value>
-				<hra:value>document of 1 Ja. 1909, held at Manchester Archives and Local Studies which identifies the Blair brothers George Beatson and James Thomas with &quot;Robt. Barbour and Brother&quot;</hra:value>
-				<hra:value>|3|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118492</hra:value>
-				<hra:value>118492</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:32:23">
-			</hra:administrative>
-		</hra:heidicon>
+Warehouse</ext:value>
+				<ext:value>text-en:
+Palace of Udaipur from the Lake.</ext:value>
+				<ext:value>text-en:
+1907 Calendar 1907</ext:value>
+				<ext:value>description-en:
+This poster calendar of Robert Barbour &amp; Brother depicts different women in various costumes. The corners of the poster bear depictions of famous Indian tourist spots such as the Taj Mahal. There is a picture of a forearm holding a golden key in its hand in the lower middle of the poster. (ma/gs/tb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080502_0484.jpg</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The Barbours were manufacturers and traders of linen. (ys)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Robt. Barbour &amp; Brother was the trading name of George Beatson Blair and James Thomas Blair, Manchester, merchants and shippers, cf. http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3 (ma)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+George Beatson Blair lived 1859-1940, James Thomas Blair lived 1863-1917, cf. http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16 (ma)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3, last accessed 2012-01-18, document of 1 Ja. 1909, held at Manchester Archives and Local Studies which identifies the Blair brothers George Beatson and James Thomas with &quot;Robt. Barbour and Brother&quot; (ma)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16, last accessed 2012-01-18, genealogy data record (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</ext:value>
+				<ext:value type="accessed">2012-01-18</ext:value>
+				<ext:value type="comment">genealogy data record</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</ext:value>
+				<ext:value type="accessed">2012-01-18</ext:value>
+				<ext:value type="comment">document of 1 Ja. 1909, held at Manchester Archives and Local Studies which identifies the Blair brothers George Beatson and James Thomas with &quot;Robt. Barbour and Brother&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">George Beatson Blair lived 1859-1940, James Thomas Blair lived 1863-1917, cf. http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The Barbours were manufacturers and traders of linen.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Saeed, Yousuf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-0fa63dfc-fbb1-5698-9896-cce0c0ac1c2b</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Robt. Barbour &amp; Brother was the trading name of George Beatson Blair and James Thomas Blair, Manchester, merchants and shippers, cf. http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080502_0484.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118501</ext:value>
+				<ext:value>i_e4deec97-8521-5a2d-82c2-4ba2bdcd34d9</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118499</ext:value>
+				<ext:value>i_30268668-341f-5121-898d-0f260078c87f</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118496</ext:value>
+				<ext:value>i_5e2dc338-351e-50c9-9bf3-c11ddc74ff03</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118498</ext:value>
+				<ext:value>i_ed185f61-441b-52e4-b4de-6ad9debb6119</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118500</ext:value>
+				<ext:value>i_ec0f1cfc-65e6-5e0c-b6fa-886892a7d9d5</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118497</ext:value>
+				<ext:value>i_4d0df47a-79e6-5dfc-b38c-17e512e5bc46</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.nationalarchives.gov.uk/A2A/records.aspx?cat=127-m294&amp;cid=4-5-3-3#4-5-3-3</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118492</ext:value>
+				<ext:value>118492</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:04">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_5a1e63b1-5ab8-53e1-b12b-128f8c40b25e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Two Indian women in two different settings: On the right, a traditionally sari clad bindi wearing woman can be seen in front of a darkish background. On the left, a jewellery wearing fair skinned Indian woman is sitting behind a huge fruit basket. Some buildings with typical architecture for the subcontinent are depicted in the background.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Two Indian women in two different settings: On the right, a traditionally sari clad bindi wearing woman can be seen in front of a darkish background. On the left, a jewellery wearing fair skinned Indian woman is sitting behind a huge fruit basket. Some buildings with typical architecture for the subcontinent are depicted in the background.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -17,10 +23,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117994" type="corporate">HeidICON Image Database</name>
+				<refid>117994</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -34,56 +43,67 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="344a6b29-b2b4-5490-8024-2ab8751ed66d">
-				<term>cosmetic product</term>
+				<term type="concept">cosmetics</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="02b51bb8-ee58-5656-b7a2-83dd610accc4">
-				<term>fruit basket</term>
+				<term type="concept">fruit baskets</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
-				<term>hair oil</term>
+				<term type="concept">hair oil</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Two images of advertisement of hair oil</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Two images of advertisement of hair oil</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-143</hra:value>
-				<hra:value>description-en:
-Two Indian women in two different settings: On the right, a traditionally sari clad bindi wearing woman can be seen in front of a darkish background. On the left, a jewellery wearing fair skinned Indian woman is sitting behind a huge fruit basket. Some buildings with typical architecture for the subcontinent are depicted in the background. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1961b.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/117994</hra:value>
-				<hra:value>117994</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:33:01">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+143</ext:value>
+				<ext:value>description-en:
+Two Indian women in two different settings: On the right, a traditionally sari clad bindi wearing woman can be seen in front of a darkish background. On the left, a jewellery wearing fair skinned Indian woman is sitting behind a huge fruit basket. Some buildings with typical architecture for the subcontinent are depicted in the background. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1961b.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1961b.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/117994</ext:value>
+				<ext:value>117994</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:55">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

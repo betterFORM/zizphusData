@@ -1,24 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_9881a19a-d657-5f57-a983-a2ea92d69144" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-0813ec19-f470-5797-b003-eb5b34c0cc7d">Dayal, Prabhu</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1930</earliestDate>
-				<latestDate>1930</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Poster, circa 1930 shows plight of Indian farmers at Bardoli, Gujrat, India. The title 'Bardoli Vijay' translates to 'Bardoli Victory'. The poster shows British officials forcefully seizing personal belongings and cattle belonging to the farmers in the area, while a farmer protests. It also shows a couple with a child cooking to the left of the image and an official shutting or locking a door.</description>
+			<description lang="en" script="Latn">
+				<text>Poster, circa 1930 shows plight of Indian farmers at Bardoli, Gujrat, India. The title 'Bardoli Vijay' translates to 'Bardoli Victory'. The poster shows British officials forcefully seizing personal belongings and cattle belonging to the farmers in the area, while a farmer protests. It also shows a couple with a child cooking to the left of the image and an official shutting or locking a door.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -65,10 +65,13 @@ Chowk Cawnpur</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109932" type="corporate">HeidICON Image Database</name>
+				<refid>109932</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -91,108 +94,120 @@ Chowk Cawnpur</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="b29b5d97-fadf-5144-940c-32755a9e943e">
-				<term>British Empire</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
-				<term>India</term>
+				<term type="geographic">British Empire</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c15d0ad-68a0-587f-9469-7358e1c0e0d8">
-				<term>field</term>
+				<term type="concept">field (land)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9690f13a-ec24-50a6-af14-6d414f45e156">
-				<term>village</term>
+				<term type="concept">villages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term>uniform</term>
+				<term type="concept">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term>cow</term>
+				<term type="animal">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7e92472b-3caa-5f8a-a989-2e8e2b980481">
-				<term>colonialism</term>
+				<term type="concept">colonialism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3a61449f-6f30-50ed-9cde-c95a68808149">
-				<term>village life</term>
+				<term type="concept">country life</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6fe13d28-c3a2-5a7f-b196-5d6e334cae70">
-				<term>Colonial India</term>
+				<term type="concept">Colonial India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Bardali Bijay&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Bardali Bijay&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">Bardoli Bijay</title>
 			<title type="descriptive" pref="false" lang="" script="">बारदोली विजय</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Dayal, Prabhu</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Bardali Bijay</hra:value>
-				<hra:value>text-hi:
-बारदोली विजय</hra:value>
-				<hra:value>text-transcription-hi:
-Bardoli Vijay</hra:value>
-				<hra:value>text-transcription-hi:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Dayal, Prabhu</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Bardali Bijay</ext:value>
+				<ext:value>text-hi:
+बारदोली विजय</ext:value>
+				<ext:value>text-transcription-hi:
+Bardoli Vijay</ext:value>
+				<ext:value>text-transcription-hi:
 Prakashak
 Shyam Sunder Lal
 Picture Merchant
-Chowk Kanpur</hra:value>
-				<hra:value>text-en:
+Chowk Kanpur</ext:value>
+				<ext:value>text-en:
 Prabhu Dayal, 1930
-[artists signature]</hra:value>
-				<hra:value>text-en:
+[artists signature]</ext:value>
+				<ext:value>text-en:
 if not paid
-steel</hra:value>
-				<hra:value>text-en:
+steel</ext:value>
+				<ext:value>text-en:
 Published by SHYAM SUNDER LAL
 Picture Merchant
-Chowk Cawnpur</hra:value>
-				<hra:value>text-en:
-Lakshmibilas Press Ltd., Calcutta.</hra:value>
-				<hra:value>text-en:
-Copy Right No. 68</hra:value>
-				<hra:value>text-en:
-Copyright: Shyam Sunderlal, Kanpur</hra:value>
-				<hra:value>description-en:
-Poster, circa 1930 shows plight of Indian farmers at Bardoli, Gujrat, India. The title 'Bardoli Vijay' translates to 'Bardoli Victory'. The poster shows British officials forcefully seizing personal belongings and cattle belonging to the farmers in the area, while a farmer protests. It also shows a couple with a child cooking to the left of the image and an official shutting or locking a door. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Bardoli in Gujarat during the period suffered from natural calamities and increased tax rates by the British government. This was an important point in Gandhi's independence movement and fight against the British to return confiscated lands and property. The farmers eventually won and this image could possibly be a reference to this. 'Bardali' in the title is possibly a local variation in spelling of Bardoli. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109932</hra:value>
-				<hra:value>109932</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:49:49">
-			</hra:administrative>
-		</hra:heidicon>
+Chowk Cawnpur</ext:value>
+				<ext:value>text-en:
+Lakshmibilas Press Ltd., Calcutta.</ext:value>
+				<ext:value>text-en:
+Copy Right No. 68</ext:value>
+				<ext:value>text-en:
+Copyright: Shyam Sunderlal, Kanpur</ext:value>
+				<ext:value>description-en:
+Poster, circa 1930 shows plight of Indian farmers at Bardoli, Gujrat, India. The title 'Bardoli Vijay' translates to 'Bardoli Victory'. The poster shows British officials forcefully seizing personal belongings and cattle belonging to the farmers in the area, while a farmer protests. It also shows a couple with a child cooking to the left of the image and an official shutting or locking a door. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Bardoli in Gujarat during the period suffered from natural calamities and increased tax rates by the British government. This was an important point in Gandhi's independence movement and fight against the British to return confiscated lands and property. The farmers eventually won and this image could possibly be a reference to this. 'Bardali' in the title is possibly a local variation in spelling of Bardoli. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Bardoli in Gujarat during the period suffered from natural calamities and increased tax rates by the British government. This was an important point in Gandhi's independence movement and fight against the British to return confiscated lands and property. The farmers eventually won and this image could possibly be a reference to this. 'Bardali' in the title is possibly a local variation in spelling of Bardoli.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109932</ext:value>
+				<ext:value>109932</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:43">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

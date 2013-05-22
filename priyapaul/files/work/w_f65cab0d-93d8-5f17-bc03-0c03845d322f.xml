@@ -1,23 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_f65cab0d-93d8-5f17-bc03-0c03845d322f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-5121d50c-dcc3-58af-b010-ba7cf51270b2">Morarji, Khimji</name>
-				<role/>
+				<name vocab="local" type="personal" refid="uuid-5121d50c-dcc3-58af-b010-ba7cf51270b2">Morarji, Khimji</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A textile label from Khimji Morarji, Bombay showing a woman wearing a traditional long skirt (ghagra) and blouse with a dupatta draped over her head. She holds a flower garland in her hands in a beautiful garden with rose bushes. In the background, a fountain, parts of a building with a marble lion and stairs can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A textile label from Khimji Morarji, Bombay showing a woman wearing a traditional long skirt (ghagra) and blouse with a dupatta draped over her head. She holds a flower garland in her hands in a beautiful garden with rose bushes. In the background, a fountain, parts of a building with a marble lion and stairs can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -39,10 +44,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108760" type="corporate">HeidICON Image Database</name>
+				<refid>108760</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -63,112 +71,167 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.esamskriti.com/essay-chapters/Worship-of-god-as-Mother-in-the-Indian-Tradition-1.aspx</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://articles.timesofindia.indiatimes.com/2011-10-04/edit-page/30242071_1_rampaging-demons-durga-puja-markandeya-purana</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
-				<term>temple</term>
+				<term type="concept">temples (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2e729391-6532-52d8-8683-1602a3277fec">
-				<term>red</term>
+				<term type="concept">red (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29b98cac-7b0c-5102-9f00-6ab6460f7790">
-				<term>temple architecture</term>
+				<term type="concept">temple architecture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term>rose</term>
+				<term type="plant">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a343e9f2-d122-5947-92b7-aca602b1372d">
-				<term>red rose</term>
+				<term type="concept">red rose</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term>architecture</term>
+				<term type="concept">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="222c4b2f-7d73-554f-81e7-c4b89d9758b7">
-				<term>fountain</term>
+				<term type="concept">fountains</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
-				<term>garden</term>
+				<term type="concept">gardens</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Textile label by Khimji Morarji</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by Khimji Morarji</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Vasant Devi</hra:value>
-				<hra:value>text-en:
-KM</hra:value>
-				<hra:value>text-en:
-TH: Khimji Moraji</hra:value>
-				<hra:value>text-en:
-M. J. Market Bombay.</hra:value>
-				<hra:value>text-en:
-Trade Mark</hra:value>
-				<hra:value>description-en:
-A textile label from Khimji Morarji, Bombay showing a woman wearing a traditional long skirt (ghagra) and blouse with a dupatta draped over her head. She holds a flower garland in her hands in a beautiful garden with rose bushes. In the background, a fountain, parts of a building with a marble lion and stairs can be seen. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/542.tif</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Vasant Devi could possibly refer to the worship of Durga in spring who is then referred to as Vasanti Devi. (sp)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.esamskriti.com/essay-chapters/Worship-of-god-as-Mother-in-the-Indian-Tradition-1.aspx, last accessed 2011-11-28 Worship of God as Mother. (sp)</hra:value>
-				<hra:value>related hyperlinks:
-http://articles.timesofindia.indiatimes.com/2011-10-04/edit-page/30242071_1_rampaging-demons-durga-puja-markandeya-purana, last accessed 2011-11-28, Invoking the Universal Mother. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.esamskriti.com/essay-chapters/Worship-of-god-as-Mother-in-the-Indian-Tradition-1.aspx</hra:value>
-				<hra:value>2011-11-28</hra:value>
-				<hra:value>Worship of God as Mother.</hra:value>
-				<hra:value>|19|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://articles.timesofindia.indiatimes.com/2011-10-04/edit-page/30242071_1_rampaging-demons-durga-puja-markandeya-purana</hra:value>
-				<hra:value>2011-11-28</hra:value>
-				<hra:value>Invoking the Universal Mother.</hra:value>
-				<hra:value>|19|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108760</hra:value>
-				<hra:value>108760</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:32:48">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Vasant Devi</ext:value>
+				<ext:value>text-en:
+KM</ext:value>
+				<ext:value>text-en:
+TH: Khimji Moraji</ext:value>
+				<ext:value>text-en:
+M. J. Market Bombay.</ext:value>
+				<ext:value>text-en:
+Trade Mark</ext:value>
+				<ext:value>description-en:
+A textile label from Khimji Morarji, Bombay showing a woman wearing a traditional long skirt (ghagra) and blouse with a dupatta draped over her head. She holds a flower garland in her hands in a beautiful garden with rose bushes. In the background, a fountain, parts of a building with a marble lion and stairs can be seen. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/542.tif</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Vasant Devi could possibly refer to the worship of Durga in spring who is then referred to as Vasanti Devi. (sp)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.esamskriti.com/essay-chapters/Worship-of-god-as-Mother-in-the-Indian-Tradition-1.aspx, last accessed 2011-11-28 Worship of God as Mother. (sp)</ext:value>
+				<ext:value>related hyperlinks:
+http://articles.timesofindia.indiatimes.com/2011-10-04/edit-page/30242071_1_rampaging-demons-durga-puja-markandeya-purana, last accessed 2011-11-28, Invoking the Universal Mother. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.esamskriti.com/essay-chapters/Worship-of-god-as-Mother-in-the-Indian-Tradition-1.aspx</ext:value>
+				<ext:value type="accessed">2011-11-28</ext:value>
+				<ext:value type="comment">Worship of God as Mother.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://articles.timesofindia.indiatimes.com/2011-10-04/edit-page/30242071_1_rampaging-demons-durga-puja-markandeya-purana</ext:value>
+				<ext:value type="accessed">2011-11-28</ext:value>
+				<ext:value type="comment">Invoking the Universal Mother.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Vasant Devi could possibly refer to the worship of Durga in spring who is then referred to as Vasanti Devi.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/542.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.esamskriti.com/essay-chapters/Worship-of-god-as-Mother-in-the-Indian-Tradition-1.aspx</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://articles.timesofindia.indiatimes.com/2011-10-04/edit-page/30242071_1_rampaging-demons-durga-puja-markandeya-purana</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108760</ext:value>
+				<ext:value>108760</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:08">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

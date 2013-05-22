@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_b5db241c-c91e-5d24-a946-2a1d8b6fdc69" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The label shows a fair skinned, dark haired woman in profile holding a bowl up in front of herself. She is surrounded by flowers and bushes. Four butterflies are flying around the bowl she is holding up.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The label shows a fair skinned, dark haired woman in profile holding a bowl up in front of herself. She is surrounded by flowers and bushes. Four butterflies are flying around the bowl she is holding up.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -17,10 +23,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117992" type="corporate">HeidICON Image Database</name>
+				<refid>117992</refid>
 			</location>
 		</locationSet>
 		<measurementsSet>
@@ -37,65 +46,76 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2270ccf9-e298-55ba-ab99-7742b9b57103">
-				<term>bowl</term>
+				<term type="concept">bowls (vessels)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9287a40e-ec77-5bc2-bc0f-be9211df3554">
-				<term>butterfly</term>
+				<term type="animal">butterflies (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
-				<term>fair skin</term>
+				<term type="concept">fair skin</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f5b80cd3-ba75-5883-b946-de6ec60cea02">
-				<term>headdress</term>
+				<term type="concept">headdresses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
-				<term>hair oil</term>
+				<term type="concept">hair oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="20fb45d1-c582-5b02-90e7-19fc89df5218">
-				<term>recheck-Tony</term>
+				<term type="internal workflow">recheck-Tony</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
-				<term>black hair</term>
+				<term type="concept">black hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b2340835-33bd-5d41-800a-95ea3484daea">
-				<term>labels</term>
+				<term type="worktype">labels (identifying artifacts)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advertisement label for hair oil</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement label for hair oil</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-426</hra:value>
-				<hra:value>description-en:
-The label shows a fair skinned, dark haired woman in profile holding a bowl up in front of herself. She is surrounded by flowers and bushes. Four butterflies are flying around the bowl she is holding up. (tb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1960j.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/117992</hra:value>
-				<hra:value>117992</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:32:55">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+426</ext:value>
+				<ext:value>description-en:
+The label shows a fair skinned, dark haired woman in profile holding a bowl up in front of herself. She is surrounded by flowers and bushes. Four butterflies are flying around the bowl she is holding up. (tb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1960j.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1960j.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/117992</ext:value>
+				<ext:value>117992</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:50">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,18 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a0d3922d-9651-5375-9a71-0616122e23f8" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-b34e2af3-1929-54d5-9607-32cd2b2535e3">S. S. Brijbasi &amp; Sons</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">An image showing Subhash Chandra Bose in a military uniform and wearing medals and a necklace. He carries a sword in his left hand and wears the Indian tricolour as a sash across his shoulder.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>An image showing Subhash Chandra Bose in a military uniform and wearing medals and a necklace. He carries a sword in his left hand and wears the Indian tricolour as a sash across his shoulder.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-b90fdecd-e3c4-541b-956e-afac9f0c7866">Chithavong, Arina</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -36,10 +46,13 @@ Copy Registered No.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119421" type="corporate">HeidICON Image Database</name>
+				<refid>119421</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -51,95 +64,113 @@ Copy Registered No.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://christopherpinney.com/S_S_Brijbasi.php</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
-				<term>flag</term>
+				<term type="concept">flags</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8dc64558-bb74-5d2d-8c31-d33665e7e1d1">
-				<term>sword</term>
+				<term type="concept">swords</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0c740b41-1daa-582f-9c09-b0fd1631e995">
-				<term>cloud</term>
+				<term type="concept">clouds</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5512566d-eab7-5ea2-a645-21e20952530a">
-				<term>cap</term>
+				<term type="concept">caps (headgear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term>uniform</term>
+				<term type="concept">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="67b37a90-73ba-5cc8-b92d-05f01a99dc02">
-				<term>medal</term>
+				<term type="concept">medals</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
-				<term>Indian flag</term>
+				<term type="concept">Indian flag</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
-				<term>spectacles</term>
+				<term type="concept">spectacles (eye glasses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Subhas Chandra Bose&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Subhas Chandra Bose&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-[handwritten inscription - indecipherable]</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+[handwritten inscription - indecipherable]</ext:value>
+				<ext:value>text-en:
 Published by
 S. S. Brijbasi &amp; Sons
-Karachi &amp; Muttra</hra:value>
-				<hra:value>text-en:
+Karachi &amp; Muttra</ext:value>
+				<ext:value>text-en:
 Subhas Chandra Bose
-(in royal dress)</hra:value>
-				<hra:value>text-en:
+(in royal dress)</ext:value>
+				<ext:value>text-en:
 Printed as Germany
 C. M. C.
-Copy Registered No.</hra:value>
-				<hra:value>description-en:
-An image showing Subhash Chandra Bose in a military uniform and wearing medals and a necklace. He carries a sword in his left hand and wears the Indian tricolour as a sash across his shoulder. (AC/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>related hyperlinks:
-http://christopherpinney.com/S_S_Brijbasi.php, last accessed 2013-01-16 (sg)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://christopherpinney.com/S_S_Brijbasi.php</hra:value>
-				<hra:value>2013-01-16</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|21|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119421</hra:value>
-				<hra:value>119421</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:50">
-			</hra:administrative>
-		</hra:heidicon>
+Copy Registered No.</ext:value>
+				<ext:value>description-en:
+An image showing Subhash Chandra Bose in a military uniform and wearing medals and a necklace. He carries a sword in his left hand and wears the Indian tricolour as a sash across his shoulder. (AC/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>related hyperlinks:
+http://christopherpinney.com/S_S_Brijbasi.php, last accessed 2013-01-16 (sg)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://christopherpinney.com/S_S_Brijbasi.php</ext:value>
+				<ext:value type="accessed">2013-01-16</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Gruening, Simon</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://christopherpinney.com/S_S_Brijbasi.php</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119421</ext:value>
+				<ext:value>119421</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:24">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,23 +1,33 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_f212078b-0311-5c2f-809d-8906b5910c50" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-23f8a72d-8146-59a7-a914-6b553fa16d1e">Das, Sushil</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A sample image  with the title &quot;Hardware Industry&quot; in a catalogue of the Empire Calender Manufacturing Co. shows a man working on a machine. The central image is surrounded by several tools and machines.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A sample image  with the title &quot;Hardware Industry&quot; in a catalogue of the Empire Calender Manufacturing Co. shows a man working on a machine. The central image is surrounded by several tools and machines.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -37,10 +47,13 @@ No. 611</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119467" type="corporate">HeidICON Image Database</name>
+				<refid>119467</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -63,86 +76,87 @@ No. 611</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="5669b7f2-1cea-5231-93cb-03d6599a60e3">
-				<term>water</term>
+				<term type="concept">water</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8d5952bc-395d-5815-8234-eb42cf210d2f">
-				<term>industry</term>
+				<term type="concept">industry (economic concept)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="925954ad-11c8-5edb-a164-f3d5649c81c6">
-				<term>water pump</term>
+				<term type="concept">water pumps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term>signet</term>
+				<term type="concept">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7badf642-7c7c-5d3d-93ca-54127fa8c5d9">
-				<term>hardware</term>
+				<term type="concept">hardware (components)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2ee6ef40-d1f8-589b-9ac9-b18356a97817">
-				<term>bucket</term>
+				<term type="concept">buckets (vessels)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec3054a5-e9c9-5a3d-bcaa-8a0b0dad5423">
-				<term>saw</term>
+				<term type="concept">saws</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dd40c0ed-7ada-596d-8cf9-0a5caee33c1d">
-				<term>screw</term>
+				<term type="concept">screws</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1db833fc-98a0-50fd-aa6f-905168f95253">
-				<term>padlock</term>
+				<term type="concept">padlocks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a6eed022-e44a-55b2-ba69-b25beacdf602">
-				<term>wrench</term>
+				<term type="concept">wrenches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e433dc-81b7-562f-9774-48f9b00e3785">
-				<term>pitchfork</term>
+				<term type="concept">pitchforks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Hardware Industry&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Hardware Industry&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Das, Sushil</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-ECM [publisher's signet]</hra:value>
-				<hra:value>text-en:
-Sushil Das..</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Das, Sushil</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+ECM [publisher's signet]</ext:value>
+				<ext:value>text-en:
+Sushil Das..</ext:value>
+				<ext:value>text-en:
 HARDWARE INDUSTRY
-No. 611</hra:value>
-				<hra:value>description-en:
-A sample image  with the title &quot;Hardware Industry&quot; in a catalogue of the Empire Calender Manufacturing Co. shows a man working on a machine. The central image is surrounded by several tools and machines. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119467</hra:value>
-				<hra:value>119467</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:26">
-			</hra:administrative>
-		</hra:heidicon>
+No. 611</ext:value>
+				<ext:value>description-en:
+A sample image  with the title &quot;Hardware Industry&quot; in a catalogue of the Empire Calender Manufacturing Co. shows a man working on a machine. The central image is surrounded by several tools and machines. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119467</ext:value>
+				<ext:value>119467</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:50">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

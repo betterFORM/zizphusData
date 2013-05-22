@@ -1,49 +1,56 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_d07cbeb5-d020-5c70-8e6a-674cd57178c3" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1937</earliestDate>
-				<latestDate>1937</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for Madhu canned Mangoes, the drawing of a family being served the advertised product can be seen. A sample-can is pictured as well. The right section of the image hosts a detailed  as well as contact details of wholesellers etc.</description>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for Madhu canned Mangoes, the drawing of a family being served the advertised product can be seen. A sample-can is pictured as well. The right section of the image hosts a detailed  as well as contact details of wholesellers etc.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Their Favourite Dish! 
-Delicious and so Good for you!</text>
+				<text type="text" lang="en">Their Favourite Dish!</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="en">Delicious and so Good for you!</text>
 			</inscription>
 			<inscription>
 				<text type="text" lang="en">Now, for a fraction of the usual expense, you can prepare Mango Ices, Mango Cream, Blane.mango and Mango Punch using delicious Madhu Mango Products. Expansion in canning equipment enables the Madhu organization to offer better quality at 25% reduction in prices.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Enjoy vitamin-rich, health-giving mango products like Mango slices, Mango Pulp, Mango Jam and Mango Squash. Also try Madhu Tomato Soup, Plums and Pears. Obtainable at leading stores.
-Madhu Canning Company</text>
+				<text type="text" lang="en">Enjoy vitamin-rich, health-giving mango products like Mango slices, Mango Pulp, Mango Jam and Mango Squash. Also try Madhu Tomato Soup, Plums and Pears. Obtainable at leading stores.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Chinchpokli, Bombay No. 12, *Phone: 41380
+				<text type="text" lang="en">Madhu Canning Company
+Chinchpokli, Bombay No. 12, *Phone: 41380
 *Grams: &quot;Emcici&quot;
 Sole Agents: Jehangir Bros., Ahmedabad. 
 For Gujarat &amp; Kathiawar,
 S.R. Bugtani &amp; Co., Karachi
-For Sind, Punjab &amp; N.W.F. Provinces
-Madhu Canned Mangoes</text>
+For Sind, Punjab &amp; N.W.F. Provinces</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="en">Madhu Canned Mangoes</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119774" type="corporate">HeidICON Image Database</name>
+				<refid>119774</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -66,79 +73,89 @@ Madhu Canned Mangoes</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="b3a53861-18b1-5119-aa01-e5de31526f5c">
-				<term>family</term>
+				<term type="concept">families</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d557079d-1393-5c29-b3aa-365e104c5044">
-				<term>fruit</term>
+				<term type="concept">fruit</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="3e7adb78-d0ba-5bf4-a763-6ebccfc869d4">
-				<term>Madhu Canned Mangoes</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term>Times of India Yearbook</term>
+				<term type="work">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">An advertisement of Madhu Canned Mangoes</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Madhu Canned Mangoes</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Their Favourite Dish! 
-Delicious and so Good for you!</hra:value>
-				<hra:value>text-en:
-Now, for a fraction of the usual expense, you can prepare Mango Ices, Mango Cream, Blane.mango and Mango Punch using delicious Madhu Mango Products. Expansion in canning equipment enables the Madhu organization to offer better quality at 25% reduction in prices.</hra:value>
-				<hra:value>text-en:
-Enjoy vitamin-rich, health-giving mango products like Mango slices, Mango Pulp, Mango Jam and Mango Squash. Also try Madhu Tomato Soup, Plums and Pears. Obtainable at leading stores.
-Madhu Canning Company</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Their Favourite Dish!</ext:value>
+				<ext:value>text-en:
+Delicious and so Good for you!</ext:value>
+				<ext:value>text-en:
+Now, for a fraction of the usual expense, you can prepare Mango Ices, Mango Cream, Blane.mango and Mango Punch using delicious Madhu Mango Products. Expansion in canning equipment enables the Madhu organization to offer better quality at 25% reduction in prices.</ext:value>
+				<ext:value>text-en:
+Enjoy vitamin-rich, health-giving mango products like Mango slices, Mango Pulp, Mango Jam and Mango Squash. Also try Madhu Tomato Soup, Plums and Pears. Obtainable at leading stores.</ext:value>
+				<ext:value>text-en:
+Madhu Canning Company
 Chinchpokli, Bombay No. 12, *Phone: 41380
 *Grams: &quot;Emcici&quot;
 Sole Agents: Jehangir Bros., Ahmedabad. 
 For Gujarat &amp; Kathiawar,
 S.R. Bugtani &amp; Co., Karachi
-For Sind, Punjab &amp; N.W.F. Provinces
-Madhu Canned Mangoes</hra:value>
-				<hra:value>description-en:
-On this advertisement for Madhu canned Mangoes, the drawing of a family being served the advertised product can be seen. A sample-can is pictured as well. The right section of the image hosts a detailed description as well as contact details of wholesellers etc. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/1110.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119774</hra:value>
-				<hra:value>119774</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:42:32">
-			</hra:administrative>
-		</hra:heidicon>
+For Sind, Punjab &amp; N.W.F. Provinces</ext:value>
+				<ext:value>text-en:
+Madhu Canned Mangoes</ext:value>
+				<ext:value>description-en:
+On this advertisement for Madhu canned Mangoes, the drawing of a family being served the advertised product can be seen. A sample-can is pictured as well. The right section of the image hosts a detailed description as well as contact details of wholesellers etc. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/1110.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/1110.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119774</ext:value>
+				<ext:value>119774</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:07">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,24 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_d41804e6-1bfc-5679-9034-a2705f72447c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-57ad97c4-f1e4-5af0-bfd7-0bde35430362">Empress Coronation Durbar Souvenir</name>
-				<role/>
+				<name vocab="local" type="corporate" refid="uuid-51d253d7-f9e6-5654-8588-b46d6053b6b9">Thomas J. Lipton Inc.</name>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1911</earliestDate>
-				<latestDate>1911</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">This advertisement for Lipton's Tea has a plantation in the background and a table in the foreground. A white couple sit at the table and are being served by an Indian or Sri Lankan woman [because of the Ceylon reference on the box of tea]. The woman is dressed in a sari and has her head covered Next to her, another white woman stands and behind them are another white couple and a woman wearing a sari and carrying a pot on her head.</description>
+			<description lang="en" script="Latn">
+				<text>This advertisement for Lipton's Tea has a plantation in the background and a table in the foreground. A white couple sit at the table and are being served by an Indian or Sri Lankan woman [because of the Ceylon reference on the box of tea]. The woman is dressed in a sari and has her head covered Next to her, another white woman stands and behind them are another white couple and a woman wearing a sari and carrying a pot on her head.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -51,10 +51,13 @@ Label</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120301" type="corporate">HeidICON Image Database</name>
+				<refid>120301</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -66,74 +69,76 @@ Label</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>Colonial India</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="858d1451-3f0c-52d5-a388-4e88e5f459fb">
-				<term>tea pot</term>
+				<term type="concept">teapots</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
-				<term>tea</term>
+				<term type="concept">tea (beverage)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2da00547-3dee-5b48-8288-3c3ae822879d">
-				<term>biscuits</term>
+				<term type="concept">biscuits (snack)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="57ad97c4-f1e4-5af0-bfd7-0bde35430362">
+				<term type="event">Delhi Durbar (event)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="432039d5-a19e-562f-b809-58d088031aea">
-				<term>Lipton's Tea</term>
+				<term type="brand">Lipton's Tea</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf3a9fdc-1712-5073-a037-be79a82991c7">
-				<term>tea plantation</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="51d253d7-f9e6-5654-8588-b46d6053b6b9">
-				<term>Lipton</term>
+				<term type="concept">tea plantations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="594a17b8-e165-5251-abae-6abfaab2e16e">
-				<term>Yellow Label</term>
+				<term type="brand">Yellow Label (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="54d7741d-161d-5d58-a5d6-c071f3aaa95b">
-				<term>coronation</term>
+				<term type="concept">coronations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ecadb337-d65e-5a9c-aa21-df4ff05bf3b0">
-				<term>plantation</term>
+				<term type="concept">plantations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="39d1cc13-7cbe-5bdd-a346-25ffde742cb5">
-				<term>souvenir</term>
+				<term type="concept">souvenirs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b2340835-33bd-5d41-800a-95ea3484daea">
-				<term>labels</term>
+				<term type="worktype">labels (identifying artifacts)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Lipton's Tea</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Lipton's Tea</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Empress Coronation
-Durbar Souvenir.</hra:value>
-				<hra:value>text-en:
-Lipton's Tea</hra:value>
-				<hra:value>text-en:
+Durbar Souvenir.</ext:value>
+				<ext:value>text-en:
+Lipton's Tea</ext:value>
+				<ext:value>text-en:
 Tea &amp; Coffee Merchants
 To His Excellency Lord Hardinge,
-Viceroy &amp; Governor-General of India.</hra:value>
-				<hra:value>text-en:
+Viceroy &amp; Governor-General of India.</ext:value>
+				<ext:value>text-en:
 Liptons
 Tea coffee &amp; cocoa planters ceylon
 tea merchants
@@ -145,75 +150,162 @@ Delicious Blended Tea
 Re 1/2
 per pound
 Yellow
-Label</hra:value>
-				<hra:value>description-en:
-This advertisement for Lipton's Tea has a plantation in the background and a table in the foreground. A white couple sit at the table and are being served by an Indian or Sri Lankan woman [because of the Ceylon reference on the box of tea]. The woman is dressed in a sari and has her head covered Next to her, another white woman stands and behind them are another white couple and a woman wearing a sari and carrying a pot on her head. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Although the tea plant (Camellia sinensis) is thought by some to have originated on the southern slope of the Himalayas, its cultivation and wide consumption—already prevalent in ancient China—did not develop on the Indian subcontinent until the late colonial period. Even then, it occurred only because the British, who had acquired the tea habit from the Dutch and ultimately from the Chinese, sought an alternative to the monopoly on the supply of leaves held by the latter, and began experimenting, starting in the 1830s, with tea cultivation in the hills of Bengal and Assam. Finding that the plant indeed flourished there, they began exporting tea leaves to Britain, and this expanded supply of inexpensive tea, coupled with the ready availability of cheap sugar from plantations in the Americas, helped to dramatically transform the diet of the British working class during the Industrial Revolution, who increasingly relied on sweetened tea with milk as an easily-prepared source of energy-boosting caffeine, calories, and carbohydrates. (Philip Lutgendorf)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-This advertisement for the Thomas Lipton Company, published in the &quot;Coronation Durbar Souvenir&quot; edition of the Express in 1911, conjures a vision of tea as a gift from brown-skinned colonial subjects, being offered to smartly dressed English ladies and a monocled gentleman, against a backdrop of an orderly &quot;garden&quot; plantation, with its bungalow-style factory building. Yet this imperial infusion, steeped in porcelain &quot;china&quot; pots, accompanied by pitchers of warm milk and spoonfuls of sugar, had already begun to be savored by the bhadralok (&quot;well bred&quot;) residents of Calcutta. This taste begins to be attested to in Bangla literature and advertising after ca. 1880, but it was initially restricted to a comparatively small Anglophile elite. Indeed, much pre-Independence tea advertising (including the majority of the relevant images in the Paul Collection) suggests such a target audience, emphasizing comfortable bourgeois domesticity, modernity in costume and furnishings. (Philip Lutgendorf)(gs)</hra:value>
-				<hra:value>related literature:
-Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC. (gs)</hra:value>
-				<hra:value>related literature:
-Chatterjee, Piya. 2001. &quot;A Time for Tea.&quot; Durham, NC: Duke University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Collingham, Elizabeth M. 2006. &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Dutta, Arup Kumar. 1992. &quot;Cha Garam, the tea story.&quot; Assam: Paloma Publications. (gs)</hra:value>
-				<hra:value>related literature:
-Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)(gs)</hra:value>
-				<hra:value>related literature:
-Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot; London: Thames &amp; Hudson. (gs)</hra:value>
-				<hra:value>related literature:
-Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking. (gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot; London: Thames &amp; Hudson.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Chatterjee, Piya. 2001. &quot;A Time for Tea.&quot; Durham, NC: Duke University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dutta, Arup Kumar. 1992. &quot;Cha Garam, the tea story.&quot; Assam: Paloma Publications.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Collingham, Elizabeth M. 2006. &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120301</hra:value>
-				<hra:value>120301</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:44:06">
-			</hra:administrative>
-		</hra:heidicon>
+Label</ext:value>
+				<ext:value>description-en:
+This advertisement for Lipton's Tea has a plantation in the background and a table in the foreground. A white couple sit at the table and are being served by an Indian or Sri Lankan woman [because of the Ceylon reference on the box of tea]. The woman is dressed in a sari and has her head covered Next to her, another white woman stands and behind them are another white couple and a woman wearing a sari and carrying a pot on her head. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Although the tea plant (Camellia sinensis) is thought by some to have originated on the southern slope of the Himalayas, its cultivation and wide consumption—already prevalent in ancient China—did not develop on the Indian subcontinent until the late colonial period. Even then, it occurred only because the British, who had acquired the tea habit from the Dutch and ultimately from the Chinese, sought an alternative to the monopoly on the supply of leaves held by the latter, and began experimenting, starting in the 1830s, with tea cultivation in the hills of Bengal and Assam. Finding that the plant indeed flourished there, they began exporting tea leaves to Britain, and this expanded supply of inexpensive tea, coupled with the ready availability of cheap sugar from plantations in the Americas, helped to dramatically transform the diet of the British working class during the Industrial Revolution, who increasingly relied on sweetened tea with milk as an easily-prepared source of energy-boosting caffeine, calories, and carbohydrates. (Philip Lutgendorf)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+This advertisement for the Thomas Lipton Company, published in the &quot;Coronation Durbar Souvenir&quot; edition of the Express in 1911, conjures a vision of tea as a gift from brown-skinned colonial subjects, being offered to smartly dressed English ladies and a monocled gentleman, against a backdrop of an orderly &quot;garden&quot; plantation, with its bungalow-style factory building. Yet this imperial infusion, steeped in porcelain &quot;china&quot; pots, accompanied by pitchers of warm milk and spoonfuls of sugar, had already begun to be savored by the bhadralok (&quot;well bred&quot;) residents of Calcutta. This taste begins to be attested to in Bangla literature and advertising after ca. 1880, but it was initially restricted to a comparatively small Anglophile elite. Indeed, much pre-Independence tea advertising (including the majority of the relevant images in the Paul Collection) suggests such a target audience, emphasizing comfortable bourgeois domesticity, modernity in costume and furnishings. (Philip Lutgendorf)(gs)</ext:value>
+				<ext:value>related literature:
+Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC. (gs)</ext:value>
+				<ext:value>related literature:
+Chatterjee, Piya. 2001. &quot;A Time for Tea.&quot; Durham, NC: Duke University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Collingham, Elizabeth M. 2006. &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Dutta, Arup Kumar. 1992. &quot;Cha Garam, the tea story.&quot; Assam: Paloma Publications. (gs)</ext:value>
+				<ext:value>related literature:
+Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)(gs)</ext:value>
+				<ext:value>related literature:
+Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot; London: Thames &amp; Hudson. (gs)</ext:value>
+				<ext:value>related literature:
+Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking. (gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot; London: Thames &amp; Hudson.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Chatterjee, Piya. 2001. &quot;A Time for Tea.&quot; Durham, NC: Duke University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dutta, Arup Kumar. 1992. &quot;Cha Garam, the tea story.&quot; Assam: Paloma Publications.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Collingham, Elizabeth M. 2006. &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This advertisement for the Thomas Lipton Company, published in the &quot;Coronation Durbar Souvenir&quot; edition of the Express in 1911, conjures a vision of tea as a gift from brown-skinned colonial subjects, being offered to smartly dressed English ladies and a monocled gentleman, against a backdrop of an orderly &quot;garden&quot; plantation, with its bungalow-style factory building. Yet this imperial infusion, steeped in porcelain &quot;china&quot; pots, accompanied by pitchers of warm milk and spoonfuls of sugar, had already begun to be savored by the bhadralok (&quot;well bred&quot;) residents of Calcutta. This taste begins to be attested to in Bangla literature and advertising after ca. 1880, but it was initially restricted to a comparatively small Anglophile elite. Indeed, much pre-Independence tea advertising (including the majority of the relevant images in the Paul Collection) suggests such a target audience, emphasizing comfortable bourgeois domesticity, modernity in costume and furnishings.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Philip Lutgendorf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Although the tea plant (Camellia sinensis) is thought by some to have originated on the southern slope of the Himalayas, its cultivation and wide consumption—already prevalent in ancient China—did not develop on the Indian subcontinent until the late colonial period. Even then, it occurred only because the British, who had acquired the tea habit from the Dutch and ultimately from the Chinese, sought an alternative to the monopoly on the supply of leaves held by the latter, and began experimenting, starting in the 1830s, with tea cultivation in the hills of Bengal and Assam. Finding that the plant indeed flourished there, they began exporting tea leaves to Britain, and this expanded supply of inexpensive tea, coupled with the ready availability of cheap sugar from plantations in the Americas, helped to dramatically transform the diet of the British working class during the Industrial Revolution, who increasingly relied on sweetened tea with milk as an easily-prepared source of energy-boosting caffeine, calories, and carbohydrates.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Philip Lutgendorf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120301</ext:value>
+				<ext:value>120301</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:07">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

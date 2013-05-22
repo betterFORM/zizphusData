@@ -1,23 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_2602f51f-a0e4-5b8b-a29e-2f30c1539c04" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-318024bd-7251-5698-b63e-61fdb09f01c4">Van Ingen &amp; Van Ingen</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-8c9928a7-e8e0-5e08-80a9-367849360ee5">Henry Potter &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement poster, four differents advertisements for different companies/products can be seen: 
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement poster, four differents advertisements for different companies/products can be seen: 
 
 The left upper section hosts an advertisement for Kiwi Dark Tanm showing a pair of polished shoes worn by a man in check pants. A detailed  as well as a sample of the advertised product are pictured as well. 
 
@@ -25,7 +26,12 @@ The right upper section showsd an advertisement for Lily Biscuits, depicting a s
 
 The lower left advertisement for Van Ingen &amp; Van Ingen shelters the head of a lion.
 
-On the lower right advertisement two personsn wearing uniforms can be seen as well as a logo with two lions. A  of the products available as well as contact details are pictured as well.</description>
+On the lower right advertisement two personsn wearing uniforms can be seen as well as a logo with two lions. A  of the products available as well as contact details are pictured as well.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -91,10 +97,13 @@ England</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119765" type="corporate">HeidICON Image Database</name>
+				<refid>119765</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -115,103 +124,115 @@ England</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.henrypotter.co.uk/about.htm</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.taxidermyemporium.co.uk/11.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term>lion</term>
+				<term type="animal">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3c5e6969-b1bd-5f45-84de-b4ee4342bfad">
-				<term>airplane</term>
+				<term type="concept">airplanes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term>child</term>
+				<term type="concept">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term>uniform</term>
+				<term type="concept">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
-				<term>tiger</term>
+				<term type="animal">tigers (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="871b50a9-0b2b-5030-b9ca-80684acc2e82">
-				<term>shoe</term>
+				<term type="concept">shoes (footwear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c55ea19d-1733-509b-ac2e-333cc2787e34">
-				<term>Kiwi Dark Tan</term>
+				<term type="brand">Kiwi Dark Tan</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="683333c5-fc07-5627-a7cf-ed555d6106a1">
-				<term>Lilly Biscuits</term>
+				<term type="brand">Lilly Biscuits</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term>Times of India Yearbook</term>
+				<term type="work">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Four advertisements</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Four advertisements</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-&quot;They've well worn - but they're worn well thanks to KIWI Dark Tan!&quot;</hra:value>
-				<hra:value>text-en:
-No wonder they've worn well! Wouldn't any shoes, whose leather is daily nourished and cleansed pore-deep with Kiwi Polish! For Kiwi does more than give surface gloss to shoes; its fine, smooth wax preserves their youthful elasticity. Begin (f)eeding your shoes with Kiwi to-day.</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+&quot;They've well worn - but they're worn well thanks to KIWI Dark Tan!&quot;</ext:value>
+				<ext:value>text-en:
+No wonder they've worn well! Wouldn't any shoes, whose leather is daily nourished and cleansed pore-deep with Kiwi Polish! For Kiwi does more than give surface gloss to shoes; its fine, smooth wax preserves their youthful elasticity. Begin (f)eeding your shoes with Kiwi to-day.</ext:value>
+				<ext:value>text-en:
 - and, of course KIWI WHITE CLEANER 
 in tube or block form
-for CANVAS &amp; BUCKSKIN FOOTWEAR</hra:value>
-				<hra:value>text-en:
-Obtainable at all good stores throughout India, and Burma</hra:value>
-				<hra:value>text-en:
-the pride of India</hra:value>
-				<hra:value>text-en:
-Quality Biscuits</hra:value>
-				<hra:value>text-en:
-DELICIOUS! is what you hear from everybody's lips when they try * LILY * CREAM CRACKER BISCUIS. They're rich, flaky, light and so delightfully short that they almost melt in your mouth like good pastry. For 'Chota' .. lunch .. afternoon tea, or whenever you are entertaining friends, LILY BISCUITS are always welcome. Obtainable in nicely decorated tins, as illustrated, or loose, from all good Dealers.</hra:value>
-				<hra:value>text-en:
-Lily BISCUITS</hra:value>
-				<hra:value>text-en:
-Manufactured by:- The Lily Biscuits Co., Calcutta &amp; Bombay</hra:value>
-				<hra:value>text-en:
+for CANVAS &amp; BUCKSKIN FOOTWEAR</ext:value>
+				<ext:value>text-en:
+Obtainable at all good stores throughout India, and Burma</ext:value>
+				<ext:value>text-en:
+the pride of India</ext:value>
+				<ext:value>text-en:
+Quality Biscuits</ext:value>
+				<ext:value>text-en:
+DELICIOUS! is what you hear from everybody's lips when they try * LILY * CREAM CRACKER BISCUIS. They're rich, flaky, light and so delightfully short that they almost melt in your mouth like good pastry. For 'Chota' .. lunch .. afternoon tea, or whenever you are entertaining friends, LILY BISCUITS are always welcome. Obtainable in nicely decorated tins, as illustrated, or loose, from all good Dealers.</ext:value>
+				<ext:value>text-en:
+Lily BISCUITS</ext:value>
+				<ext:value>text-en:
+Manufactured by:- The Lily Biscuits Co., Calcutta &amp; Bombay</ext:value>
+				<ext:value>text-en:
 VAN INGEN &amp; VAN INGEN
 Artists in Taxidermy
-(...)(not readable)</hra:value>
-				<hra:value>text-en:
+(...)(not readable)</ext:value>
+				<ext:value>text-en:
 Cables:
 &quot;Geriart, Westcent, London.&quot;
 Phone: 
-Temple Bar 1649</hra:value>
-				<hra:value>text-en:
+Temple Bar 1649</ext:value>
+				<ext:value>text-en:
 HENRY POTTER &amp; Co.
-Established 1810</hra:value>
-				<hra:value>text-en:
+Established 1810</ext:value>
+				<ext:value>text-en:
 &quot;DRUMS&quot;
-Painting and Heraldry Sterling Silver Embroidery</hra:value>
-				<hra:value>text-en:
-Five Guards, 1745, !! Regiment of Guards.</hra:value>
-				<hra:value>text-en:
+Painting and Heraldry Sterling Silver Embroidery</ext:value>
+				<ext:value>text-en:
+Five Guards, 1745, !! Regiment of Guards.</ext:value>
+				<ext:value>text-en:
 Pipe Banners, Colour Belts, Drum Basses, Regimental Colours, Drum-Majors' Sahes, Etc.
-(General Military Catalogue on application)</hra:value>
-				<hra:value>text-en:
+(General Military Catalogue on application)</ext:value>
+				<ext:value>text-en:
 36/39, West Street, Charing Cross Road, W.C.2, London
-England</hra:value>
-				<hra:value>description-en:
+England</ext:value>
+				<ext:value>description-en:
 On this advertisement poster, four differents advertisements for different companies/products can be seen: 
 
 The left upper section hosts an advertisement for Kiwi Dark Tanm showing a pair of polished shoes worn by a man in check pants. A detailed description as well as a sample of the advertised product are pictured as well. 
@@ -220,49 +241,89 @@ The right upper section showsd an advertisement for Lily Biscuits, depicting a s
 
 The lower left advertisement for Van Ingen &amp; Van Ingen shelters the head of a lion.
 
-On the lower right advertisement two personsn wearing uniforms can be seen as well as a logo with two lions. A description of the products available as well as contact details are pictured as well. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The company started as specialists in drums, fifes and bugles quickly establishing itself and soon diversifying into other areas of music and the Military. In 1817 Samuel was given the title Sergeant and Drum Major and later that year left the army to pursue his business full time immediately publishing his Manual for Drums, Fifes and Bugles. (from http://www.henrypotter.co.uk/about.htm, last accessed 2012-06-14) ()(gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.henrypotter.co.uk/about.htm, last accessed 2012-06-14. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.taxidermyemporium.co.uk/11.html, last accessed 2012-06-14. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/1101.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.henrypotter.co.uk/about.htm</hra:value>
-				<hra:value>2012-06-14</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.taxidermyemporium.co.uk/11.html</hra:value>
-				<hra:value>2012-06-14</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119765</hra:value>
-				<hra:value>119765</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:42:10">
-			</hra:administrative>
-		</hra:heidicon>
+On the lower right advertisement two personsn wearing uniforms can be seen as well as a logo with two lions. A description of the products available as well as contact details are pictured as well. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The company started as specialists in drums, fifes and bugles quickly establishing itself and soon diversifying into other areas of music and the Military. In 1817 Samuel was given the title Sergeant and Drum Major and later that year left the army to pursue his business full time immediately publishing his Manual for Drums, Fifes and Bugles. (from http://www.henrypotter.co.uk/about.htm, last accessed 2012-06-14) ()(gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.henrypotter.co.uk/about.htm, last accessed 2012-06-14. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.taxidermyemporium.co.uk/11.html, last accessed 2012-06-14. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/1101.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.henrypotter.co.uk/about.htm</ext:value>
+				<ext:value type="accessed">2012-06-14</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.taxidermyemporium.co.uk/11.html</ext:value>
+				<ext:value type="accessed">2012-06-14</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The company started as specialists in drums, fifes and bugles quickly establishing itself and soon diversifying into other areas of music and the Military. In 1817 Samuel was given the title Sergeant and Drum Major and later that year left the army to pursue his business full time immediately publishing his Manual for Drums, Fifes and Bugles. (from http://www.henrypotter.co.uk/about.htm, last accessed 2012-06-14)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/1101.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.henrypotter.co.uk/about.htm</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.taxidermyemporium.co.uk/11.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119765</ext:value>
+				<ext:value>119765</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:46">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

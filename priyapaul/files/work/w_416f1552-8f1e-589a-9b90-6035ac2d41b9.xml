@@ -1,34 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_416f1552-8f1e-589a-9b90-6035ac2d41b9" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-6120324e-5356-5f1d-82cf-998257f10e36">Kashyap, Keval P.</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f7b3e529-4fa0-599d-9279-0842a38fcc8f">Gulshan Bawra</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<name vocab="local" type="personal" refid="uuid-f7b3e529-4fa0-599d-9279-0842a38fcc8f">Bawra, Gulshan</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-269802bf-cacd-5a62-8412-2ffcd383f382">AVM Productions</name>
-				<role/>
+				<name vocab="local" type="corporate" refid="uuid-269802bf-cacd-5a62-8412-2ffcd383f382">A.V.M. Productions</name>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1972</earliestDate>
-				<latestDate>1972</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this color-tinted movie poster for the 1970s Hindi film &quot;Chori Chori&quot;, two of the main actors, probably Keval P. Kashyap and Guishan Bawra, are pictured. She is wearing a sari and several pieces of jewellery and smiles towards the camera whereas he makes a grimace.</description>
+			<description lang="en" script="Latn">
+				<text>On this color-tinted movie poster for the 1970s Hindi film &quot;Chori Chori&quot;, two of the main actors, probably Keval P. Kashyap and Guishan Bawra, are pictured. She is wearing a sari and several pieces of jewellery and smiles towards the camera whereas he makes a grimace.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -44,10 +44,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120873" type="corporate">HeidICON Image Database</name>
+				<refid>120873</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -62,78 +65,96 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt1996213/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bd6c30c7-a99d-5dcb-ae2f-816986fe3a4c">
-				<term>Chori Chori</term>
+				<term type="work (movie)">Chori Chori</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Chori Chori&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Chori Chori&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-AVM's Chori Chori</hra:value>
-				<hra:value>text-hi:
-चोरी चोरी</hra:value>
-				<hra:value>text-ur:
-چوری چوری</hra:value>
-				<hra:value>transcription-ur:
-Nasta'liq</hra:value>
-				<hra:value>description-en:
-On this color-tinted movie poster for the 1970s Hindi film &quot;Chori Chori&quot;, two of the main actors, probably Keval P. Kashyap and Guishan Bawra, are pictured. She is wearing a sari and several pieces of jewellery and smiles towards the camera whereas he makes a grimace. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>related hyperlink:
-http://www.imdb.com/title/tt1996213/, last accessed 2011-12-04. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt1996213/</hra:value>
-				<hra:value>2011-12-04</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120873</hra:value>
-				<hra:value>120873</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:28:54">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+AVM's Chori Chori</ext:value>
+				<ext:value>text-hi:
+चोरी चोरी</ext:value>
+				<ext:value>text-ur:
+چوری چوری</ext:value>
+				<ext:value>transcription-ur:
+Nasta'liq</ext:value>
+				<ext:value>description-en:
+On this color-tinted movie poster for the 1970s Hindi film &quot;Chori Chori&quot;, two of the main actors, probably Keval P. Kashyap and Guishan Bawra, are pictured. She is wearing a sari and several pieces of jewellery and smiles towards the camera whereas he makes a grimace. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>related hyperlink:
+http://www.imdb.com/title/tt1996213/, last accessed 2011-12-04. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt1996213/</ext:value>
+				<ext:value type="accessed">2011-12-04</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt1996213/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120873</ext:value>
+				<ext:value>120873</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:17">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,18 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_3a40e1a5-188e-5d27-93fd-191af066ed76" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-f303dd9f-5f5b-50dd-bbcd-c80d347a39c1">B.D.A.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The advertisement for the cloth dyeing and finishing  company B.D.A., shows a king sitting cross-legged on a throne with two servants on either side of him. They hold feathered fans in their hands. They are in an opulent room decorated in gilt and with pillars and carving.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The advertisement for the cloth dyeing and finishing  company B.D.A., shows a king sitting cross-legged on a throne with two servants on either side of him. They hold feathered fans in their hands. They are in an opulent room decorated in gilt and with pillars and carving.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -42,10 +52,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118925" type="corporate">HeidICON Image Database</name>
+				<refid>118925</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -58,7 +71,9 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_ea96dbe0-26d7-5e58-badc-64be1815a1f2" refid="118925" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_ea96dbe0-26d7-5e58-badc-64be1815a1f2" refid="118925" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_cbefe6b3-1385-50bc-80ed-2fd3058cd5d3" refid="118927" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_3dbbd518-648c-5aa1-b466-8e5181977969" refid="118926" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -68,90 +83,122 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ce564016-385d-52bc-b28d-6199c2d05f60">
-				<term>pillar</term>
+				<term type="concept">pillars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b80dfe9-529b-566d-811c-3d2a6918fdaf">
-				<term>king</term>
+				<term type="concept">kings (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f5597a77-3119-5305-8de8-f85bcec5936e">
-				<term>throne</term>
+				<term type="concept">thrones</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9e695e4-1726-53fa-a215-e85230165e8a">
-				<term>palace</term>
+				<term type="work (architecture)">palaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7a297ace-da99-55bc-8e02-e48f4a923577">
-				<term>fan</term>
+				<term type="concept">fans (equipment)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advertisement for B. D. A.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for B. D. A.</title>
 			<title type="descriptive" pref="false" lang="" script="">रंग राजा पोत परजा</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Color is the king of Cloth</hra:value>
-				<hra:value>text-en:
-BDA</hra:value>
-				<hra:value>text-en:
-Ask to see piece goods dyed &amp; finished by the B.D.A.</hra:value>
-				<hra:value>text-hi:
-रंग राजा पोत परजा</hra:value>
-				<hra:value>text-hi:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Color is the king of Cloth</ext:value>
+				<ext:value>text-en:
+BDA</ext:value>
+				<ext:value>text-en:
+Ask to see piece goods dyed &amp; finished by the B.D.A.</ext:value>
+				<ext:value>text-hi:
+रंग राजा पोत परजा</ext:value>
+				<ext:value>text-hi:
 बी. डी. ए (B. D. A.) का रंगा और
 फिनिश किया हुआ कपडा
-दिखलाने के लिये कहिये।</hra:value>
-				<hra:value>text-ur:
-PLEASE ENTER HERE</hra:value>
-				<hra:value>text-bn:
-PLEASE ENTER HERE</hra:value>
-				<hra:value>description-en:
-The advertisement for the cloth dyeing and finishing  company B.D.A., shows a king sitting cross-legged on a throne with two servants on either side of him. They hold feathered fans in their hands. They are in an opulent room decorated in gilt and with pillars and carving. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080627_1708.jpg</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-B.D.A. could stand for the Bradford Dyeing Association (BDA) of Rode Island, USA, which was founded in 1911 (ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118925</hra:value>
-				<hra:value>118925</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:06">
-			</hra:administrative>
-		</hra:heidicon>
+दिखलाने के लिये कहिये।</ext:value>
+				<ext:value>text-ur:
+PLEASE ENTER HERE</ext:value>
+				<ext:value>text-bn:
+PLEASE ENTER HERE</ext:value>
+				<ext:value>description-en:
+The advertisement for the cloth dyeing and finishing  company B.D.A., shows a king sitting cross-legged on a throne with two servants on either side of him. They hold feathered fans in their hands. They are in an opulent room decorated in gilt and with pillars and carving. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080627_1708.jpg</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+B.D.A. could stand for the Bradford Dyeing Association (BDA) of Rode Island, USA, which was founded in 1911 (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080627_1708.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">B.D.A. could stand for the Bradford Dyeing Association (BDA) of Rode Island, USA, which was founded in 1911</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118927</ext:value>
+				<ext:value>i_cbefe6b3-1385-50bc-80ed-2fd3058cd5d3</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118926</ext:value>
+				<ext:value>i_3dbbd518-648c-5aa1-b466-8e5181977969</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118925</ext:value>
+				<ext:value>118925</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:52">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

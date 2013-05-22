@@ -1,18 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_65c2cd3d-d9ec-5e4f-9b7e-b4504b214d7a" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-0e3a4b0b-b175-510b-bd48-242e5fa2a018">Singha, M.</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A smiling child sits on a cushion, holding the Indian national flag in its left hand. A toy rifle is in his right hand, resting on his thigh and other toys - a tank, a plane and a drum can be seem around him.  A partially visible map of India is inscribed on the cushion on which the child sits.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A smiling child sits on a cushion, holding the Indian national flag in its left hand. A toy rifle is in his right hand, resting on his thigh and other toys - a tank, a plane and a drum can be seem around him.  A partially visible map of India is inscribed on the cushion on which the child sits.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -34,10 +44,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109884" type="corporate">HeidICON Image Database</name>
+				<refid>109884</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -58,164 +71,264 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/116/index_4.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=93&amp;EId=116&amp;ImageId=20</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>late 20th century</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term>sun</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term>map of India</term>
+				<term type="work (map)">map of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
-				<term>flag</term>
+				<term type="concept">flags</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
+				<term type="geographic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3c5e6969-b1bd-5f45-84de-b4ee4342bfad">
-				<term>airplane</term>
+				<term type="concept">airplanes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term>child</term>
+				<term type="concept">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="691f9bd9-9cb7-584c-9489-db876ed9c2cb">
-				<term>weapon</term>
+				<term type="concept">weapons</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="703d170e-332a-5105-bfbf-e3f137b848ff">
-				<term>toy</term>
+				<term type="concept">toys (recreational artifacts)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="32bac633-9059-5ea1-9685-2316bac61731">
-				<term>political posters</term>
+				<term type="worktype">political posters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
-				<term>Indian flag</term>
+				<term type="concept">Indian flag</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bd955076-11a3-5295-aa36-73664c8b215d">
-				<term>drum</term>
+				<term type="concept">drums (membranophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e749c727-bac2-5186-b892-3c18089b890e">
-				<term>tank</term>
+				<term type="concept">tanks (military vehicles)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e8967c0b-382e-5fb3-96a0-ef93706f8e9c">
-				<term>rifle</term>
+				<term type="concept">rifle (long guns)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97e02-1a4f-5f17-b8da-356232c6ad86">
-				<term>cushion</term>
+				<term type="concept">cushions</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term>map</term>
+				<term type="concept">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Let our flag fly high</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Let our flag fly high</title>
 			<title type="descriptive" pref="false" lang="" script="">Jhanda uncha rahe hamara</title>
 			<title type="descriptive" pref="false" lang="" script="">झंडा ऊँचा रहे हमारा</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Singha, M.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-hi:
-झंडा ऊँचा रहे हमारा</hra:value>
-				<hra:value>text-transcription-hi:
-Jhanda uncha rahe hamara</hra:value>
-				<hra:value>text-transcription-hi:
-Let our flag fly high</hra:value>
-				<hra:value>text-en:
-M. Singha</hra:value>
-				<hra:value>description-en:
-A smiling child sits on a cushion, holding the Indian national flag in its left hand. A toy rifle is in his right hand, resting on his thigh and other toys - a tank, a plane and a drum can be seem around him.  A partially visible map of India is inscribed on the cushion on which the child sits. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-In this image, a print difficult to date but bearing the signature of one M. Singa and titled Jhanda Ooncha Rahe Hamaara, “Our Flag Shall Fly Loftily,” one young citizen plays at being soldier surrounded casually by various weapons of mass destruction as if these are benign toys: a tank, a fighter plane, a rifle, and a revolver. He cheerfully waves the national flag and is perched on a cushion on which a partial outline map of India is visible, a hand holding a revolver with its muzzle directed towards the geo-body. Here, as in all the other examples I have shown here, the map of the nation serves as a territorial mnemonic, bringing into view in a manner that is impossible otherwise, the country as a single entity that the citizen is expected to serve with loyalty and devotion to the point of sacrificing oneself in its cause, if necessary by resorting to arms. (Sumathi Ramaswamy) (gs)</hra:value>
-				<hra:value>related literature:
-Coplan, Ian, 1997. The Princes of India in the Endgame of Empire, 1917-1947. Cambridge: Cambridge University Press, pp. 229-287. (gs)</hra:value>
-				<hra:value>related literature:
-Guha, Ramachandra, 2008. India after Gandhi (New York: HarperCollins), pp. 51-96. (gs)</hra:value>
-				<hra:value>related literature:
-Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan. (gs)</hra:value>
-				<hra:value>related literature:
-Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97. (gs)</hra:value>
-				<hra:value>related literature:
-Neumayer, Erwin, and Christine Schelberger. 2008.&quot;Bharat mata: India's freedom movement in popular art&quot;. Delhi: Oxford University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-26-03 (gs)</hra:value>
-				<hra:value>related literature:
-Ramusack, Barbara, 2003. The Indian Princes and their States. Cambridge: Cambridge University Press, pp. 245-274. (gs)</hra:value>
-				<hra:value>related literature:
-Roy, Srirupa. 2006. A Symbol of Freedom: The Indian Flag and the Transformations of Nationalism, 1906-2002. Journal of Asian Studies 65 (3):495-527. (gs)</hra:value>
-				<hra:value>related literature:
-Thongchai Winichakul. 1996. Maps and the Formation of the Geo-Body of Siam. In Asian Forms of the Nation, edited by H. Antlov and S. Tonnesson. London: Curzon Press, p. 70. (gs)</hra:value>
-				<hra:value>related literature:
-Virmani, Arundhati. 2008. A National Flag for India. Rituals, Nationalism and the Politics of Sentiment. New Delhi: Permanent Black. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-26-03</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Ramusack, Barbara, 2003. The Indian Princes and their States. Cambridge: Cambridge University Press, pp. 245-274.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Coplan, Ian, 1997. The Princes of India in the Endgame of Empire, 1917-1947. Cambridge: Cambridge University Press, pp. 229-287.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Virmani, Arundhati. 2008. A National Flag for India. Rituals, Nationalism and the Politics of Sentiment. New Delhi: Permanent Black.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Roy, Srirupa. 2006. A Symbol of Freedom: The Indian Flag and the Transformations of Nationalism, 1906-2002. Journal of Asian Studies 65 (3):495-527.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Neumayer, Erwin, and Christine Schelberger. 2008.&quot;Bharat mata: India's freedom movement in popular art&quot;. Delhi: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Thongchai Winichakul. 1996. Maps and the Formation of the Geo-Body of Siam. In Asian Forms of the Nation, edited by H. Antlov and S. Tonnesson. London: Curzon Press, p. 70.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Guha, Ramachandra, 2008. India after Gandhi (New York: HarperCollins), pp. 51-96.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109884</hra:value>
-				<hra:value>109884</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:55">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Singha, M.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-hi:
+झंडा ऊँचा रहे हमारा</ext:value>
+				<ext:value>text-transcription-hi:
+Jhanda uncha rahe hamara</ext:value>
+				<ext:value>text-transcription-hi:
+Let our flag fly high</ext:value>
+				<ext:value>text-en:
+M. Singha</ext:value>
+				<ext:value>description-en:
+A smiling child sits on a cushion, holding the Indian national flag in its left hand. A toy rifle is in his right hand, resting on his thigh and other toys - a tank, a plane and a drum can be seem around him.  A partially visible map of India is inscribed on the cushion on which the child sits. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+In this image, a print difficult to date but bearing the signature of one M. Singa and titled Jhanda Ooncha Rahe Hamaara, “Our Flag Shall Fly Loftily,” one young citizen plays at being soldier surrounded casually by various weapons of mass destruction as if these are benign toys: a tank, a fighter plane, a rifle, and a revolver. He cheerfully waves the national flag and is perched on a cushion on which a partial outline map of India is visible, a hand holding a revolver with its muzzle directed towards the geo-body. Here, as in all the other examples I have shown here, the map of the nation serves as a territorial mnemonic, bringing into view in a manner that is impossible otherwise, the country as a single entity that the citizen is expected to serve with loyalty and devotion to the point of sacrificing oneself in its cause, if necessary by resorting to arms. (Sumathi Ramaswamy) (gs)</ext:value>
+				<ext:value>related literature:
+Coplan, Ian, 1997. The Princes of India in the Endgame of Empire, 1917-1947. Cambridge: Cambridge University Press, pp. 229-287. (gs)</ext:value>
+				<ext:value>related literature:
+Guha, Ramachandra, 2008. India after Gandhi (New York: HarperCollins), pp. 51-96. (gs)</ext:value>
+				<ext:value>related literature:
+Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan. (gs)</ext:value>
+				<ext:value>related literature:
+Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97. (gs)</ext:value>
+				<ext:value>related literature:
+Neumayer, Erwin, and Christine Schelberger. 2008.&quot;Bharat mata: India's freedom movement in popular art&quot;. Delhi: Oxford University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-26-03 (gs)</ext:value>
+				<ext:value>related literature:
+Ramusack, Barbara, 2003. The Indian Princes and their States. Cambridge: Cambridge University Press, pp. 245-274. (gs)</ext:value>
+				<ext:value>related literature:
+Roy, Srirupa. 2006. A Symbol of Freedom: The Indian Flag and the Transformations of Nationalism, 1906-2002. Journal of Asian Studies 65 (3):495-527. (gs)</ext:value>
+				<ext:value>related literature:
+Thongchai Winichakul. 1996. Maps and the Formation of the Geo-Body of Siam. In Asian Forms of the Nation, edited by H. Antlov and S. Tonnesson. London: Curzon Press, p. 70. (gs)</ext:value>
+				<ext:value>related literature:
+Virmani, Arundhati. 2008. A National Flag for India. Rituals, Nationalism and the Politics of Sentiment. New Delhi: Permanent Black. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-26-03</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Ramusack, Barbara, 2003. The Indian Princes and their States. Cambridge: Cambridge University Press, pp. 245-274.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Coplan, Ian, 1997. The Princes of India in the Endgame of Empire, 1917-1947. Cambridge: Cambridge University Press, pp. 229-287.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Virmani, Arundhati. 2008. A National Flag for India. Rituals, Nationalism and the Politics of Sentiment. New Delhi: Permanent Black.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Roy, Srirupa. 2006. A Symbol of Freedom: The Indian Flag and the Transformations of Nationalism, 1906-2002. Journal of Asian Studies 65 (3):495-527.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Neumayer, Erwin, and Christine Schelberger. 2008.&quot;Bharat mata: India's freedom movement in popular art&quot;. Delhi: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Thongchai Winichakul. 1996. Maps and the Formation of the Geo-Body of Siam. In Asian Forms of the Nation, edited by H. Antlov and S. Tonnesson. London: Curzon Press, p. 70.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Guha, Ramachandra, 2008. India after Gandhi (New York: HarperCollins), pp. 51-96.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In this image, a print difficult to date but bearing the signature of one M. Singa and titled Jhanda Ooncha Rahe Hamaara, “Our Flag Shall Fly Loftily,” one young citizen plays at being soldier surrounded casually by various weapons of mass destruction as if these are benign toys: a tank, a fighter plane, a rifle, and a revolver. He cheerfully waves the national flag and is perched on a cushion on which a partial outline map of India is visible, a hand holding a revolver with its muzzle directed towards the geo-body. Here, as in all the other examples I have shown here, the map of the nation serves as a territorial mnemonic, bringing into view in a manner that is impossible otherwise, the country as a single entity that the citizen is expected to serve with loyalty and devotion to the point of sacrificing oneself in its cause, if necessary by resorting to arms.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sumathi Ramaswamy</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/116/index_4.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=93&amp;EId=116&amp;ImageId=20</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109884</ext:value>
+				<ext:value>109884</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:03">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

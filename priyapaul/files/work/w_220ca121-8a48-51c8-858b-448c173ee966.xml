@@ -1,29 +1,33 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_220ca121-8a48-51c8-858b-448c173ee966" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ecd25caa-3979-59b2-a3c5-8a0817b964cd">Kumar, Pradeep</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-b5d277c7-eced-599e-8946-78408476ed54">Roopa Sain</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<name vocab="local" type="personal" refid="uuid-b5d277c7-eced-599e-8946-78408476ed54">Sain, Roopa</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1972</earliestDate>
-				<latestDate>1972</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this lobby card for the Hindi movie &quot;Mangetar&quot;, released in 1972, one of the main actors, probably Pradeep Kumar, can be seen sitting on the ground between two women kissing each other above his head. Around them, several Indian drums and other musical instruments can be seen. The women and the man are on a terrace in front of a big window.</description>
+			<description lang="en" script="Latn">
+				<text>On this lobby card for the Hindi movie &quot;Mangetar&quot;, released in 1972, one of the main actors, probably Pradeep Kumar, can be seen sitting on the ground between two women kissing each other above his head. Around them, several Indian drums and other musical instruments can be seen. The women and the man are on a terrace in front of a big window.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -42,10 +46,13 @@ Lyrics Kaifi Azmi</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119321" type="corporate">HeidICON Image Database</name>
+				<refid>119321</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -53,6 +60,7 @@ Lyrics Kaifi Azmi</text>
 		</materialSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_0e691f6f-ba02-518c-8428-a2dd334ad07a" refid="119321" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_9229ada7-057f-5bcb-a97e-13f8b32731d6" refid="119320" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -60,104 +68,139 @@ Lyrics Kaifi Azmi</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0380523/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term>musical instrument</term>
+				<term type="concept">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c1b6ad-3105-55a8-b39b-cf71d9de6c66">
-				<term>window</term>
+				<term type="concept">windows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87d6ef00-d06b-5bf6-be31-4b076b9eb5fd">
-				<term>kiss</term>
+				<term type="concept">kisses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0007bb8-44b6-58f3-9232-503aa15a7526">
-				<term>Damru</term>
+				<term type="concept">damarus</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bd955076-11a3-5295-aa36-73664c8b215d">
-				<term>drum</term>
+				<term type="concept">drums (membranophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6cec0d70-a8cd-5fdb-b371-0d8d68cad08d">
-				<term>bathtub</term>
+				<term type="concept">bathtubs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8dd1e4e9-1f7c-5fa4-8e2f-4a060fd56337">
-				<term>dancer</term>
+				<term type="concept">dancers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eb4481f9-6915-53cc-a2a5-1a7db6776959">
-				<term>Mangetar</term>
+				<term type="work (movie)">Mangetar</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7fb7bd38-8f58-51ca-80c4-d5ffc11519b8">
-				<term>foam</term>
+				<term type="concept">foam</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Mangetar&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mangetar&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">मंगेतर</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Filmcar presents
 Sudhir Sain`s
 Mangetar
 Eastmancolor
 Directed by Roopa Sain
 Music by Sudhir Sain
-Lyrics Kaifi Azmi</hra:value>
-				<hra:value>text-hi:
-मंगेतर</hra:value>
-				<hra:value>description-en:
-On this lobby card for the Hindi movie &quot;Mangetar&quot;, released in 1972, one of the main actors, probably Pradeep Kumar, can be seen sitting on the ground between two women kissing each other above his head. Around them, several Indian drums and other musical instruments can be seen. The women and the man are on a terrace in front of a big window. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0380523/, last accessed 2011-12-28. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/200806060078.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0380523/</hra:value>
-				<hra:value>2011-12-28</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119321</hra:value>
-				<hra:value>119321</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:27">
-			</hra:administrative>
-		</hra:heidicon>
+Lyrics Kaifi Azmi</ext:value>
+				<ext:value>text-hi:
+मंगेतर</ext:value>
+				<ext:value>description-en:
+On this lobby card for the Hindi movie &quot;Mangetar&quot;, released in 1972, one of the main actors, probably Pradeep Kumar, can be seen sitting on the ground between two women kissing each other above his head. Around them, several Indian drums and other musical instruments can be seen. The women and the man are on a terrace in front of a big window. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0380523/, last accessed 2011-12-28. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/200806060078.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0380523/</ext:value>
+				<ext:value type="accessed">2011-12-28</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/200806060078.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119320</ext:value>
+				<ext:value>i_9229ada7-057f-5bcb-a97e-13f8b32731d6</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0380523/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119321</ext:value>
+				<ext:value>119321</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:22">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

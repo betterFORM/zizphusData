@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_b0ba572b-6729-5947-a113-576996cd0073" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Thirteen women of different ethnic / cultural / national origin reach out for bottles of Kaminia hair oil. The bottles and boxes are handed down from &quot;two goddesses of beauty&quot; who lie on a large white cloud. One of them holds up a tablet with the hair oil products. The scene almost reminds the viewer of Da Vinci's Creazione di Adamo. A remarkable feature is the detailed elaboration of the women's clothes, costume accessories, jewellery and phenotypical features. The advertisement is aiming at the universal applicability of the hair oil's qualities, thus the text, &quot;used by all nationalities (...)&quot;.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Thirteen women of different ethnic / cultural / national origin reach out for bottles of Kaminia hair oil. The bottles and boxes are handed down from &quot;two goddesses of beauty&quot; who lie on a large white cloud. One of them holds up a tablet with the hair oil products. The scene almost reminds the viewer of Da Vinci's Creazione di Adamo. A remarkable feature is the detailed elaboration of the women's clothes, costume accessories, jewellery and phenotypical features. The advertisement is aiming at the universal applicability of the hair oil's qualities, thus the text, &quot;used by all nationalities (...)&quot;.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -22,10 +28,13 @@ is a gift from the goddess of beauty.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118667" type="corporate">HeidICON Image Database</name>
+				<refid>118667</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -38,7 +47,17 @@ is a gift from the goddess of beauty.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_f314e642-c865-5eeb-b2a8-20527b877999" refid="118667" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_f314e642-c865-5eeb-b2a8-20527b877999" refid="118667" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_8307412f-232c-55d4-81e6-d3cda271eefa" refid="120941" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_dc6d0b0e-7f9a-5b5f-8b20-8e5bfcf532b8" refid="118671" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_10dae418-e54e-54ee-8c13-22ae369c37f8" refid="118673" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_cfae6f94-5dcd-5921-b1c3-187ebed71643" refid="118670" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_1ab818ee-ed5a-5ba8-a875-a670e28ae6be" refid="118669" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_339a1b3f-ac7f-5fbe-9ffa-fed72f33116a" refid="118674" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_1ad0bdcc-7fae-5e01-99af-a08949c9e86b" refid="118668" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_1ca9a9b2-7e84-5c31-afca-72e6026b57dc" refid="118675" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_aedf0312-0aaa-5021-af9b-42ed7f6fe723" refid="120940" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_58db4d4d-37fa-5912-9178-1621703e8509" refid="118672" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -48,68 +67,131 @@ is a gift from the goddess of beauty.</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cfb88208-2bc6-58ee-a344-5a1c52373769">
-				<term>costume accessories</term>
+				<term type="concept">costume accessories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b0b739a2-1b2c-540f-8f77-de4eed5d85d2">
-				<term>tray</term>
+				<term type="concept">trays</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="79d14c4d-4923-5fc1-9b05-22ec18142a23">
-				<term>Kaminia Products</term>
+				<term type="brand">Kaminia Products</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
-				<term>hair oil</term>
+				<term type="concept">hair oil</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Crowd of women, in a poster advertisement of Kaminia Oil</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Crowd of women, in a poster advertisement of Kaminia Oil</title>
 		</titleSet>
 		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
-			<worktype>posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Kaminia-Oil
-is a gift from the goddess of beauty.</hra:value>
-				<hra:value>text-en:
-Used by all nationalities for Preserving &amp; Beautifying the Hair.</hra:value>
-				<hra:value>description-en:
-Thirteen women of different ethnic / cultural / national origin reach out for bottles of Kaminia hair oil. The bottles and boxes are handed down from &quot;two goddesses of beauty&quot; who lie on a large white cloud. One of them holds up a tablet with the hair oil products. The scene almost reminds the viewer of Da Vinci's Creazione di Adamo. A remarkable feature is the detailed elaboration of the women's clothes, costume accessories, jewellery and phenotypical features. The advertisement is aiming at the universal applicability of the hair oil's qualities, thus the text, &quot;used by all nationalities (...)&quot;.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080516_1079.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>damaged</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118667</hra:value>
-				<hra:value>118667</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:40:36">
-			</hra:administrative>
-		</hra:heidicon>
+is a gift from the goddess of beauty.</ext:value>
+				<ext:value>text-en:
+Used by all nationalities for Preserving &amp; Beautifying the Hair.</ext:value>
+				<ext:value>description-en:
+Thirteen women of different ethnic / cultural / national origin reach out for bottles of Kaminia hair oil. The bottles and boxes are handed down from &quot;two goddesses of beauty&quot; who lie on a large white cloud. One of them holds up a tablet with the hair oil products. The scene almost reminds the viewer of Da Vinci's Creazione di Adamo. A remarkable feature is the detailed elaboration of the women's clothes, costume accessories, jewellery and phenotypical features. The advertisement is aiming at the universal applicability of the hair oil's qualities, thus the text, &quot;used by all nationalities (...)&quot;.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080516_1079.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080516_1079.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>damaged</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120941</ext:value>
+				<ext:value>i_8307412f-232c-55d4-81e6-d3cda271eefa</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118671</ext:value>
+				<ext:value>i_dc6d0b0e-7f9a-5b5f-8b20-8e5bfcf532b8</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118673</ext:value>
+				<ext:value>i_10dae418-e54e-54ee-8c13-22ae369c37f8</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118670</ext:value>
+				<ext:value>i_cfae6f94-5dcd-5921-b1c3-187ebed71643</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118669</ext:value>
+				<ext:value>i_1ab818ee-ed5a-5ba8-a875-a670e28ae6be</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118674</ext:value>
+				<ext:value>i_339a1b3f-ac7f-5fbe-9ffa-fed72f33116a</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118668</ext:value>
+				<ext:value>i_1ad0bdcc-7fae-5e01-99af-a08949c9e86b</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118675</ext:value>
+				<ext:value>i_1ca9a9b2-7e84-5c31-afca-72e6026b57dc</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120940</ext:value>
+				<ext:value>i_aedf0312-0aaa-5021-af9b-42ed7f6fe723</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118672</ext:value>
+				<ext:value>i_58db4d4d-37fa-5912-9178-1621703e8509</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118667</ext:value>
+				<ext:value>118667</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:07">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

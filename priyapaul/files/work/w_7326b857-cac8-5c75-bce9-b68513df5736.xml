@@ -1,33 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_7326b857-cac8-5c75-bce9-b68513df5736" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="137010656" pref="true">Chowdhury, Sudhir</name>
-				<role/>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="personal" refid="uuid-65b17df2-f3f5-5439-bc9a-f9574da16339">Vivekananda, Swami</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-a1621c82-d56e-5b80-9df4-2ff7a71f61c2">Chowdhury, Sudhir</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Image in a sample calender poster of Empire Calender Manufacturing Co., Calcutta shows Swami Vivekananda in America. He stands in front of map of North America with the Pacific ocean as well as the Atlantic. In the background, several well known buildings of central Chicago can be seen (skyscraper and other architectural elements).</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Image in a sample calender poster of Empire Calender Manufacturing Co., Calcutta shows Swami Vivekananda in America. He stands in front of map of North America with the Pacific ocean as well as the Atlantic. In the background, several well known buildings of central Chicago can be seen (skyscraper and other architectural elements).</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -49,10 +50,13 @@ No. 319</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118798" type="corporate">HeidICON Image Database</name>
+				<refid>118798</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -74,94 +78,118 @@ No. 319</text>
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="b24f4a87-fd3b-5f2b-98d1-a58250ceea70">
-				<term>Chicago</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5c50860e-d23c-572f-aabb-05b3cf6f0d79">
-				<term>city</term>
+				<term type="concept">cities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8b649548-d3eb-5669-ab53-534befea688d">
-				<term>globe</term>
+				<term type="concept">globes (cartographic spheres)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="60671271-0213-5534-9c27-7c7d70eafb36">
-				<term>church</term>
+				<term type="concept">churches (buildings)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b24f4a87-fd3b-5f2b-98d1-a58250ceea70">
+				<term type="geographic">Chicago</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1f38e8c6-a91c-54de-a947-76b31257484a">
-				<term>skyscraper</term>
+				<term type="work (architecture)">skyscrapers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0c2d6d26-9caa-5511-8257-dfef92694e12">
-				<term>cosmopolitan</term>
+				<term type="concept">cosmopolitans (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="51324a0f-7b9d-58e0-bfd1-e4b290f9925c">
-				<term>world map</term>
+				<term type="concept">world maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term>map</term>
+				<term type="concept">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3511117e-3fd2-5bf2-8a43-d34af234bfd3">
-				<term>map of North America</term>
+				<term type="work (map)">map of North America</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b5859290-1538-5d89-97e2-2668abc19a58">
+				<term type="concept">terrestrial globes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Swami Vivekanand&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Swami Vivekanand&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Chowdhury, Sudhir</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Chowdhury, Sudhir</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Asia
 America
-Pacipic Ocean</hra:value>
-				<hra:value>text-en:
+Pacipic Ocean</ext:value>
+				<ext:value>text-en:
 Swami Vivekanand
-No. 319</hra:value>
-				<hra:value>text-en:
-Sudhir Chowdhury</hra:value>
-				<hra:value>description-en:
-Image in a sample calender poster of Empire Calender Manufacturing Co., Calcutta shows Swami Vivekananda in America. He stands in front of map of North America with the Pacific ocean as well as the Atlantic. In the background, several well known buildings of central Chicago can be seen (skyscraper and other architectural elements).</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The image emphasizes Vivekanandas visit to North America in 1897 for the World Congress of Religions. It was the first visit of a teacher of the Hindu philosophy in the USA. He emphasized the difference of the monotheistic religions and Hinduism as well as the too material culture of the west. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hinduism that manages, simultaneously, to nurture an idea of a Hindu chauvinist masculinity and superiority. This counts for several Hindu nationalist organisations (Sangh Parivar) active in India and abroad. The backdrop of the city also displays Vivekananda as a cosmopolitan who stands confidently in a cityscape that was not known in India at that time.() (cb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118798</hra:value>
-				<hra:value>118798</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:32">
-			</hra:administrative>
-		</hra:heidicon>
+No. 319</ext:value>
+				<ext:value>text-en:
+Sudhir Chowdhury</ext:value>
+				<ext:value>description-en:
+Image in a sample calender poster of Empire Calender Manufacturing Co., Calcutta shows Swami Vivekananda in America. He stands in front of map of North America with the Pacific ocean as well as the Atlantic. In the background, several well known buildings of central Chicago can be seen (skyscraper and other architectural elements).</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The image emphasizes Vivekanandas visit to North America in 1897 for the World Congress of Religions. It was the first visit of a teacher of the Hindu philosophy in the USA. He emphasized the difference of the monotheistic religions and Hinduism as well as the too material culture of the west. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hinduism that manages, simultaneously, to nurture an idea of a Hindu chauvinist masculinity and superiority. This counts for several Hindu nationalist organisations (Sangh Parivar) active in India and abroad. The backdrop of the city also displays Vivekananda as a cosmopolitan who stands confidently in a cityscape that was not known in India at that time.() (cb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hinduism that manages, simultaneously, to nurture an idea of a Hindu chauvinist masculinity and superiority. This counts for several Hindu nationalist organisations (Sangh Parivar) active in India and abroad. The backdrop of the city also displays Vivekananda as a cosmopolitan who stands confidently in a cityscape that was not known in India at that time.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The image emphasizes Vivekanandas visit to North America in 1897 for the World Congress of Religions. It was the first visit of a teacher of the Hindu philosophy in the USA. He emphasized the difference of the monotheistic religions and Hinduism as well as the too material culture of the west.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118798</ext:value>
+				<ext:value>118798</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:49">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

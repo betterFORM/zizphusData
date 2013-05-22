@@ -1,18 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_878d4ac6-1fd8-5530-8cd0-54bf85bbf149" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-c682cf99-4cfd-5f35-a393-916e1af64553">Ashok Chemical Industries</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for Engine Phenyle by Ashok Chemical Industries, a steam-powered train can be seen in the center of the image, driving through a landscape with mountains in the background. On the right and left sections of the image are s of the product and its use in English and Hindi. Under the image of the train, is a drawing of a person with a halo around his/her head, probably the logo of the company.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for Engine Phenyle by Ashok Chemical Industries, a steam-powered train can be seen in the center of the image, driving through a landscape with mountains in the background. On the right and left sections of the image are s of the product and its use in English and Hindi. Under the image of the train, is a drawing of a person with a halo around his/her head, probably the logo of the company.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -67,10 +77,13 @@ Bombay 4</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108376" type="corporate">HeidICON Image Database</name>
+				<refid>108376</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -91,44 +104,51 @@ Bombay 4</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.ashokindustry.com/profile.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2a5cd23e-936c-5a59-a1e2-fe34e6e7ac7b">
-				<term>train</term>
+				<term type="concept">trains (vehicle groupings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a607ab4d-4d55-5515-9767-bb12040c3bdf">
-				<term>landscape</term>
+				<term type="concept">landscapes (environments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06f8448-eeca-5f91-a22f-c2d06600926d">
-				<term>Engine Phenyle</term>
+				<term type="brand">Engine Phenyle</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">An advertisement of Engine Phenyle</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Engine Phenyle</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Engine Brand Phenyle for Sanitation
 (1) Use in Hospitals, stables, latrines, urinals, kennels &amp; factories for disinfection
 (2) Kills Mosquitoes, Bugs, Flies, Rat-fleas and other harmful insects
@@ -144,10 +164,10 @@ Engine
 Liquid Disinfectant
 Phenyle
 Ashok Chemical Industries
-Bombay 4</hra:value>
-				<hra:value>text-en:
-ACI</hra:value>
-				<hra:value>text-hi:
+Bombay 4</ext:value>
+				<ext:value>text-en:
+ACI</ext:value>
+				<ext:value>text-hi:
 इंजन छाप
 फिनाईल
 (१) छूत और सामान्य सफ़ाई के लिये, होस्पीटल, तबेला, जानवरो के रहने के स्थान, पाखाना, मुत्री, मोरी, फेक्टरी 
@@ -159,53 +179,83 @@ ACI</hra:value>
 
 (४) मरीज़ के रहने के स्थानो को शुद्ध रखने के लिये इसका इस्तेमाल कीजिये.
 
-(५) मवेशीयो के चर्म रोग पर रामबाण का काम करता है.</hra:value>
-				<hra:value>text-hi:
+(५) मवेशीयो के चर्म रोग पर रामबाण का काम करता है.</ext:value>
+				<ext:value>text-hi:
 यह ज़हर है.
-इसे पीना नही.</hra:value>
-				<hra:value>text-hi:
+इसे पीना नही.</ext:value>
+				<ext:value>text-hi:
 इस्तेमाल करने का तरीका 
 इस फीनाईल की उपयोग में लाते समय हिला लेना
 चाहिये एक ग्लास पानी में पहले तीन-चार चमचा
 फीनाईल डाल कर हिलाईये. बादमें उसमें उतना
 पाणी  डालिये जबही वह दूधसा सफेद होजाय | बादमें
-उसे जरूरत को जगहो पर छिड़किये |</hra:value>
-				<hra:value>description-en:
-On this advertisement for Engine Phenyle by Ashok Chemical Industries, a steam-powered train can be seen in the center of the image, driving through a landscape with mountains in the background. On the right and left sections of the image are descriptions of the product and its use in English and Hindi. Under the image of the train, is a drawing of a person with a halo around his/her head, probably the logo of the company. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-ASHOK INDUSTRY is one of the leading manufacturers of Metallic Surface Treatment Chemicals, Water Treatment Chemicals, Heat Treatment Salts, Rust Preventives etc. cf. http://www.ashokindustry.com/profile.html (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.ashokindustry.com/profile.html, last accessed 2012-05-08, company profile. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/398.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.ashokindustry.com/profile.html</hra:value>
-				<hra:value>2012-05-08</hra:value>
-				<hra:value>company profile.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108376</hra:value>
-				<hra:value>108376</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:39">
-			</hra:administrative>
-		</hra:heidicon>
+उसे जरूरत को जगहो पर छिड़किये |</ext:value>
+				<ext:value>description-en:
+On this advertisement for Engine Phenyle by Ashok Chemical Industries, a steam-powered train can be seen in the center of the image, driving through a landscape with mountains in the background. On the right and left sections of the image are descriptions of the product and its use in English and Hindi. Under the image of the train, is a drawing of a person with a halo around his/her head, probably the logo of the company. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+ASHOK INDUSTRY is one of the leading manufacturers of Metallic Surface Treatment Chemicals, Water Treatment Chemicals, Heat Treatment Salts, Rust Preventives etc. cf. http://www.ashokindustry.com/profile.html (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.ashokindustry.com/profile.html, last accessed 2012-05-08, company profile. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/398.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.ashokindustry.com/profile.html</ext:value>
+				<ext:value type="accessed">2012-05-08</ext:value>
+				<ext:value type="comment">company profile.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">ASHOK INDUSTRY is one of the leading manufacturers of Metallic Surface Treatment Chemicals, Water Treatment Chemicals, Heat Treatment Salts, Rust Preventives etc. cf. http://www.ashokindustry.com/profile.html</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/398.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.ashokindustry.com/profile.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108376</ext:value>
+				<ext:value>108376</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:11">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

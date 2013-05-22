@@ -1,24 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_cfed7a75-e18a-5c59-93a0-72a688182b7c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-debc21eb-564b-52f1-97d2-f48a73c3b6b9">Oriental Calendar Manufacturing Company</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1954</earliestDate>
-				<latestDate>1954</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A sample calender page shows a map of India, Bangladesh and Sri Lanka including small images of major attractive sites of religious and/or historical importance, including the Taj Mahal, different god , etc. The image is surrounded by several customizable areas for product advertisements. On the bottom, there is an overview calendar of march 1954.</description>
+			<description lang="en" script="Latn">
+				<text>A sample calender page shows a map of India, Bangladesh and Sri Lanka including small images of major attractive sites of religious and/or historical importance, including the Taj Mahal, different god , etc. The image is surrounded by several customizable areas for product advertisements. On the bottom, there is an overview calendar of march 1954.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -50,10 +50,13 @@ For Prices See clause No. 11. of our pricelist.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120549" type="corporate">HeidICON Image Database</name>
+				<refid>120549</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -76,80 +79,91 @@ For Prices See clause No. 11. of our pricelist.</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term>map of India</term>
+				<term type="work (map)">map of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4b96da05-a233-5f9f-a4b5-b35f99f01171">
-				<term>business</term>
+				<term type="concept">business</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5630ac11-f701-51d4-97ef-06593eb29a30">
-				<term>map of South Asia</term>
+				<term type="work (map)">map of South Asia</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fe7a1eb7-ee55-5804-8edc-a8035407ef24">
-				<term>recheck-jo</term>
+				<term type="internal workflow">recheck-jo</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="67abd8f7-4696-5671-a0cc-50551a8de3c1">
-				<term>Kolkata</term>
+				<term type="geographic">Kolkata</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Oriental Calender Manufacturing Co., Calcutta: sample image showing a map of India</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Oriental Calender Manufacturing Co., Calcutta: sample image showing a map of India</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-A sample calender page shows a map of India, Bangladesh and Sri Lanka including small images of major attractive sites of religious and/or historical importance, including the Taj Mahal, different god , etc. The image is surrounded by several customizable areas for product advertisements. On the bottom, there is an overview calendar of march 1954.</hra:value>
-				<hra:value>text-en:
-No. 708. Beautiful India. [image caption]</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+A sample calender page shows a map of India, Bangladesh and Sri Lanka including small images of major attractive sites of religious and/or historical importance, including the Taj Mahal, different god , etc. The image is surrounded by several customizable areas for product advertisements. On the bottom, there is an overview calendar of march 1954.</ext:value>
+				<ext:value>text-en:
+No. 708. Beautiful India. [image caption]</ext:value>
+				<ext:value>text-en:
 ORIENTAL CALENDAR Mfg. Co.
 Manufacturers Of Novelty Calendars
-Post Box No. 11212 Calcutta-14.</hra:value>
-				<hra:value>text-en:
+Post Box No. 11212 Calcutta-14.</ext:value>
+				<ext:value>text-en:
 Medium Grade Calendars
-in 10&quot; x 15&quot; Size.</hra:value>
-				<hra:value>text-en:
-Space for advt.</hra:value>
-				<hra:value>text-en:
+in 10&quot; x 15&quot; Size.</ext:value>
+				<ext:value>text-en:
+Space for advt.</ext:value>
+				<ext:value>text-en:
 This is a Sample of our complete Calendar in 10&quot; x 15&quot; size with tin mounting on top &amp; bottom, datepads No. 4 &amp; with customer's advt.
-For Prices See clause No. 11. of our pricelist.</hra:value>
-				<hra:value>text-en:
-All the Designs from No. 601 to 708 shown in this album are available in all the 3 sizes and Grades (Special, High &amp; Medium)</hra:value>
-				<hra:value>text-en:
-Book Your Orders as early as possible in advance. Delay sometimes causes Disappointment and inconvenience.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/1915.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120549</hra:value>
-				<hra:value>120549</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:33:23">
-			</hra:administrative>
-		</hra:heidicon>
+For Prices See clause No. 11. of our pricelist.</ext:value>
+				<ext:value>text-en:
+All the Designs from No. 601 to 708 shown in this album are available in all the 3 sizes and Grades (Special, High &amp; Medium)</ext:value>
+				<ext:value>text-en:
+Book Your Orders as early as possible in advance. Delay sometimes causes Disappointment and inconvenience.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/1915.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/1915.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120549</ext:value>
+				<ext:value>120549</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:51">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

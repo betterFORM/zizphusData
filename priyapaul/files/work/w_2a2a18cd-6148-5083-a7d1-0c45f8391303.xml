@@ -1,23 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_2a2a18cd-6148-5083-a7d1-0c45f8391303" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-0bdb20dd-07d9-51f3-8179-c25eaa4a501c">Brooke Bond Darjeeling Tea</name>
-				<role/>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-89e71d4b-f8bc-5e64-8550-7316361c439f">Brooke Bond</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The acrylic painting in the advertisement shows a woman and a man holding a cup of tea. Behind them, people are sitting around tables in a café. The scenery in the background is green and has lush vegetation, probably inspired by landscapes of Darjeeling.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The acrylic painting in the advertisement shows a woman and a man holding a cup of tea. Behind them, people are sitting around tables in a café. The scenery in the background is green and has lush vegetation, probably inspired by landscapes of Darjeeling.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -30,10 +31,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119380" type="corporate">HeidICON Image Database</name>
+				<refid>119380</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -55,61 +59,72 @@
 			</rights>
 		</rightsSet>
 		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="212c6ca2-786e-5325-b90f-68a22b1c1bdb">
+				<term type="concept">cups (drinking vessels)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
-				<term>tea</term>
+				<term type="concept">tea (beverage)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="a3b151a8-4656-5cf9-9164-f0d1e81c3402">
-				<term>cup of tea</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Brooke Bond Supreme Darjeeling Tea</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Brooke Bond Supreme Darjeeling Tea</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-The acrylic painting in the advertisement shows a woman and a man holding a cup of tea. Behind them, people are sitting around tables in a café. The scenery in the background is green and has lush vegetation, probably inspired by landscapes of Darjeeling.</hra:value>
-				<hra:value>text-en:
-New, improved SUPREME for flavour and fragrance!</hra:value>
-				<hra:value>text-en:
-[on product picture] Brooke Bond SUPREME Darjeeling Tea</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/img_0029.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119380</hra:value>
-				<hra:value>119380</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:51">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+The acrylic painting in the advertisement shows a woman and a man holding a cup of tea. Behind them, people are sitting around tables in a café. The scenery in the background is green and has lush vegetation, probably inspired by landscapes of Darjeeling.</ext:value>
+				<ext:value>text-en:
+New, improved SUPREME for flavour and fragrance!</ext:value>
+				<ext:value>text-en:
+[on product picture] Brooke Bond SUPREME Darjeeling Tea</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/img_0029.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/img_0029.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119380</ext:value>
+				<ext:value>119380</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:49">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

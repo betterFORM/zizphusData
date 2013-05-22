@@ -1,19 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_dca0545a-593e-5462-8bfe-1256f0f2149e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1909</earliestDate>
-				<latestDate>1909</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On the back of this postcard, we see an image of a woman with the name Hashinjan written below. The date stamp dates November 1909. The address is indecipherable.</description>
+			<description lang="en" script="Latn">
+				<text>On the back of this postcard, we see an image of a woman with the name Hashinjan written below. The date stamp dates November 1909. The address is indecipherable.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -28,10 +28,13 @@ D.M.Khan Bros.
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106096" type="corporate">HeidICON Image Database</name>
+				<refid>106096</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -44,7 +47,8 @@ D.M.Khan Bros.
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7c829410-a688-5786-80ee-aa6a71e0b4b2" refid="106096" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7c829410-a688-5786-80ee-aa6a71e0b4b2" refid="106096" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_eea923b1-2ac8-566a-8949-09c59ed0d8b4" refid="119346" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -54,59 +58,77 @@ D.M.Khan Bros.
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="31053f28-ef5f-5db6-bedb-0983ad9b9943">
-				<term>postage stamps</term>
+				<term type="concept">postage stamps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e689f406-1b4b-5e85-97d7-1ea72891824c">
-				<term>text message</term>
+				<term type="concept">text messages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3606d2bd-a29a-5124-a6c6-efa79b5af9bf">
-				<term>communication</term>
+				<term type="concept">communication</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Hasinajan, on a postcard published by D.M.Khan Bros., Calcutta</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Hasinajan, on a postcard published by D.M.Khan Bros., Calcutta</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Post Card
 D.M.Khan Bros.
-5, Colutola St., Cal.</hra:value>
-				<hra:value>text-en:
-Hashinajan</hra:value>
-				<hra:value>description-en:
-On the back of this postcard, we see an image of a woman with the name Hashinjan written below. The date stamp dates November 1909. The address is indecipherable. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/0004.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/106096</hra:value>
-				<hra:value>106096</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:15">
-			</hra:administrative>
-		</hra:heidicon>
+5, Colutola St., Cal.</ext:value>
+				<ext:value>text-en:
+Hashinajan</ext:value>
+				<ext:value>description-en:
+On the back of this postcard, we see an image of a woman with the name Hashinjan written below. The date stamp dates November 1909. The address is indecipherable. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/0004.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/0004.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119346</ext:value>
+				<ext:value>i_eea923b1-2ac8-566a-8949-09c59ed0d8b4</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/106096</ext:value>
+				<ext:value>106096</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:03">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

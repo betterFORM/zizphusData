@@ -1,29 +1,33 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_63a6cf10-2b00-5502-b16a-0265ac53558e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5f76a12a-a46e-5e33-adce-29c117f934e2">Shaikh, S. S.</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-15611d32-52c2-5f98-9c0d-a5225c1043a0">Sargodha Soap Factory</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1970</earliestDate>
-				<latestDate>1970</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this  calender from 1970 two women kneel on the banks of a small river in a forest, washing clothes and chatting. In the background three cows can be seen, lying  next to the river.</description>
+			<description lang="en" script="Latn">
+				<text>On this  calender from 1970 two women kneel on the banks of a small river in a forest, washing clothes and chatting. In the background three cows can be seen, lying  next to the river.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -70,10 +74,13 @@ T. P. 4082</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118900" type="corporate">HeidICON Image Database</name>
+				<refid>118900</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -86,7 +93,9 @@ T. P. 4082</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_fb173f13-d718-5183-83ad-6e2433e821c1" refid="118900" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_fb173f13-d718-5183-83ad-6e2433e821c1" refid="118900" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_605b2d14-89c6-5286-8157-c5e47ae7f1f9" refid="118902" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_fe800f1a-3ff2-5864-970a-7ceb51eaa0ab" refid="118901" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -94,131 +103,202 @@ T. P. 4082</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1970s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term>river</term>
+				<term type="concept">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term>cow</term>
+				<term type="animal">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6d72b2e-0bbf-5d86-baf6-6b835a66d63d">
-				<term>laundry</term>
+				<term type="concept">washing (cleaning)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0e3460df-594a-56bc-bb14-3bd2278c8090">
-				<term>Dhobi</term>
+				<term type="concept">Dhobi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
-				<term>forest</term>
+				<term type="concept">forests</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Sargodha Soap Factory</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Sargodha Soap Factory</title>
 			<title type="descriptive" pref="false" lang="" script="">सरगोधा सोप फैक्ट्री</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Shaikh, S. S.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-s. s. shaikh</hra:value>
-				<hra:value>text-hi:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Shaikh, S. S.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+s. s. shaikh</ext:value>
+				<ext:value>text-hi:
 सरगोधा सोप फैक्ट्री
-बाँस मंडी, बरेली (उ . प्र.)</hra:value>
-				<hra:value>text-hi:
-कपड़े  धोने के लिये</hra:value>
-				<hra:value>text-hi:
-सर्वोत्तम साबुन</hra:value>
-				<hra:value>text-hi:
+बाँस मंडी, बरेली (उ . प्र.)</ext:value>
+				<ext:value>text-hi:
+कपड़े  धोने के लिये</ext:value>
+				<ext:value>text-hi:
+सर्वोत्तम साबुन</ext:value>
+				<ext:value>text-hi:
 सुदर्शन स्पेशल नं.१
 रजि. नं. लैबिल २३००५२
-ट्रेड्मार्क नं. २३५७८७</hra:value>
-				<hra:value>text-en:
-Estd. 1935 Phone 4082</hra:value>
-				<hra:value>text-en:
+ट्रेड्मार्क नं. २३५७८७</ext:value>
+				<ext:value>text-en:
+Estd. 1935 Phone 4082</ext:value>
+				<ext:value>text-en:
 Sargodha Soap Factory
-Bans Mandi, Bareilly (U. P.)</hra:value>
-				<hra:value>text-en:
+Bans Mandi, Bareilly (U. P.)</ext:value>
+				<ext:value>text-en:
 Hand Chabi
 Regd
 No. 1
 Regd. No. 158473
-Regd. No. 225591</hra:value>
-				<hra:value>text-en:
+Regd. No. 225591</ext:value>
+				<ext:value>text-en:
 Foaji
 Special
-T. P. 4082</hra:value>
-				<hra:value>description-en:
-On this  calender from 1970 two women kneel on the banks of a small river in a forest, washing clothes and chatting. In the background three cows can be seen, lying  next to the river. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-We see a curious cluster of imagery around the washing of clothes in these images – curious because the middle class housewife generally would have had a dhobi (laundry-man or –woman) for this task. (Sandria B. Freitag)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-This image seems to depict a perhaps nostalgic evocation of washing laundry at the water’s edge. (Sandria B. Freitag)(gs)</hra:value>
-				<hra:value>related literature:
-Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (17.3.2011)(gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (17.3.2011)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118900</hra:value>
-				<hra:value>118900</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:51:12">
-			</hra:administrative>
-		</hra:heidicon>
+T. P. 4082</ext:value>
+				<ext:value>description-en:
+On this  calender from 1970 two women kneel on the banks of a small river in a forest, washing clothes and chatting. In the background three cows can be seen, lying  next to the river. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+We see a curious cluster of imagery around the washing of clothes in these images – curious because the middle class housewife generally would have had a dhobi (laundry-man or –woman) for this task. (Sandria B. Freitag)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+This image seems to depict a perhaps nostalgic evocation of washing laundry at the water’s edge. (Sandria B. Freitag)(gs)</ext:value>
+				<ext:value>related literature:
+Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (17.3.2011)(gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (17.3.2011)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This image seems to depict a perhaps nostalgic evocation of washing laundry at the water’s edge.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sandria B. Freitag</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">We see a curious cluster of imagery around the washing of clothes in these images – curious because the middle class housewife generally would have had a dhobi (laundry-man or –woman) for this task.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sandria B. Freitag</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118902</ext:value>
+				<ext:value>i_605b2d14-89c6-5286-8157-c5e47ae7f1f9</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118901</ext:value>
+				<ext:value>i_fe800f1a-3ff2-5864-970a-7ceb51eaa0ab</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118900</ext:value>
+				<ext:value>118900</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:03">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

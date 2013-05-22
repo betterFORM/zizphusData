@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_49e6a873-b4f4-50fb-9af8-ec6df1375e7c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Shantanu tries to persuade Satyavati, the adopted daughter of a fisherman, to marry him, and thus to satisfy his passionate desire. Satyavati stands in water beside her boat, holding the oar while Shantanu on the bank and has the bow in his hand.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Shantanu tries to persuade Satyavati, the adopted daughter of a fisherman, to marry him, and thus to satisfy his passionate desire. Satyavati stands in water beside her boat, holding the oar while Shantanu on the bank and has the bow in his hand.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -20,10 +26,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108042" type="corporate">HeidICON Image Database</name>
+				<refid>108042</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -36,7 +45,8 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_bd24e66b-f72f-54b3-868c-9909f6f3ecfa" refid="108042" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_bd24e66b-f72f-54b3-868c-9909f6f3ecfa" refid="108042" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_522f56fe-6ab4-5811-abd9-f66a08f7acdd" refid="108043" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -46,69 +56,87 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term>arrow</term>
+				<term type="concept">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term>river</term>
+				<term type="concept">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term>bow</term>
+				<term type="concept">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term>picture postcards</term>
+				<term type="worktype">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Satyavati &amp; Shantanu, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Satyavati &amp; Shantanu, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Satyavati and Shantanu.</hra:value>
-				<hra:value>description-en:
-Shantanu tries to persuade Satyavati, the adopted daughter of a fisherman, to marry him, and thus to satisfy his passionate desire. Satyavati stands in water beside her boat, holding the oar while Shantanu on the bank and has the bow in his hand. (gs)</hra:value>
-				<hra:value>text-en:
-P. S. Joshi, Art Publisher, 132 Kalbadevi Road, Bombay. [on backside? (ja)]</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/219a.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Yellowish due to ageing</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108042</hra:value>
-				<hra:value>108042</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:36:04">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Satyavati and Shantanu.</ext:value>
+				<ext:value>description-en:
+Shantanu tries to persuade Satyavati, the adopted daughter of a fisherman, to marry him, and thus to satisfy his passionate desire. Satyavati stands in water beside her boat, holding the oar while Shantanu on the bank and has the bow in his hand. (gs)</ext:value>
+				<ext:value>text-en:
+P. S. Joshi, Art Publisher, 132 Kalbadevi Road, Bombay. [on backside? (ja)]</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/219a.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/219a.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Yellowish due to ageing</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108043</ext:value>
+				<ext:value>i_522f56fe-6ab4-5811-abd9-f66a08f7acdd</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108042</ext:value>
+				<ext:value>108042</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:23">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

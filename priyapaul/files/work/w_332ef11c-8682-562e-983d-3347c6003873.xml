@@ -1,24 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_332ef11c-8682-562e-983d-3347c6003873" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-c276fbf4-d5c0-589c-8270-d2888248c449">William Jacks &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1934</earliestDate>
-				<latestDate>1934</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">This advertisement for William Jacks &amp; Co. Paints of Bombay shows a set of different furniture consisting of a bed, an armchair, a mirror, lamp and carpet along with matching blue curtains.</description>
+			<description lang="en" script="Latn">
+				<text>This advertisement for William Jacks &amp; Co. Paints of Bombay shows a set of different furniture consisting of a bed, an armchair, a mirror, lamp and carpet along with matching blue curtains.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -54,10 +58,13 @@ by William Jacks &amp; Co.'s Paints &amp; Contracts Dept. Bombay.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119832" type="corporate">HeidICON Image Database</name>
+				<refid>119832</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -78,147 +85,221 @@ by William Jacks &amp; Co.'s Paints &amp; Contracts Dept. Bombay.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=79&amp;EId=95&amp;ImageId=5</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1930s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e3d90b31-d015-5f0f-9b69-7844b074ef32">
-				<term>lamp</term>
+				<term type="concept">lamps (lighting devices)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ed5adaee-e891-54c9-bd3d-5a664acc9306">
-				<term>mirror</term>
+				<term type="concept">mirrors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7d41051-cf3b-5ac3-93c0-bacf9f041ebf">
-				<term>bed</term>
+				<term type="concept">beds (furniture)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3eb2f2a4-a55e-56ee-9de8-4c623473da3d">
-				<term>armchair</term>
+				<term type="concept">armchairs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13bad129-1196-5dd3-952d-503079de43b6">
-				<term>blue</term>
+				<term type="concept">blue (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2502395d-3b88-5061-a85d-579655d59693">
-				<term>furniture</term>
+				<term type="work">furniture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8469f4b6-425c-5bd8-9911-20bac5f4650b">
-				<term>carpet</term>
+				<term type="concept">carpets</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9597553-50b0-54c9-941d-95813851a3b7">
-				<term>curtain</term>
+				<term type="concept">curtains (window hangings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term>Times of India Yearbook</term>
+				<term type="work">Times of India Yearbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advertisement for William Jacks &amp; Co. Paints</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for William Jacks &amp; Co. Paints</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 As the
 SUN
 colours
 flowers
 so ART
 colours
-LIFE</hra:value>
-				<hra:value>text-en:
+LIFE</ext:value>
+				<ext:value>text-en:
 For a
 RESTFUL ATMOSPHERE
 use the artistic shades of
 William Jacks &amp; Co.'s
-PAINTS</hra:value>
-				<hra:value>text-en:
+PAINTS</ext:value>
+				<ext:value>text-en:
 (made by Sissons Bros. of Hull, estd. 1803)
 including
 &quot;Tungaline&quot; - &quot;Hall's Distemper&quot; -
-&quot;Renoflor&quot; - &quot;Bonoglos&quot; - &quot;Flatomur,&quot; Etc.</hra:value>
-				<hra:value>text-en:
+&quot;Renoflor&quot; - &quot;Bonoglos&quot; - &quot;Flatomur,&quot; Etc.</ext:value>
+				<ext:value>text-en:
 paint and fibrous plaster decorations executed
-by William Jacks &amp; Co.'s Paints &amp; Contracts Dept. Bombay.</hra:value>
-				<hra:value>text-en:
-CB [artist's signature]</hra:value>
-				<hra:value>description-en:
-This advertisement for William Jacks &amp; Co. Paints of Bombay shows a set of different furniture consisting of a bed, an armchair, a mirror, lamp and carpet along with matching blue curtains. (gs/tb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-This advertisement for William Jacks &amp; Co. Paints and Contracts of Bombay in 1934 offers a vision of carefully matched modern furniture, drapes and wall-to-wall carpeting brought together into a cohesive whole. Perhaps speaking to consumer anxiety about how to tastefully combine diverse commodities in the modern home, the ad copy urges viewers to chose the “artistic shades” of William Jacks' paints in order to evoke a “restful atmosphere” in their homes. The most elaborately imagined home interiors appear, however, not in advertisements depicting commodities for sale, but in ‘calendar art’ images that evoke the meaning of home more broadly.  Often designed to ornament calendars issued by businesses to customers and friends, such images also circulated independently as posters suitable for framing. Printed in bright colors at low cost, ‘calendar art’ circulated widely in mid-twentieth century India, gracing the walls of homes and offices alike, across the middle classes.  As such, this popular art form brought an idealized vision of the modern home to those whose material realities might have been quite different, offering a glimpse into what a better future might hold, or a space in which to imagine a life of plenty. The future imagined in these images differed from those of earlier periods.  Specifically, images of the modern home mark the shift that Sandria Freitag notes in her essay “Consumption and Identity” from ethnographic representations of the everyday to an imagined everyday in which modern selves were forged through consumption of novel goods; the same images also document the transition Arvind Rajagopal notes in his (forthcoming) essay “The Commodity Image in the (Post)Colony” from overtly religious imagery in advertisements to, around the time of Indian independence, “the secular pieties of official nationalism.”  For the ideal homes of calendar art are rooted firmly in consumer desires not lived realities, even as they declare those desires to be open to all religions, thanks to a careful excision of overt religious references or imagery. (Abigail McGowan)(gs)</hra:value>
-				<hra:value>related literature:
-Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related hyperlink:
-Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html last accessed 2011-04-12 (gs)</hra:value>
-				<hra:value>related literature:
-Freitag, Sandria 2007. &quot;South Asian Ways of Seeing; Muslim Ways of Knowing: The Indian Muslim Niche Market in Posters&quot; in Indian Economic and Social History Review, 44:3 (2007):297-331 (gs).</hra:value>
-				<hra:value>related hyperlink:
-McGowan, Abigail 2010. &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot; http://www.tasveergharindia.net/cmsdesk/essay/95/index.html last accessed 2011-04-12 (gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Freitag, Sandria 2007. &quot;South Asian Ways of Seeing; Muslim Ways of Knowing: The Indian Muslim Niche Market in Posters&quot; in Indian Economic and Social History Review, 44:3 (2007):297-331 (gs).</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</hra:value>
-				<hra:value>2011-04-12</hra:value>
-				<hra:value>Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot;</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</hra:value>
-				<hra:value>2011-04-12</hra:value>
-				<hra:value>McGowan, Abigail 2010. &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot;</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119832</hra:value>
-				<hra:value>119832</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:45:15">
-			</hra:administrative>
-		</hra:heidicon>
+by William Jacks &amp; Co.'s Paints &amp; Contracts Dept. Bombay.</ext:value>
+				<ext:value>text-en:
+CB [artist's signature]</ext:value>
+				<ext:value>description-en:
+This advertisement for William Jacks &amp; Co. Paints of Bombay shows a set of different furniture consisting of a bed, an armchair, a mirror, lamp and carpet along with matching blue curtains. (gs/tb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+This advertisement for William Jacks &amp; Co. Paints and Contracts of Bombay in 1934 offers a vision of carefully matched modern furniture, drapes and wall-to-wall carpeting brought together into a cohesive whole. Perhaps speaking to consumer anxiety about how to tastefully combine diverse commodities in the modern home, the ad copy urges viewers to chose the “artistic shades” of William Jacks' paints in order to evoke a “restful atmosphere” in their homes. The most elaborately imagined home interiors appear, however, not in advertisements depicting commodities for sale, but in ‘calendar art’ images that evoke the meaning of home more broadly.  Often designed to ornament calendars issued by businesses to customers and friends, such images also circulated independently as posters suitable for framing. Printed in bright colors at low cost, ‘calendar art’ circulated widely in mid-twentieth century India, gracing the walls of homes and offices alike, across the middle classes.  As such, this popular art form brought an idealized vision of the modern home to those whose material realities might have been quite different, offering a glimpse into what a better future might hold, or a space in which to imagine a life of plenty. The future imagined in these images differed from those of earlier periods.  Specifically, images of the modern home mark the shift that Sandria Freitag notes in her essay “Consumption and Identity” from ethnographic representations of the everyday to an imagined everyday in which modern selves were forged through consumption of novel goods; the same images also document the transition Arvind Rajagopal notes in his (forthcoming) essay “The Commodity Image in the (Post)Colony” from overtly religious imagery in advertisements to, around the time of Indian independence, “the secular pieties of official nationalism.”  For the ideal homes of calendar art are rooted firmly in consumer desires not lived realities, even as they declare those desires to be open to all religions, thanks to a careful excision of overt religious references or imagery. (Abigail McGowan)(gs)</ext:value>
+				<ext:value>related literature:
+Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related hyperlink:
+Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html last accessed 2011-04-12 (gs)</ext:value>
+				<ext:value>related literature:
+Freitag, Sandria 2007. &quot;South Asian Ways of Seeing; Muslim Ways of Knowing: The Indian Muslim Niche Market in Posters&quot; in Indian Economic and Social History Review, 44:3 (2007):297-331 (gs).</ext:value>
+				<ext:value>related hyperlink:
+McGowan, Abigail 2010. &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot; http://www.tasveergharindia.net/cmsdesk/essay/95/index.html last accessed 2011-04-12 (gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Freitag, Sandria 2007. &quot;South Asian Ways of Seeing; Muslim Ways of Knowing: The Indian Muslim Niche Market in Posters&quot; in Indian Economic and Social History Review, 44:3 (2007):297-331 (gs).</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</ext:value>
+				<ext:value type="accessed">2011-04-12</ext:value>
+				<ext:value type="comment">Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</ext:value>
+				<ext:value type="accessed">2011-04-12</ext:value>
+				<ext:value type="comment">McGowan, Abigail 2010. &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This advertisement for William Jacks &amp; Co. Paints and Contracts of Bombay in 1934 offers a vision of carefully matched modern furniture, drapes and wall-to-wall carpeting brought together into a cohesive whole. Perhaps speaking to consumer anxiety about how to tastefully combine diverse commodities in the modern home, the ad copy urges viewers to chose the “artistic shades” of William Jacks' paints in order to evoke a “restful atmosphere” in their homes. The most elaborately imagined home interiors appear, however, not in advertisements depicting commodities for sale, but in ‘calendar art’ images that evoke the meaning of home more broadly.  Often designed to ornament calendars issued by businesses to customers and friends, such images also circulated independently as posters suitable for framing. Printed in bright colors at low cost, ‘calendar art’ circulated widely in mid-twentieth century India, gracing the walls of homes and offices alike, across the middle classes.  As such, this popular art form brought an idealized vision of the modern home to those whose material realities might have been quite different, offering a glimpse into what a better future might hold, or a space in which to imagine a life of plenty. The future imagined in these images differed from those of earlier periods.  Specifically, images of the modern home mark the shift that Sandria Freitag notes in her essay “Consumption and Identity” from ethnographic representations of the everyday to an imagined everyday in which modern selves were forged through consumption of novel goods; the same images also document the transition Arvind Rajagopal notes in his (forthcoming) essay “The Commodity Image in the (Post)Colony” from overtly religious imagery in advertisements to, around the time of Indian independence, “the secular pieties of official nationalism.”  For the ideal homes of calendar art are rooted firmly in consumer desires not lived realities, even as they declare those desires to be open to all religions, thanks to a careful excision of overt religious references or imagery.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Abigail McGowan</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=79&amp;EId=95&amp;ImageId=5</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119832</ext:value>
+				<ext:value>119832</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:55">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

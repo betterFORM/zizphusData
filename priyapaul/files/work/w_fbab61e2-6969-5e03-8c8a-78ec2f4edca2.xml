@@ -1,18 +1,32 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_fbab61e2-6969-5e03-8c8a-78ec2f4edca2" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-88653f37-ec3c-5fbb-bcbe-85b263bcf4fe">Blyth &amp; Platt Ltd</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for Cobra Boot Polish, a cobra snake (naja) rears up over two samples of the product, a glass container and a box. The background consists of a stylized blue landscape and a rising sun.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for Cobra Boot Polish, a cobra snake (naja) rears up over two samples of the product, a glass container and a box. The background consists of a stylized blue landscape and a rising sun.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -46,10 +60,13 @@ Polish</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118918" type="corporate">HeidICON Image Database</name>
+				<refid>118918</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -62,7 +79,8 @@ Polish</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_df1a6506-aea1-55db-8226-c58b86638578" refid="118918" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_df1a6506-aea1-55db-8226-c58b86638578" refid="118918" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_207ec1a5-ed8b-5b7e-ab7b-9c8e9798e8e4" refid="118919" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -70,97 +88,132 @@ Polish</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term>sun</term>
+				<term type="geographic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term>snake</term>
+				<term type="animal">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf52f4a5-df61-5cbf-9985-0a9f5700ccfb">
-				<term>cobra</term>
+				<term type="animal">cobras (serpents)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e6ce1d44-eec7-54f4-a4bd-6fdfaf76421d">
-				<term>jar</term>
+				<term type="concept">jar</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5fbe9c9-41ad-5897-9d95-bd0d23aa0a43">
-				<term>box</term>
+				<term type="concept">box</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Cobra Polishes: can not be surpassed&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Cobra Polishes: can not be surpassed&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 &quot;Cobr'a&quot;
 Polishes 
 cannot be
-surpassed</hra:value>
-				<hra:value>text-en:
-'Cobra'</hra:value>
-				<hra:value>text-en:
+surpassed</ext:value>
+				<ext:value>text-en:
+'Cobra'</ext:value>
+				<ext:value>text-en:
 Cobra
 Boot
-Polish</hra:value>
-				<hra:value>text-en:
+Polish</ext:value>
+				<ext:value>text-en:
 Boot
-Cream</hra:value>
-				<hra:value>text-en:
+Cream</ext:value>
+				<ext:value>text-en:
 &quot;Cobra&quot;
 Boot
-Polish</hra:value>
-				<hra:value>text-en:
-[Manufa]cturers, Blyth and Platt, Ltd. Watford,[...]</hra:value>
-				<hra:value>description-en:
-On this advertisement for Cobra Boot Polish, a cobra snake (naja) rears up over two samples of the product, a glass container and a box. The background consists of a stylized blue landscape and a rising sun. (gs/tb/ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>related hyperlinks:
-http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/, last accessed 2012-01-26. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/20080627_1702.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/</hra:value>
-				<hra:value>2012-01-26</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>damaged</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118918</hra:value>
-				<hra:value>118918</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:28:50">
-			</hra:administrative>
-		</hra:heidicon>
+Polish</ext:value>
+				<ext:value>text-en:
+[Manufa]cturers, Blyth and Platt, Ltd. Watford,[...]</ext:value>
+				<ext:value>description-en:
+On this advertisement for Cobra Boot Polish, a cobra snake (naja) rears up over two samples of the product, a glass container and a box. The background consists of a stylized blue landscape and a rising sun. (gs/tb/ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>related hyperlinks:
+http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/, last accessed 2012-01-26. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/20080627_1702.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/</ext:value>
+				<ext:value type="accessed">2012-01-26</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080627_1702.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>damaged</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118919</ext:value>
+				<ext:value>i_207ec1a5-ed8b-5b7e-ab7b-9c8e9798e8e4</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118918</ext:value>
+				<ext:value>118918</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:39">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

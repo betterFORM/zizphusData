@@ -1,28 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_5e8a51a3-5969-59ce-8c2a-bc742bab071a" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-8948072e-242b-5872-96d1-2f5fbca682bc">Shirin</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5ac1ee25-3dbc-5e1d-a9e9-034b6baa1d7e">Ferhad</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-81b2891f-3075-539b-a5c7-f6edac212276">Ajanta Art Calender Mfg. Co.</name>
-				<role/>
+				<name vocab="local" type="corporate" refid="uuid-81b2891f-3075-539b-a5c7-f6edac212276">Ajanta Art Calendar Mfg. Co.</name>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The image depicts Ferhad dreaming of his beloved Shirin leaning against a marble sculpture of a kneeling arm-less angel with wings. In the centre of the image Princess Shirin is depicted wearing a nose ring and jewellery. In the background a desert landscape with a camel can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The image depicts Ferhad dreaming of his beloved Shirin leaning against a marble sculpture of a kneeling arm-less angel with wings. In the centre of the image Princess Shirin is depicted wearing a nose ring and jewellery. In the background a desert landscape with a camel can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -50,10 +56,13 @@ C A L C U T T A - 1</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109970" type="corporate">HeidICON Image Database</name>
+				<refid>109970</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -74,95 +83,102 @@ C A L C U T T A - 1</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://dooroodiran.blogspot.com/2004/02/ancient-persian-love-story-shirin-and.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="4912ab62-60c4-5534-aa7c-8f2058df135f">
-				<term>angel</term>
+				<term type="concept">angels (spirits)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ce564016-385d-52bc-b28d-6199c2d05f60">
-				<term>pillar</term>
+				<term type="concept">pillars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a0d4361-0930-5f95-9b01-e90ec197f6d3">
-				<term>veil</term>
+				<term type="concept">veils (headcloths)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5669b7f2-1cea-5231-93cb-03d6599a60e3">
-				<term>water</term>
+				<term type="concept">water</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term>statue</term>
+				<term type="concept">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3f19eeff-8fd0-5f9d-81ef-cb195af84393">
-				<term>camel</term>
+				<term type="animal">camels (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4a258254-1622-5ca5-b433-f0e25affe7ef">
-				<term>sculpture</term>
+				<term type="concept">sculpture (visual work)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="12274477-5c67-554f-bd76-558a3e60ba97">
-				<term>romantic love</term>
+				<term type="concept">romantic love</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="871fec22-afab-54b3-8edf-4104f3a933ef">
-				<term>love</term>
+				<term type="concept">love</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="82928f81-b36b-5819-be69-3fdda0646f67">
+				<term type="concept">vines</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eed84547-cf14-5240-afe2-2eee9da1e3ae">
-				<term>sleep</term>
+				<term type="concept">sleeping</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf659b4d-e759-5642-aaa1-5f4907058a38">
-				<term>footpath</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e74ced4e-0ebc-5b1a-90a1-ac1c15087a43">
-				<term>tendril</term>
+				<term type="concept">footpaths</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d71cda19-9108-5772-ab87-f7fe1357406c">
-				<term>pickaxe</term>
+				<term type="concept">picks (tools)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="902c6b90-07dc-5a44-a757-7bee2dffb57a">
-				<term>Shirin Ferhad</term>
+				<term type="work (epos)">Shirin Ferhad</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Shirin Ferhad&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Shirin Ferhad&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Ajanta Art Calendar MFG. Co.
 17, Godown Street, P.B. No. 255
-M A D R A S - 1</hra:value>
-				<hra:value>text-en:
-Copyright Reserved</hra:value>
-				<hra:value>text-en:
+M A D R A S - 1</ext:value>
+				<ext:value>text-en:
+Copyright Reserved</ext:value>
+				<ext:value>text-en:
 666
-Shirin Ferhad (1)</hra:value>
-				<hra:value>text-en:
+Shirin Ferhad (1)</ext:value>
+				<ext:value>text-en:
 Ajanta Art Calendar MFG. Co.
 12, Lower Chitpur Road, 1st Floor, P. B. No. 962
 Room No. FF2 EAST, 
-C A L C U T T A - 1</hra:value>
-				<hra:value>description-en:
-The image depicts Ferhad dreaming of his beloved Shirin leaning against a marble sculpture of a kneeling arm-less angel with wings. In the centre of the image Princess Shirin is depicted wearing a nose ring and jewellery. In the background a desert landscape with a camel can be seen. (sp)</hra:value>
-				<hra:value>text-en:
-Ajanta Art Calender Mfg. Co., Madras</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Shirin and Ferhad is a story about the love of an ordinary man, a stone cutter (Ferhad) for a princess (Shirin). It can be compared to the story of Romeo and Juliet in the western context.() (sp)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
+C A L C U T T A - 1</ext:value>
+				<ext:value>description-en:
+The image depicts Ferhad dreaming of his beloved Shirin leaning against a marble sculpture of a kneeling arm-less angel with wings. In the centre of the image Princess Shirin is depicted wearing a nose ring and jewellery. In the background a desert landscape with a camel can be seen. (sp)</ext:value>
+				<ext:value>text-en:
+Ajanta Art Calender Mfg. Co., Madras</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Shirin and Ferhad is a story about the love of an ordinary man, a stone cutter (Ferhad) for a princess (Shirin). It can be compared to the story of Romeo and Juliet in the western context.() (sp)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
 There was a brave man called Farhad, who loved a Princess named Shirin, but the Princess did not love him. Farhad tried in vain to gain access to the love-cell of Shirin's heart, but no one would dare betray the fact that a stonecutter loved a lady of royal blood. Farhad, in despair, would go to the mountains and spend his days without food, playing his flute sweet music in praise of Shirin. At last people thought to devise a plan to acquaint the Princess of the stone-cutter's love. She saw him once, and love which lived in his bosom also began to breathe in hers. But she dared not a mean laborer aspire to win the hand of a princess? It was not long, however, before the Shah himself heard the rumors of this extraordinary exchange of sentiment. He was naturally indignant at the discovery, but as he had no child other than Shirin, and Shirin was also pining away with love, he proposed to his daughter that her lover, being of common birth, must accomplish a task such as no man may be able to do, and then, and only then, might he be recommended to his favor.
 The task which he skillfully suggested was that Shirin should ask her lover to dig a canal in the rocky land among the hills. The canal must be six lances in width and three lances deep and forty miles long!
 The Princess had to convey her father's decision to Farhad, who forthwith shouldered his spade and started off to the hills to commence the gigantic task. He worked hard and broke the stones for years. He would start his work early in the morning when it was yet dark and never ceased from his labor till, owing to darkness, no man could see one yard on each side. Shirin secretly visited him and watched the hard working Farhad sleeping with his taysha (spade) under his head, his body stretched on the bed of stones. She noticed, with all the pride of a lover, that he cut her figure in the rocks at each six yards and she would sigh and return without him knowing.
@@ -172,41 +188,73 @@ It was an ignoble trick, but it promised success and the Shah agreed to try it. 
 &quot;Well, my brave man,&quot; said the pretender sobbingly, &quot;you have worked so well, and for such a long time, too, but you have labored in vain, for the object of you devotion is dead!&quot;
 &quot;What!&quot; cried the bewildered man, &quot;Shinin is dead?&quot;
 Such was his grief that he cut his head with the sharp taysha (spade) and died under the carved streamed into his canal was his own blood. When Shirin heard this she fled in great sorrow to the mountains where lay her wronged lover; it is said that she inflicted a wound in her own head at the precise spot where Farhad had struck himself, and with the same sharp edge of the spade which was stained with her lover's gore. No water ever flowed into the canal, but the two lovers were entombed in one and the same grave.
-&quot;There's a place where now the two lovers sleep. Side by side. Shirin and her Farhad. That place is very high up in the mountains of Kurdistan. And can only be reached when the snow comes washing down in spring. And stains blood red the cheeks of maidens. If you want to meet the two of them, you will have to ask the crow to take you there.&quot; (cited from &quot;An Ancient Persian Love story (Shirin and Farhad)&quot; blogpost at Iran Zamin, 2004-02-20; last accessed 2011-08-05 () (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://dooroodiran.blogspot.com/2004/02/ancient-persian-love-story-shirin-and.html, Blogpost &quot;An Ancient Persian Love story (Shirin and Farhad)&quot; at Iran Zamin, dated 2004-02-20, last accessed 2011-08-05 (ma)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.englishcafe.com/blog/shirin-farhad-125329, last accessed 2011-08-13, A version of the story of Shirin and Ferhad (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://dooroodiran.blogspot.com/2004/02/ancient-persian-love-story-shirin-and.html</hra:value>
-				<hra:value>2011-08-05</hra:value>
-				<hra:value>Blogpost &quot;An Ancient Persian Love story (Shirin and Farhad)&quot; at Iran Zamin, dated 2004-02-20,</hra:value>
-				<hra:value>|3|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.englishcafe.com/blog/shirin-farhad-125329</hra:value>
-				<hra:value>2011-08-13</hra:value>
-				<hra:value>A version of the story of Shirin and Ferhad</hra:value>
-				<hra:value>|19|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109970</hra:value>
-				<hra:value>109970</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:46">
-			</hra:administrative>
-		</hra:heidicon>
+&quot;There's a place where now the two lovers sleep. Side by side. Shirin and her Farhad. That place is very high up in the mountains of Kurdistan. And can only be reached when the snow comes washing down in spring. And stains blood red the cheeks of maidens. If you want to meet the two of them, you will have to ask the crow to take you there.&quot; (cited from &quot;An Ancient Persian Love story (Shirin and Farhad)&quot; blogpost at Iran Zamin, 2004-02-20; last accessed 2011-08-05 () (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://dooroodiran.blogspot.com/2004/02/ancient-persian-love-story-shirin-and.html, Blogpost &quot;An Ancient Persian Love story (Shirin and Farhad)&quot; at Iran Zamin, dated 2004-02-20, last accessed 2011-08-05 (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://dooroodiran.blogspot.com/2004/02/ancient-persian-love-story-shirin-and.html</ext:value>
+				<ext:value type="accessed">2011-08-05</ext:value>
+				<ext:value type="comment">Blogpost &quot;An Ancient Persian Love story (Shirin and Farhad)&quot; at Iran Zamin, dated 2004-02-20,</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Shirin and Ferhad is a story about the love of an ordinary man, a stone cutter (Ferhad) for a princess (Shirin). It can be compared to the story of Romeo and Juliet in the western context.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">There was a brave man called Farhad, who loved a Princess named Shirin, but the Princess did not love him. Farhad tried in vain to gain access to the love-cell of Shirin's heart, but no one would dare betray the fact that a stonecutter loved a lady of royal blood. Farhad, in despair, would go to the mountains and spend his days without food, playing his flute sweet music in praise of Shirin. At last people thought to devise a plan to acquaint the Princess of the stone-cutter's love. She saw him once, and love which lived in his bosom also began to breathe in hers. But she dared not a mean laborer aspire to win the hand of a princess? It was not long, however, before the Shah himself heard the rumors of this extraordinary exchange of sentiment. He was naturally indignant at the discovery, but as he had no child other than Shirin, and Shirin was also pining away with love, he proposed to his daughter that her lover, being of common birth, must accomplish a task such as no man may be able to do, and then, and only then, might he be recommended to his favor.
+The task which he skillfully suggested was that Shirin should ask her lover to dig a canal in the rocky land among the hills. The canal must be six lances in width and three lances deep and forty miles long!
+The Princess had to convey her father's decision to Farhad, who forthwith shouldered his spade and started off to the hills to commence the gigantic task. He worked hard and broke the stones for years. He would start his work early in the morning when it was yet dark and never ceased from his labor till, owing to darkness, no man could see one yard on each side. Shirin secretly visited him and watched the hard working Farhad sleeping with his taysha (spade) under his head, his body stretched on the bed of stones. She noticed, with all the pride of a lover, that he cut her figure in the rocks at each six yards and she would sigh and return without him knowing.
+Farhad worked for years and cut his canal; all was in readiness but his task was not yet finished, for he had to dig a well in the rocky beds of the mountains. He was half- way through, and would probably have completed it, when the Shah consulted his courtiers and sought their advice. His artifice had failed. Farhad had not perished in the attempt, and if all the conditions were in the attempt, and if all the conditions were in the attempt, and if all the conditions were fulfilled as they promised to be soon, his daughter must go to him in marriage. The Viziers suggested that an old woman should be sent to Farhad to tell him that Shirin was dead; then, perhaps, Farhad would become heart broken and leave off the work.
+It was an ignoble trick, but it promised success and the Shah agreed to try it. So an old woman went to Farhad and wept and cried till words choked her; the stone-cutter asked her the cause of her bereavement.
+&quot;I weep for a deceased,&quot; she said, &quot;and for you.&quot; &quot;For a deceased and for me?&quot; asked the surprised Farhad. &quot;And how do you explain it?&quot;
+&quot;Well, my brave man,&quot; said the pretender sobbingly, &quot;you have worked so well, and for such a long time, too, but you have labored in vain, for the object of you devotion is dead!&quot;
+&quot;What!&quot; cried the bewildered man, &quot;Shinin is dead?&quot;
+Such was his grief that he cut his head with the sharp taysha (spade) and died under the carved streamed into his canal was his own blood. When Shirin heard this she fled in great sorrow to the mountains where lay her wronged lover; it is said that she inflicted a wound in her own head at the precise spot where Farhad had struck himself, and with the same sharp edge of the spade which was stained with her lover's gore. No water ever flowed into the canal, but the two lovers were entombed in one and the same grave.
+&quot;There's a place where now the two lovers sleep. Side by side. Shirin and her Farhad. That place is very high up in the mountains of Kurdistan. And can only be reached when the snow comes washing down in spring. And stains blood red the cheeks of maidens. If you want to meet the two of them, you will have to ask the crow to take you there.&quot; (cited from &quot;An Ancient Persian Love story (Shirin and Farhad)&quot; blogpost at Iran Zamin, 2004-02-20; last accessed 2011-08-05</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://dooroodiran.blogspot.com/2004/02/ancient-persian-love-story-shirin-and.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109970</ext:value>
+				<ext:value>109970</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:23">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

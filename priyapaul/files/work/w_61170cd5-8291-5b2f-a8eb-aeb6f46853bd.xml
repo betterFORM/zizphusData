@@ -1,29 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_61170cd5-8291-5b2f-a8eb-aeb6f46853bd" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-269525e8-8ec1-59e0-ab7b-f83f93d5623e">Mickey Mouse</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-4876ca0b-8c2e-5802-abb1-53266b026d3f">British &amp; Dominions Film Corporation, Ltd.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1937</earliestDate>
-				<latestDate>1937</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for productions of Hollywood and Elstree, the maps of North America, Great Britain and India can be seen tied together with a film reel. On top of the three maps, mickey and mini mouse are pictured. The whole content is framed by images from different western filmstars such as Charly Chaplin.</description>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for productions of Hollywood and Elstree, the maps of North America, Great Britain and India can be seen tied together with a film reel. On top of the three maps, mickey and mini mouse are pictured. The whole content is framed by images from different western filmstars such as Charly Chaplin.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -44,10 +44,13 @@ Disney Mickey Mouse &amp; Silly Synphonies.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119830" type="corporate">HeidICON Image Database</name>
+				<refid>119830</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -69,85 +72,96 @@ Disney Mickey Mouse &amp; Silly Synphonies.</text>
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="bd225e92-ff13-57f8-ba9e-78058cc94337">
-				<term>Hollywood</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="df0769c7-5c71-5d29-9d38-5c704bcd9c7e">
-				<term>Elstree</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term>map of India</term>
+				<term type="work (map)">map of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4cb8647b-1710-5d9f-9875-313551406d9a">
-				<term>movie star</term>
+				<term type="concept">movie stars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01c36a86-282a-5160-9854-fecf41ed2e44">
-				<term>map of England</term>
+				<term type="work (map)">map of England</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term>map</term>
+				<term type="concept">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3511117e-3fd2-5bf2-8a43-d34af234bfd3">
-				<term>map of North America</term>
+				<term type="work (map)">map of North America</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="bd225e92-ff13-57f8-ba9e-78058cc94337">
+				<term type="geographic">Hollywood</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="df0769c7-5c71-5d29-9d38-5c704bcd9c7e">
+				<term type="geographic">Elstree</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term>Times of India Yearbook</term>
+				<term type="work">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">An advertisement of the productions of Hollywood and Elstree, map of India</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of the productions of Hollywood and Elstree, map of India</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Hollywood and Estree through United Artists
 have combined to bring to India 
-the greatest productions of both countries</hra:value>
-				<hra:value>text-en:
+the greatest productions of both countries</ext:value>
+				<ext:value>text-en:
 from the studios of
 British &amp; Dominions Film Corporation, Ltd.
 20th Century Pictures Incorporated.
 London Film Productions, Ltd.
 United Artists Corporation 
 &amp;
-Disney Mickey Mouse &amp; Silly Synphonies.</hra:value>
-				<hra:value>description-en:
-On this advertisement for productions of Hollywood and Elstree, the maps of North America, Great Britain and India can be seen tied together with a film reel. On top of the three maps, mickey and mini mouse are pictured. The whole content is framed by images from different western filmstars such as Charly Chaplin. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/1189.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119830</hra:value>
-				<hra:value>119830</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:45:10">
-			</hra:administrative>
-		</hra:heidicon>
+Disney Mickey Mouse &amp; Silly Synphonies.</ext:value>
+				<ext:value>description-en:
+On this advertisement for productions of Hollywood and Elstree, the maps of North America, Great Britain and India can be seen tied together with a film reel. On top of the three maps, mickey and mini mouse are pictured. The whole content is framed by images from different western filmstars such as Charly Chaplin. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/1189.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/1189.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119830</ext:value>
+				<ext:value>119830</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:50">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,28 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a28bb913-0829-5d37-96da-fa7cc4dd7430" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-8c341a75-5c2a-5b39-a545-20ab1032b2b2">Kaliya</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-4b0587fc-b79e-508e-b15f-b9c900048fd1">F. Steiner &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A textile label showing Krishna with his toe in his mouth sitting on a snake with multiple heads. -There are two women next to him with one of them holding a peacock and the other one holds a fan. Two divine beings or angels can be seen in the sky blessing them. The crescent moon as well as stars can be seen in the sky and the below the seat on which Krishna several small containers are lined up.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A textile label showing Krishna with his toe in his mouth sitting on a snake with multiple heads. -There are two women next to him with one of them holding a peacock and the other one holds a fan. Two divine beings or angels can be seen in the sky blessing them. The crescent moon as well as stars can be seen in the sky and the below the seat on which Krishna several small containers are lined up.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -38,10 +44,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106174" type="corporate">HeidICON Image Database</name>
+				<refid>106174</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -63,94 +72,115 @@
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
-				<term>moon</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4912ab62-60c4-5534-aa7c-8f2058df135f">
-				<term>angel</term>
+				<term type="concept">angels (spirits)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
+				<term type="concept">moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
-				<term>deity</term>
+				<term type="concept">deities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term>snake</term>
+				<term type="animal">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="46a02fc3-d05e-5820-b206-00102b348075">
-				<term>crescent</term>
+				<term type="concept">crescent</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term>peacock</term>
+				<term type="animal">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f4a0498d-0487-523e-a360-b1a833fb5be1">
-				<term>fantastic script</term>
+				<term type="concept">imaginative script</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b2c09f3-f24a-5c77-bbdb-b15cc1310764">
-				<term>script</term>
+				<term type="concept">scripts (writing)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="80783591-9cf3-58dc-a46f-a931841868ad">
-				<term>crescent moon</term>
+				<term type="concept">crescent moon</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Textile Label depicting the story of Krishna and the serpent Kaliya</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Textile Label depicting the story of Krishna and the serpent Kaliya</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-F. STEINER &amp; CO. MANCHESTER</hra:value>
-				<hra:value>text-en:
-KERRTARRUCK &amp; CO. CALCUTTA</hra:value>
-				<hra:value>text-en:
-YDS</hra:value>
-				<hra:value>text-:
-ADD TEXT HERE</hra:value>
-				<hra:value>description-en:
-A textile label showing Krishna with his toe in his mouth sitting on a snake with multiple heads. -There are two women next to him with one of them holding a peacock and the other one holds a fan. Two divine beings or angels can be seen in the sky blessing them. The crescent moon as well as stars can be seen in the sky and the below the seat on which Krishna several small containers are lined up. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-This could possibly be a representation of the tale in which Krishna as a young cowherd engages in a fight with Kaliya the thousand-hooded serpant who had poisoned the river Yamuna with his presence. Krishna eventually dances on the multiple hoods of Kaliya as the snake rises out of the water. The snake vanquished begs for his forgiveness and leaves the river and the nearby residents in peace. (sp)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-There are inscriptions on three borders on each side except for the top. The one at the bottom is written in a fantasy script. (ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/106174</hra:value>
-				<hra:value>106174</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:26">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+F. STEINER &amp; CO. MANCHESTER</ext:value>
+				<ext:value>text-en:
+KERRTARRUCK &amp; CO. CALCUTTA</ext:value>
+				<ext:value>text-en:
+YDS</ext:value>
+				<ext:value>text-:
+ADD TEXT HERE</ext:value>
+				<ext:value>description-en:
+A textile label showing Krishna with his toe in his mouth sitting on a snake with multiple heads. -There are two women next to him with one of them holding a peacock and the other one holds a fan. Two divine beings or angels can be seen in the sky blessing them. The crescent moon as well as stars can be seen in the sky and the below the seat on which Krishna several small containers are lined up. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+This could possibly be a representation of the tale in which Krishna as a young cowherd engages in a fight with Kaliya the thousand-hooded serpant who had poisoned the river Yamuna with his presence. Krishna eventually dances on the multiple hoods of Kaliya as the snake rises out of the water. The snake vanquished begs for his forgiveness and leaves the river and the nearby residents in peace. (sp)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+There are inscriptions on three borders on each side except for the top. The one at the bottom is written in a fantasy script. (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This could possibly be a representation of the tale in which Krishna as a young cowherd engages in a fight with Kaliya the thousand-hooded serpant who had poisoned the river Yamuna with his presence. Krishna eventually dances on the multiple hoods of Kaliya as the snake rises out of the water. The snake vanquished begs for his forgiveness and leaves the river and the nearby residents in peace.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">There are inscriptions on three borders on each side except for the top. The one at the bottom is written in a fantasy script.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/106174</ext:value>
+				<ext:value>106174</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:10">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

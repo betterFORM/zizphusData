@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_5c9ba166-21bf-5b89-8307-e276b10ca3d4" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement-calendar for Cavander's cigarettes, a woman can be seen wearing basic jewellery and blouse allowing a view on her cleavage. The lower section hosts a calender for the last months of 1974 and the first months of 1975.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement-calendar for Cavander's cigarettes, a woman can be seen wearing basic jewellery and blouse allowing a view on her cleavage. The lower section hosts a calender for the last months of 1974 and the first months of 1975.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -18,10 +24,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109856" type="corporate">HeidICON Image Database</name>
+				<refid>109856</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -42,114 +51,169 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tvparty.com/vaultcomcig.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1d698e81-bbe0-593a-ac67-3cb14e38e325">
-				<term>décolletage</term>
+				<term type="concept">décolletage</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
-				<term>cigarette advertising</term>
+				<term type="concept">cigarette advertising</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e0157b9f-8fac-5632-b85d-67160b39b5cf">
-				<term>Cavander's</term>
+				<term type="brand">Cavander's</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Portrait of a woman, in a calender poster of Cavender's Cigarettes</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Portrait of a woman, in a calender poster of Cavender's Cigarettes</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Cavander's Magnums
-1974/1975</hra:value>
-				<hra:value>description-en:
-On this advertisement-calendar for Cavander's cigarettes, a woman can be seen wearing basic jewellery and blouse allowing a view on her cleavage. The lower section hosts a calender for the last months of 1974 and the first months of 1975. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/658.tif</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-In the Indian context cigarette advertising during almost the entire 20th century featured distinctively Western woman as it was considered to be indecent for Indian woman to smoke in public. Depicting an Indian woman on an ad for cigarettes would most likely have had a negative effect. See also the article on early Indian advertsing by Javeer Masood on Tasveerghar. (la)</hra:value>
-				<hra:value>related literature:
-Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</hra:value>
-				<hra:value>related hyperlinks:
+1974/1975</ext:value>
+				<ext:value>description-en:
+On this advertisement-calendar for Cavander's cigarettes, a woman can be seen wearing basic jewellery and blouse allowing a view on her cleavage. The lower section hosts a calender for the last months of 1974 and the first months of 1975. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/658.tif</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+In the Indian context cigarette advertising during almost the entire 20th century featured distinctively Western woman as it was considered to be indecent for Indian woman to smoke in public. Depicting an Indian woman on an ad for cigarettes would most likely have had a negative effect. See also the article on early Indian advertsing by Javeer Masood on Tasveerghar. (la)</ext:value>
+				<ext:value>related literature:
+Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</ext:value>
+				<ext:value>related hyperlinks:
 http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html,
-last accessed 2011-08-21, Tom Coyle's &quot;Cigarettes&quot; Project #5 (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tvparty.com/vaultcomcig.html, last accessed 2011-08-21, &quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0, last accessed 2011-08-21 (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 2011-08-21, &quot;Breathtaking Classic Cigarette Ads&quot; (la)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>Tom Coyle's &quot;Cigarettes&quot; Project #5</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tvparty.com/vaultcomcig.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>&quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>&quot;Breathtaking Classic Cigarette Ads&quot;</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>damaged</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109856</hra:value>
-				<hra:value>109856</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:43">
-			</hra:administrative>
-		</hra:heidicon>
+last accessed 2011-08-21, Tom Coyle's &quot;Cigarettes&quot; Project #5 (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tvparty.com/vaultcomcig.html, last accessed 2011-08-21, &quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 2011-08-21, &quot;Breathtaking Classic Cigarette Ads&quot; (la)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">Tom Coyle's &quot;Cigarettes&quot; Project #5</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tvparty.com/vaultcomcig.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">&quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">&quot;Breathtaking Classic Cigarette Ads&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/658.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In the Indian context cigarette advertising during almost the entire 20th century featured distinctively Western woman as it was considered to be indecent for Indian woman to smoke in public. Depicting an Indian woman on an ad for cigarettes would most likely have had a negative effect. See also the article on early Indian advertsing by Javeer Masood on Tasveerghar.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>damaged</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.tvparty.com/vaultcomcig.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109856</ext:value>
+				<ext:value>109856</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:52">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

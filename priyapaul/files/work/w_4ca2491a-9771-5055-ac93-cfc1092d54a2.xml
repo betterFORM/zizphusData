@@ -1,28 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_4ca2491a-9771-5055-ac93-cfc1092d54a2" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-debc21eb-564b-52f1-97d2-f48a73c3b6b9">Oriental Calendar Manufacturing Company</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-5d356e46-6234-54ca-9c64-1998171fa3e0">Phoenix P. Works</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this sample from Phoenix P. Works, a woman, wearing a green sari, can be seen looking through different, richly coloured bolts of fabric.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>In this sample from Phoenix P. Works, a woman, wearing a green sari, can be seen looking through different, richly coloured bolts of fabric.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -37,10 +38,13 @@ Ahmedabad.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109785" type="corporate">HeidICON Image Database</name>
+				<refid>109785</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -61,168 +65,323 @@ Ahmedabad.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=79&amp;EId=95&amp;ImageId=15</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1930s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="3fdf7d56-65c2-56ae-b427-91cd4fed9d46">
-				<term>green sari</term>
+				<term type="concept">green sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term>textile label</term>
+				<term type="worktype">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ed808825-cb26-55ea-a16a-2cb06b4be9a8">
-				<term>clothing</term>
+				<term type="concept">clothing</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9827e405-f6ac-5aa3-a3ac-e065214711f2">
-				<term>green</term>
+				<term type="concept">green (color)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Woman Looking Through Fabric</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Woman Looking Through Fabric</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="b2340835-33bd-5d41-800a-95ea3484daea">labels</worktype>
+			<worktype>labels</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Phoenix P. Works, 
-Ahmedabad.</hra:value>
-				<hra:value>text-en:
-Copy Rt. No. 657</hra:value>
-				<hra:value>description-en:
-In this sample from Phoenix P. Works, a woman, wearing a green sari, can be seen looking through different, richly coloured bolts of fabric. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Finally and perhaps most interestingly, images of the modern home also promised women autonomy. In all the images discussed thus far, women appear on their own, free to spend their time as they please, whether reading a book, talking with friends, or sitting quietly in a chair doing nothing. (Abigail McGowan)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-In these images no children demand attention, no husband asks to be served, no older women intervene to make decisions; the ubiquitous mother-in-law to which a young wife would have to give deference, has been banished from the scene. (Abigail McGowan)(gs)</hra:value>
-				<hra:value>related literature:
-Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press. (gs)</hra:value>
-				<hra:value>related literature:
-Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/96/index.html, last accessed 2010-12-13, Tasveer Ghar essay (gs)</hra:value>
-				<hra:value>related literature:
-Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/104/index.html, last accessed 2010-12-14 Tasveer Ghar essay (gs)</hra:value>
-				<hra:value>related literature:
-Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press. (gs)</hra:value>
-				<hra:value>related literature:
-McGowan, Abigail 2010. &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot; (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/95/index.html, last accessed 2011-04-13, Tasveer ghar essay (gs)</hra:value>
-				<hra:value>related literature:
-McClintock, Anne 1995. &quot;Imperial Leather: Race, Gender, and Sexuality in the Colonial Conquest&quot; New York: Routledge, 216-217. (gs)</hra:value>
-				<hra:value>related literature:
-McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</hra:value>
-				<hra:value>related literature:
-Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co. (gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Uberoi, Patricia 2003. “Chicks, Kids and Couples: The Nation in Calendar Art,” in India, a National Culture?, ed. Geeti Sen. New Delhi: Sage Publications. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>McGowan, Abigail 2010. &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot;</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot;</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot;</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>McClintock, Anne 1995. &quot;Imperial Leather: Race, Gender, and Sexuality in the Colonial Conquest&quot; New York: Routledge, 216-217.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Uberoi, Patricia 2003. “Chicks, Kids and Couples: The Nation in Calendar Art,” in India, a National Culture?, ed. Geeti Sen. New Delhi: Sage Publications.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</hra:value>
-				<hra:value>2010-12-14</hra:value>
-				<hra:value>Tasveer Ghar essay</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</hra:value>
-				<hra:value>2010-12-13</hra:value>
-				<hra:value>Tasveer Ghar essay</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</hra:value>
-				<hra:value>2011-04-13</hra:value>
-				<hra:value>Tasveer ghar essay</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109785</hra:value>
-				<hra:value>109785</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:43:28">
-			</hra:administrative>
-		</hra:heidicon>
+Ahmedabad.</ext:value>
+				<ext:value>text-en:
+Copy Rt. No. 657</ext:value>
+				<ext:value>description-en:
+In this sample from Phoenix P. Works, a woman, wearing a green sari, can be seen looking through different, richly coloured bolts of fabric. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Finally and perhaps most interestingly, images of the modern home also promised women autonomy. In all the images discussed thus far, women appear on their own, free to spend their time as they please, whether reading a book, talking with friends, or sitting quietly in a chair doing nothing. (Abigail McGowan)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+In these images no children demand attention, no husband asks to be served, no older women intervene to make decisions; the ubiquitous mother-in-law to which a young wife would have to give deference, has been banished from the scene. (Abigail McGowan)(gs)</ext:value>
+				<ext:value>related literature:
+Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press. (gs)</ext:value>
+				<ext:value>related literature:
+Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/96/index.html, last accessed 2010-12-13, Tasveer Ghar essay (gs)</ext:value>
+				<ext:value>related literature:
+Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/104/index.html, last accessed 2010-12-14 Tasveer Ghar essay (gs)</ext:value>
+				<ext:value>related literature:
+Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press. (gs)</ext:value>
+				<ext:value>related literature:
+McGowan, Abigail 2010. &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot; (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/95/index.html, last accessed 2011-04-13, Tasveer ghar essay (gs)</ext:value>
+				<ext:value>related literature:
+McClintock, Anne 1995. &quot;Imperial Leather: Race, Gender, and Sexuality in the Colonial Conquest&quot; New York: Routledge, 216-217. (gs)</ext:value>
+				<ext:value>related literature:
+McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</ext:value>
+				<ext:value>related literature:
+Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co. (gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Uberoi, Patricia 2003. “Chicks, Kids and Couples: The Nation in Calendar Art,” in India, a National Culture?, ed. Geeti Sen. New Delhi: Sage Publications. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">McGowan, Abigail 2010. &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">McClintock, Anne 1995. &quot;Imperial Leather: Race, Gender, and Sexuality in the Colonial Conquest&quot; New York: Routledge, 216-217.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Uberoi, Patricia 2003. “Chicks, Kids and Couples: The Nation in Calendar Art,” in India, a National Culture?, ed. Geeti Sen. New Delhi: Sage Publications.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</ext:value>
+				<ext:value type="accessed">2010-12-14</ext:value>
+				<ext:value type="comment">Tasveer Ghar essay</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</ext:value>
+				<ext:value type="accessed">2010-12-13</ext:value>
+				<ext:value type="comment">Tasveer Ghar essay</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</ext:value>
+				<ext:value type="accessed">2011-04-13</ext:value>
+				<ext:value type="comment">Tasveer ghar essay</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In these images no children demand attention, no husband asks to be served, no older women intervene to make decisions; the ubiquitous mother-in-law to which a young wife would have to give deference, has been banished from the scene.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Abigail McGowan</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Finally and perhaps most interestingly, images of the modern home also promised women autonomy. In all the images discussed thus far, women appear on their own, free to spend their time as they please, whether reading a book, talking with friends, or sitting quietly in a chair doing nothing.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Abigail McGowan</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=79&amp;EId=95&amp;ImageId=15</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109785</ext:value>
+				<ext:value>109785</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:36">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

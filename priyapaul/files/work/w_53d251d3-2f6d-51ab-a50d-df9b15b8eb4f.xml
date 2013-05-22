@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_53d251d3-2f6d-51ab-a50d-df9b15b8eb4f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The image shows the rear of 4 postcards.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The image shows the rear of 4 postcards.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -41,14 +47,21 @@ The Phototype Co., Bombay</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108672" type="corporate">HeidICON Image Database</name>
+				<refid>108672</refid>
+			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_b629ae54-1b1f-58d6-bdd5-f8cfd4754630" refid="108672" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d4695b54-7855-513a-b53b-e5a32299ff1a" refid="108675" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_9c640636-1e67-5282-802f-574c17287b2b" refid="108673" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_3fab77c2-c5fe-5540-80eb-ef4842818b1e" refid="108670" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_b3e7d218-88c1-59e1-a6f7-1c47298245b6" refid="108677" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -58,60 +71,93 @@ The Phototype Co., Bombay</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Back of Four postcards</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Back of Four postcards</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 [top left postcard]
-Made in Germany</hra:value>
-				<hra:value>text-en:
+Made in Germany</ext:value>
+				<ext:value>text-en:
 [top right postcard]
 Post Card
 This space for communication
 Address to be written here
 This is a real photograph
-Made in Germany</hra:value>
-				<hra:value>text-en:
+Made in Germany</ext:value>
+				<ext:value>text-en:
 [lower left postcard]
 Post Card
 This space for communication
 Address to be written here
 This is a real photograph
-Printed in Germany</hra:value>
-				<hra:value>text-en:
+Printed in Germany</ext:value>
+				<ext:value>text-en:
 [lower right postcard]
 Post Card
 Printed in Luxemburg
 The address to be written on this side
-The Phototype Co., Bombay</hra:value>
-				<hra:value>description-en:
-The image shows the rear of 4 postcards. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/data/easydb/import/exc asia and europe/priya paul/473back.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108672</hra:value>
-				<hra:value>108672</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:28:52">
-			</hra:administrative>
-		</hra:heidicon>
+The Phototype Co., Bombay</ext:value>
+				<ext:value>description-en:
+The image shows the rear of 4 postcards. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/473back.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/473back.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108675</ext:value>
+				<ext:value>i_d4695b54-7855-513a-b53b-e5a32299ff1a</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108673</ext:value>
+				<ext:value>i_9c640636-1e67-5282-802f-574c17287b2b</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108670</ext:value>
+				<ext:value>i_3fab77c2-c5fe-5540-80eb-ef4842818b1e</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108677</ext:value>
+				<ext:value>i_b3e7d218-88c1-59e1-a6f7-1c47298245b6</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108672</ext:value>
+				<ext:value>108672</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:45">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,33 +1,39 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_35b008f6-80f7-5dcb-922b-686269d60ea7" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-af321bf5-dea5-5e57-ba81-21f09bad8a18">Shakuntala</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-d6dbe511-0883-5b96-b890-fd7f901959be">Kalidasa</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-23f8a72d-8146-59a7-a914-6b553fa16d1e">Das, Sushil</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this catalogue image of the Empire Calendar Manufacturing Co. with the title &quot;Sakuntala&quot;, Shakuntala can be seen, wearing a yellow sari and petting a deer in the middle of a garden with several kinds of plants and flowers and animals like a peacock and other birds.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>In this catalogue image of the Empire Calendar Manufacturing Co. with the title &quot;Sakuntala&quot;, Shakuntala can be seen, wearing a yellow sari and petting a deer in the middle of a garden with several kinds of plants and flowers and animals like a peacock and other birds.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -47,10 +53,13 @@ No. 603</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119516" type="corporate">HeidICON Image Database</name>
+				<refid>119516</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -73,101 +82,113 @@ No. 603</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term>sun</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
-				<term>moon</term>
+				<term type="geographic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
+				<term type="concept">moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f8c0686-77ac-5a99-83ed-a8acedaf61bb">
-				<term>pigeon</term>
+				<term type="animal">pigeons (general term)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d9dd4950-4421-58b0-8c4c-6948f8311099">
-				<term>deer</term>
+				<term type="animal">deer (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="888a51f9-f4a9-5650-ad5f-679c20dde22a">
-				<term>yellow</term>
+				<term type="concept">yellow (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term>peacock</term>
+				<term type="animal">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d4aa369d-d266-5acb-afdb-e2ef9c323ed1">
-				<term>meadow</term>
+				<term type="concept">meadows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term>signet</term>
+				<term type="concept">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="349e1a13-73e9-59dd-b1fd-aa267461c848">
-				<term>full moon</term>
+				<term type="concept">full moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="74486317-b2ef-5c4a-b8cd-86cddf2f9f94">
-				<term>yellow sari</term>
+				<term type="concept">yellow sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="75ba1119-bd95-565a-b0af-6832480e4039">
-				<term>shrubs</term>
+				<term type="concept">shrubs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Sakuntala&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sakuntala&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Das, Sushil</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Das, Sushil</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Sakuntala 
-No. 603</hra:value>
-				<hra:value>text-en:
-Sushil Das..</hra:value>
-				<hra:value>text-en:
-ECM [manufacturer's signet]</hra:value>
-				<hra:value>description-en:
-In this catalogue image of the Empire Calendar Manufacturing Co. with the title &quot;Sakuntala&quot;, Shakuntala can be seen, wearing a yellow sari and petting a deer in the middle of a garden with several kinds of plants and flowers and animals like a peacock and other birds. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Sakuntala is possibly a local spelling of Shakuntala - the mythological beautiful woman who was the daughter of Vishwamitra and Menaka. Shakuntala lived in the hermitage of Sage Kanva in the forest and this perhaps depicts that. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119516</hra:value>
-				<hra:value>119516</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:31:42">
-			</hra:administrative>
-		</hra:heidicon>
+No. 603</ext:value>
+				<ext:value>text-en:
+Sushil Das..</ext:value>
+				<ext:value>text-en:
+ECM [manufacturer's signet]</ext:value>
+				<ext:value>description-en:
+In this catalogue image of the Empire Calendar Manufacturing Co. with the title &quot;Sakuntala&quot;, Shakuntala can be seen, wearing a yellow sari and petting a deer in the middle of a garden with several kinds of plants and flowers and animals like a peacock and other birds. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Sakuntala is possibly a local spelling of Shakuntala - the mythological beautiful woman who was the daughter of Vishwamitra and Menaka. Shakuntala lived in the hermitage of Sage Kanva in the forest and this perhaps depicts that. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Sakuntala is possibly a local spelling of Shakuntala - the mythological beautiful woman who was the daughter of Vishwamitra and Menaka. Shakuntala lived in the hermitage of Sage Kanva in the forest and this perhaps depicts that.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119516</ext:value>
+				<ext:value>119516</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:44">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

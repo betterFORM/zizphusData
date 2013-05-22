@@ -1,34 +1,38 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_d8e067d7-8bd0-5798-83fb-c6788bcf3b60" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-8565ac3d-6aa5-53ca-9a69-3046d9e3aad1">I.G. Farbenindustrie Aktiengesellschaft</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e70f3995-ae9a-5db2-a88a-e2ca666f6998">Chemdyes Limited</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1940</earliestDate>
-				<latestDate>1940</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this calendar dated 1940 by Chemdyes Limited, Lord Krishna can be seen sitting with four women as he plays the flute. He is wearing jewellery, a flower garland and has a halo around his head. In front of him, three of the women are using coloured powder to make rangoli. The fourth woman is observing them as she leans against Krishna's knee. Behind them, plants and shrubs of various kinds with flowers can be seen. The rainbow coloured logo of the company can be seen in the background.</description>
+			<description lang="en" script="Latn">
+				<text>In this calendar dated 1940 by Chemdyes Limited, Lord Krishna can be seen sitting with four women as he plays the flute. He is wearing jewellery, a flower garland and has a halo around his head. In front of him, three of the women are using coloured powder to make rangoli. The fourth woman is observing them as she leans against Krishna's knee. Behind them, plants and shrubs of various kinds with flowers can be seen. The rainbow coloured logo of the company can be seen in the background.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -44,10 +48,13 @@ Frankfurt A/M (Germany)</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118292" type="corporate">HeidICON Image Database</name>
+				<refid>118292</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -60,7 +67,16 @@ Frankfurt A/M (Germany)</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_e7b50060-f094-5e8c-bd21-b8e84c711bed" refid="118292" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_e7b50060-f094-5e8c-bd21-b8e84c711bed" refid="118292" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_4f89c305-c718-5df0-b5c5-6dd406eed706" refid="118300" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_86145426-bd53-55d2-84f6-e20ddfc84198" refid="118294" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_74a63501-6995-5c66-90d8-bd32bbba1442" refid="118296" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_a887b1dc-81d7-55ba-bed7-dce39debfb01" refid="118298" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_5b243f8a-a401-5f0f-a248-5ae3aa614688" refid="118293" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_5bf9b571-2024-52bc-ba4b-a472a69eb70f" refid="118297" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_21e1a5e8-4eee-5395-86ad-39108508a40a" refid="118295" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_51f354b9-bd80-577d-8d1a-79f5e4f139ff" refid="118299" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_799de8ee-79e7-5f62-86c4-538b3ec9ae43" refid="118301" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -70,83 +86,150 @@ Frankfurt A/M (Germany)</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term>sun</term>
+				<term type="geographic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0c740b41-1daa-582f-9c09-b0fd1631e995">
-				<term>cloud</term>
+				<term type="concept">clouds</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
-				<term>plant</term>
+				<term type="concept">plants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ab0b791-c983-5d5a-90d5-dfc85c8b2c23">
-				<term>Made in Germany</term>
+				<term type="concept">Made in Germany</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term>flute</term>
+				<term type="work">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term>flower garland</term>
+				<term type="concept">husk (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">1940 Advertisement calendar for Chemdyes Limited</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">1940 Advertisement calendar for Chemdyes Limited</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Chemdyes Limited, Bombay. 
 Dyestuff &amp; Chemicals
 Indianthren-Dyers
 Resist the Indian sun and Strong Dhobi-wash
 Manufactured by I.G. Farbenindustrie Aktiengesellschaft
-Frankfurt A/M (Germany)</hra:value>
-				<hra:value>description-en:
-In this calendar dated 1940 by Chemdyes Limited, Lord Krishna can be seen sitting with four women as he plays the flute. He is wearing jewellery, a flower garland and has a halo around his head. In front of him, three of the women are using coloured powder to make rangoli. The fourth woman is observing them as she leans against Krishna's knee. Behind them, plants and shrubs of various kinds with flowers can be seen. The rainbow coloured logo of the company can be seen in the background. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080430_0258.tif</hra:value>
-				<hra:value>explanatory comments/crosstagging: 
-Rangoli is a traditional decorative art of India. Usually the outline of the designs are made with rice flour and then filled with various colours. It is traditionally drawn at the entrance of the house or in the courtyard. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118292</hra:value>
-				<hra:value>118292</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:30">
-			</hra:administrative>
-		</hra:heidicon>
+Frankfurt A/M (Germany)</ext:value>
+				<ext:value>description-en:
+In this calendar dated 1940 by Chemdyes Limited, Lord Krishna can be seen sitting with four women as he plays the flute. He is wearing jewellery, a flower garland and has a halo around his head. In front of him, three of the women are using coloured powder to make rangoli. The fourth woman is observing them as she leans against Krishna's knee. Behind them, plants and shrubs of various kinds with flowers can be seen. The rainbow coloured logo of the company can be seen in the background. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080430_0258.tif</ext:value>
+				<ext:value>explanatory comments/crosstagging: 
+Rangoli is a traditional decorative art of India. Usually the outline of the designs are made with rice flour and then filled with various colours. It is traditionally drawn at the entrance of the house or in the courtyard. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080430_0258.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Rangoli is a traditional decorative art of India. Usually the outline of the designs are made with rice flour and then filled with various colours. It is traditionally drawn at the entrance of the house or in the courtyard.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118300</ext:value>
+				<ext:value>i_4f89c305-c718-5df0-b5c5-6dd406eed706</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118294</ext:value>
+				<ext:value>i_86145426-bd53-55d2-84f6-e20ddfc84198</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118296</ext:value>
+				<ext:value>i_74a63501-6995-5c66-90d8-bd32bbba1442</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118298</ext:value>
+				<ext:value>i_a887b1dc-81d7-55ba-bed7-dce39debfb01</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118293</ext:value>
+				<ext:value>i_5b243f8a-a401-5f0f-a248-5ae3aa614688</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118297</ext:value>
+				<ext:value>i_5bf9b571-2024-52bc-ba4b-a472a69eb70f</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118295</ext:value>
+				<ext:value>i_21e1a5e8-4eee-5395-86ad-39108508a40a</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118299</ext:value>
+				<ext:value>i_51f354b9-bd80-577d-8d1a-79f5e4f139ff</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118301</ext:value>
+				<ext:value>i_799de8ee-79e7-5f62-86c4-538b3ec9ae43</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118292</ext:value>
+				<ext:value>118292</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:11">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

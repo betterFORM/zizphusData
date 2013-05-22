@@ -1,52 +1,61 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_9f63e8a3-bcc7-5078-ad40-d07e0305c15f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5abfa90e-edfc-56bb-bf3f-bb03c06480e7">Lakshmi</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c26b6ea9-a73f-5d07-b6c3-27374df09264">Garuda</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-6a2e3bc2-f7f2-534f-bcac-5870a237313e">Ravi Varma, Raja</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c50ccba0-ef7b-5c3f-96e2-12821bb96bbc">Bhumidevi</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e9cc4e6f-bc9b-5bb9-b1ec-2ff69c3eec33">Imperial Chemical Industries (India) Ltd.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The image shows Vishnu carrying his consorts, Lakshmi and Bhumidevi as they ride on his mount, Garuda's back. Vishnu holds a lotus, conch, chakra (wheel) and gada (mace) in his four hands. He wears a crown and a flower garland around his neck. Both his consorts carry a white chaur or pankha (fan). Garuda holds a snake in his claws. Below the image near the address of the company are a bunch of images displaying various signets.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The image shows Vishnu carrying his consorts, Lakshmi and Bhumidevi as they ride on his mount, Garuda's back. Vishnu holds a lotus, conch, chakra (wheel) and gada (mace) in his four hands. He wears a crown and a flower garland around his neck. Both his consorts carry a white chaur or pankha (fan). Garuda holds a snake in his claws. Below the image near the address of the company are a bunch of images displaying various signets.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118255" type="corporate">HeidICON Image Database</name>
+				<refid>118255</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -59,7 +68,13 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_389c3366-29c9-5f3f-889e-9f2930e74b33" refid="118255" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_389c3366-29c9-5f3f-889e-9f2930e74b33" refid="118255" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_505cfede-2370-50f0-b395-2b3d79829ad3" refid="118256" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_ba5a031b-ae80-545a-9db3-e7d03c1a0ff4" refid="118261" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_b25e2b3d-cdc8-51a3-8b61-3e30e9fde4a2" refid="118259" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_b279a24a-b0a0-5f04-a624-939c23c87d3c" refid="118260" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_72a9480a-6fa6-5771-9a3d-c68d5bbfecb8" refid="118257" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_29232c34-d914-5303-a6f2-799ec0db5fef" refid="118258" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -69,62 +84,105 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="98cdd292-9b30-5297-a6f8-99dfdfc40644">
-				<term>red sari</term>
+				<term type="concept">red sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term>garland</term>
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term>crown</term>
+				<term type="concept">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term>snake</term>
+				<term type="animal">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0c001e4-367f-557b-9542-e92cf25f6f8c">
-				<term>recheck-Sri</term>
+				<term type="internal workflow">recheck-Sri</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advertisement of Imperial Chemical Industries India Ltd. (year: 1955)</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement of Imperial Chemical Industries India Ltd. (year: 1955)</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-The image shows Vishnu carrying his consorts, Lakshmi and Bhumidevi as they ride on his mount, Garuda's back. Vishnu holds a lotus, conch, chakra (wheel) and gada (mace) in his four hands. He wears a crown and a flower garland around his neck. Both his consorts carry a white chaur or pankha (fan). Garuda holds a snake in his claws. Below the image near the address of the company are a bunch of images displaying various signets. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080429_0108.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118255</hra:value>
-				<hra:value>118255</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:44:55">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+The image shows Vishnu carrying his consorts, Lakshmi and Bhumidevi as they ride on his mount, Garuda's back. Vishnu holds a lotus, conch, chakra (wheel) and gada (mace) in his four hands. He wears a crown and a flower garland around his neck. Both his consorts carry a white chaur or pankha (fan). Garuda holds a snake in his claws. Below the image near the address of the company are a bunch of images displaying various signets. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080429_0108.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080429_0108.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118256</ext:value>
+				<ext:value>i_505cfede-2370-50f0-b395-2b3d79829ad3</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118261</ext:value>
+				<ext:value>i_ba5a031b-ae80-545a-9db3-e7d03c1a0ff4</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118259</ext:value>
+				<ext:value>i_b25e2b3d-cdc8-51a3-8b61-3e30e9fde4a2</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118260</ext:value>
+				<ext:value>i_b279a24a-b0a0-5f04-a624-939c23c87d3c</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118257</ext:value>
+				<ext:value>i_72a9480a-6fa6-5771-9a3d-c68d5bbfecb8</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118258</ext:value>
+				<ext:value>i_29232c34-d914-5303-a6f2-799ec0db5fef</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118255</ext:value>
+				<ext:value>118255</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:33">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,29 +1,33 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_fcea9f8a-ccc3-59e9-a8f9-f8bc8e82acf1" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-65d331c8-aea5-564e-a372-b0b6cd6f30df">Gandhi, Mohandas Karamchand</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-67512664-d09d-5eb4-93bc-6d28e1b342ba">Chotalal &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1949</earliestDate>
-				<latestDate>1949</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The poster of Gandhi lists his birth and death dates. He sits against the backdrop of the muted colours of the Indian national flag. To the lower right corner, one can see words satya (truth) and ahimsa (non-violence) written along with the illustrations of a rising sun and a spinning wheel. At the bottom an 1948 calendar is partially visible.</description>
+			<description lang="en" script="Latn">
+				<text>The poster of Gandhi lists his birth and death dates. He sits against the backdrop of the muted colours of the Indian national flag. To the lower right corner, one can see words satya (truth) and ahimsa (non-violence) written along with the illustrations of a rising sun and a spinning wheel. At the bottom an 1948 calendar is partially visible.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -61,10 +65,13 @@ publishers</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109912" type="corporate">HeidICON Image Database</name>
+				<refid>109912</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -87,83 +94,87 @@ publishers</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
-				<term>flag</term>
+				<term type="concept">flags</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="63cf2678-1e25-5a5f-8d3e-44baf2d77d83">
-				<term>spinning wheel</term>
+				<term type="concept">spinning wheels</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term>national leader</term>
+				<term type="concept">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
-				<term>Indian flag</term>
+				<term type="concept">Indian flag</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
-				<term>spectacles</term>
+				<term type="concept">spectacles (eye glasses)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
+				<term type="concept">leaders (people)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Mahatma Gandhiji&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mahatma Gandhiji&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">Mahatma Gandhiji</title>
 			<title type="descriptive" pref="false" lang="" script="">महात्मा गांधीजी</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-The poster of Gandhi lists his birth and death dates. He sits against the backdrop of the muted colours of the Indian national flag. To the lower right corner, one can see words satya (truth) and ahimsa (non-violence) written along with the illustrations of a rising sun and a spinning wheel. At the bottom an 1948 calendar is partially visible. (sp/ma)</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+The poster of Gandhi lists his birth and death dates. He sits against the backdrop of the muted colours of the Indian national flag. To the lower right corner, one can see words satya (truth) and ahimsa (non-violence) written along with the illustrations of a rising sun and a spinning wheel. At the bottom an 1948 calendar is partially visible. (sp/ma)</ext:value>
+				<ext:value>text-en:
 BORN: 2ND OCT. 1869
-DIED: 30TH JAN. 1948</hra:value>
-				<hra:value>text-en:
+DIED: 30TH JAN. 1948</ext:value>
+				<ext:value>text-en:
 C.C.E.Co
-COPY RT.</hra:value>
-				<hra:value>text-en:
+COPY RT.</ext:value>
+				<ext:value>text-en:
 Published by
 Chimanlal Chhotalal &amp; Co.
 Under Fernandez Bridge
-Ahmedabad.</hra:value>
-				<hra:value>text-en:
-143</hra:value>
-				<hra:value>text-en:
+Ahmedabad.</ext:value>
+				<ext:value>text-en:
+143</ext:value>
+				<ext:value>text-en:
 All Copy Right
 reserved by the
-publishers</hra:value>
-				<hra:value>text-en:
-1948</hra:value>
-				<hra:value>text-hi:
-सत्य अने अहिंसा</hra:value>
-				<hra:value>text-hi:
-महात्मा गांधीजी</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Mohandas Karamchand Gandhi</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109912</hra:value>
-				<hra:value>109912</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:49:11">
-			</hra:administrative>
-		</hra:heidicon>
+publishers</ext:value>
+				<ext:value>text-en:
+1948</ext:value>
+				<ext:value>text-hi:
+सत्य अने अहिंसा</ext:value>
+				<ext:value>text-hi:
+महात्मा गांधीजी</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Mohandas Karamchand Gandhi</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109912</ext:value>
+				<ext:value>109912</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:09">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_cf659abb-e46c-5c1e-a49f-56fe600cb5c8" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-8e624cde-85e2-5e8c-865a-bb9a7df4e306">Kaloomal Shorimal</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The image depicts a bear standing on a red platform, holding a burning torch with a peacock on its back and another one standing between its legs. There are red flowers depicted on either side of the bear and a grassy meadow below the red platform. A blank frame below the bear allows for writing in a customised message or business address.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The image depicts a bear standing on a red platform, holding a burning torch with a peacock on its back and another one standing between its legs. There are red flowers depicted on either side of the bear and a grassy meadow below the red platform. A blank frame below the bear allows for writing in a customised message or business address.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -23,10 +29,13 @@ AMRITSAR BOMBAY</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108040" type="corporate">HeidICON Image Database</name>
+				<refid>108040</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -49,65 +58,66 @@ AMRITSAR BOMBAY</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="324d25ed-f125-5cd9-9355-dbc613eeb6a4">
-				<term>bear</term>
+				<term type="animal">bears</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4be1f3d9-b172-510e-b0a4-247201e8683f">
-				<term>flame</term>
+				<term type="concept">flames</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0ad89e3f-5b74-51d0-b518-1fc54b95541e">
-				<term>torch</term>
+				<term type="concept">torches (lighting devices)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term>peacock</term>
+				<term type="animal">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d4aa369d-d266-5acb-afdb-e2ef9c323ed1">
-				<term>meadow</term>
+				<term type="concept">meadows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2252f1fc-da24-547a-8be8-b87c2708ef66">
-				<term>cartouche</term>
+				<term type="concept">cartouches (ornaments)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Textile label of Kaloomal Shorimal</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of Kaloomal Shorimal</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 KALOO MAL SHORIMAL
-AMRITSAR BOMBAY</hra:value>
-				<hra:value>description-en:
-The image depicts a bear standing on a red platform, holding a burning torch with a peacock on its back and another one standing between its legs. There are red flowers depicted on either side of the bear and a grassy meadow below the red platform. A blank frame below the bear allows for writing in a customised message or business address. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108040</hra:value>
-				<hra:value>108040</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:35:57">
-			</hra:administrative>
-		</hra:heidicon>
+AMRITSAR BOMBAY</ext:value>
+				<ext:value>description-en:
+The image depicts a bear standing on a red platform, holding a burning torch with a peacock on its back and another one standing between its legs. There are red flowers depicted on either side of the bear and a grassy meadow below the red platform. A blank frame below the bear allows for writing in a customised message or business address. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108040</ext:value>
+				<ext:value>108040</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:18">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

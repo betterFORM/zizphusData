@@ -1,18 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_7d4c436a-d10f-52d5-ae00-493defe2a175" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-86274780-c326-5ade-b14a-ee24181b898f">Abu-Er-Rub, Laila</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">An advertisement for Lux Toilet Soap image has a blonde woman, wearing a strapless top, and holding a white bar of soap in her left hand.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>An advertisement for Lux Toilet Soap image has a blonde woman, wearing a strapless top, and holding a white bar of soap in her left hand.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -33,10 +43,13 @@ SOAP</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120675" type="corporate">HeidICON Image Database</name>
+				<refid>120675</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -49,7 +62,8 @@ SOAP</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0165e24d-0993-582d-b584-6045586657db" refid="120675" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0165e24d-0993-582d-b584-6045586657db" refid="120675" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_4f43b4d0-d4c2-5dd0-b24d-be1ec3ee2394" refid="118037" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -57,139 +71,270 @@ SOAP</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="caac86cb-f586-5f56-87ee-fb18879999f0">
-				<term>Lux Toilet Soap</term>
+				<term type="brand">Lux toilet soap (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
-				<term>whiteness</term>
+				<term type="concept">whiteness</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="93d4dd84-99a8-5d5d-9eef-e1b21db03ace">
-				<term>soap</term>
+				<term type="concept">soap (organic material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
-				<term>soap advertising</term>
+				<term type="concept">soap advertisings</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term>Caucasian type</term>
+				<term type="concept">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf7de29c-dc86-5221-b1d0-f1ef5165575c">
-				<term>blonde hair</term>
+				<term type="concept">blonde hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ebc21342-acd3-5f79-bd08-e77f0da385c2">
-				<term>red lipstick</term>
+				<term type="concept">red lipstick</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="510eb761-83ea-598f-bbac-ab53d01b47e6">
-				<term>blonde</term>
+				<term type="concept">blonde</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Lux Toilet Soap</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Lux Toilet Soap</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 The
 beauty soap
 of the film stars
 LUX
 TOILET
-SOAP</hra:value>
-				<hra:value>text-en:
-001011 1</hra:value>
-				<hra:value>text-en:
-LEVER BROTHERS (INDIA) LIMITED</hra:value>
-				<hra:value>description-en:
-An advertisement for Lux Toilet Soap image has a blonde woman, wearing a strapless top, and holding a white bar of soap in her left hand. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-It is hard to imagine that an Indian Women could be depicted on an advertisement in such a seductive way back then, not even if the woman could have been identified as a movie star. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-One of the longest running campaigns the world over, Lux, an international venture of Lever Brothers, featured Hollywood stars in most parts of the world. This is not surprising since Hollywood was the only global film industry at the time. Lux entered India in 1929 and while its early advertisements would feature Hollywood actresses, they would eventually be replaced almost completely by local stars. (Sabeena Gadihoke)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Marked by its use of the portraiture of known faces, Lux can be seen as one of the earliest forms of celebrity endorsements. As an extra cinematic site that showcased female stardom for its consumers, the repetitive advertisement could also be situated within practices of cinephilia. (Sabeena Gadihoke)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Surprisingly in early years Lux would target a vernacular public using the same imagery! The reverse of the Lux advertisement reproduced here, and featuring a rather risqué image of presumably a &quot;foreign actress&quot;. (Sabeena Gadihoke) (gs)</hra:value>
-				<hra:value>related literature:
-Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press. (gs)</hra:value>
-				<hra:value>related literature:
-Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; http://www.tasveergharindia.net/cmsdesk/essay/104/index.html (9.12.2010)(gs)</hra:value>
-				<hra:value>related literature:
-McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</hra:value>
-				<hra:value>related literature:
-Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Blonde hair is in most cases a distinctive visual marker on advertising images for being Western and therefore an exclusive marker for whiteness.  (la)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Many Indian actresses, too, were featured in Indian advertisements for Lux Soap. From Madhuri Dixit and Hema Malini to Aishwarya Rai, Kareena Kapoor and Kathrina Kaif. It seems as if Lux had and still has a big share of the Indian soap market. A nice overview of Lux vintage ads featuring Indian actresses can be found under http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html .(la)</hra:value>
-				<hra:value>related hyperlinks:
-http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html last accessed 2012-03-29 (la/ja)</hra:value>
-				<hra:value>related literature: 
-Kawashima, Terry 2002. “Seeing Faces, Making Races Challenging Visual Tropes of Racial Difference” in Meridians: feminism, race, transnationalism, Volume 3, Number 1, 2002, 161-190. (la)</hra:value>
-				<hra:value>related literature: 
-Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; http://www.tasveergharindia.net/cmsdesk/essay/104/index.html (9.12.2010)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Kawashima, Terry 2002. “Seeing Faces, Making Races Challenging Visual Tropes of Racial Difference” in Meridians: feminism, race, transnationalism, Volume 3, Number 1, 2002, 161-190.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html</hra:value>
-				<hra:value>2012-03-29</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|26|2|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120675</hra:value>
-				<hra:value>120675</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:39:48">
-			</hra:administrative>
-		</hra:heidicon>
+SOAP</ext:value>
+				<ext:value>text-en:
+001011 1</ext:value>
+				<ext:value>text-en:
+LEVER BROTHERS (INDIA) LIMITED</ext:value>
+				<ext:value>description-en:
+An advertisement for Lux Toilet Soap image has a blonde woman, wearing a strapless top, and holding a white bar of soap in her left hand. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+It is hard to imagine that an Indian Women could be depicted on an advertisement in such a seductive way back then, not even if the woman could have been identified as a movie star. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+One of the longest running campaigns the world over, Lux, an international venture of Lever Brothers, featured Hollywood stars in most parts of the world. This is not surprising since Hollywood was the only global film industry at the time. Lux entered India in 1929 and while its early advertisements would feature Hollywood actresses, they would eventually be replaced almost completely by local stars. (Sabeena Gadihoke)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Marked by its use of the portraiture of known faces, Lux can be seen as one of the earliest forms of celebrity endorsements. As an extra cinematic site that showcased female stardom for its consumers, the repetitive advertisement could also be situated within practices of cinephilia. (Sabeena Gadihoke)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Surprisingly in early years Lux would target a vernacular public using the same imagery! The reverse of the Lux advertisement reproduced here, and featuring a rather risqué image of presumably a &quot;foreign actress&quot;. (Sabeena Gadihoke) (gs)</ext:value>
+				<ext:value>related literature:
+Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press. (gs)</ext:value>
+				<ext:value>related literature:
+Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; http://www.tasveergharindia.net/cmsdesk/essay/104/index.html (9.12.2010)(gs)</ext:value>
+				<ext:value>related literature:
+McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</ext:value>
+				<ext:value>related literature:
+Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Blonde hair is in most cases a distinctive visual marker on advertising images for being Western and therefore an exclusive marker for whiteness.  (la)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Many Indian actresses, too, were featured in Indian advertisements for Lux Soap. From Madhuri Dixit and Hema Malini to Aishwarya Rai, Kareena Kapoor and Kathrina Kaif. It seems as if Lux had and still has a big share of the Indian soap market. A nice overview of Lux vintage ads featuring Indian actresses can be found under http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html .(la)</ext:value>
+				<ext:value>related hyperlinks:
+http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html last accessed 2012-03-29 (la/ja)</ext:value>
+				<ext:value>related literature: 
+Kawashima, Terry 2002. “Seeing Faces, Making Races Challenging Visual Tropes of Racial Difference” in Meridians: feminism, race, transnationalism, Volume 3, Number 1, 2002, 161-190. (la)</ext:value>
+				<ext:value>related literature: 
+Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; http://www.tasveergharindia.net/cmsdesk/essay/104/index.html (9.12.2010)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Kawashima, Terry 2002. “Seeing Faces, Making Races Challenging Visual Tropes of Racial Difference” in Meridians: feminism, race, transnationalism, Volume 3, Number 1, 2002, 161-190.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html</ext:value>
+				<ext:value type="accessed">2012-03-29</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Alisch, Johannes</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">It is hard to imagine that an Indian Women could be depicted on an advertisement in such a seductive way back then, not even if the woman could have been identified as a movie star.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Many Indian actresses, too, were featured in Indian advertisements for Lux Soap. From Madhuri Dixit and Hema Malini to Aishwarya Rai, Kareena Kapoor and Kathrina Kaif. It seems as if Lux had and still has a big share of the Indian soap market. A nice overview of Lux vintage ads featuring Indian actresses can be found under http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html .</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Surprisingly in early years Lux would target a vernacular public using the same imagery! The reverse of the Lux advertisement reproduced here, and featuring a rather risqué image of presumably a &quot;foreign actress&quot;.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sabeena Gadihoke</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Blonde hair is in most cases a distinctive visual marker on advertising images for being Western and therefore an exclusive marker for whiteness.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Marked by its use of the portraiture of known faces, Lux can be seen as one of the earliest forms of celebrity endorsements. As an extra cinematic site that showcased female stardom for its consumers, the repetitive advertisement could also be situated within practices of cinephilia.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sabeena Gadihoke</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">One of the longest running campaigns the world over, Lux, an international venture of Lever Brothers, featured Hollywood stars in most parts of the world. This is not surprising since Hollywood was the only global film industry at the time. Lux entered India in 1929 and while its early advertisements would feature Hollywood actresses, they would eventually be replaced almost completely by local stars.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sabeena Gadihoke</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118037</ext:value>
+				<ext:value>i_4f43b4d0-d4c2-5dd0-b24d-be1ec3ee2394</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120675</ext:value>
+				<ext:value>120675</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:20">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

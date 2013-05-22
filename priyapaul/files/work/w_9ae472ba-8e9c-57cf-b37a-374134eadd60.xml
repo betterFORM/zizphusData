@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_9ae472ba-8e9c-57cf-b37a-374134eadd60" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A postcard depicting a scenery from a flower market in the French city Mareseille with several woman being busy buying and selling flowers.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A postcard depicting a scenery from a flower market in the French city Mareseille with several woman being busy buying and selling flowers.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -17,13 +23,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
-			</location>
-			<location type="site">
-				<name type="geographic" vocab="" refid="">Marseille</name>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108203" type="corporate">HeidICON Image Database</name>
+				<refid>108203</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -36,7 +42,8 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_214beaa0-9b99-5291-88d4-56705c72fc80" refid="108203" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_214beaa0-9b99-5291-88d4-56705c72fc80" refid="108203" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_4c546432-653b-5546-9e85-aabadb6138cc" refid="108204" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -44,77 +51,134 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.frankreich-sued.de/marseille-server/Markt.htm</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="48eec9c0-5d67-5878-87de-df9c6aadcbef">
-				<term>marketplace</term>
+				<term type="concept">marketplaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a58fe6ce-7075-50a6-b15c-6e91c9876cc4">
-				<term>peddler</term>
+				<term type="concept">street vendors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="69210fe5-3e7d-56c1-9fdb-cdbb95c57789">
-				<term>shop</term>
+				<term type="concept">stores</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0dc69fa1-575c-51ee-9656-ecccb9fe345d">
-				<term>flower girl</term>
+				<term type="concept">flower girl</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="95a25c95-7c17-5c82-8aa5-c3f44635403c">
+				<term type="geographic">Marseille</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Marseille - Cours St-Louis. Les Bouquetieres&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Marseille - Cours St-Louis. Les Bouquetieres&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-22. MARSEILLE - Cours St-Louis. Les Bouquetières</hra:value>
-				<hra:value>description-en:
-A postcard depicting a scenery from a flower market in the French city Mareseille with several woman being busy buying and selling flowers. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-According to the clothes being worn by the depicted persons, it could be assumed that the image was recorded in the late 19th century or the early 20th century. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Whereas this flower market seems to be a constant one, the flower market in Marseille these days takes place on different locations every day: Monday morning at Felix-Baret and Cours Pierre-Puget, tuesday and saturday morning at Allees de Meilhan, wednesday morning at La Plaine, thursday morning at Boulevard Michelet and friday morning at Avenue du Prado. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-There were 18 Pavillions between 1847 and 1968 at Cours St. Luis. Artists were performing on the opposite of the square called Alcazar and before they started their show, it was custom to buy a rose in order to have good luck while performing and getting donations for it. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.frankreich-sued.de/marseille-server/Markt.htm, last accessed 2011-06-17. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.frankreich-sued.de/marseille-server/Markt.htm</hra:value>
-				<hra:value>2011-06-17</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108203</hra:value>
-				<hra:value>108203</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:42:13">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+22. MARSEILLE - Cours St-Louis. Les Bouquetières</ext:value>
+				<ext:value>description-en:
+A postcard depicting a scenery from a flower market in the French city Mareseille with several woman being busy buying and selling flowers. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+According to the clothes being worn by the depicted persons, it could be assumed that the image was recorded in the late 19th century or the early 20th century. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Whereas this flower market seems to be a constant one, the flower market in Marseille these days takes place on different locations every day: Monday morning at Felix-Baret and Cours Pierre-Puget, tuesday and saturday morning at Allees de Meilhan, wednesday morning at La Plaine, thursday morning at Boulevard Michelet and friday morning at Avenue du Prado. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+There were 18 Pavillions between 1847 and 1968 at Cours St. Luis. Artists were performing on the opposite of the square called Alcazar and before they started their show, it was custom to buy a rose in order to have good luck while performing and getting donations for it. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.frankreich-sued.de/marseille-server/Markt.htm, last accessed 2011-06-17. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.frankreich-sued.de/marseille-server/Markt.htm</ext:value>
+				<ext:value type="accessed">2011-06-17</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">There were 18 Pavillions between 1847 and 1968 at Cours St. Luis. Artists were performing on the opposite of the square called Alcazar and before they started their show, it was custom to buy a rose in order to have good luck while performing and getting donations for it.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">According to the clothes being worn by the depicted persons, it could be assumed that the image was recorded in the late 19th century or the early 20th century.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Whereas this flower market seems to be a constant one, the flower market in Marseille these days takes place on different locations every day: Monday morning at Felix-Baret and Cours Pierre-Puget, tuesday and saturday morning at Allees de Meilhan, wednesday morning at La Plaine, thursday morning at Boulevard Michelet and friday morning at Avenue du Prado.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108204</ext:value>
+				<ext:value>i_4c546432-653b-5546-9e85-aabadb6138cc</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.frankreich-sued.de/marseille-server/Markt.htm</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108203</ext:value>
+				<ext:value>108203</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:02">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

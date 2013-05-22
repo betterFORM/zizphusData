@@ -1,39 +1,43 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_194616da-6589-5534-b1d6-d8ea748cb6fc" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ff0e4783-e786-515e-acaf-12f7aa8b1d68">Guru Dutt</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5af6b70a-c829-5d16-a44a-c098eeadb073">Kumar, Ashok</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-51722184-4c12-59df-ba4a-5f19bdbdd0c2">Majumdar, Phani</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-8b4833fe-66ce-5ace-ba33-35e16d52ffcb">Rajshri Productions</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1962</earliestDate>
-				<latestDate>1962</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this poster for the movie &quot;Aarti&quot;, released in 1962, two of the leading actors, Pradeep Kumar and Ashok Kumar, can be seen standing in a room with stairs on the right side of it. One of them is wearing a suit whereas the other wears a simple kurta with a jhola (traditional cloth bag) over his shoulder.</description>
+			<description lang="en" script="Latn">
+				<text>On this poster for the movie &quot;Aarti&quot;, released in 1962, two of the leading actors, Pradeep Kumar and Ashok Kumar, can be seen standing in a room with stairs on the right side of it. One of them is wearing a suit whereas the other wears a simple kurta with a jhola (traditional cloth bag) over his shoulder.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -49,10 +53,13 @@ Directed by Phani Majumdar</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120222" type="corporate">HeidICON Image Database</name>
+				<refid>120222</refid>
 			</location>
 		</locationSet>
 		<measurementsSet>
@@ -70,85 +77,122 @@ Directed by Phani Majumdar</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0056806/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9ba0af72-4226-59db-8db7-6d019d4e52a3">
-				<term>Aarti</term>
+				<term type="work">Aarti (movie, 1962)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Aarti&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aarti&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">आरती</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Rajshri Productions'
 Aarti
 Produced by Dwij
-Directed by Phani Majumdar</hra:value>
-				<hra:value>text-hi:
-आरती</hra:value>
-				<hra:value>description-en:
-On this poster for the movie &quot;Aarti&quot;, released in 1962, two of the leading actors, Pradeep Kumar and Ashok Kumar, can be seen standing in a room with stairs on the right side of it. One of them is wearing a suit whereas the other wears a simple kurta with a jhola (traditional cloth bag) over his shoulder. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Story line of the movie: Aarti (Meena Kumari) is a dedicated and hard-working doctor, who believes that her skills should be used for the welfare of patients only. In contrast her fiance, Dr. Prakash (Ashok Kumar) believes in the opposite. Then one day, Aarti's is saved from drowning by a poor, unemployed youth, Deepak (Pradeep Kumar), and both eventually fall in love. Although her dad is opposed to her having any relationship with Deepak, they marry, and Aarti moves in with Deepak and his family: his brother, Niranjan (Ramesh Deo), Niranjan's wife, Jaswanti (Shashikala), three of her children; and Deepak's dad (Gajanan Jagirdar). Dr. Prakash is enraged and humiliated, and vows to avenge this. He gets married to Ramona, but is unable to get Aarti from his mind, and he keeps in touch with Aarti, and does succeed in bringing a discord in their marital life, so much so that Deepak asks Aarti to leave... http://www.imdb.com/title/tt0056806/ (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0056806/, last accessed 2012-01-30, story line, leading actors. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/1583.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0056806/</hra:value>
-				<hra:value>2012-01-30</hra:value>
-				<hra:value>story line, leading actors.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120222</hra:value>
-				<hra:value>120222</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:40:17">
-			</hra:administrative>
-		</hra:heidicon>
+Directed by Phani Majumdar</ext:value>
+				<ext:value>text-hi:
+आरती</ext:value>
+				<ext:value>description-en:
+On this poster for the movie &quot;Aarti&quot;, released in 1962, two of the leading actors, Pradeep Kumar and Ashok Kumar, can be seen standing in a room with stairs on the right side of it. One of them is wearing a suit whereas the other wears a simple kurta with a jhola (traditional cloth bag) over his shoulder. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Story line of the movie: Aarti (Meena Kumari) is a dedicated and hard-working doctor, who believes that her skills should be used for the welfare of patients only. In contrast her fiance, Dr. Prakash (Ashok Kumar) believes in the opposite. Then one day, Aarti's is saved from drowning by a poor, unemployed youth, Deepak (Pradeep Kumar), and both eventually fall in love. Although her dad is opposed to her having any relationship with Deepak, they marry, and Aarti moves in with Deepak and his family: his brother, Niranjan (Ramesh Deo), Niranjan's wife, Jaswanti (Shashikala), three of her children; and Deepak's dad (Gajanan Jagirdar). Dr. Prakash is enraged and humiliated, and vows to avenge this. He gets married to Ramona, but is unable to get Aarti from his mind, and he keeps in touch with Aarti, and does succeed in bringing a discord in their marital life, so much so that Deepak asks Aarti to leave... http://www.imdb.com/title/tt0056806/ (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0056806/, last accessed 2012-01-30, story line, leading actors. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/1583.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0056806/</ext:value>
+				<ext:value type="accessed">2012-01-30</ext:value>
+				<ext:value type="comment">story line, leading actors.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/1583.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Story line of the movie: Aarti (Meena Kumari) is a dedicated and hard-working doctor, who believes that her skills should be used for the welfare of patients only. In contrast her fiance, Dr. Prakash (Ashok Kumar) believes in the opposite. Then one day, Aarti's is saved from drowning by a poor, unemployed youth, Deepak (Pradeep Kumar), and both eventually fall in love. Although her dad is opposed to her having any relationship with Deepak, they marry, and Aarti moves in with Deepak and his family: his brother, Niranjan (Ramesh Deo), Niranjan's wife, Jaswanti (Shashikala), three of her children; and Deepak's dad (Gajanan Jagirdar). Dr. Prakash is enraged and humiliated, and vows to avenge this. He gets married to Ramona, but is unable to get Aarti from his mind, and he keeps in touch with Aarti, and does succeed in bringing a discord in their marital life, so much so that Deepak asks Aarti to leave... http://www.imdb.com/title/tt0056806/</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0056806/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120222</ext:value>
+				<ext:value>120222</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:25">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

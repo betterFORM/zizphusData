@@ -1,24 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_3281f213-e30b-59ee-a748-4edf5f502598" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-1fe5cac7-68dc-53b7-aee1-e773e52ae55f">Mohanlal Hargovinddas</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1950</earliestDate>
-				<latestDate>1950</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this calender from 1950 an advertisement for Asli Sher Chhap Bidis (Authentic Tiger Brand Bidis) can be seen. A packet of bidis with a lion printed on it can be seen in the centre. In the background we see a map of South Asia as well as various types of men smoking bidis - a bearded man with a turban, a priest wearing a sacred thread, a merchant with a turban, a young man and a couple of other men.</description>
+			<description lang="en" script="Latn">
+				<text>In this calender from 1950 an advertisement for Asli Sher Chhap Bidis (Authentic Tiger Brand Bidis) can be seen. A packet of bidis with a lion printed on it can be seen in the centre. In the background we see a map of South Asia as well as various types of men smoking bidis - a bearded man with a turban, a priest wearing a sacred thread, a merchant with a turban, a young man and a couple of other men.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -79,10 +79,13 @@ No. 7</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118614" type="corporate">HeidICON Image Database</name>
+				<refid>118614</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -95,7 +98,12 @@ No. 7</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_834043c0-acfc-5730-8c6b-6ae9948a34da" refid="118614" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_834043c0-acfc-5730-8c6b-6ae9948a34da" refid="118614" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_50e72bbe-2f3e-5f94-8666-3fb78798fa67" refid="118616" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_2b8135c6-665a-53fb-9620-4a9e54f9ef04" refid="118620" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_1f56c171-7508-5539-8c56-e5b787bb1d6e" refid="118617" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_15b83175-de34-52fb-aa6e-4a929c0d33fc" refid="118615" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_e5de3f20-4a84-538e-888d-f3159f84eda0" refid="118619" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -103,48 +111,60 @@ No. 7</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=93&amp;EId=116&amp;ImageId=26</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>postcolonial India</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="95b5e91e-149e-5b4e-9c42-56cefe4fad0c">
-				<term>Jabalpur</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term>lion</term>
+				<term type="animal">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term>map of India</term>
+				<term type="work (map)">map of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5baf3f4c-27ac-5b6b-a12a-0450ff4b9e56">
-				<term>Bidi</term>
+				<term type="concept">bidi</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="95b5e91e-149e-5b4e-9c42-56cefe4fad0c">
+				<term type="geographic">Jabalpur</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1693af24-76e0-58e7-99a0-72de13132c14">
-				<term>Asli Sher Chhap Bidi</term>
+				<term type="brand">Asli Sher Chhap Bidi (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b1668d6-f40e-5a4e-a105-5e4e81cfaee2">
-				<term>Pandit</term>
+				<term type="concept">pandits</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
-				<term>smoking</term>
+				<term type="concept">smoking (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term>map</term>
+				<term type="concept">maps</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -152,113 +172,231 @@ No. 7</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Authentic Tiger Brand Bidis</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Authentic Tiger Brand Bidis</title>
 			<title type="descriptive" pref="false" lang="" script="">Asli Sher Chhap Bidi</title>
 			<title type="descriptive" pref="false" lang="" script="">असली शेर छाप बिडी</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-hi: 
-असली शेर छाप बिडी</hra:value>
-				<hra:value>text-hi: 
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-hi: 
+असली शेर छाप बिडी</ext:value>
+				<ext:value>text-hi: 
 रजिस्टर न. ५०४ 
 असली तमाखूकी
 शेर- छाप- बिडी. 
-एक वक़्त पीकर खात्री करो</hra:value>
-				<hra:value>text-hi:
+एक वक़्त पीकर खात्री करो</ext:value>
+				<ext:value>text-hi:
 नकली 
 मालसे 
 सावधान 
-रहो</hra:value>
-				<hra:value>text-hi:
+रहो</ext:value>
+				<ext:value>text-hi:
 नकली माल 
 बनानेवालॊंपर 
 कारवाई 
-होगी</hra:value>
-				<hra:value>text-hi:
+होगी</ext:value>
+				<ext:value>text-hi:
 बिडी [on the packet]
 जबलपूर
-मोहनलाल हरगोविंद</hra:value>
-				<hra:value>text-hi:
+मोहनलाल हरगोविंद</ext:value>
+				<ext:value>text-hi:
 हिंदुस्थानमें मशहूर बीडीयोंका कारखाना 
-मोहनलाल हरगोविंददास, जबलपूर</hra:value>
-				<hra:value>text-transcription-hi:
-Asli Sher Chhap Bidi. Register n. 504. Sher-Chhap Bidi. Ek vakt pikar khatri karo.</hra:value>
-				<hra:value>text-transcription-hi:
+मोहनलाल हरगोविंददास, जबलपूर</ext:value>
+				<ext:value>text-transcription-hi:
+Asli Sher Chhap Bidi. Register n. 504. Sher-Chhap Bidi. Ek vakt pikar khatri karo.</ext:value>
+				<ext:value>text-transcription-hi:
 Nakli malse saavdhaan raho. 
-Nakli mal bananewalopar kaarvai hogi.</hra:value>
-				<hra:value>text-transcription-hi:
+Nakli mal bananewalopar kaarvai hogi.</ext:value>
+				<ext:value>text-transcription-hi:
 Hindustan mein mashhoor bidiyon ka karkhaana
-Mohanlal Hargovinddas, Jabalpur</hra:value>
-				<hra:value>text-en:
+Mohanlal Hargovinddas, Jabalpur</ext:value>
+				<ext:value>text-en:
 Mohanlal Hargovind
 Jubbulpore
 BIDI
-No. 7</hra:value>
-				<hra:value>text-en:
-REGD. No: 504</hra:value>
-				<hra:value>text-en:
-1950</hra:value>
-				<hra:value>description-en:
-In this calender from 1950 an advertisement for Asli Sher Chhap Bidis (Authentic Tiger Brand Bidis) can be seen. A packet of bidis with a lion printed on it can be seen in the centre. In the background we see a map of South Asia as well as various types of men smoking bidis - a bearded man with a turban, a priest wearing a sacred thread, a merchant with a turban, a young man and a couple of other men. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The advertisement declares Mohanlal Hargovind Das of Jabalpur as makers of beedi [country cigarettes] with authentic tobacco that bring satisfaction with one puff.  It also warns customers to beware of fake beedis as well as threatens legal action against those who would produce such fakes.  Note that the calendar is in English while much of the rest of the ad is in Hindi. (Sumathi Ramaswamy) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-A partly visible map of India—all its new borders and frontiers erased—is shown occupied by a beedi packet, and male bodies variously attired to signify different regional, sectarian and caste communities. On the one hand, the use of the map form allows the makers of Sher Chhaap bidi to announce the all-India popularity of their product. To be Indian, the ad seems to implicitly suggest by drawing upon and deploying the map of India, is to also smoke Indian. (Sumathi Ramaswamy) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Even a pandit is depicted smoking on this object. Pandits usually are not allowed to indulge in smoking. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-A bidi is a type of cigarette common in south Asia in which a tendu leaf is filled with tobacco, rolled and tied with string. (sp)</hra:value>
-				<hra:value>related literature:
-Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan. (gs)</hra:value>
-				<hra:value>related literature:
-Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97. (gs)</hra:value>
-				<hra:value>related literature:
-Neumayer, Erwin, and Christine Schelberger. 2008. &quot;Bharat mata: India's freedom movement in popular art&quot;. Delhi: Oxford University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Ramaswamy, Sumathi 2010. The Goddess and the Nation. Mapping Mother India. London: Duke University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-03-30 (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-03-30</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Neumayer, Erwin, and Christine Schelberger. 2008. &quot;Bharat mata: India's freedom movement in popular art&quot;. Delhi: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Ramaswamy, Sumathi 2010. The Goddess and the Nation. Mapping Mother India. London: Duke University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118614</hra:value>
-				<hra:value>118614</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:38:23">
-			</hra:administrative>
-		</hra:heidicon>
+No. 7</ext:value>
+				<ext:value>text-en:
+REGD. No: 504</ext:value>
+				<ext:value>text-en:
+1950</ext:value>
+				<ext:value>description-en:
+In this calender from 1950 an advertisement for Asli Sher Chhap Bidis (Authentic Tiger Brand Bidis) can be seen. A packet of bidis with a lion printed on it can be seen in the centre. In the background we see a map of South Asia as well as various types of men smoking bidis - a bearded man with a turban, a priest wearing a sacred thread, a merchant with a turban, a young man and a couple of other men. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The advertisement declares Mohanlal Hargovind Das of Jabalpur as makers of beedi [country cigarettes] with authentic tobacco that bring satisfaction with one puff.  It also warns customers to beware of fake beedis as well as threatens legal action against those who would produce such fakes.  Note that the calendar is in English while much of the rest of the ad is in Hindi. (Sumathi Ramaswamy) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+A partly visible map of India—all its new borders and frontiers erased—is shown occupied by a beedi packet, and male bodies variously attired to signify different regional, sectarian and caste communities. On the one hand, the use of the map form allows the makers of Sher Chhaap bidi to announce the all-India popularity of their product. To be Indian, the ad seems to implicitly suggest by drawing upon and deploying the map of India, is to also smoke Indian. (Sumathi Ramaswamy) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Even a pandit is depicted smoking on this object. Pandits usually are not allowed to indulge in smoking. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+A bidi is a type of cigarette common in south Asia in which a tendu leaf is filled with tobacco, rolled and tied with string. (sp)</ext:value>
+				<ext:value>related literature:
+Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan. (gs)</ext:value>
+				<ext:value>related literature:
+Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97. (gs)</ext:value>
+				<ext:value>related literature:
+Neumayer, Erwin, and Christine Schelberger. 2008. &quot;Bharat mata: India's freedom movement in popular art&quot;. Delhi: Oxford University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Ramaswamy, Sumathi 2010. The Goddess and the Nation. Mapping Mother India. London: Duke University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-03-30 (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-03-30</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Neumayer, Erwin, and Christine Schelberger. 2008. &quot;Bharat mata: India's freedom movement in popular art&quot;. Delhi: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Ramaswamy, Sumathi 2010. The Goddess and the Nation. Mapping Mother India. London: Duke University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The advertisement declares Mohanlal Hargovind Das of Jabalpur as makers of beedi [country cigarettes] with authentic tobacco that bring satisfaction with one puff.  It also warns customers to beware of fake beedis as well as threatens legal action against those who would produce such fakes.  Note that the calendar is in English while much of the rest of the ad is in Hindi.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sumathi Ramaswamy</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Even a pandit is depicted smoking on this object. Pandits usually are not allowed to indulge in smoking.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">A partly visible map of India—all its new borders and frontiers erased—is shown occupied by a beedi packet, and male bodies variously attired to signify different regional, sectarian and caste communities. On the one hand, the use of the map form allows the makers of Sher Chhaap bidi to announce the all-India popularity of their product. To be Indian, the ad seems to implicitly suggest by drawing upon and deploying the map of India, is to also smoke Indian.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sumathi Ramaswamy</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">A bidi is a type of cigarette common in south Asia in which a tendu leaf is filled with tobacco, rolled and tied with string.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118616</ext:value>
+				<ext:value>i_50e72bbe-2f3e-5f94-8666-3fb78798fa67</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118620</ext:value>
+				<ext:value>i_2b8135c6-665a-53fb-9620-4a9e54f9ef04</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118617</ext:value>
+				<ext:value>i_1f56c171-7508-5539-8c56-e5b787bb1d6e</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118615</ext:value>
+				<ext:value>i_15b83175-de34-52fb-aa6e-4a929c0d33fc</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118619</ext:value>
+				<ext:value>i_e5de3f20-4a84-538e-888d-f3159f84eda0</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=93&amp;EId=116&amp;ImageId=26</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118614</ext:value>
+				<ext:value>118614</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:58">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

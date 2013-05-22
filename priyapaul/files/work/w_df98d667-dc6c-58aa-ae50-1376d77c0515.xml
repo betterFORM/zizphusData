@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_df98d667-dc6c-58aa-ae50-1376d77c0515" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-1dd3c376-eb81-5854-b4c0-c23902c423ec">Akkoo</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this film poster for the movie &quot;Adam Khor&quot;  from the year 1955, directed by Akkoo, a group of bare chested men can be seen in a cave. Two of the men are being held captive by four men who have painted faces. The edges of the poster have illustrations of animals like a tiger and an elephant.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this film poster for the movie &quot;Adam Khor&quot;  from the year 1955, directed by Akkoo, a group of bare chested men can be seen in a cave. Two of the men are being held captive by four men who have painted faces. The edges of the poster have illustrations of animals like a tiger and an elephant.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -50,10 +56,13 @@ NEETA ROY and HABIB</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120151" type="corporate">HeidICON Image Database</name>
+				<refid>120151</refid>
 			</location>
 		</locationSet>
 		<measurementsSet>
@@ -71,96 +80,125 @@ NEETA ROY and HABIB</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.gomolo.in/Movie/Movie.aspx?mid=2516</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="19259860-f645-529b-a132-b553de634128">
-				<term>Adam Khor</term>
+				<term type="work (movie)">Adam Khor (movie)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
-				<term>film</term>
+				<term type="concept">motion pictures (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92f9e457-0196-5ea5-9e58-b47e9a5cf392">
-				<term>cannibalism</term>
+				<term type="concept">cannibalism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Adam Khor&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Adam Khor&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-On this film poster for the movie &quot;Adam Khor&quot;  from the year 1955, directed by Akkoo, a group of bare chested men can be seen in a cave. Two of the men are being held captive by four men who have painted faces. The edges of the poster have illustrations of animals like a tiger and an elephant. (sp)</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+On this film poster for the movie &quot;Adam Khor&quot;  from the year 1955, directed by Akkoo, a group of bare chested men can be seen in a cave. Two of the men are being held captive by four men who have painted faces. The edges of the poster have illustrations of animals like a tiger and an elephant. (sp)</ext:value>
+				<ext:value>text-en:
 Jungle Mighty
-Thriller!</hra:value>
-				<hra:value>text-en:
+Thriller!</ext:value>
+				<ext:value>text-en:
 PRADHAN
-Productions'</hra:value>
-				<hra:value>text-en:
+Productions'</ext:value>
+				<ext:value>text-en:
 Adam Khor
 Produced
 by
-G.M. PRADHAN</hra:value>
-				<hra:value>text-en:
+G.M. PRADHAN</ext:value>
+				<ext:value>text-en:
 Directed by
-AKKOO</hra:value>
-				<hra:value>text-en:
-Music by NISAR</hra:value>
-				<hra:value>text-en:
+AKKOO</ext:value>
+				<ext:value>text-en:
+Music by NISAR</ext:value>
+				<ext:value>text-en:
 BABURAO * LALITA KUMARI
 SHAIKH * KESARI * MAQBOOL
 SHANTA PATEL * NEERA
 MUNSHI MUNAKA
-NEETA ROY and HABIB</hra:value>
-				<hra:value>text-en:
-Studio BRILLIANT</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Adam Khor is a Thriller which deals with Cannibalism. It was released in 1955. (gs)</hra:value>
-				<hra:value>related hyperlink:
-http://www.gomolo.in/Movie/Movie.aspx?mid=2516 last accessed 2011-06-21, movie info on gomolo.in (ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.gomolo.in/Movie/Movie.aspx?mid=2516</hra:value>
-				<hra:value>2011-06-21</hra:value>
-				<hra:value>movie info on gomolo.in</hra:value>
-				<hra:value>|3|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120151</hra:value>
-				<hra:value>120151</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:37:01">
-			</hra:administrative>
-		</hra:heidicon>
+NEETA ROY and HABIB</ext:value>
+				<ext:value>text-en:
+Studio BRILLIANT</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Adam Khor is a Thriller which deals with Cannibalism. It was released in 1955. (gs)</ext:value>
+				<ext:value>related hyperlink:
+http://www.gomolo.in/Movie/Movie.aspx?mid=2516 last accessed 2011-06-21, movie info on gomolo.in (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.gomolo.in/Movie/Movie.aspx?mid=2516</ext:value>
+				<ext:value type="accessed">2011-06-21</ext:value>
+				<ext:value type="comment">movie info on gomolo.in</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Adam Khor is a Thriller which deals with Cannibalism. It was released in 1955.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.gomolo.in/Movie/Movie.aspx?mid=2516</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120151</ext:value>
+				<ext:value>120151</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:20">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

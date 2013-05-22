@@ -1,29 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_9cb2af17-5451-5148-91b4-f88f33b3274d" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-f9c97a9c-aee8-5e7b-aede-30d7ec0f5614">Kumari, Krishna</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-86274780-c326-5ade-b14a-ee24181b898f">Abu-Er-Rub, Laila</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1954</earliestDate>
-				<latestDate>1954</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The image shows the Bollywood actress, Krishna Kumari dressed in a sari and wearing earrings and a necklace. On the lower right corner an illustration of Lux soap can be seen.</description>
+			<description lang="en" script="Latn">
+				<text>The image shows the Bollywood actress, Krishna Kumari dressed in a sari and wearing earrings and a necklace. On the lower right corner an illustration of Lux soap can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -44,10 +44,13 @@ of the film stars</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119369" type="corporate">HeidICON Image Database</name>
+				<refid>119369</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -68,158 +71,292 @@ of the film stars</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=86&amp;EId=104&amp;ImageId=29</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1950s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term>necklace</term>
+				<term type="concept">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="caac86cb-f586-5f56-87ee-fb18879999f0">
-				<term>Lux Toilet Soap</term>
+				<term type="brand">Lux toilet soap (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="93d4dd84-99a8-5d5d-9eef-e1b21db03ace">
-				<term>soap</term>
+				<term type="concept">soap (organic material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
-				<term>soap advertising</term>
+				<term type="concept">soap advertisings</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eff8de2f-9616-5eb9-ae5a-69b823c38431">
-				<term>actress</term>
+				<term type="concept">actresses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Calendar sheet advertising &quot;Lux Toilet Soap&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar sheet advertising &quot;Lux Toilet Soap&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Krishna Kumari</hra:value>
-				<hra:value>text-en:
-July 1954 August</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Krishna Kumari</ext:value>
+				<ext:value>text-en:
+July 1954 August</ext:value>
+				<ext:value>text-en:
 The beauty soap
-of the film stars</hra:value>
-				<hra:value>text-en: 
-LUX TOILET SOAP</hra:value>
-				<hra:value>description-en:
-The image shows the Bollywood actress, Krishna Kumari dressed in a sari and wearing earrings and a necklace. On the lower right corner an illustration of Lux soap can be seen. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Besides Krishna Kumari, this calendar features Meena Kumari, Kamini Kaushal, Suriya, Shashikala and Rehana. The first three names among them were well established actresses in Bombay cinema. All these women had started work at approximately the same time and they all had important films around 1954. (Sabeena Gadihoke) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-After a series of flops in the fifties, Suraiya had starred in Waris and the popular Mirza Ghalib in 1954. Her singing and performance as a courtesan in Mirza Ghalib would be highly acclaimed and the film was awarded the President’s Gold Medal. (Sabeena Gadihoke) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-One of the longest running campaigns the world over, Lux, an international venture of Levers Brothers, featured Hollywood stars in most parts of the world. This is not surprising since Hollywood was the only global film industry at the time. Lux entered India in 1929 and while its early advertisements would feature Hollywood actresses, they would eventually be replaced almost completely by local stars. (Sabeena Gadihoke) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Marked by its use of the portraiture of known faces, Lux can be seen as one of the earliest forms of celebrity endorsements. As an extra cinematic site that showcased female stardom for its consumers, the repetitive advertisement could also be situated within practices of cinephilia. (Sabeena Gadihoke) (gs)</hra:value>
-				<hra:value>related literature:
-Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press. (gs)</hra:value>
-				<hra:value>related literature:
-Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/104/index.html, last accessed 2010-12-14, Tasveer Ghar essay (gs)</hra:value>
-				<hra:value>related literature:
-McClintock, Anne 1995. &quot;Imperial Leather. Race, Gender and Sexuality in the colonial contest.&quot; New York: Routlegde. (gs)</hra:value>
-				<hra:value>related literature:
-McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</hra:value>
-				<hra:value>related literature:
-Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Many Indian actresses were featured in Indian advertisements for Lux Soap. From Madhuri Dixit and Hema Malini to Aishwarya Rai, Kareena Kapoor and Katrina Kaif. It seems as if Lux had and still has a big share of the Indian soap market. A nice overview of Lux vintage ads featuring Indian actresses can be found under http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html. (la)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-An interesting citation from the website of Unilever UK sheds light on their advertising rhetoric and why they have chosen this particular brand name: “Since the 1930s, over 400 of the world’s most stunning and sensuous women have been proudly associated with Lux advertisements. Marilyn Monroe, Brigitte Bardot, Demi Moore and, more recently, our own Catherine Zeta-Jones, have all been part of the Lux glamour story. (…) The name Lux means ‘light’ in Latin, however the name was chosen for its play on the word ‘luxury’”. Retrieved from  http://www.unilever.co.uk/brands/personalcarebrands/lux.aspx, last accessed 2011-08-21 (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html. last accessed 2011-08-21 (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.unilever.co.uk/brands/personalcarebrands/lux.aspx
-last accessed 2011-08-21 (la)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot;</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>McClintock, Anne 1995. &quot;Imperial Leather. Race, Gender and Sexuality in the colonial contest.&quot; New York: Routlegde.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.unilever.co.uk/brands/personalcarebrands/lux.aspx</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</hra:value>
-				<hra:value>2010-12-14</hra:value>
-				<hra:value>Tasveer Ghar essay</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html.</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Krishna Kumari</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119369</hra:value>
-				<hra:value>119369</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:20">
-			</hra:administrative>
-		</hra:heidicon>
+of the film stars</ext:value>
+				<ext:value>text-en: 
+LUX TOILET SOAP</ext:value>
+				<ext:value>description-en:
+The image shows the Bollywood actress, Krishna Kumari dressed in a sari and wearing earrings and a necklace. On the lower right corner an illustration of Lux soap can be seen. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Besides Krishna Kumari, this calendar features Meena Kumari, Kamini Kaushal, Suriya, Shashikala and Rehana. The first three names among them were well established actresses in Bombay cinema. All these women had started work at approximately the same time and they all had important films around 1954. (Sabeena Gadihoke) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+After a series of flops in the fifties, Suraiya had starred in Waris and the popular Mirza Ghalib in 1954. Her singing and performance as a courtesan in Mirza Ghalib would be highly acclaimed and the film was awarded the President’s Gold Medal. (Sabeena Gadihoke) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+One of the longest running campaigns the world over, Lux, an international venture of Levers Brothers, featured Hollywood stars in most parts of the world. This is not surprising since Hollywood was the only global film industry at the time. Lux entered India in 1929 and while its early advertisements would feature Hollywood actresses, they would eventually be replaced almost completely by local stars. (Sabeena Gadihoke) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Marked by its use of the portraiture of known faces, Lux can be seen as one of the earliest forms of celebrity endorsements. As an extra cinematic site that showcased female stardom for its consumers, the repetitive advertisement could also be situated within practices of cinephilia. (Sabeena Gadihoke) (gs)</ext:value>
+				<ext:value>related literature:
+Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press. (gs)</ext:value>
+				<ext:value>related literature:
+Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/104/index.html, last accessed 2010-12-14, Tasveer Ghar essay (gs)</ext:value>
+				<ext:value>related literature:
+McClintock, Anne 1995. &quot;Imperial Leather. Race, Gender and Sexuality in the colonial contest.&quot; New York: Routlegde. (gs)</ext:value>
+				<ext:value>related literature:
+McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</ext:value>
+				<ext:value>related literature:
+Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Many Indian actresses were featured in Indian advertisements for Lux Soap. From Madhuri Dixit and Hema Malini to Aishwarya Rai, Kareena Kapoor and Katrina Kaif. It seems as if Lux had and still has a big share of the Indian soap market. A nice overview of Lux vintage ads featuring Indian actresses can be found under http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html. (la)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+An interesting citation from the website of Unilever UK sheds light on their advertising rhetoric and why they have chosen this particular brand name: “Since the 1930s, over 400 of the world’s most stunning and sensuous women have been proudly associated with Lux advertisements. Marilyn Monroe, Brigitte Bardot, Demi Moore and, more recently, our own Catherine Zeta-Jones, have all been part of the Lux glamour story. (…) The name Lux means ‘light’ in Latin, however the name was chosen for its play on the word ‘luxury’”. Retrieved from  http://www.unilever.co.uk/brands/personalcarebrands/lux.aspx, last accessed 2011-08-21 (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html. last accessed 2011-08-21 (la)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">McClintock, Anne 1995. &quot;Imperial Leather. Race, Gender and Sexuality in the colonial contest.&quot; New York: Routlegde.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</ext:value>
+				<ext:value type="accessed">2010-12-14</ext:value>
+				<ext:value type="comment">Tasveer Ghar essay</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html.</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">After a series of flops in the fifties, Suraiya had starred in Waris and the popular Mirza Ghalib in 1954. Her singing and performance as a courtesan in Mirza Ghalib would be highly acclaimed and the film was awarded the President’s Gold Medal.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sabeena Gadihoke</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">An interesting citation from the website of Unilever UK sheds light on their advertising rhetoric and why they have chosen this particular brand name: “Since the 1930s, over 400 of the world’s most stunning and sensuous women have been proudly associated with Lux advertisements. Marilyn Monroe, Brigitte Bardot, Demi Moore and, more recently, our own Catherine Zeta-Jones, have all been part of the Lux glamour story. (…) The name Lux means ‘light’ in Latin, however the name was chosen for its play on the word ‘luxury’”. Retrieved from  http://www.unilever.co.uk/brands/personalcarebrands/lux.aspx, last accessed 2011-08-21</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Many Indian actresses were featured in Indian advertisements for Lux Soap. From Madhuri Dixit and Hema Malini to Aishwarya Rai, Kareena Kapoor and Katrina Kaif. It seems as if Lux had and still has a big share of the Indian soap market. A nice overview of Lux vintage ads featuring Indian actresses can be found under http://8ate.blogspot.com/2009/09/vintage-lux-ads-beauty-soap-of-film.html.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Besides Krishna Kumari, this calendar features Meena Kumari, Kamini Kaushal, Suriya, Shashikala and Rehana. The first three names among them were well established actresses in Bombay cinema. All these women had started work at approximately the same time and they all had important films around 1954.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sabeena Gadihoke</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Marked by its use of the portraiture of known faces, Lux can be seen as one of the earliest forms of celebrity endorsements. As an extra cinematic site that showcased female stardom for its consumers, the repetitive advertisement could also be situated within practices of cinephilia.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sabeena Gadihoke</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">One of the longest running campaigns the world over, Lux, an international venture of Levers Brothers, featured Hollywood stars in most parts of the world. This is not surprising since Hollywood was the only global film industry at the time. Lux entered India in 1929 and while its early advertisements would feature Hollywood actresses, they would eventually be replaced almost completely by local stars.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sabeena Gadihoke</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Krishna Kumari</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=86&amp;EId=104&amp;ImageId=29</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119369</ext:value>
+				<ext:value>119369</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:22">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

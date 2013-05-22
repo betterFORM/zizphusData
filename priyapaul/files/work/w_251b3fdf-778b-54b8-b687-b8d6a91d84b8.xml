@@ -1,24 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_251b3fdf-778b-54b8-b687-b8d6a91d84b8" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-93ebff35-0883-5eda-ba8d-2a13b35f9462">J. Beagles &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1911</earliestDate>
-				<latestDate>1911</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this greeting card, printed by J. Beagles &amp; Co., a handshake and a steamer ship are at the centre of the image. Around them, a decorative arch (horseshoe) can be seen around which roses and smaller flowers (violets?) form a decorative design.</description>
+			<description lang="en" script="Latn">
+				<text>In this greeting card, printed by J. Beagles &amp; Co., a handshake and a steamer ship are at the centre of the image. Around them, a decorative arch (horseshoe) can be seen around which roses and smaller flowers (violets?) form a decorative design.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -41,10 +45,13 @@ BEAGLES POSTCARDS</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108171" type="corporate">HeidICON Image Database</name>
+				<refid>108171</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -57,7 +64,8 @@ BEAGLES POSTCARDS</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_5a1b18aa-abeb-508c-959e-821750a90ed8" refid="108171" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_5a1b18aa-abeb-508c-959e-821750a90ed8" refid="108171" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_e6330a99-7f01-573e-b555-03d757dfc149" refid="108172" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -65,121 +73,206 @@ BEAGLES POSTCARDS</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=94&amp;EId=117&amp;ImageId=16</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/117/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>early 20th century</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="da9172a7-8a73-5f8a-9115-e8dab189cd85">
-				<term>handshake</term>
+				<term type="concept">handshake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term>ocean</term>
+				<term type="concept">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">
-				<term>greeting cards</term>
+				<term type="worktype">greeting cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term>rose</term>
+				<term type="plant">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="97a3dcf5-63f4-5a3c-8a10-fb7dd4072779">
-				<term>Eid Mubarak</term>
+				<term type="greeting">Eid Mubarak (greetings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="19cc928d-3d05-5e88-961e-1d640bb0e682">
-				<term>steamer</term>
+				<term type="concept">steamships</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term>picture postcards</term>
+				<term type="worktype">picture postcards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="67d9d950-4fac-5e8d-bee1-8eb24daf5e19">
-				<term>horseshoe</term>
+				<term type="concept">horseshoes (animal equipment)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Postcard by Beagles' Postcards</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Postcard by Beagles' Postcards</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 [OV]ERSEA
-GREETINGS</hra:value>
-				<hra:value>text-en:
+GREETINGS</ext:value>
+				<ext:value>text-en:
 Our Father knows the paths we tread, Dear,
 So far apart and yet'tis His appointed way,
 But till we meet again I am praying for you,
 God be with you always, now and every day. 
-Terry.</hra:value>
-				<hra:value>text-en:
+Terry.</ext:value>
+				<ext:value>text-en:
 900. Y.
 COPYRIGHT.
-BEAGLES POSTCARDS</hra:value>
-				<hra:value>description-en:
-In this greeting card, printed by J. Beagles &amp; Co., a handshake and a steamer ship are at the centre of the image. Around them, a decorative arch (horseshoe) can be seen around which roses and smaller flowers (violets?) form a decorative design. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Interestingly, a photo-realistic handshake (depicting female hands) is drawn on this card titled “Oversea Greetings” [...]. Apparently, in the early 20th century, picture postcards were also printed on sailing ships and distributed to the travellers as a goodwill gesture. (Yousuf Saeed) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Although this one has been printed in England by J.Beagles &amp; Co., it was posted by one Ms. Shanky on November 27th, 1911 addressed to one Harry P. Otig, a loco foreman at Aligarh junction in north India, but seems to have a postmark (dated 15 December 1911) of Tuticorin, a port town in Tamil Nadu, where many ships sailing across the Indian Ocean halted briefly. The icons of handshake and sailing ship have been readily adapted in many early Eid cards. (Yousuf Saeed)(gs)</hra:value>
-				<hra:value>related literature:
-Mathur, Saloni, &quot;Wanted Native Views: Collecting colonial postcards of India,&quot; in Antionette Burton (ed.) Gender, Sexuality and Colonial Modernities, New York: Routledge, 1999, 95-115. (gs)</hra:value>
-				<hra:value>related literature:
-Patterson, Steven, Postcards from the Raj, Patterns of Prejudice, Volume 40, Number 2, Routledge, May 2006, 142-158; also see Saloni Mathur, 1999. (gs)</hra:value>
-				<hra:value>related literature:
-Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim South Asia.&quot; (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/117/index_1.html, last accessed 2011-04-07, Tasveer Ghar essay (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Patterson, Steven, Postcards from the Raj, Patterns of Prejudice, Volume 40, Number 2, Routledge, May 2006, 142-158; also see Saloni Mathur, 1999.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mathur, Saloni, &quot;Wanted Native Views: Collecting colonial postcards of India,&quot; in Antionette Burton (ed.) Gender, Sexuality and Colonial Modernities, New York: Routledge, 1999, 95-115.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim South Asia.&quot;</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/117/index_1.html</hra:value>
-				<hra:value>2011-04-07</hra:value>
-				<hra:value>Tasveer Ghar essay</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108171</hra:value>
-				<hra:value>108171</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:41:13">
-			</hra:administrative>
-		</hra:heidicon>
+BEAGLES POSTCARDS</ext:value>
+				<ext:value>description-en:
+In this greeting card, printed by J. Beagles &amp; Co., a handshake and a steamer ship are at the centre of the image. Around them, a decorative arch (horseshoe) can be seen around which roses and smaller flowers (violets?) form a decorative design. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Interestingly, a photo-realistic handshake (depicting female hands) is drawn on this card titled “Oversea Greetings” [...]. Apparently, in the early 20th century, picture postcards were also printed on sailing ships and distributed to the travellers as a goodwill gesture. (Yousuf Saeed) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Although this one has been printed in England by J.Beagles &amp; Co., it was posted by one Ms. Shanky on November 27th, 1911 addressed to one Harry P. Otig, a loco foreman at Aligarh junction in north India, but seems to have a postmark (dated 15 December 1911) of Tuticorin, a port town in Tamil Nadu, where many ships sailing across the Indian Ocean halted briefly. The icons of handshake and sailing ship have been readily adapted in many early Eid cards. (Yousuf Saeed)(gs)</ext:value>
+				<ext:value>related literature:
+Mathur, Saloni, &quot;Wanted Native Views: Collecting colonial postcards of India,&quot; in Antionette Burton (ed.) Gender, Sexuality and Colonial Modernities, New York: Routledge, 1999, 95-115. (gs)</ext:value>
+				<ext:value>related literature:
+Patterson, Steven, Postcards from the Raj, Patterns of Prejudice, Volume 40, Number 2, Routledge, May 2006, 142-158; also see Saloni Mathur, 1999. (gs)</ext:value>
+				<ext:value>related literature:
+Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim South Asia.&quot; (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/117/index_1.html, last accessed 2011-04-07, Tasveer Ghar essay (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Patterson, Steven, Postcards from the Raj, Patterns of Prejudice, Volume 40, Number 2, Routledge, May 2006, 142-158; also see Saloni Mathur, 1999.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mathur, Saloni, &quot;Wanted Native Views: Collecting colonial postcards of India,&quot; in Antionette Burton (ed.) Gender, Sexuality and Colonial Modernities, New York: Routledge, 1999, 95-115.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim South Asia.&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/117/index_1.html</ext:value>
+				<ext:value type="accessed">2011-04-07</ext:value>
+				<ext:value type="comment">Tasveer Ghar essay</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Although this one has been printed in England by J.Beagles &amp; Co., it was posted by one Ms. Shanky on November 27th, 1911 addressed to one Harry P. Otig, a loco foreman at Aligarh junction in north India, but seems to have a postmark (dated 15 December 1911) of Tuticorin, a port town in Tamil Nadu, where many ships sailing across the Indian Ocean halted briefly. The icons of handshake and sailing ship have been readily adapted in many early Eid cards.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Yousuf Saeed</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Interestingly, a photo-realistic handshake (depicting female hands) is drawn on this card titled “Oversea Greetings” [...]. Apparently, in the early 20th century, picture postcards were also printed on sailing ships and distributed to the travellers as a goodwill gesture.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Yousuf Saeed</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108172</ext:value>
+				<ext:value>i_e6330a99-7f01-573e-b555-03d757dfc149</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=94&amp;EId=117&amp;ImageId=16</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/117/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108171</ext:value>
+				<ext:value>108171</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:30">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

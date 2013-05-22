@@ -1,19 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_3c6c252d-911c-50d3-a68a-cc894f5e2eee" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1952</earliestDate>
-				<latestDate>1952</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">&quot;Novelty Cinema, Kalimpong.&quot; written on the backside of a lobby card.</description>
+			<description lang="en" script="Latn">
+				<text>&quot;Novelty Cinema, Kalimpong.&quot; written on the backside of a lobby card.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -24,10 +24,13 @@ Kalimpong</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117920" type="corporate">HeidICON Image Database</name>
+				<refid>117920</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -39,89 +42,157 @@ Kalimpong</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1950s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Back of  lobby card  from Aladdin and the wonderfull lamp&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Back of  lobby card  from Aladdin and the wonderfull lamp&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Novelty Cinema
-Kalimpong</hra:value>
-				<hra:value>description-en:
-&quot;Novelty Cinema, Kalimpong.&quot; written on the backside of a lobby card. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
+Kalimpong</ext:value>
+				<ext:value>description-en:
+&quot;Novelty Cinema, Kalimpong.&quot; written on the backside of a lobby card. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
 Much of the pleasure of the Priya Paul archive lies in serendipity - and with these Aladdin stills there is an unexpected treat. On the back, in optimistic—if spidery— red ink, is written ‘Novelty Cinema, Kalimpong’. What could be more appropriate to this Arabian Nights’ treasure trove than to uncover traces of its former life in a small town high in the foothills of the eastern Himalayas? Bordering Sikkim and not far from Bhutan, this is quintessential ‘C-grade’ territory:up-country and, in film distribution terms, remote. In the popular imagination, the name Kalimpong itself has an exotic ring, a place where enchanted mountains—and even Aladdin’s cave itself— might lie. Magicians did indeed live here in the 1910s and 1920s, if we can believe Alexandra David-Neel, the explorer whose orientalist travellers’ tales fuelled a feverish Western imagination longing for marvels. Moreover, Kalimpong had long been a place where Indian, Chinese, Tibetan, Nepali and European cultures crossed. Situated just off the old Silk Road to China, this trading centre was an early transcultural–even liminal–space. And we may remember that many versions of Aladdin, including Galland’s original story, were set in China, not Baghdad– an exotic Orient deferred ever eastwards. What might 1950s audiences holed up in the dark spaces of the Novelty Cinema, Kalimpong–with its miniscule Islamic presence – have made of Aladdin and its various ‘novelties’, including its ‘novelty dance’? What sense could these audiences have made of this multiply exotic tale, filmed in Bombay, set in ‘Baghdad’, and referencing global popular culture, taking its inspiration from some of the world’s oldest stories via the detour of, inter alia, Indian theatre, Persian folktale, Arabic poetry, French literary salons, Hollywood films and English children’s books? 
-Quoted from http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-26 (gs)</hra:value>
-				<hra:value>related literature:
-David-Neel, Alexandra 1931. &quot;With Mystics and Magicians in Tibet&quot;. London: John Lane, Bodley Head. (gs)</hra:value>
-				<hra:value>related literature: Irwin, Robert 1994. &quot;The Arabian Nights: A Companion&quot;. London: Allen Lane. (gs)</hra:value>
-				<hra:value>related literature:
-Marzolph, Ulrich 2006. &quot;Arabian Nights Reader&quot;. Detroit: Wayne State University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</hra:value>
-				<hra:value>related literature:
-Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-12-11, Essay &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; by Rosie Thomas (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-1532a back.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Irwin, Robert 1994. &quot;The Arabian Nights: A Companion&quot;. London: Allen Lane.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot;</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>David-Neel, Alexandra 1931. &quot;With Mystics and Magicians in Tibet&quot;. London: John Lane, Bodley Head. (gs)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Marzolph, Ulrich 2006. &quot;Arabian Nights Reader&quot;. Detroit: Wayne State University Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</hra:value>
-				<hra:value>2010-12-11</hra:value>
-				<hra:value>Essay &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; by Rosie Thomas</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/117920</hra:value>
-				<hra:value>117920</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:37">
-			</hra:administrative>
-		</hra:heidicon>
+Quoted from http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-26 (gs)</ext:value>
+				<ext:value>related literature:
+David-Neel, Alexandra 1931. &quot;With Mystics and Magicians in Tibet&quot;. London: John Lane, Bodley Head. (gs)</ext:value>
+				<ext:value>related literature: Irwin, Robert 1994. &quot;The Arabian Nights: A Companion&quot;. London: Allen Lane. (gs)</ext:value>
+				<ext:value>related literature:
+Marzolph, Ulrich 2006. &quot;Arabian Nights Reader&quot;. Detroit: Wayne State University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</ext:value>
+				<ext:value>related literature:
+Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-12-11, Essay &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; by Rosie Thomas (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+1532a back.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Irwin, Robert 1994. &quot;The Arabian Nights: A Companion&quot;. London: Allen Lane.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">David-Neel, Alexandra 1931. &quot;With Mystics and Magicians in Tibet&quot;. London: John Lane, Bodley Head. (gs)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Marzolph, Ulrich 2006. &quot;Arabian Nights Reader&quot;. Detroit: Wayne State University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+				<ext:value type="accessed">2010-12-11</ext:value>
+				<ext:value type="comment">Essay &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; by Rosie Thomas</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">1532a back.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Much of the pleasure of the Priya Paul archive lies in serendipity - and with these Aladdin stills there is an unexpected treat. On the back, in optimistic—if spidery— red ink, is written ‘Novelty Cinema, Kalimpong’. What could be more appropriate to this Arabian Nights’ treasure trove than to uncover traces of its former life in a small town high in the foothills of the eastern Himalayas? Bordering Sikkim and not far from Bhutan, this is quintessential ‘C-grade’ territory:up-country and, in film distribution terms, remote. In the popular imagination, the name Kalimpong itself has an exotic ring, a place where enchanted mountains—and even Aladdin’s cave itself— might lie. Magicians did indeed live here in the 1910s and 1920s, if we can believe Alexandra David-Neel, the explorer whose orientalist travellers’ tales fuelled a feverish Western imagination longing for marvels. Moreover, Kalimpong had long been a place where Indian, Chinese, Tibetan, Nepali and European cultures crossed. Situated just off the old Silk Road to China, this trading centre was an early transcultural–even liminal–space. And we may remember that many versions of Aladdin, including Galland’s original story, were set in China, not Baghdad– an exotic Orient deferred ever eastwards. What might 1950s audiences holed up in the dark spaces of the Novelty Cinema, Kalimpong–with its miniscule Islamic presence – have made of Aladdin and its various ‘novelties’, including its ‘novelty dance’? What sense could these audiences have made of this multiply exotic tale, filmed in Bombay, set in ‘Baghdad’, and referencing global popular culture, taking its inspiration from some of the world’s oldest stories via the detour of, inter alia, Indian theatre, Persian folktale, Arabic poetry, French literary salons, Hollywood films and English children’s books? 
+Quoted from http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-26</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/117920</ext:value>
+				<ext:value>117920</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:58">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

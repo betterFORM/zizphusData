@@ -1,19 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_78bcfba9-4512-555c-b10f-30b2f608f1bf" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1936</earliestDate>
-				<latestDate>1936</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A young woman sits behind a table and writes a supply-order to Anand Singh &amp; Co. on a writing pad. Her black hair is tied back, she wears a pink silk dress and holds spectacles in her hand. She wears some jewellery: some bracelets, a pearl necklace earrings and a ring on her right hand. The image is part of an advertisement calendar. It is surrounded by different emblems that represent various recommendations and awards won by the company.</description>
+			<description lang="en" script="Latn">
+				<text>A young woman sits behind a table and writes a supply-order to Anand Singh &amp; Co. on a writing pad. Her black hair is tied back, she wears a pink silk dress and holds spectacles in her hand. She wears some jewellery: some bracelets, a pearl necklace earrings and a ring on her right hand. The image is part of an advertisement calendar. It is surrounded by different emblems that represent various recommendations and awards won by the company.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -61,10 +61,13 @@ Calendar for 1936.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/121077" type="corporate">HeidICON Image Database</name>
+				<refid>121077</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -81,84 +84,95 @@ Calendar for 1936.</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term>musical instrument</term>
+				<term type="concept">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e7eade51-a62c-536d-ad72-5805e2e49f58">
-				<term>harmonium</term>
+				<term type="concept">harmonium</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Calendar advertisement of Anand Singh &amp; Co., showing an Indian woman on a writing desk</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar advertisement of Anand Singh &amp; Co., showing an Indian woman on a writing desk</title>
 		</titleSet>
 		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
-			<worktype>posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-A young woman sits behind a table and writes a supply-order to Anand Singh &amp; Co. on a writing pad. Her black hair is tied back, she wears a pink silk dress and holds spectacles in her hand. She wears some jewellery: some bracelets, a pearl necklace earrings and a ring on her right hand. The image is part of an advertisement calendar. It is surrounded by different emblems that represent various recommendations and awards won by the company.</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+A young woman sits behind a table and writes a supply-order to Anand Singh &amp; Co. on a writing pad. Her black hair is tied back, she wears a pink silk dress and holds spectacles in her hand. She wears some jewellery: some bracelets, a pearl necklace earrings and a ring on her right hand. The image is part of an advertisement calendar. It is surrounded by different emblems that represent various recommendations and awards won by the company.</ext:value>
+				<ext:value>text-en:
 With best Compliments from:
 Anand Singh &amp; [...]
 (Gold Medalists.)
 Manufacturers of all kinds of:
 High Class Harmoniums.
-Egerton Road, DELHI.</hra:value>
-				<hra:value>text-en:
-Anand Singh &amp; Co: Delhi. Please Supply:</hra:value>
-				<hra:value>text-en:
+Egerton Road, DELHI.</ext:value>
+				<ext:value>text-en:
+Anand Singh &amp; Co: Delhi. Please Supply:</ext:value>
+				<ext:value>text-en:
 Awarded to M-S. Anand Singh
-&amp; Co. Delhi By Raja of Jaunpur 1927</hra:value>
-				<hra:value>text-en:
+&amp; Co. Delhi By Raja of Jaunpur 1927</ext:value>
+				<ext:value>text-en:
 Exhibition Meerut 1925
-Anand Singh of Delhi</hra:value>
-				<hra:value>text-en:
+Anand Singh of Delhi</ext:value>
+				<ext:value>text-en:
 Muttra
 EXBN. 1925
-Awarded to Anand Singh &amp; Co. Delhi</hra:value>
-				<hra:value>text-en:
+Awarded to Anand Singh &amp; Co. Delhi</ext:value>
+				<ext:value>text-en:
 M-S. Anand Singh &amp; Co. Delhi
 By Seth Sat Narain
 of Delhi
-1927</hra:value>
-				<hra:value>text-en:
+1927</ext:value>
+				<ext:value>text-en:
 Aligarh Horse Show And [...]
-1917</hra:value>
-				<hra:value>text-en:
-See our quality before you buy from elsewhere.</hra:value>
-				<hra:value>text-en:
+1917</ext:value>
+				<ext:value>text-en:
+See our quality before you buy from elsewhere.</ext:value>
+				<ext:value>text-en:
 Anand Flute Best in the Market.
-Calendar for 1936.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/20080709_2014.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/121077</hra:value>
-				<hra:value>121077</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:34:04">
-			</hra:administrative>
-		</hra:heidicon>
+Calendar for 1936.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/20080709_2014.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/20080709_2014.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/121077</ext:value>
+				<ext:value>121077</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:07">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

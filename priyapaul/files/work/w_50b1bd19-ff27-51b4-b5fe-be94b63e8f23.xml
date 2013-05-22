@@ -1,34 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_50b1bd19-ff27-51b4-b5fe-be94b63e8f23" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-945c7761-87ee-5fe4-b29d-cbf6e9ba82e0">Nav Ratan</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-602e5cc7-7590-587e-9699-3a472e503a9b">Akbar</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-201c4478-f0e6-5054-aa0d-9eaa827e1bc4">Currimbhoy Ebrahim &amp; Sons Ltd., Bombay</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1927</earliestDate>
-				<latestDate>1927</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this calender from 1927/1928 one can see a dignitary sitting with nine men. The term Nav Ratan implicated that it might be a moghul emperor sitting with nine of his most reliable counsellors for a serious talk.</description>
+			<description lang="en" script="Latn">
+				<text>On this calender from 1927/1928 one can see a dignitary sitting with nine men. The term Nav Ratan implicated that it might be a moghul emperor sitting with nine of his most reliable counsellors for a serious talk.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -48,10 +48,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120587" type="corporate">HeidICON Image Database</name>
+				<refid>120587</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -64,7 +67,8 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0a191c46-01d3-514d-a312-9a13be90bf51" refid="120587" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0a191c46-01d3-514d-a312-9a13be90bf51" refid="120587" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_71b30763-bf5b-5f46-b5aa-032d5e8b6c30" refid="117978" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -72,86 +76,131 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ee7ac7d6-2a41-5d77-85e0-0e8934621f46">
-				<term>emperor</term>
+				<term type="concept">emperors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c1352e24-74bb-5cb1-94ef-f3b98db80084">
-				<term>Mughal Emperors</term>
+				<term type="concept">Mughal Emperors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="713bce21-8cae-59d4-a146-7a33333f9a8b">
-				<term>Mughal</term>
+				<term type="concept">Mughal</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Nav Ratan, Currimbhoy Ebrahim &amp; Sons Ltd., Bombay</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Nav Ratan, Currimbhoy Ebrahim &amp; Sons Ltd., Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Nav Ratan</hra:value>
-				<hra:value>text-en:
-Currimbhoy Ebrahim &amp; Sons, Limited.</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Nav Ratan</ext:value>
+				<ext:value>text-en:
+Currimbhoy Ebrahim &amp; Sons, Limited.</ext:value>
+				<ext:value>text-en:
 Near Muljijetha Market,
-220-30 Shaik Memon Street Bombay.</hra:value>
-				<hra:value>text-en:
-The Bolton F. a L. Works Tardeo Bombay</hra:value>
-				<hra:value>description-en:
-On this calender from 1927/1928 one can see a dignitary sitting with nine men. The term Nav Ratan implicated that it might be a moghul emperor sitting with nine of his most reliable counsellors for a serious talk.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Although there is no clear link to Akhbar, one tends to assume that the dignitary depicted on this calendar is most probably the moghul emperor Akhbar. The image on this calendar bears some resemblance to known portraits of Akbar. (Catherine B. Asher) (gs)</hra:value>
-				<hra:value>related literature:
+220-30 Shaik Memon Street Bombay.</ext:value>
+				<ext:value>text-en:
+The Bolton F. a L. Works Tardeo Bombay</ext:value>
+				<ext:value>description-en:
+On this calender from 1927/1928 one can see a dignitary sitting with nine men. The term Nav Ratan implicated that it might be a moghul emperor sitting with nine of his most reliable counsellors for a serious talk.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Although there is no clear link to Akhbar, one tends to assume that the dignitary depicted on this calendar is most probably the moghul emperor Akhbar. The image on this calendar bears some resemblance to known portraits of Akbar. (Catherine B. Asher) (gs)</ext:value>
+				<ext:value>related literature:
 Asher, Catherine B. 2010. Fantasizing the Mughals and
-Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (29.10.2010) (gs)</hra:value>
-				<hra:value>related literature:
-Hottinger, Arnold 1998. Akbar der Große. München: Fink (gs)</hra:value>
-				<hra:value>related literature:
-Wink, Andre 2009. Akbar. Oxford: Oneworld. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Wink, Andre 2009. Akbar. Oxford: Oneworld.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Asher, Catherine B. 2010. Fantasizing the Mughals and
-Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (29.10.2010)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Hottinger, Arnold 1998. Akbar der Große. München: Fink</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120587</hra:value>
-				<hra:value>120587</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:35:16">
-			</hra:administrative>
-		</hra:heidicon>
+Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (29.10.2010) (gs)</ext:value>
+				<ext:value>related literature:
+Hottinger, Arnold 1998. Akbar der Große. München: Fink (gs)</ext:value>
+				<ext:value>related literature:
+Wink, Andre 2009. Akbar. Oxford: Oneworld. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Wink, Andre 2009. Akbar. Oxford: Oneworld.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and
+Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (29.10.2010)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Hottinger, Arnold 1998. Akbar der Große. München: Fink</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Although there is no clear link to Akhbar, one tends to assume that the dignitary depicted on this calendar is most probably the moghul emperor Akhbar. The image on this calendar bears some resemblance to known portraits of Akbar.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Catherine B. Asher</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/117978</ext:value>
+				<ext:value>i_71b30763-bf5b-5f46-b5aa-032d5e8b6c30</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120587</ext:value>
+				<ext:value>120587</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:17">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

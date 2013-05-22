@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_b615d60f-7396-5994-b540-e7fd9d1a5cfd" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-41f6a817-56dc-5762-a600-2351145d7aaf">M. Vadilal &amp; Co</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Cover of a booklet with label samples, “Series no. 4, Sample Collection of Big Size Labels featuring Artistic and Attractive Poses, Printed in beautiful Colours for Cloths” by M. Vadilal &amp; Co, Bombay and Ahmedabad.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Cover of a booklet with label samples, “Series no. 4, Sample Collection of Big Size Labels featuring Artistic and Attractive Poses, Printed in beautiful Colours for Cloths” by M. Vadilal &amp; Co, Bombay and Ahmedabad.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -51,10 +57,13 @@ Bombay.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108260" type="corporate">HeidICON Image Database</name>
+				<refid>108260</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -68,6 +77,26 @@ Bombay.</text>
 		</measurementsSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_6cabeed4-ae59-5a64-bf52-b7b9f509fca0" refid="108260" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_99152f32-0a1d-5f34-9339-e9860f58460b" refid="109826" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_d0d094f6-c3a7-5fb5-907e-c4fa3d3910a9" refid="109827" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_1d156de7-3856-5914-844d-2c5f6739653f" refid="109815" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_4def46a2-9618-5ad7-b9d3-3e4b297e68cb" refid="109822" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_bc63e526-08ee-5fd8-ad20-37efce50a83c" refid="109813" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_64e4dd98-0c86-5d1b-bffc-8db743c24c8c" refid="109816" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_04decb83-358f-51b7-8503-6c7bbc74e055" refid="109814" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_d86b61c9-4f98-5a16-8608-564bb90cbe75" refid="109824" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_f174ad5e-170d-55db-bc4f-e435e678e66d" refid="109812" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_06a8bc14-153f-5123-9f19-3d65394c81c6" refid="109819" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_6c47dfad-5384-58bc-b2f0-eb50e757ec83" refid="109818" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_4a67d7d6-87e0-5bfa-81dd-5e05e1124bf6" refid="109810" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_d0258e26-a02c-5434-833a-b33ae520156d" refid="109828" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_d70f4a0d-445a-5076-8d8d-e21b3694577b" refid="109823" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_bbd6ae37-5179-5a3e-99fb-3eb1b565e108" refid="109811" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_d3558ae6-7d08-52f6-bac5-78b0597855f1" refid="109825" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_a535f1bc-3fc6-508d-9892-c54e5132cffe" refid="109809" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_926db627-7a73-5943-a536-1ab077b79faa" refid="109820" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_3db6fe33-c1b1-56d9-8b0f-4ceef6d036d0" refid="109821" source="EXC Priya Paul Collection">page</relation>
+			<relation type="imageIs" relids="i_4b6a8302-8e8a-5a1a-b12e-fdee7b908df7" refid="109817" source="EXC Priya Paul Collection">page</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -75,100 +104,246 @@ Bombay.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1920 - 1930</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e933c153-7db3-57ff-bd00-befa3bc0c5f3">
-				<term>book cover</term>
+			<subject source="EXC" vocab="LOCAL" refid="7c11a519-3ab8-5047-ab64-78587d6cbd98">
+				<term type="concept">covers (gathered matter components)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">M.Vadilal &amp; Co.of Bombay's Sample Collection</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">M.Vadilal &amp; Co.of Bombay's Sample Collection</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="64364627-3794-5b69-a9c0-d83cbf5d8734">title pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Tele.-Add: Printing
-Telephone No. 2392</hra:value>
-				<hra:value>text-en:
+Telephone No. 2392</ext:value>
+				<ext:value>text-en:
 Series No. 4
-Your Patronage Please</hra:value>
-				<hra:value>text-en:
+Your Patronage Please</ext:value>
+				<ext:value>text-en:
 Sample Collection
 of
 Big Size Labels
 Featuring
 Artistic &amp; Attractive Poses
-Printed in beautiful Colours for Cloths.</hra:value>
-				<hra:value>text-en:
+Printed in beautiful Colours for Cloths.</ext:value>
+				<ext:value>text-en:
 If interested please ask for Quotation
-denoting Quantity</hra:value>
-				<hra:value>text-en:
+denoting Quantity</ext:value>
+				<ext:value>text-en:
 To,
 M. Vadilal &amp; Co.
 Kalupur, Tankshal,
-Ahmedabad.</hra:value>
-				<hra:value>text-en:
+Ahmedabad.</ext:value>
+				<ext:value>text-en:
 Office &amp; Show Room,
 136 Govind Building.
 Princess Street,
-Bombay.</hra:value>
-				<hra:value>description-en:
-Cover of a booklet with label samples, “Series no. 4, Sample Collection of Big Size Labels featuring Artistic and Attractive Poses, Printed in beautiful Colours for Cloths” by M. Vadilal &amp; Co, Bombay and Ahmedabad. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Artists resided throughout the subcontinent and were identified and retained by the printers to create these images (with more and less intervention by the publishers, depending on the clout they exercised).  The images were gathered up by the printing companies and then produced (sometimes in India, sometimes in Europe), after which they were dispersed back out through regional networks.  Selection of which images to distribute took place at several steps along these marketing routes, but local purveyors most often offered a quite wide range of choices, so that all local market demands could be met. There was virtually no specialization (such as by caste or religion, or by theme, style, etc.) that would mark out artist, printer, or purveyor as everyone tried to meet diverse market needs. (Sandria B. Freitag) (gs)</hra:value>
-				<hra:value>related literature:
-Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (22.1.2011)(gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (22.1.2011)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108260</hra:value>
-				<hra:value>108260</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:44:39">
-			</hra:administrative>
-		</hra:heidicon>
+Bombay.</ext:value>
+				<ext:value>description-en:
+Cover of a booklet with label samples, “Series no. 4, Sample Collection of Big Size Labels featuring Artistic and Attractive Poses, Printed in beautiful Colours for Cloths” by M. Vadilal &amp; Co, Bombay and Ahmedabad. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Artists resided throughout the subcontinent and were identified and retained by the printers to create these images (with more and less intervention by the publishers, depending on the clout they exercised).  The images were gathered up by the printing companies and then produced (sometimes in India, sometimes in Europe), after which they were dispersed back out through regional networks.  Selection of which images to distribute took place at several steps along these marketing routes, but local purveyors most often offered a quite wide range of choices, so that all local market demands could be met. There was virtually no specialization (such as by caste or religion, or by theme, style, etc.) that would mark out artist, printer, or purveyor as everyone tried to meet diverse market needs. (Sandria B. Freitag) (gs)</ext:value>
+				<ext:value>related literature:
+Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (22.1.2011)(gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (22.1.2011)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Artists resided throughout the subcontinent and were identified and retained by the printers to create these images (with more and less intervention by the publishers, depending on the clout they exercised).  The images were gathered up by the printing companies and then produced (sometimes in India, sometimes in Europe), after which they were dispersed back out through regional networks.  Selection of which images to distribute took place at several steps along these marketing routes, but local purveyors most often offered a quite wide range of choices, so that all local market demands could be met. There was virtually no specialization (such as by caste or religion, or by theme, style, etc.) that would mark out artist, printer, or purveyor as everyone tried to meet diverse market needs.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sandria B. Freitag</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109826</ext:value>
+				<ext:value>i_99152f32-0a1d-5f34-9339-e9860f58460b</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109827</ext:value>
+				<ext:value>i_d0d094f6-c3a7-5fb5-907e-c4fa3d3910a9</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109815</ext:value>
+				<ext:value>i_1d156de7-3856-5914-844d-2c5f6739653f</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109822</ext:value>
+				<ext:value>i_4def46a2-9618-5ad7-b9d3-3e4b297e68cb</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109813</ext:value>
+				<ext:value>i_bc63e526-08ee-5fd8-ad20-37efce50a83c</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109816</ext:value>
+				<ext:value>i_64e4dd98-0c86-5d1b-bffc-8db743c24c8c</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109814</ext:value>
+				<ext:value>i_04decb83-358f-51b7-8503-6c7bbc74e055</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109824</ext:value>
+				<ext:value>i_d86b61c9-4f98-5a16-8608-564bb90cbe75</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109812</ext:value>
+				<ext:value>i_f174ad5e-170d-55db-bc4f-e435e678e66d</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109819</ext:value>
+				<ext:value>i_06a8bc14-153f-5123-9f19-3d65394c81c6</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109818</ext:value>
+				<ext:value>i_6c47dfad-5384-58bc-b2f0-eb50e757ec83</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109810</ext:value>
+				<ext:value>i_4a67d7d6-87e0-5bfa-81dd-5e05e1124bf6</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109828</ext:value>
+				<ext:value>i_d0258e26-a02c-5434-833a-b33ae520156d</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109823</ext:value>
+				<ext:value>i_d70f4a0d-445a-5076-8d8d-e21b3694577b</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109811</ext:value>
+				<ext:value>i_bbd6ae37-5179-5a3e-99fb-3eb1b565e108</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109825</ext:value>
+				<ext:value>i_d3558ae6-7d08-52f6-bac5-78b0597855f1</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109809</ext:value>
+				<ext:value>i_a535f1bc-3fc6-508d-9892-c54e5132cffe</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109820</ext:value>
+				<ext:value>i_926db627-7a73-5943-a536-1ab077b79faa</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109821</ext:value>
+				<ext:value>i_3db6fe33-c1b1-56d9-8b0f-4ceef6d036d0</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109817</ext:value>
+				<ext:value>i_4b6a8302-8e8a-5a1a-b12e-fdee7b908df7</ext:value>
+				<ext:value>page</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108260</ext:value>
+				<ext:value>108260</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:09">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

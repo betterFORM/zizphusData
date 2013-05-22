@@ -1,23 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_5e4a197b-8dae-5da1-84b1-ccf2c7d20069" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-4e80c54f-d35c-5b5c-903b-58f3ebbaabbe">Banshi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">An image of a &quot;Jewellery Shop&quot; from a sample calendar poster from the Empire Calender Manufacturing Co., Calcutta depicting a jewellery shop. Two women are looking at silver ware in a glass showcase while a husband and wife with their child standing next to them are buying something. Another couple are walking away from the shop. An armed guard can be seen to the right of the image standing next to another glass showcase for silver dishware. There are four men behind the counter of the shop- two in front of the couple with the child, one to the right and one to the left.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>An image of a &quot;Jewellery Shop&quot; from a sample calendar poster from the Empire Calender Manufacturing Co., Calcutta depicting a jewellery shop. Two women are looking at silver ware in a glass showcase while a husband and wife with their child standing next to them are buying something. Another couple are walking away from the shop. An armed guard can be seen to the right of the image standing next to another glass showcase for silver dishware. There are four men behind the counter of the shop- two in front of the couple with the child, one to the right and one to the left.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -37,10 +43,13 @@ No. 480</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118787" type="corporate">HeidICON Image Database</name>
+				<refid>118787</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -66,95 +75,107 @@ No. 480</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term>child</term>
+				<term type="concept">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term>uniform</term>
+				<term type="concept">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b82eba21-ae64-5fb5-bfd0-603be910517e">
-				<term>interior</term>
+				<term type="concept">interior spaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3e48a957-0ac1-5322-9703-d135aebf8a78">
-				<term>silver</term>
+				<term type="concept">silverware</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c8524c21-24c0-516f-9e41-7c5cb9363fc9">
-				<term>shopping</term>
+				<term type="concept">shopping</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term>signet</term>
+				<term type="concept">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e8967c0b-382e-5fb3-96a0-ef93706f8e9c">
-				<term>rifle</term>
+				<term type="concept">rifle (long guns)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a3f0d5f5-4b2a-5be6-b66b-359f720bc3fd">
-				<term>guard</term>
+				<term type="concept">security guards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Jewellery Shop&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jewellery Shop&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Banshi</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Banshi</hra:value>
-				<hra:value>text-en:
-HAP [publisher's signet]</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Banshi</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Banshi</ext:value>
+				<ext:value>text-en:
+HAP [publisher's signet]</ext:value>
+				<ext:value>text-en:
 Jewellery Shop
-No. 480</hra:value>
-				<hra:value>description-en:
-An image of a &quot;Jewellery Shop&quot; from a sample calendar poster from the Empire Calender Manufacturing Co., Calcutta depicting a jewellery shop. Two women are looking at silver ware in a glass showcase while a husband and wife with their child standing next to them are buying something. Another couple are walking away from the shop. An armed guard can be seen to the right of the image standing next to another glass showcase for silver dishware. There are four men behind the counter of the shop- two in front of the couple with the child, one to the right and one to the left. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-This is the microcosm of an efficient small business undertaking in a burgeoning urban setting, with a sophisticated and well-educated affluent middle class. The image reminds me of 'an ideal boy' posters, educational charts of 'good civil society', or a diorama in a museum. The space is structured orderly and all is related to 'tamed' consumption and efficiency. There is an accountant wearing a tie and glasses in a back room (top left), on his desk is a bell (to call the peon) and a black phone. Two pink curtains reveal a drawer. Between two turning wall fans and a round glass lamp hang two framed landscape paintings, signs of 'class'. A servant clad in white dhoti and shirt walks towards the front room (top right). The shop is 'modern' in that it has a carpet, display glass cabinets, with assorted goods: gold jewellery features centrally, to the left and the right are silver items for decoration. Two girlfriends gaze at the silver, one wearing glasses and a small handbag, the other resting her left hand on her friend's right shoulder. One couple, looking 'Sindhi'-Punjabi are about to leave the shop. They could also be leaving a temple. The girl child wears a 'doll-like' western dress in pink and blue.() (cb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118787</hra:value>
-				<hra:value>118787</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:02">
-			</hra:administrative>
-		</hra:heidicon>
+No. 480</ext:value>
+				<ext:value>description-en:
+An image of a &quot;Jewellery Shop&quot; from a sample calendar poster from the Empire Calender Manufacturing Co., Calcutta depicting a jewellery shop. Two women are looking at silver ware in a glass showcase while a husband and wife with their child standing next to them are buying something. Another couple are walking away from the shop. An armed guard can be seen to the right of the image standing next to another glass showcase for silver dishware. There are four men behind the counter of the shop- two in front of the couple with the child, one to the right and one to the left. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+This is the microcosm of an efficient small business undertaking in a burgeoning urban setting, with a sophisticated and well-educated affluent middle class. The image reminds me of 'an ideal boy' posters, educational charts of 'good civil society', or a diorama in a museum. The space is structured orderly and all is related to 'tamed' consumption and efficiency. There is an accountant wearing a tie and glasses in a back room (top left), on his desk is a bell (to call the peon) and a black phone. Two pink curtains reveal a drawer. Between two turning wall fans and a round glass lamp hang two framed landscape paintings, signs of 'class'. A servant clad in white dhoti and shirt walks towards the front room (top right). The shop is 'modern' in that it has a carpet, display glass cabinets, with assorted goods: gold jewellery features centrally, to the left and the right are silver items for decoration. Two girlfriends gaze at the silver, one wearing glasses and a small handbag, the other resting her left hand on her friend's right shoulder. One couple, looking 'Sindhi'-Punjabi are about to leave the shop. They could also be leaving a temple. The girl child wears a 'doll-like' western dress in pink and blue.() (cb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This is the microcosm of an efficient small business undertaking in a burgeoning urban setting, with a sophisticated and well-educated affluent middle class. The image reminds me of 'an ideal boy' posters, educational charts of 'good civil society', or a diorama in a museum. The space is structured orderly and all is related to 'tamed' consumption and efficiency. There is an accountant wearing a tie and glasses in a back room (top left), on his desk is a bell (to call the peon) and a black phone. Two pink curtains reveal a drawer. Between two turning wall fans and a round glass lamp hang two framed landscape paintings, signs of 'class'. A servant clad in white dhoti and shirt walks towards the front room (top right). The shop is 'modern' in that it has a carpet, display glass cabinets, with assorted goods: gold jewellery features centrally, to the left and the right are silver items for decoration. Two girlfriends gaze at the silver, one wearing glasses and a small handbag, the other resting her left hand on her friend's right shoulder. One couple, looking 'Sindhi'-Punjabi are about to leave the shop. They could also be leaving a temple. The girl child wears a 'doll-like' western dress in pink and blue.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118787</ext:value>
+				<ext:value>118787</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:17">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

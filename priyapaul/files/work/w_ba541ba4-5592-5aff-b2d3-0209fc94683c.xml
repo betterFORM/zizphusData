@@ -1,12 +1,12 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_ba541ba4-5592-5aff-b2d3-0209fc94683c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<inscriptionSet>
+		<inscriptionSet>
 			<inscription>
 				<text type="other">To, Miyan Rafiuddin sallamahu, Eid Mubarak! Bad dua ke malum ho ki tumhara khat aaya, haal ma'lum hua. Khuda tumko imtihan me kamyabi ata kare. Sab ko salam, hamshira ko dua. Faqat, Rafiquddin, Lahore.</text>
 			</inscription>
@@ -14,10 +14,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108124" type="corporate">HeidICON Image Database</name>
+				<refid>108124</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -30,7 +33,8 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_913dd79c-a723-5111-b29a-0abcae15d7f7" refid="108124" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_913dd79c-a723-5111-b29a-0abcae15d7f7" refid="108124" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_a8ec4c30-3fad-5b31-a1d1-0c23488e17d7" refid="108125" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -40,48 +44,66 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="7cedec7f-30ff-5240-8107-7829ee512735">
-				<term>eid card</term>
+				<term type="concept">eid card</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Eid Mubarak&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Eid Mubarak&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">greeting cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>A river flows while there are trees on the banks and moon in the sky, on an Eid card which reads : As salamo alaikum, Eid Mubarak!</hra:value>
-				<hra:value>text-transcription-ur:
-To, Miyan Rafiuddin sallamahu, Eid Mubarak! Bad dua ke malum ho ki tumhara khat aaya, haal ma'lum hua. Khuda tumko imtihan me kamyabi ata kare. Sab ko salam, hamshira ko dua. Faqat, Rafiquddin, Lahore.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/262a.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Torn</hra:value>
-			</hra:item>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>yellowish due to ageing</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108124</hra:value>
-				<hra:value>108124</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:39:32">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>A river flows while there are trees on the banks and moon in the sky, on an Eid card which reads : As salamo alaikum, Eid Mubarak!</ext:value>
+				<ext:value>text-transcription-ur:
+To, Miyan Rafiuddin sallamahu, Eid Mubarak! Bad dua ke malum ho ki tumhara khat aaya, haal ma'lum hua. Khuda tumko imtihan me kamyabi ata kare. Sab ko salam, hamshira ko dua. Faqat, Rafiquddin, Lahore.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/262a.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/262a.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Torn</ext:value>
+			</ext:item>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>yellowish due to ageing</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108125</ext:value>
+				<ext:value>i_a8ec4c30-3fad-5b31-a1d1-0c23488e17d7</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108124</ext:value>
+				<ext:value>108124</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:12">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

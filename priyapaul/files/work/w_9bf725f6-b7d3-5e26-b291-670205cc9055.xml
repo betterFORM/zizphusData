@@ -1,19 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_9bf725f6-b7d3-5e26-b291-670205cc9055" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>30.03.1918</earliestDate>
-				<latestDate>30.03.1918</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this postcard we can see a château-like building on a slight elevation with a street in front of it and some trees on its left side.</description>
+			<description lang="en" script="Latn">
+				<text>On this postcard we can see a château-like building on a slight elevation with a street in front of it and some trees on its left side.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -24,13 +24,13 @@ Darjeeling.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
-			</location>
-			<location type="site">
-				<name type="geographic" vocab="" refid="">Darjeeling</name>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109771" type="corporate">HeidICON Image Database</name>
+				<refid>109771</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -43,7 +43,8 @@ Darjeeling.</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_82790fec-bd71-5926-8918-b192018dafb5" refid="109771" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_82790fec-bd71-5926-8918-b192018dafb5" refid="109771" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_ff956172-6271-58ca-8745-ba5186619e59" refid="108182" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -51,99 +52,181 @@ Darjeeling.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/102/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>Colonial India</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="cb59e621-4ffd-5a47-b16b-43c5a75b7c29">
-				<term>Himalayas</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="d56e72b9-8164-56d7-bbdd-886af929efe0">
-				<term>Darjeeling</term>
+				<term type="geographic">Himalayas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term>architecture</term>
+				<term type="concept">architecture (object genre)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="d56e72b9-8164-56d7-bbdd-886af929efe0">
+				<term type="geographic">Darjeeling</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7e92472b-3caa-5f8a-a989-2e8e2b980481">
-				<term>colonialism</term>
+				<term type="concept">colonialism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
-				<term>hill stations</term>
+				<term type="concept">hill stations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2f6e5ba-1a71-5490-84d7-b965d7970d5a">
-				<term>Colonial architecture</term>
+				<term type="concept">Colonial architecture</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Hotel Mount Everest, Darjeeling</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Hotel Mount Everest, Darjeeling</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Hotel Mount Everest.
-Darjeeling.</hra:value>
-				<hra:value>description-en:
-On this postcard we can see a château-like building on a slight elevation with a street in front of it and some trees on its left side. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The hill stations were where European men could find suitable wives, and children could be nurtured in surroundings that would assure their &quot;Europeaness.&quot; The &quot;season&quot; was heavily scheduled with both official and unofficial balls, picnics, fetes, children's parties, etc. The &quot;season&quot; would last anything from four to six months, and the colonial community would take up residence in the hills either in rented houses or hotels. It is no surprise, therefore, that many of the postcards in the Priya Paul collection are of hill station hotels, for example the Everest Hotel featured on this postcard with its &quot;Himalayan Swiss Gothic&quot; facade. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Darjeeling's easy accessibility made it one of the most attractive hill stations in the region for residents of the Bengal Presidency. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>related literature:
-Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714. (gs)</hra:value>
-				<hra:value>related literature:
-Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230. (gs)</hra:value>
-				<hra:value>related literature:
-Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press. (gs)</hra:value>
-				<hra:value>related literature:
-Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</hra:value>
-				<hra:value>related literature:
-Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2011-01-07. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2011-01-07.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109771</hra:value>
-				<hra:value>109771</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:42:48">
-			</hra:administrative>
-		</hra:heidicon>
+Darjeeling.</ext:value>
+				<ext:value>description-en:
+On this postcard we can see a château-like building on a slight elevation with a street in front of it and some trees on its left side. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The hill stations were where European men could find suitable wives, and children could be nurtured in surroundings that would assure their &quot;Europeaness.&quot; The &quot;season&quot; was heavily scheduled with both official and unofficial balls, picnics, fetes, children's parties, etc. The &quot;season&quot; would last anything from four to six months, and the colonial community would take up residence in the hills either in rented houses or hotels. It is no surprise, therefore, that many of the postcards in the Priya Paul collection are of hill station hotels, for example the Everest Hotel featured on this postcard with its &quot;Himalayan Swiss Gothic&quot; facade. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Darjeeling's easy accessibility made it one of the most attractive hill stations in the region for residents of the Bengal Presidency. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>related literature:
+Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714. (gs)</ext:value>
+				<ext:value>related literature:
+Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230. (gs)</ext:value>
+				<ext:value>related literature:
+Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press. (gs)</ext:value>
+				<ext:value>related literature:
+Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</ext:value>
+				<ext:value>related literature:
+Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2011-01-07. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2011-01-07.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The hill stations were where European men could find suitable wives, and children could be nurtured in surroundings that would assure their &quot;Europeaness.&quot; The &quot;season&quot; was heavily scheduled with both official and unofficial balls, picnics, fetes, children's parties, etc. The &quot;season&quot; would last anything from four to six months, and the colonial community would take up residence in the hills either in rented houses or hotels. It is no surprise, therefore, that many of the postcards in the Priya Paul collection are of hill station hotels, for example the Everest Hotel featured on this postcard with its &quot;Himalayan Swiss Gothic&quot; facade.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Darjeeling's easy accessibility made it one of the most attractive hill stations in the region for residents of the Bengal Presidency.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108182</ext:value>
+				<ext:value>i_ff956172-6271-58ca-8745-ba5186619e59</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/102/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109771</ext:value>
+				<ext:value>109771</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:05">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_61d8b102-ecd2-5fa2-a6f2-9bfe0e0ce742" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A label of Hair Oil, Perfumery De Paris, Hathras showing a fair skinned lady sitting next to a pond with her body being nearly naked but only covered with the fragrance of the parfume shown as some kind of purple band. In the background, a stretch of water can be seen with some waterlilys, trees and other plants.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A label of Hair Oil, Perfumery De Paris, Hathras showing a fair skinned lady sitting next to a pond with her body being nearly naked but only covered with the fragrance of the parfume shown as some kind of purple band. In the background, a stretch of water can be seen with some waterlilys, trees and other plants.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -28,10 +34,13 @@ Limejuice</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117986" type="corporate">HeidICON Image Database</name>
+				<refid>117986</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -45,66 +54,67 @@ Limejuice</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="344a6b29-b2b4-5490-8024-2ab8751ed66d">
-				<term>cosmetic product</term>
+				<term type="concept">cosmetics</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
-				<term>fair skin</term>
+				<term type="concept">fair skin</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4dee7143-913a-546d-b30b-e1ab98f1a0b3">
-				<term>water lily</term>
+				<term type="concept">water lilies (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term>recheck-Matthias</term>
+				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5222dc9-949b-578e-a50b-bfc8c667e43f">
-				<term>nudity</term>
+				<term type="concept">nudity</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Perfumery De Paris Advertisement</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Perfumery De Paris Advertisement</title>
 			<title type="descriptive" pref="false" lang="" script="">शाहंशाहे नूर केमिकल  उद्योगशाला, हाथरस</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 HAIR
 OIL
-Limejuice</hra:value>
-				<hra:value>text-en:
-Perfumery de Paris</hra:value>
-				<hra:value>text-hi:
+Limejuice</ext:value>
+				<ext:value>text-en:
+Perfumery de Paris</ext:value>
+				<ext:value>text-hi:
 शाहंशाहे नूर
 केमिकल
 उद्योगशाला
-हाथरस</hra:value>
-				<hra:value>description-en:
-A label of Hair Oil, Perfumery De Paris, Hathras showing a fair skinned lady sitting next to a pond with her body being nearly naked but only covered with the fragrance of the parfume shown as some kind of purple band. In the background, a stretch of water can be seen with some waterlilys, trees and other plants. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/117986</hra:value>
-				<hra:value>117986</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:32:37">
-			</hra:administrative>
-		</hra:heidicon>
+हाथरस</ext:value>
+				<ext:value>description-en:
+A label of Hair Oil, Perfumery De Paris, Hathras showing a fair skinned lady sitting next to a pond with her body being nearly naked but only covered with the fragrance of the parfume shown as some kind of purple band. In the background, a stretch of water can be seen with some waterlilys, trees and other plants. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/117986</ext:value>
+				<ext:value>117986</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:37">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

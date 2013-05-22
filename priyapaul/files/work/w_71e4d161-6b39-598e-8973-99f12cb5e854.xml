@@ -1,34 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_71e4d161-6b39-598e-8973-99f12cb5e854" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-b45cfaac-23d6-52b5-8961-9e364fdb78ad">Sen, Asit</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-8585b05f-8b3e-5d39-8ac1-673991957427">Bhaduri, Jaya</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-65f19805-352f-5170-bf01-d8a80044476f">Chowdhury, Salil</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1972</earliestDate>
-				<latestDate>1972</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this lobby card for the 1972 released Hindi film &quot;Annadata&quot;, one of the main actresses, probably Jaya Bhaduri, is pictured sitting in front of a blue wall with a slightly desperate expression on her face. Left to this image a drawn portrait of a woman can be seen.</description>
+			<description lang="en" script="Latn">
+				<text>On this lobby card for the 1972 released Hindi film &quot;Annadata&quot;, one of the main actresses, probably Jaya Bhaduri, is pictured sitting in front of a blue wall with a slightly desperate expression on her face. Left to this image a drawn portrait of a woman can be seen.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -51,10 +51,13 @@ Pt. Anand Kumar</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120865" type="corporate">HeidICON Image Database</name>
+				<refid>120865</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -69,100 +72,129 @@ Pt. Anand Kumar</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0068215/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a223f3a2-522d-55d8-a535-07a216ae1fa7">
-				<term>drawings (visual works)</term>
+				<term type="worktype">drawings (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13bad129-1196-5dd3-952d-503079de43b6">
-				<term>blue</term>
+				<term type="concept">blue (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
-				<term>film</term>
+				<term type="concept">motion pictures (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c7bfb602-e389-51bd-8a12-0299c6173997">
-				<term>Annadata</term>
+				<term type="work (movie)">Annadata</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term>recheck-Matthias</term>
+				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Annadata&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Annadata&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-LB Films</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+LB Films</ext:value>
+				<ext:value>text-en:
 L. B. Lachman presents
 Annadata
-Eastmancolor</hra:value>
-				<hra:value>text-en:
+Eastmancolor</ext:value>
+				<ext:value>text-en:
 Directed by
 Asit Sen
 Music
 Salil Chowdhury
 Written by
-Pt. Anand Kumar</hra:value>
-				<hra:value>description-en:
-On this lobby card for the 1972 released Hindi film &quot;Annadata&quot;, one of the main actresses, probably Jaya Bhaduri, is pictured sitting in front of a blue wall with a slightly desperate expression on her face. Left to this image a drawn portrait of a woman can be seen.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Story line of the movie: After the passing away of her father, a local physician, Aarti takes it upon herself to dispense medicine, as well as sew clothes, and looks after a child named Kundan who has lost his legs to paralysis. She has a admirer in Arun, who secretly loves her, would like to marry her, but knows that he is poor and will be unable to afford a family, as he is a mere painter. Then an elderly man enters Aarti's life, he is ill, she offers to look after him until he gets better and leaves, but he does not leave, as he has nowhere to go, and she allows him to stay. Then good luck smiles on them as Arun sells one of his paintings, and he is able to get artificial legs for the child. What Arun and Aarti do not know is that the elderly male is really a very wealthy man named Ambarprasad, who had run away from his home when he was accused of having sex with his protégé, a young woman, who he had brought up. The question is what is Ambarprasad up to now? (gs)</hra:value>
-				<hra:value>related hyperlink:
-http://www.imdb.com/title/tt0068215/, last accessed 2011-11-30, story line, leading actors. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0068215/</hra:value>
-				<hra:value>2011-11-30</hra:value>
-				<hra:value>story line, leading actors.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120865</hra:value>
-				<hra:value>120865</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:41">
-			</hra:administrative>
-		</hra:heidicon>
+Pt. Anand Kumar</ext:value>
+				<ext:value>description-en:
+On this lobby card for the 1972 released Hindi film &quot;Annadata&quot;, one of the main actresses, probably Jaya Bhaduri, is pictured sitting in front of a blue wall with a slightly desperate expression on her face. Left to this image a drawn portrait of a woman can be seen.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Story line of the movie: After the passing away of her father, a local physician, Aarti takes it upon herself to dispense medicine, as well as sew clothes, and looks after a child named Kundan who has lost his legs to paralysis. She has a admirer in Arun, who secretly loves her, would like to marry her, but knows that he is poor and will be unable to afford a family, as he is a mere painter. Then an elderly man enters Aarti's life, he is ill, she offers to look after him until he gets better and leaves, but he does not leave, as he has nowhere to go, and she allows him to stay. Then good luck smiles on them as Arun sells one of his paintings, and he is able to get artificial legs for the child. What Arun and Aarti do not know is that the elderly male is really a very wealthy man named Ambarprasad, who had run away from his home when he was accused of having sex with his protégé, a young woman, who he had brought up. The question is what is Ambarprasad up to now? (gs)</ext:value>
+				<ext:value>related hyperlink:
+http://www.imdb.com/title/tt0068215/, last accessed 2011-11-30, story line, leading actors. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0068215/</ext:value>
+				<ext:value type="accessed">2011-11-30</ext:value>
+				<ext:value type="comment">story line, leading actors.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Story line of the movie: After the passing away of her father, a local physician, Aarti takes it upon herself to dispense medicine, as well as sew clothes, and looks after a child named Kundan who has lost his legs to paralysis. She has a admirer in Arun, who secretly loves her, would like to marry her, but knows that he is poor and will be unable to afford a family, as he is a mere painter. Then an elderly man enters Aarti's life, he is ill, she offers to look after him until he gets better and leaves, but he does not leave, as he has nowhere to go, and she allows him to stay. Then good luck smiles on them as Arun sells one of his paintings, and he is able to get artificial legs for the child. What Arun and Aarti do not know is that the elderly male is really a very wealthy man named Ambarprasad, who had run away from his home when he was accused of having sex with his protégé, a young woman, who he had brought up. The question is what is Ambarprasad up to now?</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0068215/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120865</ext:value>
+				<ext:value>120865</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:29">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

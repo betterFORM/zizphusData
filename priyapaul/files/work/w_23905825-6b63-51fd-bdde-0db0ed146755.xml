@@ -1,13 +1,23 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_23905825-6b63-51fd-bdde-0db0ed146755" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Three college girls dressed in salwar kameez in a 'fancy maal' (fancy items) shop looking at bangles held up by the shopkeeper dressed in a white shirt and green tie and smiling at them. Above him is a sign that says &quot;fancy maal vibhag' or 'special items section'. On the right hand side, another shopkeeper stands below a sign that says 'saada maal vibhag' meaning the ordinary items section. A man and woman sit on a sofa in the shop with their backs to the viewer. A door with the sign &quot;stock&quot; can be seen behind. Three fans hang from the ceiling.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Three college girls dressed in salwar kameez in a 'fancy maal' (fancy items) shop looking at bangles held up by the shopkeeper dressed in a white shirt and green tie and smiling at them. Above him is a sign that says &quot;fancy maal vibhag' or 'special items section'. On the right hand side, another shopkeeper stands below a sign that says 'saada maal vibhag' meaning the ordinary items section. A man and woman sit on a sofa in the shop with their backs to the viewer. A door with the sign &quot;stock&quot; can be seen behind. Three fans hang from the ceiling.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0">Brosius, Christiane</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -31,10 +41,13 @@ saada maal vibhaag</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120641" type="corporate">HeidICON Image Database</name>
+				<refid>120641</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -60,92 +73,104 @@ saada maal vibhaag</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8b41ef52-992d-532b-8e69-9ab992af8834">
-				<term>man</term>
+				<term type="concept">men (male humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ef8b896-8dbc-511d-a14c-97abc67bf367">
-				<term>table</term>
+				<term type="concept">tables (support furniture)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c8524c21-24c0-516f-9e41-7c5cb9363fc9">
-				<term>shopping</term>
+				<term type="concept">shopping</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
-				<term>Indian man</term>
+				<term type="concept">Indian men</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4472682f-4d3c-5a59-8a87-0561f30ae5f8">
-				<term>signboard</term>
+				<term type="concept">signboards</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="375ee379-c8f9-52aa-8683-a636067bbfa2">
-				<term>fans (equipment)</term>
+			<subject source="EXC" vocab="LOCAL" refid="7a297ace-da99-55bc-8e02-e48f4a923577">
+				<term type="concept">fans (equipment)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Calendar image showing a shop with costumers</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar image showing a shop with costumers</title>
 			<title type="descriptive" pref="false" lang="" script="">&quot;Fancy maal vibhag&quot;, &quot;Stock&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">फैंसी माल विभाग, स्टाक</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-hi:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-hi:
 [on the left section of the image]
-फैंसी माल विभाग</hra:value>
-				<hra:value>text-hi:
+फैंसी माल विभाग</ext:value>
+				<ext:value>text-hi:
 [in the center of the image]
-स्टाक</hra:value>
-				<hra:value>text-hi:
+स्टाक</ext:value>
+				<ext:value>text-hi:
 [on the right section of the image]
-सादा माल विभाग</hra:value>
-				<hra:value>text-transcription-hi:
+सादा माल विभाग</ext:value>
+				<ext:value>text-transcription-hi:
 Fancy maal vibhag
 stock
-saada maal vibhaag</hra:value>
-				<hra:value>description-en:
-Three college girls dressed in salwar kameez in a 'fancy maal' (fancy items) shop looking at bangles held up by the shopkeeper dressed in a white shirt and green tie and smiling at them. Above him is a sign that says &quot;fancy maal vibhag' or 'special items section'. On the right hand side, another shopkeeper stands below a sign that says 'saada maal vibhag' meaning the ordinary items section. A man and woman sit on a sofa in the shop with their backs to the viewer. A door with the sign &quot;stock&quot; can be seen behind. Three fans hang from the ceiling. (cb/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Calendar image. (ja)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120641</hra:value>
-				<hra:value>120641</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:38:15">
-			</hra:administrative>
-		</hra:heidicon>
+saada maal vibhaag</ext:value>
+				<ext:value>description-en:
+Three college girls dressed in salwar kameez in a 'fancy maal' (fancy items) shop looking at bangles held up by the shopkeeper dressed in a white shirt and green tie and smiling at them. Above him is a sign that says &quot;fancy maal vibhag' or 'special items section'. On the right hand side, another shopkeeper stands below a sign that says 'saada maal vibhag' meaning the ordinary items section. A man and woman sit on a sofa in the shop with their backs to the viewer. A door with the sign &quot;stock&quot; can be seen behind. Three fans hang from the ceiling. (cb/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Calendar image. (ja)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Calendar image.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Alisch, Johannes</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120641</ext:value>
+				<ext:value>120641</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:44">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

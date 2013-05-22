@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_e7b3382e-ec43-5793-9466-a252e6e203d5" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-86274780-c326-5ade-b14a-ee24181b898f">Abu-Er-Rub, Laila</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">An almost nude caucasian blond woman is standing in a fountain duringt the night. The moon shines. she is barely covered with a transparent cloth and hold her right hand up to touch the water of the fountain while gazing at the viewer. Next to her is a white swan. The background seems tropical, flowers blooming all over. Two smaller swans swim in the back. (la)</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>An almost nude caucasian blond woman is standing in a fountain duringt the night. The moon shines. she is barely covered with a transparent cloth and hold her right hand up to touch the water of the fountain while gazing at the viewer. Next to her is a white swan. The background seems tropical, flowers blooming all over. Two smaller swans swim in the back.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-af3618b2-0484-5e95-b722-cf114669106c">Abu-Er-Rub, Laila</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -22,10 +28,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109865" type="corporate">HeidICON Image Database</name>
+				<refid>109865</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -46,102 +55,146 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>ca. 1940s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
-				<term>moon</term>
+				<term type="concept">moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
-				<term>swan</term>
+				<term type="animal">swans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
-				<term>whiteness</term>
+				<term type="concept">whiteness</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term>Caucasian type</term>
+				<term type="concept">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="222c4b2f-7d73-554f-81e7-c4b89d9758b7">
-				<term>fountain</term>
+				<term type="concept">fountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf7de29c-dc86-5221-b1d0-f1ef5165575c">
-				<term>blonde hair</term>
+				<term type="concept">blonde hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="510eb761-83ea-598f-bbac-ab53d01b47e6">
-				<term>blonde</term>
+				<term type="concept">blonde</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="349e1a13-73e9-59dd-b1fd-aa267461c848">
-				<term>full moon</term>
+				<term type="concept">full moon</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Delhi Calender Mfg.Co.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Delhi Calender Mfg.Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-With compliments from the Delhi Calender Mfg.Co., High-Class Calendar and Advertising Novelty Manufacturers. (la)</hra:value>
-				<hra:value>description-en:
-An almost nude caucasian blond woman is standing in a fountain duringt the night. The moon shines. she is barely covered with a transparent cloth and hold her right hand up to touch the water of the fountain while gazing at the viewer. Next to her is a white swan. The background seems tropical, flowers blooming all over. Two smaller swans swim in the back. (la)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-This calendar seems to be a gift from a calendar manufacturing company based in Delhi. Interesting is the link between their self-claimed &quot;high-class&quot;-production and the image. At first being &quot;high-class&quot; is linked to a white or fair skin. Moreover, this image is overtly sexually loaded. Not only the scantily-clad woman on the image points to that fact. Water and also the swan, which stands for gracefulness and beauty have an erotic connotation. Back in 1940s the portrayal of an Indian woman in such a manner would have not been possible for that purpose. According to Jann Dark Indian mass media have constructed the Western woman as an immoral counterpart to the virtuous Indian woman. Projecting sexuality onto an alleged &quot;Other&quot; is a very common practice in many socities as e.g. Irvin Schick has proven for the European context. Sexuality, which is seen as being outside of the own culture does not threaten the own values. (la)</hra:value>
-				<hra:value>related literature: 
-Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</hra:value>
-				<hra:value>related literature:
-Jah, Sonora &amp; Mara Adelmann 2009. Looking for Love in All the White Places: A Study of Skin Color Preferences on Indian Matrimonial and Mate-Seeking Websites. In Studies in South Asian Film and Media Volume 1, Number 1, 2009,p. 65-83.</hra:value>
-				<hra:value>related literature:
-Schick, Irvin C. 1999. The Erotic Margin. Sexuality and Spatiality in Alteritist Discourse. London: Verso.</hra:value>
-				<hra:value>related literature:
-Dyer, Richard 1997. White. New York and London: Routledge.</hra:value>
-				<hra:value>related literature:
-Dark, Jann 2008. Crossing the Pale. Representations of White Western Women in Indian Film and Media. In Transforming Cultures eJournal, Vol. 3 No 1, February 2008, http://epress.lib.uts.edu.au/journals/TfC</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dyer, Richard 1997. White. New York and London: Routledge.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Schick, Irvin C. 1999. The Erotic Margin. Sexuality and Spatiality in Alteritist Discourse. London: Verso.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dark, Jann 2008. Crossing the Pale. Representations of White Western Women in Indian Film and Media. In Transforming Cultures eJournal, Vol. 3 No 1, February 2008, http://epress.lib.uts.edu.au/journals/TfC</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Jah, Sonora &amp; Mara Adelmann 2009. Looking for Love in All the White Places: A Study of Skin Color Preferences on Indian Matrimonial and Mate-Seeking Websites. In Studies in South Asian Film and Media Volume 1, Number 1, 2009,p. 65-83.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109865</hra:value>
-				<hra:value>109865</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:05">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+With compliments from the Delhi Calender Mfg.Co., High-Class Calendar and Advertising Novelty Manufacturers. (la)</ext:value>
+				<ext:value>description-en:
+An almost nude caucasian blond woman is standing in a fountain duringt the night. The moon shines. she is barely covered with a transparent cloth and hold her right hand up to touch the water of the fountain while gazing at the viewer. Next to her is a white swan. The background seems tropical, flowers blooming all over. Two smaller swans swim in the back. (la)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+This calendar seems to be a gift from a calendar manufacturing company based in Delhi. Interesting is the link between their self-claimed &quot;high-class&quot;-production and the image. At first being &quot;high-class&quot; is linked to a white or fair skin. Moreover, this image is overtly sexually loaded. Not only the scantily-clad woman on the image points to that fact. Water and also the swan, which stands for gracefulness and beauty have an erotic connotation. Back in 1940s the portrayal of an Indian woman in such a manner would have not been possible for that purpose. According to Jann Dark Indian mass media have constructed the Western woman as an immoral counterpart to the virtuous Indian woman. Projecting sexuality onto an alleged &quot;Other&quot; is a very common practice in many socities as e.g. Irvin Schick has proven for the European context. Sexuality, which is seen as being outside of the own culture does not threaten the own values. (la)</ext:value>
+				<ext:value>related literature: 
+Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</ext:value>
+				<ext:value>related literature:
+Jah, Sonora &amp; Mara Adelmann 2009. Looking for Love in All the White Places: A Study of Skin Color Preferences on Indian Matrimonial and Mate-Seeking Websites. In Studies in South Asian Film and Media Volume 1, Number 1, 2009,p. 65-83.</ext:value>
+				<ext:value>related literature:
+Schick, Irvin C. 1999. The Erotic Margin. Sexuality and Spatiality in Alteritist Discourse. London: Verso.</ext:value>
+				<ext:value>related literature:
+Dyer, Richard 1997. White. New York and London: Routledge.</ext:value>
+				<ext:value>related literature:
+Dark, Jann 2008. Crossing the Pale. Representations of White Western Women in Indian Film and Media. In Transforming Cultures eJournal, Vol. 3 No 1, February 2008, http://epress.lib.uts.edu.au/journals/TfC</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dyer, Richard 1997. White. New York and London: Routledge.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Schick, Irvin C. 1999. The Erotic Margin. Sexuality and Spatiality in Alteritist Discourse. London: Verso.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dark, Jann 2008. Crossing the Pale. Representations of White Western Women in Indian Film and Media. In Transforming Cultures eJournal, Vol. 3 No 1, February 2008, http://epress.lib.uts.edu.au/journals/TfC</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Jah, Sonora &amp; Mara Adelmann 2009. Looking for Love in All the White Places: A Study of Skin Color Preferences on Indian Matrimonial and Mate-Seeking Websites. In Studies in South Asian Film and Media Volume 1, Number 1, 2009,p. 65-83.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This calendar seems to be a gift from a calendar manufacturing company based in Delhi. Interesting is the link between their self-claimed &quot;high-class&quot;-production and the image. At first being &quot;high-class&quot; is linked to a white or fair skin. Moreover, this image is overtly sexually loaded. Not only the scantily-clad woman on the image points to that fact. Water and also the swan, which stands for gracefulness and beauty have an erotic connotation. Back in 1940s the portrayal of an Indian woman in such a manner would have not been possible for that purpose. According to Jann Dark Indian mass media have constructed the Western woman as an immoral counterpart to the virtuous Indian woman. Projecting sexuality onto an alleged &quot;Other&quot; is a very common practice in many socities as e.g. Irvin Schick has proven for the European context. Sexuality, which is seen as being outside of the own culture does not threaten the own values.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109865</ext:value>
+				<ext:value>109865</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:16">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

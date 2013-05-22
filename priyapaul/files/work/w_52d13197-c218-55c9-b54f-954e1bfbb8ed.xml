@@ -1,23 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_52d13197-c218-55c9-b54f-954e1bfbb8ed" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-162aa8ff-be95-506b-8f36-615aef6db02c">Gobind Ram &amp; Ooday Ram</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">An image showing an Indian woman lounging on a carpet resting her head on one hand and wearing a sari and traditional jewellery - bangles, arm-bands, anklets and hair accessories.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>An image showing an Indian woman lounging on a carpet resting her head on one hand and wearing a sari and traditional jewellery - bangles, arm-bands, anklets and hair accessories.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -33,10 +38,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107969" type="corporate">HeidICON Image Database</name>
+				<refid>107969</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -57,128 +65,251 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/102/index_4.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=84&amp;EId=102&amp;ImageId=34</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.imagesofasia.com/html/india/jaipur-woman.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1910s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6994785f-702b-52aa-98c6-866390c2c2bc">
-				<term>Traditional Indian clothes</term>
+				<term type="concept">Traditional Indian clothes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb400a82-f170-5237-9bfc-6d0680f00d37">
-				<term>photography</term>
+				<term type="concept">photography</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term>picture postcards</term>
+				<term type="worktype">picture postcards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="73280386-53ba-5365-8241-b8ced97391f7">
-				<term>studio portraits</term>
+				<term type="worktype">studio portraits</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Sleeping Hindoo Woman</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Sleeping Hindoo Woman</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-13519</hra:value>
-				<hra:value>text-en:
-No. 78 - Sleeping Hindoo woman.</hra:value>
-				<hra:value>text-en:
-Gobind Ram &amp; Ooday Ram, Jaipur.</hra:value>
-				<hra:value>description-en:
-An image showing an Indian woman lounging on a carpet resting her head on one hand and wearing a sari and traditional jewellery - bangles, arm-bands, anklets and hair accessories. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Usually the only women we see in colonial postcards are native, as we see in the sexually charged image of the &quot;Sleeping Hindoo Woman&quot;. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The native women in this postcard is subject to the same picturesque aesthetic the native landscapes that she inhabited were subjected to. However, one wonders, why when it was deemed appropriate to show a Begum in her boudoir, the white woman or &quot;memsahib&quot; rarely was. Where was the memsahib in the imagery? It is not that white women were completely absent from colonial postcards. The European women who were depicted in the postcards were usually missionaries or travelers, and within the colonial school room sub-genre, the only European in the image was often the white school mistress.Therefore, the spaces they occupied in these images were either defined by the &quot;good works&quot; they performed, or by their journeys to exotic locations. The private realm of the memsahib was in &quot;purdah&quot; so to speak. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The same image appears under the title &quot;Jaipur woman&quot; on &quot;Images of Asia&quot;, http://www.imagesofasia.com/html/india/jaipur-woman.html (Rianne Siebenga) (ma)</hra:value>
-				<hra:value>related literature:
-Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714. (gs)</hra:value>
-				<hra:value>related literature:
-Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230. (gs)</hra:value>
-				<hra:value>related literature:
-Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press. (gs)</hra:value>
-				<hra:value>related literature:
-Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</hra:value>
-				<hra:value>related literature:
-Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2011-01-08, Tasveer Ghar essay (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imagesofasia.com/html/india/jaipur-woman.html, last accessed 2012-11-09, identical postcard named &quot;Jaipur woman&quot; and dated to around 1910 (ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot;</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imagesofasia.com/html/india/jaipur-woman.html</hra:value>
-				<hra:value>2012-11-09</hra:value>
-				<hra:value>identical postcard named &quot;Jaipur woman&quot; and dated to around 1910</hra:value>
-				<hra:value>|3|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/102/index.html</hra:value>
-				<hra:value>2011-01-08</hra:value>
-				<hra:value>Tasveer Ghar essay</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/107969</hra:value>
-				<hra:value>107969</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:32:51">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+13519</ext:value>
+				<ext:value>text-en:
+No. 78 - Sleeping Hindoo woman.</ext:value>
+				<ext:value>text-en:
+Gobind Ram &amp; Ooday Ram, Jaipur.</ext:value>
+				<ext:value>description-en:
+An image showing an Indian woman lounging on a carpet resting her head on one hand and wearing a sari and traditional jewellery - bangles, arm-bands, anklets and hair accessories. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Usually the only women we see in colonial postcards are native, as we see in the sexually charged image of the &quot;Sleeping Hindoo Woman&quot;. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The native women in this postcard is subject to the same picturesque aesthetic the native landscapes that she inhabited were subjected to. However, one wonders, why when it was deemed appropriate to show a Begum in her boudoir, the white woman or &quot;memsahib&quot; rarely was. Where was the memsahib in the imagery? It is not that white women were completely absent from colonial postcards. The European women who were depicted in the postcards were usually missionaries or travelers, and within the colonial school room sub-genre, the only European in the image was often the white school mistress.Therefore, the spaces they occupied in these images were either defined by the &quot;good works&quot; they performed, or by their journeys to exotic locations. The private realm of the memsahib was in &quot;purdah&quot; so to speak. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The same image appears under the title &quot;Jaipur woman&quot; on &quot;Images of Asia&quot;, http://www.imagesofasia.com/html/india/jaipur-woman.html (Rianne Siebenga) (ma)</ext:value>
+				<ext:value>related literature:
+Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714. (gs)</ext:value>
+				<ext:value>related literature:
+Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230. (gs)</ext:value>
+				<ext:value>related literature:
+Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press. (gs)</ext:value>
+				<ext:value>related literature:
+Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</ext:value>
+				<ext:value>related literature:
+Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2011-01-08, Tasveer Ghar essay (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imagesofasia.com/html/india/jaipur-woman.html, last accessed 2012-11-09, identical postcard named &quot;Jaipur woman&quot; and dated to around 1910 (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imagesofasia.com/html/india/jaipur-woman.html</ext:value>
+				<ext:value type="accessed">2012-11-09</ext:value>
+				<ext:value type="comment">identical postcard named &quot;Jaipur woman&quot; and dated to around 1910</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/102/index.html</ext:value>
+				<ext:value type="accessed">2011-01-08</ext:value>
+				<ext:value type="comment">Tasveer Ghar essay</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The same image appears under the title &quot;Jaipur woman&quot; on &quot;Images of Asia&quot;, http://www.imagesofasia.com/html/india/jaipur-woman.html</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rianne Siebenga</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The native women in this postcard is subject to the same picturesque aesthetic the native landscapes that she inhabited were subjected to. However, one wonders, why when it was deemed appropriate to show a Begum in her boudoir, the white woman or &quot;memsahib&quot; rarely was. Where was the memsahib in the imagery? It is not that white women were completely absent from colonial postcards. The European women who were depicted in the postcards were usually missionaries or travelers, and within the colonial school room sub-genre, the only European in the image was often the white school mistress.Therefore, the spaces they occupied in these images were either defined by the &quot;good works&quot; they performed, or by their journeys to exotic locations. The private realm of the memsahib was in &quot;purdah&quot; so to speak.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Usually the only women we see in colonial postcards are native, as we see in the sexually charged image of the &quot;Sleeping Hindoo Woman&quot;.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/102/index_4.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=84&amp;EId=102&amp;ImageId=34</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.imagesofasia.com/html/india/jaipur-woman.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/107969</ext:value>
+				<ext:value>107969</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:29">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

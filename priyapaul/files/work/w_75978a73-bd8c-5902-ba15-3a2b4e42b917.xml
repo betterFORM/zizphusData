@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_75978a73-bd8c-5902-ba15-3a2b4e42b917" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Full body portrait painting of a young woman wearing pearl necklaces, golden earrings, bracelet and a ring on her right hand. She wears red lipstick and makeup and is dressed in a long glossy cloth with a golden border. She looks into the eyes of the viewer and appears much more modest in her gesture and habitus than the clothing and jewellery may suggest. The background is blurry, yet it appears to be an urban environment.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Full body portrait painting of a young woman wearing pearl necklaces, golden earrings, bracelet and a ring on her right hand. She wears red lipstick and makeup and is dressed in a long glossy cloth with a golden border. She looks into the eyes of the viewer and appears much more modest in her gesture and habitus than the clothing and jewellery may suggest. The background is blurry, yet it appears to be an urban environment.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -41,10 +47,13 @@ COOLS AND REFRESHES</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118557" type="corporate">HeidICON Image Database</name>
+				<refid>118557</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -67,58 +76,64 @@ COOLS AND REFRESHES</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="f896544c-107a-5873-b4d5-47c6310d1c00">
-				<term>ring</term>
+				<term type="concept">rings (jewelry)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term>pearl necklace</term>
+				<term type="concept">pearl necklaces</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
+				<term type="concept">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9058450-e8a4-5ea8-ae96-b0cff4e77a96">
-				<term>makeup</term>
+				<term type="product">make-up (cosmetics)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
+				<term type="concept">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
-				<term>hair oil</term>
+				<term type="concept">hair oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9bff4af-30d4-59f8-9356-c8a766e97095">
-				<term>Srivis-Amla Hair Oil</term>
+				<term type="brand">Srivis-Amla Hair Oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a14be562-683e-57b2-9446-7cff4999aa55">
-				<term>earring</term>
+				<term type="concept">earrings (jewelry)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advertisement of Srivis Amla Hair Oil</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement of Srivis Amla Hair Oil</title>
 		</titleSet>
 		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
-			<worktype>posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-Full body portrait painting of a young woman wearing pearl necklaces, golden earrings, bracelet and a ring on her right hand. She wears red lipstick and makeup and is dressed in a long glossy cloth with a golden border. She looks into the eyes of the viewer and appears much more modest in her gesture and habitus than the clothing and jewellery may suggest. The background is blurry, yet it appears to be an urban environment.</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+Full body portrait painting of a young woman wearing pearl necklaces, golden earrings, bracelet and a ring on her right hand. She wears red lipstick and makeup and is dressed in a long glossy cloth with a golden border. She looks into the eyes of the viewer and appears much more modest in her gesture and habitus than the clothing and jewellery may suggest. The background is blurry, yet it appears to be an urban environment.</ext:value>
+				<ext:value>text-en:
 SRIVIS PERFUMERY WORKS
 MADRAS
 PROPRIETORS
 S. VISWANADNAM &amp; CO.
-BUNDER ST. MADRAS</hra:value>
-				<hra:value>text-en:
+BUNDER ST. MADRAS</ext:value>
+				<ext:value>text-en:
 SRIVIS-AMLA HAIR OIL
 PREPARED WITH HERBS
-COOLS AND REFRESHES</hra:value>
-				<hra:value>text-en:
+COOLS AND REFRESHES</ext:value>
+				<ext:value>text-en:
 &quot;SRIVIS AMLA&quot; HAIS OIL
 COOLS THE BRAIN
 HELPS HAIR GROWTH
@@ -127,31 +142,42 @@ MAKES THE HAIR [...] BLACK
 REMOVES BURNING SENSATION OF THE EYES
 REMOVES DANDRUFF
 REMOVES GIDDINESS
-COOLS AND REFRESHES</hra:value>
-				<hra:value>text-en:
-COPYRIGHT RESERVED</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080509_0844.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118557</hra:value>
-				<hra:value>118557</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:35:23">
-			</hra:administrative>
-		</hra:heidicon>
+COOLS AND REFRESHES</ext:value>
+				<ext:value>text-en:
+COPYRIGHT RESERVED</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080509_0844.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080509_0844.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118557</ext:value>
+				<ext:value>118557</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:45">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

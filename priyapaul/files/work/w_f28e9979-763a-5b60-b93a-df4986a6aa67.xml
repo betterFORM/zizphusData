@@ -1,43 +1,49 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_f28e9979-763a-5b60-b93a-df4986a6aa67" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-89680d5a-b44c-514e-b7c4-590326809ca7">Ganesha</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c19f9da6-753a-5e79-aa6d-3e0e2b5692a2">Parvati</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5abfa90e-edfc-56bb-bf3f-bb03c06480e7">Lakshmi</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-b0383a4d-50ce-5db9-824d-16247aa14773">Sarasvati</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-b346b303-2d7d-5ce4-9a03-84b55229f713">Nath &lt;artist&gt;</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-ef57762e-9769-5e18-932f-6a8188a216ee">Sri Ambal &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Three Hindu goddesses Lakshmi, Parvati and Saraswati are sitting next to each other in front of a big tree. Parvati holds her young son, Ganesha, the elephant god and other symbols in her hands. Saraswati holds a veena in one hand and scrolls in another while her feet rest on a white lotus. Lakshmi is depicted with her feet on a pink lotus and holding three lotuses. They are surrounded by water and an elephant rising out of the water in front of them offers up a flower garland with its trunk. A lion and a peacock can also be seen in the image. To the lower left corner of the image, a packet of snuff can be seen depicted. In the background, behind the goddesses a waterfall, mountains and a river can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Three Hindu goddesses Lakshmi, Parvati and Saraswati are sitting next to each other in front of a big tree. Parvati holds her young son, Ganesha, the elephant god and other symbols in her hands. Saraswati holds a veena in one hand and scrolls in another while her feet rest on a white lotus. Lakshmi is depicted with her feet on a pink lotus and holding three lotuses. They are surrounded by water and an elephant rising out of the water in front of them offers up a flower garland with its trunk. A lion and a peacock can also be seen in the image. To the lower left corner of the image, a packet of snuff can be seen depicted. In the background, behind the goddesses a waterfall, mountains and a river can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -59,10 +65,13 @@ Madras.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118251" type="corporate">HeidICON Image Database</name>
+				<refid>118251</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -75,7 +84,10 @@ Madras.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b77b8ca4-4ad8-5299-96bb-5ecaf8d4ed22" refid="118251" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b77b8ca4-4ad8-5299-96bb-5ecaf8d4ed22" refid="118251" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_2b63a032-e1f4-5ff4-8027-c10d73fe0bc8" refid="118252" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_a85ab3b2-59f9-5d53-b981-b7c3b29b4fe7" refid="118253" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_e2b1b27e-88a6-55dc-9563-8c5aed74dd29" refid="118254" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -83,168 +95,335 @@ Madras.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=82&amp;EId=100&amp;ImageId=1</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term>lion</term>
+				<term type="animal">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
-				<term>elephant</term>
+				<term type="animal">elephants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term>mountain</term>
+				<term type="concept">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term>crown</term>
+				<term type="concept">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term>lotus</term>
+				<term type="plant">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="50d506c9-d776-54db-85c2-7a38a36c7816">
-				<term>scroll</term>
+				<term type="concept">scrolls (information artifacts)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="40344771-1132-5fc6-acf5-9757c17a99d9">
-				<term>waterfall</term>
+				<term type="concept">waterfalls (natural bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term>peacock</term>
+				<term type="animal">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6facbb83-19f9-5a88-8200-330516c39021">
-				<term>veena</term>
+				<term type="concept">vinas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term>flower garland</term>
+				<term type="concept">husk (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advertisement for Sri Ambal &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Sri Ambal &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Nath</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Nath</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Sri Ambal &amp; Co.
-High Class Snuff Manufacturers</hra:value>
-				<hra:value>text-en:
+High Class Snuff Manufacturers</ext:value>
+				<ext:value>text-en:
 Post Box No.3
-Madras.</hra:value>
-				<hra:value>text-en:
-Nath.</hra:value>
-				<hra:value>description-en:
-Three Hindu goddesses Lakshmi, Parvati and Saraswati are sitting next to each other in front of a big tree. Parvati holds her young son, Ganesha, the elephant god and other symbols in her hands. Saraswati holds a veena in one hand and scrolls in another while her feet rest on a white lotus. Lakshmi is depicted with her feet on a pink lotus and holding three lotuses. They are surrounded by water and an elephant rising out of the water in front of them offers up a flower garland with its trunk. A lion and a peacock can also be seen in the image. To the lower left corner of the image, a packet of snuff can be seen depicted. In the background, behind the goddesses a waterfall, mountains and a river can be seen. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-A widely circulated Ravi Varma image, depicting the goddesses Lakshmi, Durga and Saraswati, shown with their respective vahanas, the elephant, the lion and the peacock. The print is courtesy of a “high class snuff manufacturer” from Madras, with the consumer product, a tin of snuff, shown in the bottom left-hand corner to avoid detracting from the main focus of the picture. The scale of the vahanas vis-à-vis the goddesses confirms their relative importance. Images such as the above are nowadays less likely to be found in urban settings as calendar art in use. Where they are found, they are more likely to be framed and used as artwork to adorn a room, or as devotional imagery for purposes of worship. (Arvind Rajagopal)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-In fact, there are subtle but interesting shifts in how mythological imagery is treated in calendar art over time. For example, motifs and representational styles migrate from the mythological to other domains. Meanwhile as the language of the market becomes more familiar, commodity images acquire an authority of their own, and no longer require the presence of gods and goddesses to win an audience. (Arvind Rajagopal)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The deities shown in Indian calendar art are not continuous with temple art despite the similarity of their subject matter, because of the medium of their depiction.  Print renders these images hybrid in character: they are both profane and sacral, iconographically conventional and yet new in the means of their reproduction and circulation. For example, they reached (and reach) not only twice-born castes, for example, but also untouchables who might have been barred from approaching the deities portrayed, if they were situated in Hindu temples. (Arvind Rajagopal)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Although calendar art may, at first glance, appear to be relatively changeless, it is of course transformed alongside mechanical innovation and the spread of capitalist markets, and reflects historical and political changes over the years. What might seem constant is the profusion of mythological imagery. (Arvind Rajagopal)(gs)</hra:value>
-				<hra:value>related literature:
-Beller, Jonathan 2006. &quot;The Cinematic Mode of Production: Attention Economy and the Society of the Spectacle.&quot; Dartmouth, NH: University Press of New England. (gs)</hra:value>
-				<hra:value>related literature: 
+Madras.</ext:value>
+				<ext:value>text-en:
+Nath.</ext:value>
+				<ext:value>description-en:
+Three Hindu goddesses Lakshmi, Parvati and Saraswati are sitting next to each other in front of a big tree. Parvati holds her young son, Ganesha, the elephant god and other symbols in her hands. Saraswati holds a veena in one hand and scrolls in another while her feet rest on a white lotus. Lakshmi is depicted with her feet on a pink lotus and holding three lotuses. They are surrounded by water and an elephant rising out of the water in front of them offers up a flower garland with its trunk. A lion and a peacock can also be seen in the image. To the lower left corner of the image, a packet of snuff can be seen depicted. In the background, behind the goddesses a waterfall, mountains and a river can be seen. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+A widely circulated Ravi Varma image, depicting the goddesses Lakshmi, Durga and Saraswati, shown with their respective vahanas, the elephant, the lion and the peacock. The print is courtesy of a “high class snuff manufacturer” from Madras, with the consumer product, a tin of snuff, shown in the bottom left-hand corner to avoid detracting from the main focus of the picture. The scale of the vahanas vis-à-vis the goddesses confirms their relative importance. Images such as the above are nowadays less likely to be found in urban settings as calendar art in use. Where they are found, they are more likely to be framed and used as artwork to adorn a room, or as devotional imagery for purposes of worship. (Arvind Rajagopal)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+In fact, there are subtle but interesting shifts in how mythological imagery is treated in calendar art over time. For example, motifs and representational styles migrate from the mythological to other domains. Meanwhile as the language of the market becomes more familiar, commodity images acquire an authority of their own, and no longer require the presence of gods and goddesses to win an audience. (Arvind Rajagopal)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The deities shown in Indian calendar art are not continuous with temple art despite the similarity of their subject matter, because of the medium of their depiction.  Print renders these images hybrid in character: they are both profane and sacral, iconographically conventional and yet new in the means of their reproduction and circulation. For example, they reached (and reach) not only twice-born castes, for example, but also untouchables who might have been barred from approaching the deities portrayed, if they were situated in Hindu temples. (Arvind Rajagopal)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Although calendar art may, at first glance, appear to be relatively changeless, it is of course transformed alongside mechanical innovation and the spread of capitalist markets, and reflects historical and political changes over the years. What might seem constant is the profusion of mythological imagery. (Arvind Rajagopal)(gs)</ext:value>
+				<ext:value>related literature:
+Beller, Jonathan 2006. &quot;The Cinematic Mode of Production: Attention Economy and the Society of the Spectacle.&quot; Dartmouth, NH: University Press of New England. (gs)</ext:value>
+				<ext:value>related literature: 
 Grojs, Boris 2008. &quot;Art Power.&quot; Cambridge, MA: MIT Press. 
-(gs/ja)</hra:value>
-				<hra:value>related literature:
-Freitag, Sandria B 2007. “South Asian ways of seeing, Muslim ways of knowing: The Indian Muslim niche market in posters.” The Indian economic and social history review. 44, no. 3, (2007), pp. 297-331. (gs)</hra:value>
-				<hra:value>related literature:
-Haug, Fritz 1986. &quot;Critique of Commodity Aesthetics: Appearance, Sexuality and Advertising in Capitalist Society.&quot; Minneapolis: University of Minnesota Press. (gs)</hra:value>
-				<hra:value>related literature:
-Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art. Durham.&quot; NC: Duke University Press.(gs)</hra:value>
-				<hra:value>related literature:
-Mazzarella, William 2003. &quot;Shoveling Smoke: Advertising and Globalization in Contemporary India.&quot; Duke University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson. (gs)</hra:value>
-				<hra:value>related literature:
-Rajagopal, Arvind 1998. &quot;Advertising, Politics and the Sentimental Education of the Indian Consumer.&quot; Visual Anthropology Review, 14 (2): pp. 14-31. (gs)</hra:value>
-				<hra:value>related literature:
-Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html last accessed 2011-01-15 Tasveer Ghar essay (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mazzarella, William 2003. &quot;Shoveling Smoke: Advertising and Globalization in Contemporary India.&quot; Duke University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Rajagopal, Arvind 1998. &quot;Advertising, Politics and the Sentimental Education of the Indian Consumer.&quot; Visual Anthropology Review, 14 (2): pp. 14-31.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Freitag, Sandria B 2007. “South Asian ways of seeing, Muslim ways of knowing: The Indian Muslim niche market in posters.” The Indian economic and social history review. 44, no. 3, (2007), pp. 297-331.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Beller, Jonathan 2006. &quot;The Cinematic Mode of Production: Attention Economy and the Society of the Spectacle.&quot; Dartmouth, NH: University Press of New England.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot;</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Grojs, Boris 2008. &quot;Art Power.&quot; Cambridge, MA: MIT Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art. Durham.&quot; NC: Duke University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Haug, Fritz 1986. &quot;Critique of Commodity Aesthetics: Appearance, Sexuality and Advertising in Capitalist Society.&quot; Minneapolis: University of Minnesota Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</hra:value>
-				<hra:value>2011-01-15</hra:value>
-				<hra:value>Tasveer Ghar essay</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118251</hra:value>
-				<hra:value>118251</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:44:45">
-			</hra:administrative>
-		</hra:heidicon>
+(gs/ja)</ext:value>
+				<ext:value>related literature:
+Freitag, Sandria B 2007. “South Asian ways of seeing, Muslim ways of knowing: The Indian Muslim niche market in posters.” The Indian economic and social history review. 44, no. 3, (2007), pp. 297-331. (gs)</ext:value>
+				<ext:value>related literature:
+Haug, Fritz 1986. &quot;Critique of Commodity Aesthetics: Appearance, Sexuality and Advertising in Capitalist Society.&quot; Minneapolis: University of Minnesota Press. (gs)</ext:value>
+				<ext:value>related literature:
+Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art. Durham.&quot; NC: Duke University Press.(gs)</ext:value>
+				<ext:value>related literature:
+Mazzarella, William 2003. &quot;Shoveling Smoke: Advertising and Globalization in Contemporary India.&quot; Duke University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson. (gs)</ext:value>
+				<ext:value>related literature:
+Rajagopal, Arvind 1998. &quot;Advertising, Politics and the Sentimental Education of the Indian Consumer.&quot; Visual Anthropology Review, 14 (2): pp. 14-31. (gs)</ext:value>
+				<ext:value>related literature:
+Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html last accessed 2011-01-15 Tasveer Ghar essay (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mazzarella, William 2003. &quot;Shoveling Smoke: Advertising and Globalization in Contemporary India.&quot; Duke University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Rajagopal, Arvind 1998. &quot;Advertising, Politics and the Sentimental Education of the Indian Consumer.&quot; Visual Anthropology Review, 14 (2): pp. 14-31.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Freitag, Sandria B 2007. “South Asian ways of seeing, Muslim ways of knowing: The Indian Muslim niche market in posters.” The Indian economic and social history review. 44, no. 3, (2007), pp. 297-331.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Beller, Jonathan 2006. &quot;The Cinematic Mode of Production: Attention Economy and the Society of the Spectacle.&quot; Dartmouth, NH: University Press of New England.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Grojs, Boris 2008. &quot;Art Power.&quot; Cambridge, MA: MIT Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Alisch, Johannes</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art. Durham.&quot; NC: Duke University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Haug, Fritz 1986. &quot;Critique of Commodity Aesthetics: Appearance, Sexuality and Advertising in Capitalist Society.&quot; Minneapolis: University of Minnesota Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</ext:value>
+				<ext:value type="accessed">2011-01-15</ext:value>
+				<ext:value type="comment">Tasveer Ghar essay</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Although calendar art may, at first glance, appear to be relatively changeless, it is of course transformed alongside mechanical innovation and the spread of capitalist markets, and reflects historical and political changes over the years. What might seem constant is the profusion of mythological imagery.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Arvind Rajagopal</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The deities shown in Indian calendar art are not continuous with temple art despite the similarity of their subject matter, because of the medium of their depiction.  Print renders these images hybrid in character: they are both profane and sacral, iconographically conventional and yet new in the means of their reproduction and circulation. For example, they reached (and reach) not only twice-born castes, for example, but also untouchables who might have been barred from approaching the deities portrayed, if they were situated in Hindu temples.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Arvind Rajagopal</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">A widely circulated Ravi Varma image, depicting the goddesses Lakshmi, Durga and Saraswati, shown with their respective vahanas, the elephant, the lion and the peacock. The print is courtesy of a “high class snuff manufacturer” from Madras, with the consumer product, a tin of snuff, shown in the bottom left-hand corner to avoid detracting from the main focus of the picture. The scale of the vahanas vis-à-vis the goddesses confirms their relative importance. Images such as the above are nowadays less likely to be found in urban settings as calendar art in use. Where they are found, they are more likely to be framed and used as artwork to adorn a room, or as devotional imagery for purposes of worship.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Arvind Rajagopal</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In fact, there are subtle but interesting shifts in how mythological imagery is treated in calendar art over time. For example, motifs and representational styles migrate from the mythological to other domains. Meanwhile as the language of the market becomes more familiar, commodity images acquire an authority of their own, and no longer require the presence of gods and goddesses to win an audience.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Arvind Rajagopal</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118252</ext:value>
+				<ext:value>i_2b63a032-e1f4-5ff4-8027-c10d73fe0bc8</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118253</ext:value>
+				<ext:value>i_a85ab3b2-59f9-5d53-b981-b7c3b29b4fe7</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118254</ext:value>
+				<ext:value>i_e2b1b27e-88a6-55dc-9563-8c5aed74dd29</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=82&amp;EId=100&amp;ImageId=1</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118251</ext:value>
+				<ext:value>118251</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:21">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

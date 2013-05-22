@@ -1,27 +1,21 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_c367f5cc-d372-53ef-8e41-1ca71549da65" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-f16038a5-7630-5bb9-8d9e-a3d5f7faa3a2">Sita</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-afbace2a-fb3f-5d29-b7ca-d1f057d2c313">M. K. Sunderamier &amp; Sons</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1958</earliestDate>
-				<latestDate>1958</latestDate>
-			</date>
-		</dateSet>
 		<inscriptionSet>
 			<inscription>
 				<text type="text" lang="en">Estd. 1935
@@ -59,10 +53,13 @@ etc.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120921" type="corporate">HeidICON Image Database</name>
+				<refid>120921</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -85,67 +82,67 @@ etc.</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term>horse</term>
+				<term type="concept">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term>arrow</term>
+				<term type="concept">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term>bow</term>
+				<term type="concept">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="489bbc57-16cc-5f57-b489-8ab8375cfe8f">
-				<term>animal</term>
+				<term type="concept">animals</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4a3a539e-303c-5d39-89ff-db860c33abf6">
-				<term>nature</term>
+				<term type="concept">nature</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c9b7db9c-bda8-5dd6-82db-339f18cdb3ba">
-				<term>cottage</term>
+				<term type="concept">cottages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b3818bd-32af-505f-b025-e3f07a743683">
-				<term>rabbit</term>
+				<term type="animal">rabbits</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Sita with her two kids, in an advertisement calender of M.K. Sunderamier &amp; Sons. (1958)</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Sita with her two kids, in an advertisement calender of M.K. Sunderamier &amp; Sons. (1958)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Estd. 1935
 M.K. Sunderamier &amp; Sons,
 Manufacturers of:
 Jothi Brand Aluminium Ware Utensils,
 62, East Avani Moola Street
-Madurai (S. India)</hra:value>
-				<hra:value>text-en:
+Madurai (S. India)</ext:value>
+				<ext:value>text-en:
 H.O. 
 26, Amman Sannathi
 B.O.
 Jothi Aluminium Coy.,
-21-22, Amman Sannathi, Madurai</hra:value>
-				<hra:value>text-en:
+21-22, Amman Sannathi, Madurai</ext:value>
+				<ext:value>text-en:
 We sell
 Aluminium 
 Circle
@@ -154,33 +151,44 @@ Rivet
 Strip
 Sheet
 etc.
-etc.</hra:value>
-				<hra:value>text-en:
-Rajeswari Press, Madurai: -57.</hra:value>
-				<hra:value>text-en:
-On this calendar advertisement from 1958 for M.K. Sunderamier &amp; Sons, a scene with the Hindu goddess Sita and her two kids can be seen. On the sides of the image, there are contact details of the advertising company as well as the range of products offered described. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/2311.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120921</hra:value>
-				<hra:value>120921</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:32:15">
-			</hra:administrative>
-		</hra:heidicon>
+etc.</ext:value>
+				<ext:value>text-en:
+Rajeswari Press, Madurai: -57.</ext:value>
+				<ext:value>text-en:
+On this calendar advertisement from 1958 for M.K. Sunderamier &amp; Sons, a scene with the Hindu goddess Sita and her two kids can be seen. On the sides of the image, there are contact details of the advertising company as well as the range of products offered described. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/2311.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/2311.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120921</ext:value>
+				<ext:value>120921</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:58">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

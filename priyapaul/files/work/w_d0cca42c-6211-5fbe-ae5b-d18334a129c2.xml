@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_d0cca42c-6211-5fbe-ae5b-d18334a129c2" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-7b799212-bc20-50d5-8b39-785e2df7c160">H.A. Mirza and Sons.</name>
-				<role/>
+				<name vocab="local" type="corporate" refid="uuid-7b799212-bc20-50d5-8b39-785e2df7c160">H. A. Mirza and Sons.</name>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A View from Garkhal, Kasauli Hill, India. A few houses can be seen as well as neat fences, rows of pine trees and grassy expanses.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A View from Garkhal, Kasauli Hill, India. A few houses can be seen as well as neat fences, rows of pine trees and grassy expanses.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -25,13 +31,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
-			</location>
-			<location type="site">
-				<name type="geographic" vocab="" refid="">Kasauli</name>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108220" type="corporate">HeidICON Image Database</name>
+				<refid>108220</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -52,103 +58,192 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="cb59e621-4ffd-5a47-b16b-43c5a75b7c29">
-				<term>Himalayas</term>
+				<term type="geographic">Himalayas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
-				<term>India</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="737f7216-0bc0-5f2a-a54f-bcdee89a7786">
-				<term>Garkhal</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="ddc99987-6abf-526e-bee9-fd4aa62e3ffa">
-				<term>Kasauli Hill</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e376bfc7-e331-5b6c-b4bb-a1b710ef6d6c">
-				<term>Kasauli</term>
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ab0b791-c983-5d5a-90d5-dfc85c8b2c23">
-				<term>Made in Germany</term>
+				<term type="concept">Made in Germany</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="737f7216-0bc0-5f2a-a54f-bcdee89a7786">
+				<term type="geographic">Garkhal</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
-				<term>hill stations</term>
+				<term type="concept">hill stations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="ddc99987-6abf-526e-bee9-fd4aa62e3ffa">
+				<term type="geographic">Kasauli Hill</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e376bfc7-e331-5b6c-b4bb-a1b710ef6d6c">
+				<term type="geographic">Kasauli</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term>picture postcards</term>
+				<term type="worktype">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">A view from Garkhal, Kasauli Hill (India)</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">A view from Garkhal, Kasauli Hill (India)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-96565</hra:value>
-				<hra:value>text-en:
-A view from Garkhal Kasauli Hill (India).</hra:value>
-				<hra:value>description-en: 
-A View from Garkhal, Kasauli Hill, India. A few houses can be seen as well as neat fences, rows of pine trees and grassy expanses. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>ffff Ort/Gebäude: Garkhal</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The neat fences, rows of pine trees and grassy expanses suggest a plantation. While there was a planter class in India, settler colonialism never really became dominant in the sub-continent, though plantations were successfully established in northern Bengal, Assam and the Nilgiris. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The picturesque aesthetic was a way of seeing that emphasized the suitability of a scene to be included in a picture, that is, it was pictorially assimilable.  This was the dominant aesthetic used in the colonies to not only portray the landscape, but to also change it. Hill station picture postcards show how this aesthetic was used to make &quot;mountains&quot; into &quot;hills.&quot;  They show us the aesthetic shifts that took place in order to create a &quot;home away from home.&quot; (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Picture postcards were immensely popular in Europe and its colonies between the 1890s and the First World War. The fact that this period also coincides with the heyday of European imperialism is not mere coincidence.  As Saloni Mathur points out, the picture postcard is “both a cosmopolitan form and a constant reminder of the imperial conditions that establish a basis for modern cosmopolitanism.” Considering how the postcard culture was produced by the material conditions of empire, it is no surprise that postcards, especially the colonial postcard, were particularly well suited to encode the project of empire with all its attendant anxieties and feats of discursive gymnastics. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-A European aesthetic of landscape had to be imported in, and the landscape had to be viewed through the  lens of that particular aesthetic in order to make it amenable to colonial society.  Examples like the view from Garkhal, Kasauli Hill in this image demonstrate another aspect of this transplanted aesthetic.  Not only did the domestication of mountains require an aesthetic response in how they were to be viewed, but the landscape of the hill stations had to be transformed, through architecture, gardening, and institutions like the army and the church. (Shashwati Talukdar)(gs)</hra:value>
-				<hra:value>related literature:
-Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714. (gs)</hra:value>
-				<hra:value>related literature:
-Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230. (gs)</hra:value>
-				<hra:value>related literature:
-Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press. (gs)</hra:value>
-				<hra:value>related literature:
-Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html (14.12.2010)(gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html (14.12.2010)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108220</hra:value>
-				<hra:value>108220</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:42:45">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+96565</ext:value>
+				<ext:value>text-en:
+A view from Garkhal Kasauli Hill (India).</ext:value>
+				<ext:value>description-en: 
+A View from Garkhal, Kasauli Hill, India. A few houses can be seen as well as neat fences, rows of pine trees and grassy expanses. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>ffff Ort/Gebäude: Garkhal</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The neat fences, rows of pine trees and grassy expanses suggest a plantation. While there was a planter class in India, settler colonialism never really became dominant in the sub-continent, though plantations were successfully established in northern Bengal, Assam and the Nilgiris. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The picturesque aesthetic was a way of seeing that emphasized the suitability of a scene to be included in a picture, that is, it was pictorially assimilable.  This was the dominant aesthetic used in the colonies to not only portray the landscape, but to also change it. Hill station picture postcards show how this aesthetic was used to make &quot;mountains&quot; into &quot;hills.&quot;  They show us the aesthetic shifts that took place in order to create a &quot;home away from home.&quot; (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Picture postcards were immensely popular in Europe and its colonies between the 1890s and the First World War. The fact that this period also coincides with the heyday of European imperialism is not mere coincidence.  As Saloni Mathur points out, the picture postcard is “both a cosmopolitan form and a constant reminder of the imperial conditions that establish a basis for modern cosmopolitanism.” Considering how the postcard culture was produced by the material conditions of empire, it is no surprise that postcards, especially the colonial postcard, were particularly well suited to encode the project of empire with all its attendant anxieties and feats of discursive gymnastics. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+A European aesthetic of landscape had to be imported in, and the landscape had to be viewed through the  lens of that particular aesthetic in order to make it amenable to colonial society.  Examples like the view from Garkhal, Kasauli Hill in this image demonstrate another aspect of this transplanted aesthetic.  Not only did the domestication of mountains require an aesthetic response in how they were to be viewed, but the landscape of the hill stations had to be transformed, through architecture, gardening, and institutions like the army and the church. (Shashwati Talukdar)(gs)</ext:value>
+				<ext:value>related literature:
+Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714. (gs)</ext:value>
+				<ext:value>related literature:
+Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230. (gs)</ext:value>
+				<ext:value>related literature:
+Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press. (gs)</ext:value>
+				<ext:value>related literature:
+Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html (14.12.2010)(gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html (14.12.2010)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">A European aesthetic of landscape had to be imported in, and the landscape had to be viewed through the  lens of that particular aesthetic in order to make it amenable to colonial society.  Examples like the view from Garkhal, Kasauli Hill in this image demonstrate another aspect of this transplanted aesthetic.  Not only did the domestication of mountains require an aesthetic response in how they were to be viewed, but the landscape of the hill stations had to be transformed, through architecture, gardening, and institutions like the army and the church.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The picturesque aesthetic was a way of seeing that emphasized the suitability of a scene to be included in a picture, that is, it was pictorially assimilable.  This was the dominant aesthetic used in the colonies to not only portray the landscape, but to also change it. Hill station picture postcards show how this aesthetic was used to make &quot;mountains&quot; into &quot;hills.&quot;  They show us the aesthetic shifts that took place in order to create a &quot;home away from home.&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The neat fences, rows of pine trees and grassy expanses suggest a plantation. While there was a planter class in India, settler colonialism never really became dominant in the sub-continent, though plantations were successfully established in northern Bengal, Assam and the Nilgiris.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Picture postcards were immensely popular in Europe and its colonies between the 1890s and the First World War. The fact that this period also coincides with the heyday of European imperialism is not mere coincidence.  As Saloni Mathur points out, the picture postcard is “both a cosmopolitan form and a constant reminder of the imperial conditions that establish a basis for modern cosmopolitanism.” Considering how the postcard culture was produced by the material conditions of empire, it is no surprise that postcards, especially the colonial postcard, were particularly well suited to encode the project of empire with all its attendant anxieties and feats of discursive gymnastics.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Shashwati Talukdar</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108220</ext:value>
+				<ext:value>108220</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:22">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

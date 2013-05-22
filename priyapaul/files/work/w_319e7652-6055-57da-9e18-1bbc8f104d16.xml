@@ -1,43 +1,44 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_319e7652-6055-57da-9e18-1bbc8f104d16" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-088240fa-d01e-587a-bee4-7bf0ac401445">Shiva</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-78577f4f-0ab9-5de7-b77e-43498a631cce">Rishi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-e26cc769-03a7-561a-97a1-64bf0291a504">Ganga</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-86da9d08-5c03-5b0f-bcfd-661619bbd185">Chowdhury</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this sample image with the title &quot;Gangabtaran&quot; in the catalogue of Empire Calender Manufacturing Co., Lord Shiva can be seen standing tree trunk, being in contact with some deity in the sky while being watched from a Rishi (Indian Saint) and a hindu woman. In the background the horizon and some mountains can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this sample image with the title &quot;Gangabtaran&quot; in the catalogue of Empire Calender Manufacturing Co., Lord Shiva can be seen standing tree trunk, being in contact with some deity in the sky while being watched from a Rishi (Indian Saint) and a hindu woman. In the background the horizon and some mountains can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -54,10 +55,13 @@ No. 615</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119443" type="corporate">HeidICON Image Database</name>
+				<refid>119443</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -80,84 +84,99 @@ No. 615</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="0c740b41-1daa-582f-9c09-b0fd1631e995">
-				<term>cloud</term>
+				<term type="concept">clouds</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term>mountain</term>
+				<term type="concept">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1bc7cb31-e0d4-5d41-9b2f-fbb783a80ce0">
-				<term>Trishul (trident)</term>
+				<term type="concept">trishul (trident)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="afaa78de-60b1-5416-b944-43ca89c30689">
-				<term>sage</term>
+				<term type="concept">sages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Gangabtaran&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Gangabtaran&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Chowdhury</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Chowdhury</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Chowdhury</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Chowdhury</ext:value>
+				<ext:value>text-en:
 GANGABTARAN
-No. 615</hra:value>
-				<hra:value>description-en:
-On this sample image with the title &quot;Gangabtaran&quot; in the catalogue of Empire Calender Manufacturing Co., Lord Shiva can be seen standing tree trunk, being in contact with some deity in the sky while being watched from a Rishi (Indian Saint) and a hindu woman. In the background the horizon and some mountains can be seen. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-This image bears a close resemblance to the famous painter Raja Ravi Varma's painting depicting the descent of Ganga to earth. The tale goes that Bhagiratha the sage depicted in the image asked for Ganga to descend to earth so that his ancestors who were roaming the earth without attaining salvation could have their sins cleansed and ascend to heaven. Ganga took this as a insult and decided to sweep the whole earth away as she descended to earth. Bhagiratha got scared and prayed to Shiva to break Ganga's descent. Shiva caught her in his hair which meant she was released on earth in small streams. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119443</hra:value>
-				<hra:value>119443</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:28:22">
-			</hra:administrative>
-		</hra:heidicon>
+No. 615</ext:value>
+				<ext:value>description-en:
+On this sample image with the title &quot;Gangabtaran&quot; in the catalogue of Empire Calender Manufacturing Co., Lord Shiva can be seen standing tree trunk, being in contact with some deity in the sky while being watched from a Rishi (Indian Saint) and a hindu woman. In the background the horizon and some mountains can be seen. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+This image bears a close resemblance to the famous painter Raja Ravi Varma's painting depicting the descent of Ganga to earth. The tale goes that Bhagiratha the sage depicted in the image asked for Ganga to descend to earth so that his ancestors who were roaming the earth without attaining salvation could have their sins cleansed and ascend to heaven. Ganga took this as a insult and decided to sweep the whole earth away as she descended to earth. Bhagiratha got scared and prayed to Shiva to break Ganga's descent. Shiva caught her in his hair which meant she was released on earth in small streams. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This image bears a close resemblance to the famous painter Raja Ravi Varma's painting depicting the descent of Ganga to earth. The tale goes that Bhagiratha the sage depicted in the image asked for Ganga to descend to earth so that his ancestors who were roaming the earth without attaining salvation could have their sins cleansed and ascend to heaven. Ganga took this as a insult and decided to sweep the whole earth away as she descended to earth. Bhagiratha got scared and prayed to Shiva to break Ganga's descent. Shiva caught her in his hair which meant she was released on earth in small streams.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119443</ext:value>
+				<ext:value>119443</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:01">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

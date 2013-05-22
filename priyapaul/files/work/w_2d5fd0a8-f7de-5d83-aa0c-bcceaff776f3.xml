@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_2d5fd0a8-f7de-5d83-aa0c-bcceaff776f3" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this postcard a marketplace in a Chinese town or city close to a gate can be seen. Several merchants are sitting in front of their shops and observing the crowd. In the centre of the image, a man with his wife can be seen with a child and goods on his push cart.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>In this postcard a marketplace in a Chinese town or city close to a gate can be seen. Several merchants are sitting in front of their shops and observing the crowd. In the centre of the image, a man with his wife can be seen with a child and goods on his push cart.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -23,10 +29,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120626" type="corporate">HeidICON Image Database</name>
+				<refid>120626</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -39,7 +48,8 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0c5c581e-c36d-5301-829b-c563421ed72c" refid="120626" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0c5c581e-c36d-5301-829b-c563421ed72c" refid="120626" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_1f227478-ef99-5805-80bc-47573306df56" refid="118012" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -49,62 +59,70 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="00312b42-b6e3-52ad-add7-eefebdc52f7b">
-				<term>China</term>
+				<term type="geographic">China</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term>architecture</term>
+				<term type="concept">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="48eec9c0-5d67-5878-87de-df9c6aadcbef">
-				<term>marketplace</term>
+				<term type="concept">marketplaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29461d55-4471-5c88-b092-fc1eb4a1c32d">
-				<term>pushcart</term>
+				<term type="concept">pushcarts</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2cc31886-c714-56fc-a2c5-7c64ded6d562">
-				<term>gate</term>
+				<term type="concept">gates</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term>picture postcards</term>
+				<term type="worktype">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;A City Gate&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;A City Gate&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="439002b8-6c37-537a-b250-636cd927c04d">picture postcards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-J6</hra:value>
-				<hra:value>text-en:
-A City Gate</hra:value>
-				<hra:value>text-en:
-642</hra:value>
-				<hra:value>description-en:
-In this postcard a marketplace in a Chinese town or city close to a gate can be seen. Several merchants are sitting in front of their shops and observing the crowd. In the centre of the image, a man with his wife can be seen with a child and goods on his push cart. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120626</hra:value>
-				<hra:value>120626</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:37:21">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+J6</ext:value>
+				<ext:value>text-en:
+A City Gate</ext:value>
+				<ext:value>text-en:
+642</ext:value>
+				<ext:value>description-en:
+In this postcard a marketplace in a Chinese town or city close to a gate can be seen. Several merchants are sitting in front of their shops and observing the crowd. In the centre of the image, a man with his wife can be seen with a child and goods on his push cart. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118012</ext:value>
+				<ext:value>i_1f227478-ef99-5805-80bc-47573306df56</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120626</ext:value>
+				<ext:value>120626</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:03">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

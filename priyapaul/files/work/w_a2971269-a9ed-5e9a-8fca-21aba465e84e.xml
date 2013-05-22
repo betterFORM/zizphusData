@@ -1,23 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a2971269-a9ed-5e9a-8fca-21aba465e84e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-debc21eb-564b-52f1-97d2-f48a73c3b6b9">Oriental Calendar Manufacturing Company</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this poster, a family can be seen enjoying together at their well furnished house. The Mother is sitting on a couch, reading a magazine, while father is sitting next to her, slightly elevated, smoking a cigarette. Close to the couch, a boy and a girl can be seen, sitting on the ground and chatting with each other.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this poster, a family can be seen enjoying together at their well furnished house. The Mother is sitting on a couch, reading a magazine, while father is sitting next to her, slightly elevated, smoking a cigarette. Close to the couch, a boy and a girl can be seen, sitting on the ground and chatting with each other.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -27,10 +28,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119916" type="corporate">HeidICON Image Database</name>
+				<refid>119916</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -51,150 +55,290 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=79&amp;EId=95&amp;ImageId=17</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1950s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
-				<term>moon</term>
+				<term type="concept">moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term>child</term>
+				<term type="concept">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b3a53861-18b1-5119-aa01-e5de31526f5c">
-				<term>family</term>
+				<term type="concept">families</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1cf71e3-004e-5ca9-af3f-a86d3884e171">
-				<term>couch</term>
+				<term type="concept">couches (reclining furniture)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
-				<term>smoking</term>
+				<term type="concept">smoking (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dc85ab51-9404-54de-a69b-2727e536b297">
-				<term>reading</term>
+				<term type="concept">reading</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Family scene</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Family scene</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-On this poster, a family can be seen enjoying together at their well furnished house. The Mother is sitting on a couch, reading a magazine, while father is sitting next to her, slightly elevated, smoking a cigarette. Close to the couch, a boy and a girl can be seen, sitting on the ground and chatting with each other. (gs)</hra:value>
-				<hra:value>text-en:
-324</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-When family members do appear in the modern home, women appear in the warm glow of compassionate marriage. When gathered in the drawing room they enjoy the private pleasure of reading under the husband’s approving gaze.  Children might appear in both these images, but only as passive spectators or miniaturized accessories to marital bliss, not active participants in the family in their own right. (Abigail McGowan) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-This promised, romanticized autonomy of the modern female consumer has distinct limits.  For one, it presumes the male gaze.  For every image of a woman pursuing her own desires through tea, reading, or conversation, others offer visions of women poised to satisfy the desires of men.  Men are not depicted, leaving the women to still appear alone. (Abigail McGowan) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-This could well be a scene from a film. Interestingly, the spatial composition reminds of miniature painting. The scene is surreal in that the children are miniaturised adults, look like dolls, and the full moon has risen over a silhouette of houses or trees and lightens the large veranda of the house. The blue sofa is like a chaise longue. The couple shares something, their knowledge of the letter that the woman is about to read - he looks as if he already knows what it says, and she is reading it silently. both are very serious and there is a certain dose of drama in the scene. One keeps wondering why she had covered her head though she is in the house - is he a stranger, and not her husband? (cb)</hra:value>
-				<hra:value>related literature:
-Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/96/index.html, last accessed 2011-04-13, essay &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; by Sandria B. Freitag (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/104/index.html, last accessed 2010-12-14, essay &quot;Selling Soap and Stardom: The Story of Lux&quot; by Sabika Gadihoke. (gs)</hra:value>
-				<hra:value>related literature:
-Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/95/index.html, last accessed 2011-04-13, essay &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot; by Abigail McGowan. (gs)</hra:value>
-				<hra:value>related literature:
-McClintock, Anne 1995. &quot;Imperial Leather: Race, Gender, and Sexuality in the Colonial Conquest&quot; New York: Routledge, 216-217. (gs)</hra:value>
-				<hra:value>related literature:
-McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Uberoi, Patricia 2003. “Chicks, Kids and Couples: The Nation in Calendar Art,” in India, a National Culture?, ed. Geeti Sen. New Delhi: Sage Publications. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>McClintock, Anne 1995. &quot;Imperial Leather: Race, Gender, and Sexuality in the Colonial Conquest&quot; New York: Routledge, 216-217.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Uberoi, Patricia 2003. “Chicks, Kids and Couples: The Nation in Calendar Art,” in India, a National Culture?, ed. Geeti Sen. New Delhi: Sage Publications.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</hra:value>
-				<hra:value>2011-04-13</hra:value>
-				<hra:value>essay &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; by Sandria B. Freitag</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</hra:value>
-				<hra:value>2011-04-13</hra:value>
-				<hra:value>essay &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot; by Abigail McGowan.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</hra:value>
-				<hra:value>2010-12-14</hra:value>
-				<hra:value>essay &quot;Selling Soap and Stardom: The Story of Lux&quot; by Sabika Gadihoke.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119916</hra:value>
-				<hra:value>119916</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:57">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+On this poster, a family can be seen enjoying together at their well furnished house. The Mother is sitting on a couch, reading a magazine, while father is sitting next to her, slightly elevated, smoking a cigarette. Close to the couch, a boy and a girl can be seen, sitting on the ground and chatting with each other. (gs)</ext:value>
+				<ext:value>text-en:
+324</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+When family members do appear in the modern home, women appear in the warm glow of compassionate marriage. When gathered in the drawing room they enjoy the private pleasure of reading under the husband’s approving gaze.  Children might appear in both these images, but only as passive spectators or miniaturized accessories to marital bliss, not active participants in the family in their own right. (Abigail McGowan) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+This promised, romanticized autonomy of the modern female consumer has distinct limits.  For one, it presumes the male gaze.  For every image of a woman pursuing her own desires through tea, reading, or conversation, others offer visions of women poised to satisfy the desires of men.  Men are not depicted, leaving the women to still appear alone. (Abigail McGowan) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+This could well be a scene from a film. Interestingly, the spatial composition reminds of miniature painting. The scene is surreal in that the children are miniaturised adults, look like dolls, and the full moon has risen over a silhouette of houses or trees and lightens the large veranda of the house. The blue sofa is like a chaise longue. The couple shares something, their knowledge of the letter that the woman is about to read - he looks as if he already knows what it says, and she is reading it silently. both are very serious and there is a certain dose of drama in the scene. One keeps wondering why she had covered her head though she is in the house - is he a stranger, and not her husband? (cb)</ext:value>
+				<ext:value>related literature:
+Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/96/index.html, last accessed 2011-04-13, essay &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; by Sandria B. Freitag (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/104/index.html, last accessed 2010-12-14, essay &quot;Selling Soap and Stardom: The Story of Lux&quot; by Sabika Gadihoke. (gs)</ext:value>
+				<ext:value>related literature:
+Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/95/index.html, last accessed 2011-04-13, essay &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot; by Abigail McGowan. (gs)</ext:value>
+				<ext:value>related literature:
+McClintock, Anne 1995. &quot;Imperial Leather: Race, Gender, and Sexuality in the Colonial Conquest&quot; New York: Routledge, 216-217. (gs)</ext:value>
+				<ext:value>related literature:
+McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Uberoi, Patricia 2003. “Chicks, Kids and Couples: The Nation in Calendar Art,” in India, a National Culture?, ed. Geeti Sen. New Delhi: Sage Publications. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">McClintock, Anne 1995. &quot;Imperial Leather: Race, Gender, and Sexuality in the Colonial Conquest&quot; New York: Routledge, 216-217.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Uberoi, Patricia 2003. “Chicks, Kids and Couples: The Nation in Calendar Art,” in India, a National Culture?, ed. Geeti Sen. New Delhi: Sage Publications.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</ext:value>
+				<ext:value type="accessed">2011-04-13</ext:value>
+				<ext:value type="comment">essay &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; by Sandria B. Freitag</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</ext:value>
+				<ext:value type="accessed">2011-04-13</ext:value>
+				<ext:value type="comment">essay &quot;Modernity at Home: Leisure, Autonomy and the New Woman in India&quot; by Abigail McGowan.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</ext:value>
+				<ext:value type="accessed">2010-12-14</ext:value>
+				<ext:value type="comment">essay &quot;Selling Soap and Stardom: The Story of Lux&quot; by Sabika Gadihoke.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">When family members do appear in the modern home, women appear in the warm glow of compassionate marriage. When gathered in the drawing room they enjoy the private pleasure of reading under the husband’s approving gaze.  Children might appear in both these images, but only as passive spectators or miniaturized accessories to marital bliss, not active participants in the family in their own right.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Abigail McGowan</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This could well be a scene from a film. Interestingly, the spatial composition reminds of miniature painting. The scene is surreal in that the children are miniaturised adults, look like dolls, and the full moon has risen over a silhouette of houses or trees and lightens the large veranda of the house. The blue sofa is like a chaise longue. The couple shares something, their knowledge of the letter that the woman is about to read - he looks as if he already knows what it says, and she is reading it silently. both are very serious and there is a certain dose of drama in the scene. One keeps wondering why she had covered her head though she is in the house - is he a stranger, and not her husband?</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This promised, romanticized autonomy of the modern female consumer has distinct limits.  For one, it presumes the male gaze.  For every image of a woman pursuing her own desires through tea, reading, or conversation, others offer visions of women poised to satisfy the desires of men.  Men are not depicted, leaving the women to still appear alone.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Abigail McGowan</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=79&amp;EId=95&amp;ImageId=17</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119916</ext:value>
+				<ext:value>119916</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:47">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

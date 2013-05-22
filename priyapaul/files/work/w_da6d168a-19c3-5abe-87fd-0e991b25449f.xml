@@ -1,23 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_da6d168a-19c3-5abe-87fd-0e991b25449f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Lord Krishna, dressed in saffron clothes, a yellow cape and wearing a garland of flowers and a crown with a peacock feather on his head is seen standing next to two women. He holds a flute in his right hand and looks towards one of the women. She is dressed in a white and gold sari and has long black hair and looks towards Krishna. Near her, another woman dressed in a blue and gold sari kneels down and picks something up from the ground. A tree can be seen in the background.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Lord Krishna, dressed in saffron clothes, a yellow cape and wearing a garland of flowers and a crown with a peacock feather on his head is seen standing next to two women. He holds a flute in his right hand and looks towards one of the women. She is dressed in a white and gold sari and has long black hair and looks towards Krishna. Near her, another woman dressed in a blue and gold sari kneels down and picks something up from the ground. A tree can be seen in the background.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -27,10 +28,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108306" type="corporate">HeidICON Image Database</name>
+				<refid>108306</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -51,79 +55,111 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.exoticindiaart.com/krishna.htm</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term>textile label</term>
+				<term type="worktype">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term>flute</term>
+				<term type="work">flutes (aerophones)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Lord Krishna with two women</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Lord Krishna with two women</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="b2340835-33bd-5d41-800a-95ea3484daea">labels</worktype>
+			<worktype>labels</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Copyright No. 2478</hra:value>
-				<hra:value>description-en:
-Lord Krishna, dressed in saffron clothes, a yellow cape and wearing a garland of flowers and a crown with a peacock feather on his head is seen standing next to two women. He holds a flute in his right hand and looks towards one of the women. She is dressed in a white and gold sari and has long black hair and looks towards Krishna. Near her, another woman dressed in a blue and gold sari kneels down and picks something up from the ground. A tree can be seen in the background. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern. (gs)</hra:value>
-				<hra:value>related hyperlink:
-http://www.exoticindiaart.com/krishna.htm, last accessed 2011-09-17, information about Krishna as the Divine Lover in Indian Art as quoted above. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.exoticindiaart.com/krishna.htm</hra:value>
-				<hra:value>2011-09-17</hra:value>
-				<hra:value>information about Krishna as the Divine Lover in Indian Art as quoted above.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108306</hra:value>
-				<hra:value>108306</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:45:33">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Copyright No. 2478</ext:value>
+				<ext:value>description-en:
+Lord Krishna, dressed in saffron clothes, a yellow cape and wearing a garland of flowers and a crown with a peacock feather on his head is seen standing next to two women. He holds a flute in his right hand and looks towards one of the women. She is dressed in a white and gold sari and has long black hair and looks towards Krishna. Near her, another woman dressed in a blue and gold sari kneels down and picks something up from the ground. A tree can be seen in the background. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern. (gs)</ext:value>
+				<ext:value>related hyperlink:
+http://www.exoticindiaart.com/krishna.htm, last accessed 2011-09-17, information about Krishna as the Divine Lover in Indian Art as quoted above. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.exoticindiaart.com/krishna.htm</ext:value>
+				<ext:value type="accessed">2011-09-17</ext:value>
+				<ext:value type="comment">information about Krishna as the Divine Lover in Indian Art as quoted above.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.exoticindiaart.com/krishna.htm</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108306</ext:value>
+				<ext:value>108306</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:04">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

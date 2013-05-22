@@ -1,44 +1,48 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_0d1414db-0073-5012-afce-efac3655604b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-bff732b5-f73b-5c60-9e5b-d32a565be612">Kapoor, Shashi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f28aeb1e-6b4f-5d2d-a35a-bbaf9d90d582">Jalal Agha</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<name vocab="local" type="personal" refid="uuid-f28aeb1e-6b4f-5d2d-a35a-bbaf9d90d582">Agha, Jalal</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-4b5f2d72-9735-5f40-a3b0-763e300b937d">Nafisa Ali</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<name vocab="local" type="personal" refid="uuid-f68b5c0c-552a-5215-8370-e014749d119b">Benegal, Shyam</name>
+				<role vocab="marcrelator" type="code">art</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-4b5f2d72-9735-5f40-a3b0-763e300b937d">Ali, Nafisa</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-bf77945c-3c0f-58bd-9c66-eebfc85ef309">Alter, Tom</name>
-				<role vocab="marcrelator" code="art">Artist</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-f68b5c0c-552a-5215-8370-e014749d119b">Shyam Benegal</name>
-				<role/>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1973</earliestDate>
-				<latestDate>1973</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A lobby card for the movie &quot;Junoon&quot; released in 1978 shows the male protagonist, Shashi Kapoor on a horse looking toward two women sitting in a tonga (the horse cart) while the tonga driver looks at Shashi Kapoor. Another man stands besides the horse. The tonga has an umbrella to provide shade. The actors wear typical Muslim clothes of 19th Century.</description>
+			<description lang="en" script="Latn">
+				<text>A lobby card for the movie &quot;Junoon&quot; released in 1978 shows the male protagonist, Shashi Kapoor on a horse looking toward two women sitting in a tonga (the horse cart) while the tonga driver looks at Shashi Kapoor. Another man stands besides the horse. The tonga has an umbrella to provide shade. The actors wear typical Muslim clothes of 19th Century.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-9d799ca6-24a1-539f-b5a0-023325f6c142">zaboravkk, zaboravkk</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -50,17 +54,21 @@ a film by Shyam Benegal</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120863" type="corporate">HeidICON Image Database</name>
+				<refid>120863</refid>
 			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a6c30491-20b2-54da-b03f-e9d2147bc03b" refid="120863" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a6c30491-20b2-54da-b03f-e9d2147bc03b" refid="120863" source="EXC Priya Paul Collection" pref="true">front</relation>
+			<relation type="imageIs" relids="i_99c1639b-6e30-508b-b204-882f702fd01c" refid="118101" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -68,80 +76,116 @@ a film by Shyam Benegal</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0077783/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term>horse</term>
+				<term type="concept">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="85507a48-ddfe-5827-9b76-51fdfa9c8abf">
-				<term>truck</term>
+				<term type="concept">trucks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4400f7e9-1ea7-541b-98c9-dc1f6c1cf73d">
-				<term>tonga</term>
+				<term type="concept">tonga</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Junoon&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Junoon&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Shashi Kapoor presents 
 Junoon
-a film by Shyam Benegal</hra:value>
-				<hra:value>description-en:
+a film by Shyam Benegal</ext:value>
+				<ext:value>description-en:
 A lobby card for the movie &quot;Junoon&quot; released in 1978 shows the male protagonist, Shashi Kapoor on a horse looking toward two women sitting in a tonga (the horse cart) while the tonga driver looks at Shashi Kapoor. Another man stands besides the horse. The tonga has an umbrella to provide shade. The actors wear typical Muslim clothes of 19th Century. 
-(gs/sb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Story line of the movie: The movie chronicles the period of 1857 to 1858 when the soldiers of the East India Company mutinied and many smaller kingdoms joined the soldiers in the hope of regaining their territories from the English. The movie is shown from the perspective of one of the leaders of the fight (Shashi Kapoor). () (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0077783/, last accessed 2011-12-14, story line, leading actors, director. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0077783/</hra:value>
-				<hra:value>2011-12-14</hra:value>
-				<hra:value>story line, leading actors, director.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120863</hra:value>
-				<hra:value>120863</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:34">
-			</hra:administrative>
-		</hra:heidicon>
+(gs/sb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Story line of the movie: The movie chronicles the period of 1857 to 1858 when the soldiers of the East India Company mutinied and many smaller kingdoms joined the soldiers in the hope of regaining their territories from the English. The movie is shown from the perspective of one of the leaders of the fight (Shashi Kapoor). () (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0077783/, last accessed 2011-12-14, story line, leading actors, director. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0077783/</ext:value>
+				<ext:value type="accessed">2011-12-14</ext:value>
+				<ext:value type="comment">story line, leading actors, director.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Story line of the movie: The movie chronicles the period of 1857 to 1858 when the soldiers of the East India Company mutinied and many smaller kingdoms joined the soldiers in the hope of regaining their territories from the English. The movie is shown from the perspective of one of the leaders of the fight (Shashi Kapoor).</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118101</ext:value>
+				<ext:value>i_99c1639b-6e30-508b-b204-882f702fd01c</ext:value>
+				<ext:value>back</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0077783/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120863</ext:value>
+				<ext:value>120863</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:25">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

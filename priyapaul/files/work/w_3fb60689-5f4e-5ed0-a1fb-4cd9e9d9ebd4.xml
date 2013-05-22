@@ -1,12 +1,12 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_3fb60689-5f4e-5ed0-a1fb-4cd9e9d9ebd4" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<inscriptionSet>
+		<inscriptionSet>
 			<inscription>
 				<text type="text" lang="en">17. Super Deluxe Cardboard 18. Thums Up 19. Safety Matches. Marketed by: The Continental Match Company 20. Roller Safety Matches 21. (Back of number 20). Roller. Meena Match Industries (B) Unit. Sankaralingapuram. 22. Special 502 Damp Proff. 23. Safety Matches Deluxe 24. Super 501 Safety Matches. 25. Swan 26. New Lucky 502 Safety Matches 27. Back of number twenty-seven. 28. Makan (Hindi text) Super Deluxe Matches 29. Back of twenty eight. 30. Kathiravan Match Works. Sanankulam. 31. Moscot 32. Meerakumanr Match Works. Chindapalli. 33. Packyalakshmi Match Works. Manthithoppu 34.Master Pan Safety Match.35. VKT. Alagar Match Works. Mettugundu. 36. Sarathi Safety Matches. @artist=Collector : Abhishek Khandelwal</text>
 			</inscription>
@@ -14,10 +14,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108109" type="corporate">HeidICON Image Database</name>
+				<refid>108109</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -40,56 +43,76 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
-				<term>matchcover</term>
+				<term type="concept">matchbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
-				<term>matchbox</term>
+				<term type="worktype">matchboxes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb727222-03b4-5bf3-8d6d-69816a39102f">
-				<term>Klebezettel</term>
+				<term type="concept">Klebezettel</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="45a93c31-a4a8-5a15-960b-7a42d4ee0c4a">
-				<term>collections (object groupings)</term>
+				<term type="concept">collections (object groupings)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">20 Matchbox covers</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">20 Matchbox covers</title>
 		</titleSet>
 		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">matchboxes</worktype>
 			<worktype vocab="local" source="EXC" refid="55f1923a-6951-5b93-b433-aea716f3ce5e">scrapbooks</worktype>
-			<worktype>matchboxes</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-17. Super Deluxe Cardboard 18. Thums Up 19. Safety Matches. Marketed by: The Continental Match Company 20. Roller Safety Matches 21. (Back of number 20). Roller. Meena Match Industries (B) Unit. Sankaralingapuram. 22. Special 502 Damp Proff. 23. Safety Matches Deluxe 24. Super 501 Safety Matches. 25. Swan 26. New Lucky 502 Safety Matches 27. Back of number twenty-seven. 28. Makan (Hindi text) Super Deluxe Matches 29. Back of twenty eight. 30. Kathiravan Match Works. Sanankulam. 31. Moscot 32. Meerakumanr Match Works. Chindapalli. 33. Packyalakshmi Match Works. Manthithoppu 34.Master Pan Safety Match.35. VKT. Alagar Match Works. Mettugundu. 36. Sarathi Safety Matches. @artist=Collector : Abhishek Khandelwal</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/249.tif</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-A leaf of a scrap book. (ja)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108109</hra:value>
-				<hra:value>108109</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:39:01">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+17. Super Deluxe Cardboard 18. Thums Up 19. Safety Matches. Marketed by: The Continental Match Company 20. Roller Safety Matches 21. (Back of number 20). Roller. Meena Match Industries (B) Unit. Sankaralingapuram. 22. Special 502 Damp Proff. 23. Safety Matches Deluxe 24. Super 501 Safety Matches. 25. Swan 26. New Lucky 502 Safety Matches 27. Back of number twenty-seven. 28. Makan (Hindi text) Super Deluxe Matches 29. Back of twenty eight. 30. Kathiravan Match Works. Sanankulam. 31. Moscot 32. Meerakumanr Match Works. Chindapalli. 33. Packyalakshmi Match Works. Manthithoppu 34.Master Pan Safety Match.35. VKT. Alagar Match Works. Mettugundu. 36. Sarathi Safety Matches. @artist=Collector : Abhishek Khandelwal</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/249.tif</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+A leaf of a scrap book. (ja)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">A leaf of a scrap book.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Alisch, Johannes</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/249.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108109</ext:value>
+				<ext:value>108109</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:45">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

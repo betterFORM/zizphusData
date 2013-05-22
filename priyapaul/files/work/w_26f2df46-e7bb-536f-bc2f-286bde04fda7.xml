@@ -1,13 +1,23 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_26f2df46-e7bb-536f-bc2f-286bde04fda7" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">This image, an advertisement for Kaminia Products, has an illustration of an Indian woman with a translucent veil covering her head, earrings and a bindi on her forehead. To the left of the image is a packet labelled Kaminia oil and a small bottle labelled Kaminia snow. To the right of the image is a small bottle with the label Otto Dilbahar and a packet labelled Kaminia sandal soap. The packet has the image of a woman holding a basket on it.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>This image, an advertisement for Kaminia Products, has an illustration of an Indian woman with a translucent veil covering her head, earrings and a bindi on her forehead. To the left of the image is a packet labelled Kaminia oil and a small bottle labelled Kaminia snow. To the right of the image is a small bottle with the label Otto Dilbahar and a packet labelled Kaminia sandal soap. The packet has the image of a woman holding a basket on it.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -34,10 +44,13 @@ Kaminia Perfumery Co Bombay</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119775" type="corporate">HeidICON Image Database</name>
+				<refid>119775</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -60,68 +73,68 @@ Kaminia Perfumery Co Bombay</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a0d4361-0930-5f95-9b01-e90ec197f6d3">
-				<term>veil</term>
+				<term type="concept">veils (headcloths)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="344a6b29-b2b4-5490-8024-2ab8751ed66d">
-				<term>cosmetic product</term>
+				<term type="concept">cosmetics</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="93d4dd84-99a8-5d5d-9eef-e1b21db03ace">
-				<term>soap</term>
+				<term type="concept">soap (organic material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
-				<term>soap advertising</term>
+				<term type="concept">soap advertisings</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="79d14c4d-4923-5fc1-9b05-22ec18142a23">
-				<term>Kaminia Products</term>
+				<term type="brand">Kaminia Products</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
-				<term>hair oil</term>
+				<term type="concept">hair oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term>Times of India Yearbook</term>
+				<term type="work">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">An advertisement of Kaminia Beauty Products</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Kaminia Beauty Products</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Open Secrets of charm and attraction
 Kaminia Oil
 Kaminia snow
 Kaminia Soaps 
 Otto Dilbahar
-Kaminia Products</hra:value>
-				<hra:value>text-en:
+Kaminia Products</ext:value>
+				<ext:value>text-en:
 Kaminia Oil
 Delicately perfumed oil for beautifying and increasing the growth of hair. 
 To be rubbed well into the roots of the hair daily. 
@@ -131,31 +144,42 @@ an ideal day cream
 Otto Dilbahar
 Kaminia Perfumery Co Bombay
 Kaminia Sandal Soap
-Kaminia Perfumery Co Bombay</hra:value>
-				<hra:value>description-en:
-This image, an advertisement for Kaminia Products, has an illustration of an Indian woman with a translucent veil covering her head, earrings and a bindi on her forehead. To the left of the image is a packet labelled Kaminia oil and a small bottle labelled Kaminia snow. To the right of the image is a small bottle with the label Otto Dilbahar and a packet labelled Kaminia sandal soap. The packet has the image of a woman holding a basket on it. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/1111.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119775</hra:value>
-				<hra:value>119775</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:42:33">
-			</hra:administrative>
-		</hra:heidicon>
+Kaminia Perfumery Co Bombay</ext:value>
+				<ext:value>description-en:
+This image, an advertisement for Kaminia Products, has an illustration of an Indian woman with a translucent veil covering her head, earrings and a bindi on her forehead. To the left of the image is a packet labelled Kaminia oil and a small bottle labelled Kaminia snow. To the right of the image is a small bottle with the label Otto Dilbahar and a packet labelled Kaminia sandal soap. The packet has the image of a woman holding a basket on it. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/1111.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/1111.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119775</ext:value>
+				<ext:value>119775</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:11">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

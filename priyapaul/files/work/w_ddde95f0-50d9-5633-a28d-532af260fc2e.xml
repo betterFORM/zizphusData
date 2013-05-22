@@ -1,19 +1,27 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_ddde95f0-50d9-5633-a28d-532af260fc2e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1935</earliestDate>
-				<latestDate>1935</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement calendar for &quot;Pan ka ikka&quot; bidis, a blonde woman, wearing a red dress, is sitting on a rocky beach and smoking a bidi.</description>
+			<description lang="en" script="Latn">
+				<text>On this advertisement calendar for &quot;Pan ka ikka&quot; bidis, a blonde woman, wearing a red dress, is sitting on a rocky beach and smoking a bidi.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -39,10 +47,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118288" type="corporate">HeidICON Image Database</name>
+				<refid>118288</refid>
 			</location>
 		</locationSet>
 		<measurementsSet>
@@ -52,7 +63,10 @@
 			<measurements shape="" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_c833d4b0-5c07-5746-911c-3be714e715bf" refid="118288" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_c833d4b0-5c07-5746-911c-3be714e715bf" refid="118288" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_9d81654d-a0e1-5d02-a716-fa6cdcf4c16c" refid="118290" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_c25a5e5f-9aab-52d3-ae72-ab693b5d7600" refid="118291" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_25219cb2-e3bd-56b3-9982-4805ce18821f" refid="118289" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -62,86 +76,117 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term>ocean</term>
+				<term type="concept">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d682edd8-6174-5fed-b5e8-e1dff9769f45">
-				<term>beach</term>
+				<term type="concept">beaches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5baf3f4c-27ac-5b6b-a12a-0450ff4b9e56">
-				<term>Bidi</term>
+				<term type="concept">bidi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term>Caucasian type</term>
+				<term type="concept">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf7de29c-dc86-5221-b1d0-f1ef5165575c">
-				<term>blonde hair</term>
+				<term type="concept">blonde hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
-				<term>smoking</term>
+				<term type="concept">smoking (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="23587ad0-932b-587d-967a-22100be8c901">
-				<term>rock</term>
+				<term type="concept">rock</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9e6aad9d-e671-5832-81c3-c9ad5f480fd8">
-				<term>Made in Japan</term>
+				<term type="concept">Made in Japan</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6c8dfe5-5dd1-584c-9b2e-d7d51c6ebd5e">
-				<term>recheck-Hindi-title</term>
+				<term type="internal workflow">recheck-Hindi-title</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">January 1935 advertisement calendar for &quot;Pan ka Ikka&quot; bidi</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">January 1935 advertisement calendar for &quot;Pan ka Ikka&quot; bidi</title>
 		</titleSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+		</worktypeSet>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Regd. No.
-258.</hra:value>
-				<hra:value>text-en:
-Printed in Japan</hra:value>
-				<hra:value>text-hi:
+258.</ext:value>
+				<ext:value>text-en:
+Printed in Japan</ext:value>
+				<ext:value>text-hi:
 बीड़ी
 असली
 पान का ईक्का
-पिया करो</hra:value>
-				<hra:value>text-hi:
-रामजीदास जैनी एन्ड की सदर बाजार देहली</hra:value>
-				<hra:value>text-ur:
-PLEASE ENTER HERE</hra:value>
-				<hra:value>description-en:
-On this advertisement calendar for &quot;Pan ka ikka&quot; bidis, a blonde woman, wearing a red dress, is sitting on a rocky beach and smoking a bidi. (gs/tb/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080430_0253.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118288</hra:value>
-				<hra:value>118288</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:18">
-			</hra:administrative>
-		</hra:heidicon>
+पिया करो</ext:value>
+				<ext:value>text-hi:
+रामजीदास जैनी एन्ड की सदर बाजार देहली</ext:value>
+				<ext:value>text-ur:
+PLEASE ENTER HERE</ext:value>
+				<ext:value>description-en:
+On this advertisement calendar for &quot;Pan ka ikka&quot; bidis, a blonde woman, wearing a red dress, is sitting on a rocky beach and smoking a bidi. (gs/tb/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080430_0253.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080430_0253.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118290</ext:value>
+				<ext:value>i_9d81654d-a0e1-5d02-a716-fa6cdcf4c16c</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118291</ext:value>
+				<ext:value>i_c25a5e5f-9aab-52d3-ae72-ab693b5d7600</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118289</ext:value>
+				<ext:value>i_25219cb2-e3bd-56b3-9982-4805ce18821f</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118288</ext:value>
+				<ext:value>118288</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:59">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

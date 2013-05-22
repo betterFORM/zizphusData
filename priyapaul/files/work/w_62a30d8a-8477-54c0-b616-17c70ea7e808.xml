@@ -1,28 +1,43 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_62a30d8a-8477-54c0-b616-17c70ea7e808" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-0f98a095-578b-5888-895e-0555556f4d72">Anantha-Shesha</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e220d6e4-a7f6-5b1f-b5e1-3ae04fbf95a1">Kaloojee Valajee Tobacco</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-37632e56-d9b8-540e-9cbe-5f5a70e05f57">The Oriental Printing Works Calendar Manufacturers</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Lord Vishnu is depicted with the cosmic serpant Anantha-Shesha, holding the Sudarshana chakra, a conch, a lotus flower and the kaumodaki (mace). He is wearing a crown with a peacock feather on it. The sides of the image are painted with golden decorations imitating carved wood. There are two stamps in the upper corners of the image showing the trade mark (tobacco plant next to a resting lion) and the company name in many different languages, like Hindi, Urdu, Tamil, Bengali.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Lord Vishnu is depicted with the cosmic serpant Anantha-Shesha, holding the Sudarshana chakra, a conch, a lotus flower and the kaumodaki (mace). He is wearing a crown with a peacock feather on it. The sides of the image are painted with golden decorations imitating carved wood. There are two stamps in the upper corners of the image showing the trade mark (tobacco plant next to a resting lion) and the company name in many different languages, like Hindi, Urdu, Tamil, Bengali.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -59,10 +74,13 @@ Rangoon.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120007" type="corporate">HeidICON Image Database</name>
+				<refid>120007</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -83,141 +101,195 @@ Rangoon.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=82&amp;EId=100&amp;ImageId=7</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term>crown</term>
+				<term type="concept">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term>lotus</term>
+				<term type="plant">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term>snake</term>
+				<term type="animal">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a3f70838-f0ff-504d-a698-805e39fe4cd8">
-				<term>mace</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="0f98a095-578b-5888-895e-0555556f4d72">
-				<term>Anantha-Shesha</term>
+				<term type="concept">clubs (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5baf3f4c-27ac-5b6b-a12a-0450ff4b9e56">
-				<term>Bidi</term>
+				<term type="concept">bidi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2252f1fc-da24-547a-8be8-b87c2708ef66">
-				<term>cartouche</term>
+				<term type="concept">cartouches (ornaments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="86cb7a2e-f3e8-57df-9853-9d34711f2556">
-				<term>Kaumodaki</term>
+				<term type="concept">Kaumodaki</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="be026e2b-22f8-5cf5-be76-4f3f6cbc279c">
-				<term>trompe-l'oeil</term>
+				<term type="concept">trompe-l'oeil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04ac3980-553b-584e-90f6-8e01d243630a">
-				<term>Kaloojee Nakhia Beedi</term>
+				<term type="brand">Kaloojee Nakhia Beedi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Tobacco advertisement with Lord Vishnu</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Tobacco advertisement with Lord Vishnu</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 &quot;Smoke for Superfine Enjoyment&quot;
 Made of the Finest and
 Purest Tobacco
 Available Everywhere
-&quot;Beware of Imitation&quot;</hra:value>
-				<hra:value>text-en:
-Smoke Kaloojee Beedi</hra:value>
-				<hra:value>text-en:
+&quot;Beware of Imitation&quot;</ext:value>
+				<ext:value>text-en:
+Smoke Kaloojee Beedi</ext:value>
+				<ext:value>text-en:
 Kaloojee Nakhia Beedi
 known for Quality
-and unserpassed.</hra:value>
-				<hra:value>text-en:
-Printed in Germany</hra:value>
-				<hra:value>text-en:
-The Oriental Printing Works Calendar Manufacturers 160. Darr St. Rangoon</hra:value>
-				<hra:value>text-en:
+and unserpassed.</ext:value>
+				<ext:value>text-en:
+Printed in Germany</ext:value>
+				<ext:value>text-en:
+The Oriental Printing Works Calendar Manufacturers 160. Darr St. Rangoon</ext:value>
+				<ext:value>text-en:
 Kaloojee Valajee
 249, Fraser Street,
-Rangoon.</hra:value>
-				<hra:value>text-en:
-66206</hra:value>
-				<hra:value>description-en:
-Lord Vishnu is depicted with the cosmic serpant Anantha-Shesha, holding the Sudarshana chakra, a conch, a lotus flower and the kaumodaki (mace). He is wearing a crown with a peacock feather on it. The sides of the image are painted with golden decorations imitating carved wood. There are two stamps in the upper corners of the image showing the trade mark (tobacco plant next to a resting lion) and the company name in many different languages, like Hindi, Urdu, Tamil, Bengali. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Among the first examples of bazaar art are the pictures accompanying bales of textiles to be sold, a practice that may have begun sometime in the 1860s or ‘70s. These pictures served as means of quickly distinguishing one manufacturer from another, with images presumably helping to overcome challenges of literacy and linguistic difference as the goods traveled from producer to wholesaler, retailer and consumer. These pictures often bore no connection to the products sold; for example mythological imagery was often used to identify one brand of textiles as against another. The British companies selling these goods presumably treated the images simply as ways of promoting their products, rather than as either expressions of their own beliefs, or as endorsements of the beliefs of their customers. (Arvind Rajagopal)(gs)</hra:value>
-				<hra:value>related literature:
-Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson. (gs)</hra:value>
-				<hra:value>related literature:
-Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-15. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-15, Essay &quot;The Commodity Image in the (Post) Colony&quot; by Rajagopal, Arvind, 2010. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-15.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</hra:value>
-				<hra:value>2011-01-15</hra:value>
-				<hra:value>Essay &quot;The Commodity Image in the (Post) Colony&quot; by Rajagopal, Arvind, 2010.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120007</hra:value>
-				<hra:value>120007</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:30:11">
-			</hra:administrative>
-		</hra:heidicon>
+Rangoon.</ext:value>
+				<ext:value>text-en:
+66206</ext:value>
+				<ext:value>description-en:
+Lord Vishnu is depicted with the cosmic serpant Anantha-Shesha, holding the Sudarshana chakra, a conch, a lotus flower and the kaumodaki (mace). He is wearing a crown with a peacock feather on it. The sides of the image are painted with golden decorations imitating carved wood. There are two stamps in the upper corners of the image showing the trade mark (tobacco plant next to a resting lion) and the company name in many different languages, like Hindi, Urdu, Tamil, Bengali. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Among the first examples of bazaar art are the pictures accompanying bales of textiles to be sold, a practice that may have begun sometime in the 1860s or ‘70s. These pictures served as means of quickly distinguishing one manufacturer from another, with images presumably helping to overcome challenges of literacy and linguistic difference as the goods traveled from producer to wholesaler, retailer and consumer. These pictures often bore no connection to the products sold; for example mythological imagery was often used to identify one brand of textiles as against another. The British companies selling these goods presumably treated the images simply as ways of promoting their products, rather than as either expressions of their own beliefs, or as endorsements of the beliefs of their customers. (Arvind Rajagopal)(gs)</ext:value>
+				<ext:value>related literature:
+Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson. (gs)</ext:value>
+				<ext:value>related literature:
+Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-15. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-15, Essay &quot;The Commodity Image in the (Post) Colony&quot; by Rajagopal, Arvind, 2010. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-15.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</ext:value>
+				<ext:value type="accessed">2011-01-15</ext:value>
+				<ext:value type="comment">Essay &quot;The Commodity Image in the (Post) Colony&quot; by Rajagopal, Arvind, 2010.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Among the first examples of bazaar art are the pictures accompanying bales of textiles to be sold, a practice that may have begun sometime in the 1860s or ‘70s. These pictures served as means of quickly distinguishing one manufacturer from another, with images presumably helping to overcome challenges of literacy and linguistic difference as the goods traveled from producer to wholesaler, retailer and consumer. These pictures often bore no connection to the products sold; for example mythological imagery was often used to identify one brand of textiles as against another. The British companies selling these goods presumably treated the images simply as ways of promoting their products, rather than as either expressions of their own beliefs, or as endorsements of the beliefs of their customers.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Arvind Rajagopal</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=82&amp;EId=100&amp;ImageId=7</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120007</ext:value>
+				<ext:value>120007</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:28">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

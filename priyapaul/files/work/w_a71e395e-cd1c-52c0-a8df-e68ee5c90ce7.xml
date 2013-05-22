@@ -1,39 +1,43 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a71e395e-cd1c-52c0-a8df-e68ee5c90ce7" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2966151b-543f-5a77-bbf1-91396206d367">Jahanara</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-91b60b26-decc-5f43-a36f-56217e9ac3b0">Kumar, Vinod</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-59570487-101f-5a49-b808-8e93cd287171">Kapoor, Prithviraj</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-11be0dcd-4080-5487-9460-b04fbec7d68c">Bhushan, Bharat</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1964</earliestDate>
-				<latestDate>1964</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Prithviraj Kapoor &amp; Bharat Bhushan, two of the main actors of the movie &quot;Jahan Ara&quot;, released in 1964, lean back against bolsters as they watch a dance performance. The background with the pillars and lattice looks like a palace.</description>
+			<description lang="en" script="Latn">
+				<text>Prithviraj Kapoor &amp; Bharat Bhushan, two of the main actors of the movie &quot;Jahan Ara&quot;, released in 1964, lean back against bolsters as they watch a dance performance. The background with the pillars and lattice looks like a palace.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -70,10 +74,13 @@ Om Prakash Bakshi</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120496" type="corporate">HeidICON Image Database</name>
+				<refid>120496</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -87,7 +94,8 @@ Om Prakash Bakshi</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_351d4f82-c98d-5150-92cc-f3a5c0ed081d" refid="120496" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_351d4f82-c98d-5150-92cc-f3a5c0ed081d" refid="120496" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_ae4e347c-d67d-5349-9a78-d6024f5129ca" refid="117969" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,61 +103,78 @@ Om Prakash Bakshi</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.imdb.com/title/tt0137847/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1960s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a7268665-ba9d-5c6f-b4fe-ccaaa7062497">
-				<term>Jahan Ara Movie</term>
+				<term type="work (movie)">Jahan Ara (movie)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
-				<term>film</term>
+				<term type="concept">motion pictures (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c07330ed-d4cd-50b7-be79-13a81c122ac0">
-				<term>adaptation</term>
+				<term type="concept">adaptations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Jahan Ara&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jahan Ara&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">जहाँ आरा, جہاں آرا</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Light &amp; Shade presents</hra:value>
-				<hra:value>text-en:
-Jahan ara</hra:value>
-				<hra:value>text-en:
-eastmancolor</hra:value>
-				<hra:value>text-hi:
-जहाँ आरा</hra:value>
-				<hra:value>text-ur:
- جہاں آرا</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Light &amp; Shade presents</ext:value>
+				<ext:value>text-en:
+Jahan ara</ext:value>
+				<ext:value>text-en:
+eastmancolor</ext:value>
+				<ext:value>text-hi:
+जहाँ आरा</ext:value>
+				<ext:value>text-ur:
+ جہاں آرا</ext:value>
+				<ext:value>text-en:
 written &amp; directed by
 Vinod Kumar
 music
@@ -161,74 +186,150 @@ G. Singh
 art
 Sant Singh
 produced by
-Om Prakash Bakshi</hra:value>
-				<hra:value>description-en: 
-Prithviraj Kapoor &amp; Bharat Bhushan, two of the main actors of the movie &quot;Jahan Ara&quot;, released in 1964, lean back against bolsters as they watch a dance performance. The background with the pillars and lattice looks like a palace. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-This cinema lobby card from Jahan Ara (Vinod Kumar, 1964) encapsulates the dream-like beauty of a quasi-Mughal imaginary, including the ubiquitous motif of mujra/dance performance hinted at here. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights. (Rosie Thomas) (gs)</hra:value>
-				<hra:value>related literature:
-Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-20-22. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0137847/plotsummary, last accessed 2010-10-28. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010-10-28. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</hra:value>
-				<hra:value>2010-20-22</hra:value>
-				<hra:value>Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot;</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0137847/plotsummary</hra:value>
-				<hra:value>2010-10-28</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</hra:value>
-				<hra:value>2010-10-28</hra:value>
-				<hra:value>Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Prithviraj Kapoor</hra:value>
-			</hra:item>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Bharat Bhushan</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120496</hra:value>
-				<hra:value>120496</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:30:31">
-			</hra:administrative>
-		</hra:heidicon>
+Om Prakash Bakshi</ext:value>
+				<ext:value>description-en: 
+Prithviraj Kapoor &amp; Bharat Bhushan, two of the main actors of the movie &quot;Jahan Ara&quot;, released in 1964, lean back against bolsters as they watch a dance performance. The background with the pillars and lattice looks like a palace. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+This cinema lobby card from Jahan Ara (Vinod Kumar, 1964) encapsulates the dream-like beauty of a quasi-Mughal imaginary, including the ubiquitous motif of mujra/dance performance hinted at here. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights. (Rosie Thomas) (gs)</ext:value>
+				<ext:value>related literature:
+Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-20-22. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0137847/plotsummary, last accessed 2010-10-28. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010-10-28. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+				<ext:value type="accessed">2010-20-22</ext:value>
+				<ext:value type="comment">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0137847/plotsummary</ext:value>
+				<ext:value type="accessed">2010-10-28</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+				<ext:value type="accessed">2010-10-28</ext:value>
+				<ext:value type="comment">Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This cinema lobby card from Jahan Ara (Vinod Kumar, 1964) encapsulates the dream-like beauty of a quasi-Mughal imaginary, including the ubiquitous motif of mujra/dance performance hinted at here.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Prithviraj Kapoor</ext:value>
+			</ext:item>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Bharat Bhushan</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/117969</ext:value>
+				<ext:value>i_ae4e347c-d67d-5349-9a78-d6024f5129ca</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.imdb.com/title/tt0137847/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120496</ext:value>
+				<ext:value>120496</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:36">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

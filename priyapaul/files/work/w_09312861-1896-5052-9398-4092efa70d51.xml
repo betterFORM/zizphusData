@@ -1,43 +1,49 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_09312861-1896-5052-9398-4092efa70d51" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-737e6ca4-f0a7-5a9a-88f1-7c609b3bbcc6">Hanuman</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-048694c0-93ed-5b54-8923-fb9017e4b9ae">Rama</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-1492ff1c-4c12-5ddb-851a-22420405b9df">Lakshman</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ab5a8b28-1b2c-5799-ac2d-f921a6165393">Tulsidas</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-23f8a72d-8146-59a7-a914-6b553fa16d1e">Das, Sushil</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A sample image in the catalogue of Empire Calender Manufacturing Co. depicting Tulsidas, an Indian saint-poet  and philosopher who wrote the famous 'Ramcharitmanas', a retelling of the Ramayana in the language Awadhi from the original in Sanskrit. Tulsidas is shown in the image with Ram, Lakshman and Hanuman bowing before him. Ram and Lakshman are carrying bows and quivers full of arrows. Tulsidas holds a page in his left hand while he writes using a peacock feather on the next page. There is a small pot, possibly to hold ink next to him. A peacock and some rabbits can be seen in the the foreground and a big lake in the background.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A sample image in the catalogue of Empire Calender Manufacturing Co. depicting Tulsidas, an Indian saint-poet  and philosopher who wrote the famous 'Ramcharitmanas', a retelling of the Ramayana in the language Awadhi from the original in Sanskrit. Tulsidas is shown in the image with Ram, Lakshman and Hanuman bowing before him. Ram and Lakshman are carrying bows and quivers full of arrows. Tulsidas holds a page in his left hand while he writes using a peacock feather on the next page. There is a small pot, possibly to hold ink next to him. A peacock and some rabbits can be seen in the the foreground and a big lake in the background.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -57,10 +63,13 @@ No. 701</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119434" type="corporate">HeidICON Image Database</name>
+				<refid>119434</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -83,105 +92,107 @@ No. 701</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term>arrow</term>
+				<term type="concept">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term>bow</term>
+				<term type="concept">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="901dd9d4-9dfd-5fea-ab44-4dd02d31bfb8">
-				<term>quiver</term>
+				<term type="concept">quivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3db1d222-d591-5e56-9c91-097667ccf170">
-				<term>Ramayana</term>
+				<term type="work (epic)">Ramayana</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term>lake</term>
+				<term type="concept">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term>peacock</term>
+				<term type="animal">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b3818bd-32af-505f-b025-e3f07a743683">
-				<term>rabbit</term>
+				<term type="animal">rabbits</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term>signet</term>
+				<term type="concept">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Sant Tulsidas&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sant Tulsidas&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Das, Sushil</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en: 
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Das, Sushil</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en: 
 Sant Tulsidas
-No. 701</hra:value>
-				<hra:value>text-en: 
-ECM [publisher's signet]</hra:value>
-				<hra:value>text-en:
-Sushil Das..</hra:value>
-				<hra:value>description-en:
-A sample image in the catalogue of Empire Calender Manufacturing Co. depicting Tulsidas, an Indian saint-poet  and philosopher who wrote the famous 'Ramcharitmanas', a retelling of the Ramayana in the language Awadhi from the original in Sanskrit. Tulsidas is shown in the image with Ram, Lakshman and Hanuman bowing before him. Ram and Lakshman are carrying bows and quivers full of arrows. Tulsidas holds a page in his left hand while he writes using a peacock feather on the next page. There is a small pot, possibly to hold ink next to him. A peacock and some rabbits can be seen in the the foreground and a big lake in the background. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Tulsidas is sometimes believed to be a reincarnation of Valmiki, the original author of the epic Ramayana. This image could be a depiction of that association because Rama, Lakshman and Hanuman are important characters in the Ramayana. (sp)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.ramcharitmanas.iitk.ac.in/manas1/html/tulsim.htm, Tulsidas' life, last accessed 2011-07-23 (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.ramcharitmanas.iitk.ac.in/manas1/html/tulsim.htm</hra:value>
-				<hra:value>2011-07-23</hra:value>
-				<hra:value>Tulsidas' life,</hra:value>
-				<hra:value>|19|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119434</hra:value>
-				<hra:value>119434</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:51:06">
-			</hra:administrative>
-		</hra:heidicon>
+No. 701</ext:value>
+				<ext:value>text-en: 
+ECM [publisher's signet]</ext:value>
+				<ext:value>text-en:
+Sushil Das..</ext:value>
+				<ext:value>description-en:
+A sample image in the catalogue of Empire Calender Manufacturing Co. depicting Tulsidas, an Indian saint-poet  and philosopher who wrote the famous 'Ramcharitmanas', a retelling of the Ramayana in the language Awadhi from the original in Sanskrit. Tulsidas is shown in the image with Ram, Lakshman and Hanuman bowing before him. Ram and Lakshman are carrying bows and quivers full of arrows. Tulsidas holds a page in his left hand while he writes using a peacock feather on the next page. There is a small pot, possibly to hold ink next to him. A peacock and some rabbits can be seen in the the foreground and a big lake in the background. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Tulsidas is sometimes believed to be a reincarnation of Valmiki, the original author of the epic Ramayana. This image could be a depiction of that association because Rama, Lakshman and Hanuman are important characters in the Ramayana. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Tulsidas is sometimes believed to be a reincarnation of Valmiki, the original author of the epic Ramayana. This image could be a depiction of that association because Rama, Lakshman and Hanuman are important characters in the Ramayana.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119434</ext:value>
+				<ext:value>119434</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:38">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

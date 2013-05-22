@@ -1,14 +1,26 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_4e376857-78be-5a58-9fd5-8a9880732e5f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The main illustration in this advertisement for &quot;Afghan Snow&quot; shows a woman from behind who holds a mirror in her left hand and looking at herself. She wears a silk skirt and leans back on two white pillows. Her black hair is tightly tied up and adorned with a rose. She wears pearl necklaces and earrings, and a ring on her left middle finger. Apparently, the illustration uses a range of stereotypical motifs of female beauty and the importance of body care.</description>
-			<description source=" " lang="en" script="latn">There is a second illustration showing a pot of the cream, with its lid open. The opened pot is surrounded by different flowers.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The main illustration in this advertisement for &quot;Afghan Snow&quot; shows a woman from behind who holds a mirror in her left hand and looking at herself. She wears a silk skirt and leans back on two white pillows. Her black hair is tightly tied up and adorned with a rose. She wears pearl necklaces and earrings, and a ring on her left middle finger. Apparently, the illustration uses a range of stereotypical motifs of female beauty and the importance of body care.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
+			<description lang="en" script="Latn">
+				<text>There is a second illustration showing a pot of the cream, with its lid open. The opened pot is surrounded by different flowers.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -38,10 +50,13 @@ PLACE LID TIGHTLY AFTER USE
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108382" type="corporate">HeidICON Image Database</name>
+				<refid>108382</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -64,95 +79,106 @@ PLACE LID TIGHTLY AFTER USE
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ed5adaee-e891-54c9-bd3d-5a664acc9306">
-				<term>mirror</term>
+				<term type="concept">mirrors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6994785f-702b-52aa-98c6-866390c2c2bc">
-				<term>Traditional Indian clothes</term>
+				<term type="concept">Traditional Indian clothes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9058450-e8a4-5ea8-ae96-b0cff4e77a96">
-				<term>makeup</term>
+				<term type="product">make-up (cosmetics)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1be9e25d-d34b-5a9a-bf3f-bea40c99b448">
-				<term>ideal of beauty</term>
+				<term type="concept">beau ideal</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
-				<term>black hair</term>
+				<term type="concept">black hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a14be562-683e-57b2-9446-7cff4999aa55">
-				<term>earring</term>
+				<term type="concept">earrings (jewelry)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6fd4645e-47bc-5249-8d91-57d5d8461482">
-				<term>Afghan Snow Beauty Cream</term>
+				<term type="brand">Afghan Snow Beauty Cream</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Afghan Snow body care product advertisement</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Afghan Snow body care product advertisement</title>
 		</titleSet>
 		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
-			<worktype>posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-An aid to Beauty that is the instinctive choice of every lovely woman for rose-petal softness of skin and a flawless complexion.</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+An aid to Beauty that is the instinctive choice of every lovely woman for rose-petal softness of skin and a flawless complexion.</ext:value>
+				<ext:value>text-en:
 AFGHAN SNOW
-Leading Beauty Cream of the East</hra:value>
-				<hra:value>text-en:
+Leading Beauty Cream of the East</ext:value>
+				<ext:value>text-en:
 ESP Perfume
-ESP THE MARK OF EXCELLENCE (manufacturer's signet)</hra:value>
-				<hra:value>text-en:
+ESP THE MARK OF EXCELLENCE (manufacturer's signet)</ext:value>
+				<ext:value>text-en:
 Patanwala 
 for 
-PERFUMES &amp; COSMETICS</hra:value>
-				<hra:value>text-en:
+PERFUMES &amp; COSMETICS</ext:value>
+				<ext:value>text-en:
 AFGHAN SNOW
 AN IDEAL DAY CREAM
 Cleanses and Nourishes
 PLACE LID TIGHTLY AFTER USE
-[text within illustration]</hra:value>
-				<hra:value>description-en:
-The main illustration in this advertisement for &quot;Afghan Snow&quot; shows a woman from behind who holds a mirror in her left hand and looking at herself. She wears a silk skirt and leans back on two white pillows. Her black hair is tightly tied up and adorned with a rose. She wears pearl necklaces and earrings, and a ring on her left middle finger. Apparently, the illustration uses a range of stereotypical motifs of female beauty and the importance of body care.</hra:value>
-				<hra:value>description-en:
-There is a second illustration showing a pot of the cream, with its lid open. The opened pot is surrounded by different flowers.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/404.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108382</hra:value>
-				<hra:value>108382</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:47">
-			</hra:administrative>
-		</hra:heidicon>
+[text within illustration]</ext:value>
+				<ext:value>description-en:
+The main illustration in this advertisement for &quot;Afghan Snow&quot; shows a woman from behind who holds a mirror in her left hand and looking at herself. She wears a silk skirt and leans back on two white pillows. Her black hair is tightly tied up and adorned with a rose. She wears pearl necklaces and earrings, and a ring on her left middle finger. Apparently, the illustration uses a range of stereotypical motifs of female beauty and the importance of body care.</ext:value>
+				<ext:value>description-en:
+There is a second illustration showing a pot of the cream, with its lid open. The opened pot is surrounded by different flowers.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/404.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/404.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108382</ext:value>
+				<ext:value>108382</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:19">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

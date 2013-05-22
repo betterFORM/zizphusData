@@ -1,23 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_7f22c2ac-3d13-575a-8509-7bc0b9a52190" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Krishna can be seen dancing next to a woman. They both have halos around their head and are depicted standing on flowers. Krishna is wearing a crown, jewellery and holding a flute above his head. The woman dancing next to him has her heads above her head and is also wearing jewellery. A second woman can be seen standing next to the dancing couple. A cow stands behind Krishna  and in front of them two monkeys and a rabbit can be seen. In the background trees and hills are pictured.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Krishna can be seen dancing next to a woman. They both have halos around their head and are depicted standing on flowers. Krishna is wearing a crown, jewellery and holding a flute above his head. The woman dancing next to him has her heads above her head and is also wearing jewellery. A second woman can be seen standing next to the dancing couple. A cow stands behind Krishna  and in front of them two monkeys and a rabbit can be seen. In the background trees and hills are pictured.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -27,10 +28,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108303" type="corporate">HeidICON Image Database</name>
+				<refid>108303</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -51,84 +55,125 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.exoticindiaart.com/krishna.htm</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term>cow</term>
+				<term type="animal">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b418eb78-22c2-5e67-a93d-9d999558bb7c">
-				<term>monkey</term>
+				<term type="animal">monkeys (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term>textile label</term>
+				<term type="worktype">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b3818bd-32af-505f-b025-e3f07a743683">
-				<term>rabbit</term>
+				<term type="animal">rabbits</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Lord Krishna With Two Women And A Cow</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Lord Krishna With Two Women And A Cow</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="b2340835-33bd-5d41-800a-95ea3484daea">labels</worktype>
+			<worktype>labels</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Calcutta.Bombay.Madras &amp; Karachi</hra:value>
-				<hra:value>description-en:
-Krishna can be seen dancing next to a woman. They both have halos around their head and are depicted standing on flowers. Krishna is wearing a crown, jewellery and holding a flute above his head. The woman dancing next to him has her heads above her head and is also wearing jewellery. A second woman can be seen standing next to the dancing couple. A cow stands behind Krishna  and in front of them two monkeys and a rabbit can be seen. In the background trees and hills are pictured. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The woman dancing next to Krishna is possibly Radha as she is typically depicted alongside him as his companion. (sp)</hra:value>
-				<hra:value>related hyperlink:
-http://www.exoticindiaart.com/krishna.htm, last accessed 2011-09-17, basic information about Krishna as the Divine Lover in Indian Art as quoted above. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.exoticindiaart.com/krishna.htm</hra:value>
-				<hra:value>2011-09-17</hra:value>
-				<hra:value>basic information about Krishna as the Divine Lover in Indian Art as quoted above.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108303</hra:value>
-				<hra:value>108303</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:45:25">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Calcutta.Bombay.Madras &amp; Karachi</ext:value>
+				<ext:value>description-en:
+Krishna can be seen dancing next to a woman. They both have halos around their head and are depicted standing on flowers. Krishna is wearing a crown, jewellery and holding a flute above his head. The woman dancing next to him has her heads above her head and is also wearing jewellery. A second woman can be seen standing next to the dancing couple. A cow stands behind Krishna  and in front of them two monkeys and a rabbit can be seen. In the background trees and hills are pictured. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The woman dancing next to Krishna is possibly Radha as she is typically depicted alongside him as his companion. (sp)</ext:value>
+				<ext:value>related hyperlink:
+http://www.exoticindiaart.com/krishna.htm, last accessed 2011-09-17, basic information about Krishna as the Divine Lover in Indian Art as quoted above. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.exoticindiaart.com/krishna.htm</ext:value>
+				<ext:value type="accessed">2011-09-17</ext:value>
+				<ext:value type="comment">basic information about Krishna as the Divine Lover in Indian Art as quoted above.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The woman dancing next to Krishna is possibly Radha as she is typically depicted alongside him as his companion.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.exoticindiaart.com/krishna.htm</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108303</ext:value>
+				<ext:value>108303</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:56">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

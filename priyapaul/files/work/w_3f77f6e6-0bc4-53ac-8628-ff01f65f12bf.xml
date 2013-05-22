@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_3f77f6e6-0bc4-53ac-8628-ff01f65f12bf" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-bcf2184f-d306-5914-8eb9-84e984155cbc">Burmah-Shell</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement calendar for Burmah - Shell, we see the statue of an equestrian in a park with several trees and pedestrians in the background. The lower section of the image hosts a calendar for the 1941, on the sides of the image, a range of products is introduced.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement calendar for Burmah - Shell, we see the statue of an equestrian in a park with several trees and pedestrians in the background. The lower section of the image hosts a calendar for the 1941, on the sides of the image, a range of products is introduced.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -38,10 +44,13 @@ Swan Kerosene</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118340" type="corporate">HeidICON Image Database</name>
+				<refid>118340</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -54,7 +63,12 @@ Swan Kerosene</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_595f622a-5706-5b88-9a5e-b30d2f4c4e98" refid="118340" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_595f622a-5706-5b88-9a5e-b30d2f4c4e98" refid="118340" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_70b94451-8c70-5f48-8992-8d9530984aff" refid="118345" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_6f65cb0e-a26e-5df1-a3f5-d797761ed87f" refid="118343" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_274686cb-e773-528e-bb29-1bfb3d659255" refid="118341" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_9cb3119d-ec1f-5d84-a2fc-33d8b7ec269a" refid="118344" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_ed4da1fd-35ed-5371-baea-c7ba19cd0e19" refid="118342" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -64,85 +78,123 @@ Swan Kerosene</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="0c740b41-1daa-582f-9c09-b0fd1631e995">
-				<term>cloud</term>
+				<term type="concept">clouds</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term>statue</term>
+				<term type="concept">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2ac40681-ca0e-5044-9e6a-fd4169ca21d7">
-				<term>animal statue</term>
+				<term type="concept">animal statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b8bec4ca-f38a-573c-b950-641275362104">
-				<term>park</term>
+				<term type="concept">parks (recreation areas)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Physical Energy Statue in Kensington Gardens, London, in an advertisement calender of Burmah-Shell (1941)</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Physical Energy Statue in Kensington Gardens, London, in an advertisement calender of Burmah-Shell (1941)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 BURMAH - SHELL
 Oil Storage and Distributing Company of India Limited
-Calcutta Bombay Delhi (Incorporated in England) Madras and Karachi</hra:value>
-				<hra:value>text-en:
+Calcutta Bombay Delhi (Incorporated in England) Madras and Karachi</ext:value>
+				<ext:value>text-en:
 Shell Motor Spirit * Shell Motor Oil * Shell Tox * Bitumen Products * Colas * Mexphalte * Shelspra * Spramex
 Chunker Kerosene
-Rising Sun Kerosene</hra:value>
-				<hra:value>text-en:
+Rising Sun Kerosene</ext:value>
+				<ext:value>text-en:
 B.O.C. Motor Spirit * B.O.C. Motor Oil * Fuel and Diesel Oils * Industrial Oils * Stearine
 Victoria Kerosene
-Swan Kerosene</hra:value>
-				<hra:value>text-en:
-'Physical Energy' - Statue in Kensington Gardens, London</hra:value>
-				<hra:value>description-en:
-On this advertisement calendar for Burmah - Shell, we see the statue of an equestrian in a park with several trees and pedestrians in the background. The lower section of the image hosts a calendar for the 1941, on the sides of the image, a range of products is introduced. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080430_0319.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118340</hra:value>
-				<hra:value>118340</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:36">
-			</hra:administrative>
-		</hra:heidicon>
+Swan Kerosene</ext:value>
+				<ext:value>text-en:
+'Physical Energy' - Statue in Kensington Gardens, London</ext:value>
+				<ext:value>description-en:
+On this advertisement calendar for Burmah - Shell, we see the statue of an equestrian in a park with several trees and pedestrians in the background. The lower section of the image hosts a calendar for the 1941, on the sides of the image, a range of products is introduced. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080430_0319.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080430_0319.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118345</ext:value>
+				<ext:value>i_70b94451-8c70-5f48-8992-8d9530984aff</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118343</ext:value>
+				<ext:value>i_6f65cb0e-a26e-5df1-a3f5-d797761ed87f</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118341</ext:value>
+				<ext:value>i_274686cb-e773-528e-bb29-1bfb3d659255</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118344</ext:value>
+				<ext:value>i_9cb3119d-ec1f-5d84-a2fc-33d8b7ec269a</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118342</ext:value>
+				<ext:value>i_ed4da1fd-35ed-5371-baea-c7ba19cd0e19</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118340</ext:value>
+				<ext:value>118340</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:18">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

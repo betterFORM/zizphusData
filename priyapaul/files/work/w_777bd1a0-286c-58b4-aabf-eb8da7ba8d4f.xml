@@ -1,35 +1,30 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_777bd1a0-286c-58b4-aabf-eb8da7ba8d4f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-a94fe013-410f-52e5-81b0-cd2c3f59758b">Karttikeya</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-d644b6d4-908d-5807-b85b-0aca21706a27">Art Pictorial Calendars</name>
-				<role/>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-29354a9f-f6a3-5b62-9ac7-102dcebb04e0">Peirce, Leslie &amp; Co. Ltd.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1929</earliestDate>
-				<latestDate>1929</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">1929 calendar with Tamil titles, of Peirce, Leslie &amp; Co., Gold thread suppliers, Coimbatore. 
-Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants; Hindu deity with animals; God Kartikeya, shown with multiple arms and multiple heads, against the background of pastoral landscape. Image may be related to Franziskus von Assisi, Christian saint.</description>
+			<description lang="en" script="Latn">
+				<text>1929 calendar with Tamil titles, of Peirce, Leslie &amp; Co., Gold thread suppliers, Coimbatore. 
+Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants; Hindu deity with animals; God Kartikeya, shown with multiple arms and multiple heads, against the background of pastoral landscape. Image may be related to Franziskus von Assisi, Christian saint.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -61,10 +56,13 @@ Copyright</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119217" type="corporate">HeidICON Image Database</name>
+				<refid>119217</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -77,7 +75,9 @@ Copyright</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_48288d24-8dca-5298-a770-f9e661ee6be2" refid="119217" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_48288d24-8dca-5298-a770-f9e661ee6be2" refid="119217" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_360727f0-f831-5603-a0cd-6185f7ff3176" refid="119219" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_a57ec0b7-013f-5fe9-b1a7-d8d4197bdb46" refid="119218" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -87,91 +87,135 @@ Copyright</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f211437-6bfe-5ae6-b29a-459b0f4bfef2">
-				<term>dog</term>
+				<term type="animal">dogs (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term>cow</term>
+				<term type="animal">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="d644b6d4-908d-5807-b85b-0aca21706a27">
+				<term type="concept">Art Pictorial Calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term>peacock</term>
+				<term type="animal">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term>signet</term>
+				<term type="concept">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b5efd078-3a1f-5e7f-ab3d-bdde609391c7">
-				<term>pastoral scene</term>
+				<term type="concept">pastoral</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">1929 Advertisement calendar for Peirce, Leslie &amp; Co., Ltd.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">1929 Advertisement calendar for Peirce, Leslie &amp; Co., Ltd.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-ta:
-ADD TEXT HERE</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-ta:
+ADD TEXT HERE</ext:value>
+				<ext:value>text-en:
 Peirce, Leslie &amp; Co. Ltd.
 Coimbatore.
 Import &amp; Export Merchants,
-Gold Thread Suppliers.</hra:value>
-				<hra:value>text-en: 
+Gold Thread Suppliers.</ext:value>
+				<ext:value>text-en: 
 Calendar Mfg. Co.
 Postbox xxx [indecipherable]
-BOMBAY</hra:value>
-				<hra:value>text-en:
+BOMBAY</ext:value>
+				<ext:value>text-en:
 No. 7491
-Copyright</hra:value>
-				<hra:value>text-en:
-printed at the Literary Sun Press, Coimbatore.</hra:value>
-				<hra:value>text-en:
-1929</hra:value>
-				<hra:value>description-en:
+Copyright</ext:value>
+				<ext:value>text-en:
+printed at the Literary Sun Press, Coimbatore.</ext:value>
+				<ext:value>text-en:
+1929</ext:value>
+				<ext:value>description-en:
 1929 calendar with Tamil titles, of Peirce, Leslie &amp; Co., Gold thread suppliers, Coimbatore. 
-Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants; Hindu deity with animals; God Kartikeya, shown with multiple arms and multiple heads, against the background of pastoral landscape. Image may be related to Franziskus von Assisi, Christian saint.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants (ys)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Image may be related to Franziskus von Assisi, Christian saint. (ys)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/200804250145.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>damaged</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119217</hra:value>
-				<hra:value>119217</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:41:54">
-			</hra:administrative>
-		</hra:heidicon>
+Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants; Hindu deity with animals; God Kartikeya, shown with multiple arms and multiple heads, against the background of pastoral landscape. Image may be related to Franziskus von Assisi, Christian saint.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants (ys)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Image may be related to Franziskus von Assisi, Christian saint. (ys)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/200804250145.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Image may be related to Franziskus von Assisi, Christian saint.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Saeed, Yousuf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-0fa63dfc-fbb1-5698-9896-cce0c0ac1c2b</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Saeed, Yousuf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-0fa63dfc-fbb1-5698-9896-cce0c0ac1c2b</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/200804250145.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>damaged</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119219</ext:value>
+				<ext:value>i_360727f0-f831-5603-a0cd-6185f7ff3176</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119218</ext:value>
+				<ext:value>i_a57ec0b7-013f-5fe9-b1a7-d8d4197bdb46</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119217</ext:value>
+				<ext:value>119217</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:44">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

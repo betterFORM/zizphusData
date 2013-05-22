@@ -1,18 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_5a5d98e2-0f93-56da-90ba-0904bc1b9011" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Lord Krishna can be seen sitting with two women on either side of him. Their legs are draped over his lap and he has his arms around both of them. He is wearing a crown and jewellery and the women are wearing dupattas draped over their heads and long skirts. In the background, a big green curtain as well as a window can be seen. The view from the window shows a garden with a fountain in it as well as some trees and other plants. The sky is cloudy and dark.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Lord Krishna can be seen sitting with two women on either side of him. Their legs are draped over his lap and he has his arms around both of them. He is wearing a crown and jewellery and the women are wearing dupattas draped over their heads and long skirts. In the background, a big green curtain as well as a window can be seen. The view from the window shows a garden with a fountain in it as well as some trees and other plants. The sky is cloudy and dark.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -29,10 +39,13 @@ Calcutta</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119698" type="corporate">HeidICON Image Database</name>
+				<refid>119698</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -55,75 +68,76 @@ Calcutta</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c1b6ad-3105-55a8-b39b-cf71d9de6c66">
-				<term>window</term>
+				<term type="concept">windows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="222c4b2f-7d73-554f-81e7-c4b89d9758b7">
-				<term>fountain</term>
+				<term type="concept">fountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1cf71e3-004e-5ca9-af3f-a86d3884e171">
-				<term>couch</term>
+				<term type="concept">couches (reclining furniture)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9597553-50b0-54c9-941d-95813851a3b7">
-				<term>curtain</term>
+				<term type="concept">curtains (window hangings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
-				<term>garden</term>
+				<term type="concept">gardens</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Textile label of Geo, Henderson &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of Geo, Henderson &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Geo, Henderson &amp; Co. 
-Calcutta</hra:value>
-				<hra:value>text-hi:
-कृष्ण बी हार टीकट</hra:value>
-				<hra:value>text-bn:
-PLEASE ENTER HERE</hra:value>
-				<hra:value>description-en:
-Lord Krishna can be seen sitting with two women on either side of him. Their legs are draped over his lap and he has his arms around both of them. He is wearing a crown and jewellery and the women are wearing dupattas draped over their heads and long skirts. In the background, a big green curtain as well as a window can be seen. The view from the window shows a garden with a fountain in it as well as some trees and other plants. The sky is cloudy and dark. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119698</hra:value>
-				<hra:value>119698</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:39:19">
-			</hra:administrative>
-		</hra:heidicon>
+Calcutta</ext:value>
+				<ext:value>text-hi:
+कृष्ण बी हार टीकट</ext:value>
+				<ext:value>text-bn:
+PLEASE ENTER HERE</ext:value>
+				<ext:value>description-en:
+Lord Krishna can be seen sitting with two women on either side of him. Their legs are draped over his lap and he has his arms around both of them. He is wearing a crown and jewellery and the women are wearing dupattas draped over their heads and long skirts. In the background, a big green curtain as well as a window can be seen. The view from the window shows a garden with a fountain in it as well as some trees and other plants. The sky is cloudy and dark. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119698</ext:value>
+				<ext:value>119698</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:08">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

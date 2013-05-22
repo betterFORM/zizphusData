@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_238c855a-09bc-5d4c-88d4-5d5f671eb29b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The textile label shows a male lion standing on the grass in front of an easel, one paw on the canvas, the other holding its tail like a brush to continue working on the painting. On the left the lioness rests looking at the beholder, on the right-hand side a big red bucket is placed. The painting shows the meadow and palm tree as it can be seen in the background. The central image is framed with a decorative band in red, showing a floral pattern in the corner segments. Image and framing are placed on green background.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The textile label shows a male lion standing on the grass in front of an easel, one paw on the canvas, the other holding its tail like a brush to continue working on the painting. On the left the lioness rests looking at the beholder, on the right-hand side a big red bucket is placed. The painting shows the meadow and palm tree as it can be seen in the background. The central image is framed with a decorative band in red, showing a floral pattern in the corner segments. Image and framing are placed on green background.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -18,10 +24,13 @@ registered copyright</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118086" type="corporate">HeidICON Image Database</name>
+				<refid>118086</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -44,60 +53,71 @@ registered copyright</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term>lion</term>
+				<term type="animal">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
-				<term>palm tree</term>
+				<term type="plant">palm trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="16c145b6-70a6-579d-ab2a-42f4591beecf">
-				<term>canvas</term>
+				<term type="concept">canvas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0eb3a448-120a-54cb-b22e-443db4fa82ae">
-				<term>easel</term>
+				<term type="concept">easels</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">A lion paints with his tail - a textile label</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">A lion paints with his tail - a textile label</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 JNLS. 1706.
-registered copyright</hra:value>
-				<hra:value>description-en:
-The textile label shows a male lion standing on the grass in front of an easel, one paw on the canvas, the other holding its tail like a brush to continue working on the painting. On the left the lioness rests looking at the beholder, on the right-hand side a big red bucket is placed. The painting shows the meadow and palm tree as it can be seen in the background. The central image is framed with a decorative band in red, showing a floral pattern in the corner segments. Image and framing are placed on green background. (ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/2228b.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118086</hra:value>
-				<hra:value>118086</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:37:20">
-			</hra:administrative>
-		</hra:heidicon>
+registered copyright</ext:value>
+				<ext:value>description-en:
+The textile label shows a male lion standing on the grass in front of an easel, one paw on the canvas, the other holding its tail like a brush to continue working on the painting. On the left the lioness rests looking at the beholder, on the right-hand side a big red bucket is placed. The painting shows the meadow and palm tree as it can be seen in the background. The central image is framed with a decorative band in red, showing a floral pattern in the corner segments. Image and framing are placed on green background. (ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/2228b.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/2228b.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118086</ext:value>
+				<ext:value>118086</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:33">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

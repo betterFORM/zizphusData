@@ -1,28 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_39a98c0e-c6b5-5534-809b-a92d106b60a9" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-dd0774ad-f1b4-57b3-98fc-555c5d1f5f4e">Rukimi</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A sample image from a catalogue of the Empire Calender Manufacturing Co., depicts Krishna kidnapping Rukmini, princess of Vidarbha from the palace in which she lived. They ride away in a chariot while her kinsmen chase them on horses. In the background buildings and dome-shaped architecture can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A sample image from a catalogue of the Empire Calender Manufacturing Co., depicts Krishna kidnapping Rukmini, princess of Vidarbha from the palace in which she lived. They ride away in a chariot while her kinsmen chase them on horses. In the background buildings and dome-shaped architecture can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -32,10 +38,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119461" type="corporate">HeidICON Image Database</name>
+				<refid>119461</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -58,80 +67,81 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term>horse</term>
+				<term type="concept">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3aac194e-887d-5016-a81a-598ebd840f2c">
-				<term>chariot</term>
+				<term type="concept">chariots (ancient vehicles)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term>architecture</term>
+				<term type="concept">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c02fef98-ccbc-5652-9337-a0ec0de4595e">
-				<term>sunset</term>
+				<term type="concept">sunset</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="06e05211-e15e-563d-a4ac-f9b555be755b">
-				<term>horizon</term>
+				<term type="concept">horizon line</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0a917488-1981-58d9-a9d9-db929975a4e6">
-				<term>dome</term>
+				<term type="concept">domes (architectural element)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Rukmini Haran&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Rukmini Haran&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Rukmini Haran</hra:value>
-				<hra:value>description-en:
-A sample image from a catalogue of the Empire Calender Manufacturing Co., depicts Krishna kidnapping Rukmini, princess of Vidarbha from the palace in which she lived. They ride away in a chariot while her kinsmen chase them on horses. In the background buildings and dome-shaped architecture can be seen. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-&quot;Rukmini Haran&quot; translates to &quot;Rukmini's Kidnapping&quot;.</hra:value>
-				<hra:value>related hyperlinks:
-http://kasturis.lazyreader.com/content/chapter-39-krishna-marries-rukmini, last accessed 2011-08-13, Rukmini and Krishna's story (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://kasturis.lazyreader.com/content/chapter-39-krishna-marries-rukmini</hra:value>
-				<hra:value>2011-08-13</hra:value>
-				<hra:value>Rukmini and Krishna's story</hra:value>
-				<hra:value>|19|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119461</hra:value>
-				<hra:value>119461</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:09">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Rukmini Haran</ext:value>
+				<ext:value>description-en:
+A sample image from a catalogue of the Empire Calender Manufacturing Co., depicts Krishna kidnapping Rukmini, princess of Vidarbha from the palace in which she lived. They ride away in a chariot while her kinsmen chase them on horses. In the background buildings and dome-shaped architecture can be seen. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+&quot;Rukmini Haran&quot; translates to &quot;Rukmini's Kidnapping&quot;.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">&quot;Rukmini Haran&quot; translates to &quot;Rukmini's Kidnapping&quot;.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119461</ext:value>
+				<ext:value>119461</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:37">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

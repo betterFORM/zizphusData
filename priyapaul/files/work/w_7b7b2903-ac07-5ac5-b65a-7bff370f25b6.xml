@@ -1,23 +1,28 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_7b7b2903-ac07-5ac5-b65a-7bff370f25b6" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-0bdb20dd-07d9-51f3-8179-c25eaa4a501c">Brooke Bond Darjeeling Tea</name>
-				<role/>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-89e71d4b-f8bc-5e64-8550-7316361c439f">Brooke Bond</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for Brooke Bond Tea, a colourful pigeon can be seen carrying a box of &quot;Brooke Bond Tea&quot; on her back. Her wings are green and look like tea-leaves.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for Brooke Bond Tea, a colourful pigeon can be seen carrying a box of &quot;Brooke Bond Tea&quot; on her back. Her wings are green and look like tea-leaves.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -38,10 +43,13 @@ Dust Tea</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118534" type="corporate">HeidICON Image Database</name>
+				<refid>118534</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -62,119 +70,193 @@ Dust Tea</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8f8c0686-77ac-5a99-83ed-a8acedaf61bb">
-				<term>pigeon</term>
+				<term type="animal">pigeons (general term)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
-				<term>tea</term>
+				<term type="concept">tea (beverage)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Brooke Bond's A-1 Dust Tea Advertisement</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Brooke Bond's A-1 Dust Tea Advertisement</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Brooke
 Bond
-Tea</hra:value>
-				<hra:value>text-en:
+Tea</ext:value>
+				<ext:value>text-en:
 Brooke
 Bond
 A-1
-Dust Tea</hra:value>
-				<hra:value>text-hi:
-बढ़िया चाय की ज़्यादा प्यालियाँ</hra:value>
-				<hra:value>description-en:
-On this advertisement for Brooke Bond Tea, a colourful pigeon can be seen carrying a box of &quot;Brooke Bond Tea&quot; on her back. Her wings are green and look like tea-leaves. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Soon, CTC-leaf tea (a.k.a. &quot;mamri&quot; tea), mainly produced in Assam, became abundantly available in bulk in retail shops that proliferated in urban areas, and was also packaged as such widely-recognized &quot;All-India&quot; brands as Lipton &quot;Yellow Label&quot; or Brooke Bond &quot;Red Label&quot; (the Hindi slogan in this image emphasizes economy, boasting that &quot;Each packet contains more leaves to produce superior chai!&quot;). It also helped spark the expansion of chai stalls and shops—new spaces for (especially) male camaraderie and the exchange of news, gossip, and opinions—as well as the growing adoption of kaṛak (&quot;strong, flavorful&quot;) chai as a domestically-produced beverage, suitable for consumption at all hours of the day, and the de rigeur hospitality offering to visitors, especially in mid-to-late afternoon— usually accompanied by biscuits and savories (cāy-vāy, &quot;tea and so forth&quot;). (Philip Lutgendorf)(gs)</hra:value>
-				<hra:value>related literature:
-Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC. (gs)</hra:value>
-				<hra:value>related literature:
-Chatterjee, Piya. 2001.  &quot;A Time for Tea.&quot; Durham, NC: Duke University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Collingham, Elizabeth M. 2006.  &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Dutta, Arup Kumar.  1992.  &quot;Cha Garam, the tea story.&quot;  Assam: Paloma Publications. (gs)</hra:value>
-				<hra:value>related literature:
-Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)(gs)</hra:value>
-				<hra:value>related literature:
-Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot;  London: Thames &amp; Hudson. (gs)</hra:value>
-				<hra:value>related literature:
-Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking. (gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Chatterjee, Piya. 2001.  &quot;A Time for Tea.&quot; Durham, NC: Duke University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dutta, Arup Kumar.  1992.  &quot;Cha Garam, the tea story.&quot;  Assam: Paloma Publications.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot;  London: Thames &amp; Hudson.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Collingham, Elizabeth M. 2006.  &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118534</hra:value>
-				<hra:value>118534</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:34:25">
-			</hra:administrative>
-		</hra:heidicon>
+Dust Tea</ext:value>
+				<ext:value>text-hi:
+बढ़िया चाय की ज़्यादा प्यालियाँ</ext:value>
+				<ext:value>description-en:
+On this advertisement for Brooke Bond Tea, a colourful pigeon can be seen carrying a box of &quot;Brooke Bond Tea&quot; on her back. Her wings are green and look like tea-leaves. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Soon, CTC-leaf tea (a.k.a. &quot;mamri&quot; tea), mainly produced in Assam, became abundantly available in bulk in retail shops that proliferated in urban areas, and was also packaged as such widely-recognized &quot;All-India&quot; brands as Lipton &quot;Yellow Label&quot; or Brooke Bond &quot;Red Label&quot; (the Hindi slogan in this image emphasizes economy, boasting that &quot;Each packet contains more leaves to produce superior chai!&quot;). It also helped spark the expansion of chai stalls and shops—new spaces for (especially) male camaraderie and the exchange of news, gossip, and opinions—as well as the growing adoption of kaṛak (&quot;strong, flavorful&quot;) chai as a domestically-produced beverage, suitable for consumption at all hours of the day, and the de rigeur hospitality offering to visitors, especially in mid-to-late afternoon— usually accompanied by biscuits and savories (cāy-vāy, &quot;tea and so forth&quot;). (Philip Lutgendorf)(gs)</ext:value>
+				<ext:value>related literature:
+Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC. (gs)</ext:value>
+				<ext:value>related literature:
+Chatterjee, Piya. 2001.  &quot;A Time for Tea.&quot; Durham, NC: Duke University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Collingham, Elizabeth M. 2006.  &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Dutta, Arup Kumar.  1992.  &quot;Cha Garam, the tea story.&quot;  Assam: Paloma Publications. (gs)</ext:value>
+				<ext:value>related literature:
+Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)(gs)</ext:value>
+				<ext:value>related literature:
+Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot;  London: Thames &amp; Hudson. (gs)</ext:value>
+				<ext:value>related literature:
+Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking. (gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Chatterjee, Piya. 2001.  &quot;A Time for Tea.&quot; Durham, NC: Duke University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dutta, Arup Kumar.  1992.  &quot;Cha Garam, the tea story.&quot;  Assam: Paloma Publications.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot;  London: Thames &amp; Hudson.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Collingham, Elizabeth M. 2006.  &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Soon, CTC-leaf tea (a.k.a. &quot;mamri&quot; tea), mainly produced in Assam, became abundantly available in bulk in retail shops that proliferated in urban areas, and was also packaged as such widely-recognized &quot;All-India&quot; brands as Lipton &quot;Yellow Label&quot; or Brooke Bond &quot;Red Label&quot; (the Hindi slogan in this image emphasizes economy, boasting that &quot;Each packet contains more leaves to produce superior chai!&quot;). It also helped spark the expansion of chai stalls and shops—new spaces for (especially) male camaraderie and the exchange of news, gossip, and opinions—as well as the growing adoption of kaṛak (&quot;strong, flavorful&quot;) chai as a domestically-produced beverage, suitable for consumption at all hours of the day, and the de rigeur hospitality offering to visitors, especially in mid-to-late afternoon— usually accompanied by biscuits and savories (cāy-vāy, &quot;tea and so forth&quot;).</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Philip Lutgendorf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118534</ext:value>
+				<ext:value>118534</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:39">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

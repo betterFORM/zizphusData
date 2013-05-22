@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_35fc4eec-6214-579a-9c2b-e31db7dbc052" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">This image shows a redhaired woman in a white dress and a white fur next to two different cigarette boxes. Her hair is tied back into a bun and she is wearing a necklace as well as earrings.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>This image shows a redhaired woman in a white dress and a white fur next to two different cigarette boxes. Her hair is tied back into a bun and she is wearing a necklace as well as earrings.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -28,10 +34,13 @@ Pall Mall
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118938" type="corporate">HeidICON Image Database</name>
+				<refid>118938</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -52,143 +61,245 @@ Pall Mall
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tvparty.com/vaultcomcig.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>ca 1930s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term>necklace</term>
+				<term type="concept">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term>Caucasian type</term>
+				<term type="concept">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
-				<term>western woman</term>
+				<term type="concept">Western women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4666e2ff-4cf6-5025-9525-c0cc88c84df9">
-				<term>cigarette</term>
+				<term type="concept">cigarettes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fc385028-e8e3-58c9-b20c-ab00f2479f8d">
-				<term>fur</term>
+				<term type="concept">fur</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
-				<term>cigarette advertising</term>
+				<term type="concept">cigarette advertising</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5c918556-8ee4-5177-87f4-3c9808b5c750">
-				<term>red hair</term>
+				<term type="concept">red hair</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advertisement for &quot;Rothmans De Luxe&quot; cigarettes</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for &quot;Rothmans De Luxe&quot; cigarettes</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Rothmans
 De Luxe
-Virginia</hra:value>
-				<hra:value>text-en:
+Virginia</ext:value>
+				<ext:value>text-en:
 Rothmans
 De Luxe
 Pall Mall
-[ma]de in Eng[land]</hra:value>
-				<hra:value>text-en:
-made in England</hra:value>
-				<hra:value>description-en:
-This image shows a redhaired woman in a white dress and a white fur next to two different cigarette boxes. Her hair is tied back into a bun and she is wearing a necklace as well as earrings.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080627_1722.jpg</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Blonde hair as well as red hair is a distinctive visual marker on advertising images for being Western and therefore an exclusive marker for whiteness. (la)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-In the first half of the 20th century far less women smoked cigarettes. Therefore many tobacco ads deliberately targeted women with an advertising rhetoric which attempted to convince females that smoking cigarettes gave them elegance and style. See the project of Tim Coyle: http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html, last accessed 2011-08-21. (la)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-In the Indian context cigarette advertising during almost the entire 20th century featured distinctively Western woman as it was considered to be indecent for Indian woman to smoke in public. Depicting an Indian woman on an ad for cigarettes would most likely have had a negative effect.  See also the article on early Indian advertsing by Javeer Masood on Tasveerghar. (la)</hra:value>
-				<hra:value>related literature: 
-Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</hra:value>
-				<hra:value>related hyperlinks:
+[ma]de in Eng[land]</ext:value>
+				<ext:value>text-en:
+made in England</ext:value>
+				<ext:value>description-en:
+This image shows a redhaired woman in a white dress and a white fur next to two different cigarette boxes. Her hair is tied back into a bun and she is wearing a necklace as well as earrings.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080627_1722.jpg</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Blonde hair as well as red hair is a distinctive visual marker on advertising images for being Western and therefore an exclusive marker for whiteness. (la)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+In the first half of the 20th century far less women smoked cigarettes. Therefore many tobacco ads deliberately targeted women with an advertising rhetoric which attempted to convince females that smoking cigarettes gave them elegance and style. See the project of Tim Coyle: http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html, last accessed 2011-08-21. (la)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+In the Indian context cigarette advertising during almost the entire 20th century featured distinctively Western woman as it was considered to be indecent for Indian woman to smoke in public. Depicting an Indian woman on an ad for cigarettes would most likely have had a negative effect.  See also the article on early Indian advertsing by Javeer Masood on Tasveerghar. (la)</ext:value>
+				<ext:value>related literature: 
+Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</ext:value>
+				<ext:value>related hyperlinks:
 http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html, 
-last accessed 2011-08-21, Tom Coyle's &quot;Cigarettes&quot; Project #5 (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tvparty.com/vaultcomcig.html, last accessed 2011-08-21, &quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0, last accessed 2011-08-21 (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 2011-08-21, &quot;Breathtaking Classic Cigarette Ads&quot; (la)</hra:value>
-				<hra:value>related literature: 
-Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tvparty.com/vaultcomcig.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>&quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>&quot;Breathtaking Classic Cigarette Ads&quot;</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>Tom Coyle's &quot;Cigarettes&quot; Project #5</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118938</hra:value>
-				<hra:value>118938</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:43">
-			</hra:administrative>
-		</hra:heidicon>
+last accessed 2011-08-21, Tom Coyle's &quot;Cigarettes&quot; Project #5 (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tvparty.com/vaultcomcig.html, last accessed 2011-08-21, &quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0, last accessed 2011-08-21 (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 2011-08-21, &quot;Breathtaking Classic Cigarette Ads&quot; (la)</ext:value>
+				<ext:value>related literature: 
+Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196. (la)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tvparty.com/vaultcomcig.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">&quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">&quot;Breathtaking Classic Cigarette Ads&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">Tom Coyle's &quot;Cigarettes&quot; Project #5</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Blonde hair as well as red hair is a distinctive visual marker on advertising images for being Western and therefore an exclusive marker for whiteness.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In the Indian context cigarette advertising during almost the entire 20th century featured distinctively Western woman as it was considered to be indecent for Indian woman to smoke in public. Depicting an Indian woman on an ad for cigarettes would most likely have had a negative effect.  See also the article on early Indian advertsing by Javeer Masood on Tasveerghar.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080627_1722.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In the first half of the 20th century far less women smoked cigarettes. Therefore many tobacco ads deliberately targeted women with an advertising rhetoric which attempted to convince females that smoking cigarettes gave them elegance and style. See the project of Tim Coyle: http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html, last accessed 2011-08-21.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tvparty.com/vaultcomcig.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118938</ext:value>
+				<ext:value>118938</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:24">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

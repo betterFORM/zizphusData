@@ -1,23 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_2ac604fc-9e26-57f1-8e1b-9f1e88a82f58" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-c347c8e0-6505-5e19-b2e4-96fbec632378">cottage industries</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this poster from Cottage Industries, we see different motifs of hand-worked crafts (hand block-printer, ironworker, weaver, and potter) with the large space in the middle peopled with workers.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this poster from Cottage Industries, we see different motifs of hand-worked crafts (hand block-printer, ironworker, weaver, and potter) with the large space in the middle peopled with workers.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -31,14 +32,23 @@ No. 477</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/185331" type="corporate">HeidICON Image Database</name>
+				<refid>185331</refid>
+			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_26d286f8-eed9-5f7c-bb6e-3fa4483067a5" refid="185331" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_26d286f8-eed9-5f7c-bb6e-3fa4483067a5" refid="185331" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_fc41f036-a7bc-594c-bf41-01a3c9dab0e9" refid="122929" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_e2d3339c-45a9-5d29-9e54-e8855d60c25e" refid="123079" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_639596d1-88f1-5cd5-b05b-faee9e7c184e" refid="122930" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_c5ac4dae-a27b-5cd0-915d-45c5fb1f2c2c" refid="122932" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_2512ebe3-7059-53da-a549-bc0cf3b10ff6" refid="122933" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_461f03fd-2035-5dec-bae0-4c3f511a2ad9" refid="122931" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -46,92 +56,171 @@ No. 477</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1960s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8d5952bc-395d-5815-8234-eb42cf210d2f">
-				<term>industry</term>
+				<term type="concept">industry (economic concept)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6be59c89-7b3d-5db6-ab48-d757931898aa">
-				<term>pottery</term>
+				<term type="work">pottery (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="af262e26-d0c1-5301-b868-9b2e69765a2b">
-				<term>weaving</term>
+				<term type="work">weaving</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c9b7db9c-bda8-5dd6-82db-339f18cdb3ba">
-				<term>cottage</term>
+				<term type="concept">cottages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87751d3e-5404-5c98-89f7-b1647b7e31c7">
-				<term>block-printing</term>
+				<term type="work">block printing (relief printing process)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="c347c8e0-6505-5e19-b2e4-96fbec632378">
+				<term type="concept">cottage industries</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Cottage Industries&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Cottage Industries&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-HAP [publisher's signet]</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+HAP [publisher's signet]</ext:value>
+				<ext:value>text-en:
 Cottage Industries
-No. 477</hra:value>
-				<hra:value>description-en:
-On this poster from Cottage Industries, we see different motifs of hand-worked crafts (hand block-printer, ironworker, weaver, and potter) with the large space in the middle peopled with workers. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Central Cottage Industries – a private, not state-sponsored enterprise – is particularly noteworthy, as its mission became the selection of ‘traditional’ motifs that could serve as marketing themes in a given commercial campaign (usually lasting 18-24 months), and then working with craftspeople in ways that harnessed and perpetuated traditional crafts skills while  providing market-savvy decisions about the types of goods to be produced that would meet desires of the new middle class. (Sandria B. Freitag)(gs)</hra:value>
-				<hra:value>related literature:
-Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (23.3.2011)(gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (23.3.2011)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/185331</hra:value>
-				<hra:value>185331</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:29:59">
-			</hra:administrative>
-		</hra:heidicon>
+No. 477</ext:value>
+				<ext:value>description-en:
+On this poster from Cottage Industries, we see different motifs of hand-worked crafts (hand block-printer, ironworker, weaver, and potter) with the large space in the middle peopled with workers. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Central Cottage Industries – a private, not state-sponsored enterprise – is particularly noteworthy, as its mission became the selection of ‘traditional’ motifs that could serve as marketing themes in a given commercial campaign (usually lasting 18-24 months), and then working with craftspeople in ways that harnessed and perpetuated traditional crafts skills while  providing market-savvy decisions about the types of goods to be produced that would meet desires of the new middle class. (Sandria B. Freitag)(gs)</ext:value>
+				<ext:value>related literature:
+Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (23.3.2011)(gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (23.3.2011)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Central Cottage Industries – a private, not state-sponsored enterprise – is particularly noteworthy, as its mission became the selection of ‘traditional’ motifs that could serve as marketing themes in a given commercial campaign (usually lasting 18-24 months), and then working with craftspeople in ways that harnessed and perpetuated traditional crafts skills while  providing market-savvy decisions about the types of goods to be produced that would meet desires of the new middle class.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Sandria B. Freitag</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/122929</ext:value>
+				<ext:value>i_fc41f036-a7bc-594c-bf41-01a3c9dab0e9</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/123079</ext:value>
+				<ext:value>i_e2d3339c-45a9-5d29-9e54-e8855d60c25e</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/122930</ext:value>
+				<ext:value>i_639596d1-88f1-5cd5-b05b-faee9e7c184e</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/122932</ext:value>
+				<ext:value>i_c5ac4dae-a27b-5cd0-915d-45c5fb1f2c2c</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/122933</ext:value>
+				<ext:value>i_2512ebe3-7059-53da-a549-bc0cf3b10ff6</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/122931</ext:value>
+				<ext:value>i_461f03fd-2035-5dec-bae0-4c3f511a2ad9</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/185331</ext:value>
+				<ext:value>185331</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:03">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

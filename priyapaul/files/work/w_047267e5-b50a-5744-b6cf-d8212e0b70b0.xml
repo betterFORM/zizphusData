@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_047267e5-b50a-5744-b6cf-d8212e0b70b0" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement for Dufaycolor films, three scenes depicting everyday life in India are pictured, one shows some vegetable sellers on a market advertising their product, another one shows Indian women dressed in saris with bindis on their foreheads, being busy baking roti, traditional Indian bread, and a third picture shows several oxcarts with plants on them in front of a big building in a typical Indian city.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement for Dufaycolor films, three scenes depicting everyday life in India are pictured, one shows some vegetable sellers on a market advertising their product, another one shows Indian women dressed in saris with bindis on their foreheads, being busy baking roti, traditional Indian bread, and a third picture shows several oxcarts with plants on them in front of a big building in a typical Indian city.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -30,10 +36,13 @@ Dufaycolor films, the only colour films widely available in India, fit all camer
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119754" type="corporate">HeidICON Image Database</name>
+				<refid>119754</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -54,114 +63,152 @@ Dufaycolor films, the only colour films widely available in India, fit all camer
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.brianpritchard.com/Dufay.htm</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
-				<term>plant</term>
+				<term type="concept">plants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term>product advertisement</term>
+				<term type="concept">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb400a82-f170-5237-9bfc-6d0680f00d37">
-				<term>photography</term>
+				<term type="concept">photography</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
-				<term>film</term>
+				<term type="concept">motion pictures (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="94a5efb7-b989-57ce-9543-bb9f43403256">
-				<term>vegetables</term>
+				<term type="concept">vegetables</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b733984e-4492-5750-b0f1-07c1f9c6e262">
-				<term>car</term>
+				<term type="concept">automobiles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6138714d-8132-5952-9627-cf4c80e02390">
-				<term>topi</term>
+				<term type="concept">topis (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3c38a5a7-e4dc-58b2-94ab-8065645c59ad">
-				<term>Dufai Color Film</term>
+				<term type="brand">Dufai Color Film</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="825f7525-c14c-5dff-8e1c-7815e1d16361">
-				<term>bazaar</term>
+				<term type="concept">bazaar</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term>Times of India Yearbook</term>
+				<term type="work">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">An advertisement of Dufay Color Filmroll</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Dufay Color Filmroll</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 The Times of India Annual, 1959
 Your Memories of India ... 
-bring them back alive ... in Colour</hra:value>
-				<hra:value>text-en:
-In the white glare of the Indian sun, the slow-morning pageant of the East slowly unfolds itself, like a gorgeous jewelled tapestry of a thousand contrasting hues. Colour is the keytone - colour with a brilliance and an extravagance unknown in the West. Always your memories of India will be centered in her dazzling colours. Bring home these colour-memories - alive - with Dufaycolor film.</hra:value>
-				<hra:value>text-en:
+bring them back alive ... in Colour</ext:value>
+				<ext:value>text-en:
+In the white glare of the Indian sun, the slow-morning pageant of the East slowly unfolds itself, like a gorgeous jewelled tapestry of a thousand contrasting hues. Colour is the keytone - colour with a brilliance and an extravagance unknown in the West. Always your memories of India will be centered in her dazzling colours. Bring home these colour-memories - alive - with Dufaycolor film.</ext:value>
+				<ext:value>text-en:
 You can take photos in full permanent color with Dufaycolor film 
-It works with any camera</hra:value>
-				<hra:value>text-en:
+It works with any camera</ext:value>
+				<ext:value>text-en:
 All the thousand vivid hues and contrasting colours of the eastern scene - reds, blues, purples, greens - every depth of colour, every rich combination of shades are in Dufaycolor film. So when you take pictures with Dufaycolor film, using your own camera, they will all be in your pictures too! Dufaycolor will capture for you, as nothing else can, the gorgeous glamour of the East: permanent, full colour pictures as vivid as your own memories! A Dufaycolour film goes into your camera just like an ordinary film - no special fittings whatever are called for.
-Dufaycolor films, the only colour films widely available in India, fit all cameras. You can get them at all leading photographic dealers. Main distributors for India - Wellington &amp; Ward Ltd. Cooks buildings, Hornby Road, Bombay. Branches in Calcutta &amp; Madras.</hra:value>
-				<hra:value>description-en:
-On this advertisement for Dufaycolor films, three scenes depicting everyday life in India are pictured, one shows some vegetable sellers on a market advertising their product, another one shows Indian women dressed in saris with bindis on their foreheads, being busy baking roti, traditional Indian bread, and a third picture shows several oxcarts with plants on them in front of a big building in a typical Indian city. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
+Dufaycolor films, the only colour films widely available in India, fit all cameras. You can get them at all leading photographic dealers. Main distributors for India - Wellington &amp; Ward Ltd. Cooks buildings, Hornby Road, Bombay. Branches in Calcutta &amp; Madras.</ext:value>
+				<ext:value>description-en:
+On this advertisement for Dufaycolor films, three scenes depicting everyday life in India are pictured, one shows some vegetable sellers on a market advertising their product, another one shows Indian women dressed in saris with bindis on their foreheads, being busy baking roti, traditional Indian bread, and a third picture shows several oxcarts with plants on them in front of a big building in a typical Indian city. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
 Louis Dufay produced photographic plates with a micro-colour-screen between 1910 and 1917.  They were known as the Dufay 'Dioptrechrome Plate'.  From 1925 a large number of patents were granted for various aspects of the Spicer-Dufay Process. The films have the reseau mechanically printed on the base of the film.  The film has to be exposed through the base. The method of printing the reseau on the film base can be seen  in the illustration from the Dufaycolor Book above. First films were B/W reversal.  The invention by Dr D A Spencer of Kodak Ltd in 1936 of the 'depth developer' made the negative/positive process possible.  This restricted the development to the layer of emulsion next to the reseau on the base.  This prevented spread of the image which caused desaturation of the colours. In addition the negative reseau had red lines at an angle of 27 degrees to the edge of film and 45 degrees in the positive film to prevent moire fringes when printing.  There was however, desaturation of the colours caused by overlapping of the colour lines. 
-Source: http://www.brianpritchard.com/Dufay.htm (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.brianpritchard.com/Dufay.htm, basic information on Dufaycolor, last accessed 2012-05-07. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/1090.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.brianpritchard.com/Dufay.htm</hra:value>
-				<hra:value>2012-05-07</hra:value>
-				<hra:value>basic information on Dufaycolor,</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119754</hra:value>
-				<hra:value>119754</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:41:42">
-			</hra:administrative>
-		</hra:heidicon>
+Source: http://www.brianpritchard.com/Dufay.htm (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.brianpritchard.com/Dufay.htm, basic information on Dufaycolor, last accessed 2012-05-07. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/1090.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.brianpritchard.com/Dufay.htm</ext:value>
+				<ext:value type="accessed">2012-05-07</ext:value>
+				<ext:value type="comment">basic information on Dufaycolor,</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Louis Dufay produced photographic plates with a micro-colour-screen between 1910 and 1917.  They were known as the Dufay 'Dioptrechrome Plate'.  From 1925 a large number of patents were granted for various aspects of the Spicer-Dufay Process. The films have the reseau mechanically printed on the base of the film.  The film has to be exposed through the base. The method of printing the reseau on the film base can be seen  in the illustration from the Dufaycolor Book above. First films were B/W reversal.  The invention by Dr D A Spencer of Kodak Ltd in 1936 of the 'depth developer' made the negative/positive process possible.  This restricted the development to the layer of emulsion next to the reseau on the base.  This prevented spread of the image which caused desaturation of the colours. In addition the negative reseau had red lines at an angle of 27 degrees to the edge of film and 45 degrees in the positive film to prevent moire fringes when printing.  There was however, desaturation of the colours caused by overlapping of the colour lines. 
+Source: http://www.brianpritchard.com/Dufay.htm</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/1090.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.brianpritchard.com/Dufay.htm</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119754</ext:value>
+				<ext:value>119754</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:34">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

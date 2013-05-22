@@ -1,28 +1,38 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_bca21bed-79c3-5797-94fe-f4ff96ac3a18" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-b3775c4d-66e8-51b7-9743-3db10425c1d2">Indra</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-a321c6d8-b702-548b-8931-a7d24ebee84d">John Orr Ewing &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Krishna is depicted with four hands in the image. He holds Mount Govardhan aloft and is also playing the flute. He is dressed in a yellow dhoti and is wearing a crown. Indra is seen prostrating before him with his mount, the elephant Airavata in the foreground in the image. A group of men and women are also seen with folded hands standing in two lines in front of him. The women have their heads covered and are wearing jewellery. The men are wearing turbans. In the background, trees, plants and flowers are depicted.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Krishna is depicted with four hands in the image. He holds Mount Govardhan aloft and is also playing the flute. He is dressed in a yellow dhoti and is wearing a crown. Indra is seen prostrating before him with his mount, the elephant Airavata in the foreground in the image. A group of men and women are also seen with folded hands standing in two lines in front of him. The women have their heads covered and are wearing jewellery. The men are wearing turbans. In the background, trees, plants and flowers are depicted.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -36,10 +46,13 @@ Best Turkey Red.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119536" type="corporate">HeidICON Image Database</name>
+				<refid>119536</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -60,111 +73,155 @@ Best Turkey Red.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.indianetzone.com/38/mountain_lifting_by_lord_krishna.htm</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://theharekrishnamovement.wordpress.com/2011/10/27/lifting-of-govardhana-hill/#more-2118</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="385719c8-84dc-5a3a-95b0-4df7bbafe479">
-				<term>Mount Govardhan</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
-				<term>elephant</term>
+				<term type="animal">elephants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term>cow</term>
+				<term type="animal">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term>textile label</term>
+				<term type="worktype">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term>flute</term>
+				<term type="work">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="17725ecd-309d-568d-b126-fa9a4b1e7a64">
-				<term>warrior</term>
+				<term type="concept">warriors</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="385719c8-84dc-5a3a-95b0-4df7bbafe479">
+				<term type="geographic/concept?">Mount Govardhan</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="952898c6-20ba-5549-85f8-41e5f8f7c2d0">
-				<term>Best Turkey Red</term>
+				<term type="brand">Best Turkey Red (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Textile label by John Orr Ewing &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by John Orr Ewing &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 John Orr Ewing &amp; Co.
-Best Turkey Red.</hra:value>
-				<hra:value>text-ta:
-PLEASE ENTER HERE.</hra:value>
-				<hra:value>description-en:
-Krishna is depicted with four hands in the image. He holds Mount Govardhan aloft and is also playing the flute. He is dressed in a yellow dhoti and is wearing a crown. Indra is seen prostrating before him with his mount, the elephant Airavata in the foreground in the image. A group of men and women are also seen with folded hands standing in two lines in front of him. The women have their heads covered and are wearing jewellery. The men are wearing turbans. In the background, trees, plants and flowers are depicted. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The people of Braj had a tradition of worshipping Indra, the lord of the heaven for rain and part of the worship was giving him many offerings. Lord Krishna convinced them that what is important is carrying out their 'karma' or duty and also worshipping the mountain Govardhan (Govardhan Parvat) since it would help them receive rain and to stop worshipping Indra for rains. Upon not getting his usual offerings, Indra was incensed and sent a deluge of rain to Braj that would have drowned the people. Krishna saved the residents by picking up the Govardhan Parvat on his little finger and holding it aloft for seven days so that Braj and its residents were not affected by the rain. At the end of seven days, Indra prostrated before Krishna begging for forgiveness. (sp)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.indianetzone.com/38/mountain_lifting_by_lord_krishna.htm, Story of Govardhan Parvat,  last accessed 2011-11-05. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://theharekrishnamovement.wordpress.com/2011/10/27/lifting-of-govardhana-hill/#more-2118. Story of Govardhan Parvat, last accessed 2011-11-15 (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://theharekrishnamovement.wordpress.com/2011/10/27/lifting-of-govardhana-hill/#more-2118.</hra:value>
-				<hra:value>2011-11-15</hra:value>
-				<hra:value>Story of Govardhan Parvat,</hra:value>
-				<hra:value>|19|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.indianetzone.com/38/mountain_lifting_by_lord_krishna.htm</hra:value>
-				<hra:value>2011-11-05</hra:value>
-				<hra:value>Story of Govardhan Parvat,</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119536</hra:value>
-				<hra:value>119536</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:32:38">
-			</hra:administrative>
-		</hra:heidicon>
+Best Turkey Red.</ext:value>
+				<ext:value>text-ta:
+PLEASE ENTER HERE.</ext:value>
+				<ext:value>description-en:
+Krishna is depicted with four hands in the image. He holds Mount Govardhan aloft and is also playing the flute. He is dressed in a yellow dhoti and is wearing a crown. Indra is seen prostrating before him with his mount, the elephant Airavata in the foreground in the image. A group of men and women are also seen with folded hands standing in two lines in front of him. The women have their heads covered and are wearing jewellery. The men are wearing turbans. In the background, trees, plants and flowers are depicted. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The people of Braj had a tradition of worshipping Indra, the lord of the heaven for rain and part of the worship was giving him many offerings. Lord Krishna convinced them that what is important is carrying out their 'karma' or duty and also worshipping the mountain Govardhan (Govardhan Parvat) since it would help them receive rain and to stop worshipping Indra for rains. Upon not getting his usual offerings, Indra was incensed and sent a deluge of rain to Braj that would have drowned the people. Krishna saved the residents by picking up the Govardhan Parvat on his little finger and holding it aloft for seven days so that Braj and its residents were not affected by the rain. At the end of seven days, Indra prostrated before Krishna begging for forgiveness. (sp)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.indianetzone.com/38/mountain_lifting_by_lord_krishna.htm, Story of Govardhan Parvat,  last accessed 2011-11-05. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://theharekrishnamovement.wordpress.com/2011/10/27/lifting-of-govardhana-hill/#more-2118, Story of Govardhan Parvat, last accessed 2011-11-15 (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://theharekrishnamovement.wordpress.com/2011/10/27/lifting-of-govardhana-hill/#more-2118</ext:value>
+				<ext:value type="accessed">2011-11-15</ext:value>
+				<ext:value type="comment">Story of Govardhan Parvat,</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.indianetzone.com/38/mountain_lifting_by_lord_krishna.htm</ext:value>
+				<ext:value type="accessed">2011-11-05</ext:value>
+				<ext:value type="comment">Story of Govardhan Parvat,</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The people of Braj had a tradition of worshipping Indra, the lord of the heaven for rain and part of the worship was giving him many offerings. Lord Krishna convinced them that what is important is carrying out their 'karma' or duty and also worshipping the mountain Govardhan (Govardhan Parvat) since it would help them receive rain and to stop worshipping Indra for rains. Upon not getting his usual offerings, Indra was incensed and sent a deluge of rain to Braj that would have drowned the people. Krishna saved the residents by picking up the Govardhan Parvat on his little finger and holding it aloft for seven days so that Braj and its residents were not affected by the rain. At the end of seven days, Indra prostrated before Krishna begging for forgiveness.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.indianetzone.com/38/mountain_lifting_by_lord_krishna.htm</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://theharekrishnamovement.wordpress.com/2011/10/27/lifting-of-govardhana-hill/#more-2118</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119536</ext:value>
+				<ext:value>119536</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:36">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

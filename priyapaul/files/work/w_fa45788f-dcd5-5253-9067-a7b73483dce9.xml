@@ -1,47 +1,50 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_fa45788f-dcd5-5253-9067-a7b73483dce9" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-03f7d496-a4c3-5935-8778-849c682c0a87">Pran</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-585ff35c-2f96-557c-9e76-0f1450734d26">Kumar, Dilip</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-6721b586-f208-561e-ab81-1e8af004dfc9">Rehman, Waheeda</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ef2ddd1b-2daa-557b-b2a1-2425188f78e8">Kardar, Abdul Rashid‏</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1966</earliestDate>
-				<latestDate>1966</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A still from the Hindi movie &quot;Dil Diya Dard Liya&quot; (1966) shows the main actors, Dilip Kumar(male) and Waheeda Rehman(female) exchange amorous looks. Both are smiling. Dilip Kumar gently touches Waheeda Rehman's chin. She wears jewellery and an embroided red saree. The still depicts a moonlit night.</description>
+			<description lang="en" script="Latn">
+				<text>A still from the Hindi movie &quot;Dil Diya Dard Liya&quot; (1966) shows the main actors, Dilip Kumar(male) and Waheeda Rehman(female) exchange amorous looks. Both are smiling. Dilip Kumar gently touches Waheeda Rehman's chin. She wears jewellery and an embroided red saree. The still depicts a moonlit night.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120864" type="corporate">HeidICON Image Database</name>
+				<refid>120864</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -56,74 +59,111 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0060310/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b29644ee-ee02-5f26-8fee-f32a18208aa8">
-				<term>Dil Diya Dard Liya</term>
+				<term type="work (movie)">Dil Diya Dard Liya</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term>movie still</term>
+				<term type="concept">movie still</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Dil Diya Dard Liya, movie poster</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Dil Diya Dard Liya, movie poster</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-A still from the Hindi movie &quot;Dil Diya Dard Liya&quot; (1966) shows the main actors, Dilip Kumar(male) and Waheeda Rehman(female) exchange amorous looks. Both are smiling. Dilip Kumar gently touches Waheeda Rehman's chin. She wears jewellery and an embroided red saree. The still depicts a moonlit night. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/2252.tif</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Story Line of the movie: A kind-hearted, widowed landlord, Thakur, lives a wealthy lifestyle with his son, Ramesh; daughter, Roopa; and an adopted child, Shankar. Ramesh hates Shankar and often abuses him. Years pass by, Thakur has passed away, and all three children have grown up. While Ramesh visits a stunningly attractive Courtesan, Tara, drinks alcohol, and continues to abuse and mercilessly beat Shankar, who bears this in silence as he and Roopa are in love with each other. When Ramesh finds out that Roopa wants to wed Shankar, he has him severely beaten and thrown off a cliff. He then arranges Roopa's marriage with another wealthy man, Satish, while he continues to romance Tara and even signs over his entire estate and home to her name. Then a few years later, Shankar returns - this time as the wealthy Raja of Belapur - and he all set to compromise with Ramesh and propose to Roopa. He finds out that nothing has changed... (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0060310/, last accessed 2011-12-12, story line, leading actors, director. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0060310/</hra:value>
-				<hra:value>2011-12-12</hra:value>
-				<hra:value>story line, leading actors, director.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120864</hra:value>
-				<hra:value>120864</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:50:37">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+A still from the Hindi movie &quot;Dil Diya Dard Liya&quot; (1966) shows the main actors, Dilip Kumar(male) and Waheeda Rehman(female) exchange amorous looks. Both are smiling. Dilip Kumar gently touches Waheeda Rehman's chin. She wears jewellery and an embroided red saree. The still depicts a moonlit night. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/2252.tif</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Story Line of the movie: A kind-hearted, widowed landlord, Thakur, lives a wealthy lifestyle with his son, Ramesh; daughter, Roopa; and an adopted child, Shankar. Ramesh hates Shankar and often abuses him. Years pass by, Thakur has passed away, and all three children have grown up. While Ramesh visits a stunningly attractive Courtesan, Tara, drinks alcohol, and continues to abuse and mercilessly beat Shankar, who bears this in silence as he and Roopa are in love with each other. When Ramesh finds out that Roopa wants to wed Shankar, he has him severely beaten and thrown off a cliff. He then arranges Roopa's marriage with another wealthy man, Satish, while he continues to romance Tara and even signs over his entire estate and home to her name. Then a few years later, Shankar returns - this time as the wealthy Raja of Belapur - and he all set to compromise with Ramesh and propose to Roopa. He finds out that nothing has changed... (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0060310/, last accessed 2011-12-12, story line, leading actors, director. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0060310/</ext:value>
+				<ext:value type="accessed">2011-12-12</ext:value>
+				<ext:value type="comment">story line, leading actors, director.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/2252.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Story Line of the movie: A kind-hearted, widowed landlord, Thakur, lives a wealthy lifestyle with his son, Ramesh; daughter, Roopa; and an adopted child, Shankar. Ramesh hates Shankar and often abuses him. Years pass by, Thakur has passed away, and all three children have grown up. While Ramesh visits a stunningly attractive Courtesan, Tara, drinks alcohol, and continues to abuse and mercilessly beat Shankar, who bears this in silence as he and Roopa are in love with each other. When Ramesh finds out that Roopa wants to wed Shankar, he has him severely beaten and thrown off a cliff. He then arranges Roopa's marriage with another wealthy man, Satish, while he continues to romance Tara and even signs over his entire estate and home to her name. Then a few years later, Shankar returns - this time as the wealthy Raja of Belapur - and he all set to compromise with Ramesh and propose to Roopa. He finds out that nothing has changed...</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0060310/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120864</ext:value>
+				<ext:value>120864</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:27">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

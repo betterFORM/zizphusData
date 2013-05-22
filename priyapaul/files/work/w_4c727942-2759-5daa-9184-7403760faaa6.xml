@@ -1,24 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_4c727942-2759-5daa-9184-7403760faaa6" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1942</earliestDate>
-				<latestDate>1942</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement calendar from 1942, we see Lord Krishna sprinkling color on an Indian woman wearing  red sari. In the background, some clouds and a forest can be seen. A peacock is depicted in front of Krishna. On the sides of the image, detailed s tell the customer how he will be able to individually design the blank spaces in the advertisement.</description>
+			<description lang="en" script="Latn">
+				<text>On this advertisement calendar from 1942, we see Lord Krishna sprinkling color on an Indian woman wearing  red sari. In the background, some clouds and a forest can be seen. A peacock is depicted in front of Krishna. On the sides of the image, detailed s tell the customer how he will be able to individually design the blank spaces in the advertisement.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -47,10 +47,13 @@ If Customers Require Monthly Date Pads No. 2 Instead Of Date Pads No. 3 Then Add
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109873" type="corporate">HeidICON Image Database</name>
+				<refid>109873</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -73,94 +76,105 @@ If Customers Require Monthly Date Pads No. 2 Instead Of Date Pads No. 3 Then Add
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="98cdd292-9b30-5297-a6f8-99dfdfc40644">
-				<term>red sari</term>
+				<term type="concept">red sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
-				<term>deity</term>
+				<term type="concept">deities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term>halo</term>
+				<term type="concept">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term>peacock</term>
+				<term type="animal">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
-				<term>garden</term>
+				<term type="concept">gardens</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="691ebeac-a255-5cce-a4da-dea272a31081">
-				<term>Holi</term>
+				<term type="concept">Holi</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Na Maro Pichkari (Don't sprinkle coloured water on me) in a 1942 calender advertisement.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Na Maro Pichkari (Don't sprinkle coloured water on me) in a 1942 calender advertisement.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 This is a Specimen (Item No. 8 &amp; 16) of a Complete
 10'' X 15'' Size Calendar
 With Tinted Ground Advertisement And Monthly Date Pad No. 3
-If This Tinted Ground Not Wanted the Consult for Prices with Item No. 8 only</hra:value>
-				<hra:value>text-en:
+If This Tinted Ground Not Wanted the Consult for Prices with Item No. 8 only</ext:value>
+				<ext:value>text-en:
 The Blank Paces On Both Sides Of The Picture And Date Pads Are Available For Printing Customer's Advertisement In Any Language
 ---
-Consult For Prices With Item No. 8 and No. 16 Of Our Price List</hra:value>
-				<hra:value>text-en: 
+Consult For Prices With Item No. 8 and No. 16 Of Our Price List</ext:value>
+				<ext:value>text-en: 
 This Picture Is Also Available in 15'' x 11'' Ins. or 20'' x 15'' Ins.
 ---
-If Customers Require Monthly Date Pads No. 2 Instead Of Date Pads No. 3 Then Add The Difference Prices Between Item No. 3 and No. 6 Of Our Price List</hra:value>
-				<hra:value>text-en:
-Na Maro Pichkari</hra:value>
-				<hra:value>text-en:
-This Picture's No. is 419</hra:value>
-				<hra:value>description-en:
-On this advertisement calendar from 1942, we see Lord Krishna sprinkling color on an Indian woman wearing  red sari. In the background, some clouds and a forest can be seen. A peacock is depicted in front of Krishna. On the sides of the image, detailed descriptions tell the customer how he will be able to individually design the blank spaces in the advertisement. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/675.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109873</hra:value>
-				<hra:value>109873</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:26">
-			</hra:administrative>
-		</hra:heidicon>
+If Customers Require Monthly Date Pads No. 2 Instead Of Date Pads No. 3 Then Add The Difference Prices Between Item No. 3 and No. 6 Of Our Price List</ext:value>
+				<ext:value>text-en:
+Na Maro Pichkari</ext:value>
+				<ext:value>text-en:
+This Picture's No. is 419</ext:value>
+				<ext:value>description-en:
+On this advertisement calendar from 1942, we see Lord Krishna sprinkling color on an Indian woman wearing  red sari. In the background, some clouds and a forest can be seen. A peacock is depicted in front of Krishna. On the sides of the image, detailed descriptions tell the customer how he will be able to individually design the blank spaces in the advertisement. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/675.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/675.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109873</ext:value>
+				<ext:value>109873</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:37">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

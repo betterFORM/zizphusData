@@ -1,33 +1,39 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_92391469-71de-5808-9e48-048e1d14dbaf" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5abfa90e-edfc-56bb-bf3f-bb03c06480e7">Lakshmi</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-4e80c54f-d35c-5b5c-903b-58f3ebbaabbe">Banshi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this sample calender poster from the Empire Calender Manufacturing Co., Calcutta, &quot;Samudra Manthan&quot; or churning the ocean can be seen with both the devas (gods) and the asuras (demons) working together using the mountain Mandaranchal as a churning tool and Vasuki the king of serpants as the churning rope. The gods  holding the tail of the serpant king and the demons the head. Vishnu can be seen along with the gods helping them churn the ocean. The goddess Lakshmi, a cow, a horse, an elephant, a tree, another divine being and objects such as a conch can also be seen in the sky.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>In this sample calender poster from the Empire Calender Manufacturing Co., Calcutta, &quot;Samudra Manthan&quot; or churning the ocean can be seen with both the devas (gods) and the asuras (demons) working together using the mountain Mandaranchal as a churning tool and Vasuki the king of serpants as the churning rope. The gods  holding the tail of the serpant king and the demons the head. Vishnu can be seen along with the gods helping them churn the ocean. The goddess Lakshmi, a cow, a horse, an elephant, a tree, another divine being and objects such as a conch can also be seen in the sky.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -47,10 +53,13 @@ No. 483</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122941" type="corporate">HeidICON Image Database</name>
+				<refid>122941</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -71,120 +80,150 @@ No. 483</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.mahashivratri.org/samudra-manthan.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
-				<term>moon</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="60d7e557-840a-5ac6-8224-efe262184804">
-				<term>conch (shell)</term>
+				<term type="concept">conch (shell)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
-				<term>elephant</term>
+				<term type="animal">elephants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term>horse</term>
+				<term type="concept">horses</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
+				<term type="concept">moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
-				<term>deity</term>
+				<term type="concept">deities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term>ocean</term>
+				<term type="concept">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term>Hinduism</term>
+				<term type="concept">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term>cow</term>
+				<term type="animal">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term>snake</term>
+				<term type="animal">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="46a02fc3-d05e-5820-b206-00102b348075">
-				<term>crescent</term>
+				<term type="concept">crescent</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cd038391-8591-583c-99d5-6f889f2fb222">
-				<term>demon</term>
+				<term type="concept">demons</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c7232ff6-e4c0-51c8-99a0-f2a788bf7d55">
-				<term>mahabharata</term>
+				<term type="work (epos)">Mahabharata</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term>signet</term>
+				<term type="concept">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cd8db38f-dfca-5077-9b2f-3e15d44641c3">
-				<term>Deva &lt;deity&gt;</term>
+				<term type="concept">Deva (deity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="80783591-9cf3-58dc-a46f-a931841868ad">
-				<term>crescent moon</term>
+				<term type="concept">crescent moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Samudra Manthan&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Samudra Manthan&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Banshi</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Banshi</hra:value>
-				<hra:value>text-en:
-HAP [publisher's signet]</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Banshi</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Banshi</ext:value>
+				<ext:value>text-en:
+HAP [publisher's signet]</ext:value>
+				<ext:value>text-en:
 Samudra Manthan
-No. 483</hra:value>
-				<hra:value>description-en:
-In this sample calender poster from the Empire Calender Manufacturing Co., Calcutta, &quot;Samudra Manthan&quot; or churning the ocean can be seen with both the devas (gods) and the asuras (demons) working together using the mountain Mandaranchal as a churning tool and Vasuki the king of serpants as the churning rope. The gods  holding the tail of the serpant king and the demons the head. Vishnu can be seen along with the gods helping them churn the ocean. The goddess Lakshmi, a cow, a horse, an elephant, a tree, another divine being and objects such as a conch can also be seen in the sky. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
+No. 483</ext:value>
+				<ext:value>description-en:
+In this sample calender poster from the Empire Calender Manufacturing Co., Calcutta, &quot;Samudra Manthan&quot; or churning the ocean can be seen with both the devas (gods) and the asuras (demons) working together using the mountain Mandaranchal as a churning tool and Vasuki the king of serpants as the churning rope. The gods  holding the tail of the serpant king and the demons the head. Vishnu can be seen along with the gods helping them churn the ocean. The goddess Lakshmi, a cow, a horse, an elephant, a tree, another divine being and objects such as a conch can also be seen in the sky. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
 Ksheera Sagara Mathanam, churning of the ocean is one of the most famous episodes in the Puranas and is celebrated in a major way every twelve years in the festival known as Kumbha Mela. The story appears in the Bhagavata Purana, the Mahabharata and the Vishnu Purana. The churning of the 
-Ocean of Milk was an elaborate process. Mount Mandaranchal was used as the dasher (churning tool), and Vasuki, the king of serpents, became the churning rope. The gods held the tail of the snake, while the demons (Asuras) held its head, and they pulled on it alternately causing the mountain to rotate, which in turn churned the ocean. However, once the mountain was placed on the ocean, it began to sink. Vishnu in his second incarnation, in the form of a turtle Kurma, came to their rescue and supported the mountain on his back. The churning of the ocean was done to extract the nectar of immortality.() (sp)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.mahashivratri.org/samudra-manthan.html, last accessed on 2011-08-01, description and significance of 'Samudra Manthan' in mythology (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.mahashivratri.org/samudra-manthan.html</hra:value>
-				<hra:value>2011-08-01</hra:value>
-				<hra:value>description and significance of 'Samudra Manthan' in mythology</hra:value>
-				<hra:value>|19|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/122941</hra:value>
-				<hra:value>122941</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:35:03">
-			</hra:administrative>
-		</hra:heidicon>
+Ocean of Milk was an elaborate process. Mount Mandaranchal was used as the dasher (churning tool), and Vasuki, the king of serpents, became the churning rope. The gods held the tail of the snake, while the demons (Asuras) held its head, and they pulled on it alternately causing the mountain to rotate, which in turn churned the ocean. However, once the mountain was placed on the ocean, it began to sink. Vishnu in his second incarnation, in the form of a turtle Kurma, came to their rescue and supported the mountain on his back. The churning of the ocean was done to extract the nectar of immortality.() (sp)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.mahashivratri.org/samudra-manthan.html, last accessed on 2011-08-01, description and significance of 'Samudra Manthan' in mythology (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.mahashivratri.org/samudra-manthan.html</ext:value>
+				<ext:value type="accessed">2011-08-01</ext:value>
+				<ext:value type="comment">description and significance of 'Samudra Manthan' in mythology</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Ksheera Sagara Mathanam, churning of the ocean is one of the most famous episodes in the Puranas and is celebrated in a major way every twelve years in the festival known as Kumbha Mela. The story appears in the Bhagavata Purana, the Mahabharata and the Vishnu Purana. The churning of the 
+Ocean of Milk was an elaborate process. Mount Mandaranchal was used as the dasher (churning tool), and Vasuki, the king of serpents, became the churning rope. The gods held the tail of the snake, while the demons (Asuras) held its head, and they pulled on it alternately causing the mountain to rotate, which in turn churned the ocean. However, once the mountain was placed on the ocean, it began to sink. Vishnu in his second incarnation, in the form of a turtle Kurma, came to their rescue and supported the mountain on his back. The churning of the ocean was done to extract the nectar of immortality.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.mahashivratri.org/samudra-manthan.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/122941</ext:value>
+				<ext:value>122941</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:49">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

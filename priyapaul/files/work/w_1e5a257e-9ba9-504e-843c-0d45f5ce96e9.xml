@@ -1,23 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_1e5a257e-9ba9-504e-843c-0d45f5ce96e9" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-8d0f3a44-aa3b-51a6-b71a-1e064afd9464">Kerala State Civil Supplies Corporation</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement poster for Kerala State Civil Supplies Corporation, a group of women is gathering around a newborn baby, the 5th incarnation of Vishnu - namely Vamana - and his mother Adviti. In the background, a red curtain can be seen as well as a table with a casket and other containers for valuables in the front.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>On this advertisement poster for Kerala State Civil Supplies Corporation, a group of women is gathering around a newborn baby, the 5th incarnation of Vishnu - namely Vamana - and his mother Adviti. In the background, a red curtain can be seen as well as a table with a casket and other containers for valuables in the front.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -33,10 +39,13 @@ Kerala State Civil Supplies Corporation</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108373" type="corporate">HeidICON Image Database</name>
+				<refid>108373</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -57,107 +66,151 @@ Kerala State Civil Supplies Corporation</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.pantheon.org/articles/v/vamana.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term>pearl necklace</term>
+				<term type="concept">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
+				<term type="concept">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="747cc752-b60c-5d8c-853a-4dba8a1c5b50">
-				<term>baby</term>
+				<term type="concept">infants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f123956b-a998-547c-820d-afb32e723540">
-				<term>pink sari</term>
+				<term type="concept">pink sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9597553-50b0-54c9-941d-95813851a3b7">
-				<term>curtain</term>
+				<term type="concept">curtains (window hangings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
+				<term type="concept">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f63b06e-4bcf-5a0f-8854-4a0908ac6a7d">
-				<term>incarnation</term>
+				<term type="concept">incarnation</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a05bc3e3-1255-5885-aabe-54adcf128965">
-				<term>casket</term>
+				<term type="concept">caskets (personal gear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fc385028-e8e3-58c9-b20c-ab00f2479f8d">
-				<term>fur</term>
+				<term type="concept">fur</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Advithi giving birth to Vamana</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Advithi giving birth to Vamana</title>
 		</titleSet>
 		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
-			<worktype>posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 SUPPLYCIO
-Maveli's Gift to Kerala</hra:value>
-				<hra:value>text-en:
+Maveli's Gift to Kerala</ext:value>
+				<ext:value>text-en:
 Advithi gives birth to Vamana.
-Kerala State Civil Supplies Corporation</hra:value>
-				<hra:value>description-en:
-On this advertisement poster for Kerala State Civil Supplies Corporation, a group of women is gathering around a newborn baby, the 5th incarnation of Vishnu - namely Vamana - and his mother Adviti. In the background, a red curtain can be seen as well as a table with a casket and other containers for valuables in the front. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Iconography and genre remind of Italian renaissance paintings with Christian iconography (CB)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-In Vedic Hinduism, the fifth avatar of Vishnu appeared in the form of a dwarf. It was in this form that Vishnu tricked Bali into giving up heaven and earth. He asked Bali to be given a plot of land a mere three paces wide. Bali agreed, and Vishnu returned to his usual size and paced out the measure of heaven and earth in two steps. He elected not to claim the underworld, which he allowed Bali to retain and rule over. (gs)</hra:value>
-				<hra:value>related hyperlink:
-http://www.pantheon.org/articles/v/vamana.html, last accessed 2011-09-16. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.pantheon.org/articles/v/vamana.html</hra:value>
-				<hra:value>2011-09-16</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108373</hra:value>
-				<hra:value>108373</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:31">
-			</hra:administrative>
-		</hra:heidicon>
+Kerala State Civil Supplies Corporation</ext:value>
+				<ext:value>description-en:
+On this advertisement poster for Kerala State Civil Supplies Corporation, a group of women is gathering around a newborn baby, the 5th incarnation of Vishnu - namely Vamana - and his mother Adviti. In the background, a red curtain can be seen as well as a table with a casket and other containers for valuables in the front. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Iconography and genre remind of Italian renaissance paintings with Christian iconography (CB)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+In Vedic Hinduism, the fifth avatar of Vishnu appeared in the form of a dwarf. It was in this form that Vishnu tricked Bali into giving up heaven and earth. He asked Bali to be given a plot of land a mere three paces wide. Bali agreed, and Vishnu returned to his usual size and paced out the measure of heaven and earth in two steps. He elected not to claim the underworld, which he allowed Bali to retain and rule over. (gs)</ext:value>
+				<ext:value>related hyperlink:
+http://www.pantheon.org/articles/v/vamana.html, last accessed 2011-09-16. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.pantheon.org/articles/v/vamana.html</ext:value>
+				<ext:value type="accessed">2011-09-16</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In Vedic Hinduism, the fifth avatar of Vishnu appeared in the form of a dwarf. It was in this form that Vishnu tricked Bali into giving up heaven and earth. He asked Bali to be given a plot of land a mere three paces wide. Bali agreed, and Vishnu returned to his usual size and paced out the measure of heaven and earth in two steps. He elected not to claim the underworld, which he allowed Bali to retain and rule over.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Iconography and genre remind of Italian renaissance paintings with Christian iconography</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.pantheon.org/articles/v/vamana.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108373</ext:value>
+				<ext:value>108373</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:05">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

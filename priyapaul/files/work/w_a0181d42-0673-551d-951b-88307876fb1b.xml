@@ -1,44 +1,56 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a0181d42-0673-551d-951b-88307876fb1b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-f76f17aa-05f0-5ba3-879b-8366e8d2b3ee">Paul, Shatrujit</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-56b451cb-8bf4-53a9-8a8f-2960dd60fea2">Kumar, Manoj</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-0b034e0b-1fda-51d7-8ec8-fc844daa9c73">Shivdasani, Sadhana</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-bc519147-a624-5fce-901d-8a111dfd12d3">Irani, Aruna</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-048f10a8-a5fe-5960-8e07-034bfe6fbd30">Mahmood</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1977</earliestDate>
-				<latestDate>1977</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A lobby card for the Hindi movie &quot;Amaanat&quot; released in 1977 shows the actors Aruna Irani (female) and Mahmood (male) in a park. Mahmood wears sunglassses, a red pullover and is whispering into Aruna's ear while she is trying to cover her ear with her hand.</description>
+			<description lang="en" script="Latn">
+				<text>A lobby card for the Hindi movie &quot;Amaanat&quot; released in 1977 shows the actors Aruna Irani (female) and Mahmood (male) in a park. Mahmood wears sunglassses, a red pullover and is whispering into Aruna's ear while she is trying to cover her ear with her hand.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-af8f5807-adaa-53c7-86ae-d4e2b4cec252">Schmidt, Matthias</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-9d799ca6-24a1-539f-b5a0-023325f6c142">zaboravkk, zaboravkk</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -63,17 +75,21 @@ Dharam Chopra</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119296" type="corporate">HeidICON Image Database</name>
+				<refid>119296</refid>
 			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_55a7be8d-6db0-5b30-a66e-470c0d82caa1" refid="119296" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_55a7be8d-6db0-5b30-a66e-470c0d82caa1" refid="119296" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_e8bd736b-30e3-5f67-84d5-85452af2c48c" refid="119297" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -81,51 +97,58 @@ Dharam Chopra</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0072632/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b8bec4ca-f38a-573c-b950-641275362104">
-				<term>park</term>
+				<term type="concept">parks (recreation areas)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8b9a9f23-4d58-50ca-88e6-b5bb6aa36257">
-				<term>sunglasses</term>
+				<term type="concept">sunglasses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term>movie still</term>
+				<term type="concept">movie still</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1cfe2f4f-e047-501f-8d28-03237ef4bd2d">
-				<term>Amaanat</term>
+				<term type="work (fim)">Amaanat</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term>recheck-Matthias</term>
+				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Amaanat&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Amaanat&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">अमानत</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Shatrujit Films 
 Amaanat
 Eastmancolor
@@ -138,40 +161,77 @@ Sahir
 Dialogue 
 Rajindar Singh Bedi
 Photography 
-Dharam Chopra</hra:value>
-				<hra:value>text-hi:
-अमानत</hra:value>
-				<hra:value>description-en:
-A lobby card for the Hindi movie &quot;Amaanat&quot; released in 1977 shows the actors Aruna Irani (female) and Mahmood (male) in a park. Mahmood wears sunglassses, a red pullover and is whispering into Aruna's ear while she is trying to cover her ear with her hand. (ms/gs/sb/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Storyline of the movie from the website imdb: Balraj Sahani plays a professional artist with wife Achala Sachdev and son Manoj Kumar caught in the trap of Rehman and Shashikala who for the payment of a large life insurance policy frame him in the murder of Rehman - who escapes to a world of crime after becoming a dead man for the world. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0072632/, last accessed 2011-12-15, story line, leading actors. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-/200806060046.jpg</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0072632/</hra:value>
-				<hra:value>2011-12-15</hra:value>
-				<hra:value>story line, leading actors.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119296</hra:value>
-				<hra:value>119296</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:45:26">
-			</hra:administrative>
-		</hra:heidicon>
+Dharam Chopra</ext:value>
+				<ext:value>text-hi:
+अमानत</ext:value>
+				<ext:value>description-en:
+A lobby card for the Hindi movie &quot;Amaanat&quot; released in 1977 shows the actors Aruna Irani (female) and Mahmood (male) in a park. Mahmood wears sunglassses, a red pullover and is whispering into Aruna's ear while she is trying to cover her ear with her hand. (ms/gs/sb/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Storyline of the movie from the website imdb: Balraj Sahani plays a professional artist with wife Achala Sachdev and son Manoj Kumar caught in the trap of Rehman and Shashikala who for the payment of a large life insurance policy frame him in the murder of Rehman - who escapes to a world of crime after becoming a dead man for the world. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0072632/, last accessed 2011-12-15, story line, leading actors. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+/200806060046.jpg</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0072632/</ext:value>
+				<ext:value type="accessed">2011-12-15</ext:value>
+				<ext:value type="comment">story line, leading actors.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/200806060046.jpg</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Storyline of the movie from the website imdb: Balraj Sahani plays a professional artist with wife Achala Sachdev and son Manoj Kumar caught in the trap of Rehman and Shashikala who for the payment of a large life insurance policy frame him in the murder of Rehman - who escapes to a world of crime after becoming a dead man for the world.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119297</ext:value>
+				<ext:value>i_e8bd736b-30e3-5f67-84d5-85452af2c48c</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0072632/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119296</ext:value>
+				<ext:value>119296</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:16">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

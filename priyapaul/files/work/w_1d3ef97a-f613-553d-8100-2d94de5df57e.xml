@@ -1,34 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_1d3ef97a-f613-553d-8100-2d94de5df57e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-30a002d0-b894-5702-8603-5121c5a28b92">Wadia, Homi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-80a09fa6-5fa3-57f2-aa36-bb3f62417d32">Chitra</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-91961988-ab8f-5da2-8521-9f2a36cd3f4c">Irani, Azaad</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1958</earliestDate>
-				<latestDate>1958</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The movie &quot;Zimbo&quot; was directed by Homi Wadia and got released in 1958. This poster shows three different scenes of the movie Zimbo from 1958: In the right upper corner Azaad Irani, who plays the role of Zimbo, is fighting a lion. In the left lower corner, Chitra, who plays the role of Leela Devi, wearing a tiger dress, is holding Azaad in her arms, while in the left upper corner two elephants with some bananas can be seen. (gs) The silhouette of a man in a white Safari dress can be seen behind the scene with the lion fight, as well as a large-scale figure of a head of an Indian warrior with his mouth open like a gateway, and further silhouettes of warriors next to him.</description>
+			<description lang="en" script="Latn">
+				<text>The movie &quot;Zimbo&quot; was directed by Homi Wadia and got released in 1958. This poster shows three different scenes of the movie Zimbo from 1958: In the right upper corner Azaad Irani, who plays the role of Zimbo, is fighting a lion. In the left lower corner, Chitra, who plays the role of Leela Devi, wearing a tiger dress, is holding Azaad in her arms, while in the left upper corner two elephants with some bananas can be seen. (gs) The silhouette of a man in a white Safari dress can be seen behind the scene with the lion fight, as well as a large-scale figure of a head of an Indian warrior with his mouth open like a gateway, and further silhouettes of warriors next to him.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0">Brosius, Christiane</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -46,10 +46,13 @@ Chitragupta</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120349" type="corporate">HeidICON Image Database</name>
+				<refid>120349</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -61,41 +64,53 @@ Chitragupta</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=85&amp;EId=103&amp;ImageId=37</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1950s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e26939bc-c53e-5cab-9365-16b1a5b7ca80">
-				<term>Zimbo</term>
+				<term type="work (movie)">Zimbo (movie, 1958)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5571af15-9f40-5a50-af6b-e6aecce3a740">
-				<term>collages (visual works)</term>
+				<term type="worktype">collages (visual works)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="5acbf595-8fb3-59b2-ade2-be46b9fa81f7">collage (technique)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Zimbo&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Zimbo&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Basant's  
 ZIMBO
 full Gevacolor
@@ -104,63 +119,123 @@ by
 Homi Wadia
 Azaad
 Music
-Chitragupta</hra:value>
-				<hra:value>description-en:
-The movie &quot;Zimbo&quot; was directed by Homi Wadia and got released in 1958. This poster shows three different scenes of the movie Zimbo from 1958: In the right upper corner Azaad Irani, who plays the role of Zimbo, is fighting a lion. In the left lower corner, Chitra, who plays the role of Leela Devi, wearing a tiger dress, is holding Azaad in her arms, while in the left upper corner two elephants with some bananas can be seen. (gs) The silhouette of a man in a white Safari dress can be seen behind the scene with the lion fight, as well as a large-scale figure of a head of an Indian warrior with his mouth open like a gateway, and further silhouettes of warriors next to him. (cb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging: 
-The elephants holding the bananas in the left upper corner of the poster are quite useful to underline the exotic character of the surrounding in which the movie takes place. The depiction of animals on this poster makes the viewer think of the egalitarian interaction of humans and animals in the jungle in a quite exoticising way. (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Unlike the nationalist elite, the Wadias understood market forces and knew that popular passions would be the seeds for new modern Indian identities and that these could not be imposed from above. They recognized the potency of transcultural popular images and the hybrid fluidity of identities within the porous borders of a modern India in a transnational context. They ‘got’ the pleasures of Tarzan and Aladdin in a way that their elite critics did not, leaving them culturally and politically marginalized but ensuring them long-lasting enthusiasm from their loyal subaltern audiences. (Rosie Thomas) (gs)</hra:value>
-				<hra:value>related literature:
-Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</hra:value>
-				<hra:value>related literature:
-Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-11-26 (gs)</hra:value>
-				<hra:value>related literature:
-Thomas, Rosie 2005. ‘Zimbo and Son Meet the Girl with a Gun’ in Living Pictures: Perspectives on the Film Poster in India, eds. David Blamey and Robert D’Souza, London: Open Editions, pp 27-44. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0390653/, last accessed 2010-11-26 (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Thomas, Rosie 2005. ‘Zimbo and Son Meet the Girl with a Gun’ in Living Pictures: Perspectives on the Film Poster in India, eds. David Blamey and Robert D’Souza, London: Open Editions, pp 27-44.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-11-26</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0390653/</hra:value>
-				<hra:value>2010-11-26</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Chitra</hra:value>
-			</hra:item>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Azaad Irani</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120349</hra:value>
-				<hra:value>120349</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:46:05">
-			</hra:administrative>
-		</hra:heidicon>
+Chitragupta</ext:value>
+				<ext:value>description-en:
+The movie &quot;Zimbo&quot; was directed by Homi Wadia and got released in 1958. This poster shows three different scenes of the movie Zimbo from 1958: In the right upper corner Azaad Irani, who plays the role of Zimbo, is fighting a lion. In the left lower corner, Chitra, who plays the role of Leela Devi, wearing a tiger dress, is holding Azaad in her arms, while in the left upper corner two elephants with some bananas can be seen. (gs) The silhouette of a man in a white Safari dress can be seen behind the scene with the lion fight, as well as a large-scale figure of a head of an Indian warrior with his mouth open like a gateway, and further silhouettes of warriors next to him. (cb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging: 
+The elephants holding the bananas in the left upper corner of the poster are quite useful to underline the exotic character of the surrounding in which the movie takes place. The depiction of animals on this poster makes the viewer think of the egalitarian interaction of humans and animals in the jungle in a quite exoticising way. (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Unlike the nationalist elite, the Wadias understood market forces and knew that popular passions would be the seeds for new modern Indian identities and that these could not be imposed from above. They recognized the potency of transcultural popular images and the hybrid fluidity of identities within the porous borders of a modern India in a transnational context. They ‘got’ the pleasures of Tarzan and Aladdin in a way that their elite critics did not, leaving them culturally and politically marginalized but ensuring them long-lasting enthusiasm from their loyal subaltern audiences. (Rosie Thomas) (gs)</ext:value>
+				<ext:value>related literature:
+Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</ext:value>
+				<ext:value>related literature:
+Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-11-26 (gs)</ext:value>
+				<ext:value>related literature:
+Thomas, Rosie 2005. ‘Zimbo and Son Meet the Girl with a Gun’ in Living Pictures: Perspectives on the Film Poster in India, eds. David Blamey and Robert D’Souza, London: Open Editions, pp 27-44. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0390653/, last accessed 2010-11-26 (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Thomas, Rosie 2005. ‘Zimbo and Son Meet the Girl with a Gun’ in Living Pictures: Perspectives on the Film Poster in India, eds. David Blamey and Robert D’Souza, London: Open Editions, pp 27-44.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-11-26</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0390653/</ext:value>
+				<ext:value type="accessed">2010-11-26</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Unlike the nationalist elite, the Wadias understood market forces and knew that popular passions would be the seeds for new modern Indian identities and that these could not be imposed from above. They recognized the potency of transcultural popular images and the hybrid fluidity of identities within the porous borders of a modern India in a transnational context. They ‘got’ the pleasures of Tarzan and Aladdin in a way that their elite critics did not, leaving them culturally and politically marginalized but ensuring them long-lasting enthusiasm from their loyal subaltern audiences.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The elephants holding the bananas in the left upper corner of the poster are quite useful to underline the exotic character of the surrounding in which the movie takes place. The depiction of animals on this poster makes the viewer think of the egalitarian interaction of humans and animals in the jungle in a quite exoticising way.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Chitra</ext:value>
+			</ext:item>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Azaad Irani</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=85&amp;EId=103&amp;ImageId=37</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120349</ext:value>
+				<ext:value>120349</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:11">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

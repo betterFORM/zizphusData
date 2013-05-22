@@ -1,38 +1,44 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_cc43b367-6d5f-5545-bfb8-4e1985441cfe" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-a43f0f77-cc82-548f-a37a-1edd1e98d07a">Bose, Subhas Chandra</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ea7ce3d4-5192-5bbe-beb8-8265bb29a36c">Tilak, Bal Gangadhar</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba21cc6d-11fd-599f-b1c5-54e234034504">Singh, Bhagat</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-8bac3ca3-070a-5e70-8e03-afd0edc720e0">Nathdwara School</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Subhash Chandra Bose offering his head in a plate to Mother India. The goddess is accompanied by her avatar, the lion, and a dragon, wearing the British flag. In the background of the lake at which both Bose and Bharat Mata stand, is Red Fort. In the middle, in the skies, like a cloud, a bust of Bose in white topi and kurta, who is riding on a lion, Red Fort in view.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Subhash Chandra Bose offering his head in a plate to Mother India. The goddess is accompanied by her avatar, the lion, and a dragon, wearing the British flag. In the background of the lake at which both Bose and Bharat Mata stand, is Red Fort. In the middle, in the skies, like a cloud, a bust of Bose in white topi and kurta, who is riding on a lion, Red Fort in view.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0">Brosius, Christiane</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -58,10 +64,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118976" type="corporate">HeidICON Image Database</name>
+				<refid>118976</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -82,60 +91,59 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1930s-1940s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="28641f0a-2e12-524c-a4b1-c18a15ec8c61">
-				<term>Old Delhi / Red Fort</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term>lion</term>
+				<term type="animal">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
-				<term>flag</term>
+				<term type="concept">flags</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41270d0f-0202-579c-b5f8-8aaa98e76e98">
-				<term>dragon</term>
+				<term type="fictional charcter">dragons</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8418bf24-e117-5402-90f0-fc231f5010a1">
-				<term>blood</term>
+				<term type="concept">blood (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a607ab4d-4d55-5515-9767-bb12040c3bdf">
-				<term>landscape</term>
+				<term type="concept">landscapes (environments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9de3cff5-ce16-5309-a973-786bd88e5f1b">
-				<term>head</term>
+				<term type="concept">heads (animal or human components)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term>uniform</term>
+				<term type="concept">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41450c29-8c4b-57ef-99f6-5dc94b57b399">
-				<term>cutout</term>
+				<term type="concept">cutouts</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term>lake</term>
+				<term type="concept">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2da4f9b0-738c-5b0b-a1d8-1cccce2bb8ef">
-				<term>kurta</term>
+				<term type="concept">kurta (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4540d4b6-913d-5bbf-a5e6-9ef462aa2d3e">
-				<term>political art</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="d6ad3f3d-70e1-5c7e-8be7-bebb06c2acb2">
-				<term>British flag</term>
+				<term type="concept">political art</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6138714d-8132-5952-9627-cf4c80e02390">
-				<term>topi</term>
+				<term type="concept">topis (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="58d3c555-3304-5cb4-b2c6-c0f695169b37">
-				<term>beheaded</term>
+				<term type="concept">beheaded</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="fd4ee5ff-e191-5a9d-b8e1-166da1b01768">
+				<term type="concept">Union Jack</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -143,7 +151,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;To Delhi! - Subhash's sacrifice&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;To Delhi! - Subhash's sacrifice&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">&quot;Chalo Dilli - Subhash Balidan&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">चलो दिल्ली - सुभाष बलिदान</title>
 		</titleSet>
@@ -151,73 +159,107 @@
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
 			<worktype vocab="local" source="EXC" refid="5571af15-9f40-5a50-af6b-e6aecce3a740">collages (visual works)</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
-Subhash Chandra Bose offering his head in a plate to Mother India. The goddess is accompanied by her avatar, the lion, and a dragon, wearing the British flag. In the background of the lake at which both Bose and Bharat Mata stand, is Red Fort. In the middle, in the skies, like a cloud, a bust of Bose in white topi and kurta, who is riding on a lion, Red Fort in view. (cb)</hra:value>
-				<hra:value>text-hi:
-सुभाष बलिदान</hra:value>
-				<hra:value>text-transcription-hi:
-Subhash Balidan</hra:value>
-				<hra:value>text-translation-hi:
-Sacrifice of Subhash</hra:value>
-				<hra:value>text-hi:
-चलो दिल्ली</hra:value>
-				<hra:value>text-transcription-hi:
-Chalo Dilli</hra:value>
-				<hra:value>text-translation-hi:
-March to Delhi</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
+Subhash Chandra Bose offering his head in a plate to Mother India. The goddess is accompanied by her avatar, the lion, and a dragon, wearing the British flag. In the background of the lake at which both Bose and Bharat Mata stand, is Red Fort. In the middle, in the skies, like a cloud, a bust of Bose in white topi and kurta, who is riding on a lion, Red Fort in view. (cb)</ext:value>
+				<ext:value>text-hi:
+सुभाष बलिदान</ext:value>
+				<ext:value>text-transcription-hi:
+Subhash Balidan</ext:value>
+				<ext:value>text-translation-hi:
+Sacrifice of Subhash</ext:value>
+				<ext:value>text-hi:
+चलो दिल्ली</ext:value>
+				<ext:value>text-transcription-hi:
+Chalo Dilli</ext:value>
+				<ext:value>text-translation-hi:
+March to Delhi</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
 The backdrop of the landscape with a lake and trees is probably from the Nathdwara School, the figures are cut out from a print and collaged over it. This is an interesting combination of political message (anti-British) and economic confidence - that of the rich traders from Shekawati in Rajasthan, who commissiones artists from Calcutta or Nathdwara to paint their exorbitant mansions. 
-Bose donates his head (= life) to Mother India, blood is flooding the tray on which his head lies, with eyed closed, and spills down his uniform (Indian National Army), while in front of him, a river of blood carries the heads of other martyrs, who died for him, for India's independence: e.g., Tilak, Bhagat Singh, Chandrashekar Azad, and Rana Pratap's royal helmet. (cb)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The image from which Mother India and Bose have been cut out can be found in Jain's catalogue on Indian Popular Culture (2004, figure 17, p 97). Interestingly, Mother India's chains have been removed from the collage, as well as Bose holding the Indian National Flag. A very similar collage is in the same catalogue (fig. 16, dates 1940s by Jain), but Krishna playing the flute is added. (cb)</hra:value>
-				<hra:value>related literature:
-Jain, Jyotindra. 2004. Indian Popular Culture. New Delhi: National Gallery of Modern Art. (cb)</hra:value>
-				<hra:value>related literature:
-Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press, especially pp. 126-138. (cb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press, especially pp. 126-138.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Jain, Jyotindra. 2004. Indian Popular Culture. New Delhi: National Gallery of Modern Art.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Bal Gangadhar Tilak</hra:value>
-			</hra:item>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Bhagat Singh</hra:value>
-			</hra:item>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Chandrashekar Azad</hra:value>
-			</hra:item>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Rana Pratap</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118976</hra:value>
-				<hra:value>118976</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:31:28">
-			</hra:administrative>
-		</hra:heidicon>
+Bose donates his head (= life) to Mother India, blood is flooding the tray on which his head lies, with eyed closed, and spills down his uniform (Indian National Army), while in front of him, a river of blood carries the heads of other martyrs, who died for him, for India's independence: e.g., Tilak, Bhagat Singh, Chandrashekar Azad, and Rana Pratap's royal helmet. (cb)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The image from which Mother India and Bose have been cut out can be found in Jain's catalogue on Indian Popular Culture (2004, figure 17, p 97). Interestingly, Mother India's chains have been removed from the collage, as well as Bose holding the Indian National Flag. A very similar collage is in the same catalogue (fig. 16, dates 1940s by Jain), but Krishna playing the flute is added. (cb)</ext:value>
+				<ext:value>related literature:
+Jain, Jyotindra. 2004. Indian Popular Culture. New Delhi: National Gallery of Modern Art. (cb)</ext:value>
+				<ext:value>related literature:
+Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press, especially pp. 126-138. (cb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press, especially pp. 126-138.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Jain, Jyotindra. 2004. Indian Popular Culture. New Delhi: National Gallery of Modern Art.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The backdrop of the landscape with a lake and trees is probably from the Nathdwara School, the figures are cut out from a print and collaged over it. This is an interesting combination of political message (anti-British) and economic confidence - that of the rich traders from Shekawati in Rajasthan, who commissiones artists from Calcutta or Nathdwara to paint their exorbitant mansions. 
+Bose donates his head (= life) to Mother India, blood is flooding the tray on which his head lies, with eyed closed, and spills down his uniform (Indian National Army), while in front of him, a river of blood carries the heads of other martyrs, who died for him, for India's independence: e.g., Tilak, Bhagat Singh, Chandrashekar Azad, and Rana Pratap's royal helmet.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The image from which Mother India and Bose have been cut out can be found in Jain's catalogue on Indian Popular Culture (2004, figure 17, p 97). Interestingly, Mother India's chains have been removed from the collage, as well as Bose holding the Indian National Flag. A very similar collage is in the same catalogue (fig. 16, dates 1940s by Jain), but Krishna playing the flute is added.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Bal Gangadhar Tilak</ext:value>
+			</ext:item>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Bhagat Singh</ext:value>
+			</ext:item>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Chandrashekar Azad</ext:value>
+			</ext:item>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Rana Pratap</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118976</ext:value>
+				<ext:value>118976</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:52">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

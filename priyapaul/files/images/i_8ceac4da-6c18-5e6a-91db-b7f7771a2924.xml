@@ -1,53 +1,35 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de">
-	<image id="i_8ceac4da-6c18-5e6a-91db-b7f7771a2924" source="EXC Priya Paul Collection" refid="8ceac4da-6c18-5e6a-91db-b7f7771a2924" href="t_metadata.f_preview.108710-105642-original.tif">
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
+	<image id="i_8ceac4da-6c18-5e6a-91db-b7f7771a2924" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4" href="t_metadata.f_preview.108710-105642-original.tif">
 		<agentSet>
-			<display/>
-			<notes/>
 			<agent>
-				<name vocab="" refid="" lang="eng" script="latn" pref="false" type="corporate">Cluster of Excellence "Asia and Europe in a Global Context", Heidelberg University.</name>
+				<name vocab="local" refid="uuid-edeaf4e7-ee99-5733-a841-fdb06decebb5" pref="false" type="corporate">Cluster of Excellence "Asia and Europe in a Global Context", Heidelberg University.</name>
 				<role vocab="marcrelator" code="mdc">Metadata contact</role>
 			</agent>
 			<agent>
-				<name vocab="" refid="" lang="eng" script="latn" pref="true" type="corporate">Tasveer Ghar: A Digital Network of South Asian Popular Visual Culture</name>
+				<name vocab="local" refid="uuid-edf9fbf7-a154-5fc8-835e-9aff2e5d2d69" pref="true" type="corporate">Tasveer Ghar</name>
 				<role vocab="AAT" refid="300202383">digitizing</role>
 			</agent>
 		</agentSet>
-		<culturalContextSet>
-			<culturalContext/>
-		</culturalContextSet>
 		<dateSet>
-			<display/>
-			<notes/>
 			<date type="creation">
-				<earliestDate></earliestDate>
-				<latestDate></latestDate>
+				<earliestDate>2009-01-06T14:30:53+01:00</earliestDate>
+				<latestDate>2009-01-06T14:30:53+01:00</latestDate>
 			</date>
 		</dateSet>
 		<descriptionSet>
-			<display/>
 			<description>This image was digitized and its metadata first edited in a collaborative project between Tasveer Ghar: A Digital Network of South Asian Popular Visual Culture and the Cluster of Excellence "Asia and Europe in a Global Context", Heidelberg University.</description> 
 		</descriptionSet>
-		<inscriptionSet>
-			<display/>
-		</inscriptionSet>
 		<locationSet>
-			<display/>
 			<location type="repository">
-				<name vocab="" refid="" type="corporate">Visual Resources, Heidelberg Research Architecture, Cluster of Excellence "Asia and Europe", Heidelberg University</name>
+				<name vocab="local" refid="uuid-a86fcf82-1200-58c6-91d6-2d537f5b58e2" type="corporate">Heidelberg Research Architecture, Visual Resources</name>
 				<name type="geographic" vocab="TGN" refid="7005177" extent="inhabited place">Heidelberg</name>
 			</location>
 			<location type="formerRepository">
-				<name vocab="" refid="" href="http://heidicon.ub.uni-heidelberg.de" type="corporate">HeidICON Image Database</name>
+				<name vocab="local" refid="uuid-6e9b4017-9136-51bd-83b2-fc6d8681e034" href="http://heidicon.ub.uni-heidelberg.de/id/108710" type="corporate">HeidICON Image Database</name>
 				<refid>108710</refid>
 			</location>
 		</locationSet>
-		<materialSet>
-			<display/>
-			<material/>
-		</materialSet>
  		<measurementsSet>
-			<display/>
-			<notes/>
 			<measurements type="resolution" unit="ppi">300x300</measurements>
 			<measurements type="width" unit="px">1477</measurements>
 			<measurements type="height" unit="px">1846</measurements>
@@ -58,56 +40,29 @@
 			<relation type="imageOf" relids="w_df6b7a7a-a5b1-52e0-8161-7fcbd1da8782" refid="108710" source="EXC Priya Paul Collection">front</relation>
 		</relationSet>
 		<rightsSet>
-			<display/>
 			<notes>The Priya Paul Collection. Reproduced with kind permission of the collector.</notes>
 			<rights type="copyrighted" href="http://priyapaulcollection.uni-hd.de">
 				<rightsHolder/>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
-		<sourceSet>
-			<display/>
-			<source>
-				<name/>
-				<refid/>
-			</source>
-		</sourceSet>
-		<stateEditionSet>
-			<display/>
-			<stateEdition>
-				<name/>
-				<description/>
-			</stateEdition>
-		</stateEditionSet>
-		<stylePeriodSet>
-			<display/>
-			<stylePeriod/>
-		</stylePeriodSet>
-		<subjectSet>
-			<display/>
-			<subject>
-				<term/>
-			</subject>
-		</subjectSet>
 		<techniqueSet>
-			<display/>
-			<notes/>
 			<technique vocab="AAT" refid="300237903">digital imaging</technique>
 		</techniqueSet>
-		<textrefSet>
-			<display/>
-			<textref>
-				<name/>
-				<refid/>
-			</textref>
-		</textrefSet>
 		<titleSet>
-			<display/>
 			<title type="generalView">Shree Ram Chanderjee's Ticket - a textile label</title>
 		</titleSet>
 		<worktypeSet>
-			<display/>
 			<worktype vocab="AAT" refid="300215302">digital images</worktype>
 		</worktypeSet>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108710</ext:value>
+				<ext:value>108710</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:16"></ext:administrative>
+		</ext:heidicon>
 	</image>
 </vra>

@@ -1,18 +1,24 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_e7428737-262c-5d6b-bc52-5559bc1b0f76" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-f9355ab6-c33c-52d0-b0fb-cd5f8fcc0b70">Congress Party</name>
-				<role/>
+				<name vocab="local" type="corporate" refid="uuid-f9355ab6-c33c-52d0-b0fb-cd5f8fcc0b70">Indian National Congress</name>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A poster showing portraits of 16 presidents of the Indian National Congress between 1895 to 1905. It was published by Hemchunder Hiralal Bhargava, agent for Ravi Varma Pictures.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A poster showing portraits of 16 presidents of the Indian National Congress between 1895 to 1905. It was published by Hemchunder Hiralal Bhargava, agent for Ravi Varma Pictures.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -38,10 +44,13 @@ Glass Merchants.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139307" type="corporate">HeidICON Image Database</name>
+				<refid>139307</refid>
 			</location>
 		</locationSet>
 		<relationSet>
@@ -55,27 +64,27 @@ Glass Merchants.</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="44ac94f4-ee8b-58c8-b219-a380770a6c05">
-				<term>nation</term>
+				<term type="concept">nations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term>recheck-new</term>
+				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="32bac633-9059-5ea1-9685-2316bac61731">
-				<term>political posters</term>
+				<term type="worktype">political posters</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Presidents of the Indian National Congress&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Presidents of the Indian National Congress&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Presidents of the Indian National Congress 
-1885-1905</hra:value>
-				<hra:value>text-en
+1885-1905</ext:value>
+				<ext:value>text-en
 Sir Pherozeshah M. Mehta (Calcutta 1890)
 Romesh Chandra Dutt, C.I.E. (Lucknow 1899)
 (Bombay 1885) W. C. Bonnerji Esq (Allahabad 1892)
@@ -96,39 +105,50 @@ Hon. C. Sankaren Nair, Esq. (Amraoti 1987)
 
 Raj Bahadut P. Ananda Carlu C.I.E. (Nagpore 1891)
 Hon. G. K. Gokhale, Esq. (Benares 1905)
-Anand Mohan Boze, Esq. (Madras 1896)</hra:value>
-				<hra:value>text-en:
-Published by Hemchunder Hiralal Bharghava</hra:value>
-				<hra:value>text-en:
-Agents for Ravi-Varma Pictures, Chandnichowk (near Dariba) Delhi.</hra:value>
-				<hra:value>text-en:
+Anand Mohan Boze, Esq. (Madras 1896)</ext:value>
+				<ext:value>text-en:
+Published by Hemchunder Hiralal Bharghava</ext:value>
+				<ext:value>text-en:
+Agents for Ravi-Varma Pictures, Chandnichowk (near Dariba) Delhi.</ext:value>
+				<ext:value>text-en:
 Wholesale Stationers, 
 Swadeshi Picture, 
 Picture-Frames &amp; 
-Glass Merchants.</hra:value>
-				<hra:value>text:
-Printed in India No. 346</hra:value>
-				<hra:value>text-en:
-Ravi-Varma Press, Karla-Lonavla</hra:value>
-				<hra:value>description-en:
-A poster showing portraits of 16 presidents of the Indian National Congress between 1895 to 1905. It was published by Hemchunder Hiralal Bhargava, agent for Ravi Varma Pictures.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-20090901_3212</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/139307</hra:value>
-				<hra:value>139307</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:47:19">
-			</hra:administrative>
-		</hra:heidicon>
+Glass Merchants.</ext:value>
+				<ext:value>text:
+Printed in India No. 346</ext:value>
+				<ext:value>text-en:
+Ravi-Varma Press, Karla-Lonavla</ext:value>
+				<ext:value>description-en:
+A poster showing portraits of 16 presidents of the Indian National Congress between 1895 to 1905. It was published by Hemchunder Hiralal Bhargava, agent for Ravi Varma Pictures.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+20090901_3212</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">20090901_3212</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/139307</ext:value>
+				<ext:value>139307</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:56">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

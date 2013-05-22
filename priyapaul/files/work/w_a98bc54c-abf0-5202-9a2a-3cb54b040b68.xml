@@ -1,39 +1,39 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a98bc54c-abf0-5202-9a2a-3cb54b040b68" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-732116f0-bd3e-5c22-b005-5e1c9b666a3d">Mahipal</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-30a002d0-b894-5702-8603-5121c5a28b92">Wadia, Homi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-07ca67c8-7397-52cb-8c36-6209b5e6883f">Kumari, Meena</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2ca870d1-591c-5d27-9c22-ef426432f658">Pahalwan, Vasantrao</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1952</earliestDate>
-				<latestDate>1952</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A couple, most probably second hero and heroine of the movie &quot;Aladin and the wonderful lamp&quot; (directed by Homi Wadia) which got released in 1952, are depicted while dancing in a romantic way. Both actors are wearing oriental clothes.</description>
+			<description lang="en" script="Latn">
+				<text>A couple, most probably second hero and heroine of the movie &quot;Aladin and the wonderful lamp&quot; (directed by Homi Wadia) which got released in 1952, are depicted while dancing in a romantic way. Both actors are wearing oriental clothes.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -53,10 +53,13 @@ Homi Wadia</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120169" type="corporate">HeidICON Image Database</name>
+				<refid>120169</refid>
 			</location>
 		</locationSet>
 		<measurementsSet>
@@ -74,108 +77,222 @@ Homi Wadia</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/103/index_2.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1950s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="38e3eaca-41e1-548e-9b95-398b391c8482">
-				<term>Aladdin and the wonderful lamp</term>
+				<term type="work (movie)">Aladdin and the Wonderful Lamp (movie, 1952)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
-				<term>film</term>
+				<term type="concept">motion pictures (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c07330ed-d4cd-50b7-be79-13a81c122ac0">
-				<term>adaptation</term>
+				<term type="concept">adaptations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Aladdin and the wonderful lamp</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Aladdin and the wonderful lamp</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Basant Pictures
-presents</hra:value>
-				<hra:value>text-en:
+presents</ext:value>
+				<ext:value>text-en:
 Aladdin and the
-Wonderful Lamp</hra:value>
-				<hra:value>text-en:
+Wonderful Lamp</ext:value>
+				<ext:value>text-en:
 Wadia Brothers Production
 Produced and Directed by
-Homi Wadia</hra:value>
-				<hra:value>description-en:
-A couple, most probably second hero and heroine of the movie &quot;Aladin and the wonderful lamp&quot; (directed by Homi Wadia) which got released in 1952, are depicted while dancing in a romantic way. Both actors are wearing oriental clothes. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The movie &quot;Aladdin and his wonderful lamp&quot; was directed by Homi Wadia and released in 1952. Aladdin, as probably every reader knows, is the story of a good-hearted, if feckless, young man who comes into untold, unearned wealth and magical powers through command of a supernatural being: a djinni/genie arrives to do his will whenever he rubs a dirty old lamp he inadvertently acquired in an enchanted cave through a wicked magician’s trickery. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The success of Homi Wadia’s Aladdin kick-started a new vogue for fantasy films on the B and C circuits. By the mid-1950s these and costume films together accounted for around a third of all productions. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Boasting details such as a crescent moon and star hairclip or turbans dripping with pearls, which drew as much on a confused Hollywood orientalist imagination - and Parsee theatre - as on any recognisable Arabic tradition or reality are also essential in this picture. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Star spectacle was arguably less crucial: whilst today there is a potent charge to seeing the beautiful, teenaged Meena Kumari as the main heroine, in 1952 she was still a minor star of the B-movie world, as was her male lead, Mahipal. Basant Pictures developed its own stable of ensemble players, recognisable to its C circuit audiences but rarely making the transition into A-grade stars that Meena Kumari - and a few others - did. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The actresses’ costume is reassuringly demure, promising the allure of love and romance within an exotic ‘other’ world, but one that is, importantly, not the decadent modern west. Presumably the stills were designed to entice a family audience – a key aspiration of the fantasy films. But this coyness is not quite what emerges in the film itself. As Homi Wadia's epithet (above) indicates, spectacular dance sequences were a sine qua non of the fantasy film. Whilst none of the archive’s six Aladdin stills even hints at such excess, the film did indeed flaunt ‘plenty of chorus girls and dreamy backdrops’. Aladdin climaxes with a dramatic dream sequence song in which, above frantically belching smoke machines and choirs of nubile chorus girls, Meena Kumari is strung up in a giant spider’s web as the rapacious villain makes pincer movements towards her. (Rosie Thomas)(gs)</hra:value>
-				<hra:value>related literature:
-Irwin, Robert 1994. &quot;The Arabian Nights: A Companion&quot;. London: Allen Lane. (gs)</hra:value>
-				<hra:value>related literature:
-Marzolph, Ulrich 2006. &quot;Arabian Nights Reader&quot;. Detroit: Wayne State University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</hra:value>
-				<hra:value>related literature:
-Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (22.11.2010) (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (22.11.2010)</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Marzolph, Ulrich 2006. &quot;Arabian Nights Reader&quot;. Detroit: Wayne State University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Irwin, Robert 1994. &quot;The Arabian Nights: A Companion&quot;. London: Allen Lane.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>torn</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120169</hra:value>
-				<hra:value>120169</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:37:59">
-			</hra:administrative>
-		</hra:heidicon>
+Homi Wadia</ext:value>
+				<ext:value>description-en:
+A couple, most probably second hero and heroine of the movie &quot;Aladin and the wonderful lamp&quot; (directed by Homi Wadia) which got released in 1952, are depicted while dancing in a romantic way. Both actors are wearing oriental clothes. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The movie &quot;Aladdin and his wonderful lamp&quot; was directed by Homi Wadia and released in 1952. Aladdin, as probably every reader knows, is the story of a good-hearted, if feckless, young man who comes into untold, unearned wealth and magical powers through command of a supernatural being: a djinni/genie arrives to do his will whenever he rubs a dirty old lamp he inadvertently acquired in an enchanted cave through a wicked magician’s trickery. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The success of Homi Wadia’s Aladdin kick-started a new vogue for fantasy films on the B and C circuits. By the mid-1950s these and costume films together accounted for around a third of all productions. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Boasting details such as a crescent moon and star hairclip or turbans dripping with pearls, which drew as much on a confused Hollywood orientalist imagination - and Parsee theatre - as on any recognisable Arabic tradition or reality are also essential in this picture. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Star spectacle was arguably less crucial: whilst today there is a potent charge to seeing the beautiful, teenaged Meena Kumari as the main heroine, in 1952 she was still a minor star of the B-movie world, as was her male lead, Mahipal. Basant Pictures developed its own stable of ensemble players, recognisable to its C circuit audiences but rarely making the transition into A-grade stars that Meena Kumari - and a few others - did. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The actresses’ costume is reassuringly demure, promising the allure of love and romance within an exotic ‘other’ world, but one that is, importantly, not the decadent modern west. Presumably the stills were designed to entice a family audience – a key aspiration of the fantasy films. But this coyness is not quite what emerges in the film itself. As Homi Wadia's epithet (above) indicates, spectacular dance sequences were a sine qua non of the fantasy film. Whilst none of the archive’s six Aladdin stills even hints at such excess, the film did indeed flaunt ‘plenty of chorus girls and dreamy backdrops’. Aladdin climaxes with a dramatic dream sequence song in which, above frantically belching smoke machines and choirs of nubile chorus girls, Meena Kumari is strung up in a giant spider’s web as the rapacious villain makes pincer movements towards her. (Rosie Thomas)(gs)</ext:value>
+				<ext:value>related literature:
+Irwin, Robert 1994. &quot;The Arabian Nights: A Companion&quot;. London: Allen Lane. (gs)</ext:value>
+				<ext:value>related literature:
+Marzolph, Ulrich 2006. &quot;Arabian Nights Reader&quot;. Detroit: Wayne State University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books. (gs)</ext:value>
+				<ext:value>related literature:
+Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (22.11.2010) (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (22.11.2010)</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Marzolph, Ulrich 2006. &quot;Arabian Nights Reader&quot;. Detroit: Wayne State University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Irwin, Robert 1994. &quot;The Arabian Nights: A Companion&quot;. London: Allen Lane.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Boasting details such as a crescent moon and star hairclip or turbans dripping with pearls, which drew as much on a confused Hollywood orientalist imagination - and Parsee theatre - as on any recognisable Arabic tradition or reality are also essential in this picture.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The movie &quot;Aladdin and his wonderful lamp&quot; was directed by Homi Wadia and released in 1952. Aladdin, as probably every reader knows, is the story of a good-hearted, if feckless, young man who comes into untold, unearned wealth and magical powers through command of a supernatural being: a djinni/genie arrives to do his will whenever he rubs a dirty old lamp he inadvertently acquired in an enchanted cave through a wicked magician’s trickery.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The actresses’ costume is reassuringly demure, promising the allure of love and romance within an exotic ‘other’ world, but one that is, importantly, not the decadent modern west. Presumably the stills were designed to entice a family audience – a key aspiration of the fantasy films. But this coyness is not quite what emerges in the film itself. As Homi Wadia's epithet (above) indicates, spectacular dance sequences were a sine qua non of the fantasy film. Whilst none of the archive’s six Aladdin stills even hints at such excess, the film did indeed flaunt ‘plenty of chorus girls and dreamy backdrops’. Aladdin climaxes with a dramatic dream sequence song in which, above frantically belching smoke machines and choirs of nubile chorus girls, Meena Kumari is strung up in a giant spider’s web as the rapacious villain makes pincer movements towards her.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The success of Homi Wadia’s Aladdin kick-started a new vogue for fantasy films on the B and C circuits. By the mid-1950s these and costume films together accounted for around a third of all productions.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Star spectacle was arguably less crucial: whilst today there is a potent charge to seeing the beautiful, teenaged Meena Kumari as the main heroine, in 1952 she was still a minor star of the B-movie world, as was her male lead, Mahipal. Basant Pictures developed its own stable of ensemble players, recognisable to its C circuit audiences but rarely making the transition into A-grade stars that Meena Kumari - and a few others - did.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>torn</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/103/index_2.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120169</ext:value>
+				<ext:value>120169</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:05">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

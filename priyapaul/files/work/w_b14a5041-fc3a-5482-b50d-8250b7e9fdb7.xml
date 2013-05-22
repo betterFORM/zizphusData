@@ -1,13 +1,23 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_b14a5041-fc3a-5482-b50d-8250b7e9fdb7" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A collage of four matchbox covers. The first image gas an illustration of a matchstick. The second image is that of a woman dressed in a ghagra (long skirt) and dupatta (stole) and blouse. She carries a pot on her head and in the background a well with a bucket can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A collage of four matchbox covers. The first image gas an illustration of a matchstick. The second image is that of a woman dressed in a ghagra (long skirt) and dupatta (stole) and blouse. She carries a pot on her head and in the background a well with a bucket can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -50,10 +60,13 @@ Mkt by Jawaharlal &amp; Sons Jaipur.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108107" type="corporate">HeidICON Image Database</name>
+				<refid>108107</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -76,53 +89,53 @@ Mkt by Jawaharlal &amp; Sons Jaipur.</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term>tree</term>
+				<term type="concept">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
-				<term>matchcover</term>
+				<term type="concept">matchbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2d8888fe-fae9-5325-8aad-11c7b6998804">
-				<term>dupatta</term>
+				<term type="concept">dupattas (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
-				<term>matchbox</term>
+				<term type="worktype">matchboxes</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">4 Matchbox covers</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">4 Matchbox covers</title>
 		</titleSet>
 		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">matchboxes</worktype>
 			<worktype vocab="local" source="EXC" refid="55f1923a-6951-5b93-b433-aea716f3ce5e">scrapbooks</worktype>
-			<worktype>matchboxes</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-1. 50's Safety Matches 50 Ps.</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+1. 50's Safety Matches 50 Ps.</ext:value>
+				<ext:value>text-en:
 2. 50's
-Panghat</hra:value>
-				<hra:value>text-en:
+Panghat</ext:value>
+				<ext:value>text-en:
 3. Annalakshmi Match Works,
 Pandavarmangalam. 
 50 Sticks 50 Ps. 
-Panghat (24x)</hra:value>
-				<hra:value>text-en:
+Panghat (24x)</ext:value>
+				<ext:value>text-en:
 4. Super Deluxe Quality
 © 20768
 ® 335333
@@ -132,43 +145,71 @@ Damp Proof
 Tamilnadu Match Industries Elayirampannai
 T. M. Owner Subhash Kamha &amp; Bros
 Sriganganagar (India)
-Mkt by Jawaharlal &amp; Sons Jaipur.</hra:value>
-				<hra:value>text-ta:
-ADD TEXT HERE</hra:value>
-				<hra:value>text-hi:
+Mkt by Jawaharlal &amp; Sons Jaipur.</ext:value>
+				<ext:value>text-ta:
+ADD TEXT HERE</ext:value>
+				<ext:value>text-hi:
 पनघट 
-50's माचिस</hra:value>
-				<hra:value>text-hi:
+50's माचिस</ext:value>
+				<ext:value>text-hi:
 कामरा
-माचिस</hra:value>
-				<hra:value>description-en:
-A collage of four matchbox covers. The first image gas an illustration of a matchstick. The second image is that of a woman dressed in a ghagra (long skirt) and dupatta (stole) and blouse. She carries a pot on her head and in the background a well with a bucket can be seen. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/247.tif</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Collector : Abhishek Khandelwal</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-A leaf of a scrap book. (ja)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>Good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/108107</hra:value>
-				<hra:value>108107</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:38:56">
-			</hra:administrative>
-		</hra:heidicon>
+माचिस</ext:value>
+				<ext:value>description-en:
+A collage of four matchbox covers. The first image gas an illustration of a matchstick. The second image is that of a woman dressed in a ghagra (long skirt) and dupatta (stole) and blouse. She carries a pot on her head and in the background a well with a bucket can be seen. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/247.tif</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Collector : Abhishek Khandelwal</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+A leaf of a scrap book. (ja)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">A leaf of a scrap book.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Alisch, Johannes</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Collector : Abhishek Khandelwal</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/247.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>Good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/108107</ext:value>
+				<ext:value>108107</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:41">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

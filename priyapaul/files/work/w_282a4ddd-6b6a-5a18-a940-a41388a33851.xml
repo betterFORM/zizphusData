@@ -1,29 +1,35 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_282a4ddd-6b6a-5a18-a940-a41388a33851" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="138043973" pref="true">Dayal, Prabhu</name>
-				<role/>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-65d331c8-aea5-564e-a372-b0b6cd6f30df">Gandhi, Mohandas Karamchand</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
+  			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-0813ec19-f470-5797-b003-eb5b34c0cc7d">Dayal, Prabhu</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Gandhi clad in a dhoti sits on the lap of Mother India.
-Mother India in turn is shown perched on a partially visible map of India (shown as a three-dimensional figure). The Himalayas are visible in the upper part of the print. Mother India carries a tricolor flag. Gandhi carries his spinning wheel.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>Gandhi clad in a dhoti sits on the lap of Mother India.
+Mother India in turn is shown perched on a partially visible map of India (shown as a three-dimensional figure). The Himalayas are visible in the upper part of the print. Mother India carries a tricolor flag. Gandhi carries his spinning wheel.</text>
+				<author>
+					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -56,13 +62,13 @@ Rashtriya Chitra Prakashak Karyalaya, Cawnpore</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
-			</location>
-			<location type="creation">
-				<name type="geographic" vocab="" refid="">Kanpur</name>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109745" type="corporate">HeidICON Image Database</name>
+				<refid>109745</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -88,74 +94,91 @@ Rashtriya Chitra Prakashak Karyalaya, Cawnpore</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term>map of India</term>
+				<term type="work (map)">map of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term>national leader</term>
+				<term type="concept">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
-				<term>deity</term>
+				<term type="concept">deities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term>map</term>
+				<term type="concept">maps</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
+				<term type="concept">leaders (people)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="57ee3339-e4a6-576c-a74c-cdcc94e12a1e">
+				<term type="geographic">Kanpur</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Mahatma Gandhi&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mahatma Gandhi&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">Mahatma Gandhi</title>
 			<title type="descriptive" pref="false" lang="" script="">महात्मा गांधी</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="32bac633-9059-5ea1-9685-2316bac61731">political posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>description-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>description-en:
 Gandhi clad in a dhoti sits on the lap of Mother India.
-Mother India in turn is shown perched on a partially visible map of India (shown as a three-dimensional figure). The Himalayas are visible in the upper part of the print. Mother India carries a tricolor flag. Gandhi carries his spinning wheel.</hra:value>
-				<hra:value>text-en:
+Mother India in turn is shown perched on a partially visible map of India (shown as a three-dimensional figure). The Himalayas are visible in the upper part of the print. Mother India carries a tricolor flag. Gandhi carries his spinning wheel.</ext:value>
+				<ext:value>text-en:
 Sole Agent for U. P.
 Radhe Lal Agrawal, 
 Picture Merchant,
-Generalganj, Cawnpore</hra:value>
-				<hra:value>text-en:
-Mahatma Gandhi</hra:value>
-				<hra:value>text-hi:
-महात्मा गांधी</hra:value>
-				<hra:value>text-en:
+Generalganj, Cawnpore</ext:value>
+				<ext:value>text-en:
+Mahatma Gandhi</ext:value>
+				<ext:value>text-hi:
+महात्मा गांधी</ext:value>
+				<ext:value>text-en:
 Published by
-Rashtriya Chitra Prakashak Karyalaya, Cawnpore</hra:value>
-				<hra:value>text-hi:
-भारत माता की गोद में महात्मा गांधी</hra:value>
-				<hra:value>text-transcription-hi:
-Bharat mata ki godh mein Mahatma Gandhi</hra:value>
-				<hra:value>text-translation-en:
-Mahatma Gandhi in Mother India's lap</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/179.tif</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109745</hra:value>
-				<hra:value>109745</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:41:43">
-			</hra:administrative>
-		</hra:heidicon>
+Rashtriya Chitra Prakashak Karyalaya, Cawnpore</ext:value>
+				<ext:value>text-hi:
+भारत माता की गोद में महात्मा गांधी</ext:value>
+				<ext:value>text-transcription-hi:
+Bharat mata ki godh mein Mahatma Gandhi</ext:value>
+				<ext:value>text-translation-en:
+Mahatma Gandhi in Mother India's lap</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/179.tif</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/179.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109745</ext:value>
+				<ext:value>109745</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:32">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

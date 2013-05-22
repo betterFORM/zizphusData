@@ -1,28 +1,29 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a139d248-e84b-5789-9df2-64f861ed32de" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-f0a66022-0cfc-5969-9867-775c451e34d3">Bharatiya Nari</name>
-				<role vocab="marcrelator" code="art">Artist</role>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="personal" refid="uuid-21165d45-1d29-5e54-8e36-e618349e8f3e">Shonan</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-937f274c-2fcc-5764-b07e-58cf93df1e1f">All India Calendar Company</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The image from the Champion Series catalogue of images (All India Calender Company, Calcutta) shows two women dancing in a forest. Trees, plants and flowers can be seen in the background. The women are wearing ghagras (flared long skirts) and blouses with dupattas (stoles) covering their head and gold jewellery. There is a parakeet visible on the branch of a tree.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The image from the Champion Series catalogue of images (All India Calender Company, Calcutta) shows two women dancing in a forest. Trees, plants and flowers can be seen in the background. The women are wearing ghagras (flared long skirts) and blouses with dupattas (stoles) covering their head and gold jewellery. There is a parakeet visible on the branch of a tree.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -44,10 +45,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118589" type="corporate">HeidICON Image Database</name>
+				<refid>118589</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -70,87 +74,91 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c0102a51-5293-573e-97e6-d863e90a33bf">
-				<term>bird</term>
+				<term type="animal">birds (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term>dancing</term>
+				<term type="concept">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
-				<term>forest</term>
+				<term type="concept">forests</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+				<term type="concept">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cd01c853-5c20-56f6-b3df-129c7c77652a">
-				<term>skirt</term>
+				<term type="concept">skirts (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term>recheck-problem</term>
+				<term type="internal workflow">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2d8888fe-fae9-5325-8aad-11c7b6998804">
-				<term>dupatta</term>
+				<term type="concept">dupattas (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1bf404e9-85cf-5336-94ea-32b5cf43a7b3">
-				<term>gharga</term>
+				<term type="concept">gharga (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term>trade catalogs</term>
+				<term type="concept">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Modern Dance&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Modern Dance&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Shonan</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-MODERN DANCE - No.58/S (Series X)</hra:value>
-				<hra:value>text-en:
-If any customer selects Series &quot;X&quot; Picture to be printed with the same advertisement matter as on the other pictures of his order, an extra of Rs. 10/- per 1000 or part thereof, will be charged.</hra:value>
-				<hra:value>text-en:
-PSM [signet]</hra:value>
-				<hra:value>text-en:
-Shonan</hra:value>
-				<hra:value>description-en:
-The image from the Champion Series catalogue of images (All India Calender Company, Calcutta) shows two women dancing in a forest. Trees, plants and flowers can be seen in the background. The women are wearing ghagras (flared long skirts) and blouses with dupattas (stoles) covering their head and gold jewellery. There is a parakeet visible on the branch of a tree. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118589</hra:value>
-				<hra:value>118589</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:37:00">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Shonan</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+MODERN DANCE - No.58/S (Series X)</ext:value>
+				<ext:value>text-en:
+If any customer selects Series &quot;X&quot; Picture to be printed with the same advertisement matter as on the other pictures of his order, an extra of Rs. 10/- per 1000 or part thereof, will be charged.</ext:value>
+				<ext:value>text-en:
+PSM [signet]</ext:value>
+				<ext:value>text-en:
+Shonan</ext:value>
+				<ext:value>description-en:
+The image from the Champion Series catalogue of images (All India Calender Company, Calcutta) shows two women dancing in a forest. Trees, plants and flowers can be seen in the background. The women are wearing ghagras (flared long skirts) and blouses with dupattas (stoles) covering their head and gold jewellery. There is a parakeet visible on the branch of a tree. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118589</ext:value>
+				<ext:value>118589</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:57">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,20 +1,26 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_178eadb2-a2d9-5bb3-906c-0d262ee29325" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-e4e0286a-7f68-5b91-a95f-42da06d5af82">Ram, Kudi</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">This image depicts the execution by hanging of Khudi Ram Bose (1889-1908) a freedom fighter from Bengal, under the British rule. Judges and a window with lattice can be seen in the background. The window shows a man and a guard in uniform inside the room. 
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>This image depicts the execution by hanging of Khudi Ram Bose (1889-1908) a freedom fighter from Bengal, under the British rule. Judges and a window with lattice can be seen in the background. The window shows a man and a guard in uniform inside the room. 
 The text written in the image is written in Hindi (lines 2 and 3) and Bengali lines 1 and 4)
-Khudi Ram Phaansi (hanging), born, 3rd December 1889 and martyred, 12th August 1908</description>
+Khudi Ram Phaansi (hanging), born, 3rd December 1889 and martyred, 12th August 1908</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -51,10 +57,13 @@ Martyrdom 12 August 1908</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109904" type="corporate">HeidICON Image Database</name>
+				<refid>109904</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -75,139 +84,183 @@ Martyrdom 12 August 1908</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.liveindia.com/freedomfighters/khudiram.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1930s-40s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="85b68025-ea57-5753-9e05-93cbddbab789">
-				<term>struggle for freedom</term>
+				<term type="concept">struggle for freedom</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7b075039-3be1-5482-9fab-6be55b8e48bf">
-				<term>martyr</term>
+				<term type="concept">martyrs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term>uniform</term>
+				<term type="concept">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="037326f5-024d-58c8-bd32-4c96975c89e5">
-				<term>death</term>
+				<term type="concept">deaths</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8bee5a77-bc94-5f39-bc83-97f8cf7fcc7b">
-				<term>Bengali</term>
+				<term type="language">Bengali</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="97ae1ed4-2f87-550e-a5eb-38827e28a2ab">
-				<term>watch</term>
+				<term type="concept">watches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term>recheck-original-language</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="a3f0d5f5-4b2a-5be6-b66b-359f720bc3fd">
-				<term>guard</term>
+				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b2c09f3-f24a-5c77-bbdb-b15cc1310764">
-				<term>script</term>
+				<term type="concept">scripts (writing)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6beff802-185d-5324-9289-73f8670e98de">
-				<term>execution</term>
+				<term type="concept">executions (events)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7bc1a5ec-d17a-5c51-9650-0c4d7abc2327">
-				<term>prison</term>
+				<term type="concept">prisons (institutions)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a278d08d-b262-54c3-86b0-c91d3bd171ad">
-				<term>death row</term>
+				<term type="concept">death row</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f883b6fc-d354-5ae4-a45c-13f7399bd3fe">
-				<term>judge</term>
+				<term type="concept">judges</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="22512790-1c5f-5fe3-bd7a-f72e68dae9fb">
+				<term type="concept">prison guards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Khudiram&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Khudiram&quot;</title>
 			<title type="descriptive" pref="false" lang="" script="">खुदी राम फांसी</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-bn:
-ADD ORIGINAL SCRIPT HERE</hra:value>
-				<hra:value>text-hi: 
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-bn:
+ADD ORIGINAL SCRIPT HERE</ext:value>
+				<ext:value>text-hi: 
 खुदी राम फांसी
-जन्म:- ३ दिसम्बर १८८९ शहीद:- १२ अगस्त १९०८</hra:value>
-				<hra:value>text-transcription-bn:
-Khudi Ramer Phansi</hra:value>
-				<hra:value>text-transcription-hi:
+जन्म:- ३ दिसम्बर १८८९ शहीद:- १२ अगस्त १९०८</ext:value>
+				<ext:value>text-transcription-bn:
+Khudi Ramer Phansi</ext:value>
+				<ext:value>text-transcription-hi:
 Khudi Ram Phansi
 Janm 3 December 1889
-Martyrdom 12 August 1908</hra:value>
-				<hra:value>text-en:
-2216 - Khudiram</hra:value>
-				<hra:value>text-en:
-Publishers - ASSOCIATED CALENDARS, 26, Karuppanan St., SIVAKASI-626123. (Phone: 394)</hra:value>
-				<hra:value>text-en:
-Calcutta Agents - SIVAKASI EMPORIUM, 16, Synogouge St., 2nd Floor, (Near Canning St.,) CALCUTTA - 700001.</hra:value>
-				<hra:value>text-en:
-Delhi Agents - SIVAKASI PICTURES, Sri Vakilchand Jain Dharamshala, Jaia St., Near Mohalla Ramnagar Dispensary, Gandhi Nagar, DELHI-31.</hra:value>
-				<hra:value>text-en:
-A 192</hra:value>
-				<hra:value>description-en:
+Martyrdom 12 August 1908</ext:value>
+				<ext:value>text-en:
+2216 - Khudiram</ext:value>
+				<ext:value>text-en:
+Publishers - ASSOCIATED CALENDARS, 26, Karuppanan St., SIVAKASI-626123. (Phone: 394)</ext:value>
+				<ext:value>text-en:
+Calcutta Agents - SIVAKASI EMPORIUM, 16, Synogouge St., 2nd Floor, (Near Canning St.,) CALCUTTA - 700001.</ext:value>
+				<ext:value>text-en:
+Delhi Agents - SIVAKASI PICTURES, Sri Vakilchand Jain Dharamshala, Jaia St., Near Mohalla Ramnagar Dispensary, Gandhi Nagar, DELHI-31.</ext:value>
+				<ext:value>text-en:
+A 192</ext:value>
+				<ext:value>description-en:
 This image depicts the execution by hanging of Khudi Ram Bose (1889-1908) a freedom fighter from Bengal, under the British rule. Judges and a window with lattice can be seen in the background. The window shows a man and a guard in uniform inside the room. 
 The text written in the image is written in Hindi (lines 2 and 3) and Bengali lines 1 and 4)
-Khudi Ram Phaansi (hanging), born, 3rd December 1889 and martyred, 12th August 1908 (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-Quality issue: image poorly stitched / reassembled from multiple parts, seams are clearly visible in the eyes of the judge to the right. (ma)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Pinney (2004) writes extensively on the relationship of Gandhi versus Bhagat Singh and also mentions several images featuring Khudiram. He also mentions that chromolithographs circulated after his execution by the British in 1908, also underlining a fascination with modern/western technologies, such as telephones, watches, hanging technologies (ref to ills 86-88 in Photos of the Gods): &quot;They provide a powerful sense of the resonances that colonialism's techno-rational grid had acquired by the early 1940s.&quot; (2004: 117). Most of the images show men looking at their watches as they wait for his execution, be they colonial administrators or, as in the case of this image, judges. See 117-128. (cb)</hra:value>
-				<hra:value>related literature:
-Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</hra:value>
-				<hra:value>related hyperlinks:
-http://www.liveindia.com/freedomfighters/khudiram.html, last accessed 2011-07-20, webpage on Khudiram Bose (ja)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.liveindia.com/freedomfighters/khudiram.html</hra:value>
-				<hra:value>2011-07-20</hra:value>
-				<hra:value>webpage on Khudiram Bose</hra:value>
-				<hra:value>|2|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Khudiram Bose</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109904</hra:value>
-				<hra:value>109904</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:48:47">
-			</hra:administrative>
-		</hra:heidicon>
+Khudi Ram Phaansi (hanging), born, 3rd December 1889 and martyred, 12th August 1908 (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+Quality issue: image poorly stitched / reassembled from multiple parts, seams are clearly visible in the eyes of the judge to the right. (ma)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Pinney (2004) writes extensively on the relationship of Gandhi versus Bhagat Singh and also mentions several images featuring Khudiram. He also mentions that chromolithographs circulated after his execution by the British in 1908, also underlining a fascination with modern/western technologies, such as telephones, watches, hanging technologies (ref to ills 86-88 in Photos of the Gods): &quot;They provide a powerful sense of the resonances that colonialism's techno-rational grid had acquired by the early 1940s.&quot; (2004: 117). Most of the images show men looking at their watches as they wait for his execution, be they colonial administrators or, as in the case of this image, judges. See 117-128. (cb)</ext:value>
+				<ext:value>related literature:
+Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</ext:value>
+				<ext:value>related hyperlinks:
+http://www.liveindia.com/freedomfighters/khudiram.html, last accessed 2011-07-20, webpage on Khudiram Bose (ja)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.liveindia.com/freedomfighters/khudiram.html</ext:value>
+				<ext:value type="accessed">2011-07-20</ext:value>
+				<ext:value type="comment">webpage on Khudiram Bose</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Alisch, Johannes</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Quality issue: image poorly stitched / reassembled from multiple parts, seams are clearly visible in the eyes of the judge to the right.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Pinney (2004) writes extensively on the relationship of Gandhi versus Bhagat Singh and also mentions several images featuring Khudiram. He also mentions that chromolithographs circulated after his execution by the British in 1908, also underlining a fascination with modern/western technologies, such as telephones, watches, hanging technologies (ref to ills 86-88 in Photos of the Gods): &quot;They provide a powerful sense of the resonances that colonialism's techno-rational grid had acquired by the early 1940s.&quot; (2004: 117). Most of the images show men looking at their watches as they wait for his execution, be they colonial administrators or, as in the case of this image, judges. See 117-128.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Khudiram Bose</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.liveindia.com/freedomfighters/khudiram.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109904</ext:value>
+				<ext:value>109904</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:50">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

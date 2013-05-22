@@ -1,28 +1,38 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_05d7f661-2fc5-5d4e-9c96-dce13dc56c62" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-a321c6d8-b702-548b-8931-a7d24ebee84d">John Orr Ewing &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-e49e85ba-4a8f-564d-b96e-47fd324e496a">Ewart, Latham &amp; Co.</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A young Krishna can be seen lying on a bed surrounded by several women wearing saris (probably gopis). Their hands are folded in prayer. They are in a hallway with a curtain behind it.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>A young Krishna can be seen lying on a bed surrounded by several women wearing saris (probably gopis). Their hands are folded in prayer. They are in a hallway with a curtain behind it.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -35,10 +45,13 @@ Ewart, Letham Co.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119703" type="corporate">HeidICON Image Database</name>
+				<refid>119703</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -59,85 +72,114 @@ Ewart, Letham Co.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.exoticindiaart.com/krishna.htm</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term>textile label</term>
+				<term type="worktype">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b27ed56a-1061-5368-b193-4ee92fc01e2d">
-				<term>gopi</term>
+				<term type="concept">gopi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9597553-50b0-54c9-941d-95813851a3b7">
-				<term>curtain</term>
+				<term type="concept">curtains (window hangings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term>Indian woman</term>
+				<term type="concept">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="952898c6-20ba-5549-85f8-41e5f8f7c2d0">
-				<term>Best Turkey Red</term>
+				<term type="brand">Best Turkey Red (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Textile label by John Orr Ewing &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by John Orr Ewing &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 JohnOrr Ewing &amp; Co. 
 Bombay. 
 Best Turkey Red. 
-Ewart, Letham Co.</hra:value>
-				<hra:value>description-en:
-A young Krishna can be seen lying on a bed surrounded by several women wearing saris (probably gopis). Their hands are folded in prayer. They are in a hallway with a curtain behind it. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern. (gs)</hra:value>
-				<hra:value>related hyperlink:
-http://www.exoticindiaart.com/krishna.htm, last accessed 2011-09-17, basic information about god-goddess relation in Hinduism as quoted above. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.exoticindiaart.com/krishna.htm</hra:value>
-				<hra:value>2011-09-17</hra:value>
-				<hra:value>basic information about god-goddess relation in Hinduism as quoted above.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/119703</hra:value>
-				<hra:value>119703</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:39:31">
-			</hra:administrative>
-		</hra:heidicon>
+Ewart, Letham Co.</ext:value>
+				<ext:value>description-en:
+A young Krishna can be seen lying on a bed surrounded by several women wearing saris (probably gopis). Their hands are folded in prayer. They are in a hallway with a curtain behind it. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern. (gs)</ext:value>
+				<ext:value>related hyperlink:
+http://www.exoticindiaart.com/krishna.htm, last accessed 2011-09-17, basic information about god-goddess relation in Hinduism as quoted above. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.exoticindiaart.com/krishna.htm</ext:value>
+				<ext:value type="accessed">2011-09-17</ext:value>
+				<ext:value type="comment">basic information about god-goddess relation in Hinduism as quoted above.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The major gods in Indian art traditions have all been given consorts. They are rarely described as celibate recluses. In their incarnate form they are explicit in their demonstrative attraction for the opposite sex. The goddesses do not lag behind. Their love for their husbands or lovers is often portrayed in an assertively earthy and sensual manner. Gods and goddesses represent a conscious duality, complementing each other. Krishna was physically irresistibly appealing. Ancient texts dwell at length on his exceptionally alluring countenance: a blue complexion soft like the monsoon cloud, shining locks of black hair framing a beautifully chiseled face, large lotus like eyes, wild -flower garlands around his neck, a yellow garment (pitambara) draped around his body, a crown of peacock feathers on his head, and a smile playing on his lips, it is in this manner that he is faithfully represented since the ancient times to the modern.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.exoticindiaart.com/krishna.htm</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119703</ext:value>
+				<ext:value>119703</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:20">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

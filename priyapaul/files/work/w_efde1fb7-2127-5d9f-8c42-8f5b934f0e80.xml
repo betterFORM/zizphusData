@@ -1,44 +1,44 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_efde1fb7-2127-5d9f-8c42-8f5b934f0e80" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-05b37b0b-d128-5b96-926b-7d4e918bb7cf">Rukmini</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-bc80c14b-d339-55df-9f9d-a5e3d0727dce">Satyabhama</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ae68da25-3a17-5eb8-9e81-a83bb6a25181">Ramalingam, M.</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-b3ad4894-fb33-52b9-ae64-e87471c9aec7">A &amp; F Harvey</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1961</earliestDate>
-				<latestDate>1961</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">This advertisement calendar of 1961 for A &amp; F Harvey Ltd. and Madura Mills Co. Ltd. bears a depiction of Tulabharam. Lord Krishna can be seen sitting in one pan of a pair of scales, with a tulsi leaf on the other side. Behind him, Satyabhama and Rukmini, two of his wives,  can be seen. Rukmini is folding her hands while Satyabhama is standing next to her with a look of concern. Behind the women, a golden chest as well as jewellery can be seen. In the background, pillars and a pavilion are depicted.</description>
+			<description lang="en" script="Latn">
+				<text>This advertisement calendar of 1961 for A &amp; F Harvey Ltd. and Madura Mills Co. Ltd. bears a depiction of Tulabharam. Lord Krishna can be seen sitting in one pan of a pair of scales, with a tulsi leaf on the other side. Behind him, Satyabhama and Rukmini, two of his wives,  can be seen. Rukmini is folding her hands while Satyabhama is standing next to her with a look of concern. Behind the women, a golden chest as well as jewellery can be seen. In the background, pillars and a pavilion are depicted.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -118,10 +118,13 @@ Jayankondacholapuram</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118358" type="corporate">HeidICON Image Database</name>
+				<refid>118358</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -134,7 +137,16 @@ Jayankondacholapuram</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_529492ff-5942-5fd1-8833-d1822a1e86a6" refid="118358" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_529492ff-5942-5fd1-8833-d1822a1e86a6" refid="118358" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_64bc6fcc-a6a6-554c-ba81-0cdfdfafa7ff" refid="118365" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_b06c7c8b-9c64-56c9-a100-b95861b9a862" refid="118366" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_5500e2c0-9d77-556a-a4c7-2215d4e16b30" refid="118360" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_a09c0211-5cda-573e-8d01-1d8fe9513f31" refid="118362" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_8f9bcc9b-3fe2-5aac-bc51-626721786fd4" refid="118363" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_7162b358-88e9-5418-aa9e-483f7ed8df09" refid="118359" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_e7f2a8a7-19fb-5c27-bbeb-7cb078d63777" refid="118361" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_2e234165-346e-5668-a007-7e6b9c653b8c" refid="118364" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_1acbfe7b-eb2e-5f88-9044-b27704cb8b59" refid="118367" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -144,97 +156,97 @@ Jayankondacholapuram</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ce564016-385d-52bc-b28d-6199c2d05f60">
-				<term>pillar</term>
+				<term type="concept">pillars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term>flower</term>
+				<term type="concept">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term>bindi</term>
+				<term type="concept">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c065f685-0727-51f7-acca-bdcbeca7cc41">
-				<term>balances (scales)</term>
+				<term type="concept">balances (scales)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term>crown</term>
+				<term type="concept">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term>Hindu woman</term>
+				<term type="concept">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term>peacock's feather</term>
+				<term type="concept">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term>flower garland</term>
+				<term type="concept">husk (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f5b80cd3-ba75-5883-b946-de6ec60cea02">
-				<term>headdress</term>
+				<term type="concept">headdresses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="94329588-dd90-5d0d-b0b5-fd2b80c78665">
-				<term>column</term>
+				<term type="concept">column</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term>recheck-Matthias</term>
+				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="284a1691-03ef-525a-abe1-405c327ed7c0">
-				<term>tulsi</term>
+				<term type="plant">tulsi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eb1288bc-599a-5982-b1ac-c8581d33bcbd">
-				<term>Tulabharam</term>
+				<term type="concept">Tulabharam</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37c5e2a0-bec8-5a8e-91d8-05a085f271f5">
-				<term>scales (weighing devices)</term>
+				<term type="concept">scales (weighing devices)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">1961 Advertisement calendar for A &amp; F Harvey Ltd.</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">1961 Advertisement calendar for A &amp; F Harvey Ltd.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_autor_zeichen" status="0" display="Artist (characters)">
-				<hra:value>Ramalingam, M.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+				<ext:value>Ramalingam, M.</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 A&amp;F Harvey Ltd.
-Merchants and Cotton Spinners</hra:value>
-				<hra:value>text-en:
+Merchants and Cotton Spinners</ext:value>
+				<ext:value>text-en:
 With the best compliments of:
-RM. S. Ramanathan Chettiar.</hra:value>
-				<hra:value>text-en:
+RM. S. Ramanathan Chettiar.</ext:value>
+				<ext:value>text-en:
 With the
 compliments
 of
-Madura Mills Co. Ltd.</hra:value>
-				<hra:value>text-en:
+Madura Mills Co. Ltd.</ext:value>
+				<ext:value>text-en:
 C. Kondiah Raja
-M. RAMALINGAM [artist's signature]</hra:value>
-				<hra:value>text-en:
+M. RAMALINGAM [artist's signature]</ext:value>
+				<ext:value>text-en:
 Cone Yarn
 5.00.000 Spindles
 Cotton Yarns
@@ -242,8 +254,8 @@ Of All Descriptions
 For Handlooms, Powerlooms 
 &amp; Hosiery Factories
 Counts up to 100
-1961</hra:value>
-				<hra:value>text-en:
+1961</ext:value>
+				<ext:value>text-en:
 Cheese Yarn
 Specialities:
 Yarns for the manufacture of 
@@ -254,21 +266,21 @@ Industrial Products:
 Tyre Cord Warp Sheets-Canvases 
 Hard &amp; Soft Ducks Multi-Ply 
 Cord Yarns.
-1961</hra:value>
-				<hra:value>text-en:
+1961</ext:value>
+				<ext:value>text-en:
 Madura Mills Co. Ltd.
 Madurai Tuticorin and Ambasamudram
 Madras State
-South India</hra:value>
-				<hra:value>text-en:
+South India</ext:value>
+				<ext:value>text-en:
 London Correspondents
 Harvey Brothers
 Agency (India) Ltd
 8/10, Cliffords Inn.
 Fetter Lane,
 London
-E. C. 4.</hra:value>
-				<hra:value>text-en:
+E. C. 4.</ext:value>
+				<ext:value>text-en:
 Phone: 39
 Dealers:
 RM. S. Ramanathan Chettiar,
@@ -279,31 +291,90 @@ Kumbakonam.
 Branches
 Madurai
 &amp;
-Jayankondacholapuram</hra:value>
-				<hra:value>description-en:
-This advertisement calendar of 1961 for A &amp; F Harvey Ltd. and Madura Mills Co. Ltd. bears a depiction of Tulabharam. Lord Krishna can be seen sitting in one pan of a pair of scales, with a tulsi leaf on the other side. Behind him, Satyabhama and Rukmini, two of his wives,  can be seen. Rukmini is folding her hands while Satyabhama is standing next to her with a look of concern. Behind the women, a golden chest as well as jewellery can be seen. In the background, pillars and a pavilion are depicted. (tb)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-This image is a reference to the mythological story of Krishna and his two wives Rukmini and Satyabhama. Satyabhama being very proud of her beauty and wealth was jealous of Krishna's first wife Rukmini. The sage Narada known for his mischief instigates Satyabhama by asking her to prove her superiority in love for Krishna by first giving him away to Narada and then getting him back by giving Narada Krishna's weight in    riches (tulabharam). Satyabhama agrees but to her astonishment even with all her gold and riches from the treasury the side of the scale on which Krishna sat did not budge. Eventually she was forced to seek Rukmini's help. Rukmini, being a simple and pious devotee of Krishna places a tulsi leaf on the other side of the scale and the scales balance. The story illustrates the preference of the lord for humble devotion rather than immense wealth. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118358</hra:value>
-				<hra:value>118358</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:49:27">
-			</hra:administrative>
-		</hra:heidicon>
+Jayankondacholapuram</ext:value>
+				<ext:value>description-en:
+This advertisement calendar of 1961 for A &amp; F Harvey Ltd. and Madura Mills Co. Ltd. bears a depiction of Tulabharam. Lord Krishna can be seen sitting in one pan of a pair of scales, with a tulsi leaf on the other side. Behind him, Satyabhama and Rukmini, two of his wives,  can be seen. Rukmini is folding her hands while Satyabhama is standing next to her with a look of concern. Behind the women, a golden chest as well as jewellery can be seen. In the background, pillars and a pavilion are depicted. (tb)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+This image is a reference to the mythological story of Krishna and his two wives Rukmini and Satyabhama. Satyabhama being very proud of her beauty and wealth was jealous of Krishna's first wife Rukmini. The sage Narada known for his mischief instigates Satyabhama by asking her to prove her superiority in love for Krishna by first giving him away to Narada and then getting him back by giving Narada Krishna's weight in    riches (tulabharam). Satyabhama agrees but to her astonishment even with all her gold and riches from the treasury the side of the scale on which Krishna sat did not budge. Eventually she was forced to seek Rukmini's help. Rukmini, being a simple and pious devotee of Krishna places a tulsi leaf on the other side of the scale and the scales balance. The story illustrates the preference of the lord for humble devotion rather than immense wealth. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This image is a reference to the mythological story of Krishna and his two wives Rukmini and Satyabhama. Satyabhama being very proud of her beauty and wealth was jealous of Krishna's first wife Rukmini. The sage Narada known for his mischief instigates Satyabhama by asking her to prove her superiority in love for Krishna by first giving him away to Narada and then getting him back by giving Narada Krishna's weight in    riches (tulabharam). Satyabhama agrees but to her astonishment even with all her gold and riches from the treasury the side of the scale on which Krishna sat did not budge. Eventually she was forced to seek Rukmini's help. Rukmini, being a simple and pious devotee of Krishna places a tulsi leaf on the other side of the scale and the scales balance. The story illustrates the preference of the lord for humble devotion rather than immense wealth.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118365</ext:value>
+				<ext:value>i_64bc6fcc-a6a6-554c-ba81-0cdfdfafa7ff</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118366</ext:value>
+				<ext:value>i_b06c7c8b-9c64-56c9-a100-b95861b9a862</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118360</ext:value>
+				<ext:value>i_5500e2c0-9d77-556a-a4c7-2215d4e16b30</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118362</ext:value>
+				<ext:value>i_a09c0211-5cda-573e-8d01-1d8fe9513f31</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118363</ext:value>
+				<ext:value>i_8f9bcc9b-3fe2-5aac-bc51-626721786fd4</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118359</ext:value>
+				<ext:value>i_7162b358-88e9-5418-aa9e-483f7ed8df09</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118361</ext:value>
+				<ext:value>i_e7f2a8a7-19fb-5c27-bbeb-7cb078d63777</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118364</ext:value>
+				<ext:value>i_2e234165-346e-5668-a007-7e6b9c653b8c</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118367</ext:value>
+				<ext:value>i_1acbfe7b-eb2e-5f88-9044-b27704cb8b59</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118358</ext:value>
+				<ext:value>118358</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:00">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

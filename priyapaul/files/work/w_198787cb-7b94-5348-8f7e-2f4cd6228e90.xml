@@ -1,33 +1,39 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_198787cb-7b94-5348-8f7e-2f4cd6228e90" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-59570487-101f-5a49-b808-8e93cd287171">Kapoor, Prithviraj</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-81f2d03d-48a4-51f7-ae19-2398e662a13a">Surekha</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-d91bcc20-de46-56f2-9bd3-cc1314800da6">Abbas, Khwaja Ahmad</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-8dc04a72-1cf7-54ff-bcaf-1eda20c5b287">Naya Sansar</name>
-				<role/>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The two main actors of the movie, Prithviraj Kapoor and Surekha, are sitting on a boulder high above a city which can be seen in the background. There are lots of trees visible too. Pritiviraj Kapoor is leaning towards Surekha and gesturing with his left hand, while she looks irritated. He is dressed in a printed sherwani while she is dressed in a sari.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The two main actors of the movie, Prithviraj Kapoor and Surekha, are sitting on a boulder high above a city which can be seen in the background. There are lots of trees visible too. Pritiviraj Kapoor is leaning towards Surekha and gesturing with his left hand, while she looks irritated. He is dressed in a printed sherwani while she is dressed in a sari.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -41,10 +47,13 @@ Aasman Mahal</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120224" type="corporate">HeidICON Image Database</name>
+				<refid>120224</refid>
 			</location>
 		</locationSet>
 		<measurementsSet>
@@ -62,111 +71,155 @@ Aasman Mahal</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.answers.com/topic/aasman-mahal</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.ofdb.de/film/97151,Aasman-Mahal</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="9690f13a-ec24-50a6-af14-6d414f45e156">
-				<term>village</term>
+				<term type="concept">villages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term>sari</term>
+				<term type="concept">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
-				<term>forest</term>
+				<term type="concept">forests</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13ba2929-2d95-5054-b11f-2850ed2e3a0e">
-				<term>sherwani</term>
+				<term type="concept">sherwani (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ebc0b75f-85c8-542d-b804-3ea382335073">
-				<term>boulder</term>
+				<term type="concept">boulder</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="23587ad0-932b-587d-967a-22100be8c901">
-				<term>rock</term>
+				<term type="concept">rock</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Aasman Mahal&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aasman Mahal&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Naya Sansar's
-Aasman Mahal</hra:value>
-				<hra:value>text-en:
-produced &amp; directed by K.A. Abbas</hra:value>
-				<hra:value>description-en:
-The two main actors of the movie, Prithviraj Kapoor and Surekha, are sitting on a boulder high above a city which can be seen in the background. There are lots of trees visible too. Pritiviraj Kapoor is leaning towards Surekha and gesturing with his left hand, while she looks irritated. He is dressed in a printed sherwani while she is dressed in a sari. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The plot of &quot;Aasman Mahal&quot;: An elderly retired official contends with his drunken playboy son and the passage into a new era in this somber drama. The nabob is content to spend the rest of his days in his crumbling castle and refuses to go outside. He turns down the offer of millions of dollars to have his castle turned into a luxury hotel, choosing to live in impoverished dignity. His son finds salvation through the love of a beautiful young peasant girl. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.answers.com/topic/aasman-mahal last accessed 2011-08-01, plot of the movie (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.ofdb.de/film/97151, Aasman-Mahal last accessed 2011-08-01, cast and crew details (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.answers.com/topic/aasman-mahal</hra:value>
-				<hra:value>2011-08-01</hra:value>
-				<hra:value>plot of the movie</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.ofdb.de/film/97151</hra:value>
-				<hra:value>2011-08-01</hra:value>
-				<hra:value>Aasman-Mahal  cast and crew details</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>damaged</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Prithviraj Kapoor</hra:value>
-			</hra:item>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Surekha</hra:value>
-			</hra:item>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Naya Sansar</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120224</hra:value>
-				<hra:value>120224</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:40:23">
-			</hra:administrative>
-		</hra:heidicon>
+Aasman Mahal</ext:value>
+				<ext:value>text-en:
+produced &amp; directed by K.A. Abbas</ext:value>
+				<ext:value>description-en:
+The two main actors of the movie, Prithviraj Kapoor and Surekha, are sitting on a boulder high above a city which can be seen in the background. There are lots of trees visible too. Pritiviraj Kapoor is leaning towards Surekha and gesturing with his left hand, while she looks irritated. He is dressed in a printed sherwani while she is dressed in a sari. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The plot of &quot;Aasman Mahal&quot;: An elderly retired official contends with his drunken playboy son and the passage into a new era in this somber drama. The nabob is content to spend the rest of his days in his crumbling castle and refuses to go outside. He turns down the offer of millions of dollars to have his castle turned into a luxury hotel, choosing to live in impoverished dignity. His son finds salvation through the love of a beautiful young peasant girl. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.answers.com/topic/aasman-mahal last accessed 2011-08-01, plot of the movie (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.ofdb.de/film/97151,Aasman-Mahal last accessed 2011-08-01, cast and crew details (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.answers.com/topic/aasman-mahal</ext:value>
+				<ext:value type="accessed">2011-08-01</ext:value>
+				<ext:value type="comment">plot of the movie</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.ofdb.de/film/97151,Aasman-Mahal</ext:value>
+				<ext:value type="accessed">2011-08-01</ext:value>
+				<ext:value type="comment">cast and crew details</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The plot of &quot;Aasman Mahal&quot;: An elderly retired official contends with his drunken playboy son and the passage into a new era in this somber drama. The nabob is content to spend the rest of his days in his crumbling castle and refuses to go outside. He turns down the offer of millions of dollars to have his castle turned into a luxury hotel, choosing to live in impoverished dignity. His son finds salvation through the love of a beautiful young peasant girl.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>damaged</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Prithviraj Kapoor</ext:value>
+			</ext:item>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Surekha</ext:value>
+			</ext:item>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Naya Sansar</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.answers.com/topic/aasman-mahal</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.ofdb.de/film/97151,Aasman-Mahal</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120224</ext:value>
+				<ext:value>120224</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:30">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

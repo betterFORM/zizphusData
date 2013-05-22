@@ -1,19 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_90b2e304-3ead-5925-949d-a0a61a5dfb96" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1912</earliestDate>
-				<latestDate>1912</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">On this advertisement calendar for Maharaja Cigarettes, a king can be seen, wearing extensive jewellery, a sword, a turban as well as a cape. In the background, some colonial style buildings are pictured.</description>
+			<description lang="en" script="Latn">
+				<text>On this advertisement calendar for Maharaja Cigarettes, a king can be seen, wearing extensive jewellery, a sword, a turban as well as a cape. In the background, some colonial style buildings are pictured.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -26,10 +26,13 @@ Bangalore.</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118236" type="corporate">HeidICON Image Database</name>
+				<refid>118236</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -42,7 +45,11 @@ Bangalore.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d6fdb763-c880-548f-b38e-95beae73176b" refid="118236" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d6fdb763-c880-548f-b38e-95beae73176b" refid="118236" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_75d61f13-7eba-5c10-ad3d-d62471def0fa" refid="118240" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_fb3432d0-9fa8-5fad-8f09-7c4a1444e6b1" refid="118238" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_aad248e4-4465-5186-8612-c2935a783129" refid="118239" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_2553c857-25bd-5938-b116-f8379bd839e2" refid="118237" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -50,116 +57,201 @@ Bangalore.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.tvparty.com/vaultcomcig.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8dc64558-bb74-5d2d-8c31-d33665e7e1d1">
-				<term>sword</term>
+				<term type="concept">swords</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b80dfe9-529b-566d-811c-3d2a6918fdaf">
-				<term>king</term>
+				<term type="concept">kings (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term>turban</term>
+				<term type="work">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2f6e5ba-1a71-5490-84d7-b965d7970d5a">
-				<term>Colonial architecture</term>
+				<term type="concept">Colonial architecture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
-				<term>cigarette advertising</term>
+				<term type="concept">cigarette advertising</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e47d162e-40fe-5b14-a7dd-e8f839011c8a">
-				<term>cape</term>
+				<term type="concept">capes (outerwear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="993c071b-df08-5665-8043-7f10a2bea287">
-				<term>Maharaja Cigarettes</term>
+				<term type="brand">Maharaja Cigarettes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term>calendars</term>
+				<term type="worktype">calendars</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">An advertisement of Maharaja Cigarettes</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Maharaja Cigarettes</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Maharaja Cigarettes
 All goods are made of pure Indian Tobacco &amp; Best Rige Paper.
 Manufactured by The City Tobacco Co.
-Bangalore.</hra:value>
-				<hra:value>description-en:
-On this advertisement calendar for Maharaja Cigarettes, a king can be seen, wearing extensive jewellery, a sword, a turban as well as a cape. In the background, some colonial style buildings are pictured. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-/20080429_0078.tif</hra:value>
-				<hra:value>related hyperlinks:
+Bangalore.</ext:value>
+				<ext:value>description-en:
+On this advertisement calendar for Maharaja Cigarettes, a king can be seen, wearing extensive jewellery, a sword, a turban as well as a cape. In the background, some colonial style buildings are pictured. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+/20080429_0078.tif</ext:value>
+				<ext:value>related hyperlinks:
 http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html,
-last accessed 2011-08-21, Tom Coyle's &quot;Cigarettes&quot; Project #5 (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tvparty.com/vaultcomcig.html, last accessed 2011-08-21, &quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0, last accessed 2011-08-21 (la)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 2011-08-21, &quot;Breathtaking Classic Cigarette Ads&quot; (la)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>Tom Coyle's &quot;Cigarettes&quot; Project #5</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tvparty.com/vaultcomcig.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>&quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value>&quot;Breathtaking Classic Cigarette Ads&quot;</hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</hra:value>
-				<hra:value>2011-08-21</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|26|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118236</hra:value>
-				<hra:value>118236</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:44:02">
-			</hra:administrative>
-		</hra:heidicon>
+last accessed 2011-08-21, Tom Coyle's &quot;Cigarettes&quot; Project #5 (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tvparty.com/vaultcomcig.html, last accessed 2011-08-21, &quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0, last accessed 2011-08-21 (la)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 2011-08-21, &quot;Breathtaking Classic Cigarette Ads&quot; (la)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">Tom Coyle's &quot;Cigarettes&quot; Project #5</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tvparty.com/vaultcomcig.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">&quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment">&quot;Breathtaking Classic Cigarette Ads&quot;</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">/20080429_0078.tif</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">PPColl_ed</ext:value>
+					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118240</ext:value>
+				<ext:value>i_75d61f13-7eba-5c10-ad3d-d62471def0fa</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118238</ext:value>
+				<ext:value>i_fb3432d0-9fa8-5fad-8f09-7c4a1444e6b1</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118239</ext:value>
+				<ext:value>i_aad248e4-4465-5186-8612-c2935a783129</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118237</ext:value>
+				<ext:value>i_2553c857-25bd-5938-b116-f8379bd839e2</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://www.tvparty.com/vaultcomcig.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url3" status="0" display="URL3">
+				<ext:value type="url3">http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118236</ext:value>
+				<ext:value>118236</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:39">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

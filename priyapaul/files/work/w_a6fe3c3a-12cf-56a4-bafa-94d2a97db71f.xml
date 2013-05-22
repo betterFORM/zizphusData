@@ -1,33 +1,34 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_a6fe3c3a-12cf-56a4-bafa-94d2a97db71f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="136978991" pref="true">Santra, B.</name>
-				<role/>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
-				<role vocab="marcrelator" code="dpc">Depicted</role>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-a43f0f77-cc82-548f-a37a-1edd1e98d07a">Bose, Subhas Chandra</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-42162bd6-309b-56c5-b44c-62c4171eb0ee">Santra, B.</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">The image shows Subhash Chandra Bose standing with the Indian tricolour planted in the foreground in Kohima. He stands next to a gravestone in front of which lies a dead soldier. Both Bose and the dead solider are wearing uniforms. Mother India in handcuffs is depiced in the upper left corner against the sky. In the background, a lake and the sun setting behind a mountain range can be seen.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>The image shows Subhash Chandra Bose standing with the Indian tricolour planted in the foreground in Kohima. He stands next to a gravestone in front of which lies a dead soldier. Both Bose and the dead solider are wearing uniforms. Mother India in handcuffs is depiced in the upper left corner against the sky. In the background, a lake and the sun setting behind a mountain range can be seen.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -64,10 +65,13 @@ the first flag of independent India
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109714" type="corporate">HeidICON Image Database</name>
+				<refid>109714</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -88,67 +92,74 @@ the first flag of independent India
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.vho.org/GB/Journals/JHR/3/4/Borra407-439.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d5aec17d-a63a-5834-a3b9-17b82e2d415f">
-				<term>Kohima</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
-				<term>flag</term>
+				<term type="concept">flags</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7988e2a-b5f0-5795-bb25-2b2c930db904">
-				<term>soldier</term>
+				<term type="concept">soldiers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term>mountain</term>
+				<term type="concept">mountains</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="d5aec17d-a63a-5834-a3b9-17b82e2d415f">
+				<term type="geographic">Kohima</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term>uniform</term>
+				<term type="concept">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="43d8fa63-2686-5ac8-8030-9577def6401a">
-				<term>handcuffs</term>
+				<term type="concept">handcuffs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="03a7bcf1-4769-5087-a894-87c0f5d666a1">
-				<term>sunrise</term>
+				<term type="concept">sunrise</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a354cf19-4a7a-5089-ac7a-905ea36331e6">
-				<term>memorial</term>
+				<term type="concept">memorials (structures)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
-				<term>Indian flag</term>
+				<term type="concept">Indian flag</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term>lake</term>
+				<term type="concept">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="52b3cbed-9e5a-579d-a99f-272da73c908a">
-				<term>Battle of Kohima</term>
+				<term type="event">Battle of Kohima</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term>checked</term>
+				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term>signet</term>
+				<term type="concept">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0c9df020-e383-5cde-9741-3b3ee0b1ba04">
-				<term>gravestone</term>
+				<term type="concept">tombstones (sepulchral monuments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term>poster</term>
+				<term type="worktype">posters</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Kohima&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Kohima&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>posters</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-Kohima</hra:value>
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+Kohima</ext:value>
+				<ext:value>text-en:
 ARE YOU 
 AN INDIAN? 
 Then stand before
@@ -160,53 +171,75 @@ on British Indian Soil
 the first flag of independent India
 
 18 March, 1944
-[written on a tombstone]</hra:value>
-				<hra:value>text-en:
+[written on a tombstone]</ext:value>
+				<ext:value>text-en:
 Kohima!
-[written on the meadow]</hra:value>
-				<hra:value>text-en:
-HAP [publisher's signet]</hra:value>
-				<hra:value>text-en:
-B. Santra</hra:value>
-				<hra:value>description-en:
-The image shows Subhash Chandra Bose standing with the Indian tricolour planted in the foreground in Kohima. He stands next to a gravestone in front of which lies a dead soldier. Both Bose and the dead solider are wearing uniforms. Mother India in handcuffs is depiced in the upper left corner against the sky. In the background, a lake and the sun setting behind a mountain range can be seen. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-The battle of Kohima which was part of the Imphal campaign by the Japanese troops and the INA (Indian National Army) resulted in the Japanese-Indian forces making an advance in defeating British troops before being forced to retreat because of the high number of casualties.() (sp)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.vho.org/GB/Journals/JHR/3/4/Borra407-439.html, last accessed 2011-08-09, Description of the Battle of Kohima. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.vho.org/GB/Journals/JHR/3/4/Borra407-439.html</hra:value>
-				<hra:value>2011-08-09</hra:value>
-				<hra:value>Description of the Battle of Kohima.</hra:value>
-				<hra:value>|19|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_personen" vocab="" refid="" status="0" display="personen">
-				<hra:value>Subhash Chandra Bose</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/109714</hra:value>
-				<hra:value>109714</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:40:16">
-			</hra:administrative>
-		</hra:heidicon>
+[written on the meadow]</ext:value>
+				<ext:value>text-en:
+HAP [publisher's signet]</ext:value>
+				<ext:value>text-en:
+B. Santra</ext:value>
+				<ext:value>description-en:
+The image shows Subhash Chandra Bose standing with the Indian tricolour planted in the foreground in Kohima. He stands next to a gravestone in front of which lies a dead soldier. Both Bose and the dead solider are wearing uniforms. Mother India in handcuffs is depiced in the upper left corner against the sky. In the background, a lake and the sun setting behind a mountain range can be seen. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+The battle of Kohima which was part of the Imphal campaign by the Japanese troops and the INA (Indian National Army) resulted in the Japanese-Indian forces making an advance in defeating British troops before being forced to retreat because of the high number of casualties.() (sp)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.vho.org/GB/Journals/JHR/3/4/Borra407-439.html, last accessed 2011-08-09, Description of the Battle of Kohima. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.vho.org/GB/Journals/JHR/3/4/Borra407-439.html</ext:value>
+				<ext:value type="accessed">2011-08-09</ext:value>
+				<ext:value type="comment">Description of the Battle of Kohima.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The battle of Kohima which was part of the Imphal campaign by the Japanese troops and the INA (Indian National Army) resulted in the Japanese-Indian forces making an advance in defeating British troops before being forced to retreat because of the high number of casualties.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Padmanabhan, Sridevi</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+				<ext:value>Subhash Chandra Bose</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.vho.org/GB/Journals/JHR/3/4/Borra407-439.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109714</ext:value>
+				<ext:value>109714</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:35">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

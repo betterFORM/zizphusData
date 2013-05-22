@@ -1,13 +1,19 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_4fafae54-ef5d-5186-8de5-8db0ab1a249f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<descriptionSet>
-			<description source=" " lang="en" script="latn">In this advertisement, a man wearing a suit can be seen holding a cup of steaming tea, ready to take a sip. In front of him on the table, there is a plate of biscuits served together with tea. He is wearing a watch on his left hand and has a handkerchief and a pen in the front pocket of his jacket.</description>
+		<descriptionSet>
+			<description lang="en" script="Latn">
+				<text>In this advertisement, a man wearing a suit can be seen holding a cup of steaming tea, ready to take a sip. In front of him on the table, there is a plate of biscuits served together with tea. He is wearing a watch on his left hand and has a handkerchief and a pen in the front pocket of his jacket.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<inscriptionSet>
@@ -30,10 +36,13 @@ Mapla Mahal, Girgaon Road, Thakurdwar Naka, Bombay</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118552" type="corporate">HeidICON Image Database</name>
+				<refid>118552</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -54,141 +63,255 @@ Mapla Mahal, Girgaon Road, Thakurdwar Naka, Bombay</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.tasveergharindia.net/cmsdesk/essay/89/index_1.html</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=77&amp;EId=89&amp;ImageId=5</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1930s - 1940s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8b41ef52-992d-532b-8e69-9ab992af8834">
-				<term>man</term>
+				<term type="concept">men (male humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
-				<term>tea</term>
+				<term type="concept">tea (beverage)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2da00547-3dee-5b48-8288-3c3ae822879d">
-				<term>biscuits</term>
+				<term type="concept">biscuits (snack)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
-				<term>Indian man</term>
+				<term type="concept">Indian men</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="97ae1ed4-2f87-550e-a5eb-38827e28a2ab">
-				<term>watch</term>
+				<term type="concept">watches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term>advertisements</term>
+				<term type="worktype">advertisements</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">Special Tea</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">Special Tea</title>
 			<title type="descriptive" pref="false" lang="" script="">स्पेशल लज्जतदार चहा</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 Special
-Tea</hra:value>
-				<hra:value>text-en:
+Tea</ext:value>
+				<ext:value>text-en:
 No. H 2 (Copyright)
 Commercial Art Publishing Company
-Mapla Mahal, Girgaon Road, Thakurdwar Naka, Bombay</hra:value>
-				<hra:value>text-transcription-hi:
-special lajjatdaar chaha</hra:value>
-				<hra:value>text-hi:
-स्पेशल लज्जतदार चहा</hra:value>
-				<hra:value>description-en:
-In this advertisement, a man wearing a suit can be seen holding a cup of steaming tea, ready to take a sip. In front of him on the table, there is a plate of biscuits served together with tea. He is wearing a watch on his left hand and has a handkerchief and a pen in the front pocket of his jacket. (sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>explanatory comments/crosstagging:
-My own interest is especially in the subsequent spread of tea consumption, mainly in the twentieth century and (in many parts of India) only during its second half, and in its diffusion both geographically and socio-economically—via the indigenized boiled and &quot;ready-mixed&quot; concoction usually known as cāy, cā, or cahā, which was often made speśal (&quot;special&quot;) by the addition of extra cream, sugar, and savory spices—to become the proletarian beverage par excellence: the diurnal and all-day &quot;fuel&quot; of the &quot;casual economy&quot; of rickshaw drivers, artisans, and day laborers, no less than of the &quot;formal&quot; one of office &quot;babus&quot; (clerks) and shopkeepers (the white-collar worker of this image is enjoying &quot;special&quot; tea, which is further characterized as lajjatdār or &quot;delightful&quot;), and the quintessential &quot;Indian drink&quot; carried to the West by generations of backpacker-tourists. (Philip Lutgendorf) (gs)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Yet the triumph of tea on the subcontinent (which continues, in the early twenty-first century, in some parts of South India that once exclusively favored coffee) was a slow and sometimes contested process, intertwined with and dependent on such phenomena as urbanization, improved rail and road transport and increased human mobility, the breakdown of caste and caste-related dining practices, and the rise of advertising and aggressive marketing. British interest in creating an indigenous consumer base for their export crop, reflected in the Indian Tea Cess Bill of 1903, did not immediately spark a great demand for tea, and was countered by the arguments of Mohandas Gandhi and other nationalists that the consumption of this &quot;imperialist&quot; and capitalist beverage (which required centralized large-scale cultivation and processing) was both physically and politically enervating for Indians. (Philip Lutgendorf) (gs)</hra:value>
-				<hra:value>related literature:
-Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC. (gs)</hra:value>
-				<hra:value>related literature:
-Chatterjee, Piya. 2001. &quot;A Time for Tea.&quot; Durham, NC: Duke University Press. (gs)</hra:value>
-				<hra:value>related literature:
-Collingham, Elizabeth M. 2006. &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press. (gs)</hra:value>
-				<hra:value>related literature:
-de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</hra:value>
-				<hra:value>related literature:
-Dutta, Arup Kumar. 1992. &quot;Cha Garam, the tea story.&quot; Assam: Paloma Publications. (gs)</hra:value>
-				<hra:value>related literature:
-Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.tasveergharindia.net/cmsdesk/essay/89/index.html, last accessed 2011-04-18, Tasveer Ghar essay (gs)</hra:value>
-				<hra:value>related literature:
-Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot; London: Thames &amp; Hudson. (gs)</hra:value>
-				<hra:value>related literature:
-Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking. (gs)</hra:value>
-				<hra:value>related literature:
-Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot; London: Thames &amp; Hudson.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Chatterjee, Piya. 2001. &quot;A Time for Tea.&quot; Durham, NC: Duke University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Dutta, Arup Kumar. 1992. &quot;Cha Garam, the tea story.&quot; Assam: Paloma Publications.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Collingham, Elizabeth M. 2006. &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press.</hra:value>
-			</hra:item>
-			<hra:item type="t_rl" status="0" display="comment:related_literature">
-				<hra:value>Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking.</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.tasveergharindia.net/cmsdesk/essay/89/index.html</hra:value>
-				<hra:value>2011-04-18</hra:value>
-				<hra:value>Tasveer Ghar essay</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>damaged</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/118552</hra:value>
-				<hra:value>118552</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:35:12">
-			</hra:administrative>
-		</hra:heidicon>
+Mapla Mahal, Girgaon Road, Thakurdwar Naka, Bombay</ext:value>
+				<ext:value>text-transcription-hi:
+special lajjatdaar chaha</ext:value>
+				<ext:value>text-hi:
+स्पेशल लज्जतदार चहा</ext:value>
+				<ext:value>description-en:
+In this advertisement, a man wearing a suit can be seen holding a cup of steaming tea, ready to take a sip. In front of him on the table, there is a plate of biscuits served together with tea. He is wearing a watch on his left hand and has a handkerchief and a pen in the front pocket of his jacket. (sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>explanatory comments/crosstagging:
+My own interest is especially in the subsequent spread of tea consumption, mainly in the twentieth century and (in many parts of India) only during its second half, and in its diffusion both geographically and socio-economically—via the indigenized boiled and &quot;ready-mixed&quot; concoction usually known as cāy, cā, or cahā, which was often made speśal (&quot;special&quot;) by the addition of extra cream, sugar, and savory spices—to become the proletarian beverage par excellence: the diurnal and all-day &quot;fuel&quot; of the &quot;casual economy&quot; of rickshaw drivers, artisans, and day laborers, no less than of the &quot;formal&quot; one of office &quot;babus&quot; (clerks) and shopkeepers (the white-collar worker of this image is enjoying &quot;special&quot; tea, which is further characterized as lajjatdār or &quot;delightful&quot;), and the quintessential &quot;Indian drink&quot; carried to the West by generations of backpacker-tourists. (Philip Lutgendorf) (gs)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Yet the triumph of tea on the subcontinent (which continues, in the early twenty-first century, in some parts of South India that once exclusively favored coffee) was a slow and sometimes contested process, intertwined with and dependent on such phenomena as urbanization, improved rail and road transport and increased human mobility, the breakdown of caste and caste-related dining practices, and the rise of advertising and aggressive marketing. British interest in creating an indigenous consumer base for their export crop, reflected in the Indian Tea Cess Bill of 1903, did not immediately spark a great demand for tea, and was countered by the arguments of Mohandas Gandhi and other nationalists that the consumption of this &quot;imperialist&quot; and capitalist beverage (which required centralized large-scale cultivation and processing) was both physically and politically enervating for Indians. (Philip Lutgendorf) (gs)</ext:value>
+				<ext:value>related literature:
+Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC. (gs)</ext:value>
+				<ext:value>related literature:
+Chatterjee, Piya. 2001. &quot;A Time for Tea.&quot; Durham, NC: Duke University Press. (gs)</ext:value>
+				<ext:value>related literature:
+Collingham, Elizabeth M. 2006. &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press. (gs)</ext:value>
+				<ext:value>related literature:
+de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press. (gs)</ext:value>
+				<ext:value>related literature:
+Dutta, Arup Kumar. 1992. &quot;Cha Garam, the tea story.&quot; Assam: Paloma Publications. (gs)</ext:value>
+				<ext:value>related literature:
+Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/89/index.html, last accessed 2011-04-18, Tasveer Ghar essay (gs)</ext:value>
+				<ext:value>related literature:
+Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot; London: Thames &amp; Hudson. (gs)</ext:value>
+				<ext:value>related literature:
+Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking. (gs)</ext:value>
+				<ext:value>related literature:
+Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mair, Victor, and Erling Hoh. 2009. &quot;The True History of Tea.&quot; London: Thames &amp; Hudson.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Chatterjee, Piya. 2001. &quot;A Time for Tea.&quot; Durham, NC: Duke University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Bhadra, Gautam 2005. &quot;From an Imperial Product to a National Drink&quot;. Calcutta: CSSSC.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Dutta, Arup Kumar. 1992. &quot;Cha Garam, the tea story.&quot; Assam: Paloma Publications.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Collingham, Elizabeth M. 2006. &quot;Curry, a tale of cooks and conquerors.&quot; New York: Oxford University Press.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rl" status="0" display="comment:related_literature">
+				<ext:value type="text">Mintz, Sidney. 1985. &quot;Sweetness and Power, the place of sugar in modern history&quot;. New York: Viking.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/89/index.html</ext:value>
+				<ext:value type="accessed">2011-04-18</ext:value>
+				<ext:value type="comment">Tasveer Ghar essay</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">My own interest is especially in the subsequent spread of tea consumption, mainly in the twentieth century and (in many parts of India) only during its second half, and in its diffusion both geographically and socio-economically—via the indigenized boiled and &quot;ready-mixed&quot; concoction usually known as cāy, cā, or cahā, which was often made speśal (&quot;special&quot;) by the addition of extra cream, sugar, and savory spices—to become the proletarian beverage par excellence: the diurnal and all-day &quot;fuel&quot; of the &quot;casual economy&quot; of rickshaw drivers, artisans, and day laborers, no less than of the &quot;formal&quot; one of office &quot;babus&quot; (clerks) and shopkeepers (the white-collar worker of this image is enjoying &quot;special&quot; tea, which is further characterized as lajjatdār or &quot;delightful&quot;), and the quintessential &quot;Indian drink&quot; carried to the West by generations of backpacker-tourists.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Philip Lutgendorf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Yet the triumph of tea on the subcontinent (which continues, in the early twenty-first century, in some parts of South India that once exclusively favored coffee) was a slow and sometimes contested process, intertwined with and dependent on such phenomena as urbanization, improved rail and road transport and increased human mobility, the breakdown of caste and caste-related dining practices, and the rise of advertising and aggressive marketing. British interest in creating an indigenous consumer base for their export crop, reflected in the Indian Tea Cess Bill of 1903, did not immediately spark a great demand for tea, and was countered by the arguments of Mohandas Gandhi and other nationalists that the consumption of this &quot;imperialist&quot; and capitalist beverage (which required centralized large-scale cultivation and processing) was both physically and politically enervating for Indians.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Philip Lutgendorf</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>damaged</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/89/index_1.html</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=77&amp;EId=89&amp;ImageId=5</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118552</ext:value>
+				<ext:value>118552</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:35">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,34 +1,38 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_6b4139dd-49e7-584e-89a3-0ed12f562a85" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-0e539f41-8a3e-571c-a770-d14d9ec9db33">Khan, Mehboob</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-585ff35c-2f96-557c-9e76-0f1450734d26">Kumar, Dilip</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-4ff2be52-274e-5d0e-a75e-070ecc146834">Nadira</name>
-				<role vocab="marcrelator" code="art">Artist</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1953</earliestDate>
-				<latestDate>1953</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">Dilip Kumar and Nadira can be on the poster with Dilip Kumar standing in front of her, holding a knife in his left hand and holding Nadira close with his right arm as she kneels on the ground, looking up to him. In the background, a landscape with rocks and bare trees can be seen. On the lower left corner a sticker showing the film's title and logo of Mehboob productions was attached to the poster.</description>
+			<description lang="en" script="Latn">
+				<text>Dilip Kumar and Nadira can be on the poster with Dilip Kumar standing in front of her, holding a knife in his left hand and holding Nadira close with his right arm as she kneels on the ground, looking up to him. In the background, a landscape with rocks and bare trees can be seen. On the lower left corner a sticker showing the film's title and logo of Mehboob productions was attached to the poster.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -41,10 +45,13 @@ MEHBOOB [barely visible]</text>
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120903" type="corporate">HeidICON Image Database</name>
+				<refid>120903</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -59,123 +66,198 @@ MEHBOOB [barely visible]</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.imdb.com/title/tt0044318/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+			<source>
+				<name>http://en.wikipedia.org/wiki/Aan</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term>woman</term>
+				<term type="concept">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8b41ef52-992d-532b-8e69-9ab992af8834">
-				<term>man</term>
+				<term type="concept">men (male humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term>couple</term>
+				<term type="concept">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term>necklace</term>
+				<term type="concept">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0c4e20ee-b6e1-566c-b99c-3dea523d1d4c">
-				<term>knife</term>
+				<term type="concept">knives</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term>lobby card</term>
+				<term type="worktype">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term>Bollywood</term>
+				<term type="concept">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term>Hindi Film</term>
+				<term type="concept">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term>recheck</term>
+				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c60d3ba-4b3d-5d67-a0de-1215f21b9958">
-				<term>Aan</term>
+				<term type="work">Aan</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Aan&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aan&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype>lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
 m
 present
 AAN [barely visible]
-MEHBOOB [barely visible]</hra:value>
-				<hra:value>description-en:
-Dilip Kumar and Nadira can be on the poster with Dilip Kumar standing in front of her, holding a knife in his left hand and holding Nadira close with his right arm as she kneels on the ground, looking up to him. In the background, a landscape with rocks and bare trees can be seen. On the lower left corner a sticker showing the film's title and logo of Mehboob productions was attached to the poster. (gs/sp)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>related hyperlinks:
-http://www.imdb.com/title/tt0044318/, last accessed 2011-11-30. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://en.wikipedia.org/wiki/Aan, last accessed 2011-12-07 (ma)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-Film in wikipedia dated to 1952, cf. http://en.wikipedia.org/wiki/Aan, last accessed 2011-12-07 (ma)</hra:value>
-				<hra:value>explanatory comments/crosstagging:
-The emblem with hammer and sickle together with the letter &quot;m&quot; are the sign of Mehboob Productions ltd. (gs)</hra:value>
-				<hra:value>related hyperlinks:
-http://8ate.blogspot.com/2009/05/hammer-and-sickle-of-mehboob.html, last accessed 2011-12-07, page mentions the emblem of Mehboob Productions and shows a shot clip of Mother India (1957).  (gs/ma)</hra:value>
-				<hra:value>related hyperlinks:
-http://www.uiowa.edu/~incinema/Aan.html, note at &quot;philip'sfil-ums - notes on Indian popular cinema&quot; by Philip Lutgendorf, last accessed 2011-12-07 (gs/ma)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://en.wikipedia.org/wiki/Aan</hra:value>
-				<hra:value>2011-12-07</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|3|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.uiowa.edu/~incinema/Aan.html</hra:value>
-				<hra:value>2011-12-07</hra:value>
-				<hra:value>note at &quot;philip'sfil-ums - notes on Indian popular cinema&quot; by Philip Lutgendorf,</hra:value>
-				<hra:value>|6|3|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.imdb.com/title/tt0044318/</hra:value>
-				<hra:value>2011-11-30</hra:value>
-				<hra:value></hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://8ate.blogspot.com/2009/05/hammer-and-sickle-of-mehboob.html</hra:value>
-				<hra:value>2011-12-07</hra:value>
-				<hra:value>page mentions the emblem of Mehboob Productions and shows a shot clip of Mother India (1957).</hra:value>
-				<hra:value>|6|3|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>poster torn</hra:value>
-			</hra:item>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>left and upper edges cut</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120903</hra:value>
-				<hra:value>120903</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:31:06">
-			</hra:administrative>
-		</hra:heidicon>
+MEHBOOB [barely visible]</ext:value>
+				<ext:value>description-en:
+Dilip Kumar and Nadira can be on the poster with Dilip Kumar standing in front of her, holding a knife in his left hand and holding Nadira close with his right arm as she kneels on the ground, looking up to him. In the background, a landscape with rocks and bare trees can be seen. On the lower left corner a sticker showing the film's title and logo of Mehboob productions was attached to the poster. (gs/sp)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0044318/, last accessed 2011-11-30. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://en.wikipedia.org/wiki/Aan, last accessed 2011-12-07 (ma)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+Film in wikipedia dated to 1952, cf. http://en.wikipedia.org/wiki/Aan, last accessed 2011-12-07 (ma)</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The emblem with hammer and sickle together with the letter &quot;m&quot; are the sign of Mehboob Productions ltd. (gs)</ext:value>
+				<ext:value>related hyperlinks:
+http://8ate.blogspot.com/2009/05/hammer-and-sickle-of-mehboob.html, last accessed 2011-12-07, page mentions the emblem of Mehboob Productions and shows a shot clip of Mother India (1957).  (gs/ma)</ext:value>
+				<ext:value>related hyperlinks:
+http://www.uiowa.edu/~incinema/Aan.html, note at &quot;philip'sfil-ums - notes on Indian popular cinema&quot; by Philip Lutgendorf, last accessed 2011-12-07 (gs/ma)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://en.wikipedia.org/wiki/Aan</ext:value>
+				<ext:value type="accessed">2011-12-07</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.uiowa.edu/~incinema/Aan.html</ext:value>
+				<ext:value type="accessed">2011-12-07</ext:value>
+				<ext:value type="comment">note at &quot;philip'sfil-ums - notes on Indian popular cinema&quot; by Philip Lutgendorf,</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.imdb.com/title/tt0044318/</ext:value>
+				<ext:value type="accessed">2011-11-30</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://8ate.blogspot.com/2009/05/hammer-and-sickle-of-mehboob.html</ext:value>
+				<ext:value type="accessed">2011-12-07</ext:value>
+				<ext:value type="comment">page mentions the emblem of Mehboob Productions and shows a shot clip of Mother India (1957).</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Film in wikipedia dated to 1952, cf. http://en.wikipedia.org/wiki/Aan, last accessed 2011-12-07</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The emblem with hammer and sickle together with the letter &quot;m&quot; are the sign of Mehboob Productions ltd.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>poster torn</ext:value>
+			</ext:item>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>left and upper edges cut</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.imdb.com/title/tt0044318/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url2" status="0" display="URL2">
+				<ext:value type="url2">http://en.wikipedia.org/wiki/Aan</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120903</ext:value>
+				<ext:value>120903</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:48">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>

@@ -1,20 +1,26 @@
-<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:hra="http://cluster-schemas.uni-hd.de" >
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd" xmlns:ext="http://exist-db.org/vra/extension">
 	<work id="w_16c173bd-32ec-572d-a19e-46ee6c8c6b57" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
 		<agentSet>
 			<agent>
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
-				<role vocab="marcrelator" code="col">Collector</role>
+				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
- 		<dateSet>
-			<date type="creation">
-				<earliestDate>1941</earliestDate>
-				<latestDate>1941</latestDate>
-			</date>
-		</dateSet>
 		<descriptionSet>
-			<description source=" " lang="en" script="latn">A nude female figure from Mohan Jodaro is wearing only jewellery and a code on the waistline in &quot;The Times of India Annual&quot; 1935.</description>
-			<description source=" " lang="en" script="latn">Mohenjo Daro, or &quot;Mound of the Dead&quot; is an ancient Indus Valley Civilization city that flourished between 2600 and 1900 BCE. It was one of the first world and ancient Indian cities. The site was discovered in the 1920s and lies in Pakistan's Sindh province.</description>
+			<description lang="en" script="Latn">
+				<text>A nude female figure from Mohan Jodaro is wearing only jewellery and a code on the waistline in &quot;The Times of India Annual&quot; 1935.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
+			<description lang="en" script="Latn">
+				<text>Mohenjo Daro, or &quot;Mound of the Dead&quot; is an ancient Indus Valley Civilization city that flourished between 2600 and 1900 BCE. It was one of the first world and ancient Indian cities. The site was discovered in the 1920s and lies in Pakistan's Sindh province.</text>
+				<author>
+					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<role vocab="marcrelator" code="edt">Editor</role>
+				</author>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -27,10 +33,13 @@
 		<locationSet>
 			<location type="repository">
 				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
-				<refid/>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+			</location>
+			<location type="formerRepository">
+				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120286" type="corporate">HeidICON Image Database</name>
+				<refid>120286</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -51,84 +60,102 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+ 		<sourceSet>
+			<source>
+				<name>http://www.mohenjodaro.net/</name>
+				<refid type="URI">$UUID$</refid>
+				<refid type="citation">$pages$</refid>
+			</source>
+		</sourceSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="861e7eb6-31c2-52b7-9d48-281436f2216f">
-				<term>Mohenjo-daro</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ebb69a2e-22b0-5f48-b771-be0e3287b9d2">
-				<term>ornament</term>
+				<term type="concept">ornaments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term>statue</term>
+				<term type="concept">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4a258254-1622-5ca5-b433-f0e25affe7ef">
-				<term>sculpture</term>
+				<term type="concept">sculpture (visual work)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term>jewellery</term>
+				<term type="concept">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term>recheck-Medialab</term>
+				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term>recheck-Gerhard</term>
+				<term type="internal workflow">recheck-Gerhard</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="861e7eb6-31c2-52b7-9d48-281436f2216f">
+				<term type="geographic">Mohenjo-Daro</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term>recheck-Matthias</term>
+				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term>Times of India Yearbook</term>
+				<term type="work">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="latn">&quot;Mohenjo-daro figure of a nude female.&quot;</title>
+			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mohenjo-daro figure of a nude female.&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Description">
-				<hra:value>text-en:
-DK 2384 (carved into the depicted figurine)</hra:value>
-				<hra:value>text-en:
-Mohenjo-daro figure of a nude female.</hra:value>
-				<hra:value>description-en:
-A nude female figure from Mohan Jodaro is wearing only jewellery and a code on the waistline in &quot;The Times of India Annual&quot; 1935. (gs)</hra:value>
-				<hra:value>description-en:
-Mohenjo Daro, or &quot;Mound of the Dead&quot; is an ancient Indus Valley Civilization city that flourished between 2600 and 1900 BCE. It was one of the first world and ancient Indian cities. The site was discovered in the 1920s and lies in Pakistan's Sindh province. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_description" status="0"  display="Kommentar">
-				<hra:value>related hyperlinks:
-http://www.mohenjodaro.net/, last accessed 2011-11-09, basic information about Mohenjo Daro as quoted above. (gs)</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<hra:value>http://www.mohenjodaro.net/</hra:value>
-				<hra:value>2011-11-09</hra:value>
-				<hra:value>basic information about Mohenjo Daro as quoted above.</hra:value>
-				<hra:value>|6|</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_zusammenhang" status="0" display="zusammenhang">
-				<hra:value>good</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:item type="f_id_heidicon" status="0" display="Heidicon image_id">
-				<hra:value>http://heidicon.ub.uni-heidelberg.de/id/120286</hra:value>
-				<hra:value>120286</hra:value>
-			</hra:item>
-		</hra:heidicon>
-		<hra:heidicon>
-			<hra:administrative type="heidicon2vra" date="2013-01-23 14:43:21">
-			</hra:administrative>
-		</hra:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Description">
+				<ext:value>text-en:
+DK 2384 (carved into the depicted figurine)</ext:value>
+				<ext:value>text-en:
+Mohenjo-daro figure of a nude female.</ext:value>
+				<ext:value>description-en:
+A nude female figure from Mohan Jodaro is wearing only jewellery and a code on the waistline in &quot;The Times of India Annual&quot; 1935. (gs)</ext:value>
+				<ext:value>description-en:
+Mohenjo Daro, or &quot;Mound of the Dead&quot; is an ancient Indus Valley Civilization city that flourished between 2600 and 1900 BCE. It was one of the first world and ancient Indian cities. The site was discovered in the 1920s and lies in Pakistan's Sindh province. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_description" status="0"  display="Full_Commentary">
+				<ext:value>related hyperlinks:
+http://www.mohenjodaro.net/, last accessed 2011-11-09, basic information about Mohenjo Daro as quoted above. (gs)</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">http://www.mohenjodaro.net/</ext:value>
+				<ext:value type="accessed">2011-11-09</ext:value>
+				<ext:value type="comment">basic information about Mohenjo Daro as quoted above.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+		</ext:heidicon>
+
+		<ext:heidicon>
+			<ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+				<ext:value>good</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_url1" status="0" display="URL1">
+				<ext:value type="url1">http://www.mohenjodaro.net/</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120286</ext:value>
+				<ext:value>120286</ext:value>
+			</ext:item>
+		</ext:heidicon>
+		<ext:heidicon>
+			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:50">
+			</ext:administrative>
+		</ext:heidicon>
 	</work>
 </vra>
