@@ -34,8 +34,16 @@ declare variable $biblio-users-group := "biblio.users";
 declare function local:set-collection-resource-permissions($collection as xs:string, $owner as xs:string, $group as xs:string, $permissions as xs:int) {
     if(xmldb:collection-available($collection))
     then (
-        for $resource in xmldb:get-child-resources($collection) return
-            xmldb:set-resource-permissions($collection, $resource, $owner, $group, $permissions)
+        let $resources :=
+            for $resource in xmldb:get-child-resources($collection)
+                return
+                    xmldb:set-resource-permissions($collection, $resource, $owner, $group, $permissions)
+        let $collections :=
+            for $child-collection in  xmldb:get-child-collections($collection)
+                         let $permission := xmldb:set-collection-permissions($collection || "/" || $child-collection, $owner, $group, $permissions)
+                         return 
+                                 local:set-collection-resource-permissions($collection || "/" || $child-collection, $owner, $group, $permissions)
+         return ()
     ) else ()
 };
 
@@ -80,7 +88,7 @@ util:log($log-level, "Storing image records ..."),
 xmldb:store-files-from-pattern($image-record-dir, $dir, "priyapaul/files/images/*.xml"),
 
 util:log($log-level, "Permissions: Set permissions for record  data..."),
-local:set-collection-resource-permissions( $record-dir, $biblio-admin-user, $biblio-users-group, util:base-to-integer(0771, 8)),
+local:set-collection-resource-permissions($db-root || "/" ||   $common-data-dir, $biblio-admin-user, $biblio-users-group, util:base-to-integer(0755, 8)),
 
 (: store the collection configuration :)
 util:log($log-level, "Store the collection configuration"),

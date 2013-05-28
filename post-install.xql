@@ -4,4 +4,4 @@ import module namespace xdb="http://exist-db.org/xquery/xmldb";
 
 declare variable $target external;
 (: cleanup :)
- xmldb:remove($target/priyapaul)
+ xmldb:remove($target || "/priyapaul")
