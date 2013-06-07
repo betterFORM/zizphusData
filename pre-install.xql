@@ -12,14 +12,14 @@ declare variable $dir external;
 declare variable $target external;
 
 (: Local parameters for data collections :)
-declare   variable $collection-name := encode-for-uri("Priya Paul Collection");
+declare   variable $collection-name := "Priya_Paul_Collection";
 
 declare variable $db-root := "/db";
 declare  variable $data-dir := "resources/";
 declare  variable $common-data-dir := $data-dir || "commons/";
 declare  variable $record-dir := $common-data-dir || $collection-name || "/";
 declare  variable $work-record-dir := $common-data-dir || $collection-name || "/work/";
-declare  variable $image-record-dir := $common-data-dir || $collection-name || "/image/";
+declare  variable $image-record-dir := $work-record-dir || "VRA_images/";
 
 declare variable $log-level := "INFO";
 
