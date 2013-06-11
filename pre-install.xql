@@ -18,7 +18,7 @@ declare variable $db-root := "/db";
 declare  variable $data-dir := "resources/";
 declare  variable $common-data-dir := $data-dir || "commons/";
 declare  variable $record-dir := $common-data-dir || $collection-name || "/";
-declare  variable $work-record-dir := $common-data-dir || $collection-name || "/work/";
+declare  variable $work-record-dir := $record-dir;
 declare  variable $image-record-dir := $work-record-dir || "VRA_images/";
 
 declare variable $log-level := "INFO";
