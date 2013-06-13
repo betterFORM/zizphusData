@@ -92,9 +92,9 @@ local:set-collection-resource-permissions($db-root || "/" ||   $common-data-dir,
 
 (: store the collection configuration :)
 util:log($log-level, "Store the collection configuration"),
-local:mkcol("/db/system/config", $work-record-dir),
+local:mkcol("/db/system/config/db", $image-record-dir),
 xmldb:store-files-from-pattern(concat("/system/config/db/",$work-record-dir), $dir, "*.xconf") ,
-local:mkcol("/db/system/config", $image-record-dir),
+local:mkcol("/db/system/config/db", $image-record-dir),
 xmldb:store-files-from-pattern(concat("/system/config/db/", $image-record-dir), $dir, "*.xconf"),
 
 util:log($log-level, "...DONE")
