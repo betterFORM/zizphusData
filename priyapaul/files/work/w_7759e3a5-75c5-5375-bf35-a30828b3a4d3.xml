@@ -31,8 +31,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1966</earliestDate>
+				<latestDate>1966</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A lobby card from the Hindi movie &quot;Baharen Phir Bhi Aayengi&quot; released in the year 1966 shows the three main actors in a living room. The two women in the foreground, Tanuja stands with a suitcase in her hand while Mala Sinha tries to stop her holding her arm. She cries while she holds Tanuja's arm. Dharmendra looks towards the women as he stands behind them.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -50,7 +56,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Guru Dutt Films Pvt. Limiteds
+				<text type="text" lang="eng">Guru Dutt Films Pvt. Limiteds
 Baharen Phir Bhi Aayengi
 Written by Abrar Alvi
 Directed by Shahid Lateef
@@ -58,11 +64,11 @@ Music O.P. Nayyar</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119326" type="corporate">HeidICON Image Database</name>
@@ -118,14 +124,14 @@ Music O.P. Nayyar</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="69d3fc44-4039-55bb-960a-4e0c7f9cb7a5">
-				<term type="work (movie)">Baharen Phir Bhi Aayengi</term>
+				<term type="work (movie)">Baharen Phir Bhi Aayengi (movie, 1966)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Baharen Phir Bhi Aayengi&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Baharen Phir Bhi Aayengi</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -193,7 +199,7 @@ http://www.imdb.com/title/tt0060145/, last accessed 2011-12-15. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:15">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>
