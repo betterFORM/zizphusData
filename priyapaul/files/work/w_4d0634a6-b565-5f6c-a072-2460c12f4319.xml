@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Krishna can be seen sitting on a rock and playing his flute while cows surround the rock he is sitting on. In the background, trees and a cloudy sky can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,15 +31,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Graham Glasgow</text>
+				<text type="text" lang="eng">Graham Glasgow</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108783" type="corporate">HeidICON Image Database</name>
@@ -56,7 +56,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a8e58a9d-d5bf-57ff-b34a-d118d1ff6e6c" refid="108783" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a8e58a9d-d5bf-57ff-b34a-d118d1ff6e6c" refid="108783" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -85,7 +85,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of Graham, Glasgow</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of Graham, Glasgow</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -111,7 +111,7 @@ Krishna can be seen sitting on a rock and playing his flute while cows surround 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:12">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:10">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

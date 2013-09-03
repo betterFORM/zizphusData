@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This sample image in the catalogue of Empire Calendar Manufacturing Co. shows the Bollywood actress Bina Rai. The actress can be seen standing in front of a window and wearing a sari. In the background, the full moon as well as a tendril with flowers can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,21 +31,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sushil Das..</text>
+				<text type="text" lang="eng">Sushil Das..</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">BINA RAI</text>
+				<text type="text" lang="eng">BINA RAI</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Sushil Das</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119486" type="corporate">HeidICON Image Database</name>
@@ -62,7 +62,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_938ca851-e661-5e10-bb85-46b771837f61" refid="119486" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_938ca851-e661-5e10-bb85-46b771837f61" refid="119486" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -109,7 +109,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Bina Rai&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Bina Rai</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -147,7 +147,7 @@ This sample image in the catalogue of Empire Calendar Manufacturing Co. shows th
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:33">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:19">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

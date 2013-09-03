@@ -52,11 +52,11 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Mother India stands on the map of India, at the centre of the image. She holds the Indian national flag in her left hand and blesses with her right hand.  
 From top left in clock-wise direction, we can see the following portraits of 'great men' framing her: Jesus Chris, Mohandas K. Gandhi, Buddha, Vivekananda, Shastri and Nehru, Patel and ??, Bose.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
@@ -64,14 +64,14 @@ From top left in clock-wise direction, we can see the following portraits of 'gr
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">T. B. Vathy. 
+				<text type="text" lang="eng">T. B. Vathy. 
 Nagarcoil</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">MESSAGE OF LOVE</text>
+				<text type="text" lang="eng">MESSAGE OF LOVE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ravi Varma Press, Malavli, G.L.P.
+				<text type="text" lang="eng">Ravi Varma Press, Malavli, G.L.P.
 Printed in Germany</text>
 			</inscription>
 			<inscription>
@@ -79,11 +79,11 @@ Printed in Germany</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118957" type="corporate">HeidICON Image Database</name>
@@ -100,7 +100,7 @@ Printed in Germany</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_245adf28-6e50-51b3-802d-7786f37d2bfd" refid="118957" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_245adf28-6e50-51b3-802d-7786f37d2bfd" refid="118957" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -112,9 +112,6 @@ Printed in Germany</text>
 			<stylePeriod>1960s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term type="work (map)">map of India</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
 				<term type="concept">flags</term>
 			</subject>
@@ -123,6 +120,9 @@ Printed in Germany</text>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="05d6340c-2fda-50b9-9d34-e96237aad435">
 				<term type="concept">blessing</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
 				<term type="worktype">posters</term>
@@ -147,7 +147,7 @@ Printed in Germany</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Message of Love&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Message of Love</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -204,7 +204,7 @@ Printed in Germany</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:03">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>
