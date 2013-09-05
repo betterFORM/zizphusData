@@ -32,7 +32,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Subhash Chandra Bose offering his head in a plate to Mother India. The goddess is accompanied by her avatar, the lion, and a dragon, wearing the British flag. In the background of the lake at which both Bose and Bharat Mata stand, is Red Fort. In the middle, in the skies, like a cloud, a bust of Bose in white topi and kurta, who is riding on a lion, Red Fort in view.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0">Brosius, Christiane</name>
@@ -43,7 +43,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">सुभाष बलिदान</text>
+				<text type="text" lang="hin">सुभाष बलिदान</text>
 			</inscription>
 			<inscription>
 				<text type="other">Subhash Balidan</text>
@@ -52,7 +52,7 @@
 				<text type="translation">Sacrifice of Subhash</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">चलो दिल्ली</text>
+				<text type="text" lang="hin">चलो दिल्ली</text>
 			</inscription>
 			<inscription>
 				<text type="other">Chalo Dilli</text>
@@ -62,11 +62,11 @@
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118976" type="corporate">HeidICON Image Database</name>
@@ -83,7 +83,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_85fb1cc7-52f7-54dc-b3fb-bc006f84d499" refid="118976" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_85fb1cc7-52f7-54dc-b3fb-bc006f84d499" refid="118976" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -151,9 +151,9 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;To Delhi! - Subhash's sacrifice&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">&quot;Chalo Dilli - Subhash Balidan&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">चलो दिल्ली - सुभाष बलिदान</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">To Delhi! - Subhash's sacrifice</title>
+			<title type="descriptive" pref="false">&quot;Chalo Dilli - Subhash Balidan&quot;</title>
+			<title type="descriptive" pref="false">चलो दिल्ली - सुभाष बलिदान</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
@@ -258,7 +258,7 @@ Bose donates his head (= life) to Mother India, blood is flooding the tray on wh
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:52">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An advertisement for bidis or tobacco wrapped in tendu leaves and tied with string manufactured by Kale Khan M. Haneef, Bhopal.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,10 +22,10 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">हमेशा फौहारा छाप बीडी पीजिये</text>
+				<text type="text" lang="hin">हमेशा फौहारा छाप बीडी पीजिये</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Kale Khan Sowdagar</text>
+				<text type="text" lang="eng">Kale Khan Sowdagar</text>
 			</inscription>
 			<inscription>
 				<text type="other">Hamesha Fauhara Chaap bidi pijiye
@@ -34,11 +34,11 @@ Sagar Bhopal Dehali</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107875" type="corporate">HeidICON Image Database</name>
@@ -55,7 +55,7 @@ Sagar Bhopal Dehali</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7714a486-b311-5b79-88e7-ba51943d0d17" refid="107875" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7714a486-b311-5b79-88e7-ba51943d0d17" refid="107875" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -84,9 +84,9 @@ Sagar Bhopal Dehali</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Hamesha Fauhara bidis</title>
-			<title type="descriptive" pref="false" lang="" script="">&quot;Hamesha Fauhara chhap bidi pijiye&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">हमेशा फौहारा छाप बीडी पीजिये</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Hamesha Fauhara bidis</title>
+			<title type="descriptive" pref="false">&quot;Hamesha Fauhara chhap bidi pijiye&quot;</title>
+			<title type="descriptive" pref="false">हमेशा फौहारा छाप बीडी पीजिये</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -118,7 +118,7 @@ An advertisement for bidis or tobacco wrapped in tendu leaves and tied with stri
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:03">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

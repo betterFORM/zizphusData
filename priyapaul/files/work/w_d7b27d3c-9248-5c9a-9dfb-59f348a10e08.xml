@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Lipton's Tea, a white woman with blonde hair, can be seen standing in front of a table set with steaming cups of tea, a container of creamer, sugar and a saucer. On the second shelf of the table, platters of biscuits and shortbread can be seen. The blonde lady holds out her cup to a native tea picker who pours her tea from a tea pot, across the hedge. The tea picker has a basket tied to her back.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,39 +32,39 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Times of Ceylon Christmas Number</text>
+				<text type="text" lang="eng">The Times of Ceylon Christmas Number</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Tea Merchants
+				<text type="text" lang="eng">Tea Merchants
 By appointment to
 His Majesty
 The King</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">III A V S</text>
+				<text type="text" lang="eng">III A V S</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">A Cup full of Goodness
+				<text type="text" lang="eng">A Cup full of Goodness
 from Lipton's Tea Gardens in Ceylon</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Lipton's
+				<text type="text" lang="eng">Lipton's
 Tea</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">World-Renowned
+				<text type="text" lang="eng">World-Renowned
 Direct from Tea Garden to Tea Table</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Lipton, Ltd., Tea Planters, Ceylon. London - Paris - Cairo - Calcutta - Melbourne, etc.</text>
+				<text type="text" lang="eng">Lipton, Ltd., Tea Planters, Ceylon. London - Paris - Cairo - Calcutta - Melbourne, etc.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119782" type="corporate">HeidICON Image Database</name>
@@ -75,7 +81,7 @@ Direct from Tea Garden to Tea Table</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_eaa96a0f-aab2-5f61-8a5c-f938eab2b318" refid="119782" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_eaa96a0f-aab2-5f61-8a5c-f938eab2b318" refid="119782" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -91,6 +97,9 @@ Direct from Tea Garden to Tea Table</text>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="858d1451-3f0c-52d5-a388-4e88e5f459fb">
 				<term type="concept">teapots</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
 				<term type="concept">tea (beverage)</term>
@@ -124,7 +133,7 @@ Direct from Tea Garden to Tea Table</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Lipton's Tea</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Lipton's Tea</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -292,7 +301,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:27">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

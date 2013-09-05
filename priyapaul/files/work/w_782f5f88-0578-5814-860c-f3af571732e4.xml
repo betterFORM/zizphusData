@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows a view of Standing Camp, Ranikhet. A row of buildings grouped together and various tents pitched near the buildings can be seen. Trees surround the buildings and in the distance mountains can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,18 +26,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">96578</text>
+				<text type="text" lang="eng">96578</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Standing camp, Ranikhet Hill (India).</text>
+				<text type="text" lang="eng">Standing camp, Ranikhet Hill (India).</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107988" type="corporate">HeidICON Image Database</name>
@@ -54,7 +54,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_f3646bdf-8f45-5648-aa69-532f39cb0f0f" refid="107988" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_f3646bdf-8f45-5648-aa69-532f39cb0f0f" refid="107988" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -101,7 +101,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Standing Camp, Ranikhet Hill (India)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Standing Camp, Ranikhet Hill (India)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -240,7 +240,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2010
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

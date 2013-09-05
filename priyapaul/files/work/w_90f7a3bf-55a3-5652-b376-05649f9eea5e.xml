@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This sample image in the catalogue of Empire Calendar Manufacturing Co., Sita is wearing a yellow sari with a purple blouse and flowers in her hair worships a statue of Rama, which rests in an altar-like space. She holds a tray with offerings which include incense sticks, flowers and a lit lamp. Next to her on the floor lie more flowers and a vessel. Rama and Sita's two sons Lava (Luv) and Kusha stand nearby assisting her. They carry bows and arrows.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -41,21 +41,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Banadevi with Love Kush</text>
+				<text type="text" lang="eng">Banadevi with Love Kush</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">M. L. Sharma</text>
+				<text type="text" lang="eng">M. L. Sharma</text>
 			</inscription>
 			<inscription>
 				<text type="signature">M. L. Sharma</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119452" type="corporate">HeidICON Image Database</name>
@@ -72,7 +72,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_eb3e4052-3772-5665-a786-563329a4c542" refid="119452" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_eb3e4052-3772-5665-a786-563329a4c542" refid="119452" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -108,6 +108,9 @@
 			<subject source="EXC" vocab="LOCAL" refid="9e86441b-4bb4-53f5-96b6-0c777bf7b93e">
 				<term type="concept">altars (religious building fixtures)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="fcb72c5b-7772-5b24-b8e3-c7158ca7aa25">
+				<term type="concept">cult images</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ba3075b4-2471-56a5-bc06-fb4c8a788b76">
 				<term type="concept">devotional pictures</term>
 			</subject>
@@ -128,7 +131,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Banadevi with Love Kush&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Banadevi with Love Kush</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -259,7 +262,7 @@ http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=81&amp;EId=97&amp;ImageI
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:20">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:44">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this sample image from a catalogue of Empire Calendar Manufacturing Co. Lord Rama, and his wife Sita can be seen sitting under a tree with different flowers and a tree around them. Mountains and a lake can be seen behind them. Rama is holding a bow and a quiver of arrows lies beside him as Sita points to something. Both of them are wearing flower garlands and earrings and Sita is also wearing bracelets made of flowers.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -27,16 +27,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Banbasi Ram-Sita
+				<text type="text" lang="eng">Banbasi Ram-Sita
 No. 686</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119451" type="corporate">HeidICON Image Database</name>
@@ -53,7 +53,7 @@ No. 686</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_04b5febd-de98-5a67-8156-68b7bc5efc10" refid="119451" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_04b5febd-de98-5a67-8156-68b7bc5efc10" refid="119451" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -94,7 +94,7 @@ No. 686</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Banabasi Ram-Sita&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Banabasi Ram-Sita</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -151,7 +151,7 @@ Sample god poster images taken from a catalogue / brochure. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:18">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

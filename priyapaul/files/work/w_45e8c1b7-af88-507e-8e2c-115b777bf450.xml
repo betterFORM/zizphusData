@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Prabhat Zarda Products, the goddess Lakshmi can be seen depicted in her typical iconography, sitting on a lotus flower and holding some lotus flowers in both of her hands as well. The lower section of the image hosts some samples of the advertised product.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,15 +22,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Prabhat Zarda Products</text>
+				<text type="text" lang="eng">Prabhat Zarda Products</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119375" type="corporate">HeidICON Image Database</name>
@@ -38,7 +38,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b75132b5-8e96-5c0b-8a5f-9d2e64e51140" refid="119375" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b75132b5-8e96-5c0b-8a5f-9d2e64e51140" refid="119375" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -55,6 +55,9 @@
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
 				<term type="concept">deities</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
 				<term type="concept">bindi</term>
@@ -77,19 +80,15 @@
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
 				<term type="concept">saris (garments)</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
 				<term type="plant">lotus (motif)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Tin advertisement of Prabhat Zarda Products, showing goddess Lakshmi</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Tin advertisement of Prabhat Zarda Products, showing goddess Lakshmi</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
-			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -123,7 +122,7 @@ On this advertisement for Prabhat Zarda Products, the goddess Lakshmi can be see
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:38">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:28">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

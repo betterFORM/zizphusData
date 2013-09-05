@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1966</earliestDate>
+				<latestDate>1966</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A still from the Hindi movie &quot;Dil Diya Dard Liya&quot; (1966) shows the main actors, Dilip Kumar(male) and Waheeda Rehman(female) exchange amorous looks. Both are smiling. Dilip Kumar gently touches Waheeda Rehman's chin. She wears jewellery and an embroided red saree. The still depicts a moonlit night.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,11 +42,11 @@
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120864" type="corporate">HeidICON Image Database</name>
@@ -51,7 +57,7 @@
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a7ed37e7-7199-5714-a6e0-f36a46c1f16c" refid="120864" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a7ed37e7-7199-5714-a6e0-f36a46c1f16c" refid="120864" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -86,17 +92,17 @@
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b29644ee-ee02-5f26-8fee-f32a18208aa8">
-				<term type="work (movie)">Dil Diya Dard Liya</term>
+				<term type="work (movie)">Dil Diya Dard Liya (movie, 1966)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">movie still</term>
+				<term type="concept">film stills</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Dil Diya Dard Liya, movie poster</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Dil Diya Dard Liya, movie poster</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -162,7 +168,7 @@ http://www.imdb.com/title/tt0060310/, last accessed 2011-12-12, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:27">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:51">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

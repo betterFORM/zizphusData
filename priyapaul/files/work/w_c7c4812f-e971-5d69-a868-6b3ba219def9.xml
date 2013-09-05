@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An image with the title &quot;Karwan&quot; in a sample calender poster of Empire Calender Manufacturing Co., Calcutta depicts three camels and four men at an oasis. One camel with its rider on it is drinking from a pond while one camel rests and another stands loaded with goods. There is a man sitting on the sand to the right of the image. In the background buildings with domes, a pyramid and desert landscape can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,19 +22,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">TCM [publisher's signet]</text>
+				<text type="text" lang="eng">TCM [publisher's signet]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">KARAWAN
+				<text type="text" lang="eng">KARAWAN
 No. 560 (B?)</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122982" type="corporate">HeidICON Image Database</name>
@@ -51,7 +51,7 @@ No. 560 (B?)</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0a591bb0-335e-5ee6-8e45-b0042cad7899" refid="122982" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0a591bb0-335e-5ee6-8e45-b0042cad7899" refid="122982" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -98,7 +98,7 @@ No. 560 (B?)</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Karwan&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Karwan</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -147,7 +147,7 @@ The image possibly is meant to depict a landscape in Egypt given the pyramid in 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:33">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:34">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

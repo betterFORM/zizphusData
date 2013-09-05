@@ -16,18 +16,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">H. R. Raja</text>
+				<text type="text" lang="eng">H. R. Raja</text>
 			</inscription>
 			<inscription>
 				<text type="signature">H. R. Raja.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118841" type="corporate">HeidICON Image Database</name>
@@ -39,7 +39,7 @@
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_decbb89e-c670-5443-8b8b-d29b051497b0" refid="118841" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_decbb89e-c670-5443-8b8b-d29b051497b0" refid="118841" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -48,7 +48,7 @@
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Indira Gandhi, Rani Laxmi Bai, Indo-pak war painting</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Indira Gandhi, Rani Laxmi Bai, Indo-pak war painting</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
@@ -100,7 +100,7 @@ Painting for a calendar. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:44">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:51">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

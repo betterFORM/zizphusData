@@ -7,21 +7,21 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Page no. 17 from an old magazine, &quot;Risala Kok Shastar, Lahore&quot; with sketches of four models showcasing fashion trends (upmarket apparels, hairstyles, jewellery etc) of the time, early 1900s. The page is printed in red ink and it is divided into four equal rectangular boxes and each box contains a sketch. 
 In clock-wise order- &quot;Miss Gauhar Jahan&quot;, who wears a saree and poses crossed hands. Next to her is the &quot;Gentleman Lady&quot; (who wears a western outfit and carries an umbrella and flower basket); Bottom right is &quot;Shauqeen Aurat&quot; (the woman who lives her life to the fullest) poses crosslegged on a chair. She wears Mughal style dress. Also seen a flower vase kept on the side table). Bottom left is the Dana aurat (the wise lady), who poses with her arm resting against the sofa.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Risala &quot;Kok Shastar&quot; Lahore.</text>
+				<text type="text" lang="eng">Risala &quot;Kok Shastar&quot; Lahore.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">مس گوہر جان . جنٹلمین لیڈی . شوقین عورت. دانا عورت
+				<text type="text" lang="urd">مس گوہر جان . جنٹلمین لیڈی . شوقین عورت. دانا عورت
 ملکھی رام مصور، لاہور</text>
 			</inscription>
 			<inscription>
@@ -30,11 +30,11 @@ Malkhi Ram Musavvir, Lahore</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108085" type="corporate">HeidICON Image Database</name>
@@ -51,7 +51,7 @@ Malkhi Ram Musavvir, Lahore</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_9782c25e-aa69-5a7d-911b-17035319940d" refid="108085" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_9782c25e-aa69-5a7d-911b-17035319940d" refid="108085" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -80,9 +80,9 @@ Malkhi Ram Musavvir, Lahore</text>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Page no. 17 from the magazine &quot;Risala Kok Shastar, Lahore&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Miss Goharjan, Gentleman lady, Shauqeen aurat, Dana aurat</title>
-			<title type="descriptive" pref="false" lang="" script="">مس گوہر جان . جنٹلمین لیڈی . شوقین عورت . دانا عورت</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Page no. 17 from the magazine &quot;Risala Kok Shastar, Lahore&quot;</title>
+			<title type="descriptive" pref="false">Miss Goharjan, Gentleman lady, Shauqeen aurat, Dana aurat</title>
+			<title type="descriptive" pref="false">مس گوہر جان . جنٹلمین لیڈی . شوقین عورت . دانا عورت</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -159,7 +159,7 @@ Shauqeen Aurat- was the term used for a woman who enjoyed her life by participat
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:46">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

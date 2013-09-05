@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Central on this advertisement is the head of a tiger in the mid section of the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,21 +28,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">With the compliments of 
+				<text type="text" lang="eng">With the compliments of 
 Van Ingen &amp; Van Ingen
 Taxidermists
 Mysore</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Where the mounting of shikhar trophies attains prefection</text>
+				<text type="text" lang="eng">Where the mounting of shikhar trophies attains prefection</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119778" type="corporate">HeidICON Image Database</name>
@@ -53,7 +59,7 @@ Mysore</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d1aaa6f3-16f1-5787-af37-3ed8aca21d8c" refid="119778" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d1aaa6f3-16f1-5787-af37-3ed8aca21d8c" refid="119778" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -68,6 +74,9 @@ Mysore</text>
 			<subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
 				<term type="animal">tigers (animals)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
@@ -79,7 +88,7 @@ Mysore</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Stane's Red Ensign Tea and Coffee</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Stane's Red Ensign Tea and Coffee</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -127,7 +136,7 @@ Central on this advertisement is the head of a tiger in the mid section of the i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:18">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:35">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

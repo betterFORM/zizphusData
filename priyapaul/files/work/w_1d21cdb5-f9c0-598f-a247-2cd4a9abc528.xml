@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1954</earliestDate>
+				<latestDate>1954</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Cavander's Navy Cut Cigarettes, a sample-package of the cigarettes can be seen with a sailor saluting on it. The lower section of the image hosts a calendar for the year 1954.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -18,24 +24,24 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">You can rely on Cavander's Navy Cut Cigarettes
+				<text type="text" lang="eng">You can rely on Cavander's Navy Cut Cigarettes
 For unvarying Good Quality Every Day of the Year.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The Air-Conditioned Cigarette</text>
+				<text type="text" lang="eng">The Air-Conditioned Cigarette</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Cavander's Medium Navy Cut Cigarettes
+				<text type="text" lang="eng">Cavander's Medium Navy Cut Cigarettes
 Cavanders Ltd. Estd. 1775
 10 Cigarettes</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108389" type="corporate">HeidICON Image Database</name>
@@ -52,7 +58,7 @@ Cavanders Ltd. Estd. 1775
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_45c714b2-ccc5-56e6-81e6-672dd95f2d07" refid="108389" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_45c714b2-ccc5-56e6-81e6-672dd95f2d07" refid="108389" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -63,11 +69,6 @@ Cavanders Ltd. Estd. 1775
  		<sourceSet>
 			<source>
 				<name>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</name>
-				<refid type="URI">$UUID$</refid>
-				<refid type="citation">$pages$</refid>
-			</source>
-			<source>
-				<name>http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</name>
 				<refid type="URI">$UUID$</refid>
 				<refid type="citation">$pages$</refid>
 			</source>
@@ -90,27 +91,24 @@ Cavanders Ltd. Estd. 1775
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
 				<term type="worktype">calendars</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="4666e2ff-4cf6-5025-9525-c0cc88c84df9">
+				<term type="concept">cigarettes</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
 				<term type="concept">cigarette advertising</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="93b4a19e-b5f1-55af-863b-ae9ea31c15ed">
-				<term type="concept">tobacco</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="81cfef00-cf7e-50dc-a215-881583719b0a">
-				<term type="brand">Cavender's Navy Cut Cigarettes</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="4666e2ff-4cf6-5025-9525-c0cc88c84df9">
-				<term type="concept">cigarettes</term>
+			<subject source="EXC" vocab="LOCAL" refid="e0157b9f-8fac-5632-b85d-67160b39b5cf">
+				<term type="brand">Cavander's (brand)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Cavander's Navy Cut Cigarettes Advertisement Calendar</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Cavander's Navy Cut Cigarettes Advertisement Calendar</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -201,11 +199,6 @@ http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:item type="f_url2" status="0" display="URL2">
-				<ext:value type="url2">http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</ext:value>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
 			<ext:item type="f_url3" status="0" display="URL3">
 				<ext:value type="url3">http://www.tvparty.com/vaultcomcig.html</ext:value>
 			</ext:item>
@@ -217,7 +210,7 @@ http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

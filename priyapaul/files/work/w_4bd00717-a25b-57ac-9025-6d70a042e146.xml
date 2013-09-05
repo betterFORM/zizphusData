@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this poster from Pheonix P. Works, a hindu woman can be seen while wearing a seemingly expensive blue Sari. Shes admiring herself in a mirror with a green curtain.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -28,19 +28,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Phoenix P. Works,
+				<text type="text" lang="eng">Phoenix P. Works,
 AHMEDABAD.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copy Rt. No. 652</text>
+				<text type="text" lang="eng">Copy Rt. No. 652</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109787" type="corporate">HeidICON Image Database</name>
@@ -57,7 +57,7 @@ AHMEDABAD.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a83407f9-57dd-564a-ace4-28456f4cdd7d" refid="109787" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a83407f9-57dd-564a-ace4-28456f4cdd7d" refid="109787" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -122,7 +122,7 @@ AHMEDABAD.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by Phoenix P. Works</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by Phoenix P. Works</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype>labels</worktype>
@@ -269,7 +269,7 @@ Uberoi, Patricia 2003. â€œChicks, Kids and Couples: The Nation in Calendar Art,â
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:41">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

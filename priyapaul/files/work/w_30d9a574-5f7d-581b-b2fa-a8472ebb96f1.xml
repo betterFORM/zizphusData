@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this poster from Ajanta Calender Mfg. Co, a smiling woman can be seen looking at the viewer. She is sitting in front of a moon-lit tropical landscape with palm-trees, playing with her white veil and wearing golden jewellery. Her shine-through sari gives her appearance a slightly erotic touch.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,28 +22,28 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">651 Beauty</text>
+				<text type="text" lang="eng">651 Beauty</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ajanta Art Calendar Mfg. Co.
+				<text type="text" lang="eng">Ajanta Art Calendar Mfg. Co.
 17, Godown Street, P.B. No. 255
 Madras-1</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copyright Reserved</text>
+				<text type="text" lang="eng">Copyright Reserved</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ajanta Art Calendar Mfg. Co., 
+				<text type="text" lang="eng">Ajanta Art Calendar Mfg. Co., 
 2111, Chah Indara Koria Pul.
 Behind: Jubilee Cinema, Delhi-5.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109977" type="corporate">HeidICON Image Database</name>
@@ -60,7 +60,7 @@ Behind: Jubilee Cinema, Delhi-5.</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_bd5f6226-9d24-5c7d-8650-f3f3fec7734f" refid="109977" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_bd5f6226-9d24-5c7d-8650-f3f3fec7734f" refid="109977" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -98,7 +98,7 @@ Behind: Jubilee Cinema, Delhi-5.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Beauty&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Beauty</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -150,7 +150,7 @@ Behind: Jubilee Cinema, Delhi-5.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

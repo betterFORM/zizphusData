@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1986</earliestDate>
+				<latestDate>1986</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the 1980s Hindi film &quot;Chambal ka Badash&quot;, several scenes of the movie with different actors are pictured.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,7 +38,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">S.C. Mittle presents
+				<text type="text" lang="eng">S.C. Mittle presents
 Chirag International's
 Chambal ka Badash
 Produced vy Dinesh Salgia
@@ -41,18 +47,18 @@ Music by Sonik-Omi
 Lyrics Verma Malik</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">PLEASE ENTER HERE</text>
+				<text type="text" lang="hin">PLEASE ENTER HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">PLEASE ENTER HERE</text>
+				<text type="text" lang="urd">PLEASE ENTER HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119047" type="corporate">HeidICON Image Database</name>
@@ -66,7 +72,7 @@ Lyrics Verma Malik</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_71e325e3-870c-509f-8c10-97c966977620" refid="119047" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_71e325e3-870c-509f-8c10-97c966977620" refid="119047" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,14 +113,14 @@ Lyrics Verma Malik</text>
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0ca6dd3f-4a15-504d-94ae-7948f87817da">
-				<term type="work (movie)">Chambal ka Badsha</term>
+				<term type="work (movie)">Chambal ka Badsha (movie, 1986)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Chambal ka Badshah&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Chambal ka Badshah</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -175,7 +181,7 @@ http://www.imdb.com/title/tt0440194/, last accessed 2011-12-03. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:48:59">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -5,9 +5,14 @@
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-5ba495c7-73f2-5d74-a7ce-4b6c01c3b09b">Faulkner and Son</name>
+				<role vocab="marcrelator" type="code">cli</role>
+  			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This advertisement for Faulkern's boots &amp; shoes shows some of the advertised boots and shoes on a black and white advertisement poster along with detailed s, the address of the firm and the prices.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,7 +26,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">You've seen them at Ascot-
+				<text type="text" lang="eng">You've seen them at Ascot-
 Roehampton, Epsom and Lords; you've met them on the moors, by trout streams and in the hunting field; everywhere in fact where English sporting men and women foregather - because wherever good looking, comfortable footwear is needed, you will find Faulkner's Boots &amp; shoes. 
 Famous for 60 years.
 This self-measurement apparatus, which we invented and used all through the war, will ensure perfect fitting. Sent on application
@@ -40,11 +45,11 @@ Bond Street- London, W.I
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119771" type="corporate">HeidICON Image Database</name>
@@ -61,7 +66,7 @@ Bond Street- London, W.I
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a9509b62-f430-5588-8268-17a1a2696b0a" refid="119771" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a9509b62-f430-5588-8268-17a1a2696b0a" refid="119771" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -76,24 +81,27 @@ Bond Street- London, W.I
 			<subject source="EXC" vocab="LOCAL" refid="871b50a9-0b2b-5030-b9ca-80684acc2e82">
 				<term type="concept">shoes (footwear)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="5ba495c7-73f2-5d74-a7ce-4b6c01c3b09b">
-				<term type="brand">Faulkner's boots &amp; shoes</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="28e3f236-e17e-55f2-a01b-d00db6368ccb">
+				<term type="concept">boots (footwear)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Faulkner's Boots &amp; Shoes</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Faulkner's Boots &amp; Shoes</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -151,7 +159,7 @@ This advertisement for Faulkern's boots &amp; shoes shows some of the advertised
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:00">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This textile label from the Bombay Company Ltd. shows a woman in a red sari climbing up the steps to a  temple.  A sculpture of a cow can be seen near the entrance of the temple. &quot;Delhi Karachi Amritsar&quot; and &quot;The Bombay Company Ltd.&quot; is written along the edges of the image in English as well as Devanagari. This image is a replica of a Ravi Varma painting.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,24 +36,24 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Bombay Company Limited</text>
+				<text type="text" lang="eng">The Bombay Company Limited</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Delhi Karachi Amritsar.</text>
+				<text type="text" lang="eng">Delhi Karachi Amritsar.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">देहली-अमृतसर- क्राची</text>
+				<text type="text" lang="hin">देहली-अमृतसर- क्राची</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">धी  बाम्बे कंपनी लीमीटेड</text>
+				<text type="text" lang="hin">धी  बाम्बे कंपनी लीमीटेड</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106168" type="corporate">HeidICON Image Database</name>
@@ -64,7 +64,7 @@
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_edebc20a-6643-5766-b1d3-b1479f1f1108" refid="106168" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_edebc20a-6643-5766-b1d3-b1479f1f1108" refid="106168" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -131,8 +131,8 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by The Bombay Company Limited</title>
-			<title type="descriptive" pref="false" lang="" script="">देहली-अमृतसर- क्राची</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by The Bombay Company Limited</title>
+			<title type="descriptive" pref="false">देहली-अमृतसर- क्राची</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -260,7 +260,7 @@ Thanvi, Asraf Ali 1990. &quot;Perfecting Women&quot;. Berkley: University of Cal
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:48">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

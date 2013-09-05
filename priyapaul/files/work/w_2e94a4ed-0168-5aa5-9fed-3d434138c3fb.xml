@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for bidis (south Asian cigarettes made of tendu leaves and rolled and tied with a string), a woman wearing a veil as well as jewellery can be seen. A sample of the advertised product is depicted on the right side of the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,23 +22,23 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">हमेशा फौहारा छाप 
+				<text type="text" lang="hin">हमेशा फौहारा छाप 
 बिडी पीजिये</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">काले खाँ एम् . हनीफ
+				<text type="text" lang="hin">काले खाँ एम् . हनीफ
 [indecipherable] - देहली</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">PLEASE ENTER HERE</text>
+				<text type="text" lang="urd">PLEASE ENTER HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119376" type="corporate">HeidICON Image Database</name>
@@ -68,6 +68,9 @@
 			<subject source="EXC" vocab="LOCAL" refid="1a0d4361-0930-5f95-9b01-e90ec197f6d3">
 				<term type="concept">veils (headcloths)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+				<term type="worktype">advertisements</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
 				<term type="concept">product advertisement</term>
 			</subject>
@@ -92,15 +95,12 @@
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
-			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Bidi Advertisement in Hindi &amp; Urdu</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Bidi Advertisement in Hindi &amp; Urdu</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -155,7 +155,7 @@ On this advertisement for bidis (south Asian cigarettes made of tendu leaves and
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:40">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

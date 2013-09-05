@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1978</earliestDate>
+				<latestDate>1978</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Shashi Kapoor and Shatrughan Sinha, both wearing colorful outfits are engaged in a fight with swords. In the background mountains covered in vegetation can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,17 +42,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">A.K. Nadiadwala presents
+				<text type="text" lang="eng">A.K. Nadiadwala presents
 A.K. Movies
 Amar Shakti</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120456" type="corporate">HeidICON Image Database</name>
@@ -63,7 +69,7 @@ Amar Shakti</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_3cf20a66-8080-5331-848b-f5685e2f4015" refid="120456" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_3cf20a66-8080-5331-848b-f5685e2f4015" refid="120456" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_8f9f6a1b-6006-5dcd-9f7e-53bd38a1513d" refid="120455" source="EXC Priya Paul Collection">back</relation>
 		</relationSet>
 		<rightsSet>
@@ -108,17 +114,17 @@ Amar Shakti</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="50466105-3769-5549-8aa4-261a011c6ea7">
-				<term type="work (fim)">Amar Shakti</term>
+				<term type="work (fim)">Amar Shakti (movie, 1978)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="261db825-f6ac-57d9-8fce-d4fa589db968">
-				<term type="concept">rapier</term>
+				<term type="concept">rapiers</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Amar Shakti</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Amar Shakti</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
@@ -200,7 +206,7 @@ http://www.imdb.com/title/tt0236977/, last accessed 2011-11-30, story plot, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:47">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:15">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

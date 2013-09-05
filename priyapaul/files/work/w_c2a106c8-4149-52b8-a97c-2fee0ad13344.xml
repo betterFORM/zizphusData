@@ -36,8 +36,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1964</earliestDate>
+				<latestDate>1964</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A color-tinted movie poster from the 1964 released Hindi film, Jahan Ara shows a dance scene in the Mughal court. On the left is the dancer (actress Meenu Mumtaz) perfroming Kathak dance. On top left are seen the royal women and their coterie enjoying the dance from behind the netted curtians. 
 Right hand of the poster shows a different scene. It shows Bharat Bhushan (the male protagonist) gaze at someone/something. The two men sitting behind him observe someone/something with deep interest.</text>
 				<author>
@@ -52,22 +58,22 @@ Right hand of the poster shows a different scene. It shows Bharat Bhushan (the m
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Jahan ara
+				<text type="text" lang="eng">Jahan ara
 Eastmancolor</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">जहाँ आरा</text>
+				<text type="text" lang="hin">जहाँ आरा</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">جہاں آرا</text>
+				<text type="text" lang="urd">جہاں آرا</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120858" type="corporate">HeidICON Image Database</name>
@@ -78,7 +84,7 @@ Eastmancolor</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_361f9989-9bec-5d34-b3bd-4b239fe0f8e5" refid="120858" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_361f9989-9bec-5d34-b3bd-4b239fe0f8e5" refid="120858" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -129,15 +135,15 @@ Eastmancolor</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="538b8111-1e68-5198-9c1e-20fbe4f60f39">
-				<term type="concept">Kathak Dance</term>
+				<term type="concept">Kathak (dance)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jahan Ara&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">जहाँ आरा, جہاں آرا</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Jahan Ara</title>
+			<title type="descriptive" pref="false">जहाँ आरा, جہاں آرا</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -273,7 +279,7 @@ Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:14">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:28">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

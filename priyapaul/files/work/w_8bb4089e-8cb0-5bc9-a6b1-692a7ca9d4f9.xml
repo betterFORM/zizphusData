@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The title page of the  Champion Series catalogue of images shows an image of two hunting dogs with one holding a dead pheasant in his mouth, as two birds fly through the sky behind them. In the background, a landscape with plants, shrubs and trees can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,25 +21,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">HAP [manufacturer's signet]</text>
+				<text type="text" lang="eng">HAP [manufacturer's signet]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">H.Ganguly</text>
+				<text type="text" lang="eng">H.Ganguly</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sikari Kutta - No. 518 ( Series X )</text>
+				<text type="text" lang="eng">Sikari Kutta - No. 518 ( Series X )</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">If any customer selects Series 'X' Picture to be printed with the same advertisement matter as on
+				<text type="text" lang="eng">If any customer selects Series 'X' Picture to be printed with the same advertisement matter as on
 the other picture of his order, an extra of Rs. 10/- per 1000 or part thereof, will be charged.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118592" type="corporate">HeidICON Image Database</name>
@@ -56,7 +56,7 @@ the other picture of his order, an extra of Rs. 10/- per 1000 or part thereof, w
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b9ff1578-5fbd-5371-b7b1-2ca6c9e37b8a" refid="118592" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b9ff1578-5fbd-5371-b7b1-2ca6c9e37b8a" refid="118592" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -100,7 +100,7 @@ the other picture of his order, an extra of Rs. 10/- per 1000 or part thereof, w
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sikari Kutta&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Sikari Kutta</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -150,7 +150,7 @@ The title page of the  Champion Series catalogue of images shows an image of two
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:04">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

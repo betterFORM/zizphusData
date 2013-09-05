@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An advertisement of Estrela batteries, Bombay. The advertisement is in bengali language and shows an Indian woman wearing sari, basic jewellery and a bindi putting an estrela cell in the torch. The product, a cell is also shown in the advertisement.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,18 +22,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="bn">এসট্রেলা</text>
+				<text type="text" lang="ben">এসট্রেলা</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="bn">PLEASE ENTER HERE</text>
+				<text type="text" lang="ben">PLEASE ENTER HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139305" type="corporate">HeidICON Image Database</name>
@@ -41,7 +41,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_22c14de8-09dc-59fa-b015-45bc9f03a13d" refid="139305" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_22c14de8-09dc-59fa-b015-45bc9f03a13d" refid="139305" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -72,16 +72,16 @@
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="de185803-fbd7-5bb2-b1b5-72801b805363">
-				<term type="concept">battery</term>
+				<term type="concept">batteries (electrical)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Estrela batteries</title>
-			<title type="descriptive" pref="false" lang="" script="">Estrela</title>
-			<title type="descriptive" pref="false" lang="" script="">এসট্রেলা</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Estrela batteries</title>
+			<title type="descriptive" pref="false">Estrela</title>
+			<title type="descriptive" pref="false">এসট্রেলা</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -120,7 +120,7 @@ An advertisement of Estrela batteries, Bombay. The advertisement is in bengali l
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:50">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows a woman with a scarf tied around her head and wearing a dress, earrings and a necklace.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -17,26 +17,26 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Cast
+				<text type="text" lang="eng">Cast
 SWARULATA, NAZIR
 CUCKOO, ISMAIL
 MOVIE ARTS</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">HIND PICTURES present
+				<text type="text" lang="eng">HIND PICTURES present
 LAILA MAJNU</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">BENGAL FILM CORPORATION
+				<text type="text" lang="eng">BENGAL FILM CORPORATION
 BFC [signet]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120742" type="corporate">HeidICON Image Database</name>
@@ -50,7 +50,7 @@ BFC [signet]</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_345b077d-9738-5d44-8e23-a978cb8cc9f1" refid="120742" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_345b077d-9738-5d44-8e23-a978cb8cc9f1" refid="120742" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -96,11 +96,12 @@ BFC [signet]</text>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Laila Majnu&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Laila Majnu</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">film stills</worktype>
 			<worktype vocab="local" source="EXC" refid="aaeaf6d5-4858-553f-8a4d-03a9552e2efc">film stills</worktype>
 		</worktypeSet>
 		<ext:heidicon>
@@ -173,7 +174,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

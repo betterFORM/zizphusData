@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Brooke Bond Tea, a colourful pigeon can be seen carrying a box of &quot;Brooke Bond Tea&quot; on her back. Her wings are green and look like tea-leaves.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,26 +26,26 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Brooke
+				<text type="text" lang="eng">Brooke
 Bond
 Tea</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Brooke
+				<text type="text" lang="eng">Brooke
 Bond
 A-1
 Dust Tea</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">बढ़िया चाय की ज़्यादा प्यालियाँ</text>
+				<text type="text" lang="hin">बढ़िया चाय की ज़्यादा प्यालियाँ</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118534" type="corporate">HeidICON Image Database</name>
@@ -62,7 +62,7 @@ Dust Tea</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_37521144-5b28-5bfc-95f6-974cdc03f54c" refid="118534" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_37521144-5b28-5bfc-95f6-974cdc03f54c" refid="118534" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -88,6 +88,9 @@ Dust Tea</text>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="0bdb20dd-07d9-51f3-8179-c25eaa4a501c">
+				<term type="brand">Brooke Bond Tea</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
 			</subject>
@@ -96,7 +99,7 @@ Dust Tea</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Brooke Bond's A-1 Dust Tea Advertisement</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Brooke Bond's A-1 Dust Tea Advertisement</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -255,7 +258,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:39">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

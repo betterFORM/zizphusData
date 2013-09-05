@@ -12,8 +12,8 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
-				<text>On this advertisement calendar of the Burmah oil company, several beautifully ornamented elephants can be seen on the upper section of the image as well as a bird in the central section. Two bearers are carrying a sedan that used to host the leaflets with the daily dates on it.</text>
+			<description lang="eng" script="Latn">
+				<text>On this advertisement calendar of the Burmah Oil Company, several beautifully ornamented elephants can be seen on the upper section of the image as well as a bird in the central section. Two bearers are carrying a sedan that used to host the leaflets with the daily dates on it (tear-off calendar).</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
@@ -23,11 +23,11 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Burmah Oil Company Limited
+				<text type="text" lang="eng">The Burmah Oil Company Limited
 Glasgow London Rangoon</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Manufacturers of
+				<text type="text" lang="eng">Manufacturers of
 Burning
 Lubricant
 Batching
@@ -42,14 +42,18 @@ Syriam Bogyok
 &amp; Yenengyat</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Purveyors of 
+				<text type="text" lang="eng">Purveyors of 
 Motor Spirit to H.M. the King Emperor
 Finest Mineral Wax &amp; Stearine Candle
-By Special Appointment
-Managing Agents
+By Special Appointment</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="eng">Managing Agents
 Finlay Fleming &amp; Co. 
-Rangoon
-Burmah lubricating oils 
+Rangoon</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="eng">Burmah lubricating oils 
 in many grades to suit all types of machinery
 Burmah Kerosene Oils
 Brands
@@ -61,11 +65,11 @@ Shaw Wallace &amp; Co. Calcutta - Madras - Bombay - KarachiBullock Pros. Co. Ltd
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118936" type="corporate">HeidICON Image Database</name>
@@ -82,7 +86,7 @@ Shaw Wallace &amp; Co. Calcutta - Madras - Bombay - KarachiBullock Pros. Co. Ltd
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_8cc3fe8f-20cd-590d-b1be-df4d07649dca" refid="118936" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_8cc3fe8f-20cd-590d-b1be-df4d07649dca" refid="118936" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -106,6 +110,9 @@ Shaw Wallace &amp; Co. Calcutta - Madras - Bombay - KarachiBullock Pros. Co. Ltd
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
 				<term type="work">turbans</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+				<term type="concept">printer's marks</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
@@ -114,7 +121,7 @@ Shaw Wallace &amp; Co. Calcutta - Madras - Bombay - KarachiBullock Pros. Co. Ltd
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Burmah Oil Company Limited</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Burmah Oil Company Limited</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -142,10 +149,12 @@ Syriam Bogyok
 Purveyors of 
 Motor Spirit to H.M. the King Emperor
 Finest Mineral Wax &amp; Stearine Candle
-By Special Appointment
+By Special Appointment</ext:value>
+				<ext:value>text-en:
 Managing Agents
 Finlay Fleming &amp; Co. 
-Rangoon
+Rangoon</ext:value>
+				<ext:value>text-en:
 Burmah lubricating oils 
 in many grades to suit all types of machinery
 Burmah Kerosene Oils
@@ -156,13 +165,13 @@ Indian Agents
 Shaw Wallace &amp; Co. Calcutta - Madras - Bombay - KarachiBullock Pros. Co. Ltd.
 [...][not readable due to damage]</ext:value>
 				<ext:value>description-en:
-On this advertisement calendar of the Burmah oil company, several beautifully ornamented elephants can be seen on the upper section of the image as well as a bird in the central section. Two bearers are carrying a sedan that used to host the leaflets with the daily dates on it. (gs)</ext:value>
+On this advertisement calendar of the Burmah Oil Company, several beautifully ornamented elephants can be seen on the upper section of the image as well as a bird in the central section. Two bearers are carrying a sedan that used to host the leaflets with the daily dates on it (tear-off calendar). (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
 				<ext:value>explanatory comments/crosstagging:
-The visual narratives of royalness incorporated with the sedan-carriers and the ornamented elephants might be serving as a reminder for the consumer, that the Burmah Oil company is a supplier of the king and his palace. (gs)</ext:value>
+The visual narratives of royalness incorporated with the sedan-carriers and the ornamented elephants might be serving as a reminder for the consumer, that the Burmah Oil Company is a supplier of the king and his palace. (gs)</ext:value>
 				<ext:value>explanatory comments/crosstagging:
 /data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080627_1721.jpg</ext:value>
 			</ext:item>
@@ -177,7 +186,7 @@ The visual narratives of royalness incorporated with the sedan-carriers and the 
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
-				<ext:value type="text">The visual narratives of royalness incorporated with the sedan-carriers and the ornamented elephants might be serving as a reminder for the consumer, that the Burmah Oil company is a supplier of the king and his palace.</ext:value>
+				<ext:value type="text">The visual narratives of royalness incorporated with the sedan-carriers and the ornamented elephants might be serving as a reminder for the consumer, that the Burmah Oil Company is a supplier of the king and his palace.</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -199,7 +208,7 @@ The visual narratives of royalness incorporated with the sedan-carriers and the 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:19">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:10">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample image with the title &quot;Happy&quot; from a catalogue of the Empire Calender Manufacturing Co. shows a blond baby girl dressed in a frock and wearing shoes and socks, sitting under a blossoming tree on a flowering meadow  and offering up a biscuit with her right hand to a bird perched on a branch above her. In her left hand she holds a branch with pink flowers on it. Next to her lies a big box of biscuits with the label 'delicious biscuits', a container with the label 'butter' and a plate with a sandwich and some small eats. Trees, a small lake and a blue sky can be seen behind her.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,33 +32,33 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">COPY RIGHT 
+				<text type="text" lang="eng">COPY RIGHT 
 RESERVED
 ECM [publisher's signet]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sushil Das..</text>
+				<text type="text" lang="eng">Sushil Das..</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">HAPPY
+				<text type="text" lang="eng">HAPPY
 No. 693</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Delicious Biscuits</text>
+				<text type="text" lang="eng">Delicious Biscuits</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">butter</text>
+				<text type="text" lang="eng">butter</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Sushil Das</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119475" type="corporate">HeidICON Image Database</name>
@@ -75,7 +75,7 @@ No. 693</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_24d8979d-8f46-5bee-95dc-10b811d5e3b4" refid="119475" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_24d8979d-8f46-5bee-95dc-10b811d5e3b4" refid="119475" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -133,7 +133,7 @@ No. 693</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Happy&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Happy</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -211,7 +211,7 @@ O'Connor, John J. 1989. What are TV Ads Selling to Children? Advertising Age, 60
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:09">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:44">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

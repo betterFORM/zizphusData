@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for the Monotype Corporation Ltd., a sample of the advertised product can be seen as well as representatives of four different regional language groups in India plus some samples of their local scripts. The lower section hosts adress details from different branches of the advertising company.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,32 +28,32 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">THE GIFT OF TONGUES</text>
+				<text type="text" lang="eng">THE GIFT OF TONGUES</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Type is &quot;the voice of the prinzed page,&quot; and a fine type face, of &quot;single-type beauty,&quot; is like an attractive speaker with a good pleasent accent. This machine - a &quot;MONOTYPE&quot; machine - has the Gift of Tongues. Whatever language it is composing, from Icelandic to Tamil, will be made to look as attractive as a pleasent voice sounds - because SINGLE TYPE enhances its appearance. All over the world, printers use &quot;MONOTYPE&quot; machines to save composition and correction costs, increaase speed and get better results. (gs)</text>
+				<text type="text" lang="eng">Type is &quot;the voice of the prinzed page,&quot; and a fine type face, of &quot;single-type beauty,&quot; is like an attractive speaker with a good pleasent accent. This machine - a &quot;MONOTYPE&quot; machine - has the Gift of Tongues. Whatever language it is composing, from Icelandic to Tamil, will be made to look as attractive as a pleasent voice sounds - because SINGLE TYPE enhances its appearance. All over the world, printers use &quot;MONOTYPE&quot; machines to save composition and correction costs, increaase speed and get better results. (gs)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">PLEASE ENTER HERE</text>
+				<text type="text" lang="hin">PLEASE ENTER HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ta">PLEASE ENTER HERE</text>
+				<text type="text" lang="tam">PLEASE ENTER HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="te">PLEASE ENTER HERE</text>
+				<text type="text" lang="tel">PLEASE ENTER HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="sa">PLEASE ENTER HERE</text>
+				<text type="text" lang="san">PLEASE ENTER HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">MONOTYPE 
+				<text type="text" lang="eng">MONOTYPE 
 &quot;many languages in many founts&quot;</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">A &quot;Monotype&quot; machine sets and casts SINGLE type in hard metal. The independent keyboard accommodates a vast range of characters. The caster automatically casts and sets lines of perfectly-spaced type ready to print. No other composing machine has such a range of capability with maximum output.</text>
+				<text type="text" lang="eng">A &quot;Monotype&quot; machine sets and casts SINGLE type in hard metal. The independent keyboard accommodates a vast range of characters. The caster automatically casts and sets lines of perfectly-spaced type ready to print. No other composing machine has such a range of capability with maximum output.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">THE MONOTYPE CORPORATION LTD., LONDON
+				<text type="text" lang="eng">THE MONOTYPE CORPORATION LTD., LONDON
 Calcutta 27/5, Waterloo Street
 Bombay Post Box 305
 Madras Post Box 336, Mount Road.
@@ -56,11 +62,11 @@ Registered MONOTYPE Trade Mark</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119822" type="corporate">HeidICON Image Database</name>
@@ -77,7 +83,7 @@ Registered MONOTYPE Trade Mark</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_390c6aa6-a5da-5583-964e-67233dd7ed91" refid="119822" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_390c6aa6-a5da-5583-964e-67233dd7ed91" refid="119822" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -92,6 +98,9 @@ Registered MONOTYPE Trade Mark</text>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
 				<term type="work">turbans</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
@@ -99,7 +108,7 @@ Registered MONOTYPE Trade Mark</text>
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="258f7d9b-e103-537b-832c-a72780fe62b0">
-				<term type="concept">typewriter</term>
+				<term type="concept">typewriters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -112,7 +121,7 @@ Registered MONOTYPE Trade Mark</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Gift of Tongues: an advertisement of Mono Type</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Gift of Tongues: an advertisement of Mono Type</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -177,7 +186,7 @@ On this advertisement for the Monotype Corporation Ltd., a sample of the adverti
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:59:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An indian female dancer wearing traditional clothes while performing.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,15 +17,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Girl dancing like Peacock</text>
+				<text type="text" lang="eng">Girl dancing like Peacock</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107961" type="corporate">HeidICON Image Database</name>
@@ -42,7 +42,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_680a9a5b-3c02-5777-b4bb-969cc7253a70" refid="107961" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_680a9a5b-3c02-5777-b4bb-969cc7253a70" refid="107961" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -67,7 +67,7 @@
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Girl dancing like peacock</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Girl dancing like peacock</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -114,7 +114,7 @@ Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postc
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
@@ -190,7 +190,7 @@ Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postc
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:06">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:23">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

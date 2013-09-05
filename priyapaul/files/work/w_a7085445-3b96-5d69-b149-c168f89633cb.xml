@@ -7,31 +7,31 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A postcard of a European winter is stamped with Eid greetings. Although it is printed in Germany, there is no mention of an Indian company.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="ur">السلام علیکم ، عید مبارک</text>
+				<text type="text" lang="urd">السلام علیکم ، عید مبارک</text>
 			</inscription>
 			<inscription>
 				<text type="other">Assalamu Alaikum, Eid mubarak</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">H. Ghulam Muhammad &amp; Sons, Mochi Gate, Lahore. Imprime in Italia. [on backside?] (ja)</text>
+				<text type="text" lang="eng">H. Ghulam Muhammad &amp; Sons, Mochi Gate, Lahore. Imprime in Italia. [on backside?] (ja)</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108130" type="corporate">HeidICON Image Database</name>
@@ -93,16 +93,16 @@
 				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cedec7f-30ff-5240-8107-7829ee512735">
-				<term type="concept">eid card</term>
+				<term type="concept">Eid cards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An Eid card depicting a European winter</title>
-			<title type="descriptive" pref="false" lang="" script="">&quot;Assalamu Alaikum, Eid mubarak&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">السلام علیکم ، عید مبارک</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An Eid card depicting a European winter</title>
+			<title type="descriptive" pref="false">&quot;Assalamu Alaikum, Eid mubarak&quot;</title>
+			<title type="descriptive" pref="false">السلام علیکم ، عید مبارک</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -164,7 +164,7 @@ H. Ghulam Muhammad &amp; Sons, Mochi Gate, Lahore. Imprime in Italia. [on backsi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:26">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:11">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

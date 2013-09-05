@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1940</earliestDate>
+				<latestDate>1940</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for S.D. Marker &amp; Co., we see a woman in a fully equipped bathroom with marbled walls, a wash basin and a bathtub. On the lower section of the image follows a detailed  as well as the adress of the company advertising.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,21 +28,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Proud of her Modern Bathroom</text>
+				<text type="text" lang="eng">Proud of her Modern Bathroom</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Here is a bathroom which any woman would envy, with porcelain enamalled bath and basin, marbled walls and gleaming fittings. Too expensive, you say? No, not from Marker's! We Supply every conceivable bathroom need at moderate rates.</text>
+				<text type="text" lang="eng">Here is a bathroom which any woman would envy, with porcelain enamalled bath and basin, marbled walls and gleaming fittings. Too expensive, you say? No, not from Marker's! We Supply every conceivable bathroom need at moderate rates.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">S.D. Marker &amp; Co., 381, Hornby Road, Fort - - Bombay.</text>
+				<text type="text" lang="eng">S.D. Marker &amp; Co., 381, Hornby Road, Fort - - Bombay.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119805" type="corporate">HeidICON Image Database</name>
@@ -53,7 +59,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_932a90af-08ca-517a-ae1b-8d63ecad7aaa" refid="119805" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_932a90af-08ca-517a-ae1b-8d63ecad7aaa" refid="119805" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -67,6 +73,9 @@
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b82eba21-ae64-5fb5-bfd0-603be910517e">
 				<term type="concept">interior spaces</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2502395d-3b88-5061-a85d-579655d59693">
 				<term type="work">furniture</term>
@@ -88,7 +97,7 @@
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of S.D. Marker &amp; Co., Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of S.D. Marker &amp; Co., Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -135,7 +144,7 @@ On this advertisement for S.D. Marker &amp; Co., we see a woman in a fully equip
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:59">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

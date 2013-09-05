@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Ramkrishna, a well known and popular Indian ascetic is depicted with Goddess Kali in the background in a sample calendar poster from the Empire Calender Manufacturing Co., Calcutta. Ramkrishna is wearing saffron robes while Goddess Kali is depicted wearing a garland of dismembered heads and is sticking her tongue out. The branch with the aerial roots behind Ramkrishna might be that of a banyan tree. There is a &quot;ECM&quot; stamp on the left bottom of the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,19 +32,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Ramkrishna 
+				<text type="text" lang="eng">Ramkrishna 
 No. 580</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">TCM [publisher's signet]</text>
+				<text type="text" lang="eng">TCM [publisher's signet]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122987" type="corporate">HeidICON Image Database</name>
@@ -61,7 +61,7 @@ No. 580</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_8a467347-739a-56f8-bd82-68baccf18ce6" refid="122987" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_8a467347-739a-56f8-bd82-68baccf18ce6" refid="122987" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -120,7 +120,7 @@ No. 580</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Ramkrishna&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Ramkrishna</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -229,7 +229,7 @@ Mukherjee, Dr. Jayasree (2004), Sri Ramakrishna’s Impact on Contemporary India
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:14">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

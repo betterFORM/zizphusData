@@ -17,42 +17,42 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Baluja's Moghul an English Setter dog is depicted holding a shoe in his mouth. It is standing next to  a rack with other colorful shoes.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Baluja's</text>
+				<text type="text" lang="eng">Baluja's</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Moghul
+				<text type="text" lang="eng">Moghul
 SHOES</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Baluja
+				<text type="text" lang="eng">Baluja
 SHOES</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ras[togi] Stu[dio] [artist's signature]</text>
+				<text type="text" lang="eng">Ras[togi] Stu[dio] [artist's signature]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">ESTD. 1919
+				<text type="text" lang="eng">ESTD. 1919
 REGD. NO. 
 97786</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">बालूजा</text>
+				<text type="text" lang="hin">बालूजा</text>
 			</inscription>
 			<inscription>
 				<text type="other">Baluja</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Stockists :
+				<text type="text" lang="eng">Stockists :
 PRADEEP FOOTWEAR
 VARANASI</text>
 			</inscription>
@@ -61,11 +61,11 @@ VARANASI</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118136" type="corporate">HeidICON Image Database</name>
@@ -82,7 +82,7 @@ VARANASI</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_01f82350-917e-5389-899f-bf7ead006c80" refid="118136" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_01f82350-917e-5389-899f-bf7ead006c80" refid="118136" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -109,12 +109,6 @@ VARANASI</text>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="23a30174-a058-54a4-be15-5ae203f8ff2d">
 				<term type="concept">shelves</term>
 			</subject>
@@ -126,9 +120,9 @@ VARANASI</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Baluja shoes</title>
-			<title type="descriptive" pref="false" lang="" script="">Baluja</title>
-			<title type="descriptive" pref="false" lang="" script="">बालूजा</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Baluja shoes</title>
+			<title type="descriptive" pref="false">Baluja</title>
+			<title type="descriptive" pref="false">बालूजा</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -213,7 +207,7 @@ The typography of the western letters of &quot;moghul&quot; are simulating/allud
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:40">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:51">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

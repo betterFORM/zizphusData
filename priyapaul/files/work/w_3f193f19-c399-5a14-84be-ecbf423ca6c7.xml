@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement of Sakuntala Safety matches, we see a man and a woman in front of a tower. She is about to fly away from him while he is trying to hold her dress with his left hand.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,19 +22,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sakuntala Safety-Matches</text>
+				<text type="text" lang="eng">Sakuntala Safety-Matches</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sole Importer A.M. Essabhoy Calcutta
+				<text type="text" lang="eng">Sole Importer A.M. Essabhoy Calcutta
 Made in Sweden</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119680" type="corporate">HeidICON Image Database</name>
@@ -51,7 +51,7 @@ Made in Sweden</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_40e8ee09-de28-56d4-9a1c-477f0c756851" refid="119680" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_40e8ee09-de28-56d4-9a1c-477f0c756851" refid="119680" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -72,6 +72,9 @@ Made in Sweden</text>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
 				<term type="concept">architecture (object genre)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
+				<term type="concept">matchbook</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2a19f0d6-02d0-5598-ab17-39056bf01957">
 				<term type="concept">Made in Sweden</term>
 			</subject>
@@ -83,7 +86,7 @@ Made in Sweden</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Urvashi, in Shakuntala Safety Matches</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Urvashi, in Shakuntala Safety Matches</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -139,7 +142,7 @@ As the name of the brand indicates, the scene depicted could be part of the well
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:34">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

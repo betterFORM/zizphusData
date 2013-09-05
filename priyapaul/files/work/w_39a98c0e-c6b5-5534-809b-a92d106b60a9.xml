@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample image from a catalogue of the Empire Calender Manufacturing Co., depicts Krishna kidnapping Rukmini, princess of Vidarbha from the palace in which she lived. They ride away in a chariot while her kinsmen chase them on horses. In the background buildings and dome-shaped architecture can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,15 +32,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Rukmini Haran</text>
+				<text type="text" lang="eng">Rukmini Haran</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119461" type="corporate">HeidICON Image Database</name>
@@ -57,7 +57,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_ac5d83f6-d88c-5b02-94c7-9fa8e69876ed" refid="119461" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_ac5d83f6-d88c-5b02-94c7-9fa8e69876ed" refid="119461" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -98,7 +98,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Rukmini Haran&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Rukmini Haran</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -140,7 +140,7 @@ A sample image from a catalogue of the Empire Calender Manufacturing Co., depict
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

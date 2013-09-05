@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A man-Tarzan wearing tiger hide as a covering around his waist, a bandana around his head and holding a sharp dagger leans forward to attack a lion leaping towards him from a field. A monkey stands next to the man holding out his arms. Sugarcane plants can be seen behind the man and in the background snow-covered mountains are visible.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,17 +31,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Tarzan
+				<text type="text" lang="eng">Tarzan
 Arasan Match Industries,
 Pandavarmangalam.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119730" type="corporate">HeidICON Image Database</name>
@@ -58,7 +58,7 @@ Pandavarmangalam.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_bbb38f6f-7c0b-5607-a880-a959d69273b9" refid="119730" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_bbb38f6f-7c0b-5607-a880-a959d69273b9" refid="119730" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -99,7 +99,7 @@ Pandavarmangalam.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Tarzan</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Tarzan</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">matchboxes</worktype>
@@ -199,7 +199,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:32">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1953</earliestDate>
+				<latestDate>1953</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A color-tinted movie poster of the 1953 released Hindi film Dhoon shows a scene from a song in the movie. The song/scene is shot on a beach. It shows a man holding the lead female actress, Nargis' hand while the extras take dance and various other poses. All artists wear western attire. The ladies in addition wear garlands round their necks. The male protagonist of this song however wears a Gandhian cap with the Hawaiin style shirt and shorts. The lobby card also shows spectators/onlookers. The umbrellas shown carry advertisements of the cigarette brand, &quot;Cavanders&quot;.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -37,7 +43,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Silver films presents
+				<text type="text" lang="eng">Silver films presents
 Nargis - Raj Kapoor - Motilal - E. Billimoria - Kamal Mehra - Leela Misra
 Chandralekha - Krishna Kumar
 Dhoon
@@ -48,18 +54,18 @@ Stills N. Bashir
 Vincent Studios</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">धुन</text>
+				<text type="text" lang="hin">धुन</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">دھن</text>
+				<text type="text" lang="urd">دھن</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120855" type="corporate">HeidICON Image Database</name>
@@ -70,7 +76,7 @@ Vincent Studios</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_78084cd9-1300-5a40-b081-8a7092f9b8fb" refid="120855" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_78084cd9-1300-5a40-b081-8a7092f9b8fb" refid="120855" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -86,6 +92,9 @@ Vincent Studios</text>
 			</source>
 		</sourceSet>
 		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
 				<term type="concept">women (female humans)</term>
 			</subject>
@@ -98,28 +107,22 @@ Vincent Studios</text>
 			<subject source="EXC" vocab="LOCAL" refid="54c8e4c5-028c-59bb-8139-7c5faf2f568b">
 				<term type="concept">umbrellas</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="c9b7db9c-bda8-5dd6-82db-339f18cdb3ba">
-				<term type="concept">cottages</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ff9809d-2a79-52d6-a2b0-2795d6a278c6">
-				<term type="work (movie)">Dhoon</term>
+				<term type="work (movie)">Dhoon (movie, 1953)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Dhoon&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">धुन; دھن</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Dhoon</title>
+			<title type="descriptive" pref="false">धुन; دھن</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -177,7 +180,7 @@ http://www.imdb.com/title/tt0379254/, last accessed 2011-12-06. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:06">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

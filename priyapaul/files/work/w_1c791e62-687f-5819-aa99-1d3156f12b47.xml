@@ -12,58 +12,58 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A poster, circa 1930s shows Mahatma Gandhi looking at a map of India from a cloud above. We see a large factory in the upper left corner, a man in a western suit running towards a large bag of money, his enlarged hand reaching out for the bag. There is a woman with a spinning wheel, wearing a sari, there is a farmer with a bull on a field, and another farmer holding a tool on his shoulder. The poster is surrounded by a wooden frame.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">TO WHOM WILL YOU GIVE?</text>
+				<text type="text" lang="eng">TO WHOM WILL YOU GIVE?</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">आप किसको देना चाहते हैं?</text>
+				<text type="text" lang="hin">आप किसको देना चाहते हैं?</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">60 CRORE'S</text>
+				<text type="text" lang="eng">60 CRORE'S</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">६० करोड</text>
+				<text type="text" lang="hin">६० करोड</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">To Foreign
+				<text type="text" lang="eng">To Foreign
 Mills</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">विदेशी मिलों को</text>
+				<text type="text" lang="hin">विदेशी मिलों को</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">or</text>
+				<text type="text" lang="eng">or</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">या</text>
+				<text type="text" lang="hin">या</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">To our poor
+				<text type="text" lang="eng">To our poor
 Cultivators?</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">अपने गरीब किसानों को</text>
+				<text type="text" lang="hin">अपने गरीब किसानों को</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copy Right
+				<text type="text" lang="eng">Copy Right
 K</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139309" type="corporate">HeidICON Image Database</name>
@@ -71,7 +71,7 @@ K</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_faa12deb-a779-5925-92ba-684bc4de09b1" refid="139309" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_faa12deb-a779-5925-92ba-684bc4de09b1" refid="139309" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,9 +95,6 @@ K</text>
 			<stylePeriod>1920s - 1930s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term type="work (map)">map of India</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="63cf2678-1e25-5a5f-8d3e-44baf2d77d83">
 				<term type="concept">spinning wheels</term>
 			</subject>
@@ -109,6 +106,9 @@ K</text>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3478a0d8-bc3b-5395-84ef-e44f2a04f6a1">
 				<term type="concept">peasants</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c1be071-bdd6-5467-b908-072ed979e520">
 				<term type="concept">money</term>
@@ -142,9 +142,9 @@ K</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;To whom will you give?&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Aap Kisko Dena Chahte Hain?</title>
-			<title type="descriptive" pref="false" lang="" script="">आप किसको देना चाहते हैं?</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">To whom will you give?</title>
+			<title type="descriptive" pref="false">Aap Kisko Dena Chahte Hain?</title>
+			<title type="descriptive" pref="false">आप किसको देना चाहते हैं?</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -289,7 +289,7 @@ Trivedi, Lisa. 2003. Visually Mapping the Nation: Swadeshi Politics in Nationali
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:04">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

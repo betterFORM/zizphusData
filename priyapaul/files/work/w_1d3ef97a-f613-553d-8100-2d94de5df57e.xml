@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1958</earliestDate>
+				<latestDate>1958</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The movie &quot;Zimbo&quot; was directed by Homi Wadia and got released in 1958. This poster shows three different scenes of the movie Zimbo from 1958: In the right upper corner Azaad Irani, who plays the role of Zimbo, is fighting a lion. In the left lower corner, Chitra, who plays the role of Leela Devi, wearing a tiger dress, is holding Azaad in her arms, while in the left upper corner two elephants with some bananas can be seen. (gs) The silhouette of a man in a white Safari dress can be seen behind the scene with the lion fight, as well as a large-scale figure of a head of an Indian warrior with his mouth open like a gateway, and further silhouettes of warriors next to him.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0">Brosius, Christiane</name>
@@ -32,7 +38,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Basant's  
+				<text type="text" lang="eng">Basant's  
 ZIMBO
 full Gevacolor
 Produced and directed 
@@ -44,11 +50,11 @@ Chitragupta</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120349" type="corporate">HeidICON Image Database</name>
@@ -56,7 +62,7 @@ Chitragupta</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_032c6f68-d0b2-5ac5-be8d-6c795a6e9806" refid="120349" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_032c6f68-d0b2-5ac5-be8d-6c795a6e9806" refid="120349" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -103,7 +109,7 @@ Chitragupta</text>
 			<technique vocab="LOCAL" refid="5acbf595-8fb3-59b2-ade2-be46b9fa81f7">collage (technique)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Zimbo&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Zimbo</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -234,7 +240,7 @@ http://www.imdb.com/title/tt0390653/, last accessed 2010-11-26 (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:11">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:04">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

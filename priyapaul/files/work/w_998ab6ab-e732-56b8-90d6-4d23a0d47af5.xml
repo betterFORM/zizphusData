@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1955</earliestDate>
+				<latestDate>1955</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Imperial Chemical Industries (India) Ltd., a painting of the popular Indian artist Ravi Varma can be seen depicting Vishnu on his mount, Garuda with his two consorts, Sridevi and Bhudevi. On the lower section of the image, a collage of pictures can be seen, probably part of the same advertisement series. The image is surrounded by a wooden frame.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -46,7 +52,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Imperial Chemical Industries (India) Ltd.
+				<text type="text" lang="eng">Imperial Chemical Industries (India) Ltd.
 Ravi Varma
 Puladi Dhivram Konda,
 I.C.I. Distributiors
@@ -60,11 +66,11 @@ Branches: Ahmedabad, Alleppey, Amritsar, Bombay, Calcutta, Delhi, Indore, Kanpur
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118393" type="corporate">HeidICON Image Database</name>
@@ -127,7 +133,7 @@ Branches: Ahmedabad, Alleppey, Amritsar, Bombay, Calcutta, Delhi, Indore, Kanpur
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1955 Advertisement calendar for Imperial Chemical Industries Ltd.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1955 Advertisement calendar for Imperial Chemical Industries Ltd.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -235,7 +241,7 @@ http://en.wikipedia.org/wiki/Imperial_Chemical_Industries, last accessed 2012-04
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:19">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

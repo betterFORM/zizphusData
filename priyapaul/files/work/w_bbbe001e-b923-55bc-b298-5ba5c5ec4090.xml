@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this textile label for Phoenix P. Works, Ahmedabad, Lord Krishna can be seen with a halo around his head, blessing Arjuna, who kneels in front of him. Arjuna's bow and arrows lie on the ground next to him. In the background the battlefield of Kurukshetra can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -37,24 +37,24 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Phoenix P. Works, Ahmedabad</text>
+				<text type="text" lang="eng">Phoenix P. Works, Ahmedabad</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copy Rt. No. 680</text>
+				<text type="text" lang="eng">Copy Rt. No. 680</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">M.V. &amp; Co.</text>
+				<text type="text" lang="eng">M.V. &amp; Co.</text>
 			</inscription>
 			<inscription>
 				<text type="signature">M. V. &amp; Co.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109799" type="corporate">HeidICON Image Database</name>
@@ -71,7 +71,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_cdaed37b-8996-5add-8cf9-3fdcb35ba43a" refid="109799" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_cdaed37b-8996-5add-8cf9-3fdcb35ba43a" refid="109799" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -106,7 +106,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by Phoenix P. Works</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by Phoenix P. Works</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype>labels</worktype>
@@ -153,7 +153,7 @@ This scene is most probably part of the Bhagavad Gita, one of the most popular I
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:15">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

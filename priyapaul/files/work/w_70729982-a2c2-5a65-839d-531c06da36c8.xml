@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118051" type="corporate">HeidICON Image Database</name>
@@ -19,7 +19,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b7e9dca7-185c-5fe0-9a77-aed032700bbe" refid="118051" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b7e9dca7-185c-5fe0-9a77-aed032700bbe" refid="118051" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_c6458669-8869-5c30-99d6-fb3c96e19ca4" refid="118054" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_dcd9cf14-93c4-5bf4-b802-b51d32d86686" refid="118052" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_3f93ae9a-f9fd-5ecd-a672-fb978c2d2e39" refid="118053" source="EXC Priya Paul Collection">detail view</relation>
@@ -31,7 +31,7 @@
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Piece of textile sample</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Piece of textile sample</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -77,7 +77,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:09">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:25">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

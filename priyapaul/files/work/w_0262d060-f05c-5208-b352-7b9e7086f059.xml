@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1958</earliestDate>
+				<latestDate>1958</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this lobby card for the Hindo film 'Suhaag', released in 1958, a woman with flowers in her hands leans forward, looking toward the viewer. Below her a scene from te movie shows a group of decorated elephants stands in a hilly landscape. A man and a woman in front of them are garlanding each other.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -46,21 +52,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Padmini Pictures' Suhaag</text>
+				<text type="text" lang="eng">Padmini Pictures' Suhaag</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">सुहाग</text>
+				<text type="text" lang="hin">सुहाग</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">PLEASE ENTER HERE</text>
+				<text type="text" lang="urd">PLEASE ENTER HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120786" type="corporate">HeidICON Image Database</name>
@@ -77,7 +83,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_de3e66fc-7116-5381-a949-3f2288fe5e13" refid="120786" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_de3e66fc-7116-5381-a949-3f2288fe5e13" refid="120786" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -99,6 +105,9 @@
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
 				<term type="concept">flowers (plants)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
 				<term type="concept">couples</term>
 			</subject>
@@ -114,22 +123,19 @@
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b817072-783b-5a43-863a-5d880d1e3e5f">
-				<term type="work (movie)">Suhaag</term>
+				<term type="work (movie)">Suhaag (movie, 1979)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Suhaag&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">सुहाग</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Suhaag</title>
+			<title type="descriptive" pref="false">सुहाग</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -190,7 +196,7 @@ http://www.imdb.com/title/tt0250758/, last accessed 2012-04-04, leading actors, 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:50">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Moosa Omer &amp; Co glassware &amp; cutlery, an Indian woman wearing a Sari as well as some jewellery can be seen serving a tea set with palm trees depicted on it. In the center, a detailed  of the shop as well as the products offered are pictured. The  is framed by a range of examples of dishes, cutlery, glassware and dinner services.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,22 +28,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Glassware, Crockery, Cutlery, Tea Sets, Coffee Services, Dinner Services, Crystalware, Etc.</text>
+				<text type="text" lang="eng">Glassware, Crockery, Cutlery, Tea Sets, Coffee Services, Dinner Services, Crystalware, Etc.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Visit Bombay's biggest house for Glassware, Crockery and Cutlery. So spacious the show rooms and so varied the stock that your choice is cound to be 100% satisfactory. Contrary to your expectations, prices are the low possible level. Up-country orders carefully executed.</text>
+				<text type="text" lang="eng">Visit Bombay's biggest house for Glassware, Crockery and Cutlery. So spacious the show rooms and so varied the stock that your choice is cound to be 100% satisfactory. Contrary to your expectations, prices are the low possible level. Up-country orders carefully executed.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Moosa Omer &amp; Co., 
+				<text type="text" lang="eng">Moosa Omer &amp; Co., 
 Corner of Mahomedali Road, Opp. Crawford Market, Bombay 3.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119781" type="corporate">HeidICON Image Database</name>
@@ -54,7 +60,7 @@ Corner of Mahomedali Road, Opp. Crawford Market, Bombay 3.</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_bcc92c4b-a267-5799-a8c3-12fee815a6be" refid="119781" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_bcc92c4b-a267-5799-a8c3-12fee815a6be" refid="119781" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -87,6 +93,9 @@ Corner of Mahomedali Road, Opp. Crawford Market, Bombay 3.</text>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
 				<term type="concept">saris (garments)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
 				<term type="concept">tea (beverage)</term>
 			</subject>
@@ -107,7 +116,7 @@ Corner of Mahomedali Road, Opp. Crawford Market, Bombay 3.</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Moosa Omer &amp; Co., Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Moosa Omer &amp; Co., Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -155,7 +164,7 @@ On this advertisement for Moosa Omer &amp; Co glassware &amp; cutlery, an Indian
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:44">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

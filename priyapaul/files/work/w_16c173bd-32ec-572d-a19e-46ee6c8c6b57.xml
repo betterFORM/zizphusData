@@ -6,15 +6,21 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A nude female figure from Mohan Jodaro is wearing only jewellery and a code on the waistline in &quot;The Times of India Annual&quot; 1935.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Mohenjo Daro, or &quot;Mound of the Dead&quot; is an ancient Indus Valley Civilization city that flourished between 2600 and 1900 BCE. It was one of the first world and ancient Indian cities. The site was discovered in the 1920s and lies in Pakistan's Sindh province.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -24,18 +30,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">DK 2384 (carved into the depicted figurine)</text>
+				<text type="text" lang="eng">DK 2384 (carved into the depicted figurine)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Mohenjo-daro figure of a nude female.</text>
+				<text type="text" lang="eng">Mohenjo-daro figure of a nude female.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120286" type="corporate">HeidICON Image Database</name>
@@ -52,7 +58,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_854fe32e-2eb3-5cab-a12d-eba0cd2be3b7" refid="120286" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_854fe32e-2eb3-5cab-a12d-eba0cd2be3b7" refid="120286" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -80,6 +86,9 @@
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
 				<term type="concept">jewelry</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
 				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
@@ -100,7 +109,7 @@
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mohenjo-daro figure of a nude female.&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Mohenjo-daro figure of a nude female.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -154,7 +163,7 @@ http://www.mohenjodaro.net/, last accessed 2011-11-09, basic information about M
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:50">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:56">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

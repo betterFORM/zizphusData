@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for the German beer brand Beck's, a man can be seen sitting in a chair, reading a book entitled &quot;Tiny Tots' Tales&quot; and enjoying a glass of Beck's beer.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,33 +22,33 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Beck's - So wholesome!</text>
+				<text type="text" lang="eng">Beck's - So wholesome!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Tiny Tots' Tales [inscription on book cover in the illustration]</text>
+				<text type="text" lang="eng">Tiny Tots' Tales [inscription on book cover in the illustration]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Brauerei Beck &amp; Co.</text>
+				<text type="text" lang="eng">Brauerei Beck &amp; Co.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Beck-Brauerei Bremen-Neustadt
+				<text type="text" lang="eng">Beck-Brauerei Bremen-Neustadt
 Beck's Bier</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Beck's Beer has been shipped to India and the East since 1873.</text>
+				<text type="text" lang="eng">Beck's Beer has been shipped to India and the East since 1873.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Agents: Spencer &amp; Co., Ltd. - Madras - Calcutta - Bombay - Karachi - Delhi - etc. 
+				<text type="text" lang="eng">Agents: Spencer &amp; Co., Ltd. - Madras - Calcutta - Bombay - Karachi - Delhi - etc. 
 Cargills Ltd. - Colombo.
 Trading Company late Hegi &amp; Co., Ltd. - Rangoon</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108439" type="corporate">HeidICON Image Database</name>
@@ -65,7 +65,7 @@ Trading Company late Hegi &amp; Co., Ltd. - Rangoon</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_2c943e95-20b9-50cd-803a-7c28c6d706f8" refid="108439" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_2c943e95-20b9-50cd-803a-7c28c6d706f8" refid="108439" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -97,17 +97,14 @@ Trading Company late Hegi &amp; Co., Ltd. - Rangoon</text>
 				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9df249d-0771-5c17-b8fd-b10127cdff14">
-				<term type="brand">Beck's beer</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="a29b4a0f-cff0-52f7-8d22-9b5e7769840b">
-				<term type="title">Tiny Tots' Tales</term>
+				<term type="brand">Beck's (brand)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e635e47f-730f-5fae-965f-276e280b9f1b">offset printing</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Beck's beer</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Beck's beer</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -199,7 +196,7 @@ http://www.indianmba.com/Faculty_Column/FC519/fc519.html last accessed 2012-03-2
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:21">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:23">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

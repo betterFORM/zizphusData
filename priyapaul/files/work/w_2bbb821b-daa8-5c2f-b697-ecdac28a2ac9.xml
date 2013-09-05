@@ -12,17 +12,12 @@
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-271e8b1b-d953-5f1c-a3a3-327e830f4180">Leela</name>
-				<role vocab="marcrelator" type="code">dpc</role>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="corporate" refid="uuid-caae7202-81e1-5b0d-8364-bbeb4a73a8b4">The Calico Mills</name>
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna can be seen wearing a crown and playing his flute while four women are dancing around him. In the background, the starry night sky can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,20 +31,20 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Calico Mills, Ahmedabad
+				<text type="text" lang="eng">The Calico Mills, Ahmedabad
 Sudha Swadeshi.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">धी केली को मिल्स अहमदाबाद
+				<text type="text" lang="hin">धी केली को मिल्स अहमदाबाद
 शुद्ध स्वदेशी</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108318" type="corporate">HeidICON Image Database</name>
@@ -66,7 +61,7 @@ Sudha Swadeshi.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_ba69e26a-ff15-51c1-8cfe-9728f926f680" refid="108318" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_ba69e26a-ff15-51c1-8cfe-9728f926f680" refid="108318" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -120,8 +115,8 @@ Sudha Swadeshi.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label from The Calico Mills, Ahmedabad</title>
-			<title type="descriptive" pref="false" lang="" script="">कृष्ण लीला</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label from The Calico Mills, Ahmedabad</title>
+			<title type="descriptive" pref="false">कृष्ण लीला</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -242,7 +237,7 @@ http://www.astrojyoti.com/krishnaleela.htm, last accessed 2011-10-06. (gs)</ext:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:41">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

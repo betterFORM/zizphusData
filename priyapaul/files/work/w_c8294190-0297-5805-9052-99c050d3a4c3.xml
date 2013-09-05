@@ -11,7 +11,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Reference No. N. 80.
+				<text type="text" lang="eng">Reference No. N. 80.
 FOR FURTHER SUPPLIES
 of this Card please apply to
 B.D.A. Ltd., Sassoon House, 
@@ -19,15 +19,15 @@ B.D.A. Ltd., Sassoon House,
 CALCUTTA.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Printed in England.</text>
+				<text type="text" lang="eng">Printed in England.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118928" type="corporate">HeidICON Image Database</name>
@@ -44,7 +44,7 @@ CALCUTTA.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_669a89b3-89f2-5629-9635-9f02846728f5" refid="118928" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_669a89b3-89f2-5629-9635-9f02846728f5" refid="118928" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -56,7 +56,7 @@ CALCUTTA.</text>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Notice of B. D. A. Ltd., Calcutta</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Notice of B. D. A. Ltd., Calcutta</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -103,7 +103,7 @@ Printed in England.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:59">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

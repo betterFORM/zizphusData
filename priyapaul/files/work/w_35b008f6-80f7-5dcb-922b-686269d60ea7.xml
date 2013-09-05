@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this catalogue image of the Empire Calendar Manufacturing Co. with the title &quot;Sakuntala&quot;, Shakuntala can be seen, wearing a yellow sari and petting a deer in the middle of a garden with several kinds of plants and flowers and animals like a peacock and other birds.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -37,25 +37,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sakuntala 
+				<text type="text" lang="eng">Sakuntala 
 No. 603</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sushil Das..</text>
+				<text type="text" lang="eng">Sushil Das..</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">ECM [manufacturer's signet]</text>
+				<text type="text" lang="eng">ECM [manufacturer's signet]</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Sushil Das</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119516" type="corporate">HeidICON Image Database</name>
@@ -72,7 +72,7 @@ No. 603</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d2e9327e-72dc-508d-a4d4-822de3452822" refid="119516" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d2e9327e-72dc-508d-a4d4-822de3452822" refid="119516" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -134,7 +134,7 @@ No. 603</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sakuntala&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Sakuntala</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -187,7 +187,7 @@ Sakuntala is possibly a local spelling of Shakuntala - the mythological beautifu
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:44">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

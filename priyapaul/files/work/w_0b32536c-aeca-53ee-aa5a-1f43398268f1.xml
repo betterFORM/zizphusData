@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A collection of four picture postcards: The first one on the upper left shows Mr. B.R. Dutt in hunger strike, protesting against the bad conditions for political prisoners. A man with a halo around his head is standing next to him. On the right, a woman can be seen on the shores of a river, seemingly having an unusual encounter with a ghost carrying his own head on a plate. The lower left image shows Mata India, India's geo body, in her typical iconography, with tricolor flag and spinning wheel. The last image on the lower right shows a couple of men, partly wearing flower garlands and bindis. All four images carry different information concerning their publishers.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,15 +22,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Fighting for the emancipation of Political Prisoners.</text>
+				<text type="text" lang="eng">Fighting for the emancipation of Political Prisoners.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Mr. B. R. Dutt on hunger strike
+				<text type="text" lang="eng">Mr. B. R. Dutt on hunger strike
 &quot;The mission of late Jatin who died fighting for the betterment of Political Prisoners must be fought to the finished.&quot;
 Imperial Picture House Anarkali Lahore</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">No. 2004 Copyright
+				<text type="text" lang="eng">No. 2004 Copyright
 Coronattion Press Cawnpore 
 Publishers.
 Ganganarian Beharilal, 
@@ -38,22 +38,22 @@ Post Box No. 57
 Cawnpore</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sri Bharat Mata
+				<text type="text" lang="eng">Sri Bharat Mata
 Punjabi Press, Delhi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">B.B. Press Lucknow</text>
+				<text type="text" lang="eng">B.B. Press Lucknow</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">ADD TEXT HERE</text>
+				<text type="text" lang="hin">ADD TEXT HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120674" type="corporate">HeidICON Image Database</name>
@@ -70,7 +70,7 @@ Punjabi Press, Delhi</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_cc4b7e2b-0f7d-58a7-9b40-2159e1bf17c1" refid="120674" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_cc4b7e2b-0f7d-58a7-9b40-2159e1bf17c1" refid="120674" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -84,6 +84,9 @@ Punjabi Press, Delhi</text>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c15a508b-6394-5b93-ae14-b90d74b868be">
 				<term type="concept">nationalism</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
 				<term type="concept">glories</term>
@@ -100,9 +103,6 @@ Punjabi Press, Delhi</text>
 			<subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
 				<term type="concept">Indian flag</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
@@ -117,7 +117,7 @@ Punjabi Press, Delhi</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">four postcards with nationalist themes, including mother India on a map of India</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">four postcards with nationalist themes, including mother India on a map of India</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -177,7 +177,7 @@ A collection of four picture postcards: The first one on the upper left shows Mr
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:18">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:57">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

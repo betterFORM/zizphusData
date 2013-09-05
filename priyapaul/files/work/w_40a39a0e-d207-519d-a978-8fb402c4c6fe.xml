@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1938</earliestDate>
+				<latestDate>1938</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement calendar for Dongre's baby syrup, a mother, wearing a sari and jewellery is cuddling her baby who is lying on a bed. The baby is holding a bottle of the advertised product in his/her right hand while touching the mother's face with his/her left. A calendar of January 1938 is stapled on the lower section of the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,20 +32,20 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">डोंगरे का बालामृत.</text>
+				<text type="text" lang="hin">डोंगरे का बालामृत.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">बच्चोंकी ताकद बढानेवाली मशहूर दवाई.</text>
+				<text type="text" lang="hin">बच्चोंकी ताकद बढानेवाली मशहूर दवाई.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Telephone No.
+				<text type="text" lang="eng">Telephone No.
 42525
 Telegram:
 &quot;BALAMRIT&quot;
 Bombay</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Dongre
+				<text type="text" lang="eng">Dongre
 Building
 384 Lamington
 Road
@@ -47,10 +53,10 @@ Bombay,
 No. 4</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Proprietors - K. T. Dongre &amp; Co., Bombay, No. 4.</text>
+				<text type="text" lang="eng">Proprietors - K. T. Dongre &amp; Co., Bombay, No. 4.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">For Children
+				<text type="text" lang="eng">For Children
 K. T.
 Dongre &amp; Co.
 Gircaum Bombay.
@@ -58,18 +64,18 @@ Price one Rupee.
 1938</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">GVLAD [artist's signature, needs rechecking]</text>
+				<text type="text" lang="eng">GVLAD [artist's signature, needs rechecking]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ravi Varma Press, Malavli-Lonavlm [unclear]</text>
+				<text type="text" lang="eng">Ravi Varma Press, Malavli-Lonavlm [unclear]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119184" type="corporate">HeidICON Image Database</name>
@@ -145,15 +151,15 @@ Price one Rupee.
 				<term type="concept">black hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b4d47b06-58b7-5fbe-8fb7-89efa9f44d4d">
-				<term type="concept">sirup</term>
+				<term type="concept">syrup</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">January 1938 advertisement calendar for Dongre's baby syrup</title>
-			<title type="descriptive" pref="false" lang="" script="">डोंगरे का बालामृत.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">January 1938 advertisement calendar for Dongre's baby syrup</title>
+			<title type="descriptive" pref="false">डोंगरे का बालामृत.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -231,7 +237,7 @@ On this advertisement calendar for Dongre's baby syrup, a mother, wearing a sari
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:46">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,20 +12,20 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Clusters of buildings which used to serve as barracks and open spaces to be used as parade grounds. A part of the hill and trees are also visible.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107997" type="corporate">HeidICON Image Database</name>
@@ -42,7 +42,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_44f1754c-0aa8-5b02-ba19-9b7e6669b7cb" refid="107997" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_44f1754c-0aa8-5b02-ba19-9b7e6669b7cb" refid="107997" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -57,9 +57,6 @@
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
 				<term type="concept">hill stations</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="ddc99987-6abf-526e-bee9-fd4aa62e3ffa">
-				<term type="geographic">Kasauli Hill</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e376bfc7-e331-5b6c-b4bb-a1b710ef6d6c">
 				<term type="geographic">Kasauli</term>
 			</subject>
@@ -71,7 +68,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">General view of barracks and parade ground, Kasouli Hill, India</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">General view of barracks and parade ground, Kasouli Hill, India</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -125,7 +122,7 @@ H. A. Mirza &amp; Sons, Delhi. Made in Germany. [on backside?] (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:44">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

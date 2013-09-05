@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Back of a postcard.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,18 +17,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Post Card
+				<text type="text" lang="eng">Post Card
 The Address only here. 
 1/4 Anna, Island
 1 Anna, Foreign</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107974" type="corporate">HeidICON Image Database</name>
@@ -36,7 +36,7 @@ The Address only here.
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_c6ed22e1-93eb-5f70-9ef6-09e023baa2fa" refid="107974" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_c6ed22e1-93eb-5f70-9ef6-09e023baa2fa" refid="107974" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -50,10 +50,11 @@ The Address only here.
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Back of Postcard</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Back of Postcard</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -90,7 +91,7 @@ Back of a postcard. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:43">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

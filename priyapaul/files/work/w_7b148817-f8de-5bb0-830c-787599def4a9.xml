@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A woman (Mother India) unfurls an early version of the Indian flag (swaraj) over a portrait of Mahatma Gandhi with a charkha (spinning wheel) below it. Roses adorn either side of the portrait. The charkha has a map of India with 'bharat' (India) inscribed on it.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,7 +32,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">भारत</text>
+				<text type="text" lang="hin">भारत</text>
 			</inscription>
 			<inscription>
 				<text type="other">bharat</text>
@@ -41,15 +41,15 @@
 				<text type="translation">India</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">M. V. &amp; Co. 8</text>
+				<text type="text" lang="eng">M. V. &amp; Co. 8</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120561" type="corporate">HeidICON Image Database</name>
@@ -66,7 +66,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_261f2b7e-3d2f-5543-8f2c-652846403ddf" refid="120561" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_261f2b7e-3d2f-5543-8f2c-652846403ddf" refid="120561" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -93,9 +93,6 @@
 			<subject source="EXC" vocab="LOCAL" refid="44ac94f4-ee8b-58c8-b219-a380770a6c05">
 				<term type="concept">nations</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term type="work (map)">map of India</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
 				<term type="concept">flags</term>
 			</subject>
@@ -110,6 +107,9 @@
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c8683694-3e8b-52f1-855d-acaa4d8e8261">
 				<term type="worktype">portraits</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec70a889-c867-5d19-a660-3251b743b4cf">
 				<term type="concept">political imagery</term>
@@ -146,7 +146,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar sample image</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Calendar sample image</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -321,7 +321,7 @@ Trivedi, Lisa. 2003. Visually Mapping the Nation: Swadeshi Politics in Nationali
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:20">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

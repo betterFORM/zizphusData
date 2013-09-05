@@ -8,18 +8,18 @@
 		</agentSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">printed in Germany</text>
+				<text type="text" lang="eng">printed in Germany</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">487</text>
+				<text type="text" lang="eng">487</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118000" type="corporate">HeidICON Image Database</name>
@@ -27,7 +27,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0deac5e0-5a46-5840-ac56-54fcb2b313d7" refid="118000" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0deac5e0-5a46-5840-ac56-54fcb2b313d7" refid="118000" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -59,7 +59,7 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label showing three naked women at a fountain</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label showing three naked women at a fountain</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -96,7 +96,7 @@ printed in Germany</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:09">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:48:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

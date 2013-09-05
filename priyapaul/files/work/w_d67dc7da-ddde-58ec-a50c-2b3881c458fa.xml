@@ -8,15 +8,15 @@
 		</agentSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Nala! Look how I do quake with fear me - thought a serpent eat my heart away. Alock, where are you? Speak, are if you hear;speak of all loves; I sworn almost of fear. No, then I will perceive  you are not nigh. Either death or you I will find immediately. [on backside? (ja)]</text>
+				<text type="text" lang="eng">Nala! Look how I do quake with fear me - thought a serpent eat my heart away. Alock, where are you? Speak, are if you hear;speak of all loves; I sworn almost of fear. No, then I will perceive  you are not nigh. Either death or you I will find immediately. [on backside? (ja)]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108050" type="corporate">HeidICON Image Database</name>
@@ -33,7 +33,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_21cb5c8d-1bf1-5d18-9e03-9da78974ba7c" refid="108050" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_21cb5c8d-1bf1-5d18-9e03-9da78974ba7c" refid="108050" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -62,7 +62,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Forsaken Damyanti, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Forsaken Damyanti, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -103,7 +103,7 @@ Nala! Look how I do quake with fear me - thought a serpent eat my heart away. Al
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:43">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:51">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

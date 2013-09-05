@@ -36,8 +36,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1960</earliestDate>
+				<latestDate>1960</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows Vishnu in the form of Mohini, the enchantress distributing the amrita (nectar of immortality) to the devas (gods). In the background, Shiva can be seen. His image is depicted on the ocean which was churned to obtain the nectar of immortality. Additionally, Vasuki the serpent king can be seen wrapped around Mandara, the mountain. To the right, the asuras (demons) stand looking toward Mohini and the devas.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -48,14 +54,14 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">A&amp;F Harvey Ltd.
+				<text type="text" lang="eng">A&amp;F Harvey Ltd.
 Merchants and Cotton Spinners</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Cone Yarn</text>
+				<text type="text" lang="eng">Cone Yarn</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">5.00.000 Spindles
+				<text type="text" lang="eng">5.00.000 Spindles
 Cotton Yarns 
 Of All Descriptions 
 For Handlooms, Powerlooms 
@@ -64,10 +70,10 @@ Counts up to 80s
 1960</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Cheese Yarn</text>
+				<text type="text" lang="eng">Cheese Yarn</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Specialities:
+				<text type="text" lang="eng">Specialities:
 Yarns for 
 Ropes-Healds-Canvas-Tapes
 Multi-Ply &amp; Cord Yarns
@@ -76,47 +82,47 @@ Fancy Yarns
 1960</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">With the best compliments of:
+				<text type="text" lang="eng">With the best compliments of:
 RM. S. Ramanathan Chettiar.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">With the
+				<text type="text" lang="eng">With the
 compliments
 of
 Madura Mills. Co. Ltd.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">C. Kondiah Raju
+				<text type="text" lang="eng">C. Kondiah Raju
 M. RAMALINGAM [artist's signature]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Madura Mills Co. Ltd.
+				<text type="text" lang="eng">Madura Mills Co. Ltd.
 RING No.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Madura Mills Company Limited
+				<text type="text" lang="eng">Madura Mills Company Limited
 BEST RING</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Tinnevelly Turbine Twist
+				<text type="text" lang="eng">Tinnevelly Turbine Twist
 Madura Mills Company, Limited
 Ring No.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Madura Mills Co. Ltd.
+				<text type="text" lang="eng">Madura Mills Co. Ltd.
 Madurai Tuticorin and Ambasamudram
 Madras State
 South India</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">हर प्रकार का एकहरा और 
+				<text type="text" lang="hin">हर प्रकार का एकहरा और 
 दोहरा सूत</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="bn">ADD TEXT HERE</text>
+				<text type="text" lang="ben">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">London Correspondents
+				<text type="text" lang="eng">London Correspondents
 Harvey Brothers
 Agency (India) Ltd.
 34, Queen Anne's Gate
@@ -125,10 +131,10 @@ London
 S. W. 1.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ta">ADD TEXT HERE</text>
+				<text type="text" lang="tam">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Phone: 39.
+				<text type="text" lang="eng">Phone: 39.
 Dealers:
 Rm. S. Ramanathan Chettiar,
 Yarn Merchant,
@@ -147,11 +153,11 @@ Jayankondacholapuram.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118954" type="corporate">HeidICON Image Database</name>
@@ -168,7 +174,7 @@ Jayankondacholapuram.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_3cf28b14-b881-5243-8fd9-526dc33f71b4" refid="118954" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_3cf28b14-b881-5243-8fd9-526dc33f71b4" refid="118954" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -192,6 +198,9 @@ Jayankondacholapuram.</text>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
 				<term type="concept">deities</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
 				<term type="concept">oceans</term>
@@ -226,9 +235,6 @@ Jayankondacholapuram.</text>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
 				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
@@ -240,7 +246,7 @@ Jayankondacholapuram.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1960 Advertisement calendar for A &amp; F Harvey Ltd.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1960 Advertisement calendar for A &amp; F Harvey Ltd.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -388,7 +394,7 @@ http://en.wikipedia.org/wiki/Ocean_of_milk#The_Churning_of_the_Ocean, last acces
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

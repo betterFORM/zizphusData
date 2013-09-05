@@ -22,26 +22,26 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>a textile label of Kastoorchand Mathuradas &amp; Co. Ltd.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Kastoorchand Mills Co. Ld.</text>
+				<text type="text" lang="eng">The Kastoorchand Mills Co. Ld.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Bombay.</text>
+				<text type="text" lang="eng">Bombay.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Kastoorchand Mathuradas[s] &amp; Co.</text>
+				<text type="text" lang="eng">Kastoorchand Mathuradas[s] &amp; Co.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Made in India
+				<text type="text" lang="eng">Made in India
 Made in 
 India
 Quetta
@@ -50,11 +50,11 @@ Delhi
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108415" type="corporate">HeidICON Image Database</name>
@@ -71,7 +71,7 @@ Delhi
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7e62f954-8126-532a-906b-76e8bbe49b2d" refid="108415" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7e62f954-8126-532a-906b-76e8bbe49b2d" refid="108415" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -80,8 +80,8 @@ Delhi
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term type="work (map)">map of India</term>
+			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
@@ -92,13 +92,16 @@ Delhi
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
+				<term type="concept">maps</term>
+			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by Kastoorchand Mathuradas &amp; Co.</title>
-			<title type="descriptive" pref="false" lang="" script="">કસતૂરચંદ મથુરદાસ અંદ કં</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by Kastoorchand Mathuradas &amp; Co.</title>
+			<title type="descriptive" pref="false">કસતૂરચંદ મથુરદાસ અંદ કં</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -153,7 +156,7 @@ a textile label of Kastoorchand Mathuradas &amp; Co. Ltd.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:27">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:20">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

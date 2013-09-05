@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A white woman with short red hair is depicted wearing a fur coat baring her left shoulder. She is wearing a glittering bracelet, a ring and earrings.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,16 +27,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">PEARS
+				<text type="text" lang="eng">PEARS
 The Jewel of Soaps</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119784" type="corporate">HeidICON Image Database</name>
@@ -47,7 +53,7 @@ The Jewel of Soaps</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_44e51dad-aee3-55ab-8765-1f883c943264" refid="119784" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_44e51dad-aee3-55ab-8765-1f883c943264" refid="119784" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -98,6 +104,9 @@ The Jewel of Soaps</text>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
 				<term type="concept">soap advertisings</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
 				<term type="concept">white people</term>
 			</subject>
@@ -130,7 +139,7 @@ The Jewel of Soaps</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for &quot;Pears&quot; soap</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for &quot;Pears&quot; soap</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -313,7 +322,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:31">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

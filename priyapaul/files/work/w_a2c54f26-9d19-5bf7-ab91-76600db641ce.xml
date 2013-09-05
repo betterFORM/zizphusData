@@ -10,11 +10,11 @@
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119103" type="corporate">HeidICON Image Database</name>
@@ -34,10 +34,10 @@
 			<relation type="imageIs" relids="i_60acf63e-1fb4-551f-9325-7bfc9c0f3ceb" refid="119103" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_be7f1f49-25aa-5ec3-a171-738ea5ea772c" refid="119104" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_112ea7a8-790a-5209-a570-c8096e2813b0" refid="119106" source="EXC Priya Paul Collection">close-up view</relation>
-			<relation type="imageIs" relids="i_ae47855d-1ca7-5e3c-8418-2c4b1650a144" refid="119109" source="EXC Priya Paul Collection">close-up view</relation>
-			<relation type="imageIs" relids="i_5437f84d-2b1f-5e44-ae35-75f6be566a12" refid="119108" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_9486fde6-2eb7-5d86-a7b1-86bd036bcc0d" refid="119105" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_5437f84d-2b1f-5e44-ae35-75f6be566a12" refid="119108" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_36e5a364-5d73-54bc-af5c-46b9e2fa9f87" refid="119107" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_ae47855d-1ca7-5e3c-8418-2c4b1650a144" refid="119109" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -49,7 +49,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Shankar with Parvati and Ganesha, in a poster calender of Society of Chemical Industry of Bastle (year: 1939)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Shankar with Parvati and Ganesha, in a poster calender of Society of Chemical Industry of Bastle (year: 1939)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -88,9 +88,9 @@
 				<ext:value>close-up view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119109</ext:value>
-				<ext:value>i_ae47855d-1ca7-5e3c-8418-2c4b1650a144</ext:value>
-				<ext:value>close-up view</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119105</ext:value>
+				<ext:value>i_9486fde6-2eb7-5d86-a7b1-86bd036bcc0d</ext:value>
+				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119108</ext:value>
@@ -98,13 +98,13 @@
 				<ext:value>close-up view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119105</ext:value>
-				<ext:value>i_9486fde6-2eb7-5d86-a7b1-86bd036bcc0d</ext:value>
-				<ext:value>detail view</ext:value>
-			</ext:item>
-			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119107</ext:value>
 				<ext:value>i_36e5a364-5d73-54bc-af5c-46b9e2fa9f87</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119109</ext:value>
+				<ext:value>i_ae47855d-1ca7-5e3c-8418-2c4b1650a144</ext:value>
 				<ext:value>close-up view</ext:value>
 			</ext:item>
 		</ext:heidicon>
@@ -115,7 +115,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:31">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:29">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

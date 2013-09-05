@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Red White &amp; Blue Coffee, the drawing of a western woman, holding a cup of coffee, can be seen as well as a sample of the advertised product and a detailed .</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,7 +23,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">'This is good coffee
+				<text type="text" lang="eng">'This is good coffee
 I'll bet it's Red White &amp; Blue'
 There has always been a good deal of argument about the best way to make coffee. But when it's all boiled down the thing that matters most is - flavour. That's why RE, White and Blue Coffee is India's favourite.
 Obtainable from all important stores
@@ -27,11 +33,11 @@ Calcutta and Bombay</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120283" type="corporate">HeidICON Image Database</name>
@@ -48,7 +54,7 @@ Calcutta and Bombay</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0dfedc01-19d1-5dcb-8c9f-ef1f94c48d3b" refid="120283" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0dfedc01-19d1-5dcb-8c9f-ef1f94c48d3b" refid="120283" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -63,6 +69,9 @@ Calcutta and Bombay</text>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
 				<term type="concept">product advertisement</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
 				<term type="concept">Western women</term>
 			</subject>
@@ -70,7 +79,7 @@ Calcutta and Bombay</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="063e66ac-7e28-5efb-9092-52f6e9660463">
-				<term type="brand">Red White &amp; Blue Coffee</term>
+				<term type="product">Red, White &amp; Blue Coffee (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -80,7 +89,7 @@ Calcutta and Bombay</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Red White &amp; Blue Coffee</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Red White &amp; Blue Coffee</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -129,7 +138,7 @@ On this advertisement for Red White &amp; Blue Coffee, the drawing of a western 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:47">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:42">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

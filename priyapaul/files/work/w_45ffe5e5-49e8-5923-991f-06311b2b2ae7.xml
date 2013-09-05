@@ -8,18 +8,18 @@
 		</agentSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">A Mohammedan queen takes off her apparel before enjoying her bath. Her maids are also present to perform their duty.</text>
+				<text type="text" lang="eng">A Mohammedan queen takes off her apparel before enjoying her bath. Her maids are also present to perform their duty.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">P.S.Joshi, Art Publisher, 132 Kalbadevi Road, Bombay [on backside? (ja)]</text>
+				<text type="text" lang="eng">P.S.Joshi, Art Publisher, 132 Kalbadevi Road, Bombay [on backside? (ja)]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108046" type="corporate">HeidICON Image Database</name>
@@ -61,15 +61,12 @@
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
 				<term type="worktype">picture postcards</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="bdf384db-950f-55f5-99fe-6f9439407e1e">
-				<term type="">bath</term>
-			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Begum at bath, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Begum at bath, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -118,7 +115,7 @@ P.S.Joshi, Art Publisher, 132 Kalbadevi Road, Bombay [on backside? (ja)]</ext:va
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:33">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

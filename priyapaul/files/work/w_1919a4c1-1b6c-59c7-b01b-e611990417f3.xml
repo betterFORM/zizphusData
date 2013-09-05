@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1979</earliestDate>
+				<latestDate>1979</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this image from a lobby card for the Hindi movie &quot;Jurmana&quot;, released in 1979, two of the main actors, Amitabh Bachchan and Rakhee Gulzar, stand under a tree, talking to each other. Amitabh Bachchan wears a pair of sunglasses while Rakhee is dressed in a sari. In the lower left section of the image, Amitabh Bachchan can again be seen, dressed in a suit, and smoking.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -41,7 +47,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sri Lokenath Chitramandir present
+				<text type="text" lang="eng">Sri Lokenath Chitramandir present
 Jurmana
 Director Hrishikesh Mukherjee
 Music R.D. Burman
@@ -50,11 +56,11 @@ Producer Debesh Ghosh</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119329" type="corporate">HeidICON Image Database</name>
@@ -105,18 +111,21 @@ Producer Debesh Ghosh</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e5cb3ba8-a3f4-53e4-b00e-b1edbaadb6c4">
-				<term type="concept">glasses</term>
+			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
+				<term type="concept">spectacles (eye glasses)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8b9a9f23-4d58-50ca-88e6-b5bb6aa36257">
+				<term type="concept">sunglasses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e4041652-7a50-54c2-b302-6e9731254d9d">
-				<term type="work (movie)">Jurmana</term>
+				<term type="work (movie)">Jurmana (movie, 1979)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jurmana&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Jurmana</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -206,7 +215,7 @@ bet that would turn their lives upside down.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:45">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

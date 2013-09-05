@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1980</earliestDate>
+				<latestDate>1980</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the Hindi Movie &quot;Jhony Ustad&quot; from 1980, two of the main actors, Rajnikanth and Siredevi, are pictured in stills of different key scenes. He is can be seen either sitting on a table with two other men, striking out with an axe, or standing next with either a tree bvetween them or her while she is playing piano.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,27 +38,27 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">RAJINIKANTH, SRIDEVI &amp; DEEPA (sex bomb[)]
+				<text type="text" lang="eng">RAJINIKANTH, SRIDEVI &amp; DEEPA (sex bomb[)]
 in double role</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">DINESHI SALGIA presents
+				<text type="text" lang="eng">DINESHI SALGIA presents
 JHONY
 USTAD</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">ADD TEXT HERE</text>
+				<text type="text" lang="urd">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">director: MAHENDRA music[:] SONIK OMI lyrics[:] BRIJ BIHARI</text>
+				<text type="text" lang="eng">director: MAHENDRA music[:] SONIK OMI lyrics[:] BRIJ BIHARI</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119335" type="corporate">HeidICON Image Database</name>
@@ -63,7 +69,7 @@ USTAD</text>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_1a165e91-20a7-536a-b980-02956ea815bf" refid="119335" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_1a165e91-20a7-536a-b980-02956ea815bf" refid="119335" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -100,6 +106,9 @@ USTAD</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
+				<term type="concept">spectacles (eye glasses)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
@@ -107,18 +116,15 @@ USTAD</text>
 				<term type="concept">pianos</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="62a6c979-0065-5ddd-bbc5-cd053e784202">
-				<term type="work (movie)">Jhony Ustad</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e5cb3ba8-a3f4-53e4-b00e-b1edbaadb6c4">
-				<term type="concept">glasses</term>
+				<term type="work (movie)">Jhony Ustad (movie, 1980)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jhony Ustad&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">जानी उस्ताद</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Jhony Ustad</title>
+			<title type="descriptive" pref="false">जानी उस्ताद</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -185,7 +191,7 @@ http://www.imdb.com/title/tt0187188/, last accessed 2011-12-23, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:00">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

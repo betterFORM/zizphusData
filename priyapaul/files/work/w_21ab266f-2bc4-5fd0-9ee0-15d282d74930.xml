@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120096" type="corporate">HeidICON Image Database</name>
@@ -28,7 +28,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_678cb7bf-6777-5405-8d4e-a602d7b9d369" refid="120096" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_678cb7bf-6777-5405-8d4e-a602d7b9d369" refid="120096" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -40,8 +40,8 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by Bombay United Mills</title>
-			<title type="descriptive" pref="false" lang="" script="">સ્વદેશી મિલો માલ   બાંબાય ઉનીતેદ મીલ્લ્સ</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by Bombay United Mills</title>
+			<title type="descriptive" pref="false">સ્વદેશી મિલો માલ   બાંબાય ઉનીતેદ મીલ્લ્સ</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -75,7 +75,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:58">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:11">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

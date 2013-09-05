@@ -11,15 +11,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Talwar Films Present: Mem Sahib. Produced &amp; Directed by: R.C.Talwar.Music: Madan Mohan. Songs: Rajinder Krishan. Paul Studio.</text>
+				<text type="text" lang="eng">Talwar Films Present: Mem Sahib. Produced &amp; Directed by: R.C.Talwar.Music: Madan Mohan. Songs: Rajinder Krishan. Paul Studio.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120817" type="corporate">HeidICON Image Database</name>
@@ -36,7 +36,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_3af807aa-8f36-5e8f-aeac-a1404fda9226" refid="120817" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_3af807aa-8f36-5e8f-aeac-a1404fda9226" refid="120817" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -48,7 +48,7 @@
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Mem Sahib</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Mem Sahib</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -93,7 +93,7 @@ Talwar Films Present: Mem Sahib. Produced &amp; Directed by: R.C.Talwar.Music: M
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:46">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:01">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

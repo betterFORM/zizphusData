@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Textile label showing a joker/acrobat balancing a globe/ball on his nose with 'Cotillon' written on it. The cloth he stands on is striped green and white and he is wearing what looks like a circus costume with bells dangling from the sleeves and hem. He is wearing red shoes and green and blue tights and a blue headdress.
 There are inscriptions on the border of each side. The one at the top is written in English, the three others at the left, right and bottom are written in fantasy scripts, probably imitating characters in Devanagari and Arabic scripts.</text>
 				<author>
@@ -27,21 +27,21 @@ There are inscriptions on the border of each side. The one at the top is written
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">C. H. Gerrard &amp; Co.</text>
+				<text type="text" lang="eng">C. H. Gerrard &amp; Co.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Cotillon</text>
+				<text type="text" lang="eng">Cotillon</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Registered No. 55482</text>
+				<text type="text" lang="eng">Registered No. 55482</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106169" type="corporate">HeidICON Image Database</name>
@@ -58,7 +58,7 @@ There are inscriptions on the border of each side. The one at the top is written
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_c8344d41-fefc-5e69-ba34-7dfccfdcf094" refid="106169" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_c8344d41-fefc-5e69-ba34-7dfccfdcf094" refid="106169" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -117,7 +117,7 @@ There are inscriptions on the border of each side. The one at the top is written
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Acrobat with Ball</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Acrobat with Ball</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -277,7 +277,7 @@ http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=85&amp;EId=103&amp;Image
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:10">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,28 +12,28 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample of calendar posters of Oriental Calendar Manufacturing Ltd. A man and a woman are sitting on a stonewall in the countryside. The man is wearing a western suit and tie, the woman, with a dog on a leash, wears a red-pink sari, modern hair-style, red handbag and is smiling at what the man seems to be pointing at (possibly the empty score board in the background).</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">ORIENTAL CALENDAR
+				<text type="text" lang="eng">ORIENTAL CALENDAR
 DUMDUM
 OCMCO [publisher's signet]
 (undecipherable text)</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/123040" type="corporate">HeidICON Image Database</name>
@@ -50,7 +50,7 @@ OCMCO [publisher's signet]
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_738cf0eb-fdc7-5a6b-9f89-7d964295086b" refid="123040" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_738cf0eb-fdc7-5a6b-9f89-7d964295086b" refid="123040" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -103,7 +103,7 @@ OCMCO [publisher's signet]
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar page sample by Oriental Calendar Manufacturing</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Calendar page sample by Oriental Calendar Manufacturing</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -152,7 +152,7 @@ The fact that this is a couple with leisure time, going for a walk, entertaining
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:06">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:04">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

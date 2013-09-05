@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for P. Venkatasubbiah Chetty, a baby Krishna can be seen sitting naked on a leaf in front of a sea. He is touching his nose with his right foot, only wearing jewellery and a robe.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,30 +32,30 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">With the best Compliments of:- 
+				<text type="text" lang="eng">With the best Compliments of:- 
 Sree Rama Jayam.
 Estd. 1909.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">P. Venkatasubbiah Chetty,</text>
+				<text type="text" lang="eng">P. Venkatasubbiah Chetty,</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Benares, Salem, Madura &amp; Bangalore Silk Lace Sarees And Cloth Merchant.</text>
+				<text type="text" lang="eng">Benares, Salem, Madura &amp; Bangalore Silk Lace Sarees And Cloth Merchant.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">166-167, Devaraja Mudaly Street, P. T. Madras.</text>
+				<text type="text" lang="eng">166-167, Devaraja Mudaly Street, P. T. Madras.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">P. Venkatasubbiah Chetty,
+				<text type="text" lang="eng">P. Venkatasubbiah Chetty,
 Madras.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118558" type="corporate">HeidICON Image Database</name>
@@ -72,7 +72,7 @@ Madras.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_1ffc94a6-e378-5315-9342-817581667a91" refid="118558" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_1ffc94a6-e378-5315-9342-817581667a91" refid="118558" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -81,8 +81,8 @@ Madras.</text>
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="27564901-d325-5e23-8ae1-2116b50931b3">
-				<term type="concept">seas</term>
+			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
+				<term type="concept">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e3647e2c-f0e9-536c-823c-dac6d93daec8">
 				<term type="concept">leaf (plant material)</term>
@@ -104,7 +104,7 @@ Madras.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">P. Venkatasubbiah Chetty</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">P. Venkatasubbiah Chetty</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -141,7 +141,7 @@ On this advertisement for P. Venkatasubbiah Chetty, a baby Krishna can be seen s
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:45">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:39">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

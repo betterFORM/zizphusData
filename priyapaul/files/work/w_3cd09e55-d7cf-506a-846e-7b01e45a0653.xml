@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1972</earliestDate>
+				<latestDate>1972</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this image from a lobby card for the Hindi movie &quot;Mangetar&quot;, released in 1972, two of the main actors are depicted taking a bath together in a bathtub full of foam. On the lower left section of the card, an illustration depicts one hand putting a ring on another, below which is a bundle of money with a dancer on top of it.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,7 +37,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Filmcar presents
+				<text type="text" lang="eng">Filmcar presents
 Sudhir Sain`s 
 Mangetar
 Eastmancolor
@@ -40,15 +46,15 @@ Music by Sudhir Sain
 Lyrics Kaifi Azmi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">मंगेतर</text>
+				<text type="text" lang="hin">मंगेतर</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119318" type="corporate">HeidICON Image Database</name>
@@ -99,18 +105,18 @@ Lyrics Kaifi Azmi</text>
 				<term type="concept">bathtubs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eb4481f9-6915-53cc-a2a5-1a7db6776959">
-				<term type="work (movie)">Mangetar</term>
+				<term type="work (movie)">Mangetar (movie, 1972)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7fb7bd38-8f58-51ca-80c4-d5ffc11519b8">
-				<term type="concept">foam</term>
+				<term type="concept">foam (material form)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mangetar&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">मंगेतर</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Mangetar</title>
+			<title type="descriptive" pref="false">मंगेतर</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -175,7 +181,7 @@ http://www.imdb.com/title/tt0380523/, last accessed 2011-12-28. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:13">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

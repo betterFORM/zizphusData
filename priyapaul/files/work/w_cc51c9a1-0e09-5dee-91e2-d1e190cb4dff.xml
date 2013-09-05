@@ -10,9 +10,20 @@
 				<name vocab="local" type="personal" refid="uuid-30a002d0-b894-5702-8603-5121c5a28b92">Wadia, Homi</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="personal" refid="uuid-dae525b6-1429-5462-ad61-7b114f9ced18">Tarzan</name>
+				<role vocab="marcrelator" type="code">art</role>
+  			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lobby card of a 1937 Indian movie directed by Homi Wadia, showing a tiger leaping towards a woman, presumably Jane. They are in a forest with thick vegetation.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-0fa63dfc-fbb1-5698-9896-cce0c0ac1c2b">Saeed, Yousuf</name>
@@ -26,22 +37,27 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">तूफानी टारझन
+				<text type="text" lang="hin">तूफानी टारझन
 डायरेक्टर होमी वाडिया 
 वाडिया ब्रदर्स प्रोडक्शन</text>
 			</inscription>
 			<inscription>
-				<text type="other">Toofani Tarzan
+				<text type="other">Tuphani tarajhana 
+Dayarektara Hom Vadiya 
+Vadiya bradarsa prodaksana</text>
+			</inscription>
+			<inscription>
+				<text type="translation">Toofani Tarzan
 Director Homi Wadia; 
 Wadia Brothers Production.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119677" type="corporate">HeidICON Image Database</name>
@@ -124,14 +140,17 @@ Wadia Brothers Production.</text>
 			<subject source="EXC" vocab="LOCAL" refid="0fced42e-bef4-52b0-ad72-3602d3bce2f8">
 				<term type="worktype">film poster</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1e0d45a4-f2c9-5820-bfe5-454799e75067">
+				<term type="concept">jungles</term>
+			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Toofani Tarzan&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Toofani Tarzan</title>
-			<title type="descriptive" pref="false" lang="" script="">तूफानी टारझन</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Toofani Tarzan</title>
+			<title type="descriptive" pref="false">Tuphani tarajhana</title>
+			<title type="descriptive" pref="false">तूफानी टारझन</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -143,11 +162,15 @@ Wadia Brothers Production.</text>
 डायरेक्टर होमी वाडिया 
 वाडिया ब्रदर्स प्रोडक्शन</ext:value>
 				<ext:value>text-transcription-hi:
+Tuphani tarajhana 
+Dayarektara Hom Vadiya 
+Vadiya bradarsa prodaksana</ext:value>
+				<ext:value>text-translation-en:
 Toofani Tarzan
 Director Homi Wadia; 
 Wadia Brothers Production.</ext:value>
 				<ext:value>description-en:
-Lobby card of a 1937 Indian movie directed by Homi Wadia, showing a tiger leaping towards a woman, presumably Jane. They are in a forest with thick vegetation.(ys/sp)</ext:value>
+Lobby card of a 1937 Indian movie directed by Homi Wadia, showing a tiger leaping towards a woman, presumably Jane. They are in a forest with thick vegetation. (ys/sp)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
@@ -314,7 +337,7 @@ at Tasveer Ghar. An Introduction&quot;, http://www.tasveergharindia.net/cmsdesk/
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:17">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:22">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

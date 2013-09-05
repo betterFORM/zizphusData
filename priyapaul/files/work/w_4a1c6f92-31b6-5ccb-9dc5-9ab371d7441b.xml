@@ -12,10 +12,10 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A woman stands on the street, about to get onto her ladies bike, smiling at the viewer, wearing a salwaar kameez with dupatta and a ladies watch.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
@@ -23,21 +23,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Roshan Studio</text>
+				<text type="text" lang="eng">Roshan Studio</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Bicycle lady</text>
+				<text type="text" lang="eng">Bicycle lady</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Roshan Studio</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118131" type="corporate">HeidICON Image Database</name>
@@ -65,7 +65,7 @@
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d5948ba8-5ab8-5065-bc79-0c3d471a75e1">
-				<term type="concept">kameez (garnments)+K2522</term>
+				<term type="concept">kameez (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
 				<term type="concept">women (female humans)</term>
@@ -93,7 +93,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Bicycle Lady&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Bicycle Lady</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -137,7 +137,7 @@ Bicycle lady</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

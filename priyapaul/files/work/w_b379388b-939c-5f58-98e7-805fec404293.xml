@@ -7,31 +7,31 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A Indian woman is standing in a room, combing her long black hair with the right hand and looking at herself in a mirror that she holds in her left hand. She's wearing a green sari and in the background one can see an opened wardrobe, a table with cosmetic accessories and a smaller table with tissues. The floor is covered with a striped white and red carpet.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">THE INDIAN MANUFACTURING Co. Ld.</text>
+				<text type="text" lang="eng">THE INDIAN MANUFACTURING Co. Ld.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">धी इंडियन मन्युफक्चुरिंग कम्पनी लिमिटेड</text>
+				<text type="text" lang="hin">धी इंडियन मन्युफक्चुरिंग कम्पनी लिमिटेड</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="be">থে ইন্ডিয়ান মানুফাচ্তুড়িং কোম্পানি লিমিটেড</text>
+				<text type="text" lang="bel">থে ইন্ডিয়ান মানুফাচ্তুড়িং কোম্পানি লিমিটেড</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108434" type="corporate">HeidICON Image Database</name>
@@ -48,7 +48,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_28d1a04e-369b-5ed3-a463-90a601d1424d" refid="108434" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_28d1a04e-369b-5ed3-a463-90a601d1424d" refid="108434" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,8 +95,8 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of the Indian Manufacturing Co. Ltd.</title>
-			<title type="descriptive" pref="false" lang="" script="">धी इंडियन मन्युफक्चुरिंग कम्पनी लिमिटेड থে ইন্ডিয়ান মানুফাচ্তুড়িং কোম্পানি লিমিটেড</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of the Indian Manufacturing Co. Ltd.</title>
+			<title type="descriptive" pref="false">धी इंडियन मन्युफक्चुरिंग कम्पनी लिमिटेड থে ইন্ডিয়ান মানুফাচ্তুড়িং কোম্পানি লিমিটেড</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -142,7 +142,7 @@ A Indian woman is standing in a room, combing her long black hair with the right
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:11">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

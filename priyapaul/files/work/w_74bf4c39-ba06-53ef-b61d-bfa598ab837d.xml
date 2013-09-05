@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows a woman sitting crosslegged on a carpet and reading the holy Koran which rests on a carved book holder. In the background we can see several religious articles like a lamp and incense.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,21 +26,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Impregnated Safety Matches
+				<text type="text" lang="eng">Impregnated Safety Matches
 C. A. Mohammad.
 The Esavi India Match Fct.
 Made in Calcutta</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Lady Brand</text>
+				<text type="text" lang="eng">Lady Brand</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119722" type="corporate">HeidICON Image Database</name>
@@ -94,21 +94,21 @@ Made in Calcutta</text>
 			<subject source="EXC" vocab="LOCAL" refid="d7dc5d27-c697-5256-8a4e-1ef6de81bb78">
 				<term type="work">Korans</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="813efc8d-e551-5f1a-b7aa-81abbffb4a8a">
-				<term type="concept">Made in Calcutta</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
 				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
+				<term type="worktype">matchboxes</term>
+			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Lady Brand Impregnated Matchbox</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Lady Brand Impregnated Matchbox</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -268,7 +268,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:11">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for the Saw matches, a saw is pictured.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,14 +17,14 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Saw
+				<text type="text" lang="eng">The Saw
 Safety Match
 Made in Austria</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119682" type="corporate">HeidICON Image Database</name>
@@ -41,7 +41,7 @@ Made in Austria</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_4afed8b0-7186-5fa9-ac79-8b0f68f436b3" refid="119682" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_4afed8b0-7186-5fa9-ac79-8b0f68f436b3" refid="119682" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -59,6 +59,9 @@ Made in Austria</text>
 			<subject source="EXC" vocab="LOCAL" refid="209d9678-81bb-5057-9ec4-44cf4659eeac">
 				<term type="concept">Made in Austria</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
+				<term type="concept">matchbook</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec3054a5-e9c9-5a3d-bcaa-8a0b0dad5423">
 				<term type="concept">saws</term>
 			</subject>
@@ -70,7 +73,7 @@ Made in Austria</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">The Saw Safety Match</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">The Saw Safety Match</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -114,7 +117,7 @@ On this advertisement for the Saw matches, a saw is pictured. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

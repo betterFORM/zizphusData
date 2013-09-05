@@ -7,20 +7,20 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An European woman is lost amidst flowers while in the backdrop, there is a church in the deserted neighboorhood. The text printed on card, reads: He loves me-he loves me not.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108122" type="corporate">HeidICON Image Database</name>
@@ -37,7 +37,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_1454986a-af1f-5b24-b24e-87c1ec3d4f65" refid="108122" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_1454986a-af1f-5b24-b24e-87c1ec3d4f65" refid="108122" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -49,7 +49,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An European woman amidst flowers, in a greeting card</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An European woman amidst flowers, in a greeting card</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">greeting cards</worktype>
@@ -89,7 +89,7 @@ An European woman is lost amidst flowers while in the backdrop, there is a churc
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:10">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

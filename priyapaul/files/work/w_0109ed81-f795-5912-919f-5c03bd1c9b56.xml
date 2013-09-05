@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1935</earliestDate>
+				<latestDate>1935</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="Description-en" script="Latn">
+			<description lang="" script="Latn">
 				<text>The cover page of the Christmas issue of &quot;The Times of Ceylon&quot; 1935 shows a coulor image in the center, framed by floral decoration. on the image, a native woman is sitting in the shadow of a palm tree at the sea shore. To her right she placed an earthenware water jar and a plate with flowers. To her left the scene opens to a sandy beach with distant sails on the horizon.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
@@ -17,23 +23,23 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Times of Ceylon
+				<text type="text" lang="eng">The Times of Ceylon
 Christmas Number
 1935</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">R. van B. 35.</text>
+				<text type="text" lang="eng">R. van B. 35.</text>
 			</inscription>
 			<inscription>
 				<text type="signature">R. van B. 35.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120291" type="corporate">HeidICON Image Database</name>
@@ -50,7 +56,7 @@ Christmas Number
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a87c6400-6f6d-5b84-aaa5-d60b8f1e61e5" refid="120291" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a87c6400-6f6d-5b84-aaa5-d60b8f1e61e5" refid="120291" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -65,6 +71,9 @@ Christmas Number
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
 				<term type="concept">women (female humans)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b0847553-2d25-5449-8c02-ff3b194d6ab0">
+				<term type="concept">pots (containers)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d682edd8-6174-5fed-b5e8-e1dff9769f45">
 				<term type="concept">beaches</term>
 			</subject>
@@ -77,17 +86,17 @@ Christmas Number
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
 				<term type="concept">saris (garments)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
 				<term type="internal workflow">checked</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e6ce1d44-eec7-54f4-a4bd-6fdfaf76421d">
-				<term type="concept">jar</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="10291f72-d324-5196-a0ad-5a979a2b5b84">
 				<term type="concept">shores (landforms)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="16421d65-42d4-57d6-bec6-725fddd10414">
-				<term type="concept">Asian woman</term>
+				<term type="concept">Asian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -100,7 +109,7 @@ Christmas Number
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Title page of the Christmas Number of The Times of Ceylon 1935</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Title page of the Christmas Number of The Times of Ceylon 1935</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -146,7 +155,7 @@ The cover page of the Christmas issue of &quot;The Times of Ceylon&quot; 1935 sh
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:11">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

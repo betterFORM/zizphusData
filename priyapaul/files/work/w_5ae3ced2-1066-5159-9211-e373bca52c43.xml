@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1976</earliestDate>
+				<latestDate>1976</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A list containing name of the characters of the film &quot;Meera Shyam&quot; is given. On the right section of the image, one of the leading actresses is pictured holding an Indian musical instrument and wearing a white sari.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,22 +33,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">[Plot on the left can't be read due to unsuccessful scan]
+				<text type="text" lang="eng">[Plot on the left can't be read due to unsuccessful scan]
 Cast
 Kanan Kaoshla * Ashish Kumar
 Abhi Battcharya
 Jairaj, K.N. Singh, G. Jagadir, Manmohan Krishna, B.M. Vyas, Anant Marathe, Mohan Sherrym, Chand Usmani, Leela Mishra, Sanjana, Tun Tun, Satydeep, Mala, Vandna, Master Kapil, Baby Rehana and Master Alankar with Keshto Mukherjee</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">PLEASE ENTER HERE</text>
+				<text type="text" lang="hin">PLEASE ENTER HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120461" type="corporate">HeidICON Image Database</name>
@@ -109,14 +115,14 @@ Jairaj, K.N. Singh, G. Jagadir, Manmohan Krishna, B.M. Vyas, Anant Marathe, Moha
 				<term type="work (movie)">Meera Shyam (movie, 1976)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="709203af-066e-52fa-8f5d-9ef2ce7c1faa">
-				<term type="concept">bag</term>
+				<term type="concept">bags (costume accessories)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Meera Shyam&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Meera Shyam</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
@@ -210,7 +216,7 @@ Meera or Meerabai as she was known was one of the foremost saints of India and m
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:00">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:29">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

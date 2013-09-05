@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1942</earliestDate>
+				<latestDate>1942</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement calendar from 1942, we see Lord Krishna sprinkling color on an Indian woman wearing  red sari. In the background, some clouds and a forest can be seen. A peacock is depicted in front of Krishna. On the sides of the image, detailed s tell the customer how he will be able to individually design the blank spaces in the advertisement.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,34 +28,34 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">This is a Specimen (Item No. 8 &amp; 16) of a Complete
+				<text type="text" lang="eng">This is a Specimen (Item No. 8 &amp; 16) of a Complete
 10'' X 15'' Size Calendar
 With Tinted Ground Advertisement And Monthly Date Pad No. 3
 If This Tinted Ground Not Wanted the Consult for Prices with Item No. 8 only</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The Blank Paces On Both Sides Of The Picture And Date Pads Are Available For Printing Customer's Advertisement In Any Language
+				<text type="text" lang="eng">The Blank Paces On Both Sides Of The Picture And Date Pads Are Available For Printing Customer's Advertisement In Any Language
 ---
 Consult For Prices With Item No. 8 and No. 16 Of Our Price List</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">This Picture Is Also Available in 15'' x 11'' Ins. or 20'' x 15'' Ins.
+				<text type="text" lang="eng">This Picture Is Also Available in 15'' x 11'' Ins. or 20'' x 15'' Ins.
 ---
 If Customers Require Monthly Date Pads No. 2 Instead Of Date Pads No. 3 Then Add The Difference Prices Between Item No. 3 and No. 6 Of Our Price List</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Na Maro Pichkari</text>
+				<text type="text" lang="eng">Na Maro Pichkari</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">This Picture's No. is 419</text>
+				<text type="text" lang="eng">This Picture's No. is 419</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109873" type="corporate">HeidICON Image Database</name>
@@ -66,7 +72,7 @@ If Customers Require Monthly Date Pads No. 2 Instead Of Date Pads No. 3 Then Add
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_3b0e3c96-eb85-54a0-b1cb-40b4c06839e7" refid="109873" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_3b0e3c96-eb85-54a0-b1cb-40b4c06839e7" refid="109873" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -116,7 +122,7 @@ If Customers Require Monthly Date Pads No. 2 Instead Of Date Pads No. 3 Then Add
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Na Maro Pichkari (Don't sprinkle coloured water on me) in a 1942 calender advertisement.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Na Maro Pichkari (Don't sprinkle coloured water on me) in a 1942 calender advertisement.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -173,7 +179,7 @@ On this advertisement calendar from 1942, we see Lord Krishna sprinkling color o
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

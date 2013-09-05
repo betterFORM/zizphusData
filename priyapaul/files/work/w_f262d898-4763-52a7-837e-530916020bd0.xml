@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A view of a village atop a hill with colourful houses with green roofs. Trees and plants can be seen as well all over the hill. Streets and paths criss- cross the hill.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,15 +22,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Depot, Murree Hill.</text>
+				<text type="text" lang="eng">The Depot, Murree Hill.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108008" type="corporate">HeidICON Image Database</name>
@@ -47,7 +47,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_9a104735-3ba0-57c1-a5db-79a37eaa093e" refid="108008" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_9a104735-3ba0-57c1-a5db-79a37eaa093e" refid="108008" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,15 +95,12 @@
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
 				<term type="worktype">picture postcards</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="078aa863-8376-51d3-ad1c-b474494bb69e">
-				<term type="geographic">Murree</term>
-			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">The Depot, Murree Hill</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">The Depot, Murree Hill</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -257,7 +254,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2010
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:06">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:42">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

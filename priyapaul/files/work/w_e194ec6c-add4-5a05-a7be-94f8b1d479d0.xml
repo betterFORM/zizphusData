@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna can be seen holding a flute in his right hand, standing between a cow and his constant female companion Radha. In the background, a forest can be seen as well as a scenic landscape with two women carrying something on their heads, pretty far away from the scenery.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,15 +32,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">published by Gobind Ram &amp; Ooday Ram, Jaipur.</text>
+				<text type="text" lang="eng">published by Gobind Ram &amp; Ooday Ram, Jaipur.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107952" type="corporate">HeidICON Image Database</name>
@@ -57,7 +57,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_981dbaa8-420e-5b67-bdc4-95dd535e9eca" refid="107952" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_981dbaa8-420e-5b67-bdc4-95dd535e9eca" refid="107952" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,7 +95,7 @@
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Krishna, his consort and cow</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Krishna, his consort and cow</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -123,7 +123,7 @@ published by Gobind Ram &amp; Ooday Ram, Jaipur.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:03">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:04">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

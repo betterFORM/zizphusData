@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A blonde little girl  in a red shirt stands close to a lake, a clouded but sunny blue sky behind her. She is looking at a family of ducks in front of her, smiling and holding her skirt up. It seems as if she feeds the ducks.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-af3618b2-0484-5e95-b722-cf114669106c">Abu-Er-Rub, Laila</name>
@@ -16,11 +16,11 @@
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122992" type="corporate">HeidICON Image Database</name>
@@ -37,7 +37,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_360fc170-2ad5-517f-9aee-940f77e472c8" refid="122992" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_360fc170-2ad5-517f-9aee-940f77e472c8" refid="122992" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -77,7 +77,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Girl at a lake</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Girl at a lake</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -145,7 +145,7 @@ Earlier title: A caucasian girl close to a lake, in a sample image of Empire Cal
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:40">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:28">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

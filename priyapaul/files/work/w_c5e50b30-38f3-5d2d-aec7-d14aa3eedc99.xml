@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This advertisement for Anant Shiwajee Desai shows a Hindu woman presenting kitchen utensils made of aliminum, copper, brass and silver.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
@@ -26,10 +32,10 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">See ASD our regd. trade mark</text>
+				<text type="text" lang="eng">See ASD our regd. trade mark</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">On every UTENSIL you buy of
+				<text type="text" lang="eng">On every UTENSIL you buy of
 aluminium
 copper
 brass
@@ -39,26 +45,26 @@ our
 guarantee</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">P. S.
+				<text type="text" lang="eng">P. S.
 A. S. D.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">R. B. Anant Shiwajee Desai
+				<text type="text" lang="eng">R. B. Anant Shiwajee Desai
 Topiwala
 Moti Basar, - - - Bombay, 2.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Printed at The Times of India Press, Bombay.
+				<text type="text" lang="eng">Printed at The Times of India Press, Bombay.
 Published by H. W. Smith, director, for the proprietors, Bennett, Coleman &amp; Co., Ltd. Bombay.
 13-1 and 13-2 Government Place East, Calcutta, London Agency; Salisbury Square House Fleet Street, F. C. 4.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119783" type="corporate">HeidICON Image Database</name>
@@ -75,7 +81,7 @@ Published by H. W. Smith, director, for the proprietors, Bennett, Coleman &amp; 
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b38ee84f-791c-569f-8200-980c01a613c8" refid="119783" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b38ee84f-791c-569f-8200-980c01a613c8" refid="119783" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -108,8 +114,14 @@ Published by H. W. Smith, director, for the proprietors, Bennett, Coleman &amp; 
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
 				<term type="concept">Hindu women</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3e48a957-0ac1-5322-9703-d135aebf8a78">
+				<term type="concept">silverware</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
 				<term type="concept">saris (garments)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
@@ -117,20 +129,17 @@ Published by H. W. Smith, director, for the proprietors, Bennett, Coleman &amp; 
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="99d14b1c-a2d2-5d4c-9214-45f9fdb4634a">
-				<term type="concept">brass</term>
+			<subject source="EXC" vocab="LOCAL" refid="8c4d0a66-e926-5983-b2c3-70456d42128b">
+				<term type="concept">brasswork (objects)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a3172f4b-0304-57b7-89ab-402e46ba93d9">
-				<term type="concept">kitchen equipment</term>
+				<term type="concept">kitchenware</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="34a693f0-7aa3-5507-8b46-77f466db975e">
-				<term type="concept">aluminium</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="5594f202-70e9-59bd-8ce6-7c615551ee89">
-				<term type="concept">silver</term>
+				<term type="concept">aluminum (metal)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c8de9484-9996-506a-9b88-bbec50a589fc">
-				<term type="concept">copper</term>
+				<term type="concept">copperwork</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
 				<term type="concept">black hair</term>
@@ -139,14 +148,14 @@ Published by H. W. Smith, director, for the proprietors, Bennett, Coleman &amp; 
 				<term type="work">Times of India Yearbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="34b4e563-6b21-5801-890c-9f3a90c35aef">
-				<term type="concept">pan</term>
+				<term type="concept">pans (containers)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Anant Shiwajee Desai utensils</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Anant Shiwajee Desai utensils</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -209,7 +218,7 @@ This advertisement for Anant Shiwajee Desai shows a Hindu woman presenting kitch
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

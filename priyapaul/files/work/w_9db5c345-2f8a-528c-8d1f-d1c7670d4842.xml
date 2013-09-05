@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this film poster for the movie &quot;Adam Khor&quot; from the year 1955, directed by Akkoo, two men can be seen fighting, one of them only wearing a cloth around his waist and grimacing in pain while the other one holds him down by his hair while clenching his other fist in readiness to hit him.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,28 +22,28 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Jungle Mighty
+				<text type="text" lang="eng">Jungle Mighty
 Thriller!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">PRADHAN
+				<text type="text" lang="eng">PRADHAN
 Productions'</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Adam Khor
+				<text type="text" lang="eng">Adam Khor
 Produced
 by
 G.M. PRADHAN</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Directed by
+				<text type="text" lang="eng">Directed by
 AKKOO</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Music by NISAR</text>
+				<text type="text" lang="eng">Music by NISAR</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">BABURAO * LALITA KUMARI
+				<text type="text" lang="eng">BABURAO * LALITA KUMARI
 SHAIKH * KESARI * MAQBOOL
 SHANTA PATEL * NEERA
 MUNSHI MUNAKA
@@ -51,11 +51,11 @@ NEETA ROY and HABIB</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120159" type="corporate">HeidICON Image Database</name>
@@ -69,7 +69,7 @@ NEETA ROY and HABIB</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_cabd3190-2169-5481-8e82-c6f0cda5a419" refid="120159" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_cabd3190-2169-5481-8e82-c6f0cda5a419" refid="120159" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -114,7 +114,7 @@ NEETA ROY and HABIB</text>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Adam Khor&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Adam Khor</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -204,7 +204,7 @@ http://www.gomolo.in/Movie/Movie.aspx?mid=2516 last accessed 2011-06-21, movie i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:38">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Krishna is depicted sitting atop a tree and playing his flute. Four gopis who are in the river are looking towards Krishna with folded hands holding a lotus flower as an offering. They are only wearing jewellery. Two gopis are sitting at the foot of the tree, one of them is touching Krishna's feet while the other is depicted with folded hands. The tree has the gopis' clothes hung over its branches. In the background, buildings can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,15 +31,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Archd. Orr Ewing &amp;  Co., Glasgow</text>
+				<text type="text" lang="eng">Archd. Orr Ewing &amp;  Co., Glasgow</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108711" type="corporate">HeidICON Image Database</name>
@@ -56,7 +56,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a9c5ce93-a2e5-57cc-9a92-f6be6843d60f" refid="108711" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a9c5ce93-a2e5-57cc-9a92-f6be6843d60f" refid="108711" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,7 +107,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of Archd. Orr Ewing &amp;  Co.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of Archd. Orr Ewing &amp;  Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -176,7 +176,7 @@ http://nitaaiveda.com/Compiled_and_Imp_Scriptures/Shrimad_Bhagavatam/Canto-10/Pa
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:18">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

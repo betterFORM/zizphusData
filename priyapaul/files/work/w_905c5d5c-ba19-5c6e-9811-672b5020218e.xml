@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Illustration in a calendar sample showing of Shakuntala, being helped by two of her friends to dress up with garlands of flowers in front of an ashram or hermitage. There is a deer standing by her side. In the distance we can see a richly dressed man, carrying a bow and an arrow arriving with a group of armed men. Trees and a few bushes can also be seen in the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -37,25 +37,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sakuntala
+				<text type="text" lang="eng">Sakuntala
 No. 473</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Banshi</text>
+				<text type="text" lang="eng">Banshi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">HAP [publisher's signet]</text>
+				<text type="text" lang="eng">HAP [publisher's signet]</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Banshi</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119353" type="corporate">HeidICON Image Database</name>
@@ -63,7 +63,7 @@ No. 473</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_e24ce972-34f1-54f1-bf69-6e8585e4c54d" refid="119353" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_e24ce972-34f1-54f1-bf69-6e8585e4c54d" refid="119353" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -104,7 +104,7 @@ No. 473</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sakuntala&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Sakuntala</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -151,7 +151,7 @@ Sakuntala is possibly a local spelling of Shakuntala. The ashram or hermitage po
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:50">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:35">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

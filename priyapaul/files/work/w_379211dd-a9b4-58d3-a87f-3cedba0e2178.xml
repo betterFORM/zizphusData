@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image from a sample calender poster catalogue of Empire Calender Manufacturing Co., Calcutta., depicts Rama and his wife Sita sitting together under a tree, as she points to draw his attention to something outside the frame. Sita and Rama are dressed in simple saffron clothes. Sita is wearing a flower garland and a bracelet while Rama wears a flower garland and arm-band. Rama carries a bow while a quiver full of arrows can be seen lying beside the couple. In the background a range of mountains and a lake can be seen as well as a house. The title literally translates to &quot;illusion&quot;.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -37,16 +37,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">MAYA
+				<text type="text" lang="eng">MAYA
 No. 513</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122952" type="corporate">HeidICON Image Database</name>
@@ -63,7 +63,7 @@ No. 513</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_64c8742b-95b8-55cd-bc58-fed292196327" refid="122952" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_64c8742b-95b8-55cd-bc58-fed292196327" refid="122952" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -77,6 +77,9 @@ No. 513</text>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
 				<term type="concept">mountains</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
 				<term type="concept">arrows</term>
@@ -105,9 +108,6 @@ No. 513</text>
 			<subject source="EXC" vocab="LOCAL" refid="5d4e5bb3-d17d-53c2-aa27-d2df5ae669f2">
 				<term type="concept">bracelets (jewelry)</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
 				<term type="internal workflow">recheck-problem</term>
 			</subject>
@@ -119,7 +119,7 @@ No. 513</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Maya&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Maya</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -163,7 +163,7 @@ The meaning of 'Maya' is illusion and here refers to the story in which Ravan, t
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:20">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:51">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

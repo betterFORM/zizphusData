@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1953</earliestDate>
+				<latestDate>1953</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Dilip Kumar and Nadira can be on the poster with Dilip Kumar standing in front of her, holding a knife in his left hand and holding Nadira close with his right arm as she kneels on the ground, looking up to him. In the background, a landscape with rocks and bare trees can be seen. On the lower left corner a sticker showing the film's title and logo of Mehboob productions was attached to the poster.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,18 +42,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">m
+				<text type="text" lang="eng">m
 present
 AAN [barely visible]
 MEHBOOB [barely visible]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120903" type="corporate">HeidICON Image Database</name>
@@ -58,7 +64,7 @@ MEHBOOB [barely visible]</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b6ec61e6-11d9-52b2-b4fd-65b2b11df48e" refid="120903" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b6ec61e6-11d9-52b2-b4fd-65b2b11df48e" refid="120903" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -113,14 +119,14 @@ MEHBOOB [barely visible]</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c60d3ba-4b3d-5d67-a0de-1215f21b9958">
-				<term type="work">Aan</term>
+				<term type="work">Aan (movie, 1953)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aan&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Aan</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -256,7 +262,7 @@ http://www.uiowa.edu/~incinema/Aan.html, note at &quot;philip'sfil-ums - notes o
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:48">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:34">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

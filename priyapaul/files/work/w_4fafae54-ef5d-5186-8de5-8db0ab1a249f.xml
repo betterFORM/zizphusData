@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this advertisement, a man wearing a suit can be seen holding a cup of steaming tea, ready to take a sip. In front of him on the table, there is a plate of biscuits served together with tea. He is wearing a watch on his left hand and has a handkerchief and a pen in the front pocket of his jacket.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -18,11 +18,11 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Special
+				<text type="text" lang="eng">Special
 Tea</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">No. H 2 (Copyright)
+				<text type="text" lang="eng">No. H 2 (Copyright)
 Commercial Art Publishing Company
 Mapla Mahal, Girgaon Road, Thakurdwar Naka, Bombay</text>
 			</inscription>
@@ -30,15 +30,15 @@ Mapla Mahal, Girgaon Road, Thakurdwar Naka, Bombay</text>
 				<text type="other">special lajjatdaar chaha</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">स्पेशल लज्जतदार चहा</text>
+				<text type="text" lang="hin">स्पेशल लज्जतदार चहा</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118552" type="corporate">HeidICON Image Database</name>
@@ -55,7 +55,7 @@ Mapla Mahal, Girgaon Road, Thakurdwar Naka, Bombay</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d4b0fe71-ff3d-5847-8a3f-77402af3602c" refid="118552" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d4b0fe71-ff3d-5847-8a3f-77402af3602c" refid="118552" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -108,8 +108,8 @@ Mapla Mahal, Girgaon Road, Thakurdwar Naka, Bombay</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Special Tea</title>
-			<title type="descriptive" pref="false" lang="" script="">स्पेशल लज्जतदार चहा</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Special Tea</title>
+			<title type="descriptive" pref="false">स्पेशल लज्जतदार चहा</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -310,7 +310,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>
