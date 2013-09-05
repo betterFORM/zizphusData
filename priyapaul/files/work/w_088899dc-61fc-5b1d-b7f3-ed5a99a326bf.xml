@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image is an advertisement for Mohan Lal Madan Lal Jewellers in Delhi. The illustration uses formations of groups of men to make the letters for the name of the jewellers and the word Delhi. The image is framed with an outline with roses drawn at the top corners and one above the word 'Delhi'.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -18,27 +18,27 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">PAINTER</text>
+				<text type="text" lang="eng">PAINTER</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">ML</text>
+				<text type="text" lang="eng">ML</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">देहली</text>
+				<text type="text" lang="hin">देहली</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">मोहन लाल  मदन लाल जोहरी</text>
+				<text type="text" lang="hin">मोहन लाल  मदन लाल जोहरी</text>
 			</inscription>
 			<inscription>
 				<text type="signature">M. L.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119075" type="corporate">HeidICON Image Database</name>
@@ -55,7 +55,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_989f0a93-3ced-5cbf-adb6-4a0147df2bcb" refid="119075" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_989f0a93-3ced-5cbf-adb6-4a0147df2bcb" refid="119075" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -78,9 +78,9 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">advertisement for Mohanlal  Madanlal Jeweller of Delhi</title>
-			<title type="descriptive" pref="false" lang="" script="">Mohan Lal Madan Lal Johri, Delhi</title>
-			<title type="descriptive" pref="false" lang="" script="">मोहन लाल  मदन लाल जोहरी देहली</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">advertisement for Mohanlal  Madanlal Jeweller of Delhi</title>
+			<title type="descriptive" pref="false">Mohan Lal Madan Lal Johri, Delhi</title>
+			<title type="descriptive" pref="false">मोहन लाल  मदन लाल जोहरी देहली</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
@@ -129,7 +129,7 @@ The image is an advertisement for Mohan Lal Madan Lal Jewellers in Delhi. The il
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:45">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

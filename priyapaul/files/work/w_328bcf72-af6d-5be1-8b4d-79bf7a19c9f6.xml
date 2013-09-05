@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1986</earliestDate>
+				<latestDate>1986</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the 1980s Hindi film &quot;Chambal ka Badash&quot;, an amusement park can be seen with one of the main actors, probably Danny Denzongpa, in the centre of a group of dancing people. In the background, a Ferris wheel can be seen as well.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,16 +38,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Chambal ka Badsha
+				<text type="text" lang="eng">Chambal ka Badsha
 [...] (not readable)</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120856" type="corporate">HeidICON Image Database</name>
@@ -52,7 +58,7 @@
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_67608b70-6e14-5c52-97a1-07ee7d2b6e22" refid="120856" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_67608b70-6e14-5c52-97a1-07ee7d2b6e22" refid="120856" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -84,17 +90,17 @@
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0ca6dd3f-4a15-504d-94ae-7948f87817da">
-				<term type="work (movie)">Chambal ka Badsha</term>
+				<term type="work (movie)">Chambal ka Badsha (movie, 1986)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="57b9541b-ff0c-53c3-959d-23fa1627b6a0">
-				<term type="concept">amusement park</term>
+				<term type="concept">amusement parks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Chambal ka Badshah&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Chambal ka Badshah</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -140,7 +146,7 @@ http://www.imdb.com/title/tt0440194/, last accessed 2011-12-03. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:09">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:19">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

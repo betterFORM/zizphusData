@@ -11,33 +11,39 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1940</earliestDate>
+				<latestDate>1940</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A Christmas poem in Persian composed by Osman Ali, the Nizam of Hyderabad, along with an English translation. Inside cover, Times of India Annual, 1940.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="fa">نوید مسیح</text>
+				<text type="text" lang="per">نوید مسیح</text>
 			</inscription>
 			<inscription>
 				<text type="other">&quot;Navid-e Masih&quot;, the promised arrival of the Messiah</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">English version of the Christmas Persian Poem composed by His Exalted Highness The Nizam Of Hyderabad and translated by
+				<text type="text" lang="eng">English version of the Christmas Persian Poem composed by His Exalted Highness The Nizam Of Hyderabad and translated by
 Sir Nizamat Jung, Ex-Member of Council</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119791" type="corporate">HeidICON Image Database</name>
@@ -54,7 +60,7 @@ Sir Nizamat Jung, Ex-Member of Council</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b71597c6-1193-5611-a470-13769bacee6c" refid="119791" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b71597c6-1193-5611-a470-13769bacee6c" refid="119791" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -115,9 +121,9 @@ Sir Nizamat Jung, Ex-Member of Council</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Christmas Persian Poem composed by the Nizam of Hyderabad</title>
-			<title type="descriptive" pref="false" lang="" script="">&quot;Navid-e Masih&quot;, the promised arrival of the Messiah</title>
-			<title type="descriptive" pref="false" lang="" script="">نوید مسیح</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Christmas Persian Poem composed by the Nizam of Hyderabad</title>
+			<title type="descriptive" pref="false">&quot;Navid-e Masih&quot;, the promised arrival of the Messiah</title>
+			<title type="descriptive" pref="false">نوید مسیح</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -225,7 +231,7 @@ Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim S
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:43">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

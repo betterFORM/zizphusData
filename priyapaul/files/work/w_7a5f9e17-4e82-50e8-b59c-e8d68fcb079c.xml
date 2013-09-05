@@ -17,12 +17,12 @@
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-81bcdb37-108a-5cbe-8caa-d7c392fabea7">Mehmood</name>
+				<name vocab="local" type="personal" refid="uuid-048f10a8-a5fe-5960-8e07-034bfe6fbd30">Ali, Mehmood</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A lobby card for the Hindi movie &quot;Amaanat&quot;, released in 1977 shows the actors Manoj Kumar and Mehmood laughing together. Both of them are wearing orange shirts, and Mehmood is wearing sunglasses as well.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,7 +36,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Shatrujit Films
+				<text type="text" lang="eng">Shatrujit Films
 Amaanat
 Eastmancolor
 Produced and directed by
@@ -51,15 +51,15 @@ Photography
 Dharam Chopra</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">अमानत</text>
+				<text type="text" lang="hin">अमानत</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119034" type="corporate">HeidICON Image Database</name>
@@ -109,15 +109,15 @@ Dharam Chopra</text>
 				<term type="concept">sunglasses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1cfe2f4f-e047-501f-8d28-03237ef4bd2d">
-				<term type="work (fim)">Amaanat</term>
+				<term type="work (fim)">Amaanat (movie, 1977)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Amaanat&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">अमानत</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Amaanat</title>
+			<title type="descriptive" pref="false">अमानत</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -212,7 +212,7 @@ http://www.imdb.com/title/tt0072632/, last accessed 2011-12-15, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:58">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

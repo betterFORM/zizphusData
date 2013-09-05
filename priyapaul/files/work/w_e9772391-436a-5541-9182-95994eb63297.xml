@@ -31,8 +31,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1951</earliestDate>
+				<latestDate>1951</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This color-tinted movie poster for the Hindi film &quot;Deedar&quot;, released in 1951, shows two of the main actors, Dilip Kumar and Nargis,standing next to each other. They are smiling at each other. She is wearing a sari while Dilip Kumar is wearing a kurta with a vest over it.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -46,7 +52,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">filmkar Ltd.
+				<text type="text" lang="eng">filmkar Ltd.
 Deedar
 Directed by Nitin Bose
 Music Naushad
@@ -54,15 +60,15 @@ Produced by Rajendra Jain
 Shangri-la</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">दीदार</text>
+				<text type="text" lang="hin">दीदार</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120847" type="corporate">HeidICON Image Database</name>
@@ -73,7 +79,7 @@ Shangri-la</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b16f7f8f-2371-5d82-8339-35073adb42e6" refid="120847" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b16f7f8f-2371-5d82-8339-35073adb42e6" refid="120847" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -114,15 +120,15 @@ Shangri-la</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bf4e2e50-1e99-544b-b5c9-34a197964afb">
-				<term type="work (movie)">Deedar</term>
+				<term type="work (movie)">Deedar (movie, 1951)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Deedar&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">दीदार</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Deedar</title>
+			<title type="descriptive" pref="false">दीदार</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -192,7 +198,7 @@ http://www.imdb.com/title/tt0137459/, last accessed 2011-12-05, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:43">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:39">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

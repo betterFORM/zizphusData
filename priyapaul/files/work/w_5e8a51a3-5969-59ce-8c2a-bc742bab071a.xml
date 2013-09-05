@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image depicts Ferhad dreaming of his beloved Shirin leaning against a marble sculpture of a kneeling arm-less angel with wings. In the centre of the image Princess Shirin is depicted wearing a nose ring and jewellery. In the background a desert landscape with a camel can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,33 +32,33 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Ajanta Art Calendar MFG. Co.
+				<text type="text" lang="eng">Ajanta Art Calendar MFG. Co.
 17, Godown Street, P.B. No. 255
 M A D R A S - 1</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copyright Reserved</text>
+				<text type="text" lang="eng">Copyright Reserved</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">666
+				<text type="text" lang="eng">666
 Shirin Ferhad (1)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ajanta Art Calendar MFG. Co.
+				<text type="text" lang="eng">Ajanta Art Calendar MFG. Co.
 12, Lower Chitpur Road, 1st Floor, P. B. No. 962
 Room No. FF2 EAST, 
 C A L C U T T A - 1</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ajanta Art Calender Mfg. Co., Madras</text>
+				<text type="text" lang="eng">Ajanta Art Calender Mfg. Co., Madras</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109970" type="corporate">HeidICON Image Database</name>
@@ -75,7 +75,7 @@ C A L C U T T A - 1</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_124d83ab-8de7-54e1-a207-068fbaeff121" refid="109970" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_124d83ab-8de7-54e1-a207-068fbaeff121" refid="109970" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -147,7 +147,7 @@ C A L C U T T A - 1</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Shirin Ferhad&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Shirin Ferhad</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -253,7 +253,7 @@ Such was his grief that he cut his head with the sharp taysha (spade) and died u
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:23">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

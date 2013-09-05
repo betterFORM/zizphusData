@@ -7,27 +7,27 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A woman is leaning against a window. Behind her one can see a decorated wall. The white sari with a red border is typically Bengali. There is also an Indian fort or palace in the background outside the window.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Nassur Hajee Mowjee &amp; Co.
+				<text type="text" lang="eng">Nassur Hajee Mowjee &amp; Co.
 Bombay.
 Made in Japan</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109744" type="corporate">HeidICON Image Database</name>
@@ -44,7 +44,7 @@ Made in Japan</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_5bfc396f-4194-52ca-9b38-9296864006b4" refid="109744" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_5bfc396f-4194-52ca-9b38-9296864006b4" refid="109744" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -88,7 +88,7 @@ Made in Japan</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of Nassur Hajee Mowjee &amp; Co. Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of Nassur Hajee Mowjee &amp; Co. Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -132,7 +132,7 @@ A woman is leaning against a window. Behind her one can see a decorated wall. Th
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:30">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:37">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this sample image of a calender poster of the Oriental Calender Manufacturing Ltd., Calcutta a couple with the man dressed in a Nehru jacket and the woman dressed in a sari look at fabric in a shop while a shop keeper who looks like Mohandas K. Gandhi indicates the good quality of the garment they are interested in by putting thumb and pointer finger together and smiling. In the rear of the shop there are more customers: an old man wearing turban with a small girl and a woman in a sari with a small boy trying to catch the attention of the salesman. Two salesmen serve them. A guard sits at the entrance while a large car passes by on the street outside. On the opposite side another shop can be seen. A signet of the Oriental Calendar Company can be seen on the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0">Brosius, Christiane</name>
@@ -26,16 +26,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Oriental Calendar - Calcutta-14
+				<text type="text" lang="eng">Oriental Calendar - Calcutta-14
 OCMCO [publisher's signet]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/123021" type="corporate">HeidICON Image Database</name>
@@ -52,7 +52,7 @@ OCMCO [publisher's signet]</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_85b547ee-78f9-5fd6-a8a8-298741a5856f" refid="123021" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_85b547ee-78f9-5fd6-a8a8-298741a5856f" refid="123021" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -120,7 +120,7 @@ OCMCO [publisher's signet]</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Shoppers At A Garment Shop</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Shoppers At A Garment Shop</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -147,7 +147,7 @@ In this sample image of a calender poster of the Oriental Calender Manufacturing
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:03">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

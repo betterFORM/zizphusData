@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The Hindu goddess Durga can be seen standing in front of a lion. Both Durga and the lion have illustrations of various gods such as Hanuman, Shiva, Ganesh on them. Durga is depicted with eight hands holding weapons such as a bow, sword, trident, chakra (wheel) and a mace (gada). In the background a waterfall and a forest can be seen. The words 'Maja agarbatti' suggests that the image is an advertisement for Maja brand of incense sticks.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,16 +27,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">माजा 
+				<text type="text" lang="hin">माजा 
 अगरबत्ती</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118992" type="corporate">HeidICON Image Database</name>
@@ -53,7 +53,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a4a34f99-d58e-54b6-ba11-c785ad864486" refid="118992" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a4a34f99-d58e-54b6-ba11-c785ad864486" refid="118992" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -76,6 +76,9 @@
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="691f9bd9-9cb7-584c-9489-db876ed9c2cb">
 				<term type="concept">weapons</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+				<term type="worktype">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
 				<term type="concept">bows (weapons)</term>
@@ -103,7 +106,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Goddess Durga</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Goddess Durga</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -150,7 +153,7 @@ The Hindu goddess Durga can be seen standing in front of a lion. Both Durga and 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:32">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

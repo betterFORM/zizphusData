@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An image with the title &quot;Laxmi Puja&quot; from a catalogue of the Empire Calender Manufacturing Co., depicts the Hindu deities Lakshmi and Ganesha. Lakshmi is depicted with four hands, two holding lotus flowers and one raining down gold coins. Ganesha is also depicted with four hands and is sitting on a throne. In front of him, there are various plates of offerings and burning incense sticks. Two elephants can be seen in the image, one sitting on a lotus flower with several accessories such as flowers and sweets. In the background, another elephant can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -37,10 +37,10 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">M. L. Sharma</text>
+				<text type="text" lang="eng">M. L. Sharma</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">LAXMI PUJA
+				<text type="text" lang="eng">LAXMI PUJA
 No. 678</text>
 			</inscription>
 			<inscription>
@@ -48,11 +48,11 @@ No. 678</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109999" type="corporate">HeidICON Image Database</name>
@@ -69,7 +69,7 @@ No. 678</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_572095a7-5ff2-55f5-b4a2-c7e40e86a4d2" refid="109999" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_572095a7-5ff2-55f5-b4a2-c7e40e86a4d2" refid="109999" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -89,6 +89,9 @@ No. 678</text>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
 				<term type="concept">deities</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
 				<term type="concept">glories</term>
@@ -123,9 +126,6 @@ No. 678</text>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
 				<term type="internal workflow">checked</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c45320ba-9b41-5ec3-adc7-961be4e63714">
 				<term type="concept">incense sticks</term>
 			</subject>
@@ -140,7 +140,7 @@ No. 678</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Laxmi Puja&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Laxmi Puja</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -177,7 +177,7 @@ An image with the title &quot;Laxmi Puja&quot; from a catalogue of the Empire Ca
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:49">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

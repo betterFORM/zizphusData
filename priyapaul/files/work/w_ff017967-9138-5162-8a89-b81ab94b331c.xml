@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this poster for the 1976 released Hindi film &quot;Adalat&quot; , a mid close up of Amitabh Bachchan with a revolver in his hand is pictured.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,17 +22,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Amitabh Bachchan
+				<text type="text" lang="eng">Amitabh Bachchan
 Directed by: Narendra Bedi
 Music by: Kalyanji Anandji</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119022" type="corporate">HeidICON Image Database</name>
@@ -46,7 +46,7 @@ Music by: Kalyanji Anandji</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_6a753c98-3bdf-584b-bdb4-67b21f107d5c" refid="119022" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_6a753c98-3bdf-584b-bdb4-67b21f107d5c" refid="119022" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -85,7 +85,7 @@ Music by: Kalyanji Anandji</text>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Adalat&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Adalat</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -165,7 +165,7 @@ Copied from http://www.imdb.com/title/tt0075632/, last accessed 2012-08-13.</ext
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:10">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

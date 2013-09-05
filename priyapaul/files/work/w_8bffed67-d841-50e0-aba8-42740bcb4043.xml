@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A portrait of Rabindranath Tagore against the backdrop of a globe, publiches by Print &amp; Block Concern, Calcuttal.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,27 +32,27 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Print &amp; Block Concern, Calcutta-7.</text>
+				<text type="text" lang="eng">Print &amp; Block Concern, Calcutta-7.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Rabindranath Tagore</text>
+				<text type="text" lang="eng">Rabindranath Tagore</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copy Right Reserved No. 122</text>
+				<text type="text" lang="eng">Copy Right Reserved No. 122</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Dhirey das</text>
+				<text type="text" lang="eng">Dhirey das</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Dhirey das</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106134" type="corporate">HeidICON Image Database</name>
@@ -69,7 +69,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_bdfabf84-5047-5791-abe8-3d88468ae00c" refid="106134" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_bdfabf84-5047-5791-abe8-3d88468ae00c" refid="106134" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -97,7 +97,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Rabindranath Tagore</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Rabindranath Tagore</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -221,7 +221,7 @@ Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Refl
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:23">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:43">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

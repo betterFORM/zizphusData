@@ -21,18 +21,24 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This 1941 Calendar poster by Su Hsuan Tsa Picture Printing Co. shows Chiang Kai-shek together with He Yingqin and Wang Jingwei supervising a military parade. In the forground, soldiers holding the flag of the Republic of China with &quot;National Military Council&quot; written on it, are marching towards a group of officers. Behind the leaders, heavy milityra weapons are depicted, showing tanks, machine guns, grenade throwers, and artillery. in the background, a huge army parades through the image towards the right, following cavallery troops and numerous tanks. behind them a rows of plains are alined, prepared for lift-off. Many plains aof various types are shown flying in the air. One of the plains is writing characters in the air. The image is signed.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="ch">國民政府軍委員會</text>
+				<text type="text" lang="cha">國民政府軍委員會</text>
 			</inscription>
 			<inscription>
 				<text type="other">Guomin zhengfu jun weiyuanhui</text>
@@ -41,21 +47,21 @@
 				<text type="translation">National Military Council</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ch">上海四馬路二七八號素絢齋畫片印刷公司出品</text>
+				<text type="text" lang="cha">上海四馬路二七八號素絢齋畫片印刷公司出品</text>
 			</inscription>
 			<inscription>
 				<text type="other">Shanghai Simalu erqiba hao Su Xuan Zhai huapin yinshua gongsi chupin</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Published by  Su Hsuan Tsa Picture Printing Co., 278 Foochow Road Shanghai</text>
+				<text type="text" lang="eng">Published by  Su Hsuan Tsa Picture Printing Co., 278 Foochow Road Shanghai</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119259" type="corporate">HeidICON Image Database</name>
@@ -124,7 +130,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Step orderly&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Step orderly</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -210,7 +216,7 @@ on the flag one character (shi 事) is missing from the full &quot;National Mili
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:56">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

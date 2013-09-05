@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1952</earliestDate>
+				<latestDate>1952</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna is depicted sitting by a pond, in which waterlilies grow and swans swim. He is playing his flute while Radha is standing over him and draping a flower garland around his neck. A small rivulet flows to the pond and is surrounded by a scenic meadow with flowers and trees. Around the main image are several other images and the image is titled &quot;Ciba Dyes&quot;.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -37,17 +43,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Ciba Dyes Limited.
+				<text type="text" lang="eng">Ciba Dyes Limited.
 Sole Distributors in India for the Dyes &amp; Chemicals of
 Ciba Limited Basle (Switzerland)</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118465" type="corporate">HeidICON Image Database</name>
@@ -64,12 +70,12 @@ Ciba Limited Basle (Switzerland)</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_67309956-acad-591b-b14b-10ef9fbe6b06" refid="118465" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_67309956-acad-591b-b14b-10ef9fbe6b06" refid="118465" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_37582d1b-7af9-5d0b-8e77-83f4b047bef9" refid="118467" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_abb38d05-df4c-5a86-8d80-42f63061d508" refid="118470" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_6a74573b-16e4-57d3-a06a-214cab9f81ca" refid="118471" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_bc673a8a-e292-5a43-bae4-067e04e530ea" refid="118474" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_a5b375de-9cec-56ef-8603-add214ff92b1" refid="118473" source="EXC Priya Paul Collection">close-up view</relation>
-			<relation type="imageIs" relids="i_abb38d05-df4c-5a86-8d80-42f63061d508" refid="118470" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_63da6add-2417-5d92-b305-1522ec203e7a" refid="118469" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_8eaac7f7-e130-5a52-b8f3-634408017136" refid="118468" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_9d876b2c-816c-5c82-89ba-a866bcc80cc8" refid="118472" source="EXC Priya Paul Collection">detail view</relation>
@@ -84,6 +90,9 @@ Ciba Limited Basle (Switzerland)</text>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
 				<term type="concept">flowers (plants)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
 				<term type="animal">swans</term>
@@ -106,9 +115,6 @@ Ciba Limited Basle (Switzerland)</text>
 			<subject source="EXC" vocab="LOCAL" refid="4dee7143-913a-546d-b30b-e1ab98f1a0b3">
 				<term type="concept">water lilies (plants)</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a0f3e68b-1bc1-5b2b-940b-d970f99d9de5">
 				<term type="concept">ponds (water)</term>
 			</subject>
@@ -123,7 +129,7 @@ Ciba Limited Basle (Switzerland)</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1952 Advertisement calendar for Ciba Dyes Limited</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1952 Advertisement calendar for Ciba Dyes Limited</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -152,6 +158,11 @@ Lord Krishna is depicted sitting by a pond, in which waterlilies grow and swans 
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118470</ext:value>
+				<ext:value>i_abb38d05-df4c-5a86-8d80-42f63061d508</ext:value>
+				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118471</ext:value>
 				<ext:value>i_6a74573b-16e4-57d3-a06a-214cab9f81ca</ext:value>
 				<ext:value>detail view</ext:value>
@@ -164,11 +175,6 @@ Lord Krishna is depicted sitting by a pond, in which waterlilies grow and swans 
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118473</ext:value>
 				<ext:value>i_a5b375de-9cec-56ef-8603-add214ff92b1</ext:value>
-				<ext:value>close-up view</ext:value>
-			</ext:item>
-			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118470</ext:value>
-				<ext:value>i_abb38d05-df4c-5a86-8d80-42f63061d508</ext:value>
 				<ext:value>close-up view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -199,7 +205,7 @@ Lord Krishna is depicted sitting by a pond, in which waterlilies grow and swans 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:59">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1945</earliestDate>
+				<latestDate>1945</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows the interior of a richly decorated room with a chandelier hanging from the ceiling and a couple seated on an elevated platform. A girl wearing a bustier and skirt dances in front of the couple while other girls lounge on cushions on the floor around her. Low tables holding fruits and containers can also be seen. A woman stands to the left of the image with her head draped and holding a tray.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -18,29 +24,29 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Hind Pictures present
+				<text type="text" lang="eng">Hind Pictures present
 Laila Majnu
 1. Bengal Film release.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="fa">لیلی مجنون</text>
+				<text type="text" lang="per">لیلی مجنون</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Starring
+				<text type="text" lang="eng">Starring
 Swarnalata
 Nazir 
 and Gope.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Bengal Films Exchange, Calcutta. [stamp on backside? (ja)]</text>
+				<text type="text" lang="eng">Bengal Films Exchange, Calcutta. [stamp on backside? (ja)]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120796" type="corporate">HeidICON Image Database</name>
@@ -57,7 +63,7 @@ and Gope.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a76168cd-32ac-5dc7-b85e-fb4c00123968" refid="120796" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a76168cd-32ac-5dc7-b85e-fb4c00123968" refid="120796" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -97,8 +103,8 @@ and Gope.</text>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Laila Majnu (Dance Scene)</title>
-			<title type="descriptive" pref="false" lang="" script="">لیلی مجنون लैला मजनु</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Laila Majnu (Dance Scene)</title>
+			<title type="descriptive" pref="false">لیلی مجنون लैला मजनु</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -191,7 +197,7 @@ actors: Swarnalata, Nazir Ahmed Khan</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:28">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

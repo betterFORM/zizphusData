@@ -5,9 +5,14 @@
 				<name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-f41ddc5c-e35e-5240-bc7b-d3b15aa4a21a">Kaka Fireworks Factory</name>
+				<role vocab="marcrelator" type="code">cli</role>
+  			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows a woman reclining against cushions, as she lies on a carpet on the floor. She is dressed in a strapless dress, and holds a lit sparkler in her left hand. There is a potted plant in the left corner of the image. In the background, the ocean and the sky can be seen. To the right of the image, the trademark and details of the company can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -17,7 +22,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Manufactured by
+				<text type="text" lang="eng">Manufactured by
 KAKA FIRE-WORKS
 FACTORY
 Trademark
@@ -25,18 +30,18 @@ Mohammedbhoy Abdulhusen &amp; Co.
 BOMBAY</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">KAKA
+				<text type="text" lang="eng">KAKA
 ELECTRIC
 SPARKLERS
 Made in [...]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120631" type="corporate">HeidICON Image Database</name>
@@ -53,7 +58,7 @@ Made in [...]</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_ac189cec-b667-5c2e-ba06-faf4ab9e112e" refid="120631" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_ac189cec-b667-5c2e-ba06-faf4ab9e112e" refid="120631" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -62,11 +67,11 @@ Made in [...]</text>
 			</rights>
 		</rightsSet>
 		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="27564901-d325-5e23-8ae1-2116b50931b3">
+				<term type="concept">seas</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="462d8005-fd6f-5a19-a9fd-ca97e334e87e">
 				<term type="concept">sky</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term type="concept">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
@@ -87,20 +92,17 @@ Made in [...]</text>
 				<term type="internal workflow">recheck-Sri</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6493cb4-6a3a-5249-a624-4afcbd67de1a">
-				<term type="concept">fireworks</term>
+				<term type="concept">fireworks (explosive equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3924e6b3-c3ce-51e8-a54b-ad38cbcb81c1">
-				<term type="concept">sparkler</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="f41ddc5c-e35e-5240-bc7b-d3b15aa4a21a">
-				<term type="???">Kaka Fireworks Factory</term>
+				<term type="concept">sparklers</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Kaka Electric Sparklers</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Kaka Electric Sparklers</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -152,7 +154,7 @@ Made in [...]</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:15">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

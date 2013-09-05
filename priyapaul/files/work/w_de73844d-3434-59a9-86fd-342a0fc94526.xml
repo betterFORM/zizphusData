@@ -32,7 +32,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The poster &quot;Maya Mrig&quot; from a catalogue of the Empire Calender Manufacturing Co., depicts Lord Rama with a bow and his wife Sita as she points at a deer. The title literally translates to &quot;illusory deer&quot;. The poster also indicates that the king and his wife are shown while being exiled to the forest as they wear simple clothes. Sita is also wearing a flower garland around her neck and a bracelet made of flowers around her wrist. A peacock is standing next to the couple.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -42,22 +42,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">MAYA MRIG
+				<text type="text" lang="eng">MAYA MRIG
 No. 654</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">M. L. Sharma</text>
+				<text type="text" lang="eng">M. L. Sharma</text>
 			</inscription>
 			<inscription>
 				<text type="signature">M. L. Sharma</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119455" type="corporate">HeidICON Image Database</name>
@@ -74,7 +74,7 @@ No. 654</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7c950bef-5901-59c3-b2ee-3d945ccadd10" refid="119455" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7c950bef-5901-59c3-b2ee-3d945ccadd10" refid="119455" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -85,6 +85,9 @@ No. 654</text>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
 				<term type="concept">flowers (plants)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
 				<term type="concept">Hinduism</term>
@@ -119,9 +122,6 @@ No. 654</text>
 			<subject source="EXC" vocab="LOCAL" refid="5d4e5bb3-d17d-53c2-aa27-d2df5ae669f2">
 				<term type="concept">bracelets (jewelry)</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
 				<term type="internal workflow">recheck-problem</term>
 			</subject>
@@ -133,7 +133,7 @@ No. 654</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Maya Mrig&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Maya Mrig</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -184,7 +184,7 @@ The image refers to a story in which Ravana, the king of Lanka, enraptured by Si
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:26">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:52">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

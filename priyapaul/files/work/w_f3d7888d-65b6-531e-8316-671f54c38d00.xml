@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A postcard is stamped in red with Eid greetings and an Urdu couplet referring to the cheering up of Muslims’ hearts and the fulfilling of their prayers.  The postcard shows also a sailing ship, a bunch of flowers and a fountain. The card may have originally been produced for distribution on board ships, although its reverse side is completely blank. Unused, circa 1930, publisher unknown.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-0fa63dfc-fbb1-5698-9896-cce0c0ac1c2b">Saeed, Yousuf</name>
@@ -17,7 +17,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="ur">عید مبارک ، عید آی ہے ہوے مومنوں کے قلب شاد</text>
+				<text type="text" lang="urd">عید مبارک ، عید آی ہے ہوے مومنوں کے قلب شاد</text>
 			</inscription>
 			<inscription>
 				<text type="other">Eid Mubarak, Eid ayi hai, hue sab mominon ke qalb shad, Fazl-e-haq se aaj bar aai har ik dil ki murad; Aap ko bhi ho mubarak ye khushi ye jashn-e-Eid; Ien dua-e-raqim-e-khasta jigar maqbul baad.</text>
@@ -27,11 +27,11 @@
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108134" type="corporate">HeidICON Image Database</name>
@@ -104,17 +104,17 @@
 				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="405ed958-4af1-50a6-8f1a-a37f375ef6c9">
-				<term type="concept">bouquet</term>
+				<term type="concept">bouquets</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cedec7f-30ff-5240-8107-7829ee512735">
-				<term type="concept">eid card</term>
+				<term type="concept">Eid cards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Eid greeting card depicting a sailing steamer</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Eid greeting card depicting a sailing steamer</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">greeting cards</worktype>
@@ -240,7 +240,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/117/index_1.html, last accessed 20
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

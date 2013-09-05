@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this poster, a family can be seen enjoying together at their well furnished house. The Mother is sitting on a couch, reading a magazine, while father is sitting next to her, slightly elevated, smoking a cigarette. Close to the couch, a boy and a girl can be seen, sitting on the ground and chatting with each other.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,15 +22,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">324</text>
+				<text type="text" lang="eng">324</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119916" type="corporate">HeidICON Image Database</name>
@@ -47,7 +47,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d712fa91-601a-50dd-b367-491b1fd0ca7c" refid="119916" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d712fa91-601a-50dd-b367-491b1fd0ca7c" refid="119916" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -114,7 +114,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Family scene</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Family scene</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -337,7 +337,7 @@ Uberoi, Patricia 2003. â€œChicks, Kids and Couples: The Nation in Calendar Art,â
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:47">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:29">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

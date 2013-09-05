@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The poster from the Ajanta Art Calender Mfg. Co. Madras depicts a smiling Jawaharlal Nehru, the first Prime Minister of independent India, sitting in a chair with a statue of Buddha behind him. He is wearing his trademark attire of a Nehru jacket, a cap and a red rose in his lapel. He also wears a watch and two pens are tucked into his front pocket.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,29 +32,29 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">AJANTA ART CALENDAR MFG. Co.
+				<text type="text" lang="eng">AJANTA ART CALENDAR MFG. Co.
 17, GODOWN STREET, P. B. No. 255
 MADRAS-1</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copyright Reserved</text>
+				<text type="text" lang="eng">Copyright Reserved</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">No. 644
+				<text type="text" lang="eng">No. 644
 Nehru with Buddha</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">AJANTA ART CALENDAR MFG. CO.
+				<text type="text" lang="eng">AJANTA ART CALENDAR MFG. CO.
 12, Lower Chitpur Road, 1st Floor, P. B. No. 962
 Room No. FF2 EAST, CALCUTTA-1</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109734" type="corporate">HeidICON Image Database</name>
@@ -71,7 +71,7 @@ Room No. FF2 EAST, CALCUTTA-1</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_e8ade656-5a82-5433-b264-d011c87a3c9c" refid="109734" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_e8ade656-5a82-5433-b264-d011c87a3c9c" refid="109734" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -118,7 +118,7 @@ Room No. FF2 EAST, CALCUTTA-1</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Nehru with Buddha&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Nehru with Buddha</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -188,7 +188,7 @@ Quality issue: image poorly stitched (Nehrus left hand and title).() (tb)</ext:v
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:08">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

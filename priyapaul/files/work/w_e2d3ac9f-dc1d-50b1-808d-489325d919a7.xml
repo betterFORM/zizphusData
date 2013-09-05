@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for surma (kohl), a woman is applying kohl in her eyes. She is wearing jewellery and a blue sari. The advertised product is shown in the lower right section of the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,11 +21,11 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Alluring
+				<text type="text" lang="eng">Alluring
 Eyes!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">with
+				<text type="text" lang="eng">with
 Datoo Manjee
 Real Pearl's
 SURMA
@@ -35,11 +35,11 @@ add text here</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119833" type="corporate">HeidICON Image Database</name>
@@ -47,7 +47,7 @@ add text here</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_db57bc52-25fb-5722-a34b-94272dfd8858" refid="119833" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_db57bc52-25fb-5722-a34b-94272dfd8858" refid="119833" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -106,7 +106,7 @@ add text here</text>
 				<term type="brand">Surma</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b9fd403e-c486-5edf-afbf-f020774fc7c8">
-				<term type="concept">kohl (cosmetics)</term>
+				<term type="concept">kohl</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="20fb45d1-c582-5b02-90e7-19fc89df5218">
 				<term type="internal workflow">recheck-Tony</term>
@@ -119,7 +119,7 @@ add text here</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Real Pearl's Surma</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Real Pearl's Surma</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -198,7 +198,7 @@ Source: Wikipedia</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:58">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:18">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

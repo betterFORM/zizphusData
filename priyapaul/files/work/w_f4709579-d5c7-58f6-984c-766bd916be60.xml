@@ -31,8 +31,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1961</earliestDate>
+				<latestDate>1961</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Kartikeya or Subrahmanya is depicted as a child amidst clouds, holding a lance in his left hand, and with his mount, a peacock, beside him. Beneath him, a landscape with a temple, mountains and some palm trees is depicted. Beneath there are three images, two of them depicting houses, a temple and a colonial building, the third one shows a young ascetic with a bow in his left hand and a quiver of arrows across his back.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -51,57 +57,57 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Phone No. 754</text>
+				<text type="text" lang="eng">Phone No. 754</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">P. Ramaswamy</text>
+				<text type="text" lang="eng">P. Ramaswamy</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Woriur - Tiruchirapalli - 3.
+				<text type="text" lang="eng">Woriur - Tiruchirapalli - 3.
 Established - 1942</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Telegrams: Peeyar</text>
+				<text type="text" lang="eng">Telegrams: Peeyar</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">1961 [left &amp; right side]</text>
+				<text type="text" lang="eng">1961 [left &amp; right side]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">With the
+				<text type="text" lang="eng">With the
 Compliments
 of
 P. Ramaswamy. Woriur. [stamp on the painting]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">C. Kondiah Raja
+				<text type="text" lang="eng">C. Kondiah Raja
 M. Ramalingam. [artists' signature]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">100s cotton sarees
+				<text type="text" lang="eng">100s cotton sarees
 and silk sarees in all
 guaranteed colours and
 new designs are manufactured
 in our own hand-looms.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">P. Ramaswamy</text>
+				<text type="text" lang="eng">P. Ramaswamy</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Manufacturers of fine cotton hand-loom sarees</text>
+				<text type="text" lang="eng">Manufacturers of fine cotton hand-loom sarees</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Post box no. 202, Woriur, Tiruchirapalli-3.
+				<text type="text" lang="eng">Post box no. 202, Woriur, Tiruchirapalli-3.
 (South India.)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">All yarns
+				<text type="text" lang="eng">All yarns
 used in our sarees
 are dyed in  guaranteed
 fast colours in our own
 dyeing factory</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ta">ADD TEXT HERE</text>
+				<text type="text" lang="tam">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
 				<text type="signature">C. Kondiah Raju</text>
@@ -111,11 +117,11 @@ dyeing factory</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118955" type="corporate">HeidICON Image Database</name>
@@ -132,7 +138,7 @@ dyeing factory</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_e9b9d108-f8bb-589b-8a45-a2a05e15479e" refid="118955" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_e9b9d108-f8bb-589b-8a45-a2a05e15479e" refid="118955" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -206,7 +212,7 @@ dyeing factory</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar advertisement for &quot;P. Ramaswamy&quot;</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Calendar advertisement for &quot;P. Ramaswamy&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -284,7 +290,7 @@ Kartikeya or Subrahmanya is depicted as a child amidst clouds, holding a lance i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:58">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

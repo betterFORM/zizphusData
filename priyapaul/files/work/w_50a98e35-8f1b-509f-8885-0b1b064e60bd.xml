@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A snow-covered landscape with several houses, trees, snow and a full moon, in an Eid greeting card. The Urdu text reads: &quot;Assalamo alaikum, Eid Mubarak!&quot;</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,13 +17,13 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="ur">السلام علیکُم عید مبارک</text>
+				<text type="text" lang="urd">السلام علیکُم عید مبارک</text>
 			</inscription>
 			<inscription>
 				<text type="other">Assalamo alaikum, Eid mubarak</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">برادر مکرم و معظّم جناب شفیق الدین صاحب السلام علیکم عید مبارک - آپ تو بالکل خاموش رہتے ہیں . کبھی کبھار  اپنی اور گھر کی خیریت سے اطلاع   دیدیا کریں - میری طرف سے بھابھی صاحبہ اور شفیع الدین کو سلام دیں - قبلہ والدہ صاحبہ اور والد صاحب کو سلام . سمیع الدین کو دعا . فقط رفیق الدین</text>
+				<text type="text" lang="urd">برادر مکرم و معظّم جناب شفیق الدین صاحب السلام علیکم عید مبارک - آپ تو بالکل خاموش رہتے ہیں . کبھی کبھار  اپنی اور گھر کی خیریت سے اطلاع   دیدیا کریں - میری طرف سے بھابھی صاحبہ اور شفیع الدین کو سلام دیں - قبلہ والدہ صاحبہ اور والد صاحب کو سلام . سمیع الدین کو دعا . فقط رفیق الدین</text>
 			</inscription>
 			<inscription>
 				<text type="other">Biradar-e-mokarram wa mo'azzam janab Shafiquddin sahib, Assalamo alaikum, Eid Mubarak! Aap to bilkul khamosh rahte hain, kabhi kabhar apni aur ghar ki khairiyat se ittila de diya karen. Meri taraf se bhabhi sahiba aur Shafiuddin ko salam den. Qibla walida saheba aur walid saheb ko salam. Samiuddin ko dua. Faqat, Rafiquddin.</text>
@@ -33,11 +33,11 @@
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108128" type="corporate">HeidICON Image Database</name>
@@ -109,7 +109,7 @@
 				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cedec7f-30ff-5240-8107-7829ee512735">
-				<term type="concept">eid card</term>
+				<term type="concept">Eid cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ad8ac460-e103-5600-8848-974fa0fd2a1a">
 				<term type="concept">feast days</term>
@@ -119,9 +119,9 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Assalamo alaikum, Eid Mubarak&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Assalamo alaikum, Eid Mubarak</title>
-			<title type="descriptive" pref="false" lang="" script="">السلام علیکُم عید مبارک</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Assalamo alaikum, Eid Mubarak</title>
+			<title type="descriptive" pref="false">Assalamo alaikum, Eid Mubarak</title>
+			<title type="descriptive" pref="false">السلام علیکُم عید مبارک</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -281,7 +281,7 @@ Wehbe, Rana, Seeing Beirut through Colonial Postcards: A Charged Reality, (undat
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:22">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:04">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

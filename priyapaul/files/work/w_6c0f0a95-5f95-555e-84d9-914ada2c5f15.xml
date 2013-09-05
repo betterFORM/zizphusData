@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1906</earliestDate>
+				<latestDate>1906</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this picture postcard, the Swedish town Trelleborg can be seen. The lower section hosts a written message in Englih. The postcard is dated March 13, 1906.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,15 +23,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="sw">Kontinentgatan/Trelleborg,</text>
+				<text type="text" lang="swa">Kontinentgatan/Trelleborg,</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109773" type="corporate">HeidICON Image Database</name>
@@ -65,14 +71,14 @@
 				<term type="concept">Made in Sweden</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3606d2bd-a29a-5124-a6c6-efa79b5af9bf">
-				<term type="concept">communication</term>
+				<term type="concept">communication (function)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Kontinentgatan I Trelleboro</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Kontinentgatan I Trelleboro</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -132,7 +138,7 @@ Trelleborg is a locality and the seat of Trelleborg Municipality, Skåne County,
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:07">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

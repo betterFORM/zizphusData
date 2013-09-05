@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna, in his appearance as a child, is climbing on a globe centered around India. Another globe showing North and South America is depicted behind him. The deities Shiva and Parvati are standing next to him. The scene takes place in a rural region, with several mountains in the background and flowers depicted under the globes. While the sun can be seen on the horizon the full moon is up in the sky, emanating rays like the sun.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -41,26 +41,26 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">W. N. Bhose &amp; Co.
+				<text type="text" lang="eng">W. N. Bhose &amp; Co.
 Calcutta</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Registered Copyright.
+				<text type="text" lang="eng">Registered Copyright.
 Made in England</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">डबलु. एन. [बोस] कंपनी - कलकत्ता</text>
+				<text type="text" lang="hin">डबलु. एन. [बोस] कंपनी - कलकत्ता</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">वि ला य तमें ब ना</text>
+				<text type="text" lang="hin">वि ला य तमें ब ना</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117916" type="corporate">HeidICON Image Database</name>
@@ -68,7 +68,7 @@ Made in England</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_99b5658d-91b7-5ca3-89f8-5c851d0664bd" refid="117916" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_99b5658d-91b7-5ca3-89f8-5c851d0664bd" refid="117916" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -130,7 +130,7 @@ Made in England</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label from W.N. Bhose &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label from W.N. Bhose &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -164,7 +164,7 @@ Lord Krishna, in his appearance as a child, is climbing on a globe centered arou
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:49">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:15">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

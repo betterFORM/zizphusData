@@ -7,20 +7,20 @@
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-58a1979a-b923-5e14-b50c-903d7a9a0b6c">Sreenivasen, M.</name>
-				<role vocab="marcrelator" type="code">art</role>
+				<name vocab="local" type="personal" refid="uuid-7508e2af-da11-5426-8ad7-284296dc1992">Venkatesvara</name>
+				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-d29efc92-afb4-52c1-8c78-3b32416d56e3">Venkateshwara</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<name vocab="local" type="personal" refid="uuid-58a1979a-b923-5e14-b50c-903d7a9a0b6c">Sreenivasen, M.</name>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Venkateshwara is a Hindu deity, the incarnation of Vishnu in his Kali Yuga age. In this image he is depicted in flower garlands in an golden arch. two elephants on red background waive garlands on both sides of the arch. This central scene is highlighted by a circle.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
@@ -28,18 +28,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">M. Sreenivasen...</text>
+				<text type="text" lang="eng">M. Sreenivasen...</text>
 			</inscription>
 			<inscription>
 				<text type="signature">M. Sreenivasen...</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118839" type="corporate">HeidICON Image Database</name>
@@ -51,7 +51,7 @@
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_f3c25522-c610-5796-a462-c95b309cf30f" refid="118839" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_f3c25522-c610-5796-a462-c95b309cf30f" refid="118839" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -78,12 +78,9 @@
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Venkateshwara</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Venkateshwara</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
@@ -137,7 +134,7 @@ Painting for a calendar. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:40">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

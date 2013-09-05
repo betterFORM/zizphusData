@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This photograph shows the War memorial in remembrance of those fallen in First World War between 1915 and 1918 (Monumento ai Caduti). It is located at the Piazza Umberto I in the town of Crotone, today the capital of the province with the same name in south-east Italy.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
@@ -27,15 +27,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">CROTONE - Piazza Umberto I - Monumento ai Caduti</text>
+				<text type="text" lang="eng">CROTONE - Piazza Umberto I - Monumento ai Caduti</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108138" type="corporate">HeidICON Image Database</name>
@@ -101,7 +101,7 @@
 				<term type="worktype">picture postcards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cedec7f-30ff-5240-8107-7829ee512735">
-				<term type="concept">eid card</term>
+				<term type="concept">Eid cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a73c4ca8-a23c-5fdc-90b8-1d6983e85b3e">
 				<term type="geographic">Crotone</term>
@@ -117,7 +117,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Front of Eid card showing Crotone war memorial</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Front of Eid card showing Crotone war memorial</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -278,7 +278,7 @@ Wehbe, Rana, Seeing Beirut through Colonial Postcards: A Charged Reality, (undat
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:41">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

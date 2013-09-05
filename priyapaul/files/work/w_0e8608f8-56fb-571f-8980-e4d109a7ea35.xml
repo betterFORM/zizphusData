@@ -6,41 +6,47 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1927</earliestDate>
+				<latestDate>1927</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A one page calendar of designers &amp; printers,  &quot;Norbury, Natzio &amp; Co Pvt. Ltd.&quot;, Manchester, England.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">22. [handwritten number on yellow post-it]</text>
+				<text type="text" lang="eng">22. [handwritten number on yellow post-it]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">1927</text>
+				<text type="text" lang="eng">1927</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Norbury, Natzio  Co. Ltd.
+				<text type="text" lang="eng">Norbury, Natzio  Co. Ltd.
 Designers &amp; Printers
 Head office &amp; works
 Manchester</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Glasgow London Shanghai</text>
+				<text type="text" lang="eng">Glasgow London Shanghai</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">1928. Calendar. 1928.</text>
+				<text type="text" lang="eng">1928. Calendar. 1928.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139326" type="corporate">HeidICON Image Database</name>
@@ -48,7 +54,7 @@ Manchester</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_097dbd64-c5c0-5bd2-a767-beea523518ec" refid="139326" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_097dbd64-c5c0-5bd2-a767-beea523518ec" refid="139326" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -57,7 +63,7 @@ Manchester</text>
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Arabian dancer seated in oyster</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Arabian dancer seated in oyster</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -105,7 +111,7 @@ A one page calendar of designers &amp; printers,  &quot;Norbury, Natzio &amp; Co
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:26">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:58">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

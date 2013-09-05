@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this image, Krishna plays the flute while sitting under a tree on a raised platform. He is wearing jewellery, a flower garland and a crown with a peacock feather on it. He has a halo around his head. In the background, vegetation and a pond with some waterlilies can be seen. The sky is reddish orange. A glimpse of someone hiding behind the tree Krishna is sitting under can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -25,11 +25,11 @@
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119965" type="corporate">HeidICON Image Database</name>
@@ -46,7 +46,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_4509991c-fc4f-5a78-b5b6-d4e0791e2da2" refid="119965" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_4509991c-fc4f-5a78-b5b6-d4e0791e2da2" refid="119965" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -55,6 +55,9 @@
 			</rights>
 		</rightsSet>
 		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
 				<term type="concept">glories</term>
 			</subject>
@@ -82,9 +85,6 @@
 			<subject source="EXC" vocab="LOCAL" refid="4dee7143-913a-546d-b30b-e1ab98f1a0b3">
 				<term type="concept">water lilies (plants)</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a0f3e68b-1bc1-5b2b-940b-d970f99d9de5">
 				<term type="concept">ponds (water)</term>
 			</subject>
@@ -96,7 +96,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Krishna Playing The Flute Under A Tree</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Krishna Playing The Flute Under A Tree</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -120,7 +120,7 @@ In this image, Krishna plays the flute while sitting under a tree on a raised pl
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:52">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:42">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

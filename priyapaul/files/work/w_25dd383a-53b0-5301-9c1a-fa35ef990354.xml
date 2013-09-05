@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108895" type="corporate">HeidICON Image Database</name>
@@ -19,7 +19,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_3f0bb7cb-c91f-5fe7-b538-49f6d240261c" refid="108895" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_3f0bb7cb-c91f-5fe7-b538-49f6d240261c" refid="108895" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -39,11 +39,10 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label showing a woman with a sitar</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label showing a woman with a sitar</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">matchboxes</worktype>
-			<worktype vocab="local" source="EXC" refid="55f1923a-6951-5b93-b433-aea716f3ce5e">scrapbooks</worktype>
+			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
@@ -69,7 +68,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:33">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:51">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

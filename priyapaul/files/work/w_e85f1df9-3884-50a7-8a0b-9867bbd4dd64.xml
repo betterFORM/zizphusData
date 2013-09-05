@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1955</earliestDate>
+				<latestDate>1955</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The main actors Baburao and Shaikh are depicted in a photo montage. Baburao is shown on the right in a close-up of the man-eater, wearing fake teeth and beard. Shaikh is shown in a scene where his character is being captivated in a dungeon with torture instruments. He seems to be low-spirited and considering his situation.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,7 +32,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Jungle Mighty Thriller! 
+				<text type="text" lang="eng">Jungle Mighty Thriller! 
 Pradhan Productions' 
 Adam Khor
 Produced by G. M. Pradhan
@@ -36,11 +42,11 @@ Baburao, Lalita Kumari, Shaikh, Kesari, Maqbool, Shanta Patel, Neera, Munshi Mun
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120161" type="corporate">HeidICON Image Database</name>
@@ -54,7 +60,7 @@ Baburao, Lalita Kumari, Shaikh, Kesari, Maqbool, Shanta Patel, Neera, Munshi Mun
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d4bdc41c-84c8-5f93-9c0c-0dcdb59b825b" refid="120161" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d4bdc41c-84c8-5f93-9c0c-0dcdb59b825b" refid="120161" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,7 +113,7 @@ Baburao, Lalita Kumari, Shaikh, Kesari, Maqbool, Shanta Patel, Neera, Munshi Mun
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Adam Khor&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Adam Khor</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -263,7 +269,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:42">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:10">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

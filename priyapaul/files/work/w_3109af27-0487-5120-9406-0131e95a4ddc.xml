@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106094" type="corporate">HeidICON Image Database</name>
@@ -28,7 +28,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_c5a23a98-b0d1-5f95-b275-7ac66dcc83a6" refid="106094" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_c5a23a98-b0d1-5f95-b275-7ac66dcc83a6" refid="106094" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -40,7 +40,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">A sitting woman on a torn printed envelop</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">A sitting woman on a torn printed envelop</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="aec5c818-bb02-52ea-bbb6-08142e85767c">letters (correspondence)</worktype>
@@ -74,7 +74,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:34">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

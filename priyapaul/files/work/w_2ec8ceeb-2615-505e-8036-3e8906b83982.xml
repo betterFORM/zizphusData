@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>ca. 1915</earliestDate>
+				<latestDate>ca. 1915</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An Image of a Mother wearing a sari and typical Rajasthani jewellery and a child in her arms, Jaipur, in a postcard, published by Gobind Ram &amp; Ooday Ram, Jaipur.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,18 +28,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">No. 77 - Mother and Child - Jaipur.</text>
+				<text type="text" lang="eng">No. 77 - Mother and Child - Jaipur.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Gobind Ram &amp; Oodey Ram, Jaip[ur]</text>
+				<text type="text" lang="eng">Gobind Ram &amp; Oodey Ram, Jaip[ur]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107958" type="corporate">HeidICON Image Database</name>
@@ -50,7 +56,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_e050d296-7a73-561f-b4a1-93d2397db6fb" refid="107958" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_e050d296-7a73-561f-b4a1-93d2397db6fb" refid="107958" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -89,18 +95,16 @@
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
 				<term type="worktype">picture postcards</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="73280386-53ba-5365-8241-b8ced97391f7">
-				<term type="worktype">studio portraits</term>
-			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mother and Child - Jaipur&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Mother and Child - Jaipur</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
+			<worktype vocab="local" source="EXC" refid="73280386-53ba-5365-8241-b8ced97391f7">studio portraits</worktype>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
 		<ext:heidicon>
@@ -136,7 +140,7 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
@@ -147,7 +151,7 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -158,7 +162,7 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -173,7 +177,7 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -211,7 +215,7 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:46:03">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

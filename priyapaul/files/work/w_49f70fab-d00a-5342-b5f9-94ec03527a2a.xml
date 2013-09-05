@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Brooke Bond Tea, a village celebration with traditional Indian musical instruments and people dressed in village garb, has a giant box of Brooke Bond tea as the centre of attraction and perhaps the reason for the celebration. The women and men are dancing around it as a man holds it aloft. Some of the dancers also hold cups of tea in their hand and there is a tea service and a box of tea on the ground nearby too. The image of a traditionally dressed Indian woman and her baby is on the box of tea. In the background, some plants and bushes can be seen. The tagline of the advertisement is written in English, Hindi and Bengali and so perhaps directed to the Bengali segment.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,33 +22,33 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Brooke
+				<text type="text" lang="eng">Brooke
 Bond
 Tea</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">दिलचस्पौ का केन्द्र । (&quot;कोरा डस्ट&quot;)</text>
+				<text type="text" lang="hin">दिलचस्पौ का केन्द्र । (&quot;कोरा डस्ट&quot;)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Kora
+				<text type="text" lang="eng">Kora
 Dust</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="bn">ADD TEXT HERE</text>
+				<text type="text" lang="ben">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The Centre of Attraction! (&quot;Kora Dust&quot;)</text>
+				<text type="text" lang="eng">The Centre of Attraction! (&quot;Kora Dust&quot;)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">Dilchaspon ka kendra (&quot;Kora Dust&quot;)</text>
+				<text type="text" lang="hin">Dilchaspon ka kendra (&quot;Kora Dust&quot;)</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120727" type="corporate">HeidICON Image Database</name>
@@ -65,7 +65,7 @@ Dust</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_8968448e-d3b3-529d-92c1-70f790862df6" refid="120727" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_8968448e-d3b3-529d-92c1-70f790862df6" refid="120727" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -112,6 +112,9 @@ Dust</text>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="0bdb20dd-07d9-51f3-8179-c25eaa4a501c">
+				<term type="brand">Brooke Bond Tea</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fe7a1eb7-ee55-5804-8edc-a8035407ef24">
 				<term type="internal workflow">recheck-jo</term>
 			</subject>
@@ -123,7 +126,7 @@ Dust</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Brook Bond Tea - Kora Dust</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Brook Bond Tea - Kora Dust</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -286,7 +289,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:30">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

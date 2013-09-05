@@ -36,8 +36,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1983</earliestDate>
+				<latestDate>1983</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this movie poster for the Hindi movie &quot;Mandi&quot;, released in 1983, two of the main actors, Shabana Azmi and Saeed Jaffrey can be seen walking together. Saeed Jaffrey is dressed in a topi (cap) and a jacket. Shabana Azmi is wearing a green sari with the pallu draped over her head, a big bindi and is carrying an embroidered bag. Both of them are wearing dark glasses as they walk past a roadside shop selling goods.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -51,7 +57,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Blaze Film Enterprises Private Limited Presents
+				<text type="text" lang="eng">Blaze Film Enterprises Private Limited Presents
 Mandi (Market Place)
 Eastmancolor
 Produced by Freni M. Variava
@@ -62,15 +68,15 @@ Editor Bhanudas Divkar
 Music Vanraj Bhatia</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">मंडी</text>
+				<text type="text" lang="hin">मंडी</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119285" type="corporate">HeidICON Image Database</name>
@@ -110,22 +116,25 @@ Music Vanraj Bhatia</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
+				<term type="concept">spectacles (eye glasses)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6138714d-8132-5952-9627-cf4c80e02390">
 				<term type="concept">topis (headdresses)</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e5cb3ba8-a3f4-53e4-b00e-b1edbaadb6c4">
-				<term type="concept">glasses</term>
+			<subject source="EXC" vocab="LOCAL" refid="8b9a9f23-4d58-50ca-88e6-b5bb6aa36257">
+				<term type="concept">sunglasses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="36330aaf-0d60-549c-8f40-81fdf5e599ae">
-				<term type="work (movie)">Mandi</term>
+				<term type="work (movie)">Mandi (movie, 1983)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mandi&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">मंडी</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Mandi</title>
+			<title type="descriptive" pref="false">मंडी</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -200,7 +209,7 @@ http://www.imdb.com/title/tt0085896/, last accessed 2011-12-25. story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:45">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:15">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

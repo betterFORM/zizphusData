@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1956</earliestDate>
+				<latestDate>1956</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Hatim Tai is a Hindi Movie, which was released 1956 and was directed by Homi Wadia. The image shows scenes from the movie- a couple with Moghul buildings in the background can be seen and a woman dressed as an angel with multiple faces behind her.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,16 +32,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Old is gold! Released in Bombay with
+				<text type="text" lang="eng">Old is gold! Released in Bombay with
 house-full boards!!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Homi Wadia's musical
+				<text type="text" lang="eng">Homi Wadia's musical
 silver jubilee
 super hit</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">परवर दिगारे आलम  तेरा ही है सहारा...
+				<text type="text" lang="hin">परवर दिगारे आलम  तेरा ही है सहारा...
 बसंत पिक्चर्स प्रस्तुत
 हातिम ताई 
 गेवाकलर 
@@ -49,19 +55,19 @@ Gaywakler
 Nirdeshak, Homi Wadia Sangeet S.N.Tripathi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Contact for all the territories except Bombay: BASANT PICTURES, Parel, Bombay-12.
+				<text type="text" lang="eng">Contact for all the territories except Bombay: BASANT PICTURES, Parel, Bombay-12.
 For Bombay, contact: K. E. KATRAK, Naaz Bldg., Bombay - 400 004.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Film Information 28-4-'90</text>
+				<text type="text" lang="eng">Film Information 28-4-'90</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117938" type="corporate">HeidICON Image Database</name>
@@ -78,7 +84,7 @@ For Bombay, contact: K. E. KATRAK, Naaz Bldg., Bombay - 400 004.</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_fa93bd8a-d970-56bb-9f5b-fd3e5b3fc0df" refid="117938" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_fa93bd8a-d970-56bb-9f5b-fd3e5b3fc0df" refid="117938" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -123,8 +129,8 @@ For Bombay, contact: K. E. KATRAK, Naaz Bldg., Bombay - 400 004.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Haatim Tai&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">हातिम ताई</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Haatim Tai</title>
+			<title type="descriptive" pref="false">हातिम ताई</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -224,7 +230,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:41">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

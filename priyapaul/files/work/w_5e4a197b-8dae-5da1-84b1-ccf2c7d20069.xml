@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An image of a &quot;Jewellery Shop&quot; from a sample calendar poster from the Empire Calender Manufacturing Co., Calcutta depicting a jewellery shop. Two women are looking at silver ware in a glass showcase while a husband and wife with their child standing next to them are buying something. Another couple are walking away from the shop. An armed guard can be seen to the right of the image standing next to another glass showcase for silver dishware. There are four men behind the counter of the shop- two in front of the couple with the child, one to the right and one to the left.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -27,13 +27,13 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Banshi</text>
+				<text type="text" lang="eng">Banshi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">HAP [publisher's signet]</text>
+				<text type="text" lang="eng">HAP [publisher's signet]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Jewellery Shop
+				<text type="text" lang="eng">Jewellery Shop
 No. 480</text>
 			</inscription>
 			<inscription>
@@ -41,11 +41,11 @@ No. 480</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118787" type="corporate">HeidICON Image Database</name>
@@ -62,7 +62,7 @@ No. 480</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_36fe2ccf-d5e4-5b49-acc8-b95ae5de2067" refid="118787" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_36fe2ccf-d5e4-5b49-acc8-b95ae5de2067" refid="118787" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -121,7 +121,7 @@ No. 480</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jewellery Shop&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Jewellery Shop</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -174,7 +174,7 @@ This is the microcosm of an efficient small business undertaking in a burgeoning
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:17">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

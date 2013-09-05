@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement calendar from 1941, a typical iconography of Lord Rama can be seen, wearing bow and arrow as well as some jewellery and a halo around his head. The lower section of the image shelters a calendar from 1941. There is a signature of the artist which is hard to decipher.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,27 +27,27 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">This is ordinary tinted ground</text>
+				<text type="text" lang="eng">This is ordinary tinted ground</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Printed in blue ink</text>
+				<text type="text" lang="eng">Printed in blue ink</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">When ordering, please mention the colour you prefer</text>
+				<text type="text" lang="eng">When ordering, please mention the colour you prefer</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">For extra charges with item no. 16</text>
+				<text type="text" lang="eng">For extra charges with item no. 16</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">If silver tinted ground required the consult with item no. 18</text>
+				<text type="text" lang="eng">If silver tinted ground required the consult with item no. 18</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109866" type="corporate">HeidICON Image Database</name>
@@ -64,7 +64,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d4d09e22-f222-53ec-9811-6e5dbdbeda70" refid="109866" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d4d09e22-f222-53ec-9811-6e5dbdbeda70" refid="109866" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -105,7 +105,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">January 1941 Advertisement calendar sample showing Rama</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">January 1941 Advertisement calendar sample showing Rama</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -166,7 +166,7 @@ This looks like a sample from the Oriental Calendar Mfg.Co., Calcutta, although 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:19">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:43">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

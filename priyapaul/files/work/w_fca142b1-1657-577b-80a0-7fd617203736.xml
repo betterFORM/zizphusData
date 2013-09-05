@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1648</earliestDate>
+				<latestDate>1648</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Two men gaze at the Taj Mahal from across the river Yamuna. Both of them are wearing turbans and are dressed in traditional clothing. One of them is sitting down and holding a rolled paper in his right hand while the other is standing on a raised platform and looking out. They are standing by a latticed arch. In the distance a boat can be seen on the river and behind it the Taj Mahal and a smaller domed building next to it.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -17,16 +23,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Copyright
+				<text type="text" lang="eng">Copyright
 (73)</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108293" type="corporate">HeidICON Image Database</name>
@@ -43,7 +49,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_2e2cacd1-c12b-56ec-a445-0b8edc205ceb" refid="108293" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_2e2cacd1-c12b-56ec-a445-0b8edc205ceb" refid="108293" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -80,7 +86,7 @@
 				<term type="geographic">Agra</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91e82ec4-e08d-5170-9d2e-60785a644748">
-				<term type="work (architecture)">Taj Mahal</term>
+				<term type="work (architecture)">Tāj Mahal (monument)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04f3983d-3813-5546-bb54-ba913a054ff1">
 				<term type="work (tomb)">Mughal period tombs</term>
@@ -114,7 +120,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile Label With The Taj Mahal And Its Reflection</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile Label With The Taj Mahal And Its Reflection</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -236,7 +242,7 @@ Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the T
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:28">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

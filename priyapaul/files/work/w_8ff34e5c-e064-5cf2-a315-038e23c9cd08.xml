@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1989</earliestDate>
+				<latestDate>1989</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This lobby card for the Hindi film &quot;Chaalu pe Chaalu&quot; (1989), has two photographs. On the left image, the main actors Sridevi and Krishna are embracing on a hillock in front of a lake. On the right image, Sridevi can be seen wearing a black dress and jewellery. The drawing on the left lower section shows the same couple.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -41,11 +47,11 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sridevi
+				<text type="text" lang="eng">Sridevi
 Krishna</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Chaalu pe Chaalu
+				<text type="text" lang="eng">Chaalu pe Chaalu
 Producer D.D. Arts
 Director K.S.R. Das 
 (Action King)
@@ -53,18 +59,18 @@ Music Sonik-Omi
 Lyrics Brij Bihari</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">चालू पे चालू</text>
+				<text type="text" lang="hin">चालू पे चालू</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">ADD TEXT HERE</text>
+				<text type="text" lang="urd">ADD TEXT HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120869" type="corporate">HeidICON Image Database</name>
@@ -75,7 +81,7 @@ Lyrics Brij Bihari</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_802431ec-f5c7-5b59-a864-3a54e8b35342" refid="120869" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_802431ec-f5c7-5b59-a864-3a54e8b35342" refid="120869" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -116,15 +122,15 @@ Lyrics Brij Bihari</text>
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="de491b81-23ee-5c60-80ce-ba4488c1e0b7">
-				<term type="work (movie)">Chaalu pe Chaalu</term>
+				<term type="work (movie)">Chaalu pe Chaalu (movie, 1989)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Chaalu pe Chaalu&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">चालू पे चालू</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Chaalu pe Chaalu</title>
+			<title type="descriptive" pref="false">चालू पे चालू</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -187,7 +193,7 @@ http://www.imdb.com/title/tt0204194/, last accessed 2011-12-07 (gs/ma)</ext:valu
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:50">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

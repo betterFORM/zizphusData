@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1905</earliestDate>
+				<latestDate>1905</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Robert Barbour &amp; Brother, a young Caucasian woman with exposed shoulders and soft looking skin is sniffing yellow roses. The image is titled &quot;My Queen&quot;.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,18 +37,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Robert Barbour &amp; Brother
+				<text type="text" lang="eng">Robert Barbour &amp; Brother
 Merchants &amp; Shippers, Manchester.
 1905</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">&quot;My Queen.&quot;</text>
+				<text type="text" lang="eng">&quot;My Queen.&quot;</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">MacLure, MacDonald &amp; Co., Ornamental Printers to the late Queen, Glasgow.</text>
+				<text type="text" lang="eng">MacLure, MacDonald &amp; Co., Ornamental Printers to the late Queen, Glasgow.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">With Best Wishes for a Prosperous New Year
+				<text type="text" lang="eng">With Best Wishes for a Prosperous New Year
 ...From...
 Robert Barbour &amp; Brother, 
 Manchester. 
@@ -50,19 +56,19 @@ Shippers to
 All Markets of the World.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Virtute Tutus [on emblem]
+				<text type="text" lang="eng">Virtute Tutus [on emblem]
 Established 1815.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Silcar (unclear)
+				<text type="text" lang="eng">Silcar (unclear)
 Pintro (unclear) 56750</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Virtute Tutus [on emblem]
+				<text type="text" lang="eng">Virtute Tutus [on emblem]
 Established 1815.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Specialities:
+				<text type="text" lang="eng">Specialities:
 Hand &amp; Key White Shirtings,
 Prints, Woollens,
 Printed and Cotton Domettes,
@@ -73,11 +79,11 @@ Dhooties, &amp;c. Printed Sarries.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118945" type="corporate">HeidICON Image Database</name>
@@ -94,7 +100,7 @@ Dhooties, &amp;c. Printed Sarries.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_2accb950-6346-577b-ab12-8e2576ff4f30" refid="118945" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_2accb950-6346-577b-ab12-8e2576ff4f30" refid="118945" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -155,7 +161,7 @@ Dhooties, &amp;c. Printed Sarries.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Robert Barbour &amp; Brother</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Robert Barbour &amp; Brother</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -304,7 +310,7 @@ http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16, last accessed 2012-01-
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:38">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:34">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

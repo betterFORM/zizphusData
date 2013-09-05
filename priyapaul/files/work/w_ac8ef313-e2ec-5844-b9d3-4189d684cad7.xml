@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A group of traditionally dressed snake charmers accompanied by some musicians.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,21 +22,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">13537 (?)</text>
+				<text type="text" lang="eng">13537 (?)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">No. 95 - Dancing girls - Snake charmer's Dance - Jaipur</text>
+				<text type="text" lang="eng">No. 95 - Dancing girls - Snake charmer's Dance - Jaipur</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Gobind Ram &amp; Oodey Ram, Jaipur.</text>
+				<text type="text" lang="eng">Gobind Ram &amp; Oodey Ram, Jaipur.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107977" type="corporate">HeidICON Image Database</name>
@@ -53,7 +53,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_c516572f-bd63-5f48-8098-e9f816fd06dc" refid="107977" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_c516572f-bd63-5f48-8098-e9f816fd06dc" refid="107977" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -98,7 +98,7 @@
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Dancing girls - snake-charmer's dance - Jaipur(II)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Dancing girls - snake-charmer's dance - Jaipur(II)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -191,7 +191,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:53">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for BBC electric motors, pumping sets and switches, we see two Indian boys wearing traditional farmer clothes with turbans and lungis, standing close to a field with several women working on the crops. A water pump a tractor can be seen on the field as well. In the background, some cottages and palm trees are depicted. The lower section of the image hosts images of samples of the advertised product as well as contact- and address details.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,12 +17,12 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">BBC
+				<text type="text" lang="eng">BBC
 Electric Motors
 Pumping Sets &amp; Switches</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Manufactured by 
+				<text type="text" lang="eng">Manufactured by 
 Bhangar Bros. &amp; Co. PVT. [...][indecipherable] 
 Bombay - Poona Road, Kalwa, Thana
 Authorised Distributor
@@ -31,11 +31,11 @@ Rallway Road, Koaly</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118859" type="corporate">HeidICON Image Database</name>
@@ -52,7 +52,7 @@ Rallway Road, Koaly</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_01b0fee0-6414-5a02-a7b4-75faa7f31961" refid="118859" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_01b0fee0-6414-5a02-a7b4-75faa7f31961" refid="118859" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -99,7 +99,7 @@ Rallway Road, Koaly</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Two young boys with a sickle in an advertisement of BBC electric motors, pumping set and switches</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Two young boys with a sickle in an advertisement of BBC electric motors, pumping set and switches</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -150,7 +150,7 @@ On this advertisement for BBC electric motors, pumping sets and switches, we see
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:27">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

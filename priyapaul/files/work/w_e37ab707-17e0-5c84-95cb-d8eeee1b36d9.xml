@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this poster from the Oriental Calender Manufacturing Company, several waiters, wearing white Nehru jackets, white pants and green and white turbans can be seen serving customers. The customers are seated on tables outdoors as well as in a roofed section and drinking beverages out of tea cups, cold drinks and eating snacks. The women are dressed in saris and the men in shirts, and western blazers.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,16 +26,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Oriental Calendar - Calcutta - 14
+				<text type="text" lang="eng">Oriental Calendar - Calcutta - 14
 OCMCO [publisher's signet]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/123022" type="corporate">HeidICON Image Database</name>
@@ -52,7 +52,7 @@ OCMCO [publisher's signet]</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_18a5494b-9c06-565d-984a-ff8c3990ab52" refid="123022" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_18a5494b-9c06-565d-984a-ff8c3990ab52" refid="123022" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -108,7 +108,7 @@ OCMCO [publisher's signet]</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Waiters Serving Customers At A Cafeteria</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Waiters Serving Customers At A Cafeteria</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -242,7 +242,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:05">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:52">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

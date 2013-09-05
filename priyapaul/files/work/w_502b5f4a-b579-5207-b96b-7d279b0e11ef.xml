@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this 1942 Bengali calender, Krishna can be seen wearing a crown with a peacock feather, holding a flute in his left hand and standing in front of two cows. In the background, some plants and flowers can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,25 +33,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="bn">ADD TEXT HERE</text>
+				<text type="text" lang="ben">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">M. L. Sharma
+				<text type="text" lang="eng">M. L. Sharma
 1941</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Shree Gopal No. 62 A</text>
+				<text type="text" lang="eng">Shree Gopal No. 62 A</text>
 			</inscription>
 			<inscription>
 				<text type="signature">M. L. Sharma</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109875" type="corporate">HeidICON Image Database</name>
@@ -62,7 +68,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_46783520-d724-52e3-a3c5-2119d891a3ea" refid="109875" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_46783520-d724-52e3-a3c5-2119d891a3ea" refid="109875" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -112,7 +118,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Shree Gopal &quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Shree Gopal</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -175,7 +181,7 @@ Gopal is another name for Krishna. (sp)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:42">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

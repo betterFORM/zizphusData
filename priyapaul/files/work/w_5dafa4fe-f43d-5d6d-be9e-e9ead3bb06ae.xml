@@ -6,26 +6,32 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1648</earliestDate>
+				<latestDate>1648</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The Taj Mahal depicted on a cloudy day with the yard in front of it.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">334</text>
+				<text type="text" lang="eng">334</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119894" type="corporate">HeidICON Image Database</name>
@@ -42,7 +48,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_66b631af-ad66-535f-9213-f7ae2b8135a4" refid="119894" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_66b631af-ad66-535f-9213-f7ae2b8135a4" refid="119894" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -82,7 +88,7 @@
 				<term type="geographic">Agra</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91e82ec4-e08d-5170-9d2e-60785a644748">
-				<term type="work (architecture)">Taj Mahal</term>
+				<term type="work (architecture)">Tāj Mahal (monument)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04f3983d-3813-5546-bb54-ba913a054ff1">
 				<term type="work (tomb)">Mughal period tombs</term>
@@ -104,7 +110,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">A view of Taj Mahal, in a sample poster calendar</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">A view of Taj Mahal, in a sample poster calendar</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -225,7 +231,7 @@ Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the T
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:48">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

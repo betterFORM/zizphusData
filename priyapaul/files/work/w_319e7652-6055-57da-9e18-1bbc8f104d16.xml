@@ -32,7 +32,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this sample image with the title &quot;Gangabtaran&quot; in the catalogue of Empire Calender Manufacturing Co., Lord Shiva can be seen standing tree trunk, being in contact with some deity in the sky while being watched from a Rishi (Indian Saint) and a hindu woman. In the background the horizon and some mountains can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -42,10 +42,10 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Chowdhury</text>
+				<text type="text" lang="eng">Chowdhury</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">GANGABTARAN
+				<text type="text" lang="eng">GANGABTARAN
 No. 615</text>
 			</inscription>
 			<inscription>
@@ -53,11 +53,11 @@ No. 615</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119443" type="corporate">HeidICON Image Database</name>
@@ -74,7 +74,7 @@ No. 615</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_2242ceed-d081-58f2-b82a-a52afb3afe04" refid="119443" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_2242ceed-d081-58f2-b82a-a52afb3afe04" refid="119443" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -124,7 +124,7 @@ No. 615</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Gangabtaran&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Gangabtaran</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -175,7 +175,7 @@ This image bears a close resemblance to the famous painter Raja Ravi Varma's pai
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:01">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

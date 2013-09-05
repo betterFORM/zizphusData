@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An image with the title &quot;Kashmere Beauty&quot; is a sample image from a catalogue of the Empire Calender Manufacturing Co. It shows a woman, wearing a salwar kameez (loose pants and long top) and dupatta (stole) beside a child sitting on the ground along a scenic path by a river with trees around. Swans can be sen swimming in the lake. The child is wearing a striped shirt and blue shorts with suspenders.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,16 +22,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">KASHMERE BEAUTY
+				<text type="text" lang="eng">KASHMERE BEAUTY
 No. 636</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119503" type="corporate">HeidICON Image Database</name>
@@ -48,7 +48,7 @@ No. 636</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_1c1bc3e4-46f1-58ef-84b9-9fbab4677c0d" refid="119503" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_1c1bc3e4-46f1-58ef-84b9-9fbab4677c0d" refid="119503" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -58,7 +58,7 @@ No. 636</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d5948ba8-5ab8-5065-bc79-0c3d471a75e1">
-				<term type="concept">kameez (garnments)+K2522</term>
+				<term type="concept">kameez (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
 				<term type="concept">children (people by age group)</term>
@@ -95,7 +95,7 @@ No. 636</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Kashmere Beauty&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Kashmere Beauty</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -139,7 +139,7 @@ An image with the title &quot;Kashmere Beauty&quot; is a sample image from a cat
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:11">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:10">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1953</earliestDate>
+				<latestDate>1953</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The movie related to this poster is &quot;Alif Laila&quot;, which was directed by K.Amarnath and was released in 1953. A group of 18 female dancers can be seen in a big hall. They are wearing different outfits, with one group of eleven dancers dressed in dark colors and another group of seven dancers, in the front, dressed in white. In the background, an archway, a chandelier hanging from the ceiling and plants can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,16 +42,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">K. Amarnath's
+				<text type="text" lang="eng">K. Amarnath's
 ALIF LAILA</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120188" type="corporate">HeidICON Image Database</name>
@@ -59,7 +65,7 @@ ALIF LAILA</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_f166b6fd-b39d-5df4-841b-8bf40424d3b2" refid="120188" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_f166b6fd-b39d-5df4-841b-8bf40424d3b2" refid="120188" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -129,14 +135,14 @@ ALIF LAILA</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f6dcd4d9-f16f-5698-bacd-8d077f50720e">
-				<term type="concept">luster</term>
+				<term type="concept">lusters (lighting devices)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Alif Laila</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Alif Laila</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -228,36 +234,6 @@ http://www.imdb.com/title/tt0154126/, last accessed 2012-02-08. (gs)</ext:value>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
-				<ext:value type="text">This apparently conventional film dance image has unexpected—and for the archive adventurer exciting—historical significance: beneath the scalloped Islamicate arches and in front of a chorus of sensuously swaying dancers is the fourteen year old Helen Richardson, performing her first screen solo. Helen, who later made her name as the wickedly seductive, Westernised ‘vamp’ of countless seedy cabarets of 1960s and 1970s Bombay cinema, began her career in the B-movies as an exotic oriental attraction, dancing her way through chorus lines and solos in dozens of fantasy films, including Basant’s Alibaba (1954) and Hatimtai (1956). The fluid transition that Helen effected between oriental and westernised versions of the exotic is not insignificant: it was indeed part of her unique appeal. Of both European and Burmese ancestry, Helen could perform ‘otherness’ in a number of (overlapping) dimensions.</ext:value>
-				<ext:item type="agent">
-					<ext:value type="role">Author</ext:value>
-					<ext:value type="name">Rosie Thomas</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">$UUID$</ext:value>
-				</ext:item>
-				<ext:item type="agent">
-					<ext:value type="role">Editor</ext:value>
-					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
-				</ext:item>
-			</ext:item>
-			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
-				<ext:value type="text">This picture shows grand celebrations in the Baghdad royal palace for the princess’s engagement.</ext:value>
-				<ext:item type="agent">
-					<ext:value type="role">Author</ext:value>
-					<ext:value type="name">Rosie Thomas</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">$UUID$</ext:value>
-				</ext:item>
-				<ext:item type="agent">
-					<ext:value type="role">Editor</ext:value>
-					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
-				</ext:item>
-			</ext:item>
-			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
 				<ext:value type="text">Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights.</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Author</ext:value>
@@ -274,6 +250,36 @@ http://www.imdb.com/title/tt0154126/, last accessed 2012-02-08. (gs)</ext:value>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
 				<ext:value type="text">There are almost two dozen charmingly theatrical photographs of Alif Laila (The Thousand and One Nights, K Amarnath, 1953) to be found in the Priya Paul Collection</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This apparently conventional film dance image has unexpected—and for the archive adventurer exciting—historical significance: beneath the scalloped Islamicate arches and in front of a chorus of sensuously swaying dancers is the fourteen year old Helen Richardson, performing her first screen solo. Helen, who later made her name as the wickedly seductive, Westernised ‘vamp’ of countless seedy cabarets of 1960s and 1970s Bombay cinema, began her career in the B-movies as an exotic oriental attraction, dancing her way through chorus lines and solos in dozens of fantasy films, including Basant’s Alibaba (1954) and Hatimtai (1956). The fluid transition that Helen effected between oriental and westernised versions of the exotic is not insignificant: it was indeed part of her unique appeal. Of both European and Burmese ancestry, Helen could perform ‘otherness’ in a number of (overlapping) dimensions.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Author</ext:value>
+					<ext:value type="name">Rosie Thomas</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">$UUID$</ext:value>
+				</ext:item>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">This picture shows grand celebrations in the Baghdad royal palace for the princess’s engagement.</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Author</ext:value>
 					<ext:value type="name">Rosie Thomas</ext:value>
@@ -311,7 +317,7 @@ http://www.imdb.com/title/tt0154126/, last accessed 2012-02-08. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:54">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:44">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

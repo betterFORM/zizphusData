@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1980</earliestDate>
+				<latestDate>1980</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Amitabh Bachchan with Dharmendra descending through a rope. Dharmendra has a gun in his hand. Close up of different characters like Raza Murad, etc is also in view.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -37,31 +43,31 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Ram
+				<text type="text" lang="eng">Ram
 Balram</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Eastmancolor</text>
+				<text type="text" lang="eng">Eastmancolor</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Vijay Anand
+				<text type="text" lang="eng">Vijay Anand
 music Laxmikant Pyarelal
 lyrics Anand Bakshi
 produced by Tito</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Kwakar?</text>
+				<text type="text" lang="eng">Kwakar?</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Kwakar</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120400" type="corporate">HeidICON Image Database</name>
@@ -132,7 +138,7 @@ produced by Tito</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Ram Balram</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Ram Balram</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
@@ -336,7 +342,7 @@ http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-198
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:28">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

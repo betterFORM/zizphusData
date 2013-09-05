@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna holds up Mount Govardhan on his little finger while playing the flute. He is flanked on either side by men and women who fold their hands in prayer. In front of him, Lord Indra prostrates in submission. Indra's vehicle, the elephant Airavata can also be seen in the foreground. Clouds and trees can be seen in the background.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -31,11 +31,11 @@
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108716" type="corporate">HeidICON Image Database</name>
@@ -52,7 +52,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_4f5ddafe-3454-5aa8-bb71-053e46e9dfab" refid="108716" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_4f5ddafe-3454-5aa8-bb71-053e46e9dfab" refid="108716" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -109,7 +109,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Krishna lifts the Govardhan mountain on his finger- a textile label of John Orrewing &amp; Co. &quot;Best Turkey Red&quot;</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Krishna lifts the Govardhan mountain on his finger- a textile label of John Orrewing &amp; Co. &quot;Best Turkey Red&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -180,7 +180,7 @@ http://festivals.iloveindia.com/diwali/govardhan-puja.html, last accessed 2012-0
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:31">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:24">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

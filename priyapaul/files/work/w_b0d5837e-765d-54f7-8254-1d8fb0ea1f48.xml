@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1975</earliestDate>
+				<latestDate>1975</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this movie poster for the 1970s Hindi film &quot;Apne Rang Hazaar&quot;, two of the main actors, probably Sanjeev Kumar and Leena Chandavarkar, are pictured sitting together in a living room (he with a suitcase on his lap, looking towards her, she talking and looking afield). On the left lower corner, a drawn picture of a couple can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-af8f5807-adaa-53c7-86ae-d4e2b4cec252">Schmidt, Matthias</name>
@@ -36,26 +42,26 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">King Productions 
+				<text type="text" lang="eng">King Productions 
 present</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Apne Rang Hazaar 
+				<text type="text" lang="eng">Apne Rang Hazaar 
 Eastmancolor</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Directed by Ravi Tandon
+				<text type="text" lang="eng">Directed by Ravi Tandon
 Music Laxmikant Pyarelal
 Screenplay K. K. Shukla
 Produced by Ravi Tandon, Gullu Kochhar, Jagdish C. Sharma &amp; G. M. Khwaja</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119031" type="corporate">HeidICON Image Database</name>
@@ -69,7 +75,7 @@ Produced by Ravi Tandon, Gullu Kochhar, Jagdish C. Sharma &amp; G. M. Khwaja</te
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_3fc03969-b41f-5ef4-87a9-0dbe53393fa5" refid="119031" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_3fc03969-b41f-5ef4-87a9-0dbe53393fa5" refid="119031" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -104,10 +110,10 @@ Produced by Ravi Tandon, Gullu Kochhar, Jagdish C. Sharma &amp; G. M. Khwaja</te
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="305924fd-c609-5c46-be72-cfae61297a0d">
-				<term type="work (movie)">Apne Rang Hazaar</term>
+				<term type="work (movie)">Apne Rang Hazaar (movie, 1975)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">movie still</term>
+				<term type="concept">film stills</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
 				<term type="internal workflow">recheck-Matthias</term>
@@ -120,7 +126,7 @@ Produced by Ravi Tandon, Gullu Kochhar, Jagdish C. Sharma &amp; G. M. Khwaja</te
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Apne Rang Hazaar&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Apne Rang Hazaar</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -180,7 +186,7 @@ http://www.imdb.com/title/tt0297738/, last accessed 2012-01-17. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:50">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

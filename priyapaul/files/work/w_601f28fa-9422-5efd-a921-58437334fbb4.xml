@@ -10,11 +10,11 @@
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118610" type="corporate">HeidICON Image Database</name>
@@ -32,9 +32,9 @@
 		</measurementsSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_806f13a2-3369-5b47-afd8-5050a004be92" refid="118610" source="EXC Priya Paul Collection" pref="true">general view</relation>
-			<relation type="imageIs" relids="i_c7fcfd6a-a9d6-5c62-946f-1bb34db31f46" refid="118612" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_2e802865-9906-5880-9c16-ac368f6130cb" refid="118613" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_c790eb97-139c-5d9a-8c3a-7d1f1a9016e3" refid="118609" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_2e802865-9906-5880-9c16-ac368f6130cb" refid="118613" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_c7fcfd6a-a9d6-5c62-946f-1bb34db31f46" refid="118612" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_9aa6b384-db84-5b6c-86ef-3c3a669c1166" refid="118611" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
@@ -47,7 +47,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">A woman stands with a flower, in a poster calender of Aruna Darbar Batti (incense stick), Bangalore</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">A woman stands with a flower, in a poster calender of Aruna Darbar Batti (incense stick), Bangalore</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -76,8 +76,8 @@
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118612</ext:value>
-				<ext:value>i_c7fcfd6a-a9d6-5c62-946f-1bb34db31f46</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118609</ext:value>
+				<ext:value>i_c790eb97-139c-5d9a-8c3a-7d1f1a9016e3</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -86,8 +86,8 @@
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118609</ext:value>
-				<ext:value>i_c790eb97-139c-5d9a-8c3a-7d1f1a9016e3</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118612</ext:value>
+				<ext:value>i_c7fcfd6a-a9d6-5c62-946f-1bb34db31f46</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -103,7 +103,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:49">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

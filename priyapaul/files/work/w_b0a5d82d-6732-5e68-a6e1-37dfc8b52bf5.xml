@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Shirdi Sai Baba, a well known Indian saint, in a popular pose, sitting on a boulder. There is a fire behind him and a cup next to his feet. He is barefoot and wearing white clothes and has a white cloth tied around his head. A sample image in the catalogue of Empire Calender Manufacturing Co. The abbreviation &quot;ECM&quot; can be seen in a signet at the lower left section of the image. The object is cut at the bottom, therefore the number 700 is not fully visible.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,25 +32,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sai Baba
+				<text type="text" lang="eng">Sai Baba
 No. 70[0]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sushil Das</text>
+				<text type="text" lang="eng">Sushil Das</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">ECM [publisher's signet]</text>
+				<text type="text" lang="eng">ECM [publisher's signet]</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Sushil Das</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119433" type="corporate">HeidICON Image Database</name>
@@ -67,7 +67,7 @@ No. 70[0]</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_f66da1b2-805c-5cb7-bd7d-1d04f50c4b7e" refid="119433" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_f66da1b2-805c-5cb7-bd7d-1d04f50c4b7e" refid="119433" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,7 +107,7 @@ No. 70[0]</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sai Baba&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Sai Baba</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -207,7 +207,7 @@ White, Charles S. J. 1972. &quot;The Sai Baba Movement: Approaches to the Study 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:36">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

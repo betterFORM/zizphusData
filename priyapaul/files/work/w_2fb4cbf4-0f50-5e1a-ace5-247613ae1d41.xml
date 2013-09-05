@@ -7,37 +7,37 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Picture postcard, used as Eid greeting card. It shows three photographs of Bema, titled Panorama, Torrente Bitto, and Casa di ricovero Tomaso Ambrosetti, on a picture postcard for Eid festival. printed by Rossi L Morbegno, published by Hafiz Qamriddin &amp; Sons, booksellers, Mochi Gate, Lahore. The Urdu text reads: (first line) Assalamo alaikum wa rahmatullah wa barakatuhu; (second line) Eid Mubarak; (last line which are two verses) Ek shor ho raha hai alam me Eid aai; muzda nishat-o-farhat ka sath Eid laai; Ho gar qabul meri taslim mere sahib...</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="it">Panorama</text>
+				<text type="text" lang="ita">Panorama</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="it">Torrente Bitto</text>
+				<text type="text" lang="ita">Torrente Bitto</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="it">Casa di ricovero Tomaso Ambrosetti</text>
+				<text type="text" lang="ita">Casa di ricovero Tomaso Ambrosetti</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="it">Un saluto di Bema</text>
+				<text type="text" lang="ita">Un saluto di Bema</text>
 			</inscription>
 			<inscription>
 				<text type="translation">A greeting from Bema</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108142" type="corporate">HeidICON Image Database</name>
@@ -91,8 +91,8 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Eid card with Italian images</title>
-			<title type="descriptive" pref="false" lang="" script="">&quot;Un saluto da Bema&quot;</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Eid card with Italian images</title>
+			<title type="descriptive" pref="false">&quot;Un saluto da Bema&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -158,7 +158,7 @@ Picture postcard, used as Eid greeting card. It shows three photographs of Bema,
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:43">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

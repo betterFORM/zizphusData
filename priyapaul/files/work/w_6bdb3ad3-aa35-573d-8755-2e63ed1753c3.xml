@@ -10,11 +10,11 @@
 			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118102" type="corporate">HeidICON Image Database</name>
@@ -28,7 +28,7 @@
 			<notes>cut out</notes>
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_973e5e03-eda3-5ef8-a3aa-5c629c2533cb" refid="118102" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_973e5e03-eda3-5ef8-a3aa-5c629c2533cb" refid="118102" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -40,7 +40,7 @@
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Back of lithograph &quot;&quot;English Homes in India in 1857&quot;&quot;</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Back of lithograph &quot;&quot;English Homes in India in 1857&quot;&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -58,7 +58,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:12">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:11">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this sample calendar from the Delhi Calendar Mfg. Co., a blondish as well as light skinned girl can be seen sitting on a wall with a toy next to her. She is holding a flower in her right hand. A bird is pictured on her right, sitting on a branch of a tree in his nest. Another bird is flying towards the nest. The calendar sheet is slightly damaged on the lower left section which makes some of the text on it not readable.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,7 +28,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Delhi Calendar Mdg. Co., 
+				<text type="text" lang="eng">Delhi Calendar Mdg. Co., 
 High Class Calendar &amp; Advertising Novelty Manufacturers
 Kashmere Gate, Delhi.
 Space for Advertisement
@@ -33,11 +39,11 @@ New Year</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109881" type="corporate">HeidICON Image Database</name>
@@ -54,7 +60,7 @@ New Year</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_05b6cfd2-0464-5a64-b0c2-a7a3a5540e00" refid="109881" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_05b6cfd2-0464-5a64-b0c2-a7a3a5540e00" refid="109881" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -91,14 +97,14 @@ New Year</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d41cc3ee-cde6-5d31-a26e-dc7618b57333">
-				<term type="concept">bird-nest</term>
+				<term type="concept">nests (animal architecture)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Delhi Calender Mfg.Co., Delhi.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Delhi Calender Mfg.Co., Delhi.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -147,7 +153,7 @@ On this sample calendar from the Delhi Calendar Mfg. Co., a blondish as well as 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:23">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,28 +12,28 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The acrylic painting in the advertisement shows a woman and a man holding a cup of tea. Behind them, people are sitting around tables in a café. The scenery in the background is green and has lush vegetation, probably inspired by landscapes of Darjeeling.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">New, improved SUPREME for flavour and fragrance!</text>
+				<text type="text" lang="eng">New, improved SUPREME for flavour and fragrance!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">[on product picture] Brooke Bond SUPREME Darjeeling Tea</text>
+				<text type="text" lang="eng">[on product picture] Brooke Bond SUPREME Darjeeling Tea</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119380" type="corporate">HeidICON Image Database</name>
@@ -50,7 +50,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_99afb570-d318-56b7-8235-663f4cef11b9" refid="119380" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_99afb570-d318-56b7-8235-663f4cef11b9" refid="119380" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -74,12 +74,15 @@
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="0bdb20dd-07d9-51f3-8179-c25eaa4a501c">
+				<term type="brand">Brooke Bond Tea</term>
+			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Brooke Bond Supreme Darjeeling Tea</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Brooke Bond Supreme Darjeeling Tea</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -123,7 +126,7 @@ New, improved SUPREME for flavour and fragrance!</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:49">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:43">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

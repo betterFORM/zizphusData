@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna can be seen sitting with two women on either side of him. Their legs are draped over his lap and he has his arms around both of them. He is wearing a crown and jewellery and the women are wearing dupattas draped over their heads and long skirts. In the background, a big green curtain as well as a window can be seen. The view from the window shows a garden with a fountain in it as well as some trees and other plants. The sky is cloudy and dark.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,22 +26,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Geo, Henderson &amp; Co. 
+				<text type="text" lang="eng">Geo, Henderson &amp; Co. 
 Calcutta</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">कृष्ण बी हार टीकट</text>
+				<text type="text" lang="hin">कृष्ण बी हार टीकट</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="bn">PLEASE ENTER HERE</text>
+				<text type="text" lang="ben">PLEASE ENTER HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119698" type="corporate">HeidICON Image Database</name>
@@ -58,7 +58,7 @@ Calcutta</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_dbc0b510-71fe-57db-9a9b-b47d23100f56" refid="119698" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_dbc0b510-71fe-57db-9a9b-b47d23100f56" refid="119698" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -105,7 +105,7 @@ Calcutta</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of Geo, Henderson &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of Geo, Henderson &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -136,7 +136,7 @@ Lord Krishna can be seen sitting with two women on either side of him. Their leg
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:08">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

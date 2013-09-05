@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1965</earliestDate>
+				<latestDate>1965</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the Hindi movie &quot;Aasman Mahal&quot;, released in 1965, Surekha can be seen sitting in the passenger seat of a cycle rickshaw as Prithviraj Kapoor interacts with the rickshaw driver. In the background several pillars of a building can be seen. The image is slightly damaged on the edges, probably due to water.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -41,19 +47,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Naya Sansar's
+				<text type="text" lang="eng">Naya Sansar's
 Aasman Mahal</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">produced &amp; directed by K.A. Abbas</text>
+				<text type="text" lang="eng">produced &amp; directed by K.A. Abbas</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120227" type="corporate">HeidICON Image Database</name>
@@ -67,7 +73,7 @@ Aasman Mahal</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d2e3499d-2e8b-5cd8-b34e-e24ca9c610c3" refid="120227" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d2e3499d-2e8b-5cd8-b34e-e24ca9c610c3" refid="120227" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -112,14 +118,14 @@ Aasman Mahal</text>
 				<term type="internal workflow">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5e453a3-84b0-5d48-b7e9-f2df780c4a62">
-				<term type="concept">cycle rickshaw</term>
+				<term type="concept">cycle rickshaws (vehicles)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aasman Mahal&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Aasman Mahal</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -217,7 +223,7 @@ http://www.ofdb.de/film/97151,Aasman-Mahal last accessed 2011-08-01, cast and cr
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:41">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

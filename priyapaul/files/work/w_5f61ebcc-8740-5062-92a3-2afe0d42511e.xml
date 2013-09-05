@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1976</earliestDate>
+				<latestDate>1976</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image is a page from a film brochure. In it, Meera is seen dressed in a white sari, holding a statue of Krishna in her hand, and carrying a bag. She has long hair and holy beads (rudraksh) are tied around a bun in her hair.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,15 +37,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Mohan Bhatiya presents Meera Shyam in color.</text>
+				<text type="text" lang="eng">Mohan Bhatiya presents Meera Shyam in color.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120459" type="corporate">HeidICON Image Database</name>
@@ -103,7 +109,7 @@
 				<term type="work (movie)">Meera Shyam (movie, 1976)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="709203af-066e-52fa-8f5d-9ef2ce7c1faa">
-				<term type="concept">bag</term>
+				<term type="concept">bags (costume accessories)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a255078a-289f-523a-9887-b7bcbd197d31">
 				<term type="concept">rudraksh</term>
@@ -113,7 +119,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Meera Shyam&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Meera Shyam</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -201,7 +207,7 @@ Meera or Meerabai as she was known was one of the foremost saints of India and m
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:24">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107945" type="corporate">HeidICON Image Database</name>
@@ -28,7 +28,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_28f3bb5b-d8ed-5012-9cf5-9ac6f34df90a" refid="107945" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_28f3bb5b-d8ed-5012-9cf5-9ac6f34df90a" refid="107945" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -40,7 +40,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">9 Picture cards</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">9 Picture cards</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="89981ce6-5834-578e-a9f7-96d87c21635f">cigarette cards</worktype>
@@ -74,7 +74,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:33">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:14:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

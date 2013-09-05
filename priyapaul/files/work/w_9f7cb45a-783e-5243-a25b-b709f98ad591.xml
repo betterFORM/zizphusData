@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This advertisement calendar by the Delhi Calendar Mfg. Co. from 1941, has an image of the shrine in Medina at the center. Flowers circle the image and a calendar for the year 1941 is in the lower section of the poster.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,21 +32,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">For your services please always remember</text>
+				<text type="text" lang="eng">For your services please always remember</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Delhi Calendar Mfg. Co.
+				<text type="text" lang="eng">Delhi Calendar Mfg. Co.
 Kashmere Gate,
 Delhi.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">हमारे यहां उम्दा कैलेन्डर - क्रिसमस ,
+				<text type="text" lang="hin">हमारे यहां उम्दा कैलेन्डर - क्रिसमस ,
 दिवाली और ईद कार्ड, ब्लौटर्स और
 छपे हुये फीते वगैरह २
 तैयार होते हैं।</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">यह हमारे कैलेन्डर
+				<text type="text" lang="hin">यह हमारे कैलेन्डर
 का एक रंग के
 विज्ञापन का नमूना
 है जिसपर १२ महीनों 
@@ -52,22 +58,22 @@ Delhi.</text>
 फीता लगाया जावेगा</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Specialist in:-
+				<text type="text" lang="eng">Specialist in:-
 High Class Calendars, Blotters, Tapes, New Year, Christmas, Dewali and I'ds Cards Manufacturers, Advertisers &amp; Field Creators for New Novelties.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">(...) not readable due to faulty scanning. (gs)</text>
+				<text type="text" lang="eng">(...) not readable due to faulty scanning. (gs)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">For Prices please see our Clause No. 8 of the Price List.</text>
+				<text type="text" lang="eng">For Prices please see our Clause No. 8 of the Price List.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109870" type="corporate">HeidICON Image Database</name>
@@ -84,7 +90,7 @@ High Class Calendars, Blotters, Tapes, New Year, Christmas, Dewali and I'ds Card
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_d86c37ed-f714-58ea-a1e8-f408d0028069" refid="109870" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_d86c37ed-f714-58ea-a1e8-f408d0028069" refid="109870" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -122,7 +128,7 @@ High Class Calendars, Blotters, Tapes, New Year, Christmas, Dewali and I'ds Card
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Shrine of the Prophet at Medina, in a 1941 calender advertisement of Delhi Calender Mfg.Co., Delhi.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Shrine of the Prophet at Medina, in a 1941 calender advertisement of Delhi Calender Mfg.Co., Delhi.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -191,7 +197,7 @@ This advertisement calendar by the Delhi Calendar Mfg. Co. from 1941, has an ima
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:30">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

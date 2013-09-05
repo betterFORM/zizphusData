@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1953</earliestDate>
+				<latestDate>1953</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows Dilip Kumar with a knife on his belt standing in the foreground. The rest of the image is painted, with a desert-like landscape around the man and clouds of smoke that seem to be rising from a fire in the back. Below the image the title is shown, to its left with a sign depicting a hammer and a sickle as well as the letter m.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,12 +37,12 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">INDER
+				<text type="text" lang="eng">INDER
 JEET
 1/54 [?] [lower right corner of the image]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">AAN
+				<text type="text" lang="eng">AAN
 Direction
 MEHBOOB
 Music 
@@ -44,15 +50,15 @@ NAUSHAD
 PRIENT BY: TECHNICOLOR</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">आन</text>
+				<text type="text" lang="hin">आन</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120866" type="corporate">HeidICON Image Database</name>
@@ -63,7 +69,7 @@ PRIENT BY: TECHNICOLOR</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_283f5d29-65b4-5784-a0fc-ddeadec20032" refid="120866" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_283f5d29-65b4-5784-a0fc-ddeadec20032" refid="120866" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -123,15 +129,15 @@ PRIENT BY: TECHNICOLOR</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c60d3ba-4b3d-5d67-a0de-1215f21b9958">
-				<term type="work">Aan</term>
+				<term type="work">Aan (movie, 1953)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aan&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">आन</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Aan</title>
+			<title type="descriptive" pref="false">आन</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -283,7 +289,7 @@ http://www.uiowa.edu/~incinema/Aan.html, note at &quot;philip'sfil-ums - notes o
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:31">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:57">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

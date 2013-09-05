@@ -6,12 +6,18 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1963</earliestDate>
+				<latestDate>1963</latestDate>
+			</date>
+		</dateSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139328" type="corporate">HeidICON Image Database</name>
@@ -19,7 +25,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7340d5ac-6e58-51a8-a855-4c8bf226cb16" refid="139328" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7340d5ac-6e58-51a8-a855-4c8bf226cb16" refid="139328" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -35,11 +41,11 @@
 				<term type="worktype">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7af45dac-8c82-5ebd-a28e-637633c26404">
-				<term type="brand">Beauty Draper's</term>
+				<term type="brand">Beauty Draper's (brand)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1963 Advertisement calendar for Beauty Draper's</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1963 Advertisement calendar for Beauty Draper's</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -73,7 +79,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:30">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

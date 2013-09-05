@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Sri Ambal &amp; Co., the Hindu goddess Parvati sits on a throne with a halo around her head and a flower garland around her neck. There are several gods, sages and heavenly beings gathered around her. In front of her is a basket of fruits and a plate of offerings. A lion sits by her feet.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,7 +32,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sri Ambal &amp; Co.
+				<text type="text" lang="eng">Sri Ambal &amp; Co.
 The best, the greatest &amp; the longest house in India
 For Madras Superior Snuff
 2-13 Perumal Kovil Garden 1st Lane, Madras
@@ -42,15 +42,15 @@ Tele. Adress
 Brahma Podi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ta">ADD TEXT HERE</text>
+				<text type="text" lang="tam">ADD TEXT HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119207" type="corporate">HeidICON Image Database</name>
@@ -67,7 +67,7 @@ Brahma Podi</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_e20cbdca-dd0d-5939-a988-5fff64fb293b" refid="119207" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_e20cbdca-dd0d-5939-a988-5fff64fb293b" refid="119207" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -81,6 +81,9 @@ Brahma Podi</text>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
 				<term type="concept">deities</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
 				<term type="concept">glories</term>
@@ -106,9 +109,6 @@ Brahma Podi</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
@@ -117,8 +117,8 @@ Brahma Podi</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">poster of Sri Ambal And Co. showing Parvati</title>
-			<title type="descriptive" pref="false" lang="" script="">An advertisement of Shri Ambal &amp; Co., Madras</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">poster of Sri Ambal And Co. showing Parvati</title>
+			<title type="descriptive" pref="false">An advertisement of Shri Ambal &amp; Co., Madras</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -171,7 +171,7 @@ On this advertisement for Sri Ambal &amp; Co., the Hindu goddess Parvati sits on
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:30">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:28">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

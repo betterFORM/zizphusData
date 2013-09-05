@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1961</earliestDate>
+				<latestDate>1961</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement calendar for Calcutta Confectionery Sweets from 1961, we see Krishna with a peacock feather on his head and a flower garland around his neck charming a young woman close to him. She is holding a red rose in her right hand. On the lower section of the calendar, the dates are pictured as well as some samples of the company advertising.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -28,27 +34,27 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Calcutta Sweets</text>
+				<text type="text" lang="eng">Calcutta Sweets</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sole Agents: - 
+				<text type="text" lang="eng">Sole Agents: - 
 Navratanlal Kothari &amp; Co.
 Cloth Market, Jodhpur</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Calcutta Confectionery Works,
+				<text type="text" lang="eng">Calcutta Confectionery Works,
 Bombay, 16</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">कलकता च्यूइंग गम</text>
+				<text type="text" lang="hin">कलकता च्यूइंग गम</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119051" type="corporate">HeidICON Image Database</name>
@@ -84,6 +90,9 @@ Bombay, 16</text>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
 				<term type="concept">deities</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
 				<term type="concept">bindi</term>
 			</subject>
@@ -111,9 +120,6 @@ Bombay, 16</text>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
 				<term type="concept">peacock feather</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
@@ -122,7 +128,7 @@ Bombay, 16</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">poster calender of Calcutta Confectionary Works, Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">poster calender of Calcutta Confectionary Works, Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -195,7 +201,7 @@ On this advertisement calendar for Calcutta Confectionery Sweets from 1961, we s
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

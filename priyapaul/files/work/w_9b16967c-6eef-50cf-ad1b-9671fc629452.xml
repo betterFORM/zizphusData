@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An image with the title &quot;Lovely&quot; in a sample calender poster from the Empire Calender Manufacturing Co., Calcutta showing a boy and a girl playing with a white pigeon and a white rabbit. The rabbit is sitting on the boy's shoulder while he pets the pigeon that the girl is holding in her hand. A building and some plants can be seen in the background.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-b90fdecd-e3c4-541b-956e-afac9f0c7866">Chithavong, Arina</name>
@@ -26,19 +26,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">TCM [publisher's signet]</text>
+				<text type="text" lang="eng">TCM [publisher's signet]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">LOVELY
+				<text type="text" lang="eng">LOVELY
 No. 492</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122945" type="corporate">HeidICON Image Database</name>
@@ -55,7 +55,7 @@ No. 492</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_4fa037ec-4b09-52a4-91ba-cfef71d7738e" refid="122945" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_4fa037ec-4b09-52a4-91ba-cfef71d7738e" refid="122945" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -102,7 +102,7 @@ No. 492</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Lovely&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Lovely</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -131,7 +131,7 @@ An image with the title &quot;Lovely&quot; in a sample calender poster from the 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:03">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

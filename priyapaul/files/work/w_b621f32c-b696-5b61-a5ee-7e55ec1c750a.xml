@@ -36,8 +36,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1962</earliestDate>
+				<latestDate>1962</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this poster for the movie &quot;Aarti&quot;, released in 1962, Meena Kumari and Pradeep Kumar can be seen standing together and looking towards something. Both are wearing white clothes. Meena Kumari wears earrings as well as a wrist watch while Pradeep Kumar carries a jhola (traditional cloth bag).</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -51,21 +57,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Rajshri Productions'
+				<text type="text" lang="eng">Rajshri Productions'
 Aarti
 Produced by Dwij
 Directed by Phani Majumdar</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">आरती</text>
+				<text type="text" lang="hin">आरती</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120220" type="corporate">HeidICON Image Database</name>
@@ -79,7 +85,7 @@ Directed by Phani Majumdar</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_8addc9d5-88a0-5264-ada9-f0de59aafabf" refid="120220" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_8addc9d5-88a0-5264-ada9-f0de59aafabf" refid="120220" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -118,8 +124,8 @@ Directed by Phani Majumdar</text>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aarti&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">आरती</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Aarti</title>
+			<title type="descriptive" pref="false">आरती</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -198,7 +204,7 @@ http://www.imdb.com/title/tt0056806/, last accessed 2012-01-30, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:17">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:25">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

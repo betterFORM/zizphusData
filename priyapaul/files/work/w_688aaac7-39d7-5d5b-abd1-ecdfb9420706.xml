@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample calender poster of Empire Calender Manufacturing Co., Calcutta depicts a scene from the  Indian epic the Ramayana with the king of Lanka Ravana abducting Sita, the wife of Rama. In the background, a lake, a hut and some trees can be seen. On the ground lie saffron robes, a walking stick and a vessel that served Ravana to disguise himself as an old man begging for alms.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,13 +36,13 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Banshi</text>
+				<text type="text" lang="eng">Banshi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">RPW [manufacturer's signet]</text>
+				<text type="text" lang="eng">RPW [manufacturer's signet]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sitaharan
+				<text type="text" lang="eng">Sitaharan
 No. 496</text>
 			</inscription>
 			<inscription>
@@ -50,11 +50,11 @@ No. 496</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122946" type="corporate">HeidICON Image Database</name>
@@ -71,7 +71,7 @@ No. 496</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_1d539251-5588-532e-b67d-1a71fbd988cc" refid="122946" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_1d539251-5588-532e-b67d-1a71fbd988cc" refid="122946" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -134,7 +134,7 @@ No. 496</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sitaharan&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Sitaharan</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -194,7 +194,7 @@ http://www.godandguru.com/ramayan/chapter-11.html, last accessed 2011-08-19, The
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:06">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:23">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

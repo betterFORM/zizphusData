@@ -7,29 +7,29 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A woman portrait is surrounded by ornaments and decorative flower patterns on the packing material of hair oil. The woman holds a bouquet of flowers and wears a pink sari and jewellery.
 Both, on top and at the bottom of the piece, there is text in Hindi and English, that is also integrated into the ornaments.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">HAIR OIL</text>
+				<text type="text" lang="eng">HAIR OIL</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi"></text>
+				<text type="text" lang="hin"></text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120551" type="corporate">HeidICON Image Database</name>
@@ -46,7 +46,7 @@ Both, on top and at the bottom of the piece, there is text in Hindi and English,
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_735850b9-27f4-5a20-b490-969b32e77b36" refid="120551" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_735850b9-27f4-5a20-b490-969b32e77b36" refid="120551" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -80,7 +80,7 @@ Both, on top and at the bottom of the piece, there is text in Hindi and English,
 				<term type="concept">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="405ed958-4af1-50a6-8f1a-a37f375ef6c9">
-				<term type="concept">bouquet</term>
+				<term type="concept">bouquets</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
 				<term type="concept">hair oil</term>
@@ -93,7 +93,7 @@ Both, on top and at the bottom of the piece, there is text in Hindi and English,
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">A woman in an advertisement of Vidyarthi Hair Oil</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">A woman in an advertisement of Vidyarthi Hair Oil</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="6cc28a30-ae55-58c8-a507-73c9cc22edac">packing material</worktype>
@@ -137,7 +137,7 @@ HAIR OIL</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

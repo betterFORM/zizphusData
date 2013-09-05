@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1934</earliestDate>
+				<latestDate>1934</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Erasmic soaps &amp; perfumes, two white woman and a black woman can be seen. One of the white women is laying in a bed and watchwa thw black woman presenting peices of clothe, while the other woman sits on the ground and performs with a musical instrument. The cene takes place in a palace like surrounding with ornaments on the walls. On the right, one can see a balcony.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,21 +28,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Myrrh, Aloes &amp; Cassia.
+				<text type="text" lang="eng">Myrrh, Aloes &amp; Cassia.
 By the Hon. John Collier.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">&quot;ERASMIC&quot;
+				<text type="text" lang="eng">&quot;ERASMIC&quot;
 Soaps &amp; Perfumes.
 Luxurious and Delightful.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119814" type="corporate">HeidICON Image Database</name>
@@ -53,7 +59,7 @@ Luxurious and Delightful.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_19715d23-af9d-5936-a9f6-0cec0a8eaef9" refid="119814" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_19715d23-af9d-5936-a9f6-0cec0a8eaef9" refid="119814" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -80,6 +86,9 @@ Luxurious and Delightful.</text>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
 				<term type="concept">soap advertisings</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
 				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
@@ -93,7 +102,7 @@ Luxurious and Delightful.</text>
 				<term type="concept">textiles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="94329588-dd90-5d0d-b0b5-fd2b80c78665">
-				<term type="concept">column</term>
+				<term type="concept">columns (architectural elements)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -103,7 +112,7 @@ Luxurious and Delightful.</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Erasmic Soaps &amp; Perfumes</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Erasmic Soaps &amp; Perfumes</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -150,7 +159,7 @@ On this advertisement for Erasmic soaps &amp; perfumes, two white woman and a bl
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:08">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:59:23">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A bearded king wearing a turban and holding flowers in his hand can be seen on this textile label from the Bombay Company Ltd.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,19 +32,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Glazebrook, Steel &amp; Co. Ltd. Manchester
+				<text type="text" lang="eng">Glazebrook, Steel &amp; Co. Ltd. Manchester
 The Bombay Company Ltd.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Regd. No. 31970.</text>
+				<text type="text" lang="eng">Regd. No. 31970.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107865" type="corporate">HeidICON Image Database</name>
@@ -61,7 +61,7 @@ The Bombay Company Ltd.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_99720db6-df7b-5e37-b642-c1629a72997d" refid="107865" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_99720db6-df7b-5e37-b642-c1629a72997d" refid="107865" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -117,7 +117,7 @@ The Bombay Company Ltd.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">The Bombay Company Ltd.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">The Bombay Company Ltd.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -209,7 +209,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:46:02">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

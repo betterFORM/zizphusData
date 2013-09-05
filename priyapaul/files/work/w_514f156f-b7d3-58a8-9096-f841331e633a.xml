@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this image from a sample calendar poster catalogue of the Empire Calender Manufacturing Co., Calcutta a crucifix is depicted between Jesus Christ and Virgin Mary standing in front of a mountainous landscape. At the lower edge of the image a sinking boat with people in it is depicted.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -37,25 +37,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sushil Das..</text>
+				<text type="text" lang="eng">Sushil Das..</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">JESUS CHRIST
+				<text type="text" lang="eng">JESUS CHRIST
 No. 319</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">J.N.R.J.</text>
+				<text type="text" lang="eng">J.N.R.J.</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Sushil Das</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/123008" type="corporate">HeidICON Image Database</name>
@@ -72,7 +72,7 @@ No. 319</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_65c2566f-af33-56c1-8e54-5b146902c8a8" refid="123008" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_65c2566f-af33-56c1-8e54-5b146902c8a8" refid="123008" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,7 +107,7 @@ No. 319</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jesus Christ&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Jesus Christ</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -174,7 +174,7 @@ The persons in the sinking boat could be some of Jesus` disciples. (gs)</ext:val
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:14">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -47,7 +47,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image is a poster from the Hindi film, &quot;Kasam Khoon Ki&quot;, released in 1977 and depicts the protagonists, Jeetendra (male) and Sulakshna Pandit (female). The female protagonist strikes a dance pose. She wears a revealing green outfit and jewellery. The portion of the poster where she stands is given a &quot;ripped apart&quot; look. To the front a hand holds a dagger that cuts across Jeetendra's face up till the lower end of the &quot;ripped apart&quot; image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -65,7 +65,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Tirupati Pictures present
+				<text type="text" lang="eng">Tirupati Pictures present
 Kasam Khoon Ki
 Directed by Ashok Roy
 Produced by Prasan Kapoor
@@ -73,11 +73,11 @@ Music Kalyanji Anandji</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120464" type="corporate">HeidICON Image Database</name>
@@ -131,7 +131,7 @@ Music Kalyanji Anandji</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Kasam Khoon Ki&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Kasam Khoon Ki</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
@@ -226,7 +226,7 @@ http://www.imdb.com/title/tt0298952/, last accessed 2011-12-14, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:14">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:37">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

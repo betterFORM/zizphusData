@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Stanes Red Ensign Tea and Coffee, a British soldier can be seen wearing a uniform and riding a white horse. He carries a flag and wears a helmet. The picture is followed by a text explaining the parallels between the proudness of a  &quot;Life-Guardsman&quot; for his regiments colour and the kind of proudness of Stanes for the purity of the products being advertised. The lower section shows some samples as well as the adress of the advertising company.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,23 +23,23 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Proud of the ccolours!</text>
+				<text type="text" lang="eng">Proud of the ccolours!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">No Lif-Guardsman is more proud of his regiment's colours than are we of the purity and fine flavour which characterize Stanes &quot;Red Ensign&quot; Tea and Coffee. Each tin bears our colours - the famous red ensign -  as warranty of the perfection of its contents.</text>
+				<text type="text" lang="eng">No Lif-Guardsman is more proud of his regiment's colours than are we of the purity and fine flavour which characterize Stanes &quot;Red Ensign&quot; Tea and Coffee. Each tin bears our colours - the famous red ensign -  as warranty of the perfection of its contents.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Gift coupons in I lb. &amp; larger soze tins.
+				<text type="text" lang="eng">Gift coupons in I lb. &amp; larger soze tins.
 Stanes Red Ensign Tea and Coffee
 T.Stanes &amp; Co., Ltd., Coimbatore</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119779" type="corporate">HeidICON Image Database</name>
@@ -50,7 +56,7 @@ T.Stanes &amp; Co., Ltd., Coimbatore</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b7332d9b-8935-55be-96bb-103e76536ee2" refid="119779" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b7332d9b-8935-55be-96bb-103e76536ee2" refid="119779" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -65,9 +71,6 @@ T.Stanes &amp; Co., Ltd., Coimbatore</text>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
 				<term type="concept">horses</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="c32e1e9e-1fe2-549a-a8fb-e8adbe50cf3a">
-				<term type="concept">knights (landholders)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
 				<term type="concept">uniforms</term>
 			</subject>
@@ -80,6 +83,12 @@ T.Stanes &amp; Co., Ltd., Coimbatore</text>
 			<subject source="EXC" vocab="LOCAL" refid="db5d814f-5782-59ec-b05d-d14d31bb2fb0">
 				<term type="concept">helmets</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="7b7c6187-cf26-5d3e-ba9d-c76163c4cb0b">
+				<term type="concept">cavaliers (soldiers)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
@@ -87,7 +96,7 @@ T.Stanes &amp; Co., Ltd., Coimbatore</text>
 				<term type="concept">white horses (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="19212bcb-16d0-51fc-a019-49ace9b35e95">
-				<term type="brand">Stane's Red Ensign Tea and Coffee</term>
+				<term type="brand">Stane's Red Ensign Tea and Coffee (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fd4ee5ff-e191-5a9d-b8e1-166da1b01768">
 				<term type="concept">Union Jack</term>
@@ -100,7 +109,7 @@ T.Stanes &amp; Co., Ltd., Coimbatore</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Stanes Red Ensign Tea &amp; Coffee</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Stanes Red Ensign Tea &amp; Coffee</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -149,7 +158,7 @@ On this advertisement for Stanes Red Ensign Tea and Coffee, a British soldier ca
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:20">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

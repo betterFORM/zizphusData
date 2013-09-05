@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108856" type="corporate">HeidICON Image Database</name>
@@ -19,7 +19,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_22e4698d-0f41-5f53-99cd-27e6099b81dd" refid="108856" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_22e4698d-0f41-5f53-99cd-27e6099b81dd" refid="108856" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -28,11 +28,8 @@
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Portrait of a sari-clad lady- a textile label of Ahmad Abdul Karim Brothers, Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Portrait of a sari-clad lady- a textile label of Ahmad Abdul Karim Brothers, Bombay</title>
 		</titleSet>
-		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
-		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
 				<ext:value>explanatory comments/crosstagging:
@@ -57,7 +54,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:57">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:01">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

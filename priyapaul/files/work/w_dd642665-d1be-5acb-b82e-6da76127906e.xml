@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This textile label shows a number of animals. In the center of the image a hyena, a zebra, an antelope, an ox and a lion are standing next to each other. In the corners and sides of the image, swans and other birds are depicted.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,18 +26,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Kaloomall Shorimall
+				<text type="text" lang="eng">Kaloomall Shorimall
 Bombay, Sole Importers
 Sundar B.
 Trademark registered</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108867" type="corporate">HeidICON Image Database</name>
@@ -45,7 +45,7 @@ Trademark registered</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a03d9388-d1b8-5986-acda-920f40870e05" refid="108867" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a03d9388-d1b8-5986-acda-920f40870e05" refid="108867" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -86,10 +86,10 @@ Trademark registered</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by Kaloomal Shorimall, Bombay, Sundar B.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by Kaloomal Shorimall, Bombay, Sundar B.</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">matchboxes</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -110,7 +110,7 @@ This textile label shows a number of animals. In the center of the image a hyena
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:36">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

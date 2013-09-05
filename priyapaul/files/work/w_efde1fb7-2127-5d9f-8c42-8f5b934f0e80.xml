@@ -31,8 +31,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1961</earliestDate>
+				<latestDate>1961</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This advertisement calendar of 1961 for A &amp; F Harvey Ltd. and Madura Mills Co. Ltd. bears a depiction of Tulabharam. Lord Krishna can be seen sitting in one pan of a pair of scales, with a tulsi leaf on the other side. Behind him, Satyabhama and Rukmini, two of his wives,  can be seen. Rukmini is folding her hands while Satyabhama is standing next to her with a look of concern. Behind the women, a golden chest as well as jewellery can be seen. In the background, pillars and a pavilion are depicted.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
@@ -43,25 +49,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">A&amp;F Harvey Ltd.
+				<text type="text" lang="eng">A&amp;F Harvey Ltd.
 Merchants and Cotton Spinners</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">With the best compliments of:
+				<text type="text" lang="eng">With the best compliments of:
 RM. S. Ramanathan Chettiar.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">With the
+				<text type="text" lang="eng">With the
 compliments
 of
 Madura Mills Co. Ltd.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">C. Kondiah Raja
+				<text type="text" lang="eng">C. Kondiah Raja
 M. RAMALINGAM [artist's signature]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Cone Yarn
+				<text type="text" lang="eng">Cone Yarn
 5.00.000 Spindles
 Cotton Yarns
 Of All Descriptions 
@@ -71,7 +77,7 @@ Counts up to 100
 1961</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Cheese Yarn
+				<text type="text" lang="eng">Cheese Yarn
 Specialities:
 Yarns for the manufacture of 
 Ropes-Healds-Canvas-Tape
@@ -84,13 +90,13 @@ Cord Yarns.
 1961</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Madura Mills Co. Ltd.
+				<text type="text" lang="eng">Madura Mills Co. Ltd.
 Madurai Tuticorin and Ambasamudram
 Madras State
 South India</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">London Correspondents
+				<text type="text" lang="eng">London Correspondents
 Harvey Brothers
 Agency (India) Ltd
 8/10, Cliffords Inn.
@@ -99,7 +105,7 @@ London
 E. C. 4.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Phone: 39
+				<text type="text" lang="eng">Phone: 39
 Dealers:
 RM. S. Ramanathan Chettiar,
 Yarn Merchant,
@@ -116,11 +122,11 @@ Jayankondacholapuram</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118358" type="corporate">HeidICON Image Database</name>
@@ -161,6 +167,9 @@ Jayankondacholapuram</text>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
 				<term type="concept">flowers (plants)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
 				<term type="concept">bindi</term>
 			</subject>
@@ -191,14 +200,11 @@ Jayankondacholapuram</text>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
 				<term type="concept">peacock feather</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f5b80cd3-ba75-5883-b946-de6ec60cea02">
 				<term type="concept">headdresses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="94329588-dd90-5d0d-b0b5-fd2b80c78665">
-				<term type="concept">column</term>
+				<term type="concept">columns (architectural elements)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
 				<term type="internal workflow">recheck-Matthias</term>
@@ -220,7 +226,7 @@ Jayankondacholapuram</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1961 Advertisement calendar for A &amp; F Harvey Ltd.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1961 Advertisement calendar for A &amp; F Harvey Ltd.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -373,7 +379,7 @@ This image is a reference to the mythological story of Krishna and his two wives
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:00">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:28">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

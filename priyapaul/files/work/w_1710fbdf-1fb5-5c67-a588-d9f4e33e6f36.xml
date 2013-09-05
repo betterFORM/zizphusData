@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1956</earliestDate>
+				<latestDate>1956</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A color-tinted movie poster of the 1956 released Hindi film, Dwarikadheesh shows the two leading ladies, Durga Khote (left, she wears green and golden attire and a pink drape). She supports Rukmini and explains/argues with the depicted king (probably Rukmini's brother or father). Rukmini, played by the actress Nirupama Roy wears a worried look as she looks at the king(male actor). The king stands with an arrogant gesture and an arrogant look. He wears bejewelled crown and ornaments, and havily embroided clothes. 
 
 The film scene shows one of palace's royal halls, probably Rukmini's. At the back is a throne flanked by two ornate chairs.</text>
@@ -43,21 +49,21 @@ The film scene shows one of palace's royal halls, probably Rukmini's. At the bac
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Bhagyodaya Pictures 
+				<text type="text" lang="eng">Bhagyodaya Pictures 
 Directed by Natwarshyam
 Dwarikadheesh
 [...] not readable due to aging</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">द्वारकाधीश</text>
+				<text type="text" lang="hin">द्वारकाधीश</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120852" type="corporate">HeidICON Image Database</name>
@@ -68,7 +74,7 @@ Dwarikadheesh
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0c86f768-929e-52a1-9c8d-63734b352b68" refid="120852" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0c86f768-929e-52a1-9c8d-63734b352b68" refid="120852" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -105,15 +111,15 @@ Dwarikadheesh
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7a39e786-6444-5eb8-ae93-81d5cab64bf7">
-				<term type="work (movie)">Dwarikadheesh</term>
+				<term type="work (movie)">Dwarikadheesh (movie, 1956)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Dwarikadheesh&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">द्वारकाधीश</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Dwarikadheesh</title>
+			<title type="descriptive" pref="false">द्वारकाधीश</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -174,7 +180,7 @@ According to Hindu mythology Lord Krishna married Rukmini against the will of he
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:55">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

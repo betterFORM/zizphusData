@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1980</earliestDate>
+				<latestDate>1980</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the Hindi Movie &quot;Johnny Ustad&quot; released in 1980, Rajnikanth and Sridevi can be seen in stills of several key scenes of the movie. Rajnikanth is depicted smoking a pipe, in a fighting pose, and pointing a revolver towards someone. Sridevi, is depicted with a microphone and is dressed in a yellow sari and is wearing a bindi, flowers and jewellery.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,33 +42,33 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">दिनेश सालगीया प्रस्तुत</text>
+				<text type="text" lang="hin">दिनेश सालगीया प्रस्तुत</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">उस्तादो का उस्ताद जानी उस्ताद</text>
+				<text type="text" lang="hin">उस्तादो का उस्ताद जानी उस्ताद</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Rajnikanth
+				<text type="text" lang="eng">Rajnikanth
 in double role
 Sridevi &amp; 
 Deepa (Sex Bomb)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">जॅानी उस्ताद</text>
+				<text type="text" lang="hin">जॅानी उस्ताद</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">PLEASE ENTER HERE</text>
+				<text type="text" lang="urd">PLEASE ENTER HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">director MAHENDRA. music SONIK OMI lyrics BRIJ BIHARI</text>
+				<text type="text" lang="eng">director MAHENDRA. music SONIK OMI lyrics BRIJ BIHARI</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119332" type="corporate">HeidICON Image Database</name>
@@ -73,7 +79,7 @@ Deepa (Sex Bomb)</text>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_8834cddf-da4a-5e23-99f4-874996ae46b8" refid="119332" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_8834cddf-da4a-5e23-99f4-874996ae46b8" refid="119332" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,28 +113,28 @@ Deepa (Sex Bomb)</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
+				<term type="concept">spectacles (eye glasses)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6fd4d06b-191e-589e-8b63-470b2ce1a306">
 				<term type="concept">handguns (small arms)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="62a6c979-0065-5ddd-bbc5-cd053e784202">
-				<term type="work (movie)">Jhony Ustad</term>
+				<term type="work (movie)">Jhony Ustad (movie, 1980)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5a2c52dc-57cf-5d94-9cd5-1756b0a7e734">
-				<term type="concept">pipe</term>
+				<term type="concept">pipes (smoking equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4710beb2-ecad-5fe9-841f-2713eb67123f">
-				<term type="concept">microphone</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e5cb3ba8-a3f4-53e4-b00e-b1edbaadb6c4">
-				<term type="concept">glasses</term>
+				<term type="concept">microphones</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Johnny Ustad&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">जानी उस्ताद</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Johnny Ustad</title>
+			<title type="descriptive" pref="false">जानी उस्ताद</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -219,7 +225,7 @@ http://www.imdb.com/title/tt0187188/, last accessed 2011-12-23, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:52">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:36">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

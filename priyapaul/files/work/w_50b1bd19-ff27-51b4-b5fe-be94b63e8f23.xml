@@ -21,36 +21,42 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1927</earliestDate>
+				<latestDate>1927</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this calender from 1927/1928 one can see a dignitary sitting with nine men. The term Nav Ratan implicated that it might be a moghul emperor sitting with nine of his most reliable counsellors for a serious talk.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Nav Ratan</text>
+				<text type="text" lang="eng">Nav Ratan</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Currimbhoy Ebrahim &amp; Sons, Limited.</text>
+				<text type="text" lang="eng">Currimbhoy Ebrahim &amp; Sons, Limited.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Near Muljijetha Market,
+				<text type="text" lang="eng">Near Muljijetha Market,
 220-30 Shaik Memon Street Bombay.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The Bolton F. a L. Works Tardeo Bombay</text>
+				<text type="text" lang="eng">The Bolton F. a L. Works Tardeo Bombay</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120587" type="corporate">HeidICON Image Database</name>
@@ -99,7 +105,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Nav Ratan, Currimbhoy Ebrahim &amp; Sons Ltd., Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Nav Ratan, Currimbhoy Ebrahim &amp; Sons Ltd., Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -199,7 +205,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:17">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:11">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

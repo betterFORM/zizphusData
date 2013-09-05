@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1954</earliestDate>
+				<latestDate>1954</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement-calendar for two different products of Hand Brand Hair dye, a fair skinned Indian woman can be seen wearing jewellery - earrings and a necklace. On her right side, a detailed  of high quality ink is printed whereas the left side lists a hair remover with a . The lower section has a calendar for 1954.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,25 +28,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Hand Brand Hair Dye
+				<text type="text" lang="eng">Hand Brand Hair Dye
 The name that guarantee satisfaction
 Quality is born of experience</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Clean
+				<text type="text" lang="eng">Clean
 A delicately perfumed hair removing lotion which removes unwanted and ugly hairs within three minutes on its application. It is harmless and has no effect on the tender skin.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">H Bink
+				<text type="text" lang="eng">H Bink
 A solvent-added ideal fountain pen ink. It is non-clogging, non corrosive &amp; bright permanent ink. Recommended for all kinds of best quality fountain pen.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109737" type="corporate">HeidICON Image Database</name>
@@ -57,7 +63,7 @@ A solvent-added ideal fountain pen ink. It is non-clogging, non corrosive &amp; 
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_cc0043a2-eb8c-534c-8ff5-2b4ab5251567" refid="109737" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_cc0043a2-eb8c-534c-8ff5-2b4ab5251567" refid="109737" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -91,7 +97,7 @@ A solvent-added ideal fountain pen ink. It is non-clogging, non corrosive &amp; 
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="36ec79b8-0937-5f16-aee8-0d4f87a8ff3b">
-				<term type="brand">Hand Brand Hair Dye</term>
+				<term type="product">Hand Brand hair dye (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
 				<term type="worktype">calendars</term>
@@ -101,7 +107,7 @@ A solvent-added ideal fountain pen ink. It is non-clogging, non corrosive &amp; 
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1954 Advertisement calendar for Hand Brand</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1954 Advertisement calendar for Hand Brand</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -151,7 +157,7 @@ On this advertisement-calendar for two different products of Hand Brand Hair dye
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:15">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,11 +12,11 @@
   			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106104" type="corporate">HeidICON Image Database</name>
@@ -33,7 +33,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_5017e858-b023-5a63-8962-76bd11ae307f" refid="106104" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_5017e858-b023-5a63-8962-76bd11ae307f" refid="106104" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -45,7 +45,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Mahatma Gandhi at a deserted place</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Mahatma Gandhi at a deserted place</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="c8683694-3e8b-52f1-855d-acaa4d8e8261">portraits</worktype>
@@ -79,7 +79,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:02">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

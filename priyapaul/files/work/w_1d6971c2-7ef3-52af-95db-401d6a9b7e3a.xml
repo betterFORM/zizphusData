@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Ajanta Beauty Products, a fair skinned black haired woman ,wearing earrings and a necklace, can be seen. There is an illustration of a woman against a carved background, holding a plate in her hands, next to her. A range of products being offered by the company are depicted pictorially on the right side of the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -25,11 +31,11 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Ajantab
+				<text type="text" lang="eng">Ajantab
 Beauty Products</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">CULTURE determines appreciation
+				<text type="text" lang="eng">CULTURE determines appreciation
 of beauty and culture should
 determine your choice of Toilet
 goods.
@@ -37,26 +43,26 @@ goods.
 cultural index.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">NASCO</text>
+				<text type="text" lang="eng">NASCO</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">National Soap &amp; Chemical Works Ltd.
+				<text type="text" lang="eng">National Soap &amp; Chemical Works Ltd.
 Calcutta - Bombay - Madras - Rangoon</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ajanta
+				<text type="text" lang="eng">Ajanta
 Hair Oil</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">PS [signature in lower right corner]</text>
+				<text type="text" lang="eng">PS [signature in lower right corner]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119769" type="corporate">HeidICON Image Database</name>
@@ -73,7 +79,7 @@ Hair Oil</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_af0ea983-03df-5a5d-932b-de331c8adbb6" refid="119769" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_af0ea983-03df-5a5d-932b-de331c8adbb6" refid="119769" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,6 +113,9 @@ Hair Oil</text>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
 				<term type="concept">soap advertisings</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
 				<term type="concept">fair skin</term>
 			</subject>
@@ -120,7 +129,7 @@ Hair Oil</text>
 				<term type="concept">skin care products</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="46b8881a-8144-557d-99e4-b38d3fddf5e1">
-				<term type="brand">Ajanta Beauty Products</term>
+				<term type="brand">Ajanta Beauty Products (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
 				<term type="concept">black hair</term>
@@ -139,7 +148,7 @@ Hair Oil</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Ajanta Beauty Products</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Ajanta Beauty Products</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -233,7 +242,7 @@ Source: http://www.alibaba.com/member/ajantaindialtd/aboutus.html</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:55">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

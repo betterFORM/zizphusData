@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this poster from the Ajanta Art Calender Mfg. Co., Madras two girls can be seen in a forest. One girl is petting a fawn while the other arranges the flowers in the hair of the first girl. The girls are wearing jewellery and are dressed in a bustier and skirt. One of the girls has a transparent dupatta (stole) draped over her head. The tree behind the girls is a banyan tree as we can see its aerial roots. In the distance on the left a man can be seen approaching with a bow and arrow. On the right a hut with a thatched roof can be seen. The scene is part of the ancient Indian play about Shakuntala written by Kalidasa.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -37,28 +37,28 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Shakunthala 686</text>
+				<text type="text" lang="eng">Shakunthala 686</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ajanta Art Calendar Mfg. Co.
+				<text type="text" lang="eng">Ajanta Art Calendar Mfg. Co.
 17, Godown Street, P. B. No. 255
 Madras-1</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copyright reserved</text>
+				<text type="text" lang="eng">Copyright reserved</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ajanta Art Calendar Mfg. Co.
+				<text type="text" lang="eng">Ajanta Art Calendar Mfg. Co.
 12, Lower Chitpur Road, 1st Floor, P. B. No. 962
 Room No. FF2 EAST,  Calcutta-1</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109972" type="corporate">HeidICON Image Database</name>
@@ -75,7 +75,7 @@ Room No. FF2 EAST,  Calcutta-1</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_ca20cc55-0aa3-5d48-ad05-5b2e8ede98bc" refid="109972" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_ca20cc55-0aa3-5d48-ad05-5b2e8ede98bc" refid="109972" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -125,7 +125,7 @@ Room No. FF2 EAST,  Calcutta-1</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Shakunthala&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Shakunthala</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -215,7 +215,7 @@ http://sanskritdocuments.org/all_sa/shaakuntala_sa.html, last accessed 2011-08-0
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:26">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Bombay Baroda &amp; Central India Rly, several tourist attractions are pictured such as the Taj Mahal, the Hawa-Mahal in Jaipir, the Jumma Masjid in Delhi, the Maharaja's Palace in Udaipur, the Dal lake in Kashmir as well as the Tower of Victory in Chitogarh. The lower section hosts the image of a steam train.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,7 +33,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">See India's loveliest centres
+				<text type="text" lang="eng">See India's loveliest centres
 (1) The Dal Lake, Kashmir
 (2) Hawa-Mahal, Jaipur
 (3) The Taj Mahal, Agra
@@ -41,11 +47,11 @@ Bombay</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119756" type="corporate">HeidICON Image Database</name>
@@ -62,7 +68,7 @@ Bombay</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_339b72f3-db59-51ea-9998-acbb153247f7" refid="119756" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_339b72f3-db59-51ea-9998-acbb153247f7" refid="119756" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -74,6 +80,9 @@ Bombay</text>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
 				<term type="concept">mountains</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e0cce022-aa95-5b6c-babf-73cfe1042071">
+				<term type="geographic">Delhi</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
 			</subject>
@@ -83,14 +92,23 @@ Bombay</text>
 			<subject source="EXC" vocab="LOCAL" refid="bd0c9c0f-02c8-5aab-a15d-8c57b89d3ed3">
 				<term type="concept">tourism</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="7549571c-fad5-5e56-bb7b-c7071364dfae">
+				<term type="geographic">Jaipur</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91e82ec4-e08d-5170-9d2e-60785a644748">
-				<term type="work (architecture)">Taj Mahal</term>
+				<term type="work (architecture)">Tāj Mahal (monument)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04f3983d-3813-5546-bb54-ba913a054ff1">
 				<term type="work (tomb)">Mughal period tombs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cc2666c-59e6-54a3-a82d-badc01f229e8">
 				<term type="work">Mughal architecture</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="2b0d7367-ae7b-5b40-90e2-29069e09e91e">
+				<term type="geographic">Kashmir</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
 				<term type="concept">lakes (bodies of water)</term>
@@ -111,22 +129,22 @@ Bombay</text>
 				<term type="work">Times of India Yearbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a8428a7a-fe3b-5b4d-a56b-b5f753a783a3">
-				<term type="geographic">Hawa-Mahal, Jaipur</term>
+				<term type="geographic">Hawa Mahal</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0524a91b-6bca-5e60-8abc-cd45bbfacdbe">
-				<term type="geographic">Jama Masjid, Delhi</term>
+				<term type="geographic">Jama Masjid (Delhi)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5671bd1-8eee-54f5-8d81-0441fd6d38de">
-				<term type="geographic">Maharaja's Palace, Udaipur</term>
+				<term type="geographic">Maharaja's Palace (Udaipur)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2e27f924-07e9-5ef5-9e6e-e15792c8b358">
 				<term type="geographic">Vijay Stambha</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="68bbeb96-b9c8-5875-828d-db53efce9616">
-				<term type="geographic">Dal Lake, Kashmir</term>
+				<term type="geographic">Dal Lake</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="28e26810-49fc-5908-8bff-8a7be9b3b6c1">
-				<term type="geographic">Tower of Victory, Chitorgarh</term>
+			<subject source="EXC" vocab="LOCAL" refid="469ef1d8-79c6-583a-b5f7-fd5f5c4c2bf1">
+				<term type="geographic">Udaipur</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -134,7 +152,7 @@ Bombay</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Bombay Baroda &amp; Central Indian Rly</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Bombay Baroda &amp; Central Indian Rly</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -192,7 +210,7 @@ ffff Ort / Gebäude: Dal-See [http://en.wikipedia.org/wiki/Dal_Lake]</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:38">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

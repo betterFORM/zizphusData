@@ -12,31 +12,31 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Several musicians and dancers are trying their best to entertain the Mughal princess sitting in her chair above the whole scene. The picture is rectangular in format with a blue border embellished with floral motifs in gold.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">S. B. Kulkarni</text>
+				<text type="text" lang="eng">S. B. Kulkarni</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">A Mughal princess being entertained with dance and song</text>
+				<text type="text" lang="eng">A Mughal princess being entertained with dance and song</text>
 			</inscription>
 			<inscription>
 				<text type="signature">S. B. Kulkarni</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119749" type="corporate">HeidICON Image Database</name>
@@ -53,7 +53,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_4acf37a2-5921-572e-91da-09c7aa2c726f" refid="119749" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_4acf37a2-5921-572e-91da-09c7aa2c726f" refid="119749" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -73,6 +73,9 @@
 			<subject source="EXC" vocab="LOCAL" refid="26ba38d7-5bea-5cec-b42b-6cfe525dc632">
 				<term type="concept">Mughal Princesses</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
 				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
@@ -90,7 +93,7 @@
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;A Mughal princess being entertained with dance and song&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">A Mughal princess being entertained with dance and song</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -184,7 +187,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:21">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

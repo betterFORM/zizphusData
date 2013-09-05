@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1936</earliestDate>
+				<latestDate>1936</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Anand Singh harmoniums, a fair skinned woman can be seen sitting at a table, writing with a pen in her right hand, while holding a pair of glasses in her left hand. Around the image, various logos are illustrated. The lower section has an illustration of a woman playing the harmonium as well as a calendar for the year 1936.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,26 +32,26 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Anand Singh &amp; Co [...][damaged]
+				<text type="text" lang="eng">Anand Singh &amp; Co [...][damaged]
 (Gold Medalists)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Manufacturer of all kinds of 
+				<text type="text" lang="eng">Manufacturer of all kinds of 
 High Class harmoniums
 Egerton Road, Delhi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Anand Flute best in the market
+				<text type="text" lang="eng">Anand Flute best in the market
 Calendar for 1936
 See our quality before you buy from elsewhere</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120919" type="corporate">HeidICON Image Database</name>
@@ -98,18 +104,18 @@ See our quality before you buy from elsewhere</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e5cb3ba8-a3f4-53e4-b00e-b1edbaadb6c4">
-				<term type="concept">glasses</term>
+			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
+				<term type="concept">spectacles (eye glasses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e7eade51-a62c-536d-ad72-5805e2e49f58">
-				<term type="concept">harmonium</term>
+				<term type="concept">harmoniums</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1936 Advertisement calendar for Anand Singh &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1936 Advertisement calendar for Anand Singh &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -177,7 +183,7 @@ On this advertisement for Anand Singh harmoniums, a fair skinned woman can be se
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:53">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1958</earliestDate>
+				<latestDate>1958</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The movie poster shows two different scenes of the movie &quot;Zimbo&quot;, released in 1958, and directed by Homi Wadia. On the left side Azaad Irani, playing the role of Zimbo, can be seen carrying Chitra, playing the role of Leela Devi, in his arms. On the right side, Azaad Irani can be seen again with a group of animal such as tigers, chimpanzees and elephants.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -36,7 +42,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Basant's
+				<text type="text" lang="eng">Basant's
 ZIMBO
 Full Gevacolor
 Produced &amp; directed
@@ -47,15 +53,15 @@ Chitragupta
 Wadia Brothers Prod.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">ज़िम्बो</text>
+				<text type="text" lang="hin">ज़िम्बो</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120347" type="corporate">HeidICON Image Database</name>
@@ -63,7 +69,7 @@ Wadia Brothers Prod.</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_df1d3edc-9749-511a-b323-b106068cd187" refid="120347" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_df1d3edc-9749-511a-b323-b106068cd187" refid="120347" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -128,8 +134,8 @@ Wadia Brothers Prod.</text>
 			<technique vocab="LOCAL" refid="5acbf595-8fb3-59b2-ade2-be46b9fa81f7">collage (technique)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Zimbo</title>
-			<title type="descriptive" pref="false" lang="" script="">ज़िम्बो</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Zimbo</title>
+			<title type="descriptive" pref="false">ज़िम्बो</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -303,7 +309,7 @@ Movie poster. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:06">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:58">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

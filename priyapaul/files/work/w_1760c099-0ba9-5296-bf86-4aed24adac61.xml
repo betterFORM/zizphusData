@@ -36,8 +36,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1978</earliestDate>
+				<latestDate>1978</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the Hindi movie &quot;Satyam Shivam Sundaram&quot;, released in 1978, the left section has a movie still of the two leading actors, Shashi Kapoor (Ranjeet) and Zeenat Aman (Rupa). Zeenat Aman is dancing in a shallow river wearing wet clothes as Shashi Kapoor looks towards her. Shashi Kapoor is also completely wet and is wearing a pair of shorts. In the background a tree on the banks of the river can be seen.
 To the right of the image, under the emblem of Raj Kapoor Films, Zeenat Aman is shown again, wearing a revealing blouse and a tight, short dhoti wrapped in the style of a langot (cloth wrapped so it goes between the legs).</text>
 				<author>
@@ -52,25 +58,25 @@ To the right of the image, under the emblem of Raj Kapoor Films, Zeenat Aman is 
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">R.K Films</text>
+				<text type="text" lang="eng">R.K Films</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">A [rating]</text>
+				<text type="text" lang="eng">A [rating]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Satyam Shivam Sundaram
+				<text type="text" lang="eng">Satyam Shivam Sundaram
 Love Sublime</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">filmed by 
+				<text type="text" lang="eng">filmed by 
 Raj Kapoor</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Music 
+				<text type="text" lang="eng">Music 
 Laxmikant Pyarelal</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">सत्यम शिवम सुन्दरम</text>
+				<text type="text" lang="hin">सत्यम शिवम सुन्दरम</text>
 			</inscription>
 			<inscription>
 				<text type="other">Satyam Shivam Sundaram</text>
@@ -80,11 +86,11 @@ Laxmikant Pyarelal</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119303" type="corporate">HeidICON Image Database</name>
@@ -138,19 +144,19 @@ Laxmikant Pyarelal</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">movie still</term>
+				<term type="concept">film stills</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="736f564f-4b52-5a87-a4c0-947f63b3b60d">
-				<term type="work (movie)">Satyam Shivam Sundaram</term>
+				<term type="work (movie)">Satyam Shivam Sundaram (movie, 1978)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Satyam Shivam Sundaram&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">सत्यम शिवम सुन्दरम</title>
-			<title type="descriptive" pref="false" lang="" script="">Truth is Eternal and Beautiful</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Satyam Shivam Sundaram</title>
+			<title type="descriptive" pref="false">सत्यम शिवम सुन्दरम</title>
+			<title type="descriptive" pref="false">Truth is Eternal and Beautiful</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -273,7 +279,7 @@ http://en.wikipedia.org/wiki/Laxmikant-Pyarelal, last accessed 2012-01-30, wikip
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

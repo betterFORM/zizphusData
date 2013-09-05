@@ -11,30 +11,36 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A calendar advertisement  of Delhi Calendar Mfg.Co., Delhi from 1941is showing a nature scene with a waterfall, mountains, a forest, trees and the sun. A calendar of April 1941 is posted below the picture.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">For your Services please Always Remember</text>
+				<text type="text" lang="eng">For your Services please Always Remember</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Delhi Calendar Mfg. Co.,
+				<text type="text" lang="eng">Delhi Calendar Mfg. Co.,
 Kashmere Gate,
 DELHI.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Specialist in:
+				<text type="text" lang="eng">Specialist in:
 High Class Calendars, Blotters, Tapes, New Year, Christmas, Dewali and I'ds Cards Manufacturers, Advertisers &amp; Field Creators for New Novelties.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">This is a sample
+				<text type="text" lang="eng">This is a sample
 of our complete
 Calendar
 with
@@ -50,22 +56,22 @@ done on Bottom
 Hanging Tape.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">ADD TEXT HERE</text>
+				<text type="text" lang="hin">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">ADD TEXT HERE</text>
+				<text type="text" lang="urd">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Prices please see our Clause no. 7 of the Price List.
+				<text type="text" lang="eng">Prices please see our Clause no. 7 of the Price List.
 NEW YEAR</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109868" type="corporate">HeidICON Image Database</name>
@@ -82,7 +88,7 @@ NEW YEAR</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_64095e2c-7770-59cd-8a34-c26eea364ccf" refid="109868" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_64095e2c-7770-59cd-8a34-c26eea364ccf" refid="109868" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -132,7 +138,7 @@ NEW YEAR</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar advertisement of Delhi Calendar Mfg. Co.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Calendar advertisement of Delhi Calendar Mfg. Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -188,7 +194,7 @@ A calendar advertisement  of Delhi Calendar Mfg.Co., Delhi from 1941is showing a
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

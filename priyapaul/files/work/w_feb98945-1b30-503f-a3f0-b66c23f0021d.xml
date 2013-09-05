@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Kiwi Dark Tan, a pair of shiny shoes can be seen worn by a man, against a red background. Only the lower part of his legs can be seen, wearing formal pants. Below this an illustration of the product can be seen. The blurb of the advertisement describing its uses and benefits is on the left side. Below this is an illustration of a kiwi bird and a mention of the firm's other product which is a white cleaner.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,7 +21,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">&quot;They're well worn - but they've worn well thanks to Kiwi Dark Tan!&quot;
+				<text type="text" lang="eng">&quot;They're well worn - but they've worn well thanks to Kiwi Dark Tan!&quot;
 No wonder they've worn well! Wouldn't any shoes, whose leather is daily nourished and cleansed pore-deep with Kiwi Polish! For Kiwi does more than give surface gloss to shoes; its fine smooth wax preserves their youthful elasticity. Begin feeding your shoes with Kiwi to-day. 
 - and, of course,
 Kiwi White Cleaner
@@ -31,11 +31,11 @@ Obtainable at all good stores throughout India, and Burma</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119777" type="corporate">HeidICON Image Database</name>
@@ -52,7 +52,7 @@ Obtainable at all good stores throughout India, and Burma</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_894db7ff-433f-5bc5-90b4-3d37ed56a37c" refid="119777" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_894db7ff-433f-5bc5-90b4-3d37ed56a37c" refid="119777" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -73,20 +73,23 @@ Obtainable at all good stores throughout India, and Burma</text>
 			<subject source="EXC" vocab="LOCAL" refid="871b50a9-0b2b-5030-b9ca-80684acc2e82">
 				<term type="concept">shoes (footwear)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96da7009-80b3-52b5-adb3-a39a0df6898e">
-				<term type="brand">Kiwi White Cleaner</term>
+				<term type="brand">Kiwi White Cleaner (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c55ea19d-1733-509b-ac2e-333cc2787e34">
-				<term type="brand">Kiwi Dark Tan</term>
+				<term type="product">Kiwi Dark Tan (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0f08c595-4939-5327-9ec4-1b050d5581c6">
 				<term type="concept">shoe polish</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="19c46a82-c53c-5507-8103-bcc624eef5ad">
-				<term type="plant">kiwi</term>
+				<term type="animal">kiwis (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -96,7 +99,7 @@ Obtainable at all good stores throughout India, and Burma</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Kiwi Dark Tan</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Kiwi Dark Tan</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -145,7 +148,7 @@ On this advertisement for Kiwi Dark Tan, a pair of shiny shoes can be seen worn 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:16">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

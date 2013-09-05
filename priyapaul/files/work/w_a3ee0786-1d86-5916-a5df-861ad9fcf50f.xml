@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image depicts three different fakirs on the foot of a mountain.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,21 +17,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Tome V. Page 408 Pl. 31</text>
+				<text type="text" lang="eng">Tome V. Page 408 Pl. 31</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Différentes sortes de fakirs.</text>
+				<text type="text" lang="eng">Différentes sortes de fakirs.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Benard dircrit.</text>
+				<text type="text" lang="eng">Benard dircrit.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108652" type="corporate">HeidICON Image Database</name>
@@ -48,7 +48,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0d5fd9cd-8d77-5e87-b192-c38175354da5" refid="108652" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0d5fd9cd-8d77-5e87-b192-c38175354da5" refid="108652" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -94,7 +94,7 @@
 			<technique vocab="LOCAL" refid="c7689fc3-5d97-5138-9580-133df0790a46">copper engravings (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Différentes sortes de fakirs (Different sorts of fakirs)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Différentes sortes de fakirs (Different sorts of fakirs)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -200,7 +200,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:06">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:23">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

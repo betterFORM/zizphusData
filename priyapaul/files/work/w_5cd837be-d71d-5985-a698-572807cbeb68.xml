@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample image from a catalogue of the Empire Calendar Manufacturing Co. depicting a sailing ship with three masts sailing on the sea with big clouds in the background.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -27,25 +27,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">ECM [publisher's signet]</text>
+				<text type="text" lang="eng">ECM [publisher's signet]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sea View
+				<text type="text" lang="eng">Sea View
 No. 639</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sushil Das..</text>
+				<text type="text" lang="eng">Sushil Das..</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Sushil Das</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119468" type="corporate">HeidICON Image Database</name>
@@ -62,7 +62,7 @@ No. 639</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_9c2d410d-4476-5ad5-84aa-1127d217c5b0" refid="119468" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_9c2d410d-4476-5ad5-84aa-1127d217c5b0" refid="119468" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -105,7 +105,7 @@ No. 639</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sea View&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Sea View</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -160,7 +160,7 @@ http://www.thepirateking.com/ships/ship_types.htm, last accessed on 2011-08-01, 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:52">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:24">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

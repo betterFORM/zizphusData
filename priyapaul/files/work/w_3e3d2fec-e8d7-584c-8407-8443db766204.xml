@@ -21,17 +21,23 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1972</earliestDate>
+				<latestDate>1972</latestDate>
+			</date>
+		</dateSet>
 		<inscriptionSet>
 			<inscription>
 				<text type="signature">Studio K. C. Prakas</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139298" type="corporate">HeidICON Image Database</name>
@@ -39,7 +45,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_83f3d92d-d1ca-56de-81be-ecaa13550447" refid="139298" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_83f3d92d-d1ca-56de-81be-ecaa13550447" refid="139298" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -48,7 +54,7 @@
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1972 Advertisement calendar for Suganchand Chandanmall</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1972 Advertisement calendar for Suganchand Chandanmall</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -92,7 +98,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:38">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:18">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

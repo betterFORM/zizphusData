@@ -7,8 +7,8 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/227411" type="corporate">HeidICON Image Database</name>
@@ -16,7 +16,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_2a9024aa-ce40-5bb6-bc02-d2dde5cb0d53" refid="227411" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_2a9024aa-ce40-5bb6-bc02-d2dde5cb0d53" refid="227411" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 		</rightsSet>
@@ -25,11 +25,11 @@
 				<term type="worktype">black-and-white photographs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3606d2bd-a29a-5124-a6c6-efa79b5af9bf">
-				<term type="concept">communication</term>
+				<term type="concept">communication (function)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Subject-Dummy</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Subject-Dummy</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -43,7 +43,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:18">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample image of a European woman with folded hands from a catalogue of the Empire Calender Manufacturing Co.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-b90fdecd-e3c4-541b-956e-afac9f0c7866">Chithavong, Arina</name>
@@ -22,15 +22,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">PRAYING</text>
+				<text type="text" lang="eng">PRAYING</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119498" type="corporate">HeidICON Image Database</name>
@@ -47,7 +47,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a60a7527-08c1-5b69-adf6-2219fd9f2897" refid="119498" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a60a7527-08c1-5b69-adf6-2219fd9f2897" refid="119498" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -76,7 +76,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Praying&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Praying</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -120,7 +120,7 @@ The image gives the impression of a preraphaelite painting. (sg)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:59">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

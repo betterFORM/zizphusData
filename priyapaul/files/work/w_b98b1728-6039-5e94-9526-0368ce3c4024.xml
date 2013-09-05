@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120448" type="corporate">HeidICON Image Database</name>
@@ -28,7 +28,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_75ba8b93-6b5c-57a7-8812-77370b69f4c4" refid="120448" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_75ba8b93-6b5c-57a7-8812-77370b69f4c4" refid="120448" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_c11be0a2-d896-5113-a192-78f515c5ff8f" refid="117955" source="EXC Priya Paul Collection">back</relation>
 			<relation type="imageIs" relids="i_0887ed1f-568d-558b-b55d-bed00d44ce14" refid="120447" source="EXC Priya Paul Collection">page</relation>
 		</relationSet>
@@ -42,7 +42,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Ram Teri Ganga Maili</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Ram Teri Ganga Maili</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
@@ -93,7 +93,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:27">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>
