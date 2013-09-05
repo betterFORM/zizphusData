@@ -7,36 +7,36 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This image shows a redhaired woman in a white dress and a white fur next to two different cigarette boxes. Her hair is tied back into a bun and she is wearing a necklace as well as earrings.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Rothmans
+				<text type="text" lang="eng">Rothmans
 De Luxe
 Virginia</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Rothmans
+				<text type="text" lang="eng">Rothmans
 De Luxe
 Pall Mall
 [ma]de in Eng[land]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">made in England</text>
+				<text type="text" lang="eng">made in England</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118938" type="corporate">HeidICON Image Database</name>
@@ -53,7 +53,7 @@ Pall Mall
 			<measurements shape="square" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_803c2fd4-3564-58dc-9ecd-4f9f97797f78" refid="118938" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_803c2fd4-3564-58dc-9ecd-4f9f97797f78" refid="118938" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -64,16 +64,6 @@ Pall Mall
  		<sourceSet>
 			<source>
 				<name>http://www.tvparty.com/vaultcomcig.html</name>
-				<refid type="URI">$UUID$</refid>
-				<refid type="citation">$pages$</refid>
-			</source>
-			<source>
-				<name>http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</name>
-				<refid type="URI">$UUID$</refid>
-				<refid type="citation">$pages$</refid>
-			</source>
-			<source>
-				<name>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</name>
 				<refid type="URI">$UUID$</refid>
 				<refid type="citation">$pages$</refid>
 			</source>
@@ -120,7 +110,7 @@ Pall Mall
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for &quot;Rothmans De Luxe&quot; cigarettes</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for &quot;Rothmans De Luxe&quot; cigarettes</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -235,6 +225,15 @@ Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">In the first half of the 20th century far less women smoked cigarettes. Therefore many tobacco ads deliberately targeted women with an advertising rhetoric which attempted to convince females that smoking cigarettes gave them elegance and style. See the project of Tim Coyle: http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html, last accessed 2011-08-21.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
 				<ext:value type="text">Blonde hair as well as red hair is a distinctive visual marker on advertising images for being Western and therefore an exclusive marker for whiteness.</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
@@ -260,15 +259,6 @@ Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&
 					<ext:value type="agent-type">corporate</ext:value>
 				</ext:item>
 			</ext:item>
-			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
-				<ext:value type="text">In the first half of the 20th century far less women smoked cigarettes. Therefore many tobacco ads deliberately targeted women with an advertising rhetoric which attempted to convince females that smoking cigarettes gave them elegance and style. See the project of Tim Coyle: http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html, last accessed 2011-08-21.</ext:value>
-				<ext:item type="agent">
-					<ext:value type="role">Editor</ext:value>
-					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
-				</ext:item>
-			</ext:item>
 		</ext:heidicon>
 
 		<ext:heidicon>
@@ -282,23 +272,13 @@ Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:item type="f_url2" status="0" display="URL2">
-				<ext:value type="url2">http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</ext:value>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
-			<ext:item type="f_url3" status="0" display="URL3">
-				<ext:value type="url3">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
 			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118938</ext:value>
 				<ext:value>118938</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image is an advertisement for cocoanut oil printed by Calendar Mfg Co, Bombay. A grove of palm trees and two cottages can be seen in the image. In the background, the sea and the tops of trees can be seen. The image has a yellow frame.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,25 +26,25 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Highly Scented
+				<text type="text" lang="eng">Highly Scented
 Cocoanut Oil</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">351</text>
+				<text type="text" lang="eng">351</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">COPY RIGHT NO. 351.</text>
+				<text type="text" lang="eng">COPY RIGHT NO. 351.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">CALENDAR MFG,. Co. BOMBAY.</text>
+				<text type="text" lang="eng">CALENDAR MFG,. Co. BOMBAY.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117985" type="corporate">HeidICON Image Database</name>
@@ -52,7 +52,7 @@ Cocoanut Oil</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b1399cdb-3bfe-5728-9084-6b8baed4e24b" refid="117985" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b1399cdb-3bfe-5728-9084-6b8baed4e24b" refid="117985" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -67,36 +67,33 @@ Cocoanut Oil</text>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e519b951-dceb-5c52-a8f0-24377c8b906d">
+				<term type="concept">crop</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
 				<term type="plant">palm trees</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="c9b7db9c-bda8-5dd6-82db-339f18cdb3ba">
-				<term type="concept">cottages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="30df8aa4-7c13-50ae-ae0f-6a517bc79517">
-				<term type="concept">coconut oil</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="ea7e00ba-feb2-5035-9ee8-43113b6fbacf">
-				<term type="concept">coconut crops</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="d6e0f5b2-cd91-5f97-8e04-6fc73ac83518">
-				<term type="plant">Cocos nucifera</term>
+			<subject source="EXC" vocab="LOCAL" refid="9ef4338c-0564-5209-8a91-d1c3bd4d4821">
+				<term type="concept">huts (houses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e4626e10-7bde-5f21-aa75-d5654c3bba49">
 				<term type="plant">coconut (fruit)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="ecadb337-d65e-5a9c-aa21-df4ff05bf3b0">
+				<term type="concept">plantations</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="30df8aa4-7c13-50ae-ae0f-6a517bc79517">
+				<term type="concept">coconut oil</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="d6e0f5b2-cd91-5f97-8e04-6fc73ac83518">
+				<term type="plant">coconut palm</term>
+			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Highly Scented Cocoanut Oil</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Highly Scented Cocoanut Oil</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -124,7 +121,7 @@ The image is an advertisement for cocoanut oil printed by Calendar Mfg Co, Bomba
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>
