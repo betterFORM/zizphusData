@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1944</earliestDate>
+				<latestDate>1944</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This 1944 calendar of Zandu Pharmaceutical Works advertises various medicines of the company, while Lord Krishna holds his hand in a blessing-position. Worth noticing is the detail on the ground where Bharat Mata (Mother India) stands, against the hazy outline of a map of India. Strewn around her are broken weapons and other battle remains (probably produced by World War II). A Hindi text in the centre of the calendar reads: “Let Mother India be free, let peace prevail in the world.” The calendar was printed at Ravi Udaya-Vijaya photolighting offest works.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -37,32 +43,32 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The
+				<text type="text" lang="eng">The
 Zandu Pharmaceutical Works</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Manufacturers of
+				<text type="text" lang="eng">Manufacturers of
 Ayurvedic &amp; Allopathic Medicines
 P. B. No 5513.
 Bombay 14</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">भारत माताकी मुक्ति हो
+				<text type="text" lang="hin">भारत माताकी मुक्ति हो
 जगतमें शान्ति हो.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">1944</text>
+				<text type="text" lang="eng">1944</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Printed at Ravi Udaya-Vijaya Photo Litho Offset Works. [Ghatkopar]</text>
+				<text type="text" lang="eng">Printed at Ravi Udaya-Vijaya Photo Litho Offset Works. [Ghatkopar]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139295" type="corporate">HeidICON Image Database</name>
@@ -70,7 +76,7 @@ Bombay 14</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_daefb30a-d8b6-51d9-b92c-00e6bedcd62e" refid="139295" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_daefb30a-d8b6-51d9-b92c-00e6bedcd62e" refid="139295" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -79,11 +85,11 @@ Bombay 14</text>
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term type="work (map)">map of India</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
 				<term type="concept">oceans</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="691f9bd9-9cb7-584c-9489-db876ed9c2cb">
 				<term type="concept">weapons</term>
@@ -111,7 +117,7 @@ Bombay 14</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1944 Advertisement calendar for Zandu Pharmaceutical Works</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1944 Advertisement calendar for Zandu Pharmaceutical Works</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -169,7 +175,7 @@ This 1944 calendar of Zandu Pharmaceutical Works advertises various medicines of
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:31">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

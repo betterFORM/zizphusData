@@ -31,8 +31,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1958</earliestDate>
+				<latestDate>1958</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This calendar from Krishna Industry Work, Vyavar, Rajasthan, India, shows the eighth Sikh guru, Guru Harkishan Sahib. It was published for 1958 by Gopal Calendar Menu Co., Vyavar. The poster is framed. The picture is signed by Punjabi Press, Delhi.
 The four corners of the posters are illustrated with small drawings: a woman in an oval frame (upper left), Krishna playing the flute (upper right), bearded dwarf marching with a big drum (lower left and right corners). In the center of the lower part a drawing shows a snake in the grass.</text>
 				<author>
@@ -47,22 +53,22 @@ The four corners of the posters are illustrated with small drawings: a woman in 
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">8 [red sticker, handwritten, upper left corner]</text>
+				<text type="text" lang="eng">8 [red sticker, handwritten, upper left corner]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Try once &quot;Ajgar Soap&quot; use always</text>
+				<text type="text" lang="eng">Try once &quot;Ajgar Soap&quot; use always</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">अजगर छाप साबुन</text>
+				<text type="text" lang="hin">अजगर छाप साबुन</text>
 			</inscription>
 			<inscription>
 				<text type="other">Ajgar Chhaap Saabun</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">निर्माता:- कृष्णा इण्डस्ट्रीयल वर्क्स, ब्यावर</text>
+				<text type="text" lang="hin">निर्माता:- कृष्णा इण्डस्ट्रीयल वर्क्स, ब्यावर</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">[along the left side of the illustration of the snake]
+				<text type="text" lang="hin">[along the left side of the illustration of the snake]
 सफ़ेद 
 व 
 चमकदार 
@@ -78,7 +84,7 @@ The four corners of the posters are illustrated with small drawings: a woman in 
 				<text type="translation">For a white and sparkling wash- Ajgar stamp soap</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">[along the right side of the illustration of the snake]
+				<text type="text" lang="hin">[along the right side of the illustration of the snake]
 अब 
 हमेशा!
 अजगर 
@@ -94,21 +100,21 @@ The four corners of the posters are illustrated with small drawings: a woman in 
 				<text type="translation">Always use Ajgar stamp soap when washing!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Guru Harkishen Saheb Ji [underneath Hindi text]</text>
+				<text type="text" lang="eng">Guru Harkishen Saheb Ji [underneath Hindi text]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Punjabi Press, Delhi [signature on image]</text>
+				<text type="text" lang="eng">Punjabi Press, Delhi [signature on image]</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Punjabi Press, Delhi</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139324" type="corporate">HeidICON Image Database</name>
@@ -116,7 +122,7 @@ The four corners of the posters are illustrated with small drawings: a woman in 
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_1051309a-ec60-5cd3-b345-a71813897b91" refid="139324" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_1051309a-ec60-5cd3-b345-a71813897b91" refid="139324" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -194,7 +200,7 @@ The four corners of the posters are illustrated with small drawings: a woman in 
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1958 Advertisement calendar for Ajgar Soap</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1958 Advertisement calendar for Ajgar Soap</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -298,7 +304,7 @@ http://www.sgpc.net/gurus/guruharkrishan.asp, last accessed 2011-09-16, basic in
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:15">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:52">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

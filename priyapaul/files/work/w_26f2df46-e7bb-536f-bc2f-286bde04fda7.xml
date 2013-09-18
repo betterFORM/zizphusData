@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This image, an advertisement for Kaminia Products, has an illustration of an Indian woman with a translucent veil covering her head, earrings and a bindi on her forehead. To the left of the image is a packet labelled Kaminia oil and a small bottle labelled Kaminia snow. To the right of the image is a small bottle with the label Otto Dilbahar and a packet labelled Kaminia sandal soap. The packet has the image of a woman holding a basket on it.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,7 +21,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Open Secrets of charm and attraction
+				<text type="text" lang="eng">Open Secrets of charm and attraction
 Kaminia Oil
 Kaminia snow
 Kaminia Soaps 
@@ -29,7 +29,7 @@ Otto Dilbahar
 Kaminia Products</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Kaminia Oil
+				<text type="text" lang="eng">Kaminia Oil
 Delicately perfumed oil for beautifying and increasing the growth of hair. 
 To be rubbed well into the roots of the hair daily. 
 Kaminia Perfumery Co Bombay
@@ -42,11 +42,11 @@ Kaminia Perfumery Co Bombay</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119775" type="corporate">HeidICON Image Database</name>
@@ -63,7 +63,7 @@ Kaminia Perfumery Co Bombay</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_2eca734e-aca0-5cc7-adbb-af9b94f105a9" refid="119775" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_2eca734e-aca0-5cc7-adbb-af9b94f105a9" refid="119775" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -96,6 +96,9 @@ Kaminia Perfumery Co Bombay</text>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
 				<term type="concept">soap advertisings</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
 				<term type="concept">Indian women</term>
 			</subject>
@@ -106,7 +109,7 @@ Kaminia Perfumery Co Bombay</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="79d14c4d-4923-5fc1-9b05-22ec18142a23">
-				<term type="brand">Kaminia Products</term>
+				<term type="brand">Kaminia (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
 				<term type="concept">hair oil</term>
@@ -119,7 +122,7 @@ Kaminia Perfumery Co Bombay</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Kaminia Beauty Products</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Kaminia Beauty Products</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -178,7 +181,7 @@ This image, an advertisement for Kaminia Products, has an illustration of an Ind
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:11">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

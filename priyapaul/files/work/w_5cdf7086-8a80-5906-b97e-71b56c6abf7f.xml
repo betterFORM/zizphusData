@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1939</earliestDate>
+				<latestDate>1939</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Swan Mango Slices and Squash, an Indian and a western woman can be seen, offering and consuming products of the advertising company. The lower section of the image hosts a detailed  of the products being advertised as well as some samples.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,27 +23,27 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Times of India Annual 1939</text>
+				<text type="text" lang="eng">The Times of India Annual 1939</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Delicious new delicacies for your table 
+				<text type="text" lang="eng">Delicious new delicacies for your table 
 Rich in Vitamins, Perfect in Flavour, Purest Quality</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Swan Mango Slice - Canned from the pick of the crop - a delectable dessert. And Swan Mango Squash - prepared from luscious mangoes and containing Dextrose, the 'energy sugar' - something more than a refreshing drink, an energy drink! And what a thirst quencher! Other Swan Products include Orange Marmalade, Pickle Prawns, Prawn Curry, Naring Crush, etc., etc.
+				<text type="text" lang="eng">Swan Mango Slice - Canned from the pick of the crop - a delectable dessert. And Swan Mango Squash - prepared from luscious mangoes and containing Dextrose, the 'energy sugar' - something more than a refreshing drink, an energy drink! And what a thirst quencher! Other Swan Products include Orange Marmalade, Pickle Prawns, Prawn Curry, Naring Crush, etc., etc.
 &quot;Swan&quot; delicacies are prepared under ideal conditions and are scientifically preserved and packed by India's largest canning organization. 
 The India Canning Industries Ltd., Bezwada, India</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Mango Sqash Swan Brand Mango Slices</text>
+				<text type="text" lang="eng">Mango Sqash Swan Brand Mango Slices</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119780" type="corporate">HeidICON Image Database</name>
@@ -54,7 +60,7 @@ The India Canning Industries Ltd., Bezwada, India</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_c95fd2d4-e388-590e-8554-584212e84424" refid="119780" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_c95fd2d4-e388-590e-8554-584212e84424" refid="119780" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -78,6 +84,9 @@ The India Canning Industries Ltd., Bezwada, India</text>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
 				<term type="concept">saris (garments)</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
 				<term type="concept">Western women</term>
 			</subject>
@@ -88,17 +97,26 @@ The India Canning Industries Ltd., Bezwada, India</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec4d4752-cb6a-5f60-be77-262bf753b4a7">
-				<term type="brand">Swan Mango Slices and Squash</term>
+				<term type="brand">Swan (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="1834bfd2-f815-51aa-9e81-c4004e30d7b3">
+				<term type="plant">mango (fruit)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="13d7bda9-13e8-5f3f-be4c-299150b864ac">
+				<term type="concept">slices</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="37d9119c-e025-5fd3-9c9b-9b1db9c835cc">
+				<term type="concept">squash (fruit)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Swan Mango Slices and Squash</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Swan Mango Slices and Squash</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -150,7 +168,7 @@ On this advertisement for Swan Mango Slices and Squash, an Indian and a western 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:22">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

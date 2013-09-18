@@ -7,20 +7,20 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Two boy children stand in the front of an agricultural environment, one of them holds a toy sickle in his hand. Both of the boys wear necklaces, bracelets and earrings. Several women in the background are busy harvesting the fields. A tractor is in the distance. Very prominently, there is a water pump on the edge of a well, pumping water out of it and into the irrigation system of the field. Both the tractor and the pump are red.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118860" type="corporate">HeidICON Image Database</name>
@@ -31,7 +31,7 @@
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_62541618-da15-58b3-91a3-a640e0ecf06f" refid="118860" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_62541618-da15-58b3-91a3-a640e0ecf06f" refid="118860" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -78,10 +78,10 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Children of farmer, an advertisement of BBC electric motors, pumping set and switches</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Children of farmer, an advertisement of BBC electric motors, pumping set and switches</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -113,7 +113,7 @@ Two boy children stand in the front of an agricultural environment, one of them 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:30">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:42">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -36,8 +36,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1978</earliestDate>
+				<latestDate>1978</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the Hindi movie &quot;Satyam Shivam Sundaram&quot;, released in 1978, two of the main actors, Shashi Kapoor and Zeenat Aman can be seen. The centre of the image has a photo of Shashi Kapoor, and on the right is a full length photo of Zeenat Aman, dressed as a village girl, standing by the side of a road, and carrying a bundle of dried palm leaves. She holds a few of the leaves against her face.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -55,30 +61,30 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">R. K. Films</text>
+				<text type="text" lang="eng">R. K. Films</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Satyam Shivam Sundaram</text>
+				<text type="text" lang="eng">Satyam Shivam Sundaram</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Love Sublime filmed By</text>
+				<text type="text" lang="eng">Love Sublime filmed By</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Raj Kapoor</text>
+				<text type="text" lang="eng">Raj Kapoor</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Music
+				<text type="text" lang="eng">Music
 Laxmikant Pyarelal
 Written by
 Jainendra Jain</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119294" type="corporate">HeidICON Image Database</name>
@@ -89,7 +95,7 @@ Jainendra Jain</text>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_090aa7e2-9675-5ec7-b4cb-6230880dc294" refid="119294" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_090aa7e2-9675-5ec7-b4cb-6230880dc294" refid="119294" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -127,19 +133,19 @@ Jainendra Jain</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">movie still</term>
+				<term type="concept">film stills</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="736f564f-4b52-5a87-a4c0-947f63b3b60d">
-				<term type="work (movie)">Satyam Shivam Sundaram</term>
+				<term type="work (movie)">Satyam Shivam Sundaram (movie, 1978)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Satyam Shivam Sundaram&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">सत्यम शिवम सुन्दरम</title>
-			<title type="descriptive" pref="false" lang="" script="">Truth is Eternal and Beautiful</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Satyam Shivam Sundaram</title>
+			<title type="descriptive" pref="false">सत्यम शिवम सुन्दरम</title>
+			<title type="descriptive" pref="false">Truth is Eternal and Beautiful</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -219,7 +225,7 @@ http://www.imdb.com/title/tt0078204/, story plot, leading actors, director, last
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:10">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

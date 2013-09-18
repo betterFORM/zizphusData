@@ -10,11 +10,11 @@
 			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118779" type="corporate">HeidICON Image Database</name>
@@ -32,7 +32,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a0e9af2c-1d57-5747-8ff3-954918eeb25c" refid="118779" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a0e9af2c-1d57-5747-8ff3-954918eeb25c" refid="118779" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -41,7 +41,7 @@
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Dola-the palanquin (dowry)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Dola-the palanquin (dowry)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -76,7 +76,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:57">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

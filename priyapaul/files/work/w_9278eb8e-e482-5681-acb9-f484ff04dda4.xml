@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement calendar for Riko Intimate handkershief spray mist, the Indian actress  Kajal Kiran can be seen on two pictures using the advertised product. A sample of the spray and its packing are depicted as well as contact details of resellers and manufacturers.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -23,21 +23,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">RIKO INTIMATE 
+				<text type="text" lang="eng">RIKO INTIMATE 
 Handkerchief Spray Mist</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Film Star
+				<text type="text" lang="eng">Film Star
 Kajal Kiran</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">d Super Star among star perfumes</text>
+				<text type="text" lang="eng">d Super Star among star perfumes</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Available at all leading stores</text>
+				<text type="text" lang="eng">Available at all leading stores</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Manufactured by:
+				<text type="text" lang="eng">Manufactured by:
 U.A. Attarwala
 72, Jail Road (North), Opp. J.J. Hospital's Gate No. 6 Bombay 400009 Phone: 336163
 Bombay Agents:
@@ -46,11 +46,11 @@ Opp Juma Masjid, Bombay 400 002</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119373" type="corporate">HeidICON Image Database</name>
@@ -67,7 +67,7 @@ Opp Juma Masjid, Bombay 400 002</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_689d4abb-c767-52ac-a441-4313add56247" refid="119373" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_689d4abb-c767-52ac-a441-4313add56247" refid="119373" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,14 +95,14 @@ Opp Juma Masjid, Bombay 400 002</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="be16f5e4-f168-57bf-a43e-73d0f57ddc3f">
-				<term type="brand">Riko Intimate</term>
+				<term type="product">Riko Intimate (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Film actress Kajal Kiran in an advertisement of Riko Intimate (handkerchief spray mist)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Film actress Kajal Kiran in an advertisement of Riko Intimate (handkerchief spray mist)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -159,7 +159,7 @@ On this advertisement calendar for Riko Intimate handkershief spray mist, the In
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:33">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:22">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

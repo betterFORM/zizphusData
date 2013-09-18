@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120633" type="corporate">HeidICON Image Database</name>
@@ -28,7 +28,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_8eaa9be7-4ebd-5871-973e-9a59bf6e1600" refid="120633" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_8eaa9be7-4ebd-5871-973e-9a59bf6e1600" refid="120633" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -40,7 +40,7 @@
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An old envelope sent to Mr.S.M. Noor Elahi, Delhi</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An old envelope sent to Mr.S.M. Noor Elahi, Delhi</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="aec5c818-bb02-52ea-bbb6-08142e85767c">letters (correspondence)</worktype>
@@ -74,7 +74,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:20">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

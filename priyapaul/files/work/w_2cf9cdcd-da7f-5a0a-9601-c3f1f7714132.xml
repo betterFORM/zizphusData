@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1648</earliestDate>
+				<latestDate>1648</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample image of the Taj Mahal in a catalogue of the Empire Calender Manufacturing Co. depicting the Taj Mahal with a stream and a row of trees in front of it.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,10 +33,10 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sachinandan Das</text>
+				<text type="text" lang="eng">Sachinandan Das</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Tajmahal
+				<text type="text" lang="eng">Tajmahal
 No. 612</text>
 			</inscription>
 			<inscription>
@@ -38,11 +44,11 @@ No. 612</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119484" type="corporate">HeidICON Image Database</name>
@@ -59,7 +65,7 @@ No. 612</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_37fa3a13-c666-5072-bfbb-44680d30b740" refid="119484" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_37fa3a13-c666-5072-bfbb-44680d30b740" refid="119484" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -96,7 +102,7 @@ No. 612</text>
 				<term type="geographic">Agra</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91e82ec4-e08d-5170-9d2e-60785a644748">
-				<term type="work (architecture)">Taj Mahal</term>
+				<term type="work (architecture)">Tāj Mahal (monument)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04f3983d-3813-5546-bb54-ba913a054ff1">
 				<term type="work (tomb)">Mughal period tombs</term>
@@ -130,7 +136,7 @@ No. 612</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Tajmahal&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Tajmahal</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -271,7 +277,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

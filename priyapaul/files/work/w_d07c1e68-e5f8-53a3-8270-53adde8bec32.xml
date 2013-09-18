@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The mosque is full of people who are offering namaz while outside the boundary, several horse-carts are standing on the road. Some people are crossing a staircase.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,11 +21,11 @@
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107982" type="corporate">HeidICON Image Database</name>
@@ -42,7 +42,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0b6a684d-0d2c-5bfd-abef-d44d951f3b21" refid="107982" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0b6a684d-0d2c-5bfd-abef-d44d951f3b21" refid="107982" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -51,27 +51,27 @@
 			</rights>
 		</rightsSet>
 		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="e0cce022-aa95-5b6c-babf-73cfe1042071">
+				<term type="geographic">Delhi</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
 				<term type="internal workflow">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ab0b791-c983-5d5a-90d5-dfc85c8b2c23">
 				<term type="concept">Made in Germany</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="7a160798-68d0-580d-bd4f-c8f85363027d">
-				<term type="geographic">Old Delhi</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
 				<term type="worktype">picture postcards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0524a91b-6bca-5e60-8abc-cd45bbfacdbe">
-				<term type="geographic">Jama Masjid, Delhi</term>
+				<term type="geographic">Jama Masjid (Delhi)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Juma Masjid, Agra</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Juma Masjid, Agra</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -121,7 +121,7 @@ H. A. Mirza &amp; Sons, Delhi. Made in Germany. [on backside?]</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:09">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,29 +7,29 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Eight matchbox covers can be seen in this image. The first shows the number 777, the second a horsehead, the third a travelling bag, the fourth a night-sky, the fifth a rising sun, the sixth a black farmer fighting with a leopard, the seventh playing card logos and the eighth the head of a camel.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">(First row) From Left. 1. Lucky Seven. Impregnated. 777. Quality. Wimco. Safty Matches. Made in India. 2.The Horse Head. Wimco. Made in India. Safty Matches. (second row) 1.The Esavi India Match. Factory Calcutta. 2. Id-Ka-Chand. Safty Matches. Made in Pakistan . (third row) 1. Rising Sun Matches. Made in India. The Western India Match Company Ltd. 2.Cheeta Fight. Wimco. Safty Matches. Made in India. (fourth row) 1. Tekka. Made in India. Wimco. Safty Match. 2. Camel Head. Deluxe Quality. Damp Proof. Safty Matches. Deluxe Quality.</text>
+				<text type="text" lang="eng">(First row) From Left. 1. Lucky Seven. Impregnated. 777. Quality. Wimco. Safty Matches. Made in India. 2.The Horse Head. Wimco. Made in India. Safty Matches. (second row) 1.The Esavi India Match. Factory Calcutta. 2. Id-Ka-Chand. Safty Matches. Made in Pakistan . (third row) 1. Rising Sun Matches. Made in India. The Western India Match Company Ltd. 2.Cheeta Fight. Wimco. Safty Matches. Made in India. (fourth row) 1. Tekka. Made in India. Wimco. Safty Match. 2. Camel Head. Deluxe Quality. Damp Proof. Safty Matches. Deluxe Quality.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">(second row) 2. عید کاچاند
+				<text type="text" lang="urd">(second row) 2. عید کاچاند
 (forth row) 1. ADD TEXT HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108114" type="corporate">HeidICON Image Database</name>
@@ -46,7 +46,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_00bafe95-bea5-5535-8813-92ed5dc0f798" refid="108114" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_00bafe95-bea5-5535-8813-92ed5dc0f798" refid="108114" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -81,7 +81,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Eight matchbox covers</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Eight matchbox covers</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">matchboxes</worktype>
@@ -113,7 +113,7 @@ Eight matchbox covers can be seen in this image. The first shows the number 777,
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:27">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

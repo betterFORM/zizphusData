@@ -12,11 +12,11 @@
   			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109826" type="corporate">HeidICON Image Database</name>
@@ -33,7 +33,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_99152f32-0a1d-5f34-9339-e9860f58460b" refid="109826" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_99152f32-0a1d-5f34-9339-e9860f58460b" refid="109826" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -50,7 +50,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">M.Vadilal &amp; Co. samples 1167, 1168</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">M.Vadilal &amp; Co. samples 1167, 1168</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -84,7 +84,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

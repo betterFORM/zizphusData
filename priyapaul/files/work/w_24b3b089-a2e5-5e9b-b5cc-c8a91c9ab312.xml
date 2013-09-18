@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Calendar sample image showing a bejeweled Indian woman with comparatively fair skin.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,22 +23,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">This is Ordinary Tinted Ground
+				<text type="text" lang="eng">This is Ordinary Tinted Ground
 No. 1
 Printed in Green Ink</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">When Ordering, Please Mention the Number and
+				<text type="text" lang="eng">When Ordering, Please Mention the Number and
 Colour You Prefer</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">For
+				<text type="text" lang="eng">For
 Extra Charges
 Consult With
 Item No. 16</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">If SIlver Tinted
+				<text type="text" lang="eng">If SIlver Tinted
 Ground
 Required Then
 Consult With
@@ -40,11 +46,11 @@ Item No. 18.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109879" type="corporate">HeidICON Image Database</name>
@@ -61,7 +67,7 @@ Item No. 18.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_6faf880d-3f5d-581e-bb68-d06793463033" refid="109879" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_6faf880d-3f5d-581e-bb68-d06793463033" refid="109879" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -96,7 +102,7 @@ Item No. 18.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">September 1941 Calendar sample</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">September 1941 Calendar sample</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -154,7 +160,7 @@ Calendar sample image showing a bejeweled Indian woman with comparatively fair s
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:51">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

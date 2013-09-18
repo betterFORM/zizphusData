@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1934</earliestDate>
+				<latestDate>1934</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Haig Scotch Whiskey, several images are depicted showing possible venues for the consumption of the advertised whiskey, such as at the theatre, on a train, plane, ship, or at a club or at home. Two of the advertised products are pictured in the center of the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,7 +27,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Times of India Annual, 1934
+				<text type="text" lang="eng">The Times of India Annual, 1934
 Don't be vague - ask for Haig
 On the train
 In the air
@@ -34,11 +40,11 @@ Good old Matured Scotch Whisky is the best and safest beverage at all times</tex
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119853" type="corporate">HeidICON Image Database</name>
@@ -55,7 +61,7 @@ Good old Matured Scotch Whisky is the best and safest beverage at all times</tex
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_433035b6-53b8-54ee-900f-6b14df21dc03" refid="119853" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_433035b6-53b8-54ee-900f-6b14df21dc03" refid="119853" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -79,6 +85,9 @@ Good old Matured Scotch Whisky is the best and safest beverage at all times</tex
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
@@ -86,10 +95,10 @@ Good old Matured Scotch Whisky is the best and safest beverage at all times</tex
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="112bac83-ccb5-5208-97c3-308028506ba8">
-				<term type="concept">liquor</term>
+				<term type="concept">liquors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="710dc022-528c-576c-a63f-68126731ff55">
-				<term type="brand">Haig Scotch Whiskey</term>
+				<term type="product">Haig Scotch Whiskey (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -99,7 +108,7 @@ Good old Matured Scotch Whisky is the best and safest beverage at all times</tex
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Haig Scotch Whisky</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Haig Scotch Whisky</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -151,7 +160,7 @@ On this advertisement for Haig Scotch Whiskey, several images are depicted showi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:34:55">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

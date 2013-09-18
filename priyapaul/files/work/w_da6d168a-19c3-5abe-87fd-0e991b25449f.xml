@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna, dressed in saffron clothes, a yellow cape and wearing a garland of flowers and a crown with a peacock feather on his head is seen standing next to two women. He holds a flute in his right hand and looks towards one of the women. She is dressed in a white and gold sari and has long black hair and looks towards Krishna. Near her, another woman dressed in a blue and gold sari kneels down and picks something up from the ground. A tree can be seen in the background.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,15 +22,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Copyright No. 2478</text>
+				<text type="text" lang="eng">Copyright No. 2478</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108306" type="corporate">HeidICON Image Database</name>
@@ -47,7 +47,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_ddd7ae2a-bfc5-5e8e-a3ea-10dfdc8cf0e0" refid="108306" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_ddd7ae2a-bfc5-5e8e-a3ea-10dfdc8cf0e0" refid="108306" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,7 +95,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Lord Krishna with two women</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Lord Krishna with two women</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype>labels</worktype>
@@ -158,7 +158,7 @@ http://www.exoticindiaart.com/krishna.htm, last accessed 2011-09-17, information
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:04">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

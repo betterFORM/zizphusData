@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108645" type="corporate">HeidICON Image Database</name>
@@ -22,7 +22,7 @@
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_0acad571-42cc-56be-8e45-4930b2668606" refid="108645" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_0acad571-42cc-56be-8e45-4930b2668606" refid="108645" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -34,7 +34,7 @@
 			<technique vocab="LOCAL" refid="aa1dbdf9-4e77-5ae2-bd7f-a895b82dfb12">etchings (prints)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">drawing of a kind riding horse and holding a bird in hand</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">drawing of a kind riding horse and holding a bird in hand</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="a223f3a2-522d-55d8-a535-07a216ae1fa7">drawings (visual works)</worktype>
@@ -63,7 +63,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:51">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

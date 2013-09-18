@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1936</earliestDate>
+				<latestDate>1936</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Two western women can be seen in a shop that is selling vegetables, fruit, cheese, tinned products, milk, and so on. A third woman sits at a desk and makes a phone call while the shop keeper in a white jacket packs a box for one of the women customers dressed in a western dress and cap. The second woman customer, wearing a red dress and a hat smiles as she as she points her right hand towards a baby sitting on the floor. She is standing next to the fresh produce section. The baby is sitting next to a basket filled with groceries and holding on to an apple. A dog is balancing on its hind legs and looking towards the apple that the baby holds. Both women hold purses in their left hands.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0">Brosius, Christiane</name>
@@ -21,14 +27,14 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">GUPTA &amp; CO., 
+				<text type="text" lang="eng">GUPTA &amp; CO., 
 Manufacturing Perfumers
 Wholesale dealers in all perfumery raw material.
 SADAR BAZAR (Below post office)
 DELHI.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ask our quotations for: -
+				<text type="text" lang="eng">Ask our quotations for: -
 Bencyl Acetate
 Diphenyl Oxide
 Citronellas
@@ -41,7 +47,7 @@ Essential Oils
 Colours &amp; Labels</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Try our: -
+				<text type="text" lang="eng">Try our: -
 Leilla perfumes
 For
 Hair olis etc.
@@ -58,21 +64,21 @@ Otto Mogra
 Kashmir Flower</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">BRANCH:-
+				<text type="text" lang="eng">BRANCH:-
 168, Abdul Rahman
 Street, (3rd, Flour,)
 Bombay.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Printed at the Block Printing Press Delhi.</text>
+				<text type="text" lang="eng">Printed at the Block Printing Press Delhi.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119867" type="corporate">HeidICON Image Database</name>
@@ -89,7 +95,7 @@ Bombay.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_225eb473-49b9-5adf-9322-ce3c9291a71c" refid="119867" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_225eb473-49b9-5adf-9322-ce3c9291a71c" refid="119867" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -145,7 +151,7 @@ Bombay.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Shop With Customers And Dog</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Shop With Customers And Dog</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -210,7 +216,7 @@ Printed at the Block Printing Press Delhi.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:59">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

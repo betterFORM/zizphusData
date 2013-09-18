@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1907</earliestDate>
+				<latestDate>1907</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This poster calendar of Robert Barbour &amp; Brother depicts different women in various costumes. The corners of the poster bear depictions of famous Indian tourist spots such as the Taj Mahal. There is a picture of a forearm holding a golden key in its hand in the lower middle of the poster.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
@@ -31,12 +37,12 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">With compliments from
+				<text type="text" lang="eng">With compliments from
 Robt. Barbour &amp; Bro.
 Manchester</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">With best wishes for a 
+				<text type="text" lang="eng">With best wishes for a 
 prosperous year
 From
 Robt. Barbour &amp; Bro.
@@ -45,7 +51,7 @@ Merchants &amp; Shippers
 to all Markets of the World.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Leading Specialities
+				<text type="text" lang="eng">Leading Specialities
 Domettes. Printed and Dyed.
 Prints. Shirting and Fancy.
 Woollens, Flannels, Meltons, Coatings, Army Cloths etc.
@@ -56,44 +62,44 @@ Nainsooks, Dhooties etc.
 Hand &amp; Key White Shirtings.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Armitage &amp; Ibbetson, Ltd., Lithos, Manchester &amp; Bradford.</text>
+				<text type="text" lang="eng">Armitage &amp; Ibbetson, Ltd., Lithos, Manchester &amp; Bradford.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">25.460 [indecipherable handwriting, lower edge]</text>
+				<text type="text" lang="eng">25.460 [indecipherable handwriting, lower edge]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Virtute Tutus
+				<text type="text" lang="eng">Virtute Tutus
 Ich Dien
 Virtute Tutus</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Wonderful Gardens 
+				<text type="text" lang="eng">Wonderful Gardens 
 of Lahore</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The Taj Mahal
+				<text type="text" lang="eng">The Taj Mahal
 Agra</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Pearl Mosque at Delhi</text>
+				<text type="text" lang="eng">Pearl Mosque at Delhi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Robt. Barbour &amp; Bro.
+				<text type="text" lang="eng">Robt. Barbour &amp; Bro.
 Warehouse</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Palace of Udaipur from the Lake.</text>
+				<text type="text" lang="eng">Palace of Udaipur from the Lake.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">1907 Calendar 1907</text>
+				<text type="text" lang="eng">1907 Calendar 1907</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118492" type="corporate">HeidICON Image Database</name>
@@ -164,7 +170,7 @@ Warehouse</text>
 				<term type="concept">keys (hardware)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91e82ec4-e08d-5170-9d2e-60785a644748">
-				<term type="work (architecture)">Taj Mahal</term>
+				<term type="work (architecture)">Tāj Mahal (monument)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="75c2ae8a-d15e-502f-a615-3436e2909c3f">
 				<term type="concept">fashion (concept)</term>
@@ -194,14 +200,14 @@ Warehouse</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f2ea685-3886-5251-808e-9dc57c8feac2">
-				<term type="concept">warehouse</term>
+				<term type="concept">warehouses</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">With Compliments from Robert Barbour &amp; Brother, Manchester</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">With Compliments from Robert Barbour &amp; Brother, Manchester</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -395,7 +401,7 @@ http://www.ainslie.org.uk/genealogy/barbour/dat12.htm#16, last accessed 2012-01-
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:04">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120357" type="corporate">HeidICON Image Database</name>
@@ -19,7 +19,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_40b15fee-2d82-510c-add9-d726e0371b59" refid="120357" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_40b15fee-2d82-510c-add9-d726e0371b59" refid="120357" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -28,10 +28,11 @@
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">still from the film &quot;Sakshi Gopal&quot; (Bharat Bhushan)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">still from the film &quot;Sakshi Gopal&quot; (Bharat Bhushan)</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
@@ -57,7 +58,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:28">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -8,15 +8,15 @@
 		</agentSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Times of India Annual, 1937</text>
+				<text type="text" lang="eng">The Times of India Annual, 1937</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Visit the Wonders of
+				<text type="text" lang="eng">Visit the Wonders of
 RAJPUTANA - AGRA -
 and DELHI</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The Palace
+				<text type="text" lang="eng">The Palace
 UDAIPUR
 Tower of Victory
 CHITORGARH
@@ -27,17 +27,17 @@ JAIPUR
 Palace of Winds</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Information &amp; Illustrated Brochure from
+				<text type="text" lang="eng">Information &amp; Illustrated Brochure from
 B. B. &amp; C. I. RLY.
 Churchgate - Bombay.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119824" type="corporate">HeidICON Image Database</name>
@@ -54,7 +54,7 @@ Churchgate - Bombay.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_e5cedb05-5691-5602-b32c-ba3d6d21a4c1" refid="119824" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_e5cedb05-5691-5602-b32c-ba3d6d21a4c1" refid="119824" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -63,6 +63,9 @@ Churchgate - Bombay.</text>
 			</rights>
 		</rightsSet>
 		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
 				<term type="internal workflow">recheck-Medialab</term>
 			</subject>
@@ -74,7 +77,7 @@ Churchgate - Bombay.</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">brochure of B.B. &amp; C.I. Railway, Bombay</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">brochure of B.B. &amp; C.I. Railway, Bombay</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -132,7 +135,7 @@ Churchgate - Bombay.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:34">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:59:52">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

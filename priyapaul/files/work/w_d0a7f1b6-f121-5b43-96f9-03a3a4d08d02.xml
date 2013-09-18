@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this sample image from a catalogue of Empire Calender Manufacturing Co. Lord Krishna is depicted wearing a crown and with a halo. He is flirting with a gopi (woman cowherd) who is playing his flute. In the background, a tree and some flowers can be seen. There is a tilted pot with milk overflowing from it beside the gopi. Both Krishna and the gopi are wearing gold jewellery.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -27,13 +27,13 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">M. L. Sharma</text>
+				<text type="text" lang="eng">M. L. Sharma</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Deccan P. Studio</text>
+				<text type="text" lang="eng">Deccan P. Studio</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">BANSHI SIKCHA
+				<text type="text" lang="eng">BANSHI SIKCHA
 No. 663</text>
 			</inscription>
 			<inscription>
@@ -41,11 +41,11 @@ No. 663</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119457" type="corporate">HeidICON Image Database</name>
@@ -62,7 +62,7 @@ No. 663</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7983073e-d32e-5086-9fdd-8b7481dcab23" refid="119457" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7983073e-d32e-5086-9fdd-8b7481dcab23" refid="119457" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -120,7 +120,7 @@ No. 663</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Bansi Sikcha&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Bansi Sikcha</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -188,7 +188,7 @@ Sample god poster images taken from a catalogue / brochure. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:30">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:56">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

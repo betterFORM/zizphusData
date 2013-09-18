@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Krishna can be seen playing the flute with Rukmani reclining next to him in a palace. Both of them are depicted with halos around their heads, dressed in luxurious clothes and wearing jewellery. In the background, several plants as well as some pillars, a window and other architectural elements are depicted. In the far background one can see another palace-like building surrounded by palm trees and bushes.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -35,22 +35,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Rukmani-Krishna-Ticket
+				<text type="text" lang="eng">Rukmani-Krishna-Ticket
 E. D. Sassoon &amp; Co. Ltd. Karachi.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">ई. डी. सासून. कम्पनीः  कराचीः</text>
+				<text type="text" lang="hin">ई. डी. सासून. कम्पनीः  कराचीः</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">रुकमनी-कृशन टिकीटः</text>
+				<text type="text" lang="hin">रुकमनी-कृशन टिकीटः</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108813" type="corporate">HeidICON Image Database</name>
@@ -67,7 +67,7 @@ E. D. Sassoon &amp; Co. Ltd. Karachi.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b4451f7e-fcb6-54fa-bedd-cfb66fed14e6" refid="108813" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b4451f7e-fcb6-54fa-bedd-cfb66fed14e6" refid="108813" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -134,14 +134,14 @@ E. D. Sassoon &amp; Co. Ltd. Karachi.</text>
 				<term type="concept">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
-				<term type="concept">bottle</term>
+				<term type="concept">bottles</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by E. D. Sassoon &amp; Co. Ltd.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by E. D. Sassoon &amp; Co. Ltd.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -190,7 +190,7 @@ Krishna can be seen playing the flute with Rukmani reclining next to him in a pa
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:16">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

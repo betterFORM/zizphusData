@@ -32,7 +32,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample image from a catalogue of Empire Calender Manufacturing Co. with the title &quot;Sabri Ke Ber&quot; which translates to &quot;Sabri's Berries&quot;. It is a reference to the story of Rama, seen here with bow and arrow while he was in exile in the forest, and that of his ardent devotee Sabri (was from a lower caste-Bhil). Here she is seen kneeling at his feet offering him the berries she had picked. Behind Rama Sita stands and looks toward Sabri while holding on to a branch with flowers. Rama, Sita and Sabri are dressed in simple clothes. Sita is wearing a flower garland and bracelet. Rama is wearing flowers in his hair and holy bead (Rudraksh) necklace. A waterfall, a lake and mountains can be seen in the background.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -42,22 +42,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Sabri-Ke-Ber
+				<text type="text" lang="eng">Sabri-Ke-Ber
 No. 653</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">M. L. Sharma</text>
+				<text type="text" lang="eng">M. L. Sharma</text>
 			</inscription>
 			<inscription>
 				<text type="signature">M. L. Sharma</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119454" type="corporate">HeidICON Image Database</name>
@@ -74,7 +74,7 @@ No. 653</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_97224133-05a8-5139-b1e6-360e8213bbf0" refid="119454" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_97224133-05a8-5139-b1e6-360e8213bbf0" refid="119454" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -128,9 +128,6 @@ No. 653</text>
 			<subject source="EXC" vocab="LOCAL" refid="5d4e5bb3-d17d-53c2-aa27-d2df5ae669f2">
 				<term type="concept">bracelets (jewelry)</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d12b7f80-6417-52af-ae94-1179cd324e2c">
 				<term type="concept">sacrifices</term>
 			</subject>
@@ -142,7 +139,7 @@ No. 653</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Sabri-Ke-Ber&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Sabri-Ke-Ber</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -193,7 +190,7 @@ This is possibly a depiction of the story in which Sabri tastes the berries she 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

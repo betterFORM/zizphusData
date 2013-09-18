@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this image, the Jain temple in Jaipur can be seen. The shrine is beautifully ornamented and shelters several Buddha statues.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,21 +27,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">No. 52 
+				<text type="text" lang="eng">No. 52 
 Images of Paras Nath
 Jain temple Sanganeer
 Jaipur</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Gobin Ram &amp; Oodey Ram, Jaipur</text>
+				<text type="text" lang="eng">Gobin Ram &amp; Oodey Ram, Jaipur</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107948" type="corporate">HeidICON Image Database</name>
@@ -58,7 +58,7 @@ Jaipur</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_2d62f514-ca7c-5fc3-8e7f-204732e10b65" refid="107948" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_2d62f514-ca7c-5fc3-8e7f-204732e10b65" refid="107948" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -87,7 +87,7 @@ Jaipur</text>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Images of Parasnath</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Images of Parasnath</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -134,7 +134,7 @@ On this image, the Jain temple in Jaipur can be seen. The shrine is beautifully 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:42">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:14:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A textile label of  Graham, Manchester shows an  image of a nobleman, wearing a turban and a cape, with his servant behind him, holding up the end of his cape. In the background, palm trees can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,19 +26,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Graham 
+				<text type="text" lang="eng">Graham 
 Manchester</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="gu">ADD TEXT HERE</text>
+				<text type="text" lang="guj">ADD TEXT HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108782" type="corporate">HeidICON Image Database</name>
@@ -55,7 +55,7 @@ Manchester</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_1c8d33c8-9e67-5e99-b5cf-bfe24c957c0d" refid="108782" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_1c8d33c8-9e67-5e99-b5cf-bfe24c957c0d" refid="108782" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,7 +95,7 @@ Manchester</text>
 				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e3b0a51b-8a1d-5af6-b624-59b5fab60de2">
-				<term type="concept">aristocrat</term>
+				<term type="concept">aristocrats</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e47d162e-40fe-5b14-a7dd-e8f839011c8a">
 				<term type="concept">capes (outerwear)</term>
@@ -105,7 +105,7 @@ Manchester</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label by Graham</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by Graham</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -136,7 +136,7 @@ A textile label of  Graham, Manchester shows an  image of a nobleman, wearing a 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:09">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

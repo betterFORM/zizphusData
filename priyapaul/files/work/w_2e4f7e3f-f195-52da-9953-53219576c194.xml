@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1972</earliestDate>
+				<latestDate>1972</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this poster calender from Hari Krishna Karyalaya (office), Bareilly Rajasthan (1972), a couple can be seen smiling at each other. In the background, a field full of crops, a water pump, poultry and farm animals can be seen. The man is carrying a plough and the woman is carrying a sickle.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,17 +27,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Phone: Resi.: 6541
+				<text type="text" lang="eng">Phone: Resi.: 6541
 Office: 6661</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">नकली मालो से सावधान 
+				<text type="text" lang="hin">नकली मालो से सावधान 
 हरी कृष्ण कार्यालय (रजि.)  बरेली
 उच्च कोटी के चूर्ण एवं मसालो के निर्माता 
 शिवाजी मार्ग, बरेली</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">मसाले: दाल मसाला, चाट मसाला, रायता मसाला, जीरा वटी असली हींग वटी, हर वटी, जल जीरा, सँत दन्त मजंन
+				<text type="text" lang="hin">मसाले: दाल मसाला, चाट मसाला, रायता मसाला, जीरा वटी असली हींग वटी, हर वटी, जल जीरा, सँत दन्त मजंन
 चाय मसाला
 चूर्ण: लुकमानि चूर्ण, छुआरा चूर्ण, भूका चूर्ण, नारंगी चूर्ण, पशु चूर्ण</text>
 			</inscription>
@@ -40,22 +46,22 @@ Office: 6661</text>
 Bareilly Rajasthan</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Studio 
+				<text type="text" lang="eng">Studio 
 Jothis</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">1972</text>
+				<text type="text" lang="eng">1972</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Studio Jothis</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118874" type="corporate">HeidICON Image Database</name>
@@ -182,7 +188,7 @@ Jothis</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar Showing a Couple</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Calendar Showing a Couple</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -375,7 +381,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:02">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:20">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

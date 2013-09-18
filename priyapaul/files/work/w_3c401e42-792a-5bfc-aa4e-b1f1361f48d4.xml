@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna is depicted surrounded by a group of gopis (female  cowherds) as he dances with one of them in the centre. Krishna is wearing a turban with a feather and all the gopis are wearing jewellery. The depicted dancers are on a raised platform that extends from a building with a scenic garden in the background. The building's doors and a second floor with pillars and Mughal architecture can be seen. The garden has a tree and the sun is shining in the background.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,16 +32,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Krishna and the Gopis.
+				<text type="text" lang="eng">Krishna and the Gopis.
 From the picture in the Sir Ratan Tata Collection by kind permission of the Trustees of the Prince of Wales Museum of Western India, Bombay.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119755" type="corporate">HeidICON Image Database</name>
@@ -52,7 +58,7 @@ From the picture in the Sir Ratan Tata Collection by kind permission of the Trus
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_231a385b-4469-5363-b5f4-03f2142a9f3d" refid="119755" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_231a385b-4469-5363-b5f4-03f2142a9f3d" refid="119755" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -102,7 +108,7 @@ From the picture in the Sir Ratan Tata Collection by kind permission of the Trus
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Krishna and the Gopis&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Krishna and the Gopis</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -146,7 +152,7 @@ The Persian inscriptions as well as the Mughal style architecture depicted on th
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:36">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:22">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

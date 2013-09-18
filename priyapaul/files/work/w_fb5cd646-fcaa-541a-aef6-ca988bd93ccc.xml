@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement from the Times of India Yearbook 1937 for Continental portable typewriters, two typewriters and contact details of the agents for their sale can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,7 +27,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">At home 
+				<text type="text" lang="eng">At home 
 on travel
 in office
 Modern man 
@@ -36,11 +42,11 @@ and A/10, Bharat Niketan, Meredith Street, Calcutta</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119770" type="corporate">HeidICON Image Database</name>
@@ -57,7 +63,7 @@ and A/10, Bharat Niketan, Meredith Street, Calcutta</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b08742da-d1d3-5caf-8237-f46dc8a1fdd4" refid="119770" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b08742da-d1d3-5caf-8237-f46dc8a1fdd4" refid="119770" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -79,11 +85,14 @@ and A/10, Bharat Niketan, Meredith Street, Calcutta</text>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
 				<term type="concept">product advertisement</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5a89efcd-7c4b-526c-989c-f9c110a14941">
-				<term type="brand">Continental Typewriter</term>
+				<term type="product">Continental Typewriter (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -93,7 +102,7 @@ and A/10, Bharat Niketan, Meredith Street, Calcutta</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Karnad &amp; Bellare, Limited</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Karnad &amp; Bellare, Limited</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -179,7 +188,7 @@ Source: http://machinesoflovinggrace.com/ptf/TEGContinental.html</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:58">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Brooke Bond Tea, a colourful bird can be seen with a speech balloon which has the tagline for the product. A sample of the advertised product, a yellow box with a colouful bird on it is depicted below the speech balloon.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,7 +26,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">ब्रुक बाँड
+				<text type="text" lang="hin">ब्रुक बाँड
 A-1 चूरा चाय
 हर पैकेट से
 बढिया चाय की 
@@ -38,16 +38,16 @@ A-1 dust tea
 More cups of great tea in every packet</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Brooke Bond Tea
+				<text type="text" lang="eng">Brooke Bond Tea
 Brooke Bond A-1 Dust Tea</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118533" type="corporate">HeidICON Image Database</name>
@@ -64,7 +64,7 @@ Brooke Bond A-1 Dust Tea</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_e17de29e-1277-54f1-ac2a-a45afc3a4e22" refid="118533" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_e17de29e-1277-54f1-ac2a-a45afc3a4e22" refid="118533" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -101,12 +101,15 @@ Brooke Bond A-1 Dust Tea</text>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="0bdb20dd-07d9-51f3-8179-c25eaa4a501c">
+				<term type="brand">Brooke Bond Tea</term>
+			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Brooke Bond Darjeeling Tea</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Brooke Bond Darjeeling Tea</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -192,7 +195,7 @@ Source: http://en.wikipedia.org/wiki/Brooke_Bond</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:18">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

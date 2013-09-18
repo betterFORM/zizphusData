@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna can be seen with a halo around his head, playing holi with his companion Radha in a temple like surrounding. In front of them, a peacock is depicted.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,11 +26,11 @@
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120935" type="corporate">HeidICON Image Database</name>
@@ -38,7 +38,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_39e8f73d-b8a4-5cd0-94f0-8f47bac7b525" refid="120935" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_39e8f73d-b8a4-5cd0-94f0-8f47bac7b525" refid="120935" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -70,10 +70,10 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Krishna playing Holi with Radha</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Krishna playing Holi with Radha</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="6cc28a30-ae55-58c8-a507-73c9cc22edac">packing material</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -106,7 +106,7 @@ Holi - the festival of colors - is undoubtedly the most fun-filled and boisterou
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:37">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

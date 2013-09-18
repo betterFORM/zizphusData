@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The four-armed goddess Sarasvati is depicted playing Sitar while sitting on a big rock next to a river. She is holding a Mala and a package of soap in here free hands. A peacock is standing on a rock on the left. Behind her there is a big bush with some red berries.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -23,17 +23,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Vinolia
+				<text type="text" lang="eng">Vinolia
 Co. Ltd.
 LONDON, ENGLAND.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118368" type="corporate">HeidICON Image Database</name>
@@ -53,8 +53,8 @@ LONDON, ENGLAND.</text>
 			<relation type="imageIs" relids="i_65e24448-3419-5596-97e0-4f898a7e0d8c" refid="118368" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_e47dbcf0-8566-5ab4-8e90-964281dde7df" refid="118371" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_e6a8ceca-6770-5365-8416-6d730a65e378" refid="118370" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_02808868-79b7-590b-a6c0-6aaebb65788a" refid="118372" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_887b3fba-2a2b-528c-9ab2-ee1f14356071" refid="118369" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_02808868-79b7-590b-a6c0-6aaebb65788a" refid="118372" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -127,7 +127,7 @@ LONDON, ENGLAND.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Vinolia</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Vinolia</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -268,13 +268,13 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118372</ext:value>
-				<ext:value>i_02808868-79b7-590b-a6c0-6aaebb65788a</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118369</ext:value>
+				<ext:value>i_887b3fba-2a2b-528c-9ab2-ee1f14356071</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118369</ext:value>
-				<ext:value>i_887b3fba-2a2b-528c-9ab2-ee1f14356071</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118372</ext:value>
+				<ext:value>i_02808868-79b7-590b-a6c0-6aaebb65788a</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 		</ext:heidicon>
@@ -285,7 +285,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:21">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

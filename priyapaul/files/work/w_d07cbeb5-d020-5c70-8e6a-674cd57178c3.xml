@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Madhu canned Mangoes, the drawing of a family being served the advertised product can be seen. A sample-can is pictured as well. The right section of the image hosts a detailed  as well as contact details of wholesellers etc.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,19 +23,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Their Favourite Dish!</text>
+				<text type="text" lang="eng">Their Favourite Dish!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Delicious and so Good for you!</text>
+				<text type="text" lang="eng">Delicious and so Good for you!</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Now, for a fraction of the usual expense, you can prepare Mango Ices, Mango Cream, Blane.mango and Mango Punch using delicious Madhu Mango Products. Expansion in canning equipment enables the Madhu organization to offer better quality at 25% reduction in prices.</text>
+				<text type="text" lang="eng">Now, for a fraction of the usual expense, you can prepare Mango Ices, Mango Cream, Blane.mango and Mango Punch using delicious Madhu Mango Products. Expansion in canning equipment enables the Madhu organization to offer better quality at 25% reduction in prices.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Enjoy vitamin-rich, health-giving mango products like Mango slices, Mango Pulp, Mango Jam and Mango Squash. Also try Madhu Tomato Soup, Plums and Pears. Obtainable at leading stores.</text>
+				<text type="text" lang="eng">Enjoy vitamin-rich, health-giving mango products like Mango slices, Mango Pulp, Mango Jam and Mango Squash. Also try Madhu Tomato Soup, Plums and Pears. Obtainable at leading stores.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Madhu Canning Company
+				<text type="text" lang="eng">Madhu Canning Company
 Chinchpokli, Bombay No. 12, *Phone: 41380
 *Grams: &quot;Emcici&quot;
 Sole Agents: Jehangir Bros., Ahmedabad. 
@@ -38,15 +44,15 @@ S.R. Bugtani &amp; Co., Karachi
 For Sind, Punjab &amp; N.W.F. Provinces</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Madhu Canned Mangoes</text>
+				<text type="text" lang="eng">Madhu Canned Mangoes</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119774" type="corporate">HeidICON Image Database</name>
@@ -63,7 +69,7 @@ For Sind, Punjab &amp; N.W.F. Provinces</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b6c19280-9c4d-5958-a07e-c53f226bb6b3" refid="119774" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b6c19280-9c4d-5958-a07e-c53f226bb6b3" refid="119774" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -84,6 +90,9 @@ For Sind, Punjab &amp; N.W.F. Provinces</text>
 			<subject source="EXC" vocab="LOCAL" refid="d557079d-1393-5c29-b3aa-365e104c5044">
 				<term type="concept">fruit</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
@@ -95,7 +104,7 @@ For Sind, Punjab &amp; N.W.F. Provinces</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Madhu Canned Mangoes</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Madhu Canned Mangoes</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -154,7 +163,7 @@ On this advertisement for Madhu canned Mangoes, the drawing of a family being se
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:07">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:22">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

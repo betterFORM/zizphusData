@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1900 - 1930</earliestDate>
+				<latestDate>1900 - 1930</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Pillars and arches of the Deewan-i-Aam which is part of the Red Fort (Delhi).</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,19 +28,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">96006</text>
+				<text type="text" lang="eng">96006</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The Deewan-i-Am in Fort, Delhi.
+				<text type="text" lang="eng">The Deewan-i-Am in Fort, Delhi.
 Built by the Emperor Shahjahan between 1638 &amp; 1648 A. D.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107998" type="corporate">HeidICON Image Database</name>
@@ -51,7 +57,7 @@ Built by the Emperor Shahjahan between 1638 &amp; 1648 A. D.</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7505f4ff-978a-5bd3-a65a-0b6a5b2d6a09" refid="107998" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7505f4ff-978a-5bd3-a65a-0b6a5b2d6a09" refid="107998" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -72,6 +78,9 @@ Built by the Emperor Shahjahan between 1638 &amp; 1648 A. D.</text>
 			</source>
 		</sourceSet>
 		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="e0cce022-aa95-5b6c-babf-73cfe1042071">
+				<term type="geographic">Delhi</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dc0d4358-3e05-51a8-9919-0b4f19a9a181">
 				<term type="geographic">Yamuna (river)</term>
 			</subject>
@@ -84,9 +93,6 @@ Built by the Emperor Shahjahan between 1638 &amp; 1648 A. D.</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="7a160798-68d0-580d-bd4f-c8f85363027d">
-				<term type="geographic">Old Delhi</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
 				<term type="worktype">picture postcards</term>
 			</subject>
@@ -95,7 +101,7 @@ Built by the Emperor Shahjahan between 1638 &amp; 1648 A. D.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Deewan-i-Aam</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Deewan-i-Aam</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -180,7 +186,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:45">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

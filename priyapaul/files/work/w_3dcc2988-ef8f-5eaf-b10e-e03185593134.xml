@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1970</earliestDate>
+				<latestDate>1970</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Here a female, standing sideways to the viewer, drops flowers onto a Shivalinga in the lower center of the picture. Lord Shiva can be seen in the background of the image, with a trishul (trident), the snake around his neck and his third eye, in this advertisement of Dhannaram Sitaram Cloth Merchants, Haryana.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,13 +38,13 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">P. Sardar</text>
+				<text type="text" lang="eng">P. Sardar</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">493</text>
+				<text type="text" lang="eng">493</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">घन्नाराम सीताराम क्लाथ मेर्चान्ट्स</text>
+				<text type="text" lang="hin">घन्नाराम सीताराम क्लाथ मेर्चान्ट्स</text>
 			</inscription>
 			<inscription>
 				<text type="other">Imaandaari humaara dhyeya hai
@@ -51,11 +57,11 @@ Ajay Press Khodi</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118863" type="corporate">HeidICON Image Database</name>
@@ -129,9 +135,9 @@ Ajay Press Khodi</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Ghannaram Sitaram Cloth Merchants</title>
-			<title type="descriptive" pref="false" lang="" script="">Ghannaram Sitaram Cloth Merchants</title>
-			<title type="descriptive" pref="false" lang="" script="">घन्नाराम सीताराम क्लाथ मेर्चान्ट्स</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Ghannaram Sitaram Cloth Merchants</title>
+			<title type="descriptive" pref="false">Ghannaram Sitaram Cloth Merchants</title>
+			<title type="descriptive" pref="false">घन्नाराम सीताराम क्लाथ मेर्चान्ट्स</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -252,7 +258,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/97/index_3.html, last accessed 201
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

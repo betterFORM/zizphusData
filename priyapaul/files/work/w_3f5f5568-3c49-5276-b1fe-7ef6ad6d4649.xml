@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1965</earliestDate>
+				<latestDate>1965</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the Hindi movie &quot;Aasman Mahal&quot;, Surekha smiles as she looks towards the camera. She is wearing a sari, bangles and earrings. In the background, framed paintings can be seen hanging in the wall. The image is damaged on the left side, probably due to water.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -41,19 +47,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Naya Sansar's
+				<text type="text" lang="eng">Naya Sansar's
 Aasman Mahal</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">produced &amp; directed by K.A. Abbas</text>
+				<text type="text" lang="eng">produced &amp; directed by K.A. Abbas</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120233" type="corporate">HeidICON Image Database</name>
@@ -67,7 +73,7 @@ Aasman Mahal</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_844c38d0-9d2a-5609-9416-ef6826babdec" refid="120233" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_844c38d0-9d2a-5609-9416-ef6826babdec" refid="120233" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -125,7 +131,7 @@ Aasman Mahal</text>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aasman Mahal&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Aasman Mahal</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
@@ -224,7 +230,7 @@ http://www.ofdb.de/film/97151,Aasman-Mahal last accessed 2011-08-01, cast and cr
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:04">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

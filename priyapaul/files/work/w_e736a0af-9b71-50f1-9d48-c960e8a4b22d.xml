@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Brook Bond Darjeeling Tea, a couple can be seen enjoying a cup of tea with some snow topped mountains in the background. Several other people can be seen as well sitting on a viewpoint.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -18,16 +18,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Darjeeling tea at its best
+				<text type="text" lang="eng">Darjeeling tea at its best
 New, improved aupreme for flavour and fragrance!</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119379" type="corporate">HeidICON Image Database</name>
@@ -44,7 +44,7 @@ New, improved aupreme for flavour and fragrance!</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_586e69dc-2330-5db2-8648-3bee85860c63" refid="119379" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_586e69dc-2330-5db2-8648-3bee85860c63" refid="119379" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -71,12 +71,15 @@ New, improved aupreme for flavour and fragrance!</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="0bdb20dd-07d9-51f3-8179-c25eaa4a501c">
+				<term type="brand">Brooke Bond Tea</term>
+			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Brook Bond Darjeeling Tea</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Brook Bond Darjeeling Tea</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -119,7 +122,7 @@ On this advertisement for Brook Bond Darjeeling Tea, a couple can be seen enjoyi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:47">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

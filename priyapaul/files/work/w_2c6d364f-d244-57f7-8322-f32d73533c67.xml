@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1970</earliestDate>
+				<latestDate>1970</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the 1970s Hindi film &quot;Aansoo aur Muskan&quot;, Hema Malini can be seen dressed in red clothes, wearing jewellery and makeup. The lobby card is covered in scratches.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,7 +37,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Screen Gems (Madras) Presents
+				<text type="text" lang="eng">Screen Gems (Madras) Presents
 B. Ananthaswami's
 Ansoo aur Muskan
 Eastmancolor
@@ -42,11 +48,11 @@ Kalyanji Anandji</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120868" type="corporate">HeidICON Image Database</name>
@@ -57,7 +63,7 @@ Kalyanji Anandji</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_02d50084-f6ef-5f52-b050-135e4f72d00e" refid="120868" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_02d50084-f6ef-5f52-b050-135e4f72d00e" refid="120868" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -101,7 +107,7 @@ Kalyanji Anandji</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d5dd056f-6946-5390-8000-21a8798d5fe9">
-				<term type="work (movie)">Ansoo aur Muskan</term>
+				<term type="work (movie)">Ansoo aur Muskan (movie, 1970)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
 				<term type="internal workflow">recheck-Matthias</term>
@@ -111,7 +117,7 @@ Kalyanji Anandji</text>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Aansoo aur Muskan&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Aansoo aur Muskan</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -176,7 +182,7 @@ http://www.imdb.com/title/tt0178191/, last accessed 2011-11-30, story plot, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:42">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

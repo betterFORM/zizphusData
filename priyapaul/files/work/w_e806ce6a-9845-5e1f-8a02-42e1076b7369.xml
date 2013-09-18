@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for an Instant Coffee product from the Brooke Bond company, the silhouette of a couple can be seen, with a cup close to their faces as well as a sample of the advertised product.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,17 +17,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">BRU taste!
+				<text type="text" lang="eng">BRU taste!
 new taste! 
 Brook Bond Bru Instant Coffee Chicory Blend</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118532" type="corporate">HeidICON Image Database</name>
@@ -44,7 +44,7 @@ Brook Bond Bru Instant Coffee Chicory Blend</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_85a6767a-05db-5abc-bb2b-0abab73b3fd7" refid="118532" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_85a6767a-05db-5abc-bb2b-0abab73b3fd7" refid="118532" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -80,7 +80,7 @@ Brook Bond Bru Instant Coffee Chicory Blend</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Brooke Bond's Bru Instant Coffee</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Brooke Bond's Bru Instant Coffee</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -157,7 +157,7 @@ Source: http://en.wikipedia.org/wiki/Brooke_Bond</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:34">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

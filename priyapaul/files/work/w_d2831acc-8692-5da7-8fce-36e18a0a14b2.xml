@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1876</earliestDate>
+				<latestDate>1876</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this image the Prince of Wales is listening to a native band playing several types of instruments while visiting Poonah in Maharashtra. The prince is holding his palm behind his ear and is dressed in a royal uniform with medals on his jacket and a hat. There are some people squatting on the ground and looking towards him. One of them can be seen using the hand gesture (salaam) to salute him while another can be seen with folded hands (namaste). Most of the men are wearing turbans. A woman with a baby and another woman who has a sari draped over her head and covering most of her face can also be seen. In the background some plants and the painting or wall hanging of a tiger can also be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,23 +28,23 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">&quot;Shahzada Passes!&quot;</text>
+				<text type="text" lang="eng">&quot;Shahzada Passes!&quot;</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Native band at Poonah.</text>
+				<text type="text" lang="eng">Native band at Poonah.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">S.P. Hall
+				<text type="text" lang="eng">S.P. Hall
 Prince of Wales
 1876</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120878" type="corporate">HeidICON Image Database</name>
@@ -55,7 +61,7 @@ Prince of Wales
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_f4e40c5d-7674-57cf-b528-5854cd77ed7c" refid="120878" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_f4e40c5d-7674-57cf-b528-5854cd77ed7c" refid="120878" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -106,7 +112,7 @@ Prince of Wales
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Prince of Wales&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Prince of Wales</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -180,7 +186,7 @@ http://www.irfca.org/docs/history/prince-of-wales.html, last accessed on 2011-08
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:40:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

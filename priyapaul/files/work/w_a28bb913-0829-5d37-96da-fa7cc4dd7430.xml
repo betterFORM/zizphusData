@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A textile label showing Krishna with his toe in his mouth sitting on a snake with multiple heads. -There are two women next to him with one of them holding a peacock and the other one holds a fan. Two divine beings or angels can be seen in the sky blessing them. The crescent moon as well as stars can be seen in the sky and the below the seat on which Krishna several small containers are lined up.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,21 +32,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">F. STEINER &amp; CO. MANCHESTER</text>
+				<text type="text" lang="eng">F. STEINER &amp; CO. MANCHESTER</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">KERRTARRUCK &amp; CO. CALCUTTA</text>
+				<text type="text" lang="eng">KERRTARRUCK &amp; CO. CALCUTTA</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">YDS</text>
+				<text type="text" lang="eng">YDS</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106174" type="corporate">HeidICON Image Database</name>
@@ -63,7 +63,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_42420e54-f7ed-5799-94b6-35bf8d08e378" refid="106174" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_42420e54-f7ed-5799-94b6-35bf8d08e378" refid="106174" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -119,7 +119,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile Label depicting the story of Krishna and the serpent Kaliya</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile Label depicting the story of Krishna and the serpent Kaliya</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -179,7 +179,7 @@ There are inscriptions on three borders on each side except for the top. The one
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:10">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

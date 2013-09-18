@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this postcard a marketplace in a Chinese town or city close to a gate can be seen. Several merchants are sitting in front of their shops and observing the crowd. In the centre of the image, a man with his wife can be seen with a child and goods on his push cart.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -17,21 +17,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">J6</text>
+				<text type="text" lang="eng">J6</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">A City Gate</text>
+				<text type="text" lang="eng">A City Gate</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">642</text>
+				<text type="text" lang="eng">642</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120626" type="corporate">HeidICON Image Database</name>
@@ -84,7 +84,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;A City Gate&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">A City Gate</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="439002b8-6c37-537a-b250-636cd927c04d">picture postcards</worktype>
@@ -121,7 +121,7 @@ In this postcard a marketplace in a Chinese town or city close to a gate can be 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:03">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

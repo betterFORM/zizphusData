@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1949</earliestDate>
+				<latestDate>1949</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The poster of Gandhi lists his birth and death dates. He sits against the backdrop of the muted colours of the Indian national flag. To the lower right corner, one can see words satya (truth) and ahimsa (non-violence) written along with the illustrations of a rising sun and a spinning wheel. At the bottom an 1948 calendar is partially visible.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -31,43 +37,43 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">BORN: 2ND OCT. 1869
+				<text type="text" lang="eng">BORN: 2ND OCT. 1869
 DIED: 30TH JAN. 1948</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">C.C.E.Co
+				<text type="text" lang="eng">C.C.E.Co
 COPY RT.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Published by
+				<text type="text" lang="eng">Published by
 Chimanlal Chhotalal &amp; Co.
 Under Fernandez Bridge
 Ahmedabad.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">143</text>
+				<text type="text" lang="eng">143</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">All Copy Right
+				<text type="text" lang="eng">All Copy Right
 reserved by the
 publishers</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">1948</text>
+				<text type="text" lang="eng">1948</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">सत्य अने अहिंसा</text>
+				<text type="text" lang="hin">सत्य अने अहिंसा</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">महात्मा गांधीजी</text>
+				<text type="text" lang="hin">महात्मा गांधीजी</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109912" type="corporate">HeidICON Image Database</name>
@@ -84,7 +90,7 @@ publishers</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_ed533af2-fcc2-5e14-bcb6-1ddb23367b73" refid="109912" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_ed533af2-fcc2-5e14-bcb6-1ddb23367b73" refid="109912" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -119,9 +125,9 @@ publishers</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mahatma Gandhiji&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Mahatma Gandhiji</title>
-			<title type="descriptive" pref="false" lang="" script="">महात्मा गांधीजी</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Mahatma Gandhiji</title>
+			<title type="descriptive" pref="false">Mahatma Gandhiji</title>
+			<title type="descriptive" pref="false">महात्मा गांधीजी</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -173,7 +179,7 @@ publishers</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:09">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

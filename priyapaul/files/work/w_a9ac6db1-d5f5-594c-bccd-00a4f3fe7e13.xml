@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An advertisement of Vinoliya White Rose Soap in Urdu and English. The advertisement shows an Indian lady wearing a pink sari who plucks and carries white Indian roses in her basket.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -23,11 +23,11 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Vinolia
+				<text type="text" lang="eng">Vinolia
 White Rose Soap</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">ونولیا وائٹ روز صابن 
+				<text type="text" lang="urd">ونولیا وائٹ روز صابن 
 ہندی گلاب کے پھلواری کی تروتازگی لاتا ہے</text>
 			</inscription>
 			<inscription>
@@ -35,15 +35,15 @@ White Rose Soap</text>
 Hindi gulab ke phulwari ki tar-o tazgi lata hai.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Vinolia White Rose soap brings the freshness of an Indian rose.</text>
+				<text type="text" lang="eng">Vinolia White Rose soap brings the freshness of an Indian rose.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139337" type="corporate">HeidICON Image Database</name>
@@ -51,7 +51,7 @@ Hindi gulab ke phulwari ki tar-o tazgi lata hai.</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_04391687-fb0b-501c-afc4-86594d8f8d1b" refid="139337" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_04391687-fb0b-501c-afc4-86594d8f8d1b" refid="139337" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -116,8 +116,8 @@ Hindi gulab ke phulwari ki tar-o tazgi lata hai.</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Vinolia White Rose Soap</title>
-			<title type="descriptive" pref="false" lang="" script="">ونولیا وائٹ روز صابن</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Vinolia White Rose Soap</title>
+			<title type="descriptive" pref="false">ونولیا وائٹ روز صابن</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -226,7 +226,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This is a collage of several images related to advertisements of hair oil. The images are probably labels of bottles. On each label a woman with long black hair is depicted. In the first label, she plays with a peacock, in the second one, she sits by a river bank,  in the third label she touches her hair and holds a jug by a river and in the fourth label, she holds a red drape behind her head.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -21,18 +21,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">840
+				<text type="text" lang="eng">840
 594
 597
 10</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117993" type="corporate">HeidICON Image Database</name>
@@ -40,7 +40,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b2f5e9d6-06c9-5fe8-9889-e1766252c609" refid="117993" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b2f5e9d6-06c9-5fe8-9889-e1766252c609" refid="117993" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -86,7 +86,7 @@
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bcf831d3-ed11-511e-a538-7fb7d18de27b">
-				<term type="concept">jug</term>
+				<term type="concept">jugs (vessels)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
 				<term type="concept">black hair</term>
@@ -96,7 +96,7 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement labels depicting women</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement labels depicting women</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -136,7 +136,7 @@ This is a collage of several images related to advertisements of hair oil. The i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:52">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1911</earliestDate>
+				<latestDate>1911</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This advertisement for Lipton's Tea has a plantation in the background and a table in the foreground. A white couple sit at the table and are being served by an Indian or Sri Lankan woman [because of the Ceylon reference on the box of tea]. The woman is dressed in a sari and has her head covered Next to her, another white woman stands and behind them are another white couple and a woman wearing a sari and carrying a pot on her head.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,19 +28,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Empress Coronation
+				<text type="text" lang="eng">Empress Coronation
 Durbar Souvenir.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Lipton's Tea</text>
+				<text type="text" lang="eng">Lipton's Tea</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Tea &amp; Coffee Merchants
+				<text type="text" lang="eng">Tea &amp; Coffee Merchants
 To His Excellency Lord Hardinge,
 Viceroy &amp; Governor-General of India.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Liptons
+				<text type="text" lang="eng">Liptons
 Tea coffee &amp; cocoa planters ceylon
 tea merchants
 by special appointment
@@ -49,11 +55,11 @@ Label</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120301" type="corporate">HeidICON Image Database</name>
@@ -61,7 +67,7 @@ Label</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_5393ef58-bc10-54ed-a45e-c2adf7265d66" refid="120301" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_5393ef58-bc10-54ed-a45e-c2adf7265d66" refid="120301" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -122,7 +128,7 @@ Label</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Lipton's Tea</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Lipton's Tea</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -304,7 +310,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:07">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

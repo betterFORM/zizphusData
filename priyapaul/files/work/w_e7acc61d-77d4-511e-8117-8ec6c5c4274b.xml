@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A poster shows Vithalbhai Patel (1873 - 1933), Indian legislator, political leader and co-founder of the Swaraj party. He was elder brother of Indian freedom fighter, Sardar Vallabhbhai Patel.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,33 +22,33 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">COPYRIGHT
+				<text type="text" lang="eng">COPYRIGHT
 S. S. LAL.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copyright.</text>
+				<text type="text" lang="eng">Copyright.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">PRESIDENT PATEL</text>
+				<text type="text" lang="eng">PRESIDENT PATEL</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Published by
+				<text type="text" lang="eng">Published by
 Shyam Sundar Lal,
 Picture Merchant,
 Chowk, Cawnpore.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">त्यागमूर्ति  श्रीविट्ठलभाई पटेल</text>
+				<text type="text" lang="hin">त्यागमूर्ति  श्रीविट्ठलभाई पटेल</text>
 			</inscription>
 			<inscription>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109936" type="corporate">HeidICON Image Database</name>
@@ -65,7 +65,7 @@ Chowk, Cawnpore.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_f84b26d9-e94d-5499-899f-a337867e69ff" refid="109936" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_f84b26d9-e94d-5499-899f-a337867e69ff" refid="109936" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -101,9 +101,9 @@ Chowk, Cawnpore.</text>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;President Patel&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Tyagamurti Srivithalbhai Patel</title>
-			<title type="descriptive" pref="false" lang="" script="">त्यागमूर्ति  श्रीविट्ठलभाई पटेल</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">President Patel</title>
+			<title type="descriptive" pref="false">Tyagamurti Srivithalbhai Patel</title>
+			<title type="descriptive" pref="false">त्यागमूर्ति  श्रीविट्ठलभाई पटेल</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -168,7 +168,7 @@ http://www.whereincity.com/india/great-indians/freedom-fighters/vithalbhai-patel
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:50">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

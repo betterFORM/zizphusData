@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Krishna, hidden behind a big red rose is depicted holding a bow and taking aim with the arrow stretching the string taut and ready to be released. The ground on which he kneels is green and strewn with flowers and leaves can be seen in the background.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -25,11 +25,11 @@
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106157" type="corporate">HeidICON Image Database</name>
@@ -46,7 +46,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_f29b70cd-eaf0-5679-95bd-51db38704fe7" refid="106157" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_f29b70cd-eaf0-5679-95bd-51db38704fe7" refid="106157" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -81,7 +81,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Krishna With Bow And Arrow</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Krishna With Bow And Arrow</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -105,7 +105,7 @@ Krishna, hidden behind a big red rose is depicted holding a bow and taking aim w
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:33:03">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

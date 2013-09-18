@@ -31,8 +31,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1905</earliestDate>
+				<latestDate>1905</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A used Indian postcard with a printed illustration depicting the birth of Shakuntala: Menaka is holding her daughter Shakuntala, while Vishwamitra turns away from them. The illustration by an artist Mudrale is a simple reproduction of a painting by Raja Ravi Varma. 
 The card with a handwritten message was sent to an address in Chirawa, Rajasthan, in 1905. It beares a grey three pies India Postage stamp depicting King Edward VII. On the stamp a postmark indicates the postcard was sent from ??? (illegible) on May 17. Another postmark indicates delivery at Chiwara on May 18, 1905</text>
 				<author>
@@ -47,33 +53,33 @@ The card with a handwritten message was sent to an address in Chirawa, Rajasthan
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Shakuntala</text>
+				<text type="text" lang="eng">Shakuntala</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Mudrale.</text>
+				<text type="text" lang="eng">Mudrale.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">नवीन आढत
+				<text type="text" lang="hin">नवीन आढत
 हमारी  आढतसे सब प्रकारका देशी
 व विलायती माल  किफायत  से
 भेजा  जाता है.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Delhiwala Lala Bhishandayal Dharamdas, Attarwala, Jumma Musjid, No. 3553, Ahmedabad</text>
+				<text type="text" lang="eng">Delhiwala Lala Bhishandayal Dharamdas, Attarwala, Jumma Musjid, No. 3553, Ahmedabad</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">दिल्लीवाला लाला बिशनदयाल धर्मदास  अत्तरवाला, जुमामशिद,  नम्बर ३ ५ ५ ३,  अमदाबाद.</text>
+				<text type="text" lang="hin">दिल्लीवाला लाला बिशनदयाल धर्मदास  अत्तरवाला, जुमामशिद,  नम्बर ३ ५ ५ ३,  अमदाबाद.</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Mudrale</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107933" type="corporate">HeidICON Image Database</name>
@@ -140,7 +146,7 @@ The card with a handwritten message was sent to an address in Chirawa, Rajasthan
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Postcard with printed illustration: Birth of Shakuntala</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Postcard with printed illustration: Birth of Shakuntala</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -312,7 +318,7 @@ http://webfea.fea.aub.edu.lb/proceedings/2004/SRC-ArD-01.pdf, last accessed 2012
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:35:20">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

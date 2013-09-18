@@ -10,11 +10,11 @@
 			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120491" type="corporate">HeidICON Image Database</name>
@@ -32,7 +32,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_a1317aac-d2e3-591c-8174-bd630841eed2" refid="120491" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_a1317aac-d2e3-591c-8174-bd630841eed2" refid="120491" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -44,7 +44,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">A smiling girl, on the packing material of Rocket Bomb (double sound) crackers</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">A smiling girl, on the packing material of Rocket Bomb (double sound) crackers</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="6cc28a30-ae55-58c8-a507-73c9cc22edac">packing material</worktype>
@@ -78,7 +78,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:26">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

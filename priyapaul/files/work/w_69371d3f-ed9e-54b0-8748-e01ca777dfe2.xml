@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107981" type="corporate">HeidICON Image Database</name>
@@ -19,7 +19,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_5d408077-31f4-5f38-8a48-67b0dedb0f38" refid="107981" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_5d408077-31f4-5f38-8a48-67b0dedb0f38" refid="107981" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -28,10 +28,10 @@
 			</rights>
 		</rightsSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Back of Post card, from Mirza &amp; Sons, Delhi, printed in Germany</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Back of Post card, from Mirza &amp; Sons, Delhi, printed in Germany</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="aec5c818-bb02-52ea-bbb6-08142e85767c">letters (correspondence)</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
@@ -57,7 +57,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:46:04">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -26,8 +26,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1990</earliestDate>
+				<latestDate>1990</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this  page from a film brochure, the 1990 Hindi movie &quot;Haatim Tai&quot; is advertised. It shows a close up of Jitendra, Sridevi and Amrishpuri, three of the lead actors of the movie. A mid long shot of Jitendra who is standing with a sword in his hand dominates the image. In the background, there are mountains and houses with some palmtrees. On the upper section of the image, an angel with a bird as well as a flying carpet with two men is pictured.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -37,7 +43,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">R.M. Art Productions present
+				<text type="text" lang="eng">R.M. Art Productions present
 Ratan Mohan's
 Haatim Tai
 Special Effects &amp; Directed by
@@ -48,18 +54,18 @@ Amarnath
 Studio K.B.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">PLEASE ENTER HERE</text>
+				<text type="text" lang="urd">PLEASE ENTER HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">हातिम ताई</text>
+				<text type="text" lang="hin">हातिम ताई</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120401" type="corporate">HeidICON Image Database</name>
@@ -76,7 +82,7 @@ Studio K.B.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_93033a0a-b37e-58fb-b672-9ee9799b327b" refid="120401" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_93033a0a-b37e-58fb-b672-9ee9799b327b" refid="120401" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -119,9 +125,6 @@ Studio K.B.</text>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
 				<term type="concept">Hindi films</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="a7609dba-fb87-57be-8688-678f4a2d585f">
-				<term type="geographic">Madina</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
@@ -136,8 +139,8 @@ Studio K.B.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Haatim Tai&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">हातिम ताई</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Haatim Tai</title>
+			<title type="descriptive" pref="false">हातिम ताई</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -222,7 +225,7 @@ http://www.imdb.com/title/tt0242509/ last accessed 2012-02-28 story line and mai
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:34">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:33">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

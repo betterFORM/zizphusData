@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A view of the Sunehri Masjid at Chandni Chowk, Delhi, flanked by two trees. A number of minarets and a staircase can be seen. Some shops are open and a few people walking on the street.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-0fa63dfc-fbb1-5698-9896-cce0c0ac1c2b">Saeed, Yousuf</name>
@@ -22,22 +22,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">96010</text>
+				<text type="text" lang="eng">96010</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Sunehri Masjid or Golden Mosque, Delhi.
+				<text type="text" lang="eng">Sunehri Masjid or Golden Mosque, Delhi.
 [Built in 1721 A. D. by Roshen-ud-Doula, a] Courtier in the reign of Mohammed Shah.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">H. A. Mirza &amp; Sons, Delhi. Made in Germany</text>
+				<text type="text" lang="eng">H. A. Mirza &amp; Sons, Delhi. Made in Germany</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108004" type="corporate">HeidICON Image Database</name>
@@ -54,7 +54,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_1113ea59-56e7-5af5-99b4-c7f28da0a0b8" refid="108004" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_1113ea59-56e7-5af5-99b4-c7f28da0a0b8" refid="108004" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -107,8 +107,8 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Postcard depicting Sunehri Masjid</title>
-			<title type="descriptive" pref="false" lang="" script="">&quot;Sunehri masjid or Golden mosque, Delhi&quot;</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Postcard depicting Sunehri Masjid</title>
+			<title type="descriptive" pref="false">&quot;Sunehri masjid or Golden mosque, Delhi&quot;</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -240,7 +240,7 @@ Images of Mughal architecture were found more commonly on textile tickets, poste
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:26:56">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:27">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

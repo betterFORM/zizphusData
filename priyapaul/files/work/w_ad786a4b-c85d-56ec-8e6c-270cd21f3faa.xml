@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A poster of the Indian freedom fighter, Jatindra Nath Das (1904 -1929) who died in a prison in Lahore after a hunger strike.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,22 +22,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Copyright. No. 40.</text>
+				<text type="text" lang="eng">Copyright. No. 40.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Published by,
+				<text type="text" lang="eng">Published by,
 Shyam Sundar Lal, 
 Picture Merchant,
 Chowk, Cawnpor</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Jatindra Nath Das</text>
+				<text type="text" lang="eng">Jatindra Nath Das</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">यतीन्द्रनाथ दास</text>
+				<text type="text" lang="hin">यतीन्द्रनाथ दास</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">प्रकाशक:-
+				<text type="text" lang="hin">प्रकाशक:-
 श्यामसुंदरलाल, 
 पिक्चर मर्चन्ट
 चौक- कानपुर</text>
@@ -49,15 +49,15 @@ Picture Merchant
 Chowk, Kanpur</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ramdass Press [Caw]npore.</text>
+				<text type="text" lang="eng">Ramdass Press [Caw]npore.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109901" type="corporate">HeidICON Image Database</name>
@@ -74,7 +74,7 @@ Chowk, Kanpur</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_2ae8b443-0e3f-5461-96a0-1ce5b29de405" refid="109901" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_2ae8b443-0e3f-5461-96a0-1ce5b29de405" refid="109901" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -112,9 +112,9 @@ Chowk, Kanpur</text>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Jatindra Nath Das&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Jatindranath Das</title>
-			<title type="descriptive" pref="false" lang="" script="">यतीन्द्रनाथ दास</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Jatindra Nath Das</title>
+			<title type="descriptive" pref="false">Jatindranath Das</title>
+			<title type="descriptive" pref="false">यतीन्द्रनाथ दास</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -190,7 +190,7 @@ http://www.time.com/time/magazine/article/0,9171,822565-1,00.html, last accessed
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:44">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

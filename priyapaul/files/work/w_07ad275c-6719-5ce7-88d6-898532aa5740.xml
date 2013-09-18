@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This image shows a pink lotus in a lake on a textile label of the Svadeshi Mills Co.Ltd. and Tata Sons &amp; Co.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -35,27 +35,27 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Svadeshi Mills Co. Ltd.</text>
+				<text type="text" lang="eng">The Svadeshi Mills Co. Ltd.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Superior Quality</text>
+				<text type="text" lang="eng">Superior Quality</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Tata Sons &amp; Co</text>
+				<text type="text" lang="eng">Tata Sons &amp; Co</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">स्वदेशी मील्स कंपनी</text>
+				<text type="text" lang="hin">स्वदेशी मील्स कंपनी</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">उंचा माल</text>
+				<text type="text" lang="hin">उंचा माल</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119622" type="corporate">HeidICON Image Database</name>
@@ -72,7 +72,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7d1f451b-94b0-5727-9d4e-1eff4d2a5bfb" refid="119622" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7d1f451b-94b0-5727-9d4e-1eff4d2a5bfb" refid="119622" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -128,7 +128,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of Svadeshi Mills Co. Ltd. and Tata Sons &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of Svadeshi Mills Co. Ltd. and Tata Sons &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -162,7 +162,7 @@ This image shows a pink lotus in a lake on a textile label of the Svadeshi Mills
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:02">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

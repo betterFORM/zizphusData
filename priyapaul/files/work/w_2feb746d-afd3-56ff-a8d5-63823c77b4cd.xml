@@ -6,12 +6,18 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1934</earliestDate>
+				<latestDate>1934</latestDate>
+			</date>
+		</dateSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139325" type="corporate">HeidICON Image Database</name>
@@ -19,7 +25,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_99cff4b6-0b26-53bb-9c12-e90131d68283" refid="139325" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_99cff4b6-0b26-53bb-9c12-e90131d68283" refid="139325" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -33,9 +39,9 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">January 1934 Advertisement calendar for Dahyabhai Punamchand &amp; Co.</title>
-			<title type="descriptive" pref="false" lang="" script="">Prithviraj Bidi</title>
-			<title type="descriptive" pref="false" lang="" script="">पृथ्वीराज बीडी</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">January 1934 Advertisement calendar for Dahyabhai Punamchand &amp; Co.</title>
+			<title type="descriptive" pref="false">Prithviraj Bidi</title>
+			<title type="descriptive" pref="false">पृथ्वीराज बीडी</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -69,7 +75,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:23">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

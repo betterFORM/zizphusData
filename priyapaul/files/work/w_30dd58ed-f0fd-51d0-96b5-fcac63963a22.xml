@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1978</earliestDate>
+				<latestDate>1978</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the Hindi movie &quot;Amar Shakti&quot;, released in 1978, one of the main actors, Shashi Kapoor, can be seen standing in a hallway, wearing a uniform and holding a rapier.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,13 +37,13 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">A. K. Nadiadwala presents
+				<text type="text" lang="eng">A. K. Nadiadwala presents
 A. K. Movies
 Amar Shakti
 Eastmancolor</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Directed by 
+				<text type="text" lang="eng">Directed by 
 Harmesh Malhotra
 Lyrics 
 Anand Bakshi
@@ -48,11 +54,11 @@ H. A. Nadiadwala</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120867" type="corporate">HeidICON Image Database</name>
@@ -63,7 +69,7 @@ H. A. Nadiadwala</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_68aaa657-6f64-5640-8956-3eada29e4992" refid="120867" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_68aaa657-6f64-5640-8956-3eada29e4992" refid="120867" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -98,13 +104,13 @@ H. A. Nadiadwala</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="50466105-3769-5549-8aa4-261a011c6ea7">
-				<term type="work (fim)">Amar Shakti</term>
+				<term type="work (fim)">Amar Shakti (movie, 1978)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="261db825-f6ac-57d9-8fce-d4fa589db968">
-				<term type="concept">rapier</term>
+				<term type="concept">rapiers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">movie still</term>
+				<term type="concept">film stills</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
 				<term type="internal workflow">recheck-Matthias</term>
@@ -114,7 +120,7 @@ H. A. Nadiadwala</text>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Amar Shakti&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Amar Shakti</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -184,7 +190,7 @@ http://www.imdb.com/title/tt0236977/, last accessed 2011-11-30, story plot, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:39">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:59">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

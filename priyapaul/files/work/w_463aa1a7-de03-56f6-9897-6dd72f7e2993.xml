@@ -31,8 +31,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1953</earliestDate>
+				<latestDate>1953</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A color-tinted movie poster from the 1953 released Hindi Film &quot;Dhoon&quot; shows the lead actor, Raj Kapoor playing with the child actor. He carries the child on his back while Leela Misra (the supporting actress) looks over. She wears a pink saree and a white blouse. Her hairstyle and clothes are those that were in fashion in India in early 1950s.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -42,7 +48,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Silver films presents
+				<text type="text" lang="eng">Silver films presents
 Nargis - Raj Kapoor - Motilal - E. Billimoria - Kamal Mehra - Leela Misra
 Chandralekha - Krishna Kumar
 Dhoon
@@ -53,18 +59,18 @@ Stills N. Bashir
 Vincent Studios</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">धुन</text>
+				<text type="text" lang="hin">धुन</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">دھن</text>
+				<text type="text" lang="urd">دھن</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120853" type="corporate">HeidICON Image Database</name>
@@ -75,7 +81,7 @@ Vincent Studios</text>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
 		</materialSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_c625b46a-1a36-513d-bd5b-17f8dff7580a" refid="120853" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_c625b46a-1a36-513d-bd5b-17f8dff7580a" refid="120853" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -113,15 +119,15 @@ Vincent Studios</text>
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ff9809d-2a79-52d6-a2b0-2795d6a278c6">
-				<term type="work (movie)">Dhoon</term>
+				<term type="work (movie)">Dhoon (movie, 1953)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Dhoon&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">धुन; دھن</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Dhoon</title>
+			<title type="descriptive" pref="false">धुन; دھن</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
@@ -192,7 +198,7 @@ The scene is a studio shot. During early 1950s the films in India were mostly sh
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:59">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:58">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

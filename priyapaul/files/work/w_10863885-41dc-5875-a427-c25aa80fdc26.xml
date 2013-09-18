@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for tea in the &quot;Hindustan Times&quot; newspaper, a man and woman can be seen standing beside a boy, who sits at a desk. The boy is reading a book, as the man and woman drink tea. The woman wears a sari with the pallu (loose end of the sari) draped over her head. The man wears a cap on his head.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,26 +31,26 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">The Hindustan Times</text>
+				<text type="text" lang="eng">The Hindustan Times</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Flat?</text>
+				<text type="text" lang="eng">Flat?</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Indian Tea
+				<text type="text" lang="eng">Indian Tea
 relieves lassitude
 and</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Nothing else has the same power as</text>
+				<text type="text" lang="eng">Nothing else has the same power as</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120627" type="corporate">HeidICON Image Database</name>
@@ -67,7 +67,7 @@ and</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b05468c7-78fd-5985-b2b5-9b9bdd651e0f" refid="120627" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b05468c7-78fd-5985-b2b5-9b9bdd651e0f" refid="120627" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -135,7 +135,7 @@ and</text>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Indian Tea relieves lassitude</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Indian Tea relieves lassitude</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -333,7 +333,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:05">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:52">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

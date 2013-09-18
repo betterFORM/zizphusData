@@ -21,8 +21,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1978</earliestDate>
+				<latestDate>1978</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Half-clad man and woman in at a sea beach in a scene from a 1978 Hindi movie 'College Girl'. Produced by Shantilal Soni, directed by S. D. Narang. The film stars are Sachin, Bindiya Goswami, Rita Bhaduri, Bhagwan, Paintal and Shreeram Lagoo.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,7 +38,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">S.D. Narang's 
+				<text type="text" lang="eng">S.D. Narang's 
 College Girls
 A Teenager Musical Romantic Thriller
 Produced &amp; Supervised by S.D. Narang
@@ -42,11 +48,11 @@ Music Bhappi Lahiri</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119045" type="corporate">HeidICON Image Database</name>
@@ -77,8 +83,8 @@ Music Bhappi Lahiri</text>
 			</source>
 		</sourceSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term type="concept">oceans</term>
+			<subject source="EXC" vocab="LOCAL" refid="27564901-d325-5e23-8ae1-2116b50931b3">
+				<term type="concept">seas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d682edd8-6174-5fed-b5e8-e1dff9769f45">
 				<term type="concept">beaches</term>
@@ -89,15 +95,12 @@ Music Bhappi Lahiri</text>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="a4079e9f-c552-5151-8946-ee9fa47142d7">
-				<term type="concept">College Girl</term>
-			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;College Girl&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">College Girl</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -174,7 +177,7 @@ http://www.imdb.com/title/tt0247257/, last accessed 2011-12-04, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:14:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

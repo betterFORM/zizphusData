@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1941</earliestDate>
+				<latestDate>1941</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement calendar for Burmah - Shell, we see the statue of an equestrian in a park with several trees and pedestrians in the background. The lower section of the image hosts a calendar for the 1941, on the sides of the image, a range of products is introduced.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -23,30 +29,39 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">BURMAH - SHELL
+				<text type="text" lang="eng">BURMAH - SHELL
 Oil Storage and Distributing Company of India Limited
 Calcutta Bombay Delhi (Incorporated in England) Madras and Karachi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Shell Motor Spirit * Shell Motor Oil * Shell Tox * Bitumen Products * Colas * Mexphalte * Shelspra * Spramex
+				<text type="text" lang="eng">Shell Motor Spirit * Shell Motor Oil * Shell Tox * Bitumen Products * Colas * Mexphalte * Shelspra * Spramex
 Chunker Kerosene
 Rising Sun Kerosene</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">B.O.C. Motor Spirit * B.O.C. Motor Oil * Fuel and Diesel Oils * Industrial Oils * Stearine
+				<text type="text" lang="eng">B.O.C. Motor Spirit * B.O.C. Motor Oil * Fuel and Diesel Oils * Industrial Oils * Stearine
 Victoria Kerosene
 Swan Kerosene</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">'Physical Energy' - Statue in Kensington Gardens, London</text>
+				<text type="text" lang="eng">'Physical Energy' - Statue in Kensington Gardens, London</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="eng">1941</text>
+			</inscription>
+			<inscription>
+				<text type="text" lang="eng">W.Rose [artist's signature]</text>
+			</inscription>
+			<inscription>
+				<text type="signature">W. Rose</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118340" type="corporate">HeidICON Image Database</name>
@@ -92,9 +107,6 @@ Swan Kerosene</text>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="2ac40681-ca0e-5044-9e6a-fd4169ca21d7">
-				<term type="concept">animal statues</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
 				<term type="worktype">calendars</term>
 			</subject>
@@ -104,6 +116,9 @@ Swan Kerosene</text>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
 				<term type="internal workflow">recheck-new</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="4a258254-1622-5ca5-b433-f0e25affe7ef">
+				<term type="concept">sculpture (visual work)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b8bec4ca-f38a-573c-b950-641275362104">
 				<term type="concept">parks (recreation areas)</term>
 			</subject>
@@ -112,7 +127,7 @@ Swan Kerosene</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Physical Energy Statue in Kensington Gardens, London, in an advertisement calender of Burmah-Shell (1941)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement calender of Burmah-Shell (1941)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -133,6 +148,10 @@ Victoria Kerosene
 Swan Kerosene</ext:value>
 				<ext:value>text-en:
 'Physical Energy' - Statue in Kensington Gardens, London</ext:value>
+				<ext:value>text-en:
+1941</ext:value>
+				<ext:value>text-en:
+W.Rose [artist's signature]</ext:value>
 				<ext:value>description-en:
 On this advertisement calendar for Burmah - Shell, we see the statue of an equestrian in a park with several trees and pedestrians in the background. The lower section of the image hosts a calendar for the 1941, on the sides of the image, a range of products is introduced. (gs)</ext:value>
 			</ext:item>
@@ -141,6 +160,8 @@ On this advertisement calendar for Burmah - Shell, we see the statue of an eques
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
 				<ext:value>explanatory comments/crosstagging:
 /20080430_0319.tif</ext:value>
+				<ext:value>explanatory comments/crosstagging:
+The bronze statue &quot;Physical Energy&quot; was created in 1902 by George Frederic Watts. (ma)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
@@ -150,6 +171,15 @@ On this advertisement calendar for Burmah - Shell, we see the statue of an eques
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_ed</ext:value>
 					<ext:value type="agent-type">corporate</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">The bronze statue &quot;Physical Energy&quot; was created in 1902 by George Frederic Watts.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Arnold, Matthias</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -193,7 +223,7 @@ On this advertisement calendar for Burmah - Shell, we see the statue of an eques
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:18">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:39">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

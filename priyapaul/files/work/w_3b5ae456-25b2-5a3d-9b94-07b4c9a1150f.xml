@@ -7,10 +7,10 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A Muslim boy wearing a blue dress and a white headcover is sitting on a colorful carpet praying before Allah after reciting the Quran. In the Background two camel-riders also invoke the mercy of Allah. The gazes of all of the prayers focus on the gleaming halfmoon which is carrying the Kaaba. Colorful, sparkling dots are crossing the sky.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
@@ -20,21 +20,21 @@
 				<text type="translation">O my Lord! Have mercy on those two men as you shower your mercy on me while bringing me up carefully.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ar">‏الله</text>
+				<text type="text" lang="ara">‏الله</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">ADD TEXT HERE</text>
+				<text type="text" lang="urd">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Syed Arts</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118145" type="corporate">HeidICON Image Database</name>
@@ -73,9 +73,6 @@
 			<subject source="EXC" vocab="LOCAL" refid="1d960b9e-2b6b-5940-a3fe-370ad362471c">
 				<term type="concept">Allah</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="b3b647ac-8275-5aaf-8988-981492fa6150">
-				<term type="concept">Orient</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3f19eeff-8fd0-5f9d-81ef-cb195af84393">
 				<term type="animal">camels (animals)</term>
 			</subject>
@@ -98,10 +95,10 @@
 				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7123d5e0-a653-51e2-b01d-d041650fe5e7">
-				<term type="concept">rosary</term>
+				<term type="concept">rosaries</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cac2353-c128-5823-8c1a-f6b0c153d4be">
-				<term type="concept">Kaaba</term>
+				<term type="concept">Kaaba (monument)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="44116d58-2b41-5452-8ab3-9a2206b3a3b0">
 				<term type="corporation">Syed Arts</term>
@@ -111,7 +108,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Poster of a Muslim boy praying</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Poster of a Muslim boy praying</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -153,7 +150,7 @@ A Muslim boy wearing a blue dress and a white headcover is sitting on a colorful
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:57">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

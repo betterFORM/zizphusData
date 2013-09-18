@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1939</earliestDate>
+				<latestDate>1939</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An almost theatrical scene set in the 16th century in Europe, with a woman and a man waiting in front of a clock shop while the clock worker repairs a watch while seated at his desk. His desk has a clock and various tools lying on it. In the background a row of trees can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -22,21 +28,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">MAY 1939</text>
+				<text type="text" lang="eng">MAY 1939</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Watchmaker's Workshop at the Close of the XVIIth Century (1698)</text>
+				<text type="text" lang="eng">Watchmaker's Workshop at the Close of the XVIIth Century (1698)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">D... A. Willeter</text>
+				<text type="text" lang="eng">D... A. Willeter</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120721" type="corporate">HeidICON Image Database</name>
@@ -53,7 +59,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_92770b28-e2e6-5952-a4f4-9ff9ceb89762" refid="120721" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_92770b28-e2e6-5952-a4f4-9ff9ceb89762" refid="120721" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -106,7 +112,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">May 1939 Advertisement calendar for Omega</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">May 1939 Advertisement calendar for Omega</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -161,7 +167,7 @@ This is a rather unusual design, obviously adopted from England and depicting 'i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:48">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:37">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

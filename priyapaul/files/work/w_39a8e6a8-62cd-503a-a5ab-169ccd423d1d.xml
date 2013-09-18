@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1910</earliestDate>
+				<latestDate>1910</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This is an advertisement calendar for  &quot;Wild Woodbine&quot; cigarettes. On the upper section of the image the advertised product alongside, illustrations of flowers can be seen. The lower section shows the calendar page for January 1910.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,30 +32,30 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">&quot;Wild
+				<text type="text" lang="eng">&quot;Wild
 Woodbine&quot;
 Cigarettes</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">W. D. &amp; H. O. Wills.
+				<text type="text" lang="eng">W. D. &amp; H. O. Wills.
 Bristol &amp; London.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">10 Cigarettes</text>
+				<text type="text" lang="eng">10 Cigarettes</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">January. 1910.</text>
+				<text type="text" lang="eng">January. 1910.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">979</text>
+				<text type="text" lang="eng">979</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120845" type="corporate">HeidICON Image Database</name>
@@ -67,7 +73,7 @@ Bristol &amp; London.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_24aaad7a-a289-527e-88a3-9132870bf9c9" refid="120845" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_24aaad7a-a289-527e-88a3-9132870bf9c9" refid="120845" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -83,11 +89,6 @@ Bristol &amp; London.</text>
 			</source>
 			<source>
 				<name>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</name>
-				<refid type="URI">$UUID$</refid>
-				<refid type="citation">$pages$</refid>
-			</source>
-			<source>
-				<name>http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</name>
 				<refid type="URI">$UUID$</refid>
 				<refid type="citation">$pages$</refid>
 			</source>
@@ -121,14 +122,14 @@ Bristol &amp; London.</text>
 				<term type="concept">cigarette advertising</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="14115aae-9066-5d30-ba93-d18b5950ad7e">
-				<term type="product">Wild Woodbine Cigarettes</term>
+				<term type="product">Wild Woodbine Cigarettes (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1910 Advertisement calendar for Wild Woodbine cigarettes</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1910 Advertisement calendar for Wild Woodbine cigarettes</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -267,18 +268,13 @@ Source: Wikipedia</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:item type="f_url3" status="0" display="URL3">
-				<ext:value type="url3">http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</ext:value>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
 			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/120845</ext:value>
 				<ext:value>120845</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:38">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

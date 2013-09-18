@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The Hindu god Rama is pictured on a palnaquin with several persons and other deities such as the monkey god Hanuman around him.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -22,18 +22,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">No. 400 - Rama with his consort &amp; brothers.</text>
+				<text type="text" lang="eng">No. 400 - Rama with his consort &amp; brothers.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Gobind Ram &amp; Oodey Ram, Jaipur.</text>
+				<text type="text" lang="eng">Gobind Ram &amp; Oodey Ram, Jaipur.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107953" type="corporate">HeidICON Image Database</name>
@@ -50,7 +50,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_5fe7f0a9-5edc-5c70-a506-20923afbd349" refid="107953" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_5fe7f0a9-5edc-5c70-a506-20923afbd349" refid="107953" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -79,7 +79,7 @@
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Rama with his consort and brothers, in a postcard, published by Gobind Ram &amp; Ooday Ram, Jaipur.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Rama with his consort and brothers, in a postcard, published by Gobind Ram &amp; Ooday Ram, Jaipur.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -123,7 +123,7 @@ The Hindu god Rama is pictured on a palnaquin with several persons and other dei
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:07">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

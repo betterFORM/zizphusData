@@ -11,48 +11,54 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1954</earliestDate>
+				<latestDate>1954</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample calender page shows a map of India, Bangladesh and Sri Lanka including small images of major attractive sites of religious and/or historical importance, including the Taj Mahal, different god , etc. The image is surrounded by several customizable areas for product advertisements. On the bottom, there is an overview calendar of march 1954.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">No. 708. Beautiful India. [image caption]</text>
+				<text type="text" lang="eng">No. 708. Beautiful India. [image caption]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">ORIENTAL CALENDAR Mfg. Co.
+				<text type="text" lang="eng">ORIENTAL CALENDAR Mfg. Co.
 Manufacturers Of Novelty Calendars
 Post Box No. 11212 Calcutta-14.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Medium Grade Calendars
+				<text type="text" lang="eng">Medium Grade Calendars
 in 10&quot; x 15&quot; Size.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Space for advt.</text>
+				<text type="text" lang="eng">Space for advt.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">This is a Sample of our complete Calendar in 10&quot; x 15&quot; size with tin mounting on top &amp; bottom, datepads No. 4 &amp; with customer's advt.
+				<text type="text" lang="eng">This is a Sample of our complete Calendar in 10&quot; x 15&quot; size with tin mounting on top &amp; bottom, datepads No. 4 &amp; with customer's advt.
 For Prices See clause No. 11. of our pricelist.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">All the Designs from No. 601 to 708 shown in this album are available in all the 3 sizes and Grades (Special, High &amp; Medium)</text>
+				<text type="text" lang="eng">All the Designs from No. 601 to 708 shown in this album are available in all the 3 sizes and Grades (Special, High &amp; Medium)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Book Your Orders as early as possible in advance. Delay sometimes causes Disappointment and inconvenience.</text>
+				<text type="text" lang="eng">Book Your Orders as early as possible in advance. Delay sometimes causes Disappointment and inconvenience.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120549" type="corporate">HeidICON Image Database</name>
@@ -69,7 +75,7 @@ For Prices See clause No. 11. of our pricelist.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_da8439e7-b551-543d-b7ab-47b145358c5f" refid="120549" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_da8439e7-b551-543d-b7ab-47b145358c5f" refid="120549" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -78,8 +84,8 @@ For Prices See clause No. 11. of our pricelist.</text>
 			</rights>
 		</rightsSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term type="work (map)">map of India</term>
+			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
@@ -90,8 +96,8 @@ For Prices See clause No. 11. of our pricelist.</text>
 			<subject source="EXC" vocab="LOCAL" refid="4b96da05-a233-5f9f-a4b5-b35f99f01171">
 				<term type="concept">business</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="5630ac11-f701-51d4-97ef-06593eb29a30">
-				<term type="work (map)">map of South Asia</term>
+			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
+				<term type="concept">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fe7a1eb7-ee55-5804-8edc-a8035407ef24">
 				<term type="internal workflow">recheck-jo</term>
@@ -99,12 +105,15 @@ For Prices See clause No. 11. of our pricelist.</text>
 			<subject source="EXC" vocab="LOCAL" refid="67abd8f7-4696-5671-a0cc-50551a8de3c1">
 				<term type="geographic">Kolkata</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e633439b-14af-5514-b44f-eefe41180a39">
+				<term type="">South Asia</term>
+			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Oriental Calender Manufacturing Co., Calcutta: sample image showing a map of India</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Oriental Calender Manufacturing Co., Calcutta: sample image showing a map of India</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -162,7 +171,7 @@ Book Your Orders as early as possible in advance. Delay sometimes causes Disappo
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:51">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:25">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -6,22 +6,28 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>ca. 1930</earliestDate>
+				<latestDate>ca. 1930</latestDate>
+			</date>
+		</dateSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Meyer Sassoon Mills, Ltd
+				<text type="text" lang="eng">Meyer Sassoon Mills, Ltd
 E. D. Sassoon &amp; Co. Ltd, Agents, Bombay</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The Ravi Uday &amp; Vijay F.A.L. Press. 
+				<text type="text" lang="eng">The Ravi Uday &amp; Vijay F.A.L. Press. 
 Ghatkopar, G.I.P.R.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108413" type="corporate">HeidICON Image Database</name>
@@ -38,7 +44,7 @@ Ghatkopar, G.I.P.R.</text>
 			<measurements shape="circular" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7db17ad0-fa4a-5880-99ec-8beb916c4a25" refid="108413" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7db17ad0-fa4a-5880-99ec-8beb916c4a25" refid="108413" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -61,7 +67,7 @@ Ghatkopar, G.I.P.R.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label showing a lady on the telephone</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label showing a lady on the telephone</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -107,7 +113,7 @@ Ghatkopar, G.I.P.R.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:23">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

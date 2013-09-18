@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image depicts a dark blond woman swathed in a length of cloth in an advertisement for hair oil. She is sitting with a hand under her chin and barefoot on the edge of a lake with water lilies and lotus flowers. Trees with blossoms can be seen in the background. The image is surrounded by an art-deco-like decorative frame.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43">Alisch, Johannes</name>
@@ -17,15 +17,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="fr">Perfumery de Paris</text>
+				<text type="text" lang="fre">Perfumery de Paris</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">HAIR
+				<text type="text" lang="eng">HAIR
 OIL
 Limejuice</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">शाहंशाहे नूर
+				<text type="text" lang="hin">शाहंशाहे नूर
 कैमिकल
 उद्योग
 शाला
@@ -33,11 +33,11 @@ Limejuice</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120553" type="corporate">HeidICON Image Database</name>
@@ -54,7 +54,7 @@ Limejuice</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_bab0ab31-3084-568e-b632-d5006ea089b6" refid="120553" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_bab0ab31-3084-568e-b632-d5006ea089b6" refid="120553" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,8 +95,8 @@ Limejuice</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Shahenshah-e Noor Hair Oil &amp; Parfume Advertisement</title>
-			<title type="descriptive" pref="false" lang="" script="">शाहंशाहे नूर</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Shahenshah-e Noor Hair Oil &amp; Parfume Advertisement</title>
+			<title type="descriptive" pref="false">शाहंशाहे नूर</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="6cc28a30-ae55-58c8-a507-73c9cc22edac">packing material</worktype>
@@ -148,7 +148,7 @@ Limejuice</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:00">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:37">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

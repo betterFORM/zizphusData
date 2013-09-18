@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>2010</earliestDate>
+				<latestDate>2010</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Absatz-Testeintrag
 Hier beginnt der Absatz.</text>
 				<author>
@@ -15,7 +21,7 @@ Hier beginnt der Absatz.</text>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Test entry .</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43">Alisch, Johannes</name>
@@ -26,10 +32,10 @@ Hier beginnt der Absatz.</text>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">some English text</text>
+				<text type="text" lang="eng">some English text</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">some more English text. (ja)</text>
+				<text type="text" lang="eng">some more English text. (ja)</text>
 			</inscription>
 			<inscription>
 				<text type="other">some haga huga. (ja)</text>
@@ -42,11 +48,11 @@ Hier beginnt der Absatz.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="252">Akita / Senshû Museum der Stadt Akita</name>
+				<name type="geographic" vocab="local" refid="">Akita / Senshû Museum der Stadt Akita</name>
 			</location>
 			<location type="formerOwner">
 				<note>Testrecord_Provenience Karl-Jaspers-Center</note>
@@ -66,7 +72,7 @@ Hier beginnt der Absatz.</text>
 			<notes>5 x 3 inch, oval</notes>
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_93d52424-a024-55d2-92b4-ca14275caeb9" refid="226566" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_93d52424-a024-55d2-92b4-ca14275caeb9" refid="226566" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_90321618-9554-5a72-80e4-3945d4f07961" refid="176114" source="EXC Priya Paul Collection">Testeintrag_associated image was anderes</relation>
 			<relation type="imageIs" relids="i_da730a25-0f3a-57d6-b0d2-84451820aa85" refid="176115" source="EXC Priya Paul Collection">Testeintrag_associated image noch was anderes</relation>
 			<relation type="imageIs" relids="i_5d19d31a-9aff-5851-bfc0-ecf850d3d4f6" refid="176118" source="EXC Priya Paul Collection">Testeintrag_associated image Schokoladeneis</relation>
@@ -110,9 +116,9 @@ Hier beginnt der Absatz.</text>
 			<technique vocab="LOCAL" refid="c7689fc3-5d97-5138-9580-133df0790a46">copper engravings (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Testrecord_20120316_title</title>
-			<title type="descriptive" pref="false" lang="" script="">Testrecord_Titel-Umschrift Assalamo alaikum</title>
-			<title type="descriptive" pref="false" lang="" script="">Testrecord_Titel-Zeichen; 中文; السلام علیکُم عید مبارک</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Testrecord_20120316_title</title>
+			<title type="descriptive" pref="false">Testrecord_Titel-Umschrift Assalamo alaikum</title>
+			<title type="descriptive" pref="false">Testrecord_Titel-Zeichen; 中文; السلام علیکُم عید مبارک</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -420,7 +426,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:15">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Cooper's seeds, various vegetables are depicted.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,7 +32,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Cooper's seeds of proven merit for market &amp; home gardeners
+				<text type="text" lang="eng">Cooper's seeds of proven merit for market &amp; home gardeners
 Free illustrated Annual on request
 N. Cooper &amp; Co
 Seed Merchants
@@ -34,18 +40,18 @@ Poona
 - India -</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Cecil Dawes</text>
+				<text type="text" lang="eng">Cecil Dawes</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Cecil L. Dawes</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119787" type="corporate">HeidICON Image Database</name>
@@ -62,7 +68,7 @@ Poona
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_9811b5b0-465d-5d13-b7c2-3e72ec026399" refid="119787" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_9811b5b0-465d-5d13-b7c2-3e72ec026399" refid="119787" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -70,13 +76,6 @@ Poona
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
- 		<sourceSet>
-			<source>
-				<name>http://cooperseeds.com/</name>
-				<refid type="URI">$UUID$</refid>
-				<refid type="citation">$pages$</refid>
-			</source>
-		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
@@ -87,42 +86,45 @@ Poona
 			<subject source="EXC" vocab="LOCAL" refid="94a5efb7-b989-57ce-9543-bb9f43403256">
 				<term type="concept">vegetables</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
 				<term type="internal workflow">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2c27deb1-0a05-5ba2-a528-9a1e592726e8">
-				<term type="brand">Cooper's Seeds</term>
+				<term type="brand">Cooper's Seeds (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="3cf95a1e-2888-5590-acf0-06599be6b003">
-				<term type="concept">corn</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="717ef34b-eb86-57d4-a849-f8c8a37d59a7">
-				<term type="plant">cabbage</term>
+				<term type="plant">cabbage (vegetable)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7bc18e96-0407-5b03-807b-a9aa3ba9e62f">
-				<term type="plant">beetroot</term>
+				<term type="plant">beetroot (vegetable)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b3c12af7-994c-5bd6-8164-c77b73fb633d">
-				<term type="plant">aubergine</term>
+				<term type="plant">eggplant (vegetable)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1719b852-a2c4-5d43-94ee-7efb7140621a">
-				<term type="plant">carrot</term>
+				<term type="plant">carrot (vegetable)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65bf59fd-b33b-5a8e-9d00-6044505ca84e">
-				<term type="concept">radish</term>
+				<term type="concept">radish (vegetable)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="163a7bd2-1325-5453-ba58-d761fb7a75f8">
-				<term type="concept">pea</term>
+				<term type="concept">pea (vegetable)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6716ad5c-1eda-595c-8b88-592e04cc176d">
+				<term type="concept">corncob</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for N. Cooper &amp; Co. Seed Merchants</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for N. Cooper &amp; Co. Seed Merchants</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -149,23 +151,8 @@ On this advertisement for Cooper's seeds, various vegetables are depicted. (gs/s
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
-				<ext:value>related hyperlinks:
-http://cooperseeds.com/, last accessed 2012-05-07. (gs)</ext:value>
 				<ext:value>explanatory comments/crosstagging:
 /1123.tif</ext:value>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
-			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://cooperseeds.com/</ext:value>
-				<ext:value type="accessed">2012-05-07</ext:value>
-				<ext:value type="comment"></ext:value>
-				<ext:item type="agent">
-					<ext:value type="role">Editor</ext:value>
-					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
-				</ext:item>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
@@ -185,18 +172,13 @@ http://cooperseeds.com/, last accessed 2012-05-07. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:item type="f_url1" status="0" display="URL1">
-				<ext:value type="url1">http://cooperseeds.com/</ext:value>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
 			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119787</ext:value>
 				<ext:value>119787</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:37">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

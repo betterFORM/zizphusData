@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Two Indian woman can be seen, one of the dressing/undressing before/after a bath in the lake with two swans depicted behind her. The other woman is looking straight towards the viewer with her hands in her hair and holding her dress.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,16 +17,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">15
+				<text type="text" lang="eng">15
 13</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117997" type="corporate">HeidICON Image Database</name>
@@ -34,7 +34,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_15110fae-6619-5e8d-8cdb-82fdd5c20a0e" refid="117997" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_15110fae-6619-5e8d-8cdb-82fdd5c20a0e" refid="117997" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -76,12 +76,9 @@
 			<subject source="EXC" vocab="LOCAL" refid="ec384af3-848a-5e36-9ed3-be26f36e831b">
 				<term type="concept">floral patterns</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="bdf384db-950f-55f5-99fe-6f9439407e1e">
-				<term type="">bath</term>
-			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Two images of advertisement of hair oil</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Two images of advertisement of hair oil</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -119,7 +116,7 @@ Two Indian woman can be seen, one of the dressing/undressing before/after a bath
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:45:02">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:14:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

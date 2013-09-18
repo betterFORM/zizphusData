@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this poster from the Empire Calender Manufacturing Co. Jawaharlal Nehru can be seen above a map of all the states of India. The map also shows Sri Lanka, Pakistan, Bangladesh, Burma and Buthan.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -31,16 +31,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Oriental Calendar - Dumdum
+				<text type="text" lang="eng">Oriental Calendar - Dumdum
 OCMCO [publisher's signet]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/123047" type="corporate">HeidICON Image Database</name>
@@ -57,7 +57,7 @@ OCMCO [publisher's signet]</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_46e6d843-f6c2-5af4-934e-9a4fee85ef2d" refid="123047" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_46e6d843-f6c2-5af4-934e-9a4fee85ef2d" refid="123047" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -81,9 +81,6 @@ OCMCO [publisher's signet]</text>
 			<stylePeriod>1949 - 1950</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term type="work (map)">map of India</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
 				<term type="concept">national leader</term>
 			</subject>
@@ -119,7 +116,7 @@ OCMCO [publisher's signet]</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Nehru With The Tricolour And The Map of India</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Nehru With The Tricolour And The Map of India</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -373,7 +370,7 @@ Virmani, Arundhati. 2008. A National Flag for India. Rituals, Nationalism and th
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:36:28">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:25">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1945</earliestDate>
+				<latestDate>1945</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows a couple dressed in elaborate costumes. The woman carries a pot over her left shoulder while the man holds the pot. The woman and man are wearing headdresses. The background shows the ruins of a building and many trees.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -17,29 +23,29 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Hind Pictures present
+				<text type="text" lang="eng">Hind Pictures present
 Laila Majnu
 A. BENGAL FILM RELEASE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">लैला मजनुं</text>
+				<text type="text" lang="hin">लैला मजनुं</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="ur">لیلی مجنون</text>
+				<text type="text" lang="urd">لیلی مجنون</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">starring
+				<text type="text" lang="eng">starring
 SWARNALATA
 NAZIR
 and GOPE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120523" type="corporate">HeidICON Image Database</name>
@@ -53,7 +59,7 @@ and GOPE</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_fadd057a-efa9-54b9-bb76-9bd19c602d88" refid="120523" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_fadd057a-efa9-54b9-bb76-9bd19c602d88" refid="120523" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -104,8 +110,8 @@ and GOPE</text>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Laila Majnu&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">लैला मजनुं</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Laila Majnu</title>
+			<title type="descriptive" pref="false">लैला मजनुं</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -203,7 +209,7 @@ http://jang.com.pk/thenews/feb2008-weekly/nos-17-02-2008/enc.htm#3, last accesse
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:45">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:04">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

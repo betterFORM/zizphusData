@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Lipton's Tea, a set of three tea cups can be seen on a table with a white tablecloth and a vase of flowers. Two of the cups are already filled with tea while tea is being poured into one. There is also a container of creamer and another with sugar cubes on the table.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -23,28 +23,28 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Tea Merchants
+				<text type="text" lang="eng">Tea Merchants
 By appointment to
 His Majesty The King Emperor</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Lipton's
+				<text type="text" lang="eng">Lipton's
 Tea</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">the connoisseur's choice</text>
+				<text type="text" lang="eng">the connoisseur's choice</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Lipton Limited
+				<text type="text" lang="eng">Lipton Limited
 London - Paris - Cairo - Colombo - Calcutta - Bombay - Rangoon - Melbourne, etc.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109738" type="corporate">HeidICON Image Database</name>
@@ -61,7 +61,7 @@ London - Paris - Cairo - Colombo - Calcutta - Bombay - Rangoon - Melbourne, etc.
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b8bef4d5-e495-5451-a4a8-8dd76335741e" refid="109738" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b8bef4d5-e495-5451-a4a8-8dd76335741e" refid="109738" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -110,7 +110,7 @@ London - Paris - Cairo - Colombo - Calcutta - Bombay - Rangoon - Melbourne, etc.
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Lipton's Tea. The connoisseur's choice.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Lipton's Tea. The connoisseur's choice.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -281,7 +281,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:17">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:19">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

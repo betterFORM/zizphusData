@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This image depicts the execution by hanging of Khudi Ram Bose (1889-1908) a freedom fighter from Bengal, under the British rule. Judges and a window with lattice can be seen in the background. The window shows a man and a guard in uniform inside the room. 
 The text written in the image is written in Hindi (lines 2 and 3) and Bengali lines 1 and 4)
 Khudi Ram Phaansi (hanging), born, 3rd December 1889 and martyred, 12th August 1908</text>
@@ -24,10 +24,10 @@ Khudi Ram Phaansi (hanging), born, 3rd December 1889 and martyred, 12th August 1
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="bn">ADD ORIGINAL SCRIPT HERE</text>
+				<text type="text" lang="ben">ADD ORIGINAL SCRIPT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">खुदी राम फांसी
+				<text type="text" lang="hin">खुदी राम फांसी
 जन्म:- ३ दिसम्बर १८८९ शहीद:- १२ अगस्त १९०८</text>
 			</inscription>
 			<inscription>
@@ -39,27 +39,27 @@ Janm 3 December 1889
 Martyrdom 12 August 1908</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">2216 - Khudiram</text>
+				<text type="text" lang="eng">2216 - Khudiram</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Publishers - ASSOCIATED CALENDARS, 26, Karuppanan St., SIVAKASI-626123. (Phone: 394)</text>
+				<text type="text" lang="eng">Publishers - ASSOCIATED CALENDARS, 26, Karuppanan St., SIVAKASI-626123. (Phone: 394)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Calcutta Agents - SIVAKASI EMPORIUM, 16, Synogouge St., 2nd Floor, (Near Canning St.,) CALCUTTA - 700001.</text>
+				<text type="text" lang="eng">Calcutta Agents - SIVAKASI EMPORIUM, 16, Synogouge St., 2nd Floor, (Near Canning St.,) CALCUTTA - 700001.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Delhi Agents - SIVAKASI PICTURES, Sri Vakilchand Jain Dharamshala, Jaia St., Near Mohalla Ramnagar Dispensary, Gandhi Nagar, DELHI-31.</text>
+				<text type="text" lang="eng">Delhi Agents - SIVAKASI PICTURES, Sri Vakilchand Jain Dharamshala, Jaia St., Near Mohalla Ramnagar Dispensary, Gandhi Nagar, DELHI-31.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">A 192</text>
+				<text type="text" lang="eng">A 192</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109904" type="corporate">HeidICON Image Database</name>
@@ -76,7 +76,7 @@ Martyrdom 12 August 1908</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_79e481eb-6388-5648-bf98-795e3ce0f996" refid="109904" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_79e481eb-6388-5648-bf98-795e3ce0f996" refid="109904" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -85,11 +85,6 @@ Martyrdom 12 August 1908</text>
 			</rights>
 		</rightsSet>
  		<sourceSet>
-			<source>
-				<name>http://www.liveindia.com/freedomfighters/khudiram.html</name>
-				<refid type="URI">$UUID$</refid>
-				<refid type="citation">$pages$</refid>
-			</source>
 		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>1930s-40s</stylePeriod>
@@ -145,8 +140,8 @@ Martyrdom 12 August 1908</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Khudiram&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">खुदी राम फांसी</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Khudiram</title>
+			<title type="descriptive" pref="false">खुदी राम फांसी</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -188,8 +183,6 @@ Quality issue: image poorly stitched / reassembled from multiple parts, seams ar
 Pinney (2004) writes extensively on the relationship of Gandhi versus Bhagat Singh and also mentions several images featuring Khudiram. He also mentions that chromolithographs circulated after his execution by the British in 1908, also underlining a fascination with modern/western technologies, such as telephones, watches, hanging technologies (ref to ills 86-88 in Photos of the Gods): &quot;They provide a powerful sense of the resonances that colonialism's techno-rational grid had acquired by the early 1940s.&quot; (2004: 117). Most of the images show men looking at their watches as they wait for his execution, be they colonial administrators or, as in the case of this image, judges. See 117-128. (cb)</ext:value>
 				<ext:value>related literature:
 Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</ext:value>
-				<ext:value>related hyperlinks:
-http://www.liveindia.com/freedomfighters/khudiram.html, last accessed 2011-07-20, webpage on Khudiram Bose (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
@@ -200,19 +193,6 @@ http://www.liveindia.com/freedomfighters/khudiram.html, last accessed 2011-07-20
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
 					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
-				</ext:item>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
-			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.liveindia.com/freedomfighters/khudiram.html</ext:value>
-				<ext:value type="accessed">2011-07-20</ext:value>
-				<ext:value type="comment">webpage on Khudiram Bose</ext:value>
-				<ext:item type="agent">
-					<ext:value type="role">Editor</ext:value>
-					<ext:value type="name">Alisch, Johannes</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -248,18 +228,13 @@ http://www.liveindia.com/freedomfighters/khudiram.html, last accessed 2011-07-20
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:item type="f_url1" status="0" display="URL1">
-				<ext:value type="url1">http://www.liveindia.com/freedomfighters/khudiram.html</ext:value>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
 			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/109904</ext:value>
 				<ext:value>109904</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:38:50">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:25">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

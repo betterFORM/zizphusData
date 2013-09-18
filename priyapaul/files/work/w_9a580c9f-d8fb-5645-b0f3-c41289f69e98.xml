@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This image shows a snake charmer with a big and colorful turban playing the 'bin' (a gourd pipe) to a snake in a basket in front of him. It is a textile label of the United Merchants Co. Ltd., Bombay.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -34,17 +34,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">E. A. Hobson &amp; Co.
+				<text type="text" lang="eng">E. A. Hobson &amp; Co.
 Trade Mark 
 Calcutta.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108683" type="corporate">HeidICON Image Database</name>
@@ -61,7 +61,7 @@ Calcutta.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_7a1c33c1-1bfb-5b98-85da-65ed6d522c86" refid="108683" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_7a1c33c1-1bfb-5b98-85da-65ed6d522c86" refid="108683" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -105,7 +105,7 @@ Calcutta.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Textile label of E. A. Hobson &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of E. A. Hobson &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -133,7 +133,7 @@ This image shows a snake charmer with a big and colorful turban playing the 'bin
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:05">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

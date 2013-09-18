@@ -7,20 +7,20 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The picture represents the ceremony of Rama's marriage with Sita. Her mother with Janak and Dashratha.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108036" type="corporate">HeidICON Image Database</name>
@@ -37,7 +37,7 @@
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_3b80444f-71f3-58ed-b33c-8b32a0c27f40" refid="108036" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_3b80444f-71f3-58ed-b33c-8b32a0c27f40" refid="108036" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -49,7 +49,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">God Brahma in a textile label of Nathumal Shorimal, Delhi-Amritsar</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">God Brahma in a textile label of Nathumal Shorimal, Delhi-Amritsar</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype>labels</worktype>
@@ -90,7 +90,7 @@ The picture represents the ceremony of Rama's marriage with Sita. Her mother wit
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:10">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:10">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

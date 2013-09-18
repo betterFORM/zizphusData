@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>An image showing Subhash Chandra Bose in a military uniform and wearing medals and a necklace. He carries a sword in his left hand and wears the Indian tricolour as a sash across his shoulder.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-b90fdecd-e3c4-541b-956e-afac9f0c7866">Chithavong, Arina</name>
@@ -26,29 +26,29 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">[handwritten inscription - indecipherable]</text>
+				<text type="text" lang="eng">[handwritten inscription - indecipherable]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Published by
+				<text type="text" lang="eng">Published by
 S. S. Brijbasi &amp; Sons
 Karachi &amp; Muttra</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Subhas Chandra Bose
+				<text type="text" lang="eng">Subhas Chandra Bose
 (in royal dress)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Printed as Germany
+				<text type="text" lang="eng">Printed as Germany
 C. M. C.
 Copy Registered No.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119421" type="corporate">HeidICON Image Database</name>
@@ -56,7 +56,7 @@ Copy Registered No.</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_3b3846d0-cfe5-5077-b56f-6b7acf6e0d5e" refid="119421" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_3b3846d0-cfe5-5077-b56f-6b7acf6e0d5e" refid="119421" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -113,10 +113,10 @@ Copy Registered No.</text>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Subhas Chandra Bose&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Subhas Chandra Bose</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -169,7 +169,7 @@ http://christopherpinney.com/S_S_Brijbasi.php, last accessed 2013-01-16 (sg)</ex
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:33">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

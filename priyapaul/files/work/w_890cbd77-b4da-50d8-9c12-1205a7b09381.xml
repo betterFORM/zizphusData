@@ -7,10 +7,10 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The advertisement is filled out with a woman holding a bar with a rocket in her right hand. She appears as an attractive young lady. Her face is youthful, her hair long and shiny. She is wearing a top and trousers that accentuate her figure. The background is colored in striking shades of pink and green.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
@@ -18,24 +18,24 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">ROCKET
+				<text type="text" lang="eng">ROCKET
 BOMB</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">KRISI
+				<text type="text" lang="eng">KRISI
 TM
 ROCK</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">KRISHNA INDUSTRIES, SIV - KASI.</text>
+				<text type="text" lang="eng">KRISHNA INDUSTRIES, SIV - KASI.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120489" type="corporate">HeidICON Image Database</name>
@@ -53,7 +53,7 @@ ROCK</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_48bf8976-54b9-54e7-906b-01b5db29d273" refid="120489" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_48bf8976-54b9-54e7-906b-01b5db29d273" refid="120489" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -87,10 +87,10 @@ ROCK</text>
 				<term type="internal workflow">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6493cb4-6a3a-5249-a624-4afcbd67de1a">
-				<term type="concept">fireworks</term>
+				<term type="concept">fireworks (explosive equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec9b32dc-f9b3-5d14-81eb-1c7acf5bc346">
-				<term type="concept">rockets </term>
+				<term type="concept">rockets (projectiles, general)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
 				<term type="concept">women (female humans)</term>
@@ -103,7 +103,7 @@ ROCK</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Rocket Bomb Advertisement</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Rocket Bomb Advertisement</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="6cc28a30-ae55-58c8-a507-73c9cc22edac">packing material</worktype>
@@ -152,7 +152,7 @@ The advertisement is filled out with a woman holding a bar with a rocket in her 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:41:22">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:59">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -12,29 +12,29 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The watercolor image depicts a green Rolls Royce convertible car in front of a city-gate driving towards the viewer. Two bearded Indian men with turbans are sitting in the front seats and a woman in an Indian dress in the fond. Coconut palms and onion domes, the city walls, a gate and some dwellings can be seen in the background. Apparently, the hexagonal minaret tower of a mosque [?] sticks out in the middle. The bottom of the image shows the advertisement text. Some people standing in the street are shown in the background.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">DUNLOP
+				<text type="text" lang="eng">DUNLOP
 THE STANDARD BY WHICH ALL TYRES ARE JUDGED</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Y.2796 [car plate]</text>
+				<text type="text" lang="eng">Y.2796 [car plate]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120722" type="corporate">HeidICON Image Database</name>
@@ -51,7 +51,7 @@ THE STANDARD BY WHICH ALL TYRES ARE JUDGED</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_baa2a8a4-76ef-5c9f-9bb2-d60137c773c1" refid="120722" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_baa2a8a4-76ef-5c9f-9bb2-d60137c773c1" refid="120722" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -82,7 +82,7 @@ THE STANDARD BY WHICH ALL TYRES ARE JUDGED</text>
 				<term type="plant">coconut (fruit)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5607ff54-8fa7-5f7b-8611-6e0c57d5dfe4">
-				<term type="brand">Rolls-Royce</term>
+				<term type="brand">Rolls-Royce (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4abbbd5e-a5b7-5f6a-9520-aab3de480b5a">
 				<term type="concept">exoticism</term>
@@ -98,7 +98,7 @@ THE STANDARD BY WHICH ALL TYRES ARE JUDGED</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Dunlop Tyres Advertisement</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Dunlop Tyres Advertisement</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="41ef1870-0081-5c1d-a22b-107f0e1b086b">watercolors (paintings)</worktype>
@@ -145,7 +145,7 @@ Y.2796 [car plate]</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:53">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

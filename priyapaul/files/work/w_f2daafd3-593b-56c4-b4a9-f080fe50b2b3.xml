@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1982</earliestDate>
+				<latestDate>1982</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>There are four different scenes of the movie depicted here. In the center, Amitabh Bachchan is standing with earnest mien. In the right upper corner, a dancing scene between Vinod Mehra and Tanjula,  one of the main-actresses of the movie can be seen, while a conversation between Amitabh and Sanjeev Kumar takes place in the lower right corner. On the left, Amitabh, who plays the role of a taxi driver in this movie, is depicted while talking to some other taxi drivers and passersby. Parveen Babi is standing in front of the central figure of Amitabh and on Sanjeev Kumars´ left side.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,28 +33,28 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Khud-Daar
+				<text type="text" lang="eng">Khud-Daar
 Cinemascope
 directed by
 Ravi Tandon</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">produced by
+				<text type="text" lang="eng">produced by
 F. K. Rattonsey
 Anwar Ali
 music
 Rajesh Roshan</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">CoLorlab</text>
+				<text type="text" lang="eng">CoLorlab</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120452" type="corporate">HeidICON Image Database</name>
@@ -116,7 +122,7 @@ Rajesh Roshan</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Khud-daar&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Khud-daar</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
@@ -284,7 +290,7 @@ http://www.imdb.com/title/tt0084199/ last accessed 2012-01-23, story line, leadi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:36">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:04">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -31,8 +31,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1951</earliestDate>
+				<latestDate>1951</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this lobby card for the 1950s Hindi film &quot;Deedar&quot;, the main actress Nargis is depicted smiling towards the camera.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -42,22 +48,22 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">filmkar Ltd.
+				<text type="text" lang="eng">filmkar Ltd.
 Deedar
 Directed by Nitin Bose
 Music Naushad
 Produced by Rajendra Jain</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">दीदार</text>
+				<text type="text" lang="hin">दीदार</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120517" type="corporate">HeidICON Image Database</name>
@@ -71,7 +77,7 @@ Produced by Rajendra Jain</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_4a87c9e4-9d90-558c-96aa-7801963fe524" refid="120517" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_4a87c9e4-9d90-558c-96aa-7801963fe524" refid="120517" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -108,15 +114,15 @@ Produced by Rajendra Jain</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bf4e2e50-1e99-544b-b5c9-34a197964afb">
-				<term type="work (movie)">Deedar</term>
+				<term type="work (movie)">Deedar (movie, 1951)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Deedar&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">दीदार</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Deedar</title>
+			<title type="descriptive" pref="false">दीदार</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
@@ -214,7 +220,7 @@ http://en.wikipedia.org/wiki/Nargis, last accessed 2012-08-06, Wikipedia article
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:28">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:36">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

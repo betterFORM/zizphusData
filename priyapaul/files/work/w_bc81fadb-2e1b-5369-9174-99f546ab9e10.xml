@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Rolls-Royce automobiles, an exemplar of the advertised car can be seen next to a group of men wearing turbans and white clothes. The whole scenery takes place close to the walls of a castle. The logo of the company is pictured in the lower left section of the advertisement.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,17 +23,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Rolls-Royce
+				<text type="text" lang="eng">Rolls-Royce
 The best Car in the World
 Allied Motors Limited - Bombay and Delhi</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119768" type="corporate">HeidICON Image Database</name>
@@ -44,7 +50,7 @@ Allied Motors Limited - Bombay and Delhi</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_6f9098ce-be7d-50a7-9146-ee3c0422df4f" refid="119768" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_6f9098ce-be7d-50a7-9146-ee3c0422df4f" refid="119768" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -65,6 +71,9 @@ Allied Motors Limited - Bombay and Delhi</text>
 			<subject source="EXC" vocab="LOCAL" refid="b733984e-4492-5750-b0f1-07c1f9c6e262">
 				<term type="concept">automobiles</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="23d83f75-f4b1-538c-ba65-cf3e89d7cc75">
 				<term type="work">castles (fortifications)</term>
 			</subject>
@@ -72,7 +81,7 @@ Allied Motors Limited - Bombay and Delhi</text>
 				<term type="internal workflow">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5607ff54-8fa7-5f7b-8611-6e0c57d5dfe4">
-				<term type="brand">Rolls-Royce</term>
+				<term type="brand">Rolls-Royce (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -82,7 +91,7 @@ Allied Motors Limited - Bombay and Delhi</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Rolls-Royce</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Rolls-Royce</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -127,7 +136,7 @@ On this advertisement for Rolls-Royce automobiles, an exemplar of the advertised
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:52">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

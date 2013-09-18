@@ -12,7 +12,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A postcard with the title &quot;union&quot; which shows a couple sitting together amidst flowering shrubs and bushes and kissing.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,21 +26,21 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Union</text>
+				<text type="text" lang="eng">Union</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">मिलन</text>
+				<text type="text" lang="hin">मिलन</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">[Amorous, Series no. 4, B.K. Das &amp; Co., Calcutta.]</text>
+				<text type="text" lang="eng">[Amorous, Series no. 4, B.K. Das &amp; Co., Calcutta.]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109749" type="corporate">HeidICON Image Database</name>
@@ -57,7 +57,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b6109bdc-790e-5bff-be62-e1d306775a95" refid="109749" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b6109bdc-790e-5bff-be62-e1d306775a95" refid="109749" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -95,8 +95,8 @@
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Union&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">मिलन</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Union</title>
+			<title type="descriptive" pref="false">मिलन</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -142,7 +142,7 @@ A postcard with the title &quot;union&quot; which shows a couple sitting togethe
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:41">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:52">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

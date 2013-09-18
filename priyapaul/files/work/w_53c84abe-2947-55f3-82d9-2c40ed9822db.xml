@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image depicts a fast undertaken by Jawaharlal Nehru, the President of the Indian National Congress. A servant is offering Nehru food which he declines with a gesture of his right hand. The scene is situated in a kitchen-like surrounding.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -31,26 +31,26 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Prabhu Dayal.</text>
+				<text type="text" lang="eng">Prabhu Dayal.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copyright No. 70.
+				<text type="text" lang="eng">Copyright No. 70.
 Krishna Press, Allahabad.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Rashtrapati ka anshan.</text>
+				<text type="text" lang="eng">Rashtrapati ka anshan.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Published by
+				<text type="text" lang="eng">Published by
 Shyam Sundar Lal,
 Picture Merchant.
 Chowk, Cawnpore.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">राष्ट्रपति का अनशन</text>
+				<text type="text" lang="hin">राष्ट्रपति का अनशन</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">प्रकाशक-
+				<text type="text" lang="hin">प्रकाशक-
 श्यामसुन्दर लाल 
 पिक्चर मर्चेन्ट, चौक, कानपुर</text>
 			</inscription>
@@ -59,11 +59,11 @@ Chowk, Cawnpore.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109925" type="corporate">HeidICON Image Database</name>
@@ -80,7 +80,7 @@ Chowk, Cawnpore.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_65631733-fe4f-5875-a321-3fc365a802df" refid="109925" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_65631733-fe4f-5875-a321-3fc365a802df" refid="109925" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -109,9 +109,9 @@ Chowk, Cawnpore.</text>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Rashtrapati ka anshan&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Rashtrapati ka anshan</title>
-			<title type="descriptive" pref="false" lang="" script="">राष्ट्रपति का अनशन</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Rashtrapati ka anshan</title>
+			<title type="descriptive" pref="false">Rashtrapati ka anshan</title>
+			<title type="descriptive" pref="false">राष्ट्रपति का अनशन</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -175,7 +175,7 @@ Chowk, Cawnpore.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:29">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:15">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

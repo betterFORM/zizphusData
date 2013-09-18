@@ -16,9 +16,15 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1958</earliestDate>
+				<latestDate>1958</latestDate>
+			</date>
+		</dateSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Estd. 1935
+				<text type="text" lang="eng">Estd. 1935
 M.K. Sunderamier &amp; Sons,
 Manufacturers of:
 Jothi Brand Aluminium Ware Utensils,
@@ -26,14 +32,14 @@ Jothi Brand Aluminium Ware Utensils,
 Madurai (S. India)</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">H.O. 
+				<text type="text" lang="eng">H.O. 
 26, Amman Sannathi
 B.O.
 Jothi Aluminium Coy.,
 21-22, Amman Sannathi, Madurai</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">We sell
+				<text type="text" lang="eng">We sell
 Aluminium 
 Circle
 Wire 
@@ -44,18 +50,18 @@ etc.
 etc.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Rajeswari Press, Madurai: -57.</text>
+				<text type="text" lang="eng">Rajeswari Press, Madurai: -57.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">On this calendar advertisement from 1958 for M.K. Sunderamier &amp; Sons, a scene with the Hindu goddess Sita and her two kids can be seen. On the sides of the image, there are contact details of the advertising company as well as the range of products offered described. (gs)</text>
+				<text type="text" lang="eng">On this calendar advertisement from 1958 for M.K. Sunderamier &amp; Sons, a scene with the Hindu goddess Sita and her two kids can be seen. On the sides of the image, there are contact details of the advertising company as well as the range of products offered described. (gs)</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120921" type="corporate">HeidICON Image Database</name>
@@ -72,7 +78,7 @@ etc.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_551a96a5-942d-58c3-a10f-f8c4055adfc5" refid="120921" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_551a96a5-942d-58c3-a10f-f8c4055adfc5" refid="120921" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -122,7 +128,7 @@ etc.</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Sita with her two kids, in an advertisement calender of M.K. Sunderamier &amp; Sons. (1958)</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Sita with her two kids, in an advertisement calender of M.K. Sunderamier &amp; Sons. (1958)</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -187,7 +193,7 @@ On this calendar advertisement from 1958 for M.K. Sunderamier &amp; Sons, a scen
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:42:58">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

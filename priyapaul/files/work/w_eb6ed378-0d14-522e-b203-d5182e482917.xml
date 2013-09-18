@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for M.A. Joshi &amp; Co. fine art colour printing a letter with a comic of an Indian king dominates the upper section. The image of a princess and a fair skinned couple can be seen in the  the lower section. A detailed explanation about the advertised services as well as contact details are pictured as well. The right side was not scanned completeyl so some parts of the text can't be read.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -27,7 +33,7 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">When rajas write letters, you'll find they are fond of using exclusively Basildon Bond
+				<text type="text" lang="eng">When rajas write letters, you'll find they are fond of using exclusively Basildon Bond
 Available in all popular forms &amp; sizes
 Stockists
 Thacker &amp; Co. Ltd Bombay
@@ -54,11 +60,11 @@ Discerning tourists, people of distinction visit Calcutta, stay at Ritze which c
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119762" type="corporate">HeidICON Image Database</name>
@@ -75,7 +81,7 @@ Discerning tourists, people of distinction visit Calcutta, stay at Ritze which c
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_b1403938-0631-5e6b-a47f-4f22ce339ba5" refid="119762" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_b1403938-0631-5e6b-a47f-4f22ce339ba5" refid="119762" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -99,6 +105,9 @@ Discerning tourists, people of distinction visit Calcutta, stay at Ritze which c
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
 				<term type="concept">product advertisement</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
 				<term type="concept">fair skin</term>
 			</subject>
@@ -116,7 +125,7 @@ Discerning tourists, people of distinction visit Calcutta, stay at Ritze which c
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of M.A. Joshi &amp; Co.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of M.A. Joshi &amp; Co.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -182,7 +191,7 @@ On this advertisement for M.A. Joshi &amp; Co. fine art colour printing a letter
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:44">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:44">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

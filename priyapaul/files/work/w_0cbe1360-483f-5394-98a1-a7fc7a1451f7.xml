@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This image shows Jawaharlal Nehru and Gandhi sitting on the map of India by the feet of Krishna, who is at the centre of the image, standing atop a lotus flower. Nehru is holding a bejewelled Indian flag with his right hand and touching the feet of Krishna with his left hand. Gandhi is depicted in a thoughtful mood with a spinning wheel in front of him and he is also touching Krishna's feet with his right hand. Krishna wearing shining clothes, a garland and a crown is strewing flowers over Gandhi's head and holding the Indian flag with his right hand. There is a bowl holding a book and other articles in front of Gandhi. The book is labelled 'Gita'. A full moon can be seen in the background.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -37,32 +37,32 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">गांधी और कृष्ण
+				<text type="text" lang="hin">गांधी और कृष्ण
 प्रकाशक
 इम्पिरीयल</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">प. जवाहिरलाल नेहरु</text>
+				<text type="text" lang="hin">प. जवाहिरलाल नेहरु</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">गान्धी जी</text>
+				<text type="text" lang="hin">गान्धी जी</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">GANDHI &amp; KRISHNA</text>
+				<text type="text" lang="eng">GANDHI &amp; KRISHNA</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">No. 131.</text>
+				<text type="text" lang="eng">No. 131.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Published by 
+				<text type="text" lang="eng">Published by 
 Imperial Calendar Manufacturing Co., 
 Chandni Chowk.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copyright Reserved.</text>
+				<text type="text" lang="eng">Copyright Reserved.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Ramnarain P.</text>
+				<text type="text" lang="eng">Ramnarain P.</text>
 			</inscription>
 			<inscription>
 				<text type="other">P. Jawaharlal Nehru
@@ -76,11 +76,11 @@ Gandhiji</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122926" type="corporate">HeidICON Image Database</name>
@@ -122,9 +122,6 @@ Gandhiji</text>
 			<stylePeriod>1960s</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="d6287106-8c9e-544f-bb18-1823729a57b3">
-				<term type="work (map)">map of India</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
 				<term type="concept">flags</term>
 			</subject>
@@ -145,6 +142,9 @@ Gandhiji</text>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
 				<term type="concept">glories</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+				<term type="geographic">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
 				<term type="plant">lotus (motif)</term>
@@ -178,9 +178,9 @@ Gandhiji</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Gandhi and Krishna&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">Gandhi aur Krishna</title>
-			<title type="descriptive" pref="false" lang="" script="">गांधी और कृष्ण</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Gandhi and Krishna</title>
+			<title type="descriptive" pref="false">Gandhi aur Krishna</title>
+			<title type="descriptive" pref="false">गांधी और कृष्ण</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -469,7 +469,7 @@ Virmani, Arundhati. 2008. A National Flag for India. Rituals, Nationalism and th
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:12">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:27">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

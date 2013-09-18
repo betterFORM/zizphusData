@@ -11,47 +11,53 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1954</earliestDate>
+				<latestDate>1954</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A sample page for customizable advertisement calendars from Oriental Calendar Manufacturing Co. The c enter of the page contains a chromo-lithograph print of a woman, holding a telephone receiver, hence the image caption is &quot;Halloo&quot;. On her knees, there is a magazine. Apparently, she took the telephone number from that magazine page suggesting There is a small table with flowers, a  Placeholder text on the right hand side indicates, where buyers may put their own advertisement texts or images. Similarly, on the left hand side of the central image, arrows indicate the area for customization. The sample title section above the image presents information about the size and paper quality but is also reserved for customization. The bottom of the page shows an annual calendar of the year 1954. Between the five main sections (center image, the calendar and three flexible areas including the head section), there are decorative elements and two lines of arabic text and numbers.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">No. 707. HALLOO [image caption]</text>
+				<text type="text" lang="eng">No. 707. HALLOO [image caption]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">MEDIUM GRADE CALENDARS
+				<text type="text" lang="eng">MEDIUM GRADE CALENDARS
 Size 10 x 15 Inches
 with Dates Printed on the Ground.
 ALL THE DESIGNS FROM No. 601 To 708 SHOWN IN THIS ALBUM ARE ALSO AVAILABLE IN THIS MEDIUM GRADE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">This is a sample of our Calendar in 10&quot; x 15&quot; Size with dates printed on the ground with the mounting on Top &amp; Bottom &amp; with customer's Advt.
+				<text type="text" lang="eng">This is a sample of our Calendar in 10&quot; x 15&quot; Size with dates printed on the ground with the mounting on Top &amp; Bottom &amp; with customer's Advt.
 For Prices See Clause No. 13 of our Pricelist. [right side]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Space for advt. [left side]</text>
+				<text type="text" lang="eng">Space for advt. [left side]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Oriental Calendar MFG. CO.
+				<text type="text" lang="eng">Oriental Calendar MFG. CO.
 P. B. No. 11212 Calcutta-14.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Oriental Calendar Calcutta-14
+				<text type="text" lang="eng">Oriental Calendar Calcutta-14
 OCMCO [Manufacturer's Signet]</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120550" type="corporate">HeidICON Image Database</name>
@@ -107,7 +113,7 @@ OCMCO [Manufacturer's Signet]</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">A woman with telephone, in a sample for Medium Grade Calenders</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">A woman with telephone, in a sample for Medium Grade Calenders</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -174,7 +180,7 @@ OCMCO [Manufacturer's Signet]</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:43:53">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:29">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

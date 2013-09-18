@@ -22,7 +22,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>A Hindu religious poster showing light skinned Mandodari, the wife of Ravana, outside a temple giving alms to a dark skinned man. She is wearing jewellery- nose studs, anklets, necklace and bangles and flowers in her hair. She also holds offerings for the temple in a plate in her left hand. Behind her a temple can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -32,24 +32,24 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Ravi Varma</text>
+				<text type="text" lang="eng">Ravi Varma</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">RAVI VARMA PRESS. KARLA LONAVLA</text>
+				<text type="text" lang="eng">RAVI VARMA PRESS. KARLA LONAVLA</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">MANDODARI</text>
+				<text type="text" lang="eng">MANDODARI</text>
 			</inscription>
 			<inscription>
 				<text type="signature">Ravi Varma</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119173" type="corporate">HeidICON Image Database</name>
@@ -124,6 +124,9 @@
 			<subject source="EXC" vocab="LOCAL" refid="cb063ec1-7b3d-59b0-bf41-095b14626053">
 				<term type="concept">beggars</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="b3884b54-3f61-5435-86f3-e75a663adbe4">
+				<term type="">giving alms</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
 				<term type="worktype">posters</term>
 			</subject>
@@ -132,7 +135,7 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Mandodari&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Mandodari</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
@@ -277,7 +280,7 @@ Ravi Varma also designed a number of iconic depictions of the Hindu deities, whe
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:22">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

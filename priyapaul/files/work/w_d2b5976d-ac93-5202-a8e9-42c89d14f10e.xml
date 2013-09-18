@@ -10,10 +10,15 @@
 				<name vocab="local" type="personal" refid="uuid-1a687782-a2b9-568f-9e5a-f619f3bd2b68">Iesudass, E.</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-27fb37ca-e21b-54de-a387-97cfe2c66f6d">Studio E. Iesudass</name>
+				<role vocab="marcrelator" type="code">cli</role>
+  			</agent>
 		</agentSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Studio
+				<text type="text" lang="eng">Studio
 E. Iesudass.</text>
 			</inscription>
 			<inscription>
@@ -21,11 +26,11 @@ E. Iesudass.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118107" type="corporate">HeidICON Image Database</name>
@@ -42,7 +47,7 @@ E. Iesudass.</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_07d579f3-5e02-57f3-b6f1-171f913d0fb5" refid="118107" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_07d579f3-5e02-57f3-b6f1-171f913d0fb5" refid="118107" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -50,13 +55,8 @@ E. Iesudass.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
-		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="27fb37ca-e21b-54de-a387-97cfe2c66f6d">
-				<term type="corporation">Studio E. Iesudass</term>
-			</subject>
-		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Portrait of Sanjay Gandhi</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Portrait of Sanjay Gandhi</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
@@ -104,7 +104,7 @@ E. Iesudass.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:29:24">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

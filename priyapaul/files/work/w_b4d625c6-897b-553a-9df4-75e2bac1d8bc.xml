@@ -11,8 +11,14 @@
 				<role vocab="marcrelator" type="code">dpc</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1942</earliestDate>
+				<latestDate>1942</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Lord Krishna is sitting on the banks of a river and looking towards the moon. He holds a flute in his right hand and wears a crown with a peacock feather on it. On the opposite side of the river, the silhouette of temples can be seen.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -26,19 +32,19 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="bn">PLEASE ENTER HERE</text>
+				<text type="text" lang="ben">PLEASE ENTER HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">This Picture No. 428
+				<text type="text" lang="eng">This Picture No. 428
 Calendar for 1942</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109872" type="corporate">HeidICON Image Database</name>
@@ -55,7 +61,7 @@ Calendar for 1942</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_4889e5d9-ba7b-5fbd-9223-64a58c0d4161" refid="109872" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_4889e5d9-ba7b-5fbd-9223-64a58c0d4161" refid="109872" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -102,7 +108,7 @@ Calendar for 1942</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Krishna With His Flute By A River</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Krishna With His Flute By A River</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -131,7 +137,7 @@ Lord Krishna is sitting on the banks of a river and looking towards the moon. He
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:59">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

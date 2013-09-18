@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this advertisement for Noor-e-Gulshan Hair Oil, a fair skinned Indian woman with curly hair and a bindi on her forehead is surrounded by lotus flowers.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,18 +17,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Hair Oil
+				<text type="text" lang="eng">Hair Oil
 
 hi:
 PLEASE ENTER HERE</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117981" type="corporate">HeidICON Image Database</name>
@@ -36,7 +36,7 @@ PLEASE ENTER HERE</text>
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_8febfaf0-f597-52fa-a75d-3c6d5cf97478" refid="117981" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_8febfaf0-f597-52fa-a75d-3c6d5cf97478" refid="117981" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -76,11 +76,11 @@ PLEASE ENTER HERE</text>
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a3137de7-924f-5db6-bcd3-bbb64c004165">
-				<term type="brand">Noor-e-Gulshan Hair Oil</term>
+				<term type="product">Noor-e-Gulshan Hair Oil (product)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of  Noor-e-Gulshan, Hair Oil, Hathras</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of  Noor-e-Gulshan, Hair Oil, Hathras</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -120,7 +120,7 @@ On this advertisement for Noor-e-Gulshan Hair Oil, a fair skinned Indian woman w
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:27">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:19">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,29 +7,29 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Title of an Urdu magazine Shama, specializing on Indian cinema, published in April 1950.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="ur">شمع</text>
+				<text type="text" lang="urd">شمع</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Shama, Dehli
+				<text type="text" lang="eng">Shama, Dehli
 Editor Yusuf Dehlavi</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119691" type="corporate">HeidICON Image Database</name>
@@ -59,9 +59,9 @@ Editor Yusuf Dehlavi</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Cover of an Urdu magazine from 1950</title>
-			<title type="descriptive" pref="false" lang="" script="">&quot;Shama&quot;, Delhi</title>
-			<title type="descriptive" pref="false" lang="" script="">شمع</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Cover of an Urdu magazine from 1950</title>
+			<title type="descriptive" pref="false">&quot;Shama&quot;, Delhi</title>
+			<title type="descriptive" pref="false">شمع</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="64364627-3794-5b69-a9c0-d83cbf5d8734">title pages</worktype>
@@ -124,7 +124,7 @@ Shama was one of the most popular monthly Urdu magazines on Indian cinema that w
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:28:52">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

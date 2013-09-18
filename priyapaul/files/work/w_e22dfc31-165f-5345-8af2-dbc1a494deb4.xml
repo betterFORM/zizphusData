@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this image a woman is pictured wearing a white sari as well as jewellery. She holds a peacock feather in her right hand while she touches her necklace with the left hand. Peacock feathers grouped together form the background of the image.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -17,18 +17,18 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">B. T. No. 493</text>
+				<text type="text" lang="eng">B. T. No. 493</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Copyright</text>
+				<text type="text" lang="eng">Copyright</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118072" type="corporate">HeidICON Image Database</name>
@@ -36,7 +36,7 @@
 			</location>
 		</locationSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_6e6c8628-1c39-524f-bd40-5c733f2e3423" refid="118072" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_6e6c8628-1c39-524f-bd40-5c733f2e3423" refid="118072" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -45,11 +45,6 @@
 			</rights>
 		</rightsSet>
  		<sourceSet>
-			<source>
-				<name>http://www.peacocksolutions.co.uk/fascinatingfacts.html</name>
-				<refid type="URI">$UUID$</refid>
-				<refid type="citation">$pages$</refid>
-			</source>
 		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
@@ -81,7 +76,7 @@
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Woman with peacock feathers</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Woman with peacock feathers</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
@@ -152,18 +147,13 @@ http://www.peacocksolutions.co.uk/fascinatingfacts.html, last accessed 2011-08-0
 		</ext:heidicon>
 
 		<ext:heidicon>
-			<ext:item type="f_url1" status="0" display="URL1">
-				<ext:value type="url1">http://www.peacocksolutions.co.uk/fascinatingfacts.html</ext:value>
-			</ext:item>
-		</ext:heidicon>
-		<ext:heidicon>
 			<ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118072</ext:value>
 				<ext:value>118072</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:59">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:37">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

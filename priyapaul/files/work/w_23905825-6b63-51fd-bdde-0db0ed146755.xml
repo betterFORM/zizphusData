@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>Three college girls dressed in salwar kameez in a 'fancy maal' (fancy items) shop looking at bangles held up by the shopkeeper dressed in a white shirt and green tie and smiling at them. Above him is a sign that says &quot;fancy maal vibhag' or 'special items section'. On the right hand side, another shopkeeper stands below a sign that says 'saada maal vibhag' meaning the ordinary items section. A man and woman sit on a sofa in the shop with their backs to the viewer. A door with the sign &quot;stock&quot; can be seen behind. Three fans hang from the ceiling.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0">Brosius, Christiane</name>
@@ -21,15 +21,15 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="hi">[on the left section of the image]
+				<text type="text" lang="hin">[on the left section of the image]
 फैंसी माल विभाग</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">[in the center of the image]
+				<text type="text" lang="hin">[in the center of the image]
 स्टाक</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">[on the right section of the image]
+				<text type="text" lang="hin">[on the right section of the image]
 सादा माल विभाग</text>
 			</inscription>
 			<inscription>
@@ -39,11 +39,11 @@ saada maal vibhaag</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120641" type="corporate">HeidICON Image Database</name>
@@ -60,7 +60,7 @@ saada maal vibhaag</text>
 			<measurements shape="landscape" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_4d6f44ae-0f15-5c1b-a6e7-3468c1472702" refid="120641" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_4d6f44ae-0f15-5c1b-a6e7-3468c1472702" refid="120641" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -113,9 +113,9 @@ saada maal vibhaag</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Calendar image showing a shop with costumers</title>
-			<title type="descriptive" pref="false" lang="" script="">&quot;Fancy maal vibhag&quot;, &quot;Stock&quot;</title>
-			<title type="descriptive" pref="false" lang="" script="">फैंसी माल विभाग, स्टाक</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Calendar image showing a shop with costumers</title>
+			<title type="descriptive" pref="false">&quot;Fancy maal vibhag&quot;, &quot;Stock&quot;</title>
+			<title type="descriptive" pref="false">फैंसी माल विभाग, स्टाक</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -169,7 +169,7 @@ Calendar image. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:27:44">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,7 +7,7 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>On this postcard with the title &quot;Bamboo Avenue, Jubbolpore&quot;, we see a couple of workers standing on an avenue with bamboo trees along it.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,16 +17,16 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Bamboo Avenue, Jubbolpore
+				<text type="text" lang="eng">Bamboo Avenue, Jubbolpore
 Hands &amp; Son, C.F.</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120714" type="corporate">HeidICON Image Database</name>
@@ -59,24 +59,21 @@ Hands &amp; Son, C.F.</text>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
 				<term type="internal workflow">recheck-new</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f709a0bc-7931-5ab5-8a1f-4ac6c591bb51">
+				<term type="concept">allées</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
 				<term type="worktype">picture postcards</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="9119622f-6f06-5da2-aee4-0d7ee835b29f">
-				<term type="concept">avenue</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e44e83ce-077b-59cb-a55d-0bc9ef2a1d0d">
-				<term type="plant">bamboo</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="f709a0bc-7931-5ab5-8a1f-4ac6c591bb51">
-				<term type="concept">allées</term>
+				<term type="plant">bamboo (plant)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Bamboo Avenue, Jubbulpore&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Bamboo Avenue, Jubbulpore</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
@@ -126,7 +123,7 @@ On this postcard with the title &quot;Bamboo Avenue, Jubbolpore&quot;, we see a 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -13,18 +13,18 @@
 		</agentSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">A. E. Chowdhary</text>
+				<text type="text" lang="eng">A. E. Chowdhary</text>
 			</inscription>
 			<inscription>
 				<text type="signature">A. E. Chowdhari</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118121" type="corporate">HeidICON Image Database</name>
@@ -83,9 +83,6 @@
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
 				<term type="work">turbans</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="3a61449f-6f30-50ed-9cde-c95a68808149">
-				<term type="concept">country life</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7827f591-4d4b-5f24-80b8-57c311eecdea">
 				<term type="concept">tractors (agricultural equipment)</term>
 			</subject>
@@ -116,12 +113,15 @@
 			<subject source="EXC" vocab="LOCAL" refid="5f75b6bf-5d31-5719-a63b-fe01670a9cd5">
 				<term type="concept">modernization</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="917ce2d6-fbbb-5dbb-82b9-87e232c37bff">
+				<term type="concept">rural life</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eb53fa21-fe31-5428-a7b1-0f71986e8079">
 				<term type="concept">irrigation systems</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Urban and rural boy on paddy field</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Urban and rural boy on paddy field</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
@@ -185,7 +185,7 @@ A. E. Chowdhary</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:30:02">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

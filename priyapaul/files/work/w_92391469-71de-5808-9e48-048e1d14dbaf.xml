@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this sample calender poster from the Empire Calender Manufacturing Co., Calcutta, &quot;Samudra Manthan&quot; or churning the ocean can be seen with both the devas (gods) and the asuras (demons) working together using the mountain Mandaranchal as a churning tool and Vasuki the king of serpants as the churning rope. The gods  holding the tail of the serpant king and the demons the head. Vishnu can be seen along with the gods helping them churn the ocean. The goddess Lakshmi, a cow, a horse, an elephant, a tree, another divine being and objects such as a conch can also be seen in the sky.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
@@ -37,13 +37,13 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Banshi</text>
+				<text type="text" lang="eng">Banshi</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">HAP [publisher's signet]</text>
+				<text type="text" lang="eng">HAP [publisher's signet]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Samudra Manthan
+				<text type="text" lang="eng">Samudra Manthan
 No. 483</text>
 			</inscription>
 			<inscription>
@@ -51,11 +51,11 @@ No. 483</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122941" type="corporate">HeidICON Image Database</name>
@@ -72,7 +72,7 @@ No. 483</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_615ef248-a761-5c9e-b1ed-c6a4d020ced7" refid="122941" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_615ef248-a761-5c9e-b1ed-c6a4d020ced7" refid="122941" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -147,7 +147,7 @@ No. 483</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Samudra Manthan&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Samudra Manthan</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -222,7 +222,7 @@ Ocean of Milk was an elaborate process. Mount Mandaranchal was used as the dashe
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:44:49">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

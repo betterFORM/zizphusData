@@ -16,12 +16,18 @@
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1929</earliestDate>
+				<latestDate>1929</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>1929 calendar with Tamil titles, of Peirce, Leslie &amp; Co., Gold thread suppliers, Coimbatore. 
 Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants; Hindu deity with animals; God Kartikeya, shown with multiple arms and multiple heads, against the background of pastoral landscape. Image may be related to Franziskus von Assisi, Christian saint.</text>
 				<author>
-					<name vocab="local" type="corporate" refid="">PPColl_editors</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
@@ -29,36 +35,36 @@ Peirce, Leslie &amp; Co. were gold thread suppliers, and import/export merchants
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="ta">ADD TEXT HERE</text>
+				<text type="text" lang="tam">ADD TEXT HERE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Peirce, Leslie &amp; Co. Ltd.
+				<text type="text" lang="eng">Peirce, Leslie &amp; Co. Ltd.
 Coimbatore.
 Import &amp; Export Merchants,
 Gold Thread Suppliers.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Calendar Mfg. Co.
+				<text type="text" lang="eng">Calendar Mfg. Co.
 Postbox xxx [indecipherable]
 BOMBAY</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">No. 7491
+				<text type="text" lang="eng">No. 7491
 Copyright</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">printed at the Literary Sun Press, Coimbatore.</text>
+				<text type="text" lang="eng">printed at the Literary Sun Press, Coimbatore.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">1929</text>
+				<text type="text" lang="eng">1929</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119217" type="corporate">HeidICON Image Database</name>
@@ -121,7 +127,7 @@ Copyright</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1929 Advertisement calendar for Peirce, Leslie &amp; Co., Ltd.</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1929 Advertisement calendar for Peirce, Leslie &amp; Co., Ltd.</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -214,7 +220,7 @@ Image may be related to Franziskus von Assisi, Christian saint. (ys)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:31:44">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:00">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

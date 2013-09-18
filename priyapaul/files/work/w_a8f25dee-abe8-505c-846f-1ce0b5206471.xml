@@ -6,8 +6,14 @@
 				<role vocab="marcrelator" type="code">col</role>
 			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1937</earliestDate>
+				<latestDate>1937</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This advertisement is divided in two parts: The upper one advertises a Veet hair remover, showing a white, blonde, western woman applying some of the advertised product on her right armpit. A detailed text highlights the strengthes of the product. This section can not be read properly due to unsuffuicient scanning. The lower section hosts an advertisement for foreign stamp packages, depicting one sample with a mother and her child as well as a rough price overview.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -17,23 +23,23 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">To remove Hair
+				<text type="text" lang="eng">To remove Hair
 Without Razors, Elctri [...]
 Needles or Smelly 
 Depilatories</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Amazing new discovery! A dainty, white fragmant cream. Apply straight from  [...] tube.  Wash off with plain water Every trace of hair is gone! Skin is left soft and smooth and velvet. No stubble like the razorleaves. No coarse regrowth. Sold everywhere under Trade mark &quot;Veet.&quot; Razors only make hair grow faster and courser. The quick, easy and pleasent way to end your superflou [...] hair troubles for ever is with New &quot;Veet&quot;. Successful results guaranteed or money refunded. Obtainable at all dealers.</text>
+				<text type="text" lang="eng">Amazing new discovery! A dainty, white fragmant cream. Apply straight from  [...] tube.  Wash off with plain water Every trace of hair is gone! Skin is left soft and smooth and velvet. No stubble like the razorleaves. No coarse regrowth. Sold everywhere under Trade mark &quot;Veet.&quot; Razors only make hair grow faster and courser. The quick, easy and pleasent way to end your superflou [...] hair troubles for ever is with New &quot;Veet&quot;. Successful results guaranteed or money refunded. Obtainable at all dealers.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Make this 3 Minute test</text>
+				<text type="text" lang="eng">Make this 3 Minute test</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Stamps
+				<text type="text" lang="eng">Stamps
 If you collect stamps, write to our Fortnightly Lists which will be regularely sent to you free of charge.</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Note these bargains:
+				<text type="text" lang="eng">Note these bargains:
 All different. Genuine. 
 500 Whole World Rs. 1 - 4
 1000   &quot;            &quot;       &quot;    3 - 0 
@@ -45,7 +51,7 @@ All different. Genuine.
 600   &quot;           &quot;         &quot;     40 - 0</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Each of these foreign country packets 2 As.
+				<text type="text" lang="eng">Each of these foreign country packets 2 As.
 25 Austria,  15 Brazil, 25 Czechoslovakia, 25 Denmark, 10 Morocco, 25 Spain, 25 Poland, 25 Roumania, 25 Switzerland. Order by V.P.P.
 &quot;Mother &amp; Child&quot; complete sets of 
 Belgium - Rs- 1 -12
@@ -55,11 +61,11 @@ Philatelie Orient Kodak House, Hornby Road, Bombay</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119773" type="corporate">HeidICON Image Database</name>
@@ -76,7 +82,7 @@ Philatelie Orient Kodak House, Hornby Road, Bombay</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_ccd846b4-d671-5611-832a-5e3fe7e11d2f" refid="119773" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_ccd846b4-d671-5611-832a-5e3fe7e11d2f" refid="119773" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -106,6 +112,9 @@ Philatelie Orient Kodak House, Hornby Road, Bombay</text>
 			<subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
 				<term type="concept">whiteness</term>
 			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+				<term type="work (daily)">Times of India</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
 				<term type="concept">Western women</term>
 			</subject>
@@ -116,7 +125,7 @@ Philatelie Orient Kodak House, Hornby Road, Bombay</text>
 				<term type="concept">blonde</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="49e0a1d3-0f51-5103-a84a-7a8ed752f1d0">
-				<term type="brand">Veet</term>
+				<term type="brand">Veet (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
 				<term type="work">Times of India Yearbook</term>
@@ -126,7 +135,7 @@ Philatelie Orient Kodak House, Hornby Road, Bombay</text>
 			<technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">An advertisement of Veet Hair Remover &amp; Stamps</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Veet Hair Remover &amp; Stamps</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -209,7 +218,7 @@ The text in the upper section of the image can not be read properly due to unsuf
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:32:05">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:19">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

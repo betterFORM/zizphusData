@@ -7,11 +7,11 @@
 			</agent>
 		</agentSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118878" type="corporate">HeidICON Image Database</name>
@@ -29,8 +29,8 @@
 		</measurementsSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_15cb2857-e013-5dc5-9c5f-2fc536e95542" refid="118878" source="EXC Priya Paul Collection" pref="true">general view</relation>
-			<relation type="imageIs" relids="i_1284aef7-43ff-5153-960d-7abd4f6cef40" refid="118879" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_ea882ff4-35ac-5614-8a39-5601340d61fb" refid="118880" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_1284aef7-43ff-5153-960d-7abd4f6cef40" refid="118879" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -47,8 +47,8 @@
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">1958 Advertisement calendar for Anandkar Karyalaya Private Ltd.</title>
-			<title type="descriptive" pref="false" lang="" script="">आनंदकर कार्यालय प्रा. लि. इटावा</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">1958 Advertisement calendar for Anandkar Karyalaya Private Ltd.</title>
+			<title type="descriptive" pref="false">आनंदकर कार्यालय प्रा. लि. इटावा</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -77,13 +77,13 @@
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118879</ext:value>
-				<ext:value>i_1284aef7-43ff-5153-960d-7abd4f6cef40</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118880</ext:value>
+				<ext:value>i_ea882ff4-35ac-5614-8a39-5601340d61fb</ext:value>
 				<ext:value>close-up view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118880</ext:value>
-				<ext:value>i_ea882ff4-35ac-5614-8a39-5601340d61fb</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118879</ext:value>
+				<ext:value>i_1284aef7-43ff-5153-960d-7abd4f6cef40</ext:value>
 				<ext:value>close-up view</ext:value>
 			</ext:item>
 		</ext:heidicon>
@@ -94,7 +94,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:11">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

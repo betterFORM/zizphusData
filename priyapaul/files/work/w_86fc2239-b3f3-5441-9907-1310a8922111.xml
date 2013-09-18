@@ -16,8 +16,14 @@
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
+		<dateSet>
+			<date type="creation">
+				<earliestDate>1954</earliestDate>
+				<latestDate>1954</latestDate>
+			</date>
+		</dateSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>The image shows the Bollywood actress Meena Kumari, wearing earrings, a salwar kameez and a dupatta. On the lower right side one can see an illustration of Lux soap.</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -32,26 +38,26 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Meena
+				<text type="text" lang="eng">Meena
 Kumari</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">MAY 1954 JUNE</text>
+				<text type="text" lang="eng">MAY 1954 JUNE</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">The beauty soap
+				<text type="text" lang="eng">The beauty soap
 of the film stars</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">LUX TOILET SOAP</text>
+				<text type="text" lang="eng">LUX TOILET SOAP</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119368" type="corporate">HeidICON Image Database</name>
@@ -68,7 +74,7 @@ of the film stars</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_37830ffd-8c77-56f5-a422-2bfee4c6fff1" refid="119368" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_37830ffd-8c77-56f5-a422-2bfee4c6fff1" refid="119368" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -114,7 +120,7 @@ of the film stars</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Lux Toilet Soap</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Lux Toilet Soap</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
@@ -334,7 +340,7 @@ http://www.imdb.com/name/nm0474932/, last accessed 2012-06-04, Meena Kumari's fi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:19">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

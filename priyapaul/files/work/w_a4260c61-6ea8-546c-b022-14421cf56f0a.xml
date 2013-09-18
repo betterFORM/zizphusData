@@ -17,7 +17,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>This advertisement is a plate or cardboard to be mounted on a wall. It shows a pack of bidis in the right side and an ornate, golden frame on the left. The pack of bidis depicts the logo of Special Sher bidi, a lion standing on the grass. Below the company name is written. 
 The frame to the left imitates three dimensional embossing. Inside the frame one can see a depiction of Krishna and his female companion Radha in jewellery, standing on a patch of grass. There is a peacock standing next to them and in the background is a lake or pond with small buildings on the other shore. Krishna is leaning against a tree playing the flute. 
 Below the image, on top of the frame, a banderole is painted, showing the name of the company and images of its owners. There are holes in the four corners to mount the plate.</text>
@@ -34,32 +34,32 @@ Below the image, on top of the frame, a banderole is painted, showing the name o
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">Special Sher Bidi
+				<text type="text" lang="eng">Special Sher Bidi
 Anlal Hargovinddas</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Mohanlal Hargovind Jubbul Pore
+				<text type="text" lang="eng">Mohanlal Hargovind Jubbul Pore
 Bidi 
 No. 7
 Reg. No. 504</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Mohanlal Hargovind Jubbulpore
+				<text type="text" lang="eng">Mohanlal Hargovind Jubbulpore
 Reg.-No. 504</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">BIDI
+				<text type="text" lang="eng">BIDI
 No. 7</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Special Sher Bidi [emblem on lower part of depicted pack of cigarettes]</text>
+				<text type="text" lang="eng">Special Sher Bidi [emblem on lower part of depicted pack of cigarettes]</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">स्पेशल 
+				<text type="text" lang="hin">स्पेशल 
 शेर बिड़ी</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">[below image]
+				<text type="text" lang="hin">[below image]
 मोहनलाल हरगोविंद
 बिड़ीवाले</text>
 			</inscription>
@@ -68,7 +68,7 @@ No. 7</text>
 Bidi people</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="hi">मोहनलाल हरगोविंददास
+				<text type="text" lang="hin">मोहनलाल हरगोविंददास
 जबलपुर, म. प्र.</text>
 			</inscription>
 			<inscription>
@@ -77,11 +77,11 @@ Jabalpur, M.P</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119374" type="corporate">HeidICON Image Database</name>
@@ -99,7 +99,7 @@ Jabalpur, M.P</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_342d34bc-d4f0-5739-953d-3f207b9f366a" refid="119374" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_342d34bc-d4f0-5739-953d-3f207b9f366a" refid="119374" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -110,6 +110,9 @@ Jabalpur, M.P</text>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
 				<term type="animal">lion</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
 				<term type="worktype">advertisements</term>
@@ -150,9 +153,6 @@ Jabalpur, M.P</text>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
 				<term type="concept">peacock feather</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
 				<term type="internal workflow">recheck-original-language</term>
 			</subject>
@@ -163,7 +163,7 @@ Jabalpur, M.P</text>
 				<term type="concept">ponds (water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ad903658-2164-5abc-826a-2c8e7ef38819">
-				<term type="brand">Special Sher Bidi</term>
+				<term type="brand">Special Sher Bidi (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ece20a3e-c113-5af1-9f5f-b3a794ede6e8">
 				<term type="concept">banderoles</term>
@@ -173,8 +173,8 @@ Jabalpur, M.P</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">Advertisement for Special Sher Bidi</title>
-			<title type="descriptive" pref="false" lang="" script="">स्पेशल शेर बिड़ी</title>
+			<title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Special Sher Bidi</title>
+			<title type="descriptive" pref="false">स्पेशल शेर बिड़ी</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
@@ -232,7 +232,7 @@ Below the image, on top of the frame, a banderole is painted, showing the name o
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:37:35">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:25">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

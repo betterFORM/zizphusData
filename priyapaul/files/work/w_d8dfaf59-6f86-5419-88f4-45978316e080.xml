@@ -27,7 +27,7 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description lang="en" script="Latn">
+			<description lang="eng" script="Latn">
 				<text>In this image Shiva looks at Parvati his wife while she is immersed in meditation in front of a lingam. She is sitting on an animal hide and wears flower garlands around her neck and wrists and in her hair. Shiva is holding a trident (trishul) and a dumroo (drum).</text>
 				<author>
 					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
@@ -41,17 +41,17 @@
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
-				<text type="text" lang="en">BHARAT KALA NIKETAN
+				<text type="text" lang="eng">BHARAT KALA NIKETAN
 CALCUTTA</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Blocks-POONAWALA</text>
+				<text type="text" lang="eng">Blocks-POONAWALA</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">Mulgaoker</text>
+				<text type="text" lang="eng">Mulgaoker</text>
 			</inscription>
 			<inscription>
-				<text type="text" lang="en">PARBATI PUJAN
+				<text type="text" lang="eng">PARBATI PUJAN
 No. 650</text>
 			</inscription>
 			<inscription>
@@ -59,11 +59,11 @@ No. 650</text>
 			</inscription>
 		</inscriptionSet>
 		<locationSet>
-			<location type="repository">
-				<name type="corporate" vocab="local">Delhi / The Priya Paul Collection of Popular Art</name>
+			<location source="EXC" type="repository">
+				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location source="EXC" type="repository">
-				<name type="geographic" vocab="local" refid="511">Delhi / The Priya Paul Collection of Popular Art</name>
+				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
 			<location type="formerRepository">
 				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119439" type="corporate">HeidICON Image Database</name>
@@ -80,7 +80,7 @@ No. 650</text>
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_94342067-8f25-5dce-8bf9-d02abe811209" refid="119439" source="EXC Priya Paul Collection" pref="true"></relation>
+			<relation type="imageIs" relids="i_94342067-8f25-5dce-8bf9-d02abe811209" refid="119439" source="EXC Priya Paul Collection" pref="true">general view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -104,6 +104,9 @@ No. 650</text>
 			<stylePeriod>mid 20th century</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
+			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+				<term type="concept">festoon (motif)</term>
+			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
 				<term type="concept">glories</term>
 			</subject>
@@ -140,9 +143,6 @@ No. 650</text>
 			<subject source="EXC" vocab="LOCAL" refid="912115b8-0a5e-54d1-8d67-811750689e53">
 				<term type="concept">lingams</term>
 			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="1ee21bd7-02f9-52c5-9a38-c87d76702f05">
-				<term type="concept">husk (motif)</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
 				<term type="concept">trade catalogs</term>
 			</subject>
@@ -154,7 +154,7 @@ No. 650</text>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
 		<titleSet>
-			<title type="descriptive" pref="true" lang="en" script="Latn">&quot;Parbati Pujan&quot;</title>
+			<title type="inscribed" pref="true" lang="eng" script="Latn">Parbati Pujan</title>
 		</titleSet>
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
@@ -254,7 +254,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/97/index_3.html last accessed 2011
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-05-07T11:39:51">
+			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>
