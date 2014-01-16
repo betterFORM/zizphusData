@@ -30,10 +30,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108240" type="corporate">HeidICON Image Database</name>
-				<refid>108240</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -53,18 +49,20 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
-				<term type="concept">hill stations</term>
+				<term type="descriptiveTopic">hill stations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e376bfc7-e331-5b6c-b4bb-a1b710ef6d6c">
-				<term type="geographic">Kasauli</term>
+				<term type="geographicPlace">Kasauli</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -115,7 +113,7 @@ A view on the Lamnazan barracks in Kasouli, a hillstation in Northern India. In 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:29">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

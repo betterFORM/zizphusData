@@ -36,10 +36,6 @@ Made in Sweden</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119680" type="corporate">HeidICON Image Database</name>
-				<refid>119680</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -59,27 +55,32 @@ Made in Sweden</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term type="concept">architecture (object genre)</term>
+				<term type="descriptiveTopic">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
-				<term type="concept">matchbook</term>
+				<term type="descriptiveTopic">matchbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2a19f0d6-02d0-5598-ab17-39056bf01957">
-				<term type="concept">Made in Sweden</term>
+				<term type="conceptTopic">Made in Sweden</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
-				<term type="worktype">matchboxes</term>
+				<term type="descriptiveTopic">matchboxes</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -142,7 +143,7 @@ As the name of the brand indicates, the scene depicted could be part of the well
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:34">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:10:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

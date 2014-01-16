@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -39,10 +41,6 @@ All kinds of threads for Sewing, Crochet and Embroidery</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119080" type="corporate">HeidICON Image Database</name>
-				<refid>119080</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -66,30 +64,32 @@ All kinds of threads for Sewing, Crochet and Embroidery</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2270ccf9-e298-55ba-ab99-7742b9b57103">
-				<term type="concept">bowls (vessels)</term>
+				<term type="descriptiveTopic">bowls (vessels)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
-				<term type="animal">swans</term>
+				<term type="descriptiveTopic">swans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term type="plant">lotus (motif)</term>
+				<term type="descriptiveTopic">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e50cb5a2-2241-5520-b464-46ff97c7ccff">
-				<term type="concept">thread</term>
+				<term type="descriptiveTopic">thread</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -162,7 +162,7 @@ Krishna plays the flute in a poster calender by the Central Agency Ltd., Bombay 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:36">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

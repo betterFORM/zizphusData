@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -36,10 +36,6 @@ Sukkur (Sind).</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108669" type="corporate">HeidICON Image Database</name>
-				<refid>108669</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -60,30 +56,32 @@ Sukkur (Sind).</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term type="concept">mountains</term>
+				<term type="descriptiveTopic">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term type="animal">snake</term>
+				<term type="descriptiveTopic">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b27ed56a-1061-5368-b193-4ee92fc01e2d">
-				<term type="concept">gopi</term>
+				<term type="iconographicTopic">gopi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term type="concept">lakes (bodies of water)</term>
+				<term type="descriptiveTopic">lakes (bodies of water)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -147,7 +145,7 @@ On this postcard, we see Lord Krishna on the snake Kalia Mardan with his flute a
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:08">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:58:19">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

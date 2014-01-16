@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -39,10 +41,6 @@ Phone: 34481 (40 Lines)</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108387" type="corporate">HeidICON Image Database</name>
-				<refid>108387</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -62,36 +60,35 @@ Phone: 34481 (40 Lines)</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec4123e2-f63b-5c63-bd11-2a045f12489d">
-				<term type="concept">hotels (public accomodations)</term>
+				<term type="descriptiveTopic">hotels (public accomodations)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e0cce022-aa95-5b6c-babf-73cfe1042071">
-				<term type="geographic">Delhi</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="7a160798-68d0-580d-bd4f-c8f85363027d">
-				<term type="geographic">Old Delhi</term>
+				<term type="geographicPlace">Delhi</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -150,7 +147,7 @@ On this advertisement for the Ashoka, one of top class hotel in New Delhi, an In
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:02">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:00:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

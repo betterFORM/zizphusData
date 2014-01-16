@@ -33,10 +33,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120626" type="corporate">HeidICON Image Database</name>
-				<refid>120626</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -57,27 +53,29 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="00312b42-b6e3-52ad-add7-eefebdc52f7b">
-				<term type="geographic">China</term>
+				<term type="geographicPlace">China</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term type="concept">architecture (object genre)</term>
+				<term type="descriptiveTopic">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="48eec9c0-5d67-5878-87de-df9c6aadcbef">
-				<term type="concept">marketplaces</term>
+				<term type="descriptiveTopic">marketplaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29461d55-4471-5c88-b092-fc1eb4a1c32d">
-				<term type="concept">pushcarts</term>
+				<term type="descriptiveTopic">pushcarts</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2cc31886-c714-56fc-a2c5-7c64ded6d562">
-				<term type="concept">gates</term>
+				<term type="descriptiveTopic">gates</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -121,7 +119,7 @@ In this postcard a marketplace in a Chinese town or city close to a gate can be 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:48">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -79,10 +79,6 @@ Agra Road, Shamshabad (Agra)</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118139" type="corporate">HeidICON Image Database</name>
-				<refid>118139</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -102,21 +98,23 @@ Agra Road, Shamshabad (Agra)</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41cf5e57-8cc6-5639-ac07-ea4923fa50cf">
-				<term type="brand">Saloni pure mustard oil (product)</term>
+				<term type="descriptiveTopic">Saloni pure mustard oil (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -189,7 +187,7 @@ Portraits of Chandra Shekhar Azad, Bhagat Singh, Subhas Chandra Bose, Shivaji an
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:00">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:01:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

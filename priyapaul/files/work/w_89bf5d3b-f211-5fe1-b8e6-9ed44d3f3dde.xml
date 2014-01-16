@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-8c341a75-5c2a-5b39-a545-20ab1032b2b2">Kaliya</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -49,10 +49,6 @@ No. 656</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119458" type="corporate">HeidICON Image Database</name>
-				<refid>119458</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -79,33 +75,35 @@ No. 656</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
-				<term type="concept">deities</term>
+				<term type="iconographicTopic">deities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c07e97f6-6226-5231-85a7-28172d4e2454">
-				<term type="concept">fight</term>
+				<term type="conceptTopic">fight</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term type="concept">Hinduism</term>
+				<term type="conceptTopic">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term type="animal">snake</term>
+				<term type="descriptiveTopic">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term type="concept">trade catalogs</term>
+				<term type="descriptiveTopic">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -136,7 +134,7 @@ http://www.hknet.org.nz/parishad115.htm#SubduingKaliya, last accessed 2011-06-16
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.hknet.org.nz/parishad115.htm#SubduingKaliya</ext:value>
+				<ext:value type="url">uuid-4b408546-7df4-3136-8bb1-92747a000bb5</ext:value>
 				<ext:value type="accessed">2011-06-16</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -168,7 +166,7 @@ http://www.hknet.org.nz/parishad115.htm#SubduingKaliya, last accessed 2011-06-16
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:59">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:58">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

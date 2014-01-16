@@ -40,7 +40,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -68,10 +70,6 @@ Vincent Studios</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119029" type="corporate">HeidICON Image Database</name>
-				<refid>119029</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -98,21 +96,23 @@ Vincent Studios</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term type="worktype">lobby cards</term>
+				<term type="descriptiveTopic">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ff9809d-2a79-52d6-a2b0-2795d6a278c6">
-				<term type="work (movie)">Dhoon (movie, 1953)</term>
+				<term type="iconographicTopic">Dhoon (movie, 1953)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -153,7 +153,7 @@ http://www.imdb.com/title/tt0379254/, last accessed 2011-12-06. (gs)</ext:value>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0379254/</ext:value>
+				<ext:value type="url">uuid-a9efe469-3d41-3f63-b4b0-c3d3cceb258c</ext:value>
 				<ext:value type="accessed">2011-12-06</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -182,7 +182,7 @@ http://www.imdb.com/title/tt0379254/, last accessed 2011-12-06. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:28">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:34">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

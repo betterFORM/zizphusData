@@ -54,10 +54,6 @@ PLACE LID TIGHTLY AFTER USE
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108382" type="corporate">HeidICON Image Database</name>
-				<refid>108382</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -77,39 +73,41 @@ PLACE LID TIGHTLY AFTER USE
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ed5adaee-e891-54c9-bd3d-5a664acc9306">
-				<term type="concept">mirrors</term>
+				<term type="descriptiveTopic">mirrors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6994785f-702b-52aa-98c6-866390c2c2bc">
-				<term type="concept">Traditional Indian clothes</term>
+				<term type="descriptiveTopic">Traditional Indian clothes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9058450-e8a4-5ea8-ae96-b0cff4e77a96">
-				<term type="product">make-up (cosmetics)</term>
+				<term type="descriptiveTopic">make-up (cosmetics)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1be9e25d-d34b-5a9a-bf3f-bea40c99b448">
-				<term type="concept">beau ideal</term>
+				<term type="conceptTopic">beau ideal</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
-				<term type="concept">black hair</term>
+				<term type="descriptiveTopic">black hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a14be562-683e-57b2-9446-7cff4999aa55">
-				<term type="concept">earrings (jewelry)</term>
+				<term type="descriptiveTopic">earrings (jewelry)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6fd4645e-47bc-5249-8d91-57d5d8461482">
-				<term type="brand">Afghan Snow (product)</term>
+				<term type="descriptiveTopic">Afghan Snow (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -177,7 +175,7 @@ There is a second illustration showing a pot of the cream, with its lid open. Th
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:57">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:00:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

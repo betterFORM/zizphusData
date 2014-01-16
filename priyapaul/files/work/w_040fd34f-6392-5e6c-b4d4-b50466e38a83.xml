@@ -55,9 +55,8 @@ Room No. FF2 EAST, CALCUTTA-1</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109966" type="corporate">HeidICON Image Database</name>
-				<refid>109966</refid>
+			<location type="site">
+				<note>Tāj Mahal (monument)</note>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -97,67 +96,56 @@ Room No. FF2 EAST, CALCUTTA-1</text>
 		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>Mughal Empire</stylePeriod>
+			<stylePeriod vocab="LOCAL" refid="uuid-713bce21-8cae-59d4-a146-7a33333f9a8b">Mughal</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ee7ac7d6-2a41-5d77-85e0-0e8934621f46">
-				<term type="concept">emperors</term>
+				<term type="iconographicTopic">emperors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
-				<term type="concept">moon</term>
+				<term type="descriptiveTopic">moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
-				<term type="animal">swans</term>
+				<term type="descriptiveTopic">swans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5669b7f2-1cea-5231-93cb-03d6599a60e3">
-				<term type="concept">water</term>
+				<term type="descriptiveTopic">water</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8bd9d94c-3f62-5c44-9048-768e28873f94">
-				<term type="work (architecture)">tombs</term>
+				<term type="descriptiveTopic">tombs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6fed8133-cef1-579e-8c65-9a7982f73362">
-				<term type="geographic">Agra</term>
+				<term type="geographicPlace">Agra</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91e82ec4-e08d-5170-9d2e-60785a644748">
-				<term type="work (architecture)">Tāj Mahal (monument)</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="04f3983d-3813-5546-bb54-ba913a054ff1">
-				<term type="work (tomb)">Mughal period tombs</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="c1352e24-74bb-5cb1-94ef-f3b98db80084">
-				<term type="concept">Mughal Emperors</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="26ba38d7-5bea-5cec-b42b-6cfe525dc632">
-				<term type="concept">Mughal Princesses</term>
+				<term type="builtworkPlace">Tāj Mahal (monument)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dc0d4358-3e05-51a8-9919-0b4f19a9a181">
-				<term type="geographic">Yamuna (river)</term>
+				<term type="geographicPlace">Yamuna (river)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a354cf19-4a7a-5089-ac7a-905ea36331e6">
-				<term type="concept">memorials (structures)</term>
+				<term type="descriptiveTopic">memorials (structures)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0c3156fd-a8d6-55e4-aa78-44a29fd3dcf6">
-				<term type="concept">reflections (perceived properties)</term>
+				<term type="descriptiveTopic">reflections (perceived properties)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a60cd437-c423-540f-801f-5764a7cfa488">
-				<term type="concept">princesses</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="713bce21-8cae-59d4-a146-7a33333f9a8b">
-				<term type="concept">Mughal</term>
+				<term type="iconographicTopic">princesses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -227,7 +215,7 @@ http://tasveerghar.net/cmsdesk/essay/37/index_3.html, last accessed 2011-05-08, 
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the Taj Mahal&quot;. London: Doubleday.</ext:value>
+				<ext:value type="text">uuid-be94e02a-2795-3ff0-971e-eb8f5049a20b</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -236,7 +224,7 @@ http://tasveerghar.net/cmsdesk/essay/37/index_3.html, last accessed 2011-05-08, 
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Jain, Kajri (2009). &quot;Monuments, Landscapes and Romance. Resisting the privacy of the couple&quot;. Tasveer Ghar.</ext:value>
+				<ext:value type="text">uuid-e98f35c5-4d6c-332a-a6cd-5574b07e67cf</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
@@ -245,7 +233,7 @@ http://tasveerghar.net/cmsdesk/essay/37/index_3.html, last accessed 2011-05-08, 
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Wayne E. Begley, “The Myth of the Taj Mahal and a New Theory of Its Symbolic Meaning,” Art Bulletin 61 (1979), 7-37.</ext:value>
+				<ext:value type="text">uuid-b7bb9656-5161-3a51-8ee3-b6bbe13638a8</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -254,7 +242,7 @@ http://tasveerghar.net/cmsdesk/essay/37/index_3.html, last accessed 2011-05-08, 
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Cyran, Eberhard (1993). Taj Mahal. Die Erinnerungen des Kaisers Sha Jahan.&quot; Heilbronn: Salzer.</ext:value>
+				<ext:value type="text">uuid-f0653ca5-d830-3c0e-b02d-a68aefd68a72</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -263,8 +251,7 @@ http://tasveerghar.net/cmsdesk/essay/37/index_3.html, last accessed 2011-05-08, 
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and
-Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html last accessed 2010-10-19</ext:value>
+				<ext:value type="text">uuid-6b8fa80b-8205-3560-828e-086e95200e1c</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -275,7 +262,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://tasveerghar.net/cmsdesk/essay/37/index_3.html</ext:value>
+				<ext:value type="url">uuid-e98f35c5-4d6c-332a-a6cd-5574b07e67cf</ext:value>
 				<ext:value type="accessed">2011-08-05</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -286,7 +273,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://binaguptapoetry.com/shrine-of-love-taj-mahal-386.htm</ext:value>
+				<ext:value type="url">uuid-dcfac57a-6d65-3ef3-82dc-aa3717d25c07</ext:value>
 				<ext:value type="accessed">2010-10-18</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -297,7 +284,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://tasveerghar.net/cmsdesk/essay/37/index_3.html</ext:value>
+				<ext:value type="url">uuid-e98f35c5-4d6c-332a-a6cd-5574b07e67cf</ext:value>
 				<ext:value type="accessed">2011-05-08</ext:value>
 				<ext:value type="comment">Tasveer Ghar essay</ext:value>
 				<ext:item type="agent">
@@ -435,7 +422,7 @@ She continues to refer the Taj Mahal to contemporary times: &quot;Particularly i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:14">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:00:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

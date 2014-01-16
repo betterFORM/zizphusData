@@ -22,10 +22,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120547" type="corporate">HeidICON Image Database</name>
-				<refid>120547</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -47,21 +43,23 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
-				<term type="concept">spectacles (eye glasses)</term>
+				<term type="descriptiveTopic">spectacles (eye glasses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7a297ace-da99-55bc-8e02-e48f4a923577">
-				<term type="concept">fans (equipment)</term>
+				<term type="descriptiveTopic">fans (equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6375f143-8d58-540f-81c8-bbbd1f095c02">
-				<term type="worktype">fans (costume accessories)</term>
+				<term type="descriptiveTopic">Fächer</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -115,7 +113,7 @@ A promotional hand-fan with glasses on it.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:18">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

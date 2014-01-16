@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -70,10 +70,6 @@ Bombay 14</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/139295" type="corporate">HeidICON Image Database</name>
-				<refid>139295</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_daefb30a-d8b6-51d9-b92c-00e6bedcd62e" refid="139295" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -86,34 +82,34 @@ Bombay 14</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term type="concept">oceans</term>
+				<term type="descriptiveTopic">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
-				<term type="geographic">India</term>
+				<term type="geographicPlace">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="691f9bd9-9cb7-584c-9489-db876ed9c2cb">
-				<term type="concept">weapons</term>
+				<term type="descriptiveTopic">weapons</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term type="concept">maps</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">Kalender</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+				<term type="descriptiveTopic">Werbung</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -175,7 +171,7 @@ This 1944 calendar of Zandu Pharmaceutical Works advertises various medicines of
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:19:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

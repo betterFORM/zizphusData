@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -26,10 +26,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108323" type="corporate">HeidICON Image Database</name>
-				<refid>108323</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -50,36 +46,38 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b0847553-2d25-5449-8c02-ff3b194d6ab0">
-				<term type="concept">pots (containers)</term>
+				<term type="descriptiveTopic">pots (containers)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
-				<term type="concept">Bharatiya Nari</term>
+				<term type="conceptTopic">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="20261b45-ee9b-5dab-a9cf-3fcfee362f84">
-				<term type="concept">cages (rooms)</term>
+				<term type="descriptiveTopic">cages (rooms)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -127,7 +125,7 @@ The woman next to Lord Krishna could be Radha, his constant female companion. (g
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:23">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:58:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

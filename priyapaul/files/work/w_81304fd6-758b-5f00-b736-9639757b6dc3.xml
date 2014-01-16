@@ -32,10 +32,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108236" type="corporate">HeidICON Image Database</name>
-				<refid>108236</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -55,24 +51,29 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="60671271-0213-5534-9c27-7c7d70eafb36">
-				<term type="concept">churches (buildings)</term>
+				<term type="descriptiveTopic">churches (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ab0b791-c983-5d5a-90d5-dfc85c8b2c23">
-				<term type="concept">Made in Germany</term>
+				<term type="conceptTopic">Made in Germany</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
-				<term type="concept">hill stations</term>
+				<term type="descriptiveTopic">hill stations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e376bfc7-e331-5b6c-b4bb-a1b710ef6d6c">
-				<term type="geographic">Kasauli</term>
+				<term type="geographicPlace">Kasauli</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -82,7 +83,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">The Church, Kasauli Hill, India</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -121,7 +122,7 @@ This postcards offers a view towards the church of Kasauli, an Indian hill stati
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:18">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

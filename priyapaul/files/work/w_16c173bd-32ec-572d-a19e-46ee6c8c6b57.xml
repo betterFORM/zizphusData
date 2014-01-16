@@ -43,10 +43,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120286" type="corporate">HeidICON Image Database</name>
-				<refid>120286</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -73,36 +69,38 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ebb69a2e-22b0-5f48-b771-be0e3287b9d2">
-				<term type="concept">ornaments</term>
+				<term type="descriptiveTopic">ornaments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term type="concept">statues</term>
+				<term type="descriptiveTopic">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4a258254-1622-5ca5-b433-f0e25affe7ef">
-				<term type="concept">sculpture (visual work)</term>
+				<term type="descriptiveTopic">sculpture (visual work)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
-				<term type="work (daily)">Times of India</term>
+				<term type="otherTopic">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="861e7eb6-31c2-52b7-9d48-281436f2216f">
-				<term type="geographic">Mohenjo-Daro</term>
+				<term type="geographicPlace">Mohenjo-Daro</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term type="work">Times of India Yearbook</term>
+				<term type="otherTopic">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -134,7 +132,7 @@ http://www.mohenjodaro.net/, last accessed 2011-11-09, basic information about M
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.mohenjodaro.net/</ext:value>
+				<ext:value type="url">uuid-ff167f7c-f0d8-34eb-b701-7aeb61cb1174</ext:value>
 				<ext:value type="accessed">2011-11-09</ext:value>
 				<ext:value type="comment">basic information about Mohenjo Daro as quoted above.</ext:value>
 				<ext:item type="agent">
@@ -163,7 +161,7 @@ http://www.mohenjodaro.net/, last accessed 2011-11-09, basic information about M
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:56">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:14:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

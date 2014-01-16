@@ -32,10 +32,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119498" type="corporate">HeidICON Image Database</name>
-				<refid>119498</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -55,21 +51,23 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="0aab3045-f795-5c9f-9248-8e1b997a9eba">
-				<term type="concept">prayers</term>
+				<term type="conceptTopic">prayers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
-				<term type="concept">fair skin</term>
+				<term type="conceptTopic">fair skin</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term type="concept">trade catalogs</term>
+				<term type="descriptiveTopic">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -120,7 +118,7 @@ The image gives the impression of a preraphaelite painting. (sg)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:55">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:09:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

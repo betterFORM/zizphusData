@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -27,7 +27,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -81,10 +83,6 @@ Copyright reserved, infringers will be prosecuted</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118951" type="corporate">HeidICON Image Database</name>
-				<refid>118951</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -104,39 +102,41 @@ Copyright reserved, infringers will be prosecuted</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term type="concept">oceans</term>
+				<term type="descriptiveTopic">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e3647e2c-f0e9-536c-823c-dac6d93daec8">
-				<term type="concept">leaf (plant material)</term>
+				<term type="descriptiveTopic">leaf (plant material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="344a6b29-b2b4-5490-8024-2ab8751ed66d">
-				<term type="concept">cosmetics</term>
+				<term type="descriptiveTopic">cosmetics</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b779d88b-444f-5324-b6ca-fd8dc8cf7857">
-				<term type="concept">Gokul Hair Oil (product)</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Gokul Hair Oil (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">Werbung</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -206,7 +206,7 @@ Krishna can be seen as a baby lying on a leaf that is floating on a body of wate
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:55">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

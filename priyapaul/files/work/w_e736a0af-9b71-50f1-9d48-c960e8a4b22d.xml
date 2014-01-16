@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -28,10 +30,6 @@ New, improved aupreme for flavour and fragrance!</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119379" type="corporate">HeidICON Image Database</name>
-				<refid>119379</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -52,27 +50,29 @@ New, improved aupreme for flavour and fragrance!</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term type="concept">mountains</term>
+				<term type="descriptiveTopic">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="212c6ca2-786e-5325-b90f-68a22b1c1bdb">
-				<term type="concept">cups (drinking vessels)</term>
+				<term type="descriptiveTopic">cups (drinking vessels)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4a3a539e-303c-5d39-89ff-db860c33abf6">
-				<term type="concept">nature</term>
+				<term type="conceptTopic">nature</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
-				<term type="concept">tea (beverage)</term>
+				<term type="descriptiveTopic">tea (beverage)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0bdb20dd-07d9-51f3-8179-c25eaa4a501c">
-				<term type="brand">Brooke Bond Tea</term>
+				<term type="descriptiveTopic">Brooke Bond Tea (brand)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -122,7 +122,7 @@ On this advertisement for Brook Bond Darjeeling Tea, a couple can be seen enjoyi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:41">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

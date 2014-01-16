@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -42,10 +42,6 @@ BANSHI DHUR</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122994" type="corporate">HeidICON Image Database</name>
-				<refid>122994</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -67,54 +63,56 @@ BANSHI DHUR</text>
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term type="concept">necklaces</term>
+				<term type="descriptiveTopic">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a921b3b7-f369-5d1f-af74-c6e82309b203">
-				<term type="concept">catalogs</term>
+				<term type="descriptiveTopic">catalogs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f123956b-a998-547c-820d-afb32e723540">
-				<term type="concept">pink sari</term>
+				<term type="descriptiveTopic">pink sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84fbe753-4d8a-5ecf-9175-a65856447dc6">
-				<term type="concept">pink (color)</term>
+				<term type="descriptiveTopic">pink (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term type="concept">lakes (bodies of water)</term>
+				<term type="descriptiveTopic">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term type="concept">peacock feather</term>
+				<term type="descriptiveTopic">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5d4e5bb3-d17d-53c2-aa27-d2df5ae669f2">
-				<term type="concept">bracelets (jewelry)</term>
+				<term type="descriptiveTopic">bracelets (jewelry)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f5b80cd3-ba75-5883-b946-de6ec60cea02">
-				<term type="concept">headdresses</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">headdresses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">Kalender</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -151,7 +149,7 @@ Sample god poster images taken from a catalogue / brochure. (ja)</ext:value>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press</ext:value>
+				<ext:value type="text">uuid-82d14fbe-fde3-3d83-b569-6f3c40640865</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -167,7 +165,7 @@ Sample god poster images taken from a catalogue / brochure. (ja)</ext:value>
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Alisch, Johannes</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -184,7 +182,7 @@ Sample god poster images taken from a catalogue / brochure. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:37">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:18:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

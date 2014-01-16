@@ -25,7 +25,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -47,10 +49,6 @@ Harvey [...] [not readable] Agency Limited</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118346" type="corporate">HeidICON Image Database</name>
-				<refid>118346</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -82,36 +80,38 @@ Harvey [...] [not readable] Agency Limited</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term type="animal">snake</term>
+				<term type="descriptiveTopic">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term type="concept">musical instruments</term>
+				<term type="descriptiveTopic">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3d39f83b-ac28-5508-9bd8-754b3f130305">
-				<term type="concept">snake charmers</term>
+				<term type="descriptiveTopic">snake charmers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -225,7 +225,7 @@ On this advertisement-calendar for A&amp;F Harvey from the year 1932, a group of
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:55">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:02:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

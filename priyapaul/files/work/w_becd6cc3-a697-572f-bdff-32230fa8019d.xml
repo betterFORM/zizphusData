@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-45bb815a-a472-5b47-b7a1-dd93c467f10e">Radha</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -37,10 +37,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106110" type="corporate">HeidICON Image Database</name>
-				<refid>106110</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -60,15 +56,17 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="31053f28-ef5f-5db6-bedb-0983ad9b9943">
-				<term type="concept">postage stamps</term>
+				<term type="descriptiveTopic">postage stamps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aec5c818-bb02-52ea-bbb6-08142e85767c">
-				<term type="worktype">letters (correspondence)</term>
+				<term type="descriptiveTopic">letters (correspondence)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -101,7 +99,7 @@ Chit-Chat Letter Paper</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:19">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

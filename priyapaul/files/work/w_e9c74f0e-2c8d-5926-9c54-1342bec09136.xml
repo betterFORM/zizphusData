@@ -39,10 +39,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120557" type="corporate">HeidICON Image Database</name>
-				<refid>120557</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -62,27 +58,32 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="196b1b49-5065-5ce9-983a-b3a5bd7179b7">
-				<term type="concept">bathing</term>
+				<term type="descriptiveTopic">bathing</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9e6aad9d-e671-5832-81c3-c9ad5f480fd8">
-				<term type="concept">Made in Japan</term>
+				<term type="conceptTopic">Made in Japan</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -133,7 +134,7 @@ On this advertisement of Tulsidas &amp; Co. Bombay, the inner side of a courtyar
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:50">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

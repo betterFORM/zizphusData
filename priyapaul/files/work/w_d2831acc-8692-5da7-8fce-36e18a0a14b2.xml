@@ -46,10 +46,6 @@ Prince of Wales
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120878" type="corporate">HeidICON Image Database</name>
-				<refid>120878</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -76,36 +72,38 @@ Prince of Wales
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term type="concept">children (people by age group)</term>
+				<term type="descriptiveTopic">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="720e64b8-85e1-51be-b557-723948ff918d">
-				<term type="concept">bands (ensembles)</term>
+				<term type="descriptiveTopic">bands (ensembles)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0a5b4158-ad71-584c-9daf-23bf517b4f6d">
-				<term type="concept">music</term>
+				<term type="conceptTopic">music</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
-				<term type="animal">tigers (animals)</term>
+				<term type="descriptiveTopic">tigers (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="106a24b2-fa31-57bd-ac10-5434cf7940c0">
-				<term type="concept">jacket (garnments)</term>
+				<term type="descriptiveTopic">jacket (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9965d483-852d-511d-8f6a-fc6c3cb00fc5">
-				<term type="title">Prince of Wales (title)</term>
+				<term type="otherName">Prince of Wales (title)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bc02e85c-81d9-599b-acee-67a1b8ab314c">
-				<term type="geographic">Pune</term>
+				<term type="geographicPlace">Pune</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -146,7 +144,7 @@ http://www.irfca.org/docs/history/prince-of-wales.html, last accessed on 2011-08
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.irfca.org/docs/history/prince-of-wales.html</ext:value>
+				<ext:value type="url">uuid-74fb0ace-7f88-3d98-b9a8-23f3cb8384d9</ext:value>
 				<ext:value type="accessed">2011-08-01</ext:value>
 				<ext:value type="comment">Details about the Prince of Wales visit to Bombay, Pune and other places</ext:value>
 				<ext:item type="agent">
@@ -186,7 +184,7 @@ http://www.irfca.org/docs/history/prince-of-wales.html, last accessed on 2011-08
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:31">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:17:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

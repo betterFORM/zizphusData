@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -72,10 +74,6 @@ Alphabet.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118939" type="corporate">HeidICON Image Database</name>
-				<refid>118939</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -95,45 +93,47 @@ Alphabet.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term type="animal">lion</term>
+				<term type="descriptiveTopic">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
-				<term type="animal">elephants</term>
+				<term type="descriptiveTopic">Asian elephants (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7988e2a-b5f0-5795-bb25-2b2c930db904">
-				<term type="concept">soldiers</term>
+				<term type="descriptiveTopic">soldiers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="adf9d29b-8aae-5d5f-bbf3-7ca6362e969d">
-				<term type="concept">buildings (structures)</term>
+				<term type="descriptiveTopic">buildings (structures)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term type="concept">uniforms</term>
+				<term type="descriptiveTopic">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term type="concept">statues</term>
+				<term type="descriptiveTopic">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fcb8fa1f-42c3-5d1c-9392-aa9205421cd2">
-				<term type="concept">Latin letters</term>
+				<term type="otherTopic">Latin letters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d355c410-7da7-5a42-9f8f-ea6a7af43d54">
-				<term type="concept">education</term>
+				<term type="conceptTopic">education</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="75ba1119-bd95-565a-b0af-6832480e4039">
-				<term type="concept">shrubs</term>
+				<term type="descriptiveTopic">shrubs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0c001e4-367f-557b-9542-e92cf25f6f8c">
-				<term type="internal workflow">recheck-Sri</term>
+				<term type="otherTopic">recheck-Sri</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -217,7 +217,7 @@ The chart shows an alphabet chart for English, with phonetic help in Urdu and Hi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:19">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:57">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

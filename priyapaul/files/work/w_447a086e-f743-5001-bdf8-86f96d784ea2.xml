@@ -7,7 +7,9 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -15,10 +17,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119381" type="corporate">HeidICON Image Database</name>
-				<refid>119381</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -39,12 +37,14 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6c8dfe5-5dd1-584c-9b2e-d7d51c6ebd5e">
-				<term type="internal workflow">recheck-Hindi-title</term>
+				<term type="otherTopic">recheck-Hindi-title</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -85,7 +85,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:46">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -65,10 +65,6 @@ Chowk, Cawnpore.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109925" type="corporate">HeidICON Image Database</name>
-				<refid>109925</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -88,21 +84,23 @@ Chowk, Cawnpore.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term type="concept">national leader</term>
+				<term type="conceptTopic">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2bba1302-2232-5158-8ac0-58a5032de114">
-				<term type="concept">vessels (containers)</term>
+				<term type="descriptiveTopic">vessels (containers)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="298458ff-3160-5123-bddb-cf7e853078e0">
-				<term type="concept">fasts (events)</term>
+				<term type="conceptTopic">fasts (events)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
-				<term type="concept">leaders (people)</term>
+				<term type="conceptTopic">leaders (people)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -175,7 +173,7 @@ Chowk, Cawnpore.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:15">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:56:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

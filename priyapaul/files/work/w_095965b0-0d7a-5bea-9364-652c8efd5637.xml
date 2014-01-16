@@ -32,10 +32,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107971" type="corporate">HeidICON Image Database</name>
-				<refid>107971</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -55,12 +51,14 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -70,7 +68,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Palki with the high priest, Jaipur in a postcard, published by Gobind Ram &amp; Ooday Ram, Jaipur.</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -111,7 +109,7 @@ On this postcard, we see a group of white clothed men in front of a gate with a 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:45">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:56:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

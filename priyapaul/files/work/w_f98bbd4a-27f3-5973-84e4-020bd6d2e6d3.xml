@@ -38,10 +38,6 @@ No. 625</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119491" type="corporate">HeidICON Image Database</name>
-				<refid>119491</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -68,24 +64,26 @@ No. 625</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c6f1d3d8-e08f-56d6-9b1b-4a2d64a238b4">
-				<term type="concept">smiles</term>
+				<term type="conceptTopic">smiles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eff8de2f-9616-5eb9-ae5a-69b823c38431">
-				<term type="concept">actresses</term>
+				<term type="descriptiveTopic">actresses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term type="concept">trade catalogs</term>
+				<term type="descriptiveTopic">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -114,7 +112,7 @@ http://www.rediff.com/entertai/2002/feb/05din.htm, last accessed 2011-08-12, Nut
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.rediff.com/entertai/2002/feb/05din.htm</ext:value>
+				<ext:value type="url">uuid-7f00b505-86f6-36c6-a925-1f398caf5c4d</ext:value>
 				<ext:value type="accessed">2011-08-12</ext:value>
 				<ext:value type="comment">Nutan Samarth's biography</ext:value>
 				<ext:item type="agent">
@@ -143,7 +141,7 @@ http://www.rediff.com/entertai/2002/feb/05din.htm, last accessed 2011-08-12, Nut
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:32">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:09:10">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

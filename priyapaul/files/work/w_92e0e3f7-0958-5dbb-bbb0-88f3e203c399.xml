@@ -28,10 +28,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108173" type="corporate">HeidICON Image Database</name>
-				<refid>108173</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -52,27 +48,29 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term type="concept">mountains</term>
+				<term type="descriptiveTopic">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb59e621-4ffd-5a47-b16b-43c5a75b7c29">
-				<term type="geographic">Himalayas</term>
+				<term type="geographicPlace">Himalayas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="22e7a09c-2417-55fb-b98e-86a4d68504da">
-				<term type="geographic">Simla</term>
+				<term type="geographicPlace">Shimla</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
-				<term type="concept">hill stations</term>
+				<term type="descriptiveTopic">hill stations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
-				<term type="concept">forests</term>
+				<term type="descriptiveTopic">forests</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -82,7 +80,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Snowdon and Mashobra Ridge, Simla. 7135 Photo Johnston &amp; Hoffman</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -129,7 +127,7 @@ This postcard offers a view towards the mountain range behind Simla. Two rather 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:52">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:04">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

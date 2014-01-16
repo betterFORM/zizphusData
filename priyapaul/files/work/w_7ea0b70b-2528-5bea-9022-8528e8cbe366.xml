@@ -45,10 +45,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109742" type="corporate">HeidICON Image Database</name>
-				<refid>109742</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="187b2740-af93-54ad-aeaf-acdb00a48f74" type="medium">tin (metal)</material>
@@ -68,24 +64,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="3e6f5a54-c466-5b0f-8550-d34bb7fee8e8">
-				<term type="language">Hindi (language)</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
-				<term type="concept">motion pictures (visual works)</term>
+				<term type="descriptiveTopic">Film</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="3e6f5a54-c466-5b0f-8550-d34bb7fee8e8">
+				<term type="otherTopic">Hindi</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -140,7 +138,7 @@ On this advertisement for the movie magazine filmi duniya, Amitabh Bachchan, Rek
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:31">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

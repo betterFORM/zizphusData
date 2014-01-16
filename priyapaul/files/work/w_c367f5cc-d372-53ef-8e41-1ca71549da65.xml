@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-f16038a5-7630-5bb9-8d9e-a3d5f7faa3a2">Sita</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -63,10 +63,6 @@ etc.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120921" type="corporate">HeidICON Image Database</name>
-				<refid>120921</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -86,42 +82,44 @@ etc.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term type="concept">horses</term>
+				<term type="descriptiveTopic">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term type="concept">arrows</term>
+				<term type="descriptiveTopic">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term type="concept">Hinduism</term>
+				<term type="conceptTopic">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term type="concept">bows (weapons)</term>
+				<term type="descriptiveTopic">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="489bbc57-16cc-5f57-b489-8ab8375cfe8f">
-				<term type="concept">animals</term>
+				<term type="descriptiveTopic">animals</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4a3a539e-303c-5d39-89ff-db860c33abf6">
-				<term type="concept">nature</term>
+				<term type="conceptTopic">nature</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c9b7db9c-bda8-5dd6-82db-339f18cdb3ba">
-				<term type="concept">cottages</term>
+				<term type="descriptiveTopic">cottages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b3818bd-32af-505f-b025-e3f07a743683">
-				<term type="animal">rabbits</term>
+				<term type="descriptiveTopic">rabbits</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -193,7 +191,7 @@ On this calendar advertisement from 1958 for M.K. Sunderamier &amp; Sons, a scen
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:49">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:17:58">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

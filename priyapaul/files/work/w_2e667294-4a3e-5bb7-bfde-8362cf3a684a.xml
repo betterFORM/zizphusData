@@ -24,7 +24,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -58,10 +60,6 @@ Bombay 2.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119408" type="corporate">HeidICON Image Database</name>
-				<refid>119408</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -88,21 +86,23 @@ Bombay 2.</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d7988e2a-b5f0-5795-bb25-2b2c930db904">
-				<term type="concept">soldiers</term>
+				<term type="descriptiveTopic">soldiers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term type="concept">uniforms</term>
+				<term type="descriptiveTopic">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dac3d829-fe37-5d2a-ab8b-a95287300059">
-				<term type="concept">forage caps</term>
+				<term type="descriptiveTopic">forage caps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
-				<term type="concept">spectacles (eye glasses)</term>
+				<term type="descriptiveTopic">spectacles (eye glasses)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -149,7 +149,7 @@ http://www.mapsofindia.com/who-is-who/history/subhash-chandra-bose.html, last ac
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.mapsofindia.com/who-is-who/history/subhash-chandra-bose.html</ext:value>
+				<ext:value type="url">uuid-1c1670ed-e5d6-36e4-81d1-0d2482fd9187</ext:value>
 				<ext:value type="accessed">2011-08-10</ext:value>
 				<ext:value type="comment">Subhash Cahndra Bose's biography</ext:value>
 				<ext:item type="agent">
@@ -178,7 +178,7 @@ http://www.mapsofindia.com/who-is-who/history/subhash-chandra-bose.html, last ac
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:58">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:42">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

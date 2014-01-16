@@ -24,7 +24,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -42,10 +44,6 @@ The Hallmark of Quality</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119194" type="corporate">HeidICON Image Database</name>
-				<refid>119194</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -66,24 +64,26 @@ The Hallmark of Quality</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2f211437-6bfe-5ae6-b29a-459b0f4bfef2">
-				<term type="animal">dogs (animals)</term>
+				<term type="descriptiveTopic">dogs (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0a5b4158-ad71-584c-9daf-23bf517b4f6d">
-				<term type="concept">music</term>
+				<term type="conceptTopic">music</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff2e490b-01b3-5ec3-bce0-482c8e3ed529">
-				<term type="concept">musicians</term>
+				<term type="descriptiveTopic">musicians</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="951d5418-8249-5d6b-8ad1-af3007530a24">
-				<term type="concept">singers</term>
+				<term type="descriptiveTopic">singers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b658d75c-3249-51fd-b8cf-795ce300e50f">
-				<term type="concept">gramophones</term>
+				<term type="descriptiveTopic">gramophones</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -147,7 +147,7 @@ Talat Mahmood was a popular Indian playback singer and film actor. A recipient o
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:58">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:07:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

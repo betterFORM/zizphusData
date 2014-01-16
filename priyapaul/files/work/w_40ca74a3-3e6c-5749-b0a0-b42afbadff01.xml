@@ -28,7 +28,9 @@ Hier beginnt der Absatz.</text>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -57,12 +59,11 @@ Hier beginnt der Absatz.</text>
 			<location type="formerOwner">
 				<note>Testrecord_Provenience Karl-Jaspers-Center</note>
 			</location>
-			<location type="discovery">
-				<note>Testrecord_Fundkontext Projekt 007</note>
+			<location source="GND" type="site">
+				<name type="geographic" vocab="local" >Testrecord_Fundkontext Projekt 007</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/226566" type="corporate">HeidICON Image Database</name>
-				<refid>226566</refid>
+			<location type="site">
+				<note>Ganapriya</note>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -109,7 +110,7 @@ Hier beginnt der Absatz.</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -231,7 +232,7 @@ Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the T
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the Taj Mahal&quot;. London: Doubleday.</ext:value>
+				<ext:value type="text">uuid-be94e02a-2795-3ff0-971e-eb8f5049a20b</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -240,7 +241,7 @@ Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the T
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Cyran, Eberhardt (1993). Taj Mahal. Die Erinnerungen des Kaisers Sha Jahan.&quot; Heilbronn: Salzer.</ext:value>
+				<ext:value type="text">uuid-f0653ca5-d830-3c0e-b02d-a68aefd68a72</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -249,7 +250,7 @@ Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the T
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Wayne E. Begley, “The Myth of the Taj Mahal and a New Theory of Its Symbolic Meaning,” Art Bulletin 61 (1979), 7-37.</ext:value>
+				<ext:value type="text">uuid-b7bb9656-5161-3a51-8ee3-b6bbe13638a8</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -258,8 +259,7 @@ Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the T
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and
-Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (19.10.2010)</ext:value>
+				<ext:value type="text">uuid-6b8fa80b-8205-3560-828e-086e95200e1c</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -270,7 +270,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">www.imdb.com/title/tt0242509/</ext:value>
+				<ext:value type="url">uuid-aa654c11-6047-3f33-a213-c4f3b8f503d9</ext:value>
 				<ext:value type="accessed">2012-02-28</ext:value>
 				<ext:value type="comment">story line, main actors.</ext:value>
 				<ext:item type="agent">
@@ -281,7 +281,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://binaguptapoetry.com/shrine-of-love-taj-mahal-386.htm</ext:value>
+				<ext:value type="url">uuid-dcfac57a-6d65-3ef3-82dc-aa3717d25c07</ext:value>
 				<ext:value type="accessed"></ext:value>
 				<ext:value type="comment">(18.10.2010)</ext:value>
 				<ext:item type="agent">
@@ -292,7 +292,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.boloji.com/poetry/0400-0500/0449.htm</ext:value>
+				<ext:value type="url">uuid-64dc2ef2-eb69-3dca-a49d-bd78ee9ab03e</ext:value>
 				<ext:value type="accessed">2010-10-18</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -426,7 +426,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:06">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:19:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

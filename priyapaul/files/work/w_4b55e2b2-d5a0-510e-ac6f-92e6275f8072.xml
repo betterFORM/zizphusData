@@ -39,9 +39,8 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108004" type="corporate">HeidICON Image Database</name>
-				<refid>108004</refid>
+			<location type="site">
+				<note>Delhi</note>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -74,33 +73,32 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e0cce022-aa95-5b6c-babf-73cfe1042071">
-				<term type="geographic">Delhi</term>
+				<term type="geographicPlace">Delhi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term type="concept">architecture (object genre)</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="7cc2666c-59e6-54a3-a82d-badc01f229e8">
-				<term type="work">Mughal architecture</term>
+				<term type="descriptiveTopic">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="78db3cbf-476d-5f2c-8795-95c31f4afb6d">
-				<term type="work">Sunehri Masjid (Delhi)</term>
+				<term type="builtworkPlace">Sunehri Masjid (Delhi)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="022c32a1-50bc-522b-991e-a4cd67e2483d">
-				<term type="concept">mosques (buildings)</term>
+				<term type="descriptiveTopic">mosques (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="48eec9c0-5d67-5878-87de-df9c6aadcbef">
-				<term type="concept">marketplaces</term>
+				<term type="descriptiveTopic">marketplaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="69210fe5-3e7d-56c1-9fdb-cdbb95c57789">
-				<term type="concept">stores</term>
+				<term type="descriptiveTopic">stores</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -111,7 +109,7 @@
 			<title type="descriptive" pref="false">&quot;Sunehri masjid or Golden mosque, Delhi&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -145,8 +143,7 @@ ffff Ort/Gebäude: Delhi / Sunehri Masjid [http://en.wikipedia.org/wiki/Sunehri_
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and
-Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html,  last accessed 2010-10-29</ext:value>
+				<ext:value type="text">uuid-6b8fa80b-8205-3560-828e-086e95200e1c</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -155,7 +152,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Cyran, Eberhard (1993). Taj Mahal. Die Erinnerungen des Kaisers Sha Jahan.&quot; Heilbronn: Salzer.</ext:value>
+				<ext:value type="text">uuid-f0653ca5-d830-3c0e-b02d-a68aefd68a72</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -164,9 +161,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Preston, Diana (2007). &quot;A teardrop on the cheek of time. The story of the Taj Mahal&quot;. London: Doubleday. (gs)
-
-ffff Ort/Gebäude: Delhi / Sunehri Masjid [http://en.wikipedia.org/wiki/Sunehri_Masjid], Verweisform: Delhi / Golden Mosque</ext:value>
+				<ext:value type="text">uuid-be94e02a-2795-3ff0-971e-eb8f5049a20b</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -195,7 +190,7 @@ Images of Mughal architecture were found more commonly on textile tickets, poste
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -240,7 +235,7 @@ Images of Mughal architecture were found more commonly on textile tickets, poste
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:27">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:52">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

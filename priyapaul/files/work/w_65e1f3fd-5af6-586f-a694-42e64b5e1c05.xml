@@ -23,7 +23,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -51,10 +53,6 @@ Lusalien - Firefly</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118929" type="corporate">HeidICON Image Database</name>
-				<refid>118929</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -85,36 +83,38 @@ Lusalien - Firefly</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
-				<term type="concept">temples (buildings)</term>
+				<term type="descriptiveTopic">temples (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term type="concept">horses</term>
+				<term type="descriptiveTopic">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b25b83e4-3a9c-5f79-ac17-fdfbe0fd6b9d">
-				<term type="concept">lances (cavalry weapons)</term>
+				<term type="descriptiveTopic">lances (cavalry weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29b98cac-7b0c-5102-9f00-6ab6460f7790">
-				<term type="concept">temple architecture</term>
+				<term type="descriptiveTopic">temple architecture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
-				<term type="plant">palm trees</term>
+				<term type="descriptiveTopic">palm trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eedddbc7-7e5b-51f1-8c54-812e15e02c52">
-				<term type="concept">sepoys (soldiers)</term>
+				<term type="iconographicTopic">sepoys (soldiers)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -159,7 +159,7 @@ http://en.wikipedia.org/wiki/Sepoy, basic information about sepoys, last accesse
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://en.wikipedia.org/wiki/Sepoy</ext:value>
+				<ext:value type="url">uuid-8a76326c-273b-3517-9b2a-261390c615c0</ext:value>
 				<ext:value type="accessed">2012-05-31</ext:value>
 				<ext:value type="comment">basic information about sepoys,</ext:value>
 				<ext:item type="agent">
@@ -225,7 +225,7 @@ Source: http://en.wikipedia.org/wiki/Sepoy, last accessed 2012-05-31</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:50">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

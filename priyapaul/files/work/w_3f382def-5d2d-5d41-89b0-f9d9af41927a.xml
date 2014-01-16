@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c19f9da6-753a-5e79-aa6d-3e0e2b5692a2">Parvati</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-088240fa-d01e-587a-bee4-7bf0ac401445">Shiva</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -57,10 +57,6 @@ No. 607</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119437" type="corporate">HeidICON Image Database</name>
-				<refid>119437</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -80,48 +76,50 @@ No. 607</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term type="concept">mountains</term>
+				<term type="descriptiveTopic">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term type="concept">festoon (motif)</term>
+				<term type="descriptiveTopic">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="007aac02-3559-5d47-85ca-b82dae273f5b">
-				<term type="concept">rivers</term>
+				<term type="descriptiveTopic">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term type="animal">snake</term>
+				<term type="descriptiveTopic">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf52f4a5-df61-5cbf-9985-0a9f5700ccfb">
-				<term type="animal">cobras (serpents)</term>
+				<term type="descriptiveTopic">cobras (serpents)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term type="concept">peacock feather</term>
+				<term type="descriptiveTopic">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3193d704-3eac-56da-a812-d1475a241705">
-				<term type="concept">bustiers</term>
+				<term type="descriptiveTopic">bustiers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term type="concept">trade catalogs</term>
+				<term type="descriptiveTopic">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -181,7 +179,7 @@ A sample image from a catalogue of the Empire Calender Manufacturing Co. depicts
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:57">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

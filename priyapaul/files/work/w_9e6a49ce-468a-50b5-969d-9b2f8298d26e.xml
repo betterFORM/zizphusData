@@ -34,10 +34,6 @@ BROOKE BOND BON INSTANT COFFEE</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119378" type="corporate">HeidICON Image Database</name>
-				<refid>119378</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_6c4ccfd2-2647-51f4-a673-f7db7a789ba5" refid="119378" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -50,30 +46,29 @@ BROOKE BOND BON INSTANT COFFEE</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f8b063-30c9-5366-8efe-4ebf4746734b">
-				<term type="concept">New Indian Woman</term>
+				<term type="conceptTopic">New Indian Woman</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6094f13-b9a4-51fc-ae5c-f30a17fcf7a7">
-				<term type="concept">coffee (food, dye)</term>
+				<term type="descriptiveTopic">coffee (food, dye)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Tin advertisement of Brooke Bond BON instant coffee</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
-			<worktype vocab="local" source="EXC" refid="94acfcac-0bbf-5bc1-bbaf-887d8a7ad873">paintings (visual works)</worktype>
+			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -120,7 +115,7 @@ The woman on the advertisement is wearing tradition clothes such as sari and a b
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:38">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

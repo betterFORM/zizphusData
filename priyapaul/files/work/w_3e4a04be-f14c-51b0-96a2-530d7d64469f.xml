@@ -36,10 +36,6 @@ THE STANDARD BY WHICH ALL TYRES ARE JUDGED</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120722" type="corporate">HeidICON Image Database</name>
-				<refid>120722</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -59,39 +55,41 @@ THE STANDARD BY WHICH ALL TYRES ARE JUDGED</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="5c50860e-d23c-572f-aabb-05b3cf6f0d79">
-				<term type="concept">cities</term>
+				<term type="conceptTopic">cities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="70765077-7713-5245-8172-aa5e5346885e">
-				<term type="concept">car industry</term>
+				<term type="conceptTopic">car industry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b733984e-4492-5750-b0f1-07c1f9c6e262">
-				<term type="concept">automobiles</term>
+				<term type="descriptiveTopic">automobiles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
-				<term type="concept">Indian men</term>
+				<term type="conceptTopic">Indian men</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e4626e10-7bde-5f21-aa75-d5654c3bba49">
-				<term type="plant">coconut (fruit)</term>
+				<term type="descriptiveTopic">coconut (fruit)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5607ff54-8fa7-5f7b-8611-6e0c57d5dfe4">
-				<term type="brand">Rolls-Royce (brand)</term>
+				<term type="descriptiveTopic">Rolls-Royce (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4abbbd5e-a5b7-5f6a-9520-aab3de480b5a">
-				<term type="concept">exoticism</term>
+				<term type="conceptTopic">exoticism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5d06b10d-1b4a-5d4f-93c2-81278f766391">
-				<term type="concept">convertibles</term>
+				<term type="descriptiveTopic">convertibles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6579c529-6378-588d-beec-94d4d81c394c">
-				<term type="concept">tires</term>
+				<term type="descriptiveTopic">Reifen</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -145,7 +143,7 @@ Y.2796 [car plate]</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:40">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

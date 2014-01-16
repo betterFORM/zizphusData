@@ -84,10 +84,6 @@ New London Premises:
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118801" type="corporate">HeidICON Image Database</name>
-				<refid>118801</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_772e3821-cb71-56db-bd3b-738b1cc8ddeb" refid="118801" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -100,34 +96,34 @@ New London Premises:
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="7ea790a6-94bc-5b76-bd89-dafa07e2ba64">
-				<term type="concept">emblem</term>
+				<term type="iconographicTopic">emblems (allegorical pictures)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term type="concept">horses</term>
+				<term type="descriptiveTopic">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term type="concept">statues</term>
+				<term type="descriptiveTopic">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2ac40681-ca0e-5044-9e6a-fd4169ca21d7">
-				<term type="concept">animal statues</term>
+				<term type="descriptiveTopic">animal statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="57ab7141-8be0-5bd4-88b1-ebdc0d26db03">
-				<term type="concept">logos</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b793ad19-f4b6-5711-9de8-26003144cc07">
-				<term type="">equestrians</term>
+				<term type="descriptiveTopic">Reiter</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="eac31bf1-fd43-5c60-99f5-a65e42dcf21f">
+				<term type="otherTopic">LOGO</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -215,7 +211,7 @@ On this advertisement for Garrard's jewellers, we see a statue of king Karl V. r
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:56">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

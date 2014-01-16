@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-459b4de8-c2f9-55ec-9929-3b045a4941e3">Buddha</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -43,10 +43,6 @@ Jaipur</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107948" type="corporate">HeidICON Image Database</name>
-				<refid>107948</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -66,21 +62,23 @@ Jaipur</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
-				<term type="concept">temples (buildings)</term>
+				<term type="descriptiveTopic">temples (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29b98cac-7b0c-5102-9f00-6ab6460f7790">
-				<term type="concept">temple architecture</term>
+				<term type="descriptiveTopic">temple architecture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0123308f-a030-5263-8ee2-03a6c76c8a30">
-				<term type="concept">shrines (structures)</term>
+				<term type="iconographicTopic">shrines (structures)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -90,7 +88,7 @@ Jaipur</text>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Images of Parasnath</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -134,7 +132,7 @@ On this image, the Jain temple in Jaipur can be seen. The shrine is beautifully 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:14:13">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

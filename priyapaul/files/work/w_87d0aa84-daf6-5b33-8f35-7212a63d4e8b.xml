@@ -31,10 +31,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120589" type="corporate">HeidICON Image Database</name>
-				<refid>120589</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -54,33 +50,35 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term type="plant">lotus (motif)</term>
+				<term type="descriptiveTopic">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term type="concept">architecture (object genre)</term>
+				<term type="descriptiveTopic">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c0991e91-87ba-586e-9eae-8b1c7ef0b304">
-				<term type="concept">facades</term>
+				<term type="descriptiveTopic">facades</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b2c09f3-f24a-5c77-bbdb-b15cc1310764">
-				<term type="concept">scripts (writing)</term>
+				<term type="descriptiveTopic">scripts (writing)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6c8dfe5-5dd1-584c-9b2e-d7d51c6ebd5e">
-				<term type="internal workflow">recheck-Hindi-title</term>
+				<term type="otherTopic">recheck-Hindi-title</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -129,7 +127,7 @@ This advertisement is dominated by a [...] script with the depiction of a four-s
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:17">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

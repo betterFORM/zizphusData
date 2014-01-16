@@ -38,10 +38,6 @@ Made in Japan</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120558" type="corporate">HeidICON Image Database</name>
-				<refid>120558</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -61,27 +57,32 @@ Made in Japan</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff2e490b-01b3-5ec3-bce0-482c8e3ed529">
-				<term type="concept">musicians</term>
+				<term type="descriptiveTopic">musicians</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term type="concept">musical instruments</term>
+				<term type="descriptiveTopic">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bd955076-11a3-5295-aa36-73664c8b215d">
-				<term type="concept">drums (membranophones)</term>
+				<term type="descriptiveTopic">drums (membranophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9e6aad9d-e671-5832-81c3-c9ad5f480fd8">
-				<term type="concept">Made in Japan</term>
+				<term type="conceptTopic">Made in Japan</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -132,7 +133,7 @@ This advertisement for Haji Mohamed Habib Hassan Dada, Bombay, has a female musi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:52">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

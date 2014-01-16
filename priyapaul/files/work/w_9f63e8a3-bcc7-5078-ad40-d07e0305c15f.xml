@@ -8,17 +8,17 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5abfa90e-edfc-56bb-bf3f-bb03c06480e7">Lakshmi</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c26b6ea9-a73f-5d07-b6c3-27374df09264">Garuda</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -28,7 +28,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c50ccba0-ef7b-5c3f-96e2-12821bb96bbc">Bhumidevi</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -44,7 +44,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -52,10 +54,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118255" type="corporate">HeidICON Image Database</name>
-				<refid>118255</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -82,27 +80,29 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="98cdd292-9b30-5297-a6f8-99dfdfc40644">
-				<term type="concept">red sari</term>
+				<term type="descriptiveTopic">red sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term type="concept">festoon (motif)</term>
+				<term type="descriptiveTopic">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term type="animal">snake</term>
+				<term type="descriptiveTopic">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0c001e4-367f-557b-9542-e92cf25f6f8c">
-				<term type="internal workflow">recheck-Sri</term>
+				<term type="otherTopic">recheck-Sri</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -181,7 +181,7 @@ The image shows Vishnu carrying his consorts, Lakshmi and Bhumidevi as they ride
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:30">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:02:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

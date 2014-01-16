@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -41,10 +41,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108784" type="corporate">HeidICON Image Database</name>
-				<refid>108784</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -64,36 +60,38 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term type="concept">Hinduism</term>
+				<term type="conceptTopic">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
-				<term type="concept">Indian men</term>
+				<term type="conceptTopic">Indian men</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -130,7 +128,7 @@ Krishna is depicted wearing a crown and jewellery and playing his flute. Behind 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:13">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

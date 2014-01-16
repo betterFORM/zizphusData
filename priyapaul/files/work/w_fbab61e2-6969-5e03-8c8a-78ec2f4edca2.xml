@@ -27,7 +27,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -64,10 +66,6 @@ Polish</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118918" type="corporate">HeidICON Image Database</name>
-				<refid>118918</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -95,30 +93,32 @@ Polish</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term type="geographic">Sun (star)</term>
+				<term type="descriptiveTopic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term type="animal">snake</term>
+				<term type="descriptiveTopic">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf52f4a5-df61-5cbf-9985-0a9f5700ccfb">
-				<term type="animal">cobras (serpents)</term>
+				<term type="descriptiveTopic">cobras (serpents)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5fbe9c9-41ad-5897-9d95-bd0d23aa0a43">
-				<term type="concept">boxes (containers)</term>
+				<term type="descriptiveTopic">boxes (containers)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
-				<term type="concept">bottles</term>
+				<term type="descriptiveTopic">bottles</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -166,7 +166,7 @@ http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/, last accessed 201
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/</ext:value>
+				<ext:value type="url">uuid-cb408e10-52ff-39b1-ab58-50d673187853</ext:value>
 				<ext:value type="accessed">2012-01-26</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -212,7 +212,7 @@ http://www.blancoandbull.com/boot-cleaning/cobra-boot-polish/, last accessed 201
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:21">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-f16038a5-7630-5bb9-8d9e-a3d5f7faa3a2">Sita</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -44,7 +44,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -87,10 +89,6 @@ Chirala &amp; Rajahmundry.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118944" type="corporate">HeidICON Image Database</name>
-				<refid>118944</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -117,46 +115,46 @@ Chirala &amp; Rajahmundry.</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term type="concept">festoon (motif)</term>
+				<term type="descriptiveTopic">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term type="concept">arrows</term>
+				<term type="descriptiveTopic">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term type="concept">bows (weapons)</term>
+				<term type="descriptiveTopic">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="901dd9d4-9dfd-5fea-ab44-4dd02d31bfb8">
-				<term type="concept">quivers</term>
+				<term type="descriptiveTopic">quivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c0b105f4-9264-5f5e-b428-8159edff94d7">
-				<term type="concept">archery</term>
+				<term type="descriptiveTopic">archery</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d9dd4950-4421-58b0-8c4c-6948f8311099">
-				<term type="animal">deer (animals)</term>
+				<term type="descriptiveTopic">deer (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="40344771-1132-5fc6-acf5-9757c17a99d9">
-				<term type="concept">waterfalls (natural bodies of water)</term>
+				<term type="descriptiveTopic">waterfalls (natural bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c1753857-53c0-588f-8b3a-ee61914e67a5">
-				<term type="concept">Luv Kush</term>
+				<term type="iconographicTopic">Luv Kush</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -216,7 +214,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html (18.1.2011)</ext:value>
+				<ext:value type="text">uuid-e082ab00-a277-30a8-9414-075f27c5887a</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -285,7 +283,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:32">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:59">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -66,10 +68,6 @@ Butto Kristo Pal &amp; Co., 7, Bonfields Lane, [...]lcutta.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118389" type="corporate">HeidICON Image Database</name>
-				<refid>118389</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -92,24 +90,26 @@ Butto Kristo Pal &amp; Co., 7, Bonfields Lane, [...]lcutta.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="b29b5d97-fadf-5144-940c-32755a9e943e">
-				<term type="geographic">British Empire</term>
+				<term type="geographicPlace">British Empire</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a03c86b5-4e93-59bb-a151-9e89d59eef13">
-				<term type="concept">essential oil</term>
+				<term type="conceptTopic">essential oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7f29bf73-6589-5764-afd9-1eeb7d9e056a">
-				<term type="concept">essence</term>
+				<term type="conceptTopic">essence</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -197,7 +197,7 @@ A group of six soldiers from different regions of the British Empire pose for  t
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:56">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:02:59">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

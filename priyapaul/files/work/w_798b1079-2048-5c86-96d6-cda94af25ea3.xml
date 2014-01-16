@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-459b4de8-c2f9-55ec-9929-3b045a4941e3">Buddha</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -56,10 +56,6 @@ Room No. FF2 EAST, CALCUTTA-1</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109734" type="corporate">HeidICON Image Database</name>
-				<refid>109734</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -79,39 +75,41 @@ Room No. FF2 EAST, CALCUTTA-1</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term type="concept">national leader</term>
+				<term type="conceptTopic">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2e729391-6532-52d8-8683-1602a3277fec">
-				<term type="concept">red (color)</term>
+				<term type="descriptiveTopic">red (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5512566d-eab7-5ea2-a645-21e20952530a">
-				<term type="concept">caps (headgear)</term>
+				<term type="descriptiveTopic">caps (headgear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0df349ba-f54d-518a-82d3-bb8400d071cc">
-				<term type="concept">chairs (furniture forms)</term>
+				<term type="descriptiveTopic">chairs (furniture forms)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term type="plant">roses (plants)</term>
+				<term type="descriptiveTopic">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a343e9f2-d122-5947-92b7-aca602b1372d">
-				<term type="concept">red rose</term>
+				<term type="descriptiveTopic">red rose</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="106a24b2-fa31-57bd-ac10-5434cf7940c0">
-				<term type="concept">jacket (garnments)</term>
+				<term type="descriptiveTopic">jacket (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="97ae1ed4-2f87-550e-a5eb-38827e28a2ab">
-				<term type="concept">watches</term>
+				<term type="descriptiveTopic">watches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
-				<term type="concept">leaders (people)</term>
+				<term type="conceptTopic">leaders (people)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -188,7 +186,7 @@ Quality issue: image poorly stitched (Nehrus left hand and title).() (tb)</ext:v
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:09">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:23">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

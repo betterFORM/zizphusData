@@ -41,9 +41,8 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108026" type="corporate">HeidICON Image Database</name>
-				<refid>108026</refid>
+			<location type="site">
+				<note>Aurangabad</note>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -68,40 +67,32 @@
 		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>Mughal Empire</stylePeriod>
+			<stylePeriod vocab="LOCAL" refid="uuid-713bce21-8cae-59d4-a146-7a33333f9a8b">Mughal</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8bd9d94c-3f62-5c44-9048-768e28873f94">
-				<term type="work (architecture)">tombs</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="04f3983d-3813-5546-bb54-ba913a054ff1">
-				<term type="work (tomb)">Mughal period tombs</term>
+				<term type="descriptiveTopic">tombs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dc0d4358-3e05-51a8-9919-0b4f19a9a181">
-				<term type="geographic">Yamuna (river)</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="7cc2666c-59e6-54a3-a82d-badc01f229e8">
-				<term type="work">Mughal architecture</term>
+				<term type="geographicPlace">Yamuna (river)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="83b4b148-30fb-5c19-b0a2-e1de51ba9504">
-				<term type="geographic">Aurangabad</term>
+				<term type="geographicPlace">Aurangabad</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01eb0dd6-ca8b-55f2-a267-77fbe2d3730a">
-				<term type="geographic">Maharashtra</term>
+				<term type="geographicPlace">Maharashtra</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="713bce21-8cae-59d4-a146-7a33333f9a8b">
-				<term type="concept">Mughal</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -111,7 +102,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Marble tomb of the Mughal emperor Aurangzeb and his wife, Aurangabad, Maharashtra, India</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -136,7 +127,7 @@ Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (29.10.2010)</ext:value>
+				<ext:value type="text">uuid-6b8fa80b-8205-3560-828e-086e95200e1c</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -184,7 +175,7 @@ Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:42">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:01">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

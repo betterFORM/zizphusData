@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-45bb815a-a472-5b47-b7a1-dd93c467f10e">Radha</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -40,10 +40,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108290" type="corporate">HeidICON Image Database</name>
-				<refid>108290</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -64,51 +60,53 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="98cdd292-9b30-5297-a6f8-99dfdfc40644">
-				<term type="concept">red sari</term>
+				<term type="descriptiveTopic">red sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term type="concept">festoon (motif)</term>
+				<term type="descriptiveTopic">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term type="concept">pearl necklaces</term>
+				<term type="descriptiveTopic">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term type="concept">necklaces</term>
+				<term type="descriptiveTopic">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a3fc3a5c-b000-5f87-ad37-f15b9f1eb8ef">
-				<term type="concept">robes (main garments)</term>
+				<term type="descriptiveTopic">robes (main garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
-				<term type="concept">pearl (animal material)</term>
+				<term type="descriptiveTopic">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -146,7 +144,7 @@ In this image, Krishna and Radha can be seen standing next to each other on roun
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:46">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

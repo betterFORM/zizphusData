@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -31,9 +33,11 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118718" type="corporate">HeidICON Image Database</name>
-				<refid>118718</refid>
+			<location type="site">
+				<note>Dig</note>
+			</location>
+			<location type="site">
+				<note>Rajasthan</note>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -55,37 +59,39 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bdd6f367-66c7-581d-b7c2-c91298a9ac75">
-				<term type="geographic">Rajasthan</term>
+				<term type="geographicPlace">Rajasthan</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
-				<term type="concept">gardens</term>
+				<term type="descriptiveTopic">gardens</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9e695e4-1726-53fa-a215-e85230165e8a">
-				<term type="work (architecture)">palaces</term>
+				<term type="conceptTopic / iconographicTopic">palaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dcc4fc70-a1a1-5bea-a285-78104c9a340f">
-				<term type="geographic">Dig</term>
+				<term type="geographicPlace">Dig</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6705a90-7a51-54a6-a12d-af74994eb367">
-				<term type="geographic">Dig Palace</term>
+				<term type="builtworkPlace">Dig Palace</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
 			<title type="inscribed" pref="true" lang="eng" script="Latn">The Nunda Bhawan Deeg</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
 		</worktypeSet>
 		<ext:heidicon>
@@ -127,7 +133,7 @@ This postcard from the year 1913 shows Nunda Bhawan of Deeg palace in Rajasthan,
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:43">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:04:41">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

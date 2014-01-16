@@ -46,10 +46,6 @@ Cocoanut Oil</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117985" type="corporate">HeidICON Image Database</name>
-				<refid>117985</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_b1399cdb-3bfe-5728-9084-6b8baed4e24b" refid="117985" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -62,34 +58,37 @@ Cocoanut Oil</text>
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="27564901-d325-5e23-8ae1-2116b50931b3">
-				<term type="concept">seas</term>
+				<term type="descriptiveTopic">seas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e519b951-dceb-5c52-a8f0-24377c8b906d">
-				<term type="concept">crop</term>
+				<term type="descriptiveTopic">crop</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
-				<term type="plant">palm trees</term>
+				<term type="descriptiveTopic">palm trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9ef4338c-0564-5209-8a91-d1c3bd4d4821">
-				<term type="concept">huts (houses)</term>
+				<term type="descriptiveTopic">huts (houses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e4626e10-7bde-5f21-aa75-d5654c3bba49">
-				<term type="plant">coconut (fruit)</term>
+				<term type="descriptiveTopic">coconut (fruit)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ecadb337-d65e-5a9c-aa21-df4ff05bf3b0">
-				<term type="concept">plantations</term>
+				<term type="descriptiveTopic">plantations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="30df8aa4-7c13-50ae-ae0f-6a517bc79517">
-				<term type="concept">coconut oil</term>
+				<term type="descriptiveTopic">coconut oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6e0f5b2-cd91-5f97-8e04-6fc73ac83518">
-				<term type="plant">coconut palm</term>
+				<term type="descriptiveTopic">coconut palm</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="e62b027e-db35-52d5-af59-6f13a93e3526">
+				<term type="otherTopic">Kokosnussanbau</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -121,7 +120,7 @@ The image is an advertisement for cocoanut oil printed by Calendar Mfg Co, Bomba
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:30">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:00:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

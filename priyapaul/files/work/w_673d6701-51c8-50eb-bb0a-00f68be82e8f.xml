@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108229" type="corporate">HeidICON Image Database</name>
-				<refid>108229</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -50,33 +46,35 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
-				<term type="concept">temples (buildings)</term>
+				<term type="descriptiveTopic">temples (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb59e621-4ffd-5a47-b16b-43c5a75b7c29">
-				<term type="geographic">Himalayas</term>
+				<term type="geographicPlace">Himalayas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="489bbc57-16cc-5f57-b489-8ab8375cfe8f">
-				<term type="concept">animals</term>
+				<term type="descriptiveTopic">animals</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29b98cac-7b0c-5102-9f00-6ab6460f7790">
-				<term type="concept">temple architecture</term>
+				<term type="descriptiveTopic">temple architecture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term type="concept">architecture (object genre)</term>
+				<term type="descriptiveTopic">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="22e7a09c-2417-55fb-b98e-86a4d68504da">
-				<term type="geographic">Simla</term>
+				<term type="geographicPlace">Shimla</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
-				<term type="concept">hill stations</term>
+				<term type="descriptiveTopic">hill stations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -125,7 +123,7 @@ On this postcard, a small temple situated in the small Northern Indian town of S
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:57">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

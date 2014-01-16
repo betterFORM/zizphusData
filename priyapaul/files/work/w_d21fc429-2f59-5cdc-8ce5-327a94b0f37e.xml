@@ -13,10 +13,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118777" type="corporate">HeidICON Image Database</name>
-				<refid>118777</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_5829d138-1677-55d4-9ee3-32a7e6a08535" refid="118777" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -30,6 +26,10 @@
 		<titleSet>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Dahej pair of carriage horses (Dowry)</title>
 		</titleSet>
+		<worktypeSet>
+			<worktype vocab="local" source="EXC" refid="10e5a796-6cb2-5e02-a043-8d56aa80d829">black-and-white photographs</worktype>
+			<worktype vocab="local" source="EXC" refid="0ba77cf0-6299-5129-aa46-7fc85280cf7f">group portraits</worktype>
+		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
 				<ext:value>explanatory comments/crosstagging:
@@ -54,7 +54,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:41">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

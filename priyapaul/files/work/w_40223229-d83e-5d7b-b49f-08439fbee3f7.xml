@@ -88,10 +88,6 @@ PAWAN KUMAR &amp; SUSHILA KAMAT</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119316" type="corporate">HeidICON Image Database</name>
-				<refid>119316</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -117,30 +113,32 @@ PAWAN KUMAR &amp; SUSHILA KAMAT</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term type="worktype">lobby cards</term>
+				<term type="descriptiveTopic">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4e52251d-461f-5cce-b622-83721f2c28dc">
-				<term type="work">Abhimaan (movie, 1973)</term>
+				<term type="iconographicTopic">Abhimaan (movie, 1973)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -185,7 +183,7 @@ http://www.filmsofindia.com/movie-synopsis.php?id=1133, last accessed 2012-06-01
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.filmsofindia.com/movie-synopsis.php?id=1133</ext:value>
+				<ext:value type="url">uuid-4045cf64-b671-3ee4-93b7-8336eb91dc8e</ext:value>
 				<ext:value type="accessed">2012-06-01</ext:value>
 				<ext:value type="comment">plot and actors</ext:value>
 				<ext:item type="agent">
@@ -196,7 +194,7 @@ http://www.filmsofindia.com/movie-synopsis.php?id=1133, last accessed 2012-06-01
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0069671/</ext:value>
+				<ext:value type="url">uuid-e71839f2-ad20-3836-83be-8d2974e8ab5f</ext:value>
 				<ext:value type="accessed">2011-12-15</ext:value>
 				<ext:value type="comment">story plot, leading actors.</ext:value>
 				<ext:item type="agent">
@@ -244,7 +242,7 @@ http://www.filmsofindia.com/movie-synopsis.php?id=1133, last accessed 2012-06-01
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:47">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

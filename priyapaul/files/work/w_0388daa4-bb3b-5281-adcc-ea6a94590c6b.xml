@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-737e6ca4-f0a7-5a9a-88f1-7c609b3bbcc6">Hanuman</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -36,10 +38,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108364" type="corporate">HeidICON Image Database</name>
-				<refid>108364</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -61,18 +59,20 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term type="concept">Hinduism</term>
+				<term type="conceptTopic">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -125,7 +125,7 @@ On this postcard, the Hindu deity Hanuman can be seen lifting up a mountain with
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:17">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:18">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

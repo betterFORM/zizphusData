@@ -26,10 +26,6 @@ Made in Austria</text>
 			<location source="EXC" type="repository">
 				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119682" type="corporate">HeidICON Image Database</name>
-				<refid>119682</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -49,24 +45,29 @@ Made in Austria</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="209d9678-81bb-5057-9ec4-44cf4659eeac">
-				<term type="concept">Made in Austria</term>
+				<term type="conceptTopic">Made in Austria</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
-				<term type="concept">matchbook</term>
+				<term type="descriptiveTopic">matchbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec3054a5-e9c9-5a3d-bcaa-8a0b0dad5423">
-				<term type="concept">saws</term>
+				<term type="descriptiveTopic">saws</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
-				<term type="worktype">matchboxes</term>
+				<term type="descriptiveTopic">matchboxes</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -117,7 +118,7 @@ On this advertisement for the Saw matches, a saw is pictured. (gs)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:40">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:10:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -62,10 +62,6 @@ No. 470</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/123073" type="corporate">HeidICON Image Database</name>
-				<refid>123073</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_8acae3b2-87f2-56a4-a314-af00b0664296" refid="123073" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -90,41 +86,42 @@ No. 470</text>
 		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="27564901-d325-5e23-8ae1-2116b50931b3">
-				<term type="concept">seas</term>
+				<term type="descriptiveTopic">seas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a11996a4-a33a-5a54-b6fa-d996f8216c1f">
-				<term type="concept">ships</term>
+				<term type="descriptiveTopic">ships</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term type="concept">Hindu women</term>
+				<term type="conceptTopic">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
-				<term type="concept">Bharatiya Nari</term>
+				<term type="conceptTopic">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="298458ff-3160-5123-bddb-cf7e853078e0">
-				<term type="concept">fasts (events)</term>
+				<term type="conceptTopic">fasts (events)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
 			<title type="inscribed" pref="true" lang="eng" script="Latn">Satyanarain Katha</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="6375f143-8d58-540f-81c8-bbbd1f095c02">fans (costume accessories)</worktype>
+			<worktype vocab="local" source="EXC" refid="52b9d240-252c-5868-9ef8-20b4a3eaada9">promotional materials</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
@@ -156,7 +153,7 @@ http://www.gsbkerala.com/satyanar.htm, last accessed on 2011-08-01, Description 
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.gsbkerala.com/satyanar.htm</ext:value>
+				<ext:value type="url">uuid-3603b9f3-7fa0-3136-bf1d-2a352be8b99a</ext:value>
 				<ext:value type="accessed">2011-08-01</ext:value>
 				<ext:value type="comment">Description of the Satyanarain vrat, puja and their significance</ext:value>
 				<ext:item type="agent">
@@ -167,7 +164,7 @@ http://www.gsbkerala.com/satyanar.htm, last accessed on 2011-08-01, Description 
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.seattlepandit.com/satya.pdf</ext:value>
+				<ext:value type="url">uuid-7e11bd2c-bf89-3340-aea2-6ea44c9cfce1</ext:value>
 				<ext:value type="accessed">2011-08-01</ext:value>
 				<ext:value type="comment">Stories of Satyanarain</ext:value>
 				<ext:item type="agent">
@@ -207,7 +204,7 @@ http://www.gsbkerala.com/satyanar.htm, last accessed on 2011-08-01, Description 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:37">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:19:00">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

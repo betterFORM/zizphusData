@@ -54,10 +54,6 @@ No. 319</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118798" type="corporate">HeidICON Image Database</name>
-				<refid>118798</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -77,42 +73,47 @@ No. 319</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="5c50860e-d23c-572f-aabb-05b3cf6f0d79">
-				<term type="concept">cities</term>
+				<term type="conceptTopic">cities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8b649548-d3eb-5669-ab53-534befea688d">
-				<term type="concept">globes (cartographic spheres)</term>
+				<term type="descriptiveTopic">globes (cartographic spheres)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="60671271-0213-5534-9c27-7c7d70eafb36">
-				<term type="concept">churches (buildings)</term>
+				<term type="descriptiveTopic">churches (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b24f4a87-fd3b-5f2b-98d1-a58250ceea70">
-				<term type="geographic">Chicago</term>
+				<term type="geographicPlace">Chicago</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1f38e8c6-a91c-54de-a947-76b31257484a">
-				<term type="work (architecture)">skyscrapers</term>
+				<term type="descriptiveTopic">skyscrapers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0c2d6d26-9caa-5511-8257-dfef92694e12">
-				<term type="concept">cosmopolitans (people)</term>
+				<term type="conceptTopic">cosmopolitans (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="51324a0f-7b9d-58e0-bfd1-e4b290f9925c">
-				<term type="concept">world maps</term>
+				<term type="descriptiveTopic">world maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term type="concept">maps</term>
+				<term type="descriptiveTopic">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b5859290-1538-5d89-97e2-2668abc19a58">
-				<term type="concept">terrestrial globes</term>
+				<term type="descriptiveTopic">terrestrial globes</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="4d71e798-e8e7-536f-a70c-85d0c5c32ee0">
+				<term type="geographicPlace">North America</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -154,21 +155,21 @@ Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hin
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
-				<ext:value type="text">Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hinduism that manages, simultaneously, to nurture an idea of a Hindu chauvinist masculinity and superiority. This counts for several Hindu nationalist organisations (Sangh Parivar) active in India and abroad. The backdrop of the city also displays Vivekananda as a cosmopolitan who stands confidently in a cityscape that was not known in India at that time.</ext:value>
-				<ext:item type="agent">
-					<ext:value type="role">Editor</ext:value>
-					<ext:value type="name">Brosius, Christiane</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
-				</ext:item>
-			</ext:item>
-			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
 				<ext:value type="text">The image emphasizes Vivekanandas visit to North America in 1897 for the World Congress of Religions. It was the first visit of a teacher of the Hindu philosophy in the USA. He emphasized the difference of the monotheistic religions and Hinduism as well as the too material culture of the west.</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
 					<ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+				</ext:item>
+			</ext:item>
+			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+				<ext:value type="text">Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hinduism that manages, simultaneously, to nurture an idea of a Hindu chauvinist masculinity and superiority. This counts for several Hindu nationalist organisations (Sangh Parivar) active in India and abroad. The backdrop of the city also displays Vivekananda as a cosmopolitan who stands confidently in a cityscape that was not known in India at that time.</ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Brosius, Christiane</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -185,7 +186,7 @@ Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hin
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:47">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:10">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

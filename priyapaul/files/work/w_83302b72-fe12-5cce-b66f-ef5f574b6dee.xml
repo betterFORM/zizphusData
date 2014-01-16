@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -52,10 +52,6 @@ E. D. Sassoon &amp; Co. Ltd. Karachi.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107866" type="corporate">HeidICON Image Database</name>
-				<refid>107866</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -75,60 +71,62 @@ E. D. Sassoon &amp; Co. Ltd. Karachi.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ce564016-385d-52bc-b28d-6199c2d05f60">
-				<term type="concept">pillars</term>
+				<term type="descriptiveTopic">pillars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term type="concept">rivers</term>
+				<term type="descriptiveTopic">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
-				<term type="concept">plants</term>
+				<term type="descriptiveTopic">plants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
-				<term type="plant">palm trees</term>
+				<term type="descriptiveTopic">palm trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term type="concept">architecture (object genre)</term>
+				<term type="descriptiveTopic">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8469f4b6-425c-5bd8-9911-20bac5f4650b">
-				<term type="concept">carpets</term>
+				<term type="descriptiveTopic">carpets</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1cf71e3-004e-5ca9-af3f-a86d3884e171">
-				<term type="concept">couches (reclining furniture)</term>
+				<term type="descriptiveTopic">couches (reclining furniture)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9e695e4-1726-53fa-a215-e85230165e8a">
-				<term type="work (architecture)">palaces</term>
+				<term type="conceptTopic / iconographicTopic">palaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
-				<term type="concept">bottles</term>
+				<term type="descriptiveTopic">bottles</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -168,7 +166,7 @@ Krishna can be seen playing the flute with Rukmani reclining next to him in a pa
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:53">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:58:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

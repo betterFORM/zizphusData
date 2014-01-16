@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -36,10 +38,6 @@ Sukkur</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108365" type="corporate">HeidICON Image Database</name>
-				<refid>108365</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -61,21 +59,23 @@ Sukkur</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
-				<term type="concept">temples (buildings)</term>
+				<term type="descriptiveTopic">temples (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf13fdb5-676a-595d-b2ce-8249b1156c7f">
-				<term type="concept">Puja</term>
+				<term type="conceptTopic">Puja</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -85,7 +85,7 @@ Sukkur</text>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Satya Narayan, colour postcard with shiny decoration</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -127,7 +127,7 @@ On this picture postcard, Lord Krishna is depicted in front of a pujari sitting 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:20">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

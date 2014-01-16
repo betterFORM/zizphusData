@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -58,10 +58,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120909" type="corporate">HeidICON Image Database</name>
-				<refid>120909</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -93,39 +89,41 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="60d7e557-840a-5ac6-8224-efe262184804">
-				<term type="concept">conch (shell)</term>
+				<term type="descriptiveTopic">conch (shell)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term type="concept">festoon (motif)</term>
+				<term type="descriptiveTopic">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term type="concept">oceans</term>
+				<term type="descriptiveTopic">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term type="plant">lotus (motif)</term>
+				<term type="descriptiveTopic">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b2c09f3-f24a-5c77-bbdb-b15cc1310764">
-				<term type="concept">scripts (writing)</term>
+				<term type="descriptiveTopic">scripts (writing)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0fdaf619-0e7c-5cab-8167-d0b3cc1cd392">
-				<term type="Script">Devanagari script</term>
+				<term type="otherTopic">Devanagari script</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -181,7 +179,7 @@ Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Refl
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Neumayer, Erwin, and Christine Schelberger. 2008.&quot;Bharat mata : India's freedom movement in popular art&quot;. Delhi: Oxford University Press.</ext:value>
+				<ext:value type="text">uuid-7cb6344a-7467-37dc-9746-04027313f6e4</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -190,7 +188,7 @@ Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Refl
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection&quot;. http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html last accessed 2011-03-30</ext:value>
+				<ext:value type="text">uuid-0af12f74-0e3a-3993-81b9-d9d7200ffe10</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -199,7 +197,7 @@ Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Refl
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Ramaswamy, Sumathi 2010. The Goddess and the Nation. Mapping Mother India. London: Duke University Press.</ext:value>
+				<ext:value type="text">uuid-bf5def60-2c6d-33ce-8dda-4fc555f329a0</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -208,7 +206,7 @@ Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Refl
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan.</ext:value>
+				<ext:value type="text">uuid-54a75450-f948-36ac-9d33-c6d4a3dd1691</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -217,7 +215,7 @@ Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Refl
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97.</ext:value>
+				<ext:value type="text">uuid-553776e5-0758-36d2-8c76-6d96052632a9</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -281,7 +279,7 @@ Ramaswamy, Sumathi 2011. &quot;Artful Mapping in Bazaar India. Cartographic Refl
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:23">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:17:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

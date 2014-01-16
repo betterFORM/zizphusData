@@ -24,7 +24,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -43,10 +45,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119221" type="corporate">HeidICON Image Database</name>
-				<refid>119221</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -76,46 +74,46 @@
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="3eb2f2a4-a55e-56ee-9de8-4c623473da3d">
-				<term type="concept">armchairs</term>
+				<term type="descriptiveTopic">armchairs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
-				<term type="concept">whiteness</term>
+				<term type="conceptTopic">whiteness</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term type="concept">white people</term>
+				<term type="conceptTopic">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf7de29c-dc86-5221-b1d0-f1ef5165575c">
-				<term type="concept">blonde hair</term>
+				<term type="descriptiveTopic">blonde hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1850aec4-a6cd-5cbf-a912-1449b9b6aa9f">
-				<term type="concept">gloves</term>
+				<term type="descriptiveTopic">gloves</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="510eb761-83ea-598f-bbac-ab53d01b47e6">
-				<term type="concept">blonde</term>
+				<term type="descriptiveTopic">blonde</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
-				<term type="concept">cigarette advertising</term>
+				<term type="descriptiveTopic">cigarette advertising</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="14115aae-9066-5d30-ba93-d18b5950ad7e">
-				<term type="product">Wild Woodbine Cigarettes (product)</term>
+				<term type="descriptiveTopic">Wild Woodbine Cigarettes (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="20ab7a60-f6d0-5afa-8609-a053b25ac97c">
-				<term type="brand">Wills's Capstan Cigarettes</term>
+				<term type="descriptiveTopic">Wills's Capstan Cigarettes (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -168,7 +166,7 @@ last accessed 2011-08-21 (la)</ext:value>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Loyo, Hilaria 2007. &quot;Blinding Blondes: Whiteness, Femininity, and Stardom.&quot; In W.Everett (Ed.): Questions of Colour in Cinema, Frankfurt/M etc.: Peter Lang: 179-196.</ext:value>
+				<ext:value type="text">uuid-82cc6e55-cdce-3c8e-9627-a92b8ad23830</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
@@ -177,7 +175,7 @@ last accessed 2011-08-21 (la)</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</ext:value>
+				<ext:value type="text">uuid-9d545597-010a-3893-ac18-9bd528f79c7a</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
@@ -187,6 +185,17 @@ last accessed 2011-08-21 (la)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
+			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+				<ext:value type="url">uuid-6ccfd164-82a9-3854-949e-0bd0f2fb039d</ext:value>
+				<ext:value type="accessed">2011-08-21</ext:value>
+				<ext:value type="comment"></ext:value>
+				<ext:item type="agent">
+					<ext:value type="role">Editor</ext:value>
+					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+					<ext:value type="agent-type">personal</ext:value>
+					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+				</ext:item>
+			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
 				<ext:value type="url">http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</ext:value>
 				<ext:value type="accessed">2011-08-21</ext:value>
@@ -210,18 +219,7 @@ last accessed 2011-08-21 (la)</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tvparty.com/vaultcomcig.html</ext:value>
-				<ext:value type="accessed">2011-08-21</ext:value>
-				<ext:value type="comment"></ext:value>
-				<ext:item type="agent">
-					<ext:value type="role">Editor</ext:value>
-					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
-					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
-				</ext:item>
-			</ext:item>
-			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+				<ext:value type="url">uuid-23ccd6a9-d9ac-3ae9-8cff-98755bb00009</ext:value>
 				<ext:value type="accessed">2011-08-21</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -286,7 +284,7 @@ last accessed 2011-08-21 (la)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:08">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:07:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

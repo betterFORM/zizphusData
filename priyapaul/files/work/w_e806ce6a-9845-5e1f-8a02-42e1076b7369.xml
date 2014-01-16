@@ -29,10 +29,6 @@ Brook Bond Bru Instant Coffee Chicory Blend</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118532" type="corporate">HeidICON Image Database</name>
-				<refid>118532</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -59,21 +55,23 @@ Brook Bond Bru Instant Coffee Chicory Blend</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="212c6ca2-786e-5325-b90f-68a22b1c1bdb">
-				<term type="concept">cups (drinking vessels)</term>
+				<term type="descriptiveTopic">cups (drinking vessels)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6094f13-b9a4-51fc-ae5c-f30a17fcf7a7">
-				<term type="concept">coffee (food, dye)</term>
+				<term type="descriptiveTopic">coffee (food, dye)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">Werbung</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -108,7 +106,7 @@ http://en.wikipedia.org/wiki/Brooke_Bond, history of the company, last accessed 
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://en.wikipedia.org/wiki/Brooke_Bond</ext:value>
+				<ext:value type="url">uuid-e469dbac-46fa-31db-b4df-b16265551e02</ext:value>
 				<ext:value type="accessed">2012-05-05</ext:value>
 				<ext:value type="comment">history of the company,</ext:value>
 				<ext:item type="agent">
@@ -157,7 +155,7 @@ Source: http://en.wikipedia.org/wiki/Brooke_Bond</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:16">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:03:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

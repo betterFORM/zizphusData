@@ -18,7 +18,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -50,10 +52,6 @@ Trading Company late Hegi &amp; Co., Ltd. - Rangoon</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108439" type="corporate">HeidICON Image Database</name>
-				<refid>108439</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -80,24 +78,26 @@ Trading Company late Hegi &amp; Co., Ltd. - Rangoon</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="5461b1f0-2486-51e1-a63d-8e372d39e54f">
-				<term type="concept">books</term>
+				<term type="descriptiveTopic">books</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f6ba5e9-f030-5693-9dc4-cccd7d737965">
-				<term type="concept">beer (beverage)</term>
+				<term type="descriptiveTopic">beer (beverage)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9df249d-0771-5c17-b8fd-b10127cdff14">
-				<term type="brand">Beck's (brand)</term>
+				<term type="descriptiveTopic">Beck's (brand)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -142,7 +142,7 @@ http://www.indianmba.com/Faculty_Column/FC519/fc519.html last accessed 2012-03-2
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.indianmba.com/Faculty_Column/FC519/fc519.html</ext:value>
+				<ext:value type="url">uuid-d4a0afa7-07cb-386d-b640-327ded4126f8</ext:value>
 				<ext:value type="accessed">2012-03-29</ext:value>
 				<ext:value type="comment">basic facts about alcohol consumption in India, article title: &quot;The Beer industry in India in context of Consumer Buying Behavior&quot;</ext:value>
 				<ext:item type="agent">
@@ -196,7 +196,7 @@ http://www.indianmba.com/Faculty_Column/FC519/fc519.html last accessed 2012-03-2
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:23">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:56:56">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

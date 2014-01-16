@@ -33,10 +33,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108652" type="corporate">HeidICON Image Database</name>
-				<refid>108652</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -63,31 +59,28 @@
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
-				<term type="geographic">India</term>
+				<term type="geographicPlace">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2ef9db03-586c-5633-8ff3-5b4228f51fca">
-				<term type="concept">fakirs</term>
+				<term type="descriptiveTopic">fakirs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9d8f341-cd10-5a01-977c-6b53d775d4b6">
-				<term type="concept">Orientalism</term>
+				<term type="conceptTopic">Orientalism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7e92472b-3caa-5f8a-a989-2e8e2b980481">
-				<term type="concept">colonialism</term>
+				<term type="conceptTopic">colonialism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6fe13d28-c3a2-5a7f-b196-5d6e334cae70">
-				<term type="concept">Colonial India</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="fb400a82-f170-5237-9bfc-6d0680f00d37">
-				<term type="concept">photography</term>
+				<term type="geographicPlace">Colonial India</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -97,7 +90,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Différentes sortes de fakirs (Different sorts of fakirs)</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
+			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">Photographie</worktype>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
 		<ext:heidicon>
@@ -128,7 +121,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Schmidt, Richard 1908. &quot;Fakire und Fakirtum im alten und modernen Indien&quot;. Berlin: Barsdorf.</ext:value>
+				<ext:value type="text">uuid-afd56566-a9ea-349e-9dfc-0d31f67393f0</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -137,7 +130,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:value type="text">uuid-6279c268-0639-3809-8d4e-3e3e1c6c3536</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -146,7 +139,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-10.</ext:value>
+				<ext:value type="text">uuid-e2b87a34-c918-3ef7-9ad6-a8a3d6c75728</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -200,7 +193,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:23">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

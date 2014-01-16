@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -22,10 +24,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120888" type="corporate">HeidICON Image Database</name>
-				<refid>120888</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -49,9 +47,11 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d7dc5d27-c697-5256-8a4e-1ef6de81bb78">
-				<term type="work">Korans</term>
+				<term type="conceptTopic">Korans</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -115,7 +115,7 @@ One of four individual illustrated pages from the Qur'an.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:01">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:17:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

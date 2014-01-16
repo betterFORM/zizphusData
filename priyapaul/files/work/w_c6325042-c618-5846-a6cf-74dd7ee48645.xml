@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -41,10 +43,6 @@ Corn Flour Pudding.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118966" type="corporate">HeidICON Image Database</name>
-				<refid>118966</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -65,27 +63,29 @@ Corn Flour Pudding.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38635c9-239d-529e-b2ef-09d0617e47a8">
-				<term type="concept">perception of women</term>
+				<term type="conceptTopic">perception of women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3cf95a1e-2888-5590-acf0-06599be6b003">
-				<term type="concept">corn (seed)</term>
+				<term type="descriptiveTopic">corn (seed)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff678bb0-f68c-59e9-94e6-86ebf711cc38">
-				<term type="product">Brown &amp; Polson's corn flour (product)</term>
+				<term type="descriptiveTopic">Brown &amp; Polson's corn flour (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3e03d2fa-a0b0-5c52-9d0d-26ba1001048c">
-				<term type="concept">cookery (activity)</term>
+				<term type="descriptiveTopic">cookery (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65511a38-eac0-5787-837d-40bd292b1ad9">
-				<term type="concept">flour</term>
+				<term type="descriptiveTopic">flour</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -149,7 +149,7 @@ A National Training School Demonstration of the uses of CORN FLOUR.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:36">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

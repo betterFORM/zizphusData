@@ -45,10 +45,6 @@ New Year</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109881" type="corporate">HeidICON Image Database</name>
-				<refid>109881</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -68,36 +64,38 @@ New Year</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="38badb36-8a99-5821-b97f-a64e3b6e0ce9">
-				<term type="concept">girls</term>
+				<term type="descriptiveTopic">girls</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c0102a51-5293-573e-97e6-d863e90a33bf">
-				<term type="animal">birds (animals)</term>
+				<term type="descriptiveTopic">birds (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="703d170e-332a-5105-bfbf-e3f137b848ff">
-				<term type="concept">toys (recreational artifacts)</term>
+				<term type="descriptiveTopic">toys (recreational artifacts)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
-				<term type="concept">whiteness</term>
+				<term type="conceptTopic">whiteness</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf7de29c-dc86-5221-b1d0-f1ef5165575c">
-				<term type="concept">blonde hair</term>
+				<term type="descriptiveTopic">blonde hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d41cc3ee-cde6-5d31-a26e-dc7618b57333">
-				<term type="concept">nests (animal architecture)</term>
+				<term type="descriptiveTopic">nests (animal architecture)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -153,7 +151,7 @@ On this sample calendar from the Delhi Calendar Mfg. Co., a blondish as well as 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:23">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

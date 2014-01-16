@@ -13,10 +13,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118578" type="corporate">HeidICON Image Database</name>
-				<refid>118578</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -29,8 +25,8 @@
 		</measurementsSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_6c5e29ed-f669-56ff-9a3f-4eed88992f77" refid="118578" source="EXC Priya Paul Collection" pref="true">general view</relation>
-			<relation type="imageIs" relids="i_b751b7e6-71dd-5d48-8031-b7a0a8bbab0d" refid="118579" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_e613abfc-37ae-58fb-bd06-5d8cf87db4de" refid="118580" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_b751b7e6-71dd-5d48-8031-b7a0a8bbab0d" refid="118579" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -38,6 +34,8 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
@@ -71,13 +69,13 @@
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118579</ext:value>
-				<ext:value>i_b751b7e6-71dd-5d48-8031-b7a0a8bbab0d</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118580</ext:value>
+				<ext:value>i_e613abfc-37ae-58fb-bd06-5d8cf87db4de</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118580</ext:value>
-				<ext:value>i_e613abfc-37ae-58fb-bd06-5d8cf87db4de</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118579</ext:value>
+				<ext:value>i_b751b7e6-71dd-5d48-8031-b7a0a8bbab0d</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 		</ext:heidicon>
@@ -88,7 +86,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:43">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:03:57">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

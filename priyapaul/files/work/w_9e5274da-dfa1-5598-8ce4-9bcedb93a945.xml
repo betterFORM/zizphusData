@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -38,10 +38,6 @@ No. 514</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122953" type="corporate">HeidICON Image Database</name>
-				<refid>122953</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -63,54 +59,56 @@ No. 514</text>
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term type="concept">mountains</term>
+				<term type="descriptiveTopic">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a607ab4d-4d55-5515-9767-bb12040c3bdf">
-				<term type="concept">landscapes (environments)</term>
+				<term type="descriptiveTopic">landscapes (environments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b27ed56a-1061-5368-b193-4ee92fc01e2d">
-				<term type="concept">gopi</term>
+				<term type="iconographicTopic">gopi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term type="concept">lakes (bodies of water)</term>
+				<term type="descriptiveTopic">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term type="animal">peacocks (animals)</term>
+				<term type="descriptiveTopic">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term type="concept">peacock feather</term>
+				<term type="descriptiveTopic">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -139,12 +137,12 @@ Varadapande, M.L. 1982. &quot;Krishna Theatre in India&quot;, Abhinav Publicatio
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Varadapande, M.L. 1982. &quot;Krishna Theatre in India&quot;, Abhinav Publications, New Delhi.</ext:value>
+				<ext:value type="text">uuid-253f9ea9-a827-3c33-beee-55e7053fe8df</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
-					<ext:value type="name">Alisch, Johannes</ext:value>
+					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -161,7 +159,7 @@ Varadapande, M.L. 1982. &quot;Krishna Theatre in India&quot;, Abhinav Publicatio
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:57">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:18:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

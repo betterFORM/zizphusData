@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -49,10 +49,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122977" type="corporate">HeidICON Image Database</name>
-				<refid>122977</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -72,39 +68,41 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term type="plant">lotus (motif)</term>
+				<term type="descriptiveTopic">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0a5b4158-ad71-584c-9daf-23bf517b4f6d">
-				<term type="concept">music</term>
+				<term type="conceptTopic">music</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b27ed56a-1061-5368-b193-4ee92fc01e2d">
-				<term type="concept">gopi</term>
+				<term type="iconographicTopic">gopi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="40344771-1132-5fc6-acf5-9757c17a99d9">
-				<term type="concept">waterfalls (natural bodies of water)</term>
+				<term type="descriptiveTopic">waterfalls (natural bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term type="animal">peacocks (animals)</term>
+				<term type="descriptiveTopic">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term type="concept">peacock feather</term>
+				<term type="descriptiveTopic">peacock feather</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -148,7 +146,7 @@ An image with the title &quot;Lord Krishna&quot; of the Empire Calender Manufact
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:51:14">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:18:24">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

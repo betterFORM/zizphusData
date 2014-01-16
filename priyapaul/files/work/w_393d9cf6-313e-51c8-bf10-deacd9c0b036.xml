@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122955" type="corporate">HeidICON Image Database</name>
-				<refid>122955</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -50,24 +46,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term type="concept">mountains</term>
+				<term type="descriptiveTopic">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
-				<term type="concept">forests</term>
+				<term type="descriptiveTopic">forests</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="520b1ee3-26ea-5530-92ad-e884517a7c98">
-				<term type="animal">leopards (animals)</term>
+				<term type="descriptiveTopic">leopards (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="02eb27d4-4f18-55ea-a2eb-1d6db6220626">
-				<term type="work">daggers (weapons)</term>
+				<term type="descriptiveTopic">daggers (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">Kalender</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -100,7 +98,7 @@ An image with the title &quot;Forest Queen&quot; in a sample calender poster of 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:14:03">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:18:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

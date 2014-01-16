@@ -36,10 +36,6 @@ HAP [publisher's signet]</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118593" type="corporate">HeidICON Image Database</name>
-				<refid>118593</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -59,42 +55,44 @@ HAP [publisher's signet]</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term type="concept">mountains</term>
+				<term type="descriptiveTopic">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term type="concept">rivers</term>
+				<term type="descriptiveTopic">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a601490e-80b8-5437-bf0c-1431f32dbc81">
-				<term type="concept">fishing</term>
+				<term type="descriptiveTopic">fishing</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0864f3ef-ba94-5903-bf51-462a713e0659">
-				<term type="concept">snow (precipitation)</term>
+				<term type="descriptiveTopic">snow (precipitation)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f211437-6bfe-5ae6-b29a-459b0f4bfef2">
-				<term type="animal">dogs (animals)</term>
+				<term type="descriptiveTopic">dogs (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a921b3b7-f369-5d1f-af74-c6e82309b203">
-				<term type="concept">catalogs</term>
+				<term type="descriptiveTopic">catalogs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="97513a6c-4581-5d16-a2d5-8a8b4ff02abc">
-				<term type="animal">cattle</term>
+				<term type="descriptiveTopic">cattle</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term type="concept">trade catalogs</term>
+				<term type="descriptiveTopic">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -131,7 +129,7 @@ This is the title page of the Champion Series catalogue of images showing an eve
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:33">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:04:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

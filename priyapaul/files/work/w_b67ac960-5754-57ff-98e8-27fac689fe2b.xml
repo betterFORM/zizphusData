@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<inscriptionSet>
@@ -33,10 +33,6 @@ Mother India on a map with other saints and dieties</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119390" type="corporate">HeidICON Image Database</name>
-				<refid>119390</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -57,18 +53,20 @@ Mother India on a map with other saints and dieties</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
-				<term type="geographic">India</term>
+				<term type="geographicPlace">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
-				<term type="concept">Indian flag</term>
+				<term type="descriptiveTopic">Indian flag</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term type="concept">maps</term>
+				<term type="descriptiveTopic">maps</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -129,7 +127,7 @@ Mother India on a map with other saints and dieties</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:10">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:36">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

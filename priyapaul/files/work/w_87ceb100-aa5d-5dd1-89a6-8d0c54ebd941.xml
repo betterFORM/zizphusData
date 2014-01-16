@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108674" type="corporate">HeidICON Image Database</name>
-				<refid>108674</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_b001426c-cda2-5850-a0d8-a2765172b485" refid="108674" source="EXC Priya Paul Collection" pref="true">front</relation>
@@ -43,27 +39,26 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="5c50860e-d23c-572f-aabb-05b3cf6f0d79">
-				<term type="concept">cities</term>
+				<term type="conceptTopic">cities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="10c45a89-4ba3-593b-82a1-5e00a6bf1687">
-				<term type="geographic">Bombay</term>
+				<term type="geographicPlace">Bombay</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec4123e2-f63b-5c63-bd11-2a045f12489d">
-				<term type="concept">hotels (public accomodations)</term>
+				<term type="descriptiveTopic">hotels (public accomodations)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Picture postcard of &quot;Great Western Hotel&quot;, Bombay</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
-			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -97,7 +92,7 @@ This postcard offers a view towards the Great Western Hotel in Bombay, India. (g
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:23">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:58:33">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

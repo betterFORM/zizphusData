@@ -33,7 +33,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -56,10 +58,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109790" type="corporate">HeidICON Image Database</name>
-				<refid>109790</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -79,27 +77,29 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term type="concept">national leader</term>
+				<term type="conceptTopic">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4b0eff81-18b6-5333-a35c-e688c999e2c9">
-				<term type="concept">politicians</term>
+				<term type="descriptiveTopic">politicians</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
-				<term type="concept">leaders (people)</term>
+				<term type="conceptTopic">leaders (people)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -153,7 +153,7 @@ Jawaharlal Nehru (1889 - 1964) was born in Kashmir and has been the longest serv
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:55">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:56:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

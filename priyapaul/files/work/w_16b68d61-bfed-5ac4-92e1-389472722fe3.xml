@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -22,10 +24,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120008" type="corporate">HeidICON Image Database</name>
-				<refid>120008</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -46,21 +44,23 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
-				<term type="concept">deities</term>
+				<term type="iconographicTopic">deities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term type="concept">Hinduism</term>
+				<term type="conceptTopic">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1bc7cb31-e0d4-5d41-9b2f-fbb783a80ce0">
-				<term type="concept">trishul (trident)</term>
+				<term type="iconographicTopic">trishul (trident)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -118,7 +118,7 @@ Due to the artifacts the deity has with it such as trishul, snake and ganga on t
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:12:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

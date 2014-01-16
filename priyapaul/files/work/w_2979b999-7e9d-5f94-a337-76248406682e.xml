@@ -13,9 +13,9 @@
 		</agentSet>
 		<descriptionSet>
 			<description lang="eng" script="Latn">
-				<text>A view of a part of Falaknuma and a couple of people inside its boundary. The surrounding locality and a river which flows nearby, are also visible.</text>
+				<text>A view of a part of Falaknuma and a couple of people inside its boundary. The surrounding locality and a river which flows nearby, are also visible. (gs)</text>
 				<author>
-					<name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+					<name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
@@ -31,10 +31,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108021" type="corporate">HeidICON Image Database</name>
-				<refid>108021</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -55,21 +51,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ab0b791-c983-5d5a-90d5-dfc85c8b2c23">
-				<term type="concept">Made in Germany</term>
+				<term type="conceptTopic">Made in Germany</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37fcc3e5-f33b-5e23-84b7-c9f48074f4e0">
-				<term type="geographic">Hyderabad</term>
+				<term type="geographicPlace">Hyderabad</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1174cdbb-2a20-52dd-99d7-3cb8a5cfc1e7">
-				<term type="building">Falaknuma Palace</term>
+				<term type="builtworkPlace">Falaknuma Palace</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -79,7 +80,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">View from right hand Falaknuma with Golcunda, Hyderabad, India</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -122,7 +123,7 @@ ffff Ort/Gebäude: Hyderabad / Falaknuma Palast [http://en.wikipedia.org/wiki/Fa
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Alisch, Johannes</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -142,7 +143,7 @@ ffff Ort/Gebäude: Hyderabad / Falaknuma Palast [http://en.wikipedia.org/wiki/Fa
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:26">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:58:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

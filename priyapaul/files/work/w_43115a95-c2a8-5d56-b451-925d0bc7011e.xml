@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-b48d1160-e490-5472-8f4d-938355ab4cea">Kali</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -22,7 +22,9 @@
   			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -39,10 +41,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118835" type="corporate">HeidICON Image Database</name>
-				<refid>118835</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="1c7d6eac-19d4-5d62-b1b1-2210092b5bad" type="medium">panels (wood)</material>
@@ -57,6 +55,8 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<titleSet>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Kali and Vishnu, Hindu deities</title>
 		</titleSet>
@@ -110,7 +110,7 @@ Painting for a calendar. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:34">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

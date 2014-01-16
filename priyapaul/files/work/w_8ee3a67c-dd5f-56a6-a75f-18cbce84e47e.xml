@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-048694c0-93ed-5b54-8923-fb9017e4b9ae">Rama</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-1492ff1c-4c12-5ddb-851a-22420405b9df">Lakshman</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -50,10 +50,6 @@ Manchester.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120131" type="corporate">HeidICON Image Database</name>
-				<refid>120131</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -75,21 +71,23 @@ Manchester.</text>
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8bee5a77-bc94-5f39-bc83-97f8cf7fcc7b">
-				<term type="language">Bengali</term>
+				<term type="conceptTopic">Bengali</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">Werbung</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -126,7 +124,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html (17.1.2011)</ext:value>
+				<ext:value type="text">uuid-e082ab00-a277-30a8-9414-075f27c5887a</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -135,7 +133,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson.</ext:value>
+				<ext:value type="text">uuid-9f554d89-50a1-3c12-92b6-d5ea20749cbe</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -189,7 +187,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:32">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:13:03">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

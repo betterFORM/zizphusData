@@ -53,10 +53,6 @@ Calcutta-Bombay-Rangoon</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120720" type="corporate">HeidICON Image Database</name>
-				<refid>120720</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -76,33 +72,35 @@ Calcutta-Bombay-Rangoon</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f211437-6bfe-5ae6-b29a-459b0f4bfef2">
-				<term type="animal">dogs (animals)</term>
+				<term type="descriptiveTopic">dogs (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c8524c21-24c0-516f-9e41-7c5cb9363fc9">
-				<term type="concept">shopping</term>
+				<term type="descriptiveTopic">shopping</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
-				<term type="concept">Western women</term>
+				<term type="conceptTopic">Western women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1b1dd2ee-f786-5026-8a5d-03e8c7bf02b1">
-				<term type="concept">Western men</term>
+				<term type="conceptTopic">Western men</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="57761aa4-c273-58ee-8693-34da4ffe6fd3">
-				<term type="concept">clocks</term>
+				<term type="descriptiveTopic">clocks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -171,7 +169,7 @@ This is a rather unusual design, obviously adopted from England and depicting 'i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:34">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

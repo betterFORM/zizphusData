@@ -47,10 +47,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108092" type="corporate">HeidICON Image Database</name>
-				<refid>108092</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -70,21 +66,23 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term type="concept">Hindu women</term>
+				<term type="conceptTopic">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dcca3af6-be00-5392-aef7-16565d031365">
-				<term type="language">Urdu</term>
+				<term type="conceptTopic">Urdu (language)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
-				<term type="concept">Bharatiya Nari</term>
+				<term type="conceptTopic">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6b4a8d4-f514-5883-b3ec-368ce15bed2d">
-				<term type="work">Kok Shastar</term>
+				<term type="iconographicTopic">Kok Shastar</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -158,7 +156,7 @@ Malkhi Ram Musavvir, Lahore</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:28">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

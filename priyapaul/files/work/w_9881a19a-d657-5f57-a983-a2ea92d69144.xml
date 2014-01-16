@@ -75,10 +75,6 @@ Chowk Cawnpur</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109932" type="corporate">HeidICON Image Database</name>
-				<refid>109932</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -98,39 +94,41 @@ Chowk Cawnpur</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="b29b5d97-fadf-5144-940c-32755a9e943e">
-				<term type="geographic">British Empire</term>
+				<term type="geographicPlace">British Empire</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c15d0ad-68a0-587f-9469-7358e1c0e0d8">
-				<term type="concept">field (land)</term>
+				<term type="descriptiveTopic">field (land)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
-				<term type="geographic">India</term>
+				<term type="geographicPlace">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9690f13a-ec24-50a6-af14-6d414f45e156">
-				<term type="concept">villages</term>
+				<term type="descriptiveTopic">villages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term type="concept">uniforms</term>
+				<term type="descriptiveTopic">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7e92472b-3caa-5f8a-a989-2e8e2b980481">
-				<term type="concept">colonialism</term>
+				<term type="conceptTopic">colonialism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6fe13d28-c3a2-5a7f-b196-5d6e334cae70">
-				<term type="concept">Colonial India</term>
+				<term type="geographicPlace">Colonial India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="917ce2d6-fbbb-5dbb-82b9-87e232c37bff">
-				<term type="concept">rural life</term>
+				<term type="conceptTopic">rural life</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -212,7 +210,7 @@ Bardoli in Gujarat during the period suffered from natural calamities and increa
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:31">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:00:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

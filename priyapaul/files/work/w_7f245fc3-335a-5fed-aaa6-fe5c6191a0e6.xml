@@ -34,9 +34,8 @@ Darjeeling.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120717" type="corporate">HeidICON Image Database</name>
-				<refid>120717</refid>
+			<location type="site">
+				<note>Darjeeling</note>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -66,28 +65,26 @@ Darjeeling.</text>
 		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>Colonial India</stylePeriod>
+			<stylePeriod vocab="LOCAL" refid="uuid-e2f6e5ba-1a71-5490-84d7-b965d7970d5a">Anglo-Mughal</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="cb59e621-4ffd-5a47-b16b-43c5a75b7c29">
-				<term type="geographic">Himalayas</term>
+				<term type="geographicPlace">Himalayas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
-				<term type="concept">architecture (object genre)</term>
+				<term type="descriptiveTopic">architecture (object genre)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d56e72b9-8164-56d7-bbdd-886af929efe0">
-				<term type="geographic">Darjeeling</term>
+				<term type="geographicPlace">Darjeeling</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7e92472b-3caa-5f8a-a989-2e8e2b980481">
-				<term type="concept">colonialism</term>
+				<term type="conceptTopic">colonialism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2569e0e2-5476-5cbd-9306-d94a56b87556">
-				<term type="concept">hill stations</term>
+				<term type="descriptiveTopic">hill stations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e2f6e5ba-1a71-5490-84d7-b965d7970d5a">
-				<term type="concept">Colonial architecture</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -97,7 +94,7 @@ Darjeeling.</text>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Hotel Mount Everest, Darjeeling</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -128,7 +125,7 @@ Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postc
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Kenny, Judith 1995. &quot;Climate, Race, and Imperial Authority: The Symbolic Landscape of the British Hill Station in India.&quot; In Annals of the Association of American Geographers 85, no. 4 (1995): 694-714.</ext:value>
+				<ext:value type="text">uuid-8fa01116-7995-3f83-af3d-26f58a02129f</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -137,7 +134,7 @@ Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postc
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Pinney, Christpher 1995. “Moral Topophilia: The Significations of Landscape in Indian Oleographs&quot; in The Anthropology of Landscape, ed. Erie Hirsch and Michael O'Hanlon. Oxford: Oxford University Press.</ext:value>
+				<ext:value type="text">uuid-6defacbd-7288-3a77-91d1-0305dce2a351</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -146,7 +143,7 @@ Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postc
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Mitchell, W. J. T. 2002 &quot;Imperial Landscape.&quot; In Landscape and Power, W. J. T Mitchell, 5-34. Chicago and London: The University of Chicago Press.</ext:value>
+				<ext:value type="text">uuid-44b79c43-7419-3a7d-a9d6-2f4428f9d872</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -155,7 +152,7 @@ Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postc
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postcards and the Tales They Tell&quot; http://www.tasveergharindia.net/cmsdesk/essay/102/index.html, last accessed 2011-01-07.</ext:value>
+				<ext:value type="text">uuid-7a7ba601-379e-3fcc-a9da-0e349eccf1db</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -164,7 +161,7 @@ Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postc
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Mathur S. 2007. &quot;India by Design: Colonial History and Cultural Display&quot;. Berkeley, Los Angeles, London: University of California Press; pp. 230.</ext:value>
+				<ext:value type="text">uuid-39345109-8e7b-373b-8e8f-f3a74448ec72</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -223,7 +220,7 @@ Talukdar, Shashwati 2010. &quot;Picturing Mountains As Hills. Hill Station Postc
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:21">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

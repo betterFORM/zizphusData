@@ -10,10 +10,6 @@
 			<location source="EXC" type="repository">
 				<name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/227411" type="corporate">HeidICON Image Database</name>
-				<refid>227411</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_2a9024aa-ce40-5bb6-bc02-d2dde5cb0d53" refid="227411" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -22,10 +18,10 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="10e5a796-6cb2-5e02-a043-8d56aa80d829">
-				<term type="worktype">black-and-white photographs</term>
+				<term type="descriptiveTopic">black-and-white photographs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3606d2bd-a29a-5124-a6c6-efa79b5af9bf">
-				<term type="concept">communication (function)</term>
+				<term type="conceptTopic">communication (function)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -43,7 +39,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:09">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:36">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

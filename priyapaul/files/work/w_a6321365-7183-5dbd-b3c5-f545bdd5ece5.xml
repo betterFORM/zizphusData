@@ -37,10 +37,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107871" type="corporate">HeidICON Image Database</name>
-				<refid>107871</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="187b2740-af93-54ad-aeaf-acdb00a48f74" type="medium">tin (metal)</material>
@@ -60,36 +56,38 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5baf3f4c-27ac-5b6b-a12a-0450ff4b9e56">
-				<term type="concept">bidi</term>
+				<term type="descriptiveTopic">bidi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
-				<term type="concept">Indian men</term>
+				<term type="conceptTopic">Indian men</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="347f0d83-d068-54ac-818e-6437ae27799d">
-				<term type="concept">moustaches</term>
+				<term type="descriptiveTopic">moustaches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="20fb45d1-c582-5b02-90e7-19fc89df5218">
-				<term type="internal workflow">recheck-Tony</term>
+				<term type="otherTopic">recheck-Tony</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6c8dfe5-5dd1-584c-9b2e-d7d51c6ebd5e">
-				<term type="internal workflow">recheck-Hindi-title</term>
+				<term type="otherTopic">recheck-Hindi-title</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -144,7 +142,7 @@ This advertisement for bidis shows a moustached man wearing a turban and smoking
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:26">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:01">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

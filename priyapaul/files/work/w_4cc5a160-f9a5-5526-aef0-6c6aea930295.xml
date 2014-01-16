@@ -22,10 +22,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109889" type="corporate">HeidICON Image Database</name>
-				<refid>109889</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -45,24 +41,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
-				<term type="concept">flags</term>
+				<term type="descriptiveTopic">flags</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">posters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
-				<term type="concept">Indian flag</term>
+				<term type="descriptiveTopic">Indian flag</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2502395d-3b88-5061-a85d-579655d59693">
-				<term type="work">furniture</term>
+				<term type="descriptiveTopic">furniture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -109,7 +107,7 @@ On this advertisement for Bhatia Safe Works, we see an Indian flag as well as se
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:43">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:58:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

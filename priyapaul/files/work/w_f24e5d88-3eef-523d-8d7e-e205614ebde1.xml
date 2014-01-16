@@ -7,7 +7,9 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -16,9 +18,8 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118712" type="corporate">HeidICON Image Database</name>
-				<refid>118712</refid>
+			<location type="site">
+				<note>Dig</note>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -40,12 +41,14 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="dcc4fc70-a1a1-5bea-a285-78104c9a340f">
-				<term type="geographic">Dig</term>
+				<term type="geographicPlace">Dig</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6705a90-7a51-54a6-a12d-af74994eb367">
-				<term type="geographic">Dig Palace</term>
+				<term type="builtworkPlace">Dig Palace</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -85,7 +88,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:26">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:04:39">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

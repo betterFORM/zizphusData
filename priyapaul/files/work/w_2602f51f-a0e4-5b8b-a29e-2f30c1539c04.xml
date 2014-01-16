@@ -101,10 +101,6 @@ England</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119765" type="corporate">HeidICON Image Database</name>
-				<refid>119765</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -136,48 +132,50 @@ England</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term type="animal">lion</term>
+				<term type="descriptiveTopic">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3c5e6969-b1bd-5f45-84de-b4ee4342bfad">
-				<term type="concept">airplanes</term>
+				<term type="descriptiveTopic">airplanes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term type="concept">children (people by age group)</term>
+				<term type="descriptiveTopic">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term type="concept">uniforms</term>
+				<term type="descriptiveTopic">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
-				<term type="animal">tigers (animals)</term>
+				<term type="descriptiveTopic">tigers (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="871b50a9-0b2b-5030-b9ca-80684acc2e82">
-				<term type="concept">shoes (footwear)</term>
+				<term type="descriptiveTopic">shoes (footwear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
-				<term type="work (daily)">Times of India</term>
+				<term type="otherTopic">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c55ea19d-1733-509b-ac2e-333cc2787e34">
-				<term type="product">Kiwi Dark Tan (product)</term>
+				<term type="descriptiveTopic">Kiwi Dark Tan (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="683333c5-fc07-5627-a7cf-ed555d6106a1">
-				<term type="product">Lilly Biscuits (brand)</term>
+				<term type="descriptiveTopic">Lilly Biscuits (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term type="work">Times of India Yearbook</term>
+				<term type="otherTopic">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -261,7 +259,7 @@ http://www.taxidermyemporium.co.uk/11.html, last accessed 2012-06-14. (gs)</ext:
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.henrypotter.co.uk/about.htm</ext:value>
+				<ext:value type="url">uuid-0796bb2e-dcfe-3703-8f78-b588080f46c6</ext:value>
 				<ext:value type="accessed">2012-06-14</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -272,7 +270,7 @@ http://www.taxidermyemporium.co.uk/11.html, last accessed 2012-06-14. (gs)</ext:
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.taxidermyemporium.co.uk/11.html</ext:value>
+				<ext:value type="url">uuid-b64bf418-b96a-3885-aefe-8a4fd57f3f20</ext:value>
 				<ext:value type="accessed">2012-06-14</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -325,7 +323,7 @@ http://www.taxidermyemporium.co.uk/11.html, last accessed 2012-06-14. (gs)</ext:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:10:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

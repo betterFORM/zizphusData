@@ -20,7 +20,9 @@ Sample for a textile label.</text>
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -44,10 +46,6 @@ Ahmedabad.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109789" type="corporate">HeidICON Image Database</name>
-				<refid>109789</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -67,27 +65,29 @@ Ahmedabad.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -126,7 +126,7 @@ These (ID's 109789, 109784) are specifically not textile labels, but image sampl
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Saeed, Yousuf</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-0fa63dfc-fbb1-5698-9896-cce0c0ac1c2b</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -143,7 +143,7 @@ These (ID's 109789, 109784) are specifically not textile labels, but image sampl
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:52">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:56:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

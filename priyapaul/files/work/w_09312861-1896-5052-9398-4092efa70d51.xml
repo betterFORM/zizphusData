@@ -8,17 +8,17 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-737e6ca4-f0a7-5a9a-88f1-7c609b3bbcc6">Hanuman</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-048694c0-93ed-5b54-8923-fb9017e4b9ae">Rama</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-1492ff1c-4c12-5ddb-851a-22420405b9df">Lakshman</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -67,10 +67,6 @@ No. 701</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119434" type="corporate">HeidICON Image Database</name>
-				<refid>119434</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -90,48 +86,50 @@ No. 701</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term type="concept">arrows</term>
+				<term type="descriptiveTopic">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term type="concept">Hinduism</term>
+				<term type="conceptTopic">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term type="concept">bows (weapons)</term>
+				<term type="descriptiveTopic">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="901dd9d4-9dfd-5fea-ab44-4dd02d31bfb8">
-				<term type="concept">quivers</term>
+				<term type="descriptiveTopic">quivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3db1d222-d591-5e56-9c91-097667ccf170">
-				<term type="work (epic)">Ramayana</term>
+				<term type="iconographicTopic">Ramayana</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term type="concept">lakes (bodies of water)</term>
+				<term type="descriptiveTopic">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term type="animal">peacocks (animals)</term>
+				<term type="descriptiveTopic">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b3818bd-32af-505f-b025-e3f07a743683">
-				<term type="animal">rabbits</term>
+				<term type="descriptiveTopic">rabbits</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term type="concept">peacock feather</term>
+				<term type="descriptiveTopic">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term type="concept">trade catalogs</term>
+				<term type="descriptiveTopic">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -191,7 +189,7 @@ Tulsidas is sometimes believed to be a reincarnation of Valmiki, the original au
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:49">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

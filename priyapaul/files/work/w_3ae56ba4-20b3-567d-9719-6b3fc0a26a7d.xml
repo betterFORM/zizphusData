@@ -33,10 +33,6 @@ In these soft words do live.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108197" type="corporate">HeidICON Image Database</name>
-				<refid>108197</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -57,24 +53,26 @@ In these soft words do live.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">
-				<term type="worktype">greeting cards</term>
+				<term type="descriptiveTopic">greeting cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b572556e-9771-5a5c-b04b-3dd6a4a06092">
-				<term type="concept">love cards (greeting cards)</term>
+				<term type="descriptiveTopic">love cards (greeting cards)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c414c2a5-3676-5500-9ca4-057abadcc562">
-				<term type="worktype">birthday cards</term>
+				<term type="descriptiveTopic">birthday cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec384af3-848a-5e36-9ed3-be26f36e831b">
-				<term type="concept">floral patterns</term>
+				<term type="descriptiveTopic">Blume &lt;Motiv&gt;</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -84,7 +82,7 @@ In these soft words do live.</text>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Greeting card with captions &quot;With Love On Your Birthday&quot;</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -135,7 +133,7 @@ On this birthday greeting card, we see a couple of flowers as well as a short po
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:59:41">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:54">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

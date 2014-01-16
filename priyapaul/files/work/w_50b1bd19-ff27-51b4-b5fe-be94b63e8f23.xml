@@ -7,13 +7,13 @@
 			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-945c7761-87ee-5fe4-b29d-cbf6e9ba82e0">Nav Ratan</name>
+				<name vocab="local" type="personal" refid="uuid-602e5cc7-7590-587e-9699-3a472e503a9b">Akbar</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-602e5cc7-7590-587e-9699-3a472e503a9b">Akbar</name>
-				<role vocab="marcrelator" type="code">art</role>
+				<name vocab="local" type="corporate" refid="uuid-945c7761-87ee-5fe4-b29d-cbf6e9ba82e0">Navaratnas Nauratan</name>
+				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -58,10 +58,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120587" type="corporate">HeidICON Image Database</name>
-				<refid>120587</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -84,21 +80,18 @@
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+			<stylePeriod vocab="LOCAL" refid="uuid-713bce21-8cae-59d4-a146-7a33333f9a8b">Mughal</stylePeriod>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ee7ac7d6-2a41-5d77-85e0-0e8934621f46">
-				<term type="concept">emperors</term>
+				<term type="iconographicTopic">emperors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="c1352e24-74bb-5cb1-94ef-f3b98db80084">
-				<term type="concept">Mughal Emperors</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="713bce21-8cae-59d4-a146-7a33333f9a8b">
-				<term type="concept">Mughal</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -140,7 +133,7 @@ Wink, Andre 2009. Akbar. Oxford: Oneworld. (gs)</ext:value>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Wink, Andre 2009. Akbar. Oxford: Oneworld.</ext:value>
+				<ext:value type="text">uuid-a01e4378-5c40-377e-ad67-3e8a26ae792a</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -149,8 +142,7 @@ Wink, Andre 2009. Akbar. Oxford: Oneworld. (gs)</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and
-Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (29.10.2010)</ext:value>
+				<ext:value type="text">uuid-6b8fa80b-8205-3560-828e-086e95200e1c</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -159,7 +151,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Hottinger, Arnold 1998. Akbar der Große. München: Fink</ext:value>
+				<ext:value type="text">uuid-3552615c-b217-3eea-bc17-ae68dbdc88c7</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -205,7 +197,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:11">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:02">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

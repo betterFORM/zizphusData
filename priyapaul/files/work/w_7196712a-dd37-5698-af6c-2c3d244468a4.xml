@@ -51,10 +51,6 @@ Established in Bombay 1767</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120723" type="corporate">HeidICON Image Database</name>
-				<refid>120723</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -74,30 +70,32 @@ Established in Bombay 1767</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term type="concept">horses</term>
+				<term type="descriptiveTopic">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term type="concept">statues</term>
+				<term type="descriptiveTopic">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8149006e-efa2-533d-aaa8-4bc924254539">
-				<term type="animal">roosters (animals)</term>
+				<term type="descriptiveTopic">roosters (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01eb4ed5-64e0-57eb-be56-78255a46f0b8">
-				<term type="concept">rearing horse</term>
+				<term type="descriptiveTopic">rearing horse</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -154,7 +152,7 @@ An advertisement calendar for Forbes, Forbes and Campbell Co. Ltd. with a rooste
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:42">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

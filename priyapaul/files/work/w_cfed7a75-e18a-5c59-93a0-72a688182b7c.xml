@@ -60,10 +60,6 @@ For Prices See clause No. 11. of our pricelist.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120549" type="corporate">HeidICON Image Database</name>
-				<refid>120549</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -83,30 +79,32 @@ For Prices See clause No. 11. of our pricelist.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
-				<term type="geographic">India</term>
+				<term type="geographicPlace">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4b96da05-a233-5f9f-a4b5-b35f99f01171">
-				<term type="concept">business</term>
+				<term type="conceptTopic">business enterprises</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term type="concept">maps</term>
+				<term type="descriptiveTopic">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fe7a1eb7-ee55-5804-8edc-a8035407ef24">
-				<term type="internal workflow">recheck-jo</term>
+				<term type="otherTopic">recheck-jo</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="67abd8f7-4696-5671-a0cc-50551a8de3c1">
-				<term type="geographic">Kolkata</term>
+				<term type="geographicPlace">Kolkata</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e633439b-14af-5514-b44f-eefe41180a39">
-				<term type="">South Asia</term>
+				<term type="geographicPlace">South Asia</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -171,7 +169,7 @@ Book Your Orders as early as possible in advance. Delay sometimes causes Disappo
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:25">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -48,10 +48,6 @@ and A/10, Bharat Niketan, Meredith Street, Calcutta</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119770" type="corporate">HeidICON Image Database</name>
-				<refid>119770</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -78,24 +74,26 @@ and A/10, Bharat Niketan, Meredith Street, Calcutta</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
-				<term type="work (daily)">Times of India</term>
+				<term type="otherTopic">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5a89efcd-7c4b-526c-989c-f9c110a14941">
-				<term type="product">Continental Typewriter (product)</term>
+				<term type="descriptiveTopic">Continental Typewriter (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term type="work">Times of India Yearbook</term>
+				<term type="otherTopic">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -139,7 +137,7 @@ http://machinesoflovinggrace.com/ptf/TEGContinental.html, basic information abou
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://machinesoflovinggrace.com/ptf/TEGContinental.html</ext:value>
+				<ext:value type="url">uuid-36e40b7a-2703-325f-8933-c0dc35724246</ext:value>
 				<ext:value type="accessed">2012-07-05</ext:value>
 				<ext:value type="comment">basic information about the company's history,</ext:value>
 				<ext:item type="agent">
@@ -188,7 +186,7 @@ Source: http://machinesoflovinggrace.com/ptf/TEGContinental.html</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:12">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:10:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

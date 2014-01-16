@@ -13,10 +13,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119563" type="corporate">HeidICON Image Database</name>
-				<refid>119563</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_19ef7995-515a-5eca-b725-e37fabacf4bc" refid="119563" source="EXC Priya Paul Collection" pref="true">front</relation>
@@ -32,7 +28,8 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">photo portrait of 2 Englishmen and an Indian boy, a sample from Bourne &amp; Shepherd (photographers)</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+			<worktype vocab="local" source="EXC" refid="0ba77cf0-6299-5129-aa46-7fc85280cf7f">group portraits</worktype>
+			<worktype vocab="local" source="EXC" refid="73280386-53ba-5365-8241-b8ced97391f7">studio portraits</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
@@ -65,7 +62,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:04">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:09:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

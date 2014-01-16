@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-4d912351-272c-503c-9ee3-5c5248c8eb53">archangel Michael</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -37,10 +37,6 @@ Protettore di Sala Consilina</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108146" type="corporate">HeidICON Image Database</name>
-				<refid>108146</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -79,24 +75,26 @@ Protettore di Sala Consilina</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">
-				<term type="worktype">greeting cards</term>
+				<term type="descriptiveTopic">greeting cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="97a3dcf5-63f4-5a3c-8a10-fb7dd4072779">
-				<term type="greeting">Eid Mubarak (greetings)</term>
+				<term type="conceptTopic">Eid Mubarak (greetings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cedec7f-30ff-5240-8107-7829ee512735">
-				<term type="concept">Eid cards</term>
+				<term type="descriptiveTopic">Eid cards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -106,7 +104,7 @@ Protettore di Sala Consilina</text>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">S. Michelle Arcangelo, Protettore di Sala Consilina</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 			<worktype vocab="local" source="EXC" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">greeting cards</worktype>
 		</worktypeSet>
 		<ext:heidicon>
@@ -142,7 +140,7 @@ Wehbe, Rana, Seeing Beirut through Colonial Postcards: A Charged Reality, (undat
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Patterson, Steven, Postcards from the Raj, Patterns of Prejudice, Volume 40, Number 2, Routledge, May 2006, 142-158; also see Saloni Mathur, 1999.</ext:value>
+				<ext:value type="text">uuid-15811200-1c63-3945-8729-80395f8145cc</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -151,7 +149,7 @@ Wehbe, Rana, Seeing Beirut through Colonial Postcards: A Charged Reality, (undat
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Mathur, Saloni, &quot;Wanted Native Views: Collecting colonial postcards of India,&quot; in Antionette Burton (ed.) Gender, Sexuality and Colonial Modernities, New York: Routledge, 1999, 95-115.</ext:value>
+				<ext:value type="text">uuid-386af3f6-72b3-3601-b871-928d2881ff45</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -162,7 +160,7 @@ Wehbe, Rana, Seeing Beirut through Colonial Postcards: A Charged Reality, (undat
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/117/index_1.html</ext:value>
+				<ext:value type="url">uuid-d27ec885-52f6-35f6-b84f-f934b7d8a5b3</ext:value>
 				<ext:value type="accessed">2011-04-04</ext:value>
 				<ext:value type="comment">Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim South Asia.&quot;</ext:value>
 				<ext:item type="agent">
@@ -173,7 +171,7 @@ Wehbe, Rana, Seeing Beirut through Colonial Postcards: A Charged Reality, (undat
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://webfea.fea.aub.edu.lb/proceedings/2004/SRC-ArD-01.pdf</ext:value>
+				<ext:value type="url">uuid-6db197c5-ba65-302b-b3e5-31849d103ae0</ext:value>
 				<ext:value type="accessed"></ext:value>
 				<ext:value type="comment">Wehbe, Rana, Seeing Beirut through Colonial Postcards: A Charged Reality, (undated) American University of Beirut, Lebanon,</ext:value>
 				<ext:item type="agent">
@@ -263,7 +261,7 @@ Wehbe, Rana, Seeing Beirut through Colonial Postcards: A Charged Reality, (undat
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:48">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

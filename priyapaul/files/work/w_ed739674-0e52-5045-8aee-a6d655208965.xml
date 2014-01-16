@@ -30,7 +30,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -101,10 +103,6 @@ Mathurai, Tindivandam,. Madras, Nagari, Vijayawada, Kakisada, Vizianagaram City 
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118314" type="corporate">HeidICON Image Database</name>
-				<refid>118314</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -119,9 +117,9 @@ Mathurai, Tindivandam,. Madras, Nagari, Vijayawada, Kakisada, Vizianagaram City 
 			<relation type="imageIs" relids="i_677eafde-cf55-5e00-b2a1-c49b16388bc2" refid="118314" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_f9987399-c323-5adf-9325-9511b3496e38" refid="118316" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_28840c35-9e5e-59a4-8d51-420f2577c899" refid="118318" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_cb30dd22-d4e3-5a47-81c6-2464c4acc8e8" refid="118322" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_de719891-21d7-526f-a6c3-500e79a1362a" refid="118321" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_1d7d3503-11e5-5114-9a2c-25bf7c9a9cc6" refid="118317" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_de719891-21d7-526f-a6c3-500e79a1362a" refid="118321" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_cb30dd22-d4e3-5a47-81c6-2464c4acc8e8" refid="118322" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_e1e2b5ec-82a9-5e26-9367-62aade2cf3ef" refid="118319" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_7be672fe-68af-52dd-bd3c-972885cd409f" refid="118315" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_7b564539-b5a6-5c65-87f5-622ebcb7817e" refid="118320" source="EXC Priya Paul Collection">detail view</relation>
@@ -132,42 +130,44 @@ Mathurai, Tindivandam,. Madras, Nagari, Vijayawada, Kakisada, Vizianagaram City 
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ce564016-385d-52bc-b28d-6199c2d05f60">
-				<term type="concept">pillars</term>
+				<term type="descriptiveTopic">pillars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
-				<term type="concept">deities</term>
+				<term type="iconographicTopic">deities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term type="concept">Hinduism</term>
+				<term type="conceptTopic">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="489bbc57-16cc-5f57-b489-8ab8375cfe8f">
-				<term type="concept">animals</term>
+				<term type="descriptiveTopic">animals</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f5597a77-3119-5305-8de8-f85bcec5936e">
-				<term type="concept">thrones</term>
+				<term type="descriptiveTopic">thrones</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term type="concept">musical instruments</term>
+				<term type="descriptiveTopic">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ba615510-1543-5302-b648-901bc76f1fee">
-				<term type="concept">devotees</term>
+				<term type="conceptTopic">devotees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92d81854-48e0-5626-a990-1482be071f71">
-				<term type="concept">food</term>
+				<term type="descriptiveTopic">food</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term type="animal">lion</term>
+				<term type="descriptiveTopic">Löwe</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -268,8 +268,8 @@ On this advertisement calendar for A&amp;F Harvey Ltd., a group of people, deiti
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118322</ext:value>
-				<ext:value>i_cb30dd22-d4e3-5a47-81c6-2464c4acc8e8</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118317</ext:value>
+				<ext:value>i_1d7d3503-11e5-5114-9a2c-25bf7c9a9cc6</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -278,8 +278,8 @@ On this advertisement calendar for A&amp;F Harvey Ltd., a group of people, deiti
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118317</ext:value>
-				<ext:value>i_1d7d3503-11e5-5114-9a2c-25bf7c9a9cc6</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118322</ext:value>
+				<ext:value>i_cb30dd22-d4e3-5a47-81c6-2464c4acc8e8</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -305,7 +305,7 @@ On this advertisement calendar for A&amp;F Harvey Ltd., a group of people, deiti
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:28">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:02:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

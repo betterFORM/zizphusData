@@ -67,10 +67,6 @@ Photography Manmohan Singh</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120473" type="corporate">HeidICON Image Database</name>
-				<refid>120473</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -94,24 +90,26 @@ Photography Manmohan Singh</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term type="plant">roses (plants)</term>
+				<term type="descriptiveTopic">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8e26a89c-a74b-597f-b23c-c848b7320421">
-				<term type="work (movie)">Chandni (movie, 1989)</term>
+				<term type="iconographicTopic">Chandni (movie, 1989)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -156,7 +154,7 @@ Movie poster. (ja)</ext:value>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0097045/</ext:value>
+				<ext:value type="url">uuid-d773155f-5838-3c03-9e51-943d64c23b6a</ext:value>
 				<ext:value type="accessed">2011-12-12</ext:value>
 				<ext:value type="comment">story line, leading actors, directors. Chandni was one of the biggest hits of the year 1989.</ext:value>
 				<ext:item type="agent">
@@ -222,7 +220,7 @@ Movie poster. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:01">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:20">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

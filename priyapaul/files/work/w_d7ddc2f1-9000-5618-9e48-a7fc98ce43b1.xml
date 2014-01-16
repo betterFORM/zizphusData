@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -39,7 +39,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -58,10 +60,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118444" type="corporate">HeidICON Image Database</name>
-				<refid>118444</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -105,30 +103,32 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="740865b6-6fd5-5a8f-96c3-02f76ce5c94a">
-				<term type="brand">Sunlight soap (product)</term>
+				<term type="descriptiveTopic">Sunlight soap (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="93d4dd84-99a8-5d5d-9eef-e1b21db03ace">
-				<term type="concept">soap (organic material)</term>
+				<term type="descriptiveTopic">soap (organic material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
-				<term type="concept">soap advertisings</term>
+				<term type="descriptiveTopic">soap advertisings</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ee73d35e-c88c-5e77-a65b-9071fdd5f057">
-				<term type="brand">Sunlight (brand)</term>
+				<term type="descriptiveTopic">Sunlight (brand)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -189,7 +189,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Ravi Varma, Raja and I.M.E. Veniyoor 2007. &quot;Ravi Varma Raji. the most celebrated painter of India, 1848 - 1906&quot; Bangalore: Parsram Mangharam.</ext:value>
+				<ext:value type="text">uuid-0006ebca-e4b8-3c58-bb27-a9330a4894b0</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -198,7 +198,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">McClintock, Anne 2001. âSoft Soaping Empire: Commodity Racism and Imperial Advertisingâ in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</ext:value>
+				<ext:value type="text">uuid-f205bb56-24b9-3e10-a141-efd9471f353d</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -207,7 +207,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot;</ext:value>
+				<ext:value type="text">uuid-e47229f7-cd8d-3c39-903d-eec15ad4ee1f</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -216,7 +216,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</ext:value>
+				<ext:value type="text">uuid-9d545597-010a-3893-ac18-9bd528f79c7a</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -225,7 +225,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press.</ext:value>
+				<ext:value type="text">uuid-28d89cec-4cdf-38cf-9336-793cee5d1f80</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -234,7 +234,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</ext:value>
+				<ext:value type="text">uuid-f9f24f74-91ab-3abb-ac19-5b87e5d53674</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -243,7 +243,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Neumayer, Erwin and Christine Schellberger 2003. &quot;Popular Indian Art. Raja Ravi Varma and the printed gods of India.&quot; New Delhi: Oxford University Press.</ext:value>
+				<ext:value type="text">uuid-0a6d71cc-d9fe-3c87-9ca2-f52455306773</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -252,7 +252,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Davis, Richard H. 2010. &quot;Temple in a Frame. God Posters For and Of Worship&quot;. Tasveer Ghar essay</ext:value>
+				<ext:value type="text">uuid-9822363a-680b-3e73-811e-37cf147ef6fd</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -263,7 +263,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</ext:value>
+				<ext:value type="url">uuid-e47229f7-cd8d-3c39-903d-eec15ad4ee1f</ext:value>
 				<ext:value type="accessed">2011-01-08</ext:value>
 				<ext:value type="comment">Tasveer Ghar essay</ext:value>
 				<ext:item type="agent">
@@ -274,7 +274,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/97/index.html</ext:value>
+				<ext:value type="url">uuid-9822363a-680b-3e73-811e-37cf147ef6fd</ext:value>
 				<ext:value type="accessed">2011-01-08</ext:value>
 				<ext:value type="comment">Tasveer Ghar essay  &quot;Temple in a Frame. God Posters For and Of Worship&quot;</ext:value>
 				<ext:item type="agent">
@@ -403,7 +403,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:27">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:03:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

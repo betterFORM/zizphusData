@@ -64,10 +64,6 @@ Mkt by Jawaharlal &amp; Sons Jaipur.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108107" type="corporate">HeidICON Image Database</name>
-				<refid>108107</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -87,30 +83,32 @@ Mkt by Jawaharlal &amp; Sons Jaipur.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
-				<term type="concept">matchbook</term>
+				<term type="descriptiveTopic">matchbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2d8888fe-fae9-5325-8aad-11c7b6998804">
-				<term type="concept">dupattas (garnments)</term>
+				<term type="descriptiveTopic">dupattas (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
-				<term type="worktype">matchboxes</term>
+				<term type="descriptiveTopic">matchboxes</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -208,7 +206,7 @@ A leaf of a scrap book. (ja)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:11">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:56:38">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

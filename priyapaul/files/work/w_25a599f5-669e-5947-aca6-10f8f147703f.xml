@@ -47,10 +47,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/123054" type="corporate">HeidICON Image Database</name>
-				<refid>123054</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -70,30 +66,32 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d5948ba8-5ab8-5065-bc79-0c3d471a75e1">
-				<term type="concept">kameez (garnments)</term>
+				<term type="descriptiveTopic">kameez (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f8c0686-77ac-5a99-83ed-a8acedaf61bb">
-				<term type="animal">pigeons (general term)</term>
+				<term type="descriptiveTopic">pigeons (general term)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
-				<term type="concept">fair skin</term>
+				<term type="conceptTopic">fair skin</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2d8888fe-fae9-5325-8aad-11c7b6998804">
-				<term type="concept">dupattas (garnments)</term>
+				<term type="descriptiveTopic">dupattas (garnments)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -133,7 +131,7 @@ An image with the title &quot;Lovely Pigeon&quot; from the Empire Calender Manuf
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:17">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:18:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

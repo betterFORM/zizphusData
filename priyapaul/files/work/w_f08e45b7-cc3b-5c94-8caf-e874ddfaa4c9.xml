@@ -29,7 +29,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -60,10 +62,6 @@ Karnik Bros. Girgaum, Bombay</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119201" type="corporate">HeidICON Image Database</name>
-				<refid>119201</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -77,9 +75,9 @@ Karnik Bros. Girgaum, Bombay</text>
 		<relationSet>
 			<relation type="imageIs" relids="i_29ef5b5a-ea7d-5b82-bd37-172ed1fb4f84" refid="119201" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_48b5d917-56e5-5727-9355-a5019256b9f0" refid="119202" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_7552996a-10a0-554a-b129-5b16dc4c31a7" refid="119203" source="EXC Priya Paul Collection">close-up view</relation>
-			<relation type="imageIs" relids="i_8adb8295-c328-5702-8126-082ed7842ace" refid="119204" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_eab18935-aaf7-5830-bced-6ee4d2bf9b2c" refid="119206" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_8adb8295-c328-5702-8126-082ed7842ace" refid="119204" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_7552996a-10a0-554a-b129-5b16dc4c31a7" refid="119203" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_b12dc6c1-d0e3-56a7-ba45-071ac7919c04" refid="119205" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
@@ -88,42 +86,44 @@ Karnik Bros. Girgaum, Bombay</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a0d4361-0930-5f95-9b01-e90ec197f6d3">
-				<term type="concept">veils (headcloths)</term>
+				<term type="descriptiveTopic">veils (headcloths)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b277299f-1a4d-51bc-a341-fc49ba94bf4f">
-				<term type="product">Indo-Balm (product)</term>
+				<term type="descriptiveTopic">Indo-Balm (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -191,9 +191,9 @@ On this advertisement calendar from Indo Palm, an Indian woman can be seen adjus
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119203</ext:value>
-				<ext:value>i_7552996a-10a0-554a-b129-5b16dc4c31a7</ext:value>
-				<ext:value>close-up view</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119206</ext:value>
+				<ext:value>i_eab18935-aaf7-5830-bced-6ee4d2bf9b2c</ext:value>
+				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119204</ext:value>
@@ -201,9 +201,9 @@ On this advertisement calendar from Indo Palm, an Indian woman can be seen adjus
 				<ext:value>close-up view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119206</ext:value>
-				<ext:value>i_eab18935-aaf7-5830-bced-6ee4d2bf9b2c</ext:value>
-				<ext:value>detail view</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119203</ext:value>
+				<ext:value>i_7552996a-10a0-554a-b129-5b16dc4c31a7</ext:value>
+				<ext:value>close-up view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119205</ext:value>
@@ -218,7 +218,7 @@ On this advertisement calendar from Indo Palm, an Indian woman can be seen adjus
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:15">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:07:40">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

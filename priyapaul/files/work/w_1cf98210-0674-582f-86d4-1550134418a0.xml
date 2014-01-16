@@ -35,10 +35,6 @@ Rs. 10</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109740" type="corporate">HeidICON Image Database</name>
-				<refid>109740</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="187b2740-af93-54ad-aeaf-acdb00a48f74" type="medium">tin (metal)</material>
@@ -58,18 +54,20 @@ Rs. 10</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2da00547-3dee-5b48-8288-3c3ae822879d">
-				<term type="concept">biscuits (snack)</term>
+				<term type="descriptiveTopic">biscuits (snack)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f8b063-30c9-5366-8efe-4ebf4746734b">
-				<term type="concept">New Indian Woman</term>
+				<term type="conceptTopic">New Indian Woman</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -121,7 +119,7 @@ This advertisement for ICT manufactured biscuits shows a modern Indian woman wit
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:25">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:43">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

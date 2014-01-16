@@ -48,10 +48,6 @@ SIMLA, CALCUTTA
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119562" type="corporate">HeidICON Image Database</name>
-				<refid>119562</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -72,36 +68,38 @@ SIMLA, CALCUTTA
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d422a5e0-c57f-520d-b80d-9ce67fff49e1">
-				<term type="concept">hats</term>
+				<term type="descriptiveTopic">hats</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3eb2f2a4-a55e-56ee-9de8-4c623473da3d">
-				<term type="concept">armchairs</term>
+				<term type="descriptiveTopic">armchairs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
-				<term type="concept">whiteness</term>
+				<term type="conceptTopic">whiteness</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6994785f-702b-52aa-98c6-866390c2c2bc">
-				<term type="concept">Traditional Indian clothes</term>
+				<term type="descriptiveTopic">Traditional Indian clothes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2502395d-3b88-5061-a85d-579655d59693">
-				<term type="work">furniture</term>
+				<term type="descriptiveTopic">furniture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0f593e2f-1107-5b3c-bf37-c49f1be572ca">
-				<term type="work">suits (main garments)</term>
+				<term type="descriptiveTopic">suits (main garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -145,7 +143,7 @@ The photograph depicts an Indian man wearing traditional Indian clothes and a tu
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:03">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:09:37">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

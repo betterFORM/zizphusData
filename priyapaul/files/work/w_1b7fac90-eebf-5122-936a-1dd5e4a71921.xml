@@ -40,10 +40,6 @@ Photography Kamal Bose</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120336" type="corporate">HeidICON Image Database</name>
-				<refid>120336</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_1c59a1c1-544d-50ba-a809-c24542aec762" refid="120336" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -63,19 +59,19 @@ Photography Kamal Bose</text>
 		</sourceSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term type="concept">statues</term>
+				<term type="descriptiveTopic">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term type="worktype">lobby cards</term>
+				<term type="descriptiveTopic">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">film stills</term>
+				<term type="descriptiveTopic">film stills</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -107,7 +103,7 @@ http://www.imdb.com/title/tt0147843/, story line, leading actors, director, last
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0147843/</ext:value>
+				<ext:value type="url">uuid-8e7143f1-08d4-3487-9e2d-b872f46214ee</ext:value>
 				<ext:value type="accessed">2012-08-13</ext:value>
 				<ext:value type="comment">story line, leading actors, director,</ext:value>
 				<ext:item type="agent">
@@ -150,7 +146,7 @@ http://www.imdb.com/title/tt0147843/, story line, leading actors, director, last
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:00:31">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:14:27">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

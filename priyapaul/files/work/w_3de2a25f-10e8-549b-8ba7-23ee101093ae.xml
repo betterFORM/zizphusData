@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -40,10 +42,6 @@ Zaveri Bazar, Bombay, 2.</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120548" type="corporate">HeidICON Image Database</name>
-				<refid>120548</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -66,24 +64,26 @@ Zaveri Bazar, Bombay, 2.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7a297ace-da99-55bc-8e02-e48f4a923577">
-				<term type="concept">fans (equipment)</term>
+				<term type="descriptiveTopic">fans (equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fe7a1eb7-ee55-5804-8edc-a8035407ef24">
-				<term type="internal workflow">recheck-jo</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="6375f143-8d58-540f-81c8-bbbd1f095c02">
-				<term type="worktype">fans (costume accessories)</term>
+				<term type="otherTopic">recheck-jo</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">Schmuck</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="6375f143-8d58-540f-81c8-bbbd1f095c02">
+				<term type="descriptiveTopic">Fächer</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -147,7 +147,7 @@ The image on the promotional hand fan shows a blonde woman in front of a large m
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:22">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

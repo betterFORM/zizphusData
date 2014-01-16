@@ -41,10 +41,6 @@ NUTAN SAMARTH</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118794" type="corporate">HeidICON Image Database</name>
-				<refid>118794</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -76,21 +72,23 @@ NUTAN SAMARTH</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eff8de2f-9616-5eb9-ae5a-69b823c38431">
-				<term type="concept">actresses</term>
+				<term type="descriptiveTopic">actresses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -123,7 +121,7 @@ http://cineplot.com/nutan/, last accessed 2011-08-12, Nutan Samarth's biography 
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://cineplot.com/nutan/</ext:value>
+				<ext:value type="url">uuid-781f6526-5431-328a-9a70-63ecc69bcfab</ext:value>
 				<ext:value type="accessed">2011-08-12</ext:value>
 				<ext:value type="comment">Nutan Samarth's biography</ext:value>
 				<ext:item type="agent">
@@ -134,7 +132,7 @@ http://cineplot.com/nutan/, last accessed 2011-08-12, Nutan Samarth's biography 
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/name/nm0638295/</ext:value>
+				<ext:value type="url">uuid-7718ac9a-af46-3865-af42-bfc2cc4311a1</ext:value>
 				<ext:value type="accessed">2011-08-12</ext:value>
 				<ext:value type="comment">Nutan Samarth's biography</ext:value>
 				<ext:item type="agent">
@@ -168,7 +166,7 @@ http://cineplot.com/nutan/, last accessed 2011-08-12, Nutan Samarth's biography 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:35">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

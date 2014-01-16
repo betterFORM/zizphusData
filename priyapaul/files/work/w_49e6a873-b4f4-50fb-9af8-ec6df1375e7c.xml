@@ -30,10 +30,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108042" type="corporate">HeidICON Image Database</name>
-				<refid>108042</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -54,30 +50,32 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term type="concept">arrows</term>
+				<term type="descriptiveTopic">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term type="concept">rivers</term>
+				<term type="descriptiveTopic">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term type="concept">bows (weapons)</term>
+				<term type="descriptiveTopic">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -87,7 +85,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Satyavati &amp; Shantanu, in a postcard, published in Art Series, by P.S.Joshi Art Publishers, Bombay</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -135,7 +133,7 @@ P. S. Joshi, Art Publisher, 132 Kalbadevi Road, Bombay. [on backside? (ja)]</ext
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:25">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:44">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-088240fa-d01e-587a-bee4-7bf0ac401445">Shiva</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -53,10 +53,6 @@ No. 628</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119445" type="corporate">HeidICON Image Database</name>
-				<refid>119445</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -78,30 +74,32 @@ No. 628</text>
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="0c740b41-1daa-582f-9c09-b0fd1631e995">
-				<term type="concept">clouds</term>
+				<term type="descriptiveTopic">clouds</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="684839a3-ade7-5368-9e7b-d639c0908e2d">
-				<term type="concept">fires</term>
+				<term type="descriptiveTopic">fires</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ce34978f-c031-5a97-81ac-9bdf0f09aa62">
-				<term type="concept">tandava (dance)</term>
+				<term type="conceptTopic">tandava (dance)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term type="concept">trade catalogs</term>
+				<term type="descriptiveTopic">trade catalogs</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -161,7 +159,7 @@ http://www.hindujagruti.org/hinduism/knowledge/article/what-is-the-origin-of-tan
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:22">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

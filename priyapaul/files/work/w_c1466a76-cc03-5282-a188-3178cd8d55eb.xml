@@ -21,7 +21,9 @@ The bottom part of the page has a calendar of the year 1967 and the Advertisemen
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -37,10 +39,6 @@ Sadar Bazar, DELHI - 6.</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119066" type="corporate">HeidICON Image Database</name>
-				<refid>119066</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -68,34 +66,34 @@ Sadar Bazar, DELHI - 6.</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
-				<term type="concept">temples (buildings)</term>
+				<term type="descriptiveTopic">temples (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2d14d168-60c3-5e2b-b789-3c9885eca6b1">
-				<term type="concept">gods</term>
+				<term type="conceptTopic">gods</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
-				<term type="concept">moon</term>
+				<term type="descriptiveTopic">moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff2e490b-01b3-5ec3-bce0-482c8e3ed529">
-				<term type="concept">musicians</term>
+				<term type="descriptiveTopic">musicians</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term type="concept">musical instruments</term>
+				<term type="descriptiveTopic">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b675fb76-330b-5b1f-80c7-1a150859c76a">
-				<term type="concept">sitars (Indian chordophones)</term>
+				<term type="descriptiveTopic">sitars (Indian chordophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fe7a1eb7-ee55-5804-8edc-a8035407ef24">
-				<term type="internal workflow">recheck-jo</term>
+				<term type="otherTopic">recheck-jo</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">Werbung</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -162,7 +160,7 @@ The bottom part of the page has a calendar of the year 1967 and the Advertisemen
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:51">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

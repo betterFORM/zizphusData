@@ -45,10 +45,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120242" type="corporate">HeidICON Image Database</name>
-				<refid>120242</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -68,30 +64,32 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term type="geographic">Sun (star)</term>
+				<term type="descriptiveTopic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9bd2f0d0-4d9b-5925-b7de-9147a5d09b0f">
-				<term type="concept">sunbursts</term>
+				<term type="descriptiveTopic">sunbursts</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term type="concept">rivers</term>
+				<term type="descriptiveTopic">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term type="plant">lotus (motif)</term>
+				<term type="descriptiveTopic">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="03a7bcf1-4769-5087-a894-87c0f5d666a1">
-				<term type="concept">sunrise</term>
+				<term type="descriptiveTopic">sunrise</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a0f3e68b-1bc1-5b2b-940b-d970f99d9de5">
-				<term type="concept">ponds (water)</term>
+				<term type="descriptiveTopic">ponds (water)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -152,7 +150,7 @@ This circular textile label of the Pratap Spinning, Weaving &amp; Manufacturing 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:31">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:13:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

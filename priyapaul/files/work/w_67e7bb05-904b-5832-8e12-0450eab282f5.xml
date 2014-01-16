@@ -8,11 +8,11 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5abfa90e-edfc-56bb-bf3f-bb03c06480e7">Lakshmi</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="corporate" refid="uuid-6feb4a67-786b-596e-97de-b65df062830a">Vinolia</name>
+				<name vocab="local" type="corporate" refid="uuid-6feb4a67-786b-596e-97de-b65df062830a">Vinolia Co. Ltd.</name>
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
 		</agentSet>
@@ -24,7 +24,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -64,10 +66,6 @@ BABY SOAP</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118684" type="corporate">HeidICON Image Database</name>
-				<refid>118684</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -84,10 +82,10 @@ BABY SOAP</text>
 			<relation type="imageIs" relids="i_d555074b-13f1-5e13-abe0-2cdd332a25b9" refid="118682" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_7326e053-7b28-5067-b176-5d72814b292d" refid="118679" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_41cec378-b5b8-5abf-9e4e-65d4e1a99f87" refid="118676" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_af52b7b3-fdec-554a-92e1-7bec44c55299" refid="118685" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_e8913d7d-98b5-5901-bff6-3a89a554ac3f" refid="118678" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_ebd30aae-088e-54dd-85e7-939219a23ef3" refid="118683" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_5d897c96-166e-5c11-9516-bdf98e950e16" refid="118681" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_e8913d7d-98b5-5901-bff6-3a89a554ac3f" refid="118678" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_af52b7b3-fdec-554a-92e1-7bec44c55299" refid="118685" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_a0bf7772-6481-5396-a22e-9cac24325ddc" refid="118677" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
@@ -96,39 +94,41 @@ BABY SOAP</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
-				<term type="animal">elephants</term>
+				<term type="descriptiveTopic">Asian elephants (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
-				<term type="animal">swans</term>
+				<term type="descriptiveTopic">swans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f556a343-7ac9-5bef-b2d3-de6e78e498fe">
-				<term type="concept">four-armed</term>
+				<term type="iconographicTopic">four-armed</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term type="plant">lotus (motif)</term>
+				<term type="descriptiveTopic">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2d1f2b2b-80e4-56fc-809d-0d28b51bb7c9">
-				<term type="brand">Vinolia soap (product)</term>
+				<term type="descriptiveTopic">Vinolia soap (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="93d4dd84-99a8-5d5d-9eef-e1b21db03ace">
-				<term type="concept">soap (organic material)</term>
+				<term type="descriptiveTopic">soap (organic material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
-				<term type="concept">soap advertisings</term>
+				<term type="descriptiveTopic">soap advertisings</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term type="concept">lakes (bodies of water)</term>
+				<term type="descriptiveTopic">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6a7ef104-16e5-51b0-9f39-6f1bdab51d8e">
-				<term type="concept">Fellows 2010</term>
+				<term type="otherTopic">Fellows 2010</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -214,8 +214,8 @@ The four-armed goddess Lakshmi, wearing a pink sari and holding two pink lotus f
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118685</ext:value>
-				<ext:value>i_af52b7b3-fdec-554a-92e1-7bec44c55299</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118678</ext:value>
+				<ext:value>i_e8913d7d-98b5-5901-bff6-3a89a554ac3f</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -229,8 +229,8 @@ The four-armed goddess Lakshmi, wearing a pink sari and holding two pink lotus f
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118678</ext:value>
-				<ext:value>i_e8913d7d-98b5-5901-bff6-3a89a554ac3f</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118685</ext:value>
+				<ext:value>i_af52b7b3-fdec-554a-92e1-7bec44c55299</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -246,7 +246,7 @@ The four-armed goddess Lakshmi, wearing a pink sari and holding two pink lotus f
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:05">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:04:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -13,10 +13,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108638" type="corporate">HeidICON Image Database</name>
-				<refid>108638</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -37,15 +33,17 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term type="concept">horses</term>
+				<term type="descriptiveTopic">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b80dfe9-529b-566d-811c-3d2a6918fdaf">
-				<term type="concept">kings (people)</term>
+				<term type="iconographicTopic">kings (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3f10f95f-896a-5113-b156-1b8500ead083">
-				<term type="concept">riding (traveling)</term>
+				<term type="descriptiveTopic">riding (traveling)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -93,7 +91,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:46">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

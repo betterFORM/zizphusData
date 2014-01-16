@@ -39,10 +39,6 @@ Limejuice</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120553" type="corporate">HeidICON Image Database</name>
-				<refid>120553</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -62,33 +58,35 @@ Limejuice</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term type="plant">lotus (motif)</term>
+				<term type="descriptiveTopic">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
-				<term type="concept">Western women</term>
+				<term type="conceptTopic">Western women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4dee7143-913a-546d-b30b-e1ab98f1a0b3">
-				<term type="concept">water lilies (plants)</term>
+				<term type="descriptiveTopic">water lilies (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
-				<term type="concept">hair oil</term>
+				<term type="descriptiveTopic">hair oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fe7a1eb7-ee55-5804-8edc-a8035407ef24">
-				<term type="internal workflow">recheck-jo</term>
+				<term type="otherTopic">recheck-jo</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7642cd6a-71bd-57c8-bc3f-2f93f8f37698">
-				<term type="concept">perfume (scent)</term>
+				<term type="descriptiveTopic">perfume (scent)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -148,7 +146,7 @@ Limejuice</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:37">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

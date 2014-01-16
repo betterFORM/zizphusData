@@ -3,7 +3,7 @@
 		<agentSet>
 			<agent>
 				<name vocab="local" refid="uuid-edeaf4e7-ee99-5733-a841-fdb06decebb5" pref="false" type="corporate">Cluster of Excellence "Asia and Europe in a Global Context", Heidelberg University.</name>
-				<role vocab="marcrelator" code="mdc">Metadata contact</role>
+				<role vocab="marcrelator" type="code">mdc</role>
 			</agent>
 			<agent>
 				<name vocab="local" refid="uuid-edf9fbf7-a154-5fc8-835e-9aff2e5d2d69" pref="true" type="corporate">Tasveer Ghar</name>
@@ -47,7 +47,7 @@
 			</rights>
 		</rightsSet>
 		<techniqueSet>
-			<technique vocab="AAT" refid="300237903">digital imaging</technique>
+			<technique vocab="local" refid="uuid-fc6b0d7d-c757-5bc2-aa52-b2c59bbd52f1">digital imaging</technique>
 		</techniqueSet>
 		<titleSet>
 			<title lang="eng" script="Latn" type="partialView">Darwaza (India's first horror film)</title>
@@ -62,7 +62,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:18"></ext:administrative>
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:14"></ext:administrative>
 		</ext:heidicon>
 	</image>
 </vra>

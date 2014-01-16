@@ -32,10 +32,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108066" type="corporate">HeidICON Image Database</name>
-				<refid>108066</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -62,15 +58,17 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ca3782a9-3f01-5053-b19b-c54b2c67de66">
-				<term type="concept">crowds</term>
+				<term type="descriptiveTopic">crowds</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -108,7 +106,7 @@ http://geeksutra.blogspot.de/2005/08/draupadi-woman-epitome-of-feminity-and_04.h
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://geeksutra.blogspot.de/2005/08/draupadi-woman-epitome-of-feminity-and_04.html</ext:value>
+				<ext:value type="url">uuid-9b23f6fd-1790-3672-8063-086afbcea97e</ext:value>
 				<ext:value type="accessed">2012-09-13</ext:value>
 				<ext:value type="comment">explanation and story of the Draupadi Vastrahatan,</ext:value>
 				<ext:item type="agent">
@@ -161,7 +159,7 @@ From http://geeksutra.blogspot.de/2005/08/draupadi-woman-epitome-of-feminity-and
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:25">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:19">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

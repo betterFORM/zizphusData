@@ -92,10 +92,6 @@ Laxmikant Pyarelal</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119303" type="corporate">HeidICON Image Database</name>
-				<refid>119303</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -118,36 +114,38 @@ Laxmikant Pyarelal</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term type="worktype">lobby cards</term>
+				<term type="descriptiveTopic">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">film stills</term>
+				<term type="descriptiveTopic">film stills</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="736f564f-4b52-5a87-a4c0-947f63b3b60d">
-				<term type="work (movie)">Satyam Shivam Sundaram (movie, 1978)</term>
+				<term type="iconographicTopic">Satyam Shivam Sundaram (movie, 1978)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -203,7 +201,7 @@ http://en.wikipedia.org/wiki/Laxmikant-Pyarelal, last accessed 2012-01-30, wikip
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://en.wikipedia.org/wiki/Laxmikant-Pyarelal</ext:value>
+				<ext:value type="url">uuid-989aaaf2-0bc0-3786-9cbe-8c290aa82278</ext:value>
 				<ext:value type="accessed">2012-01-30</ext:value>
 				<ext:value type="comment">wikipedia-en page on the popular Indian composer duo</ext:value>
 				<ext:item type="agent">
@@ -214,7 +212,7 @@ http://en.wikipedia.org/wiki/Laxmikant-Pyarelal, last accessed 2012-01-30, wikip
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0078204/</ext:value>
+				<ext:value type="url">uuid-d18a64e8-31f1-3d87-8442-4b19fb016614</ext:value>
 				<ext:value type="accessed">2011-12-29</ext:value>
 				<ext:value type="comment">story plot, leading actors, director,</ext:value>
 				<ext:item type="agent">
@@ -279,7 +277,7 @@ http://en.wikipedia.org/wiki/Laxmikant-Pyarelal, last accessed 2012-01-30, wikip
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:06">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

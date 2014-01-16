@@ -22,10 +22,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120554" type="corporate">HeidICON Image Database</name>
-				<refid>120554</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -45,24 +41,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ed5adaee-e891-54c9-bd3d-5a664acc9306">
-				<term type="concept">mirrors</term>
+				<term type="descriptiveTopic">mirrors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3fdf7d56-65c2-56ae-b427-91cd4fed9d46">
-				<term type="concept">green sari</term>
+				<term type="descriptiveTopic">green sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="151b1875-3232-5cc5-b69d-b904e0a6fec2">
-				<term type="concept">combs (grooming tools)</term>
+				<term type="descriptiveTopic">combs (grooming tools)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
-				<term type="concept">black hair</term>
+				<term type="descriptiveTopic">black hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8da4da80-6dc2-5734-bc3f-022f5ee4b80c">
-				<term type="concept">grooming</term>
+				<term type="conceptTopic">grooming</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -110,7 +108,7 @@ A woman grooming her long black hair stands by a small wooden table with toiletr
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:40">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -40,10 +42,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119075" type="corporate">HeidICON Image Database</name>
-				<refid>119075</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -63,18 +61,20 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term type="plant">roses (plants)</term>
+				<term type="descriptiveTopic">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0c001e4-367f-557b-9542-e92cf25f6f8c">
-				<term type="internal workflow">recheck-Sri</term>
+				<term type="otherTopic">recheck-Sri</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -129,7 +129,7 @@ The image is an advertisement for Mohan Lal Madan Lal Jewellers in Delhi. The il
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:21">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:51">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

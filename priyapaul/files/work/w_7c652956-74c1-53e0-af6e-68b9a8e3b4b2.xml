@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c17c1a5a-bb92-59c0-975c-0d363a3d3c57">Arjuna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -37,10 +37,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119903" type="corporate">HeidICON Image Database</name>
-				<refid>119903</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -60,33 +56,35 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="60d7e557-840a-5ac6-8224-efe262184804">
-				<term type="concept">conch (shell)</term>
+				<term type="descriptiveTopic">conch (shell)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term type="concept">arrows</term>
+				<term type="descriptiveTopic">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term type="concept">bows (weapons)</term>
+				<term type="descriptiveTopic">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c0b105f4-9264-5f5e-b428-8159edff94d7">
-				<term type="concept">archery</term>
+				<term type="descriptiveTopic">archery</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ee6460be-18b7-5bce-a992-2be98b30f852">
-				<term type="work (book)">Bhagavad Gita</term>
+				<term type="iconographicTopic">Bhagavad-gitas</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -134,7 +132,7 @@ This scene is most probably part of the Bhagavad Gita, one of the most popular I
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:48">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:11:44">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

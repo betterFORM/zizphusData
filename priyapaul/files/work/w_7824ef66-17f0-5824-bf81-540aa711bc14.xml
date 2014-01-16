@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-5abfa90e-edfc-56bb-bf3f-bb03c06480e7">Lakshmi</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -30,7 +30,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -38,10 +40,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118515" type="corporate">HeidICON Image Database</name>
-				<refid>118515</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -55,14 +53,14 @@
 		</measurementsSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_0afb0fd2-f130-57a0-8cb1-cb168df37ce3" refid="118515" source="EXC Priya Paul Collection" pref="true">general view</relation>
-			<relation type="imageIs" relids="i_77be4763-9bd1-5932-9508-0f885ec7f4c4" refid="118520" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_a44a1697-c586-549e-a2c1-401cd556ad74" refid="118519" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_37da6c63-39f1-5e1b-ae68-f4e270f3dda2" refid="118525" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_6e27ff33-8ab4-5015-b4ff-f502b9144397" refid="118517" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_c811ccb7-bbe2-5ba5-b573-2b985c784203" refid="118524" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_48c60977-306f-5e1b-9e6c-4c3fa3abbacc" refid="118522" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_a44a1697-c586-549e-a2c1-401cd556ad74" refid="118519" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_18010282-88cd-59b6-84e6-ead071f3555b" refid="118518" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_77be4763-9bd1-5932-9508-0f885ec7f4c4" refid="118520" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_3fe8f8cb-bdf7-5a3f-8acb-3073ef208bb5" refid="118521" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_18010282-88cd-59b6-84e6-ead071f3555b" refid="118518" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_f4f3944f-1c0c-5e7f-9a68-0746b2bed24c" refid="118526" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_0c180f50-0a66-582e-b382-16e3d0a14c97" refid="118516" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_75539fab-a7a6-5d71-8e81-e9348af4de80" refid="118523" source="EXC Priya Paul Collection">detail view</relation>
@@ -75,12 +73,14 @@
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2d1f2b2b-80e4-56fc-809d-0d28b51bb7c9">
-				<term type="brand">Vinolia soap (product)</term>
+				<term type="descriptiveTopic">Vinolia soap (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -120,7 +120,7 @@ Ravi Varma, Raja and I.M.E. Veniyoor 2007. &quot;Ravi Varma Raji. the most celeb
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Neumayer, Erwin and Christine Schellberger 2003. &quot;Popular Indian Art. Raja Ravi Varma and the printed gods of India.&quot; New Delhi: Oxford University Press.</ext:value>
+				<ext:value type="text">uuid-0a6d71cc-d9fe-3c87-9ca2-f52455306773</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -129,7 +129,7 @@ Ravi Varma, Raja and I.M.E. Veniyoor 2007. &quot;Ravi Varma Raji. the most celeb
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Ravi Varma, Raja and I.M.E. Veniyoor 2007. &quot;Ravi Varma Raji. the most celebrated painter of India, 1848 - 1906&quot; Bangalore: Parsram Mangharam.</ext:value>
+				<ext:value type="text">uuid-0006ebca-e4b8-3c58-bb27-a9330a4894b0</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -138,7 +138,7 @@ Ravi Varma, Raja and I.M.E. Veniyoor 2007. &quot;Ravi Varma Raji. the most celeb
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Davis, Richard H. 2010. &quot;Temple in a Frame. God Posters For and Of Worship&quot; http://www.tasveergharindia.net/cmsdesk/essay/97/index.html (09.01.2011)</ext:value>
+				<ext:value type="text">uuid-9822363a-680b-3e73-811e-37cf147ef6fd</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -181,8 +181,8 @@ Ravi Varma, Raja and I.M.E. Veniyoor 2007. &quot;Ravi Varma Raji. the most celeb
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118520</ext:value>
-				<ext:value>i_77be4763-9bd1-5932-9508-0f885ec7f4c4</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118519</ext:value>
+				<ext:value>i_a44a1697-c586-549e-a2c1-401cd556ad74</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -206,18 +206,18 @@ Ravi Varma, Raja and I.M.E. Veniyoor 2007. &quot;Ravi Varma Raji. the most celeb
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118519</ext:value>
-				<ext:value>i_a44a1697-c586-549e-a2c1-401cd556ad74</ext:value>
-				<ext:value>detail view</ext:value>
-			</ext:item>
-			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118518</ext:value>
-				<ext:value>i_18010282-88cd-59b6-84e6-ead071f3555b</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118520</ext:value>
+				<ext:value>i_77be4763-9bd1-5932-9508-0f885ec7f4c4</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118521</ext:value>
 				<ext:value>i_3fe8f8cb-bdf7-5a3f-8acb-3073ef208bb5</ext:value>
+				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118518</ext:value>
+				<ext:value>i_18010282-88cd-59b6-84e6-ead071f3555b</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -243,7 +243,7 @@ Ravi Varma, Raja and I.M.E. Veniyoor 2007. &quot;Ravi Varma Raji. the most celeb
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:49">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:03:35">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -52,10 +52,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109908" type="corporate">HeidICON Image Database</name>
-				<refid>109908</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -82,21 +78,23 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="5512566d-eab7-5ea2-a645-21e20952530a">
-				<term type="concept">caps (headgear)</term>
+				<term type="descriptiveTopic">caps (headgear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4b0eff81-18b6-5333-a35c-e688c999e2c9">
-				<term type="concept">politicians</term>
+				<term type="descriptiveTopic">politicians</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2da4f9b0-738c-5b0b-a1d8-1cccce2bb8ef">
-				<term type="concept">kurta (garnments)</term>
+				<term type="descriptiveTopic">kurta (garnments)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -136,7 +134,7 @@ http://www.culturalindia.net/leaders/rajendra-prasad.html, last accessed 2011-08
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.culturalindia.net/leaders/rajendra-prasad.html</ext:value>
+				<ext:value type="url">uuid-670d7013-028e-3c66-9acd-312b2d26ad77</ext:value>
 				<ext:value type="accessed">2011-08-05</ext:value>
 				<ext:value type="comment">Rajendra Prasad's bio</ext:value>
 				<ext:item type="agent">
@@ -176,7 +174,7 @@ http://www.culturalindia.net/leaders/rajendra-prasad.html, last accessed 2011-08
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:35">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

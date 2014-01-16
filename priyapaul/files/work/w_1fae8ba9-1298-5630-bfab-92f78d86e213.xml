@@ -13,10 +13,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/110273" type="corporate">HeidICON Image Database</name>
-				<refid>110273</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -28,7 +24,7 @@
 			<measurements shape="portrait" />
 		</measurementsSet>
 		<relationSet>
-			<relation type="imageIs" relids="i_64808a2b-3e54-5296-aef2-62db72ea5ea6" refid="110273" source="EXC Priya Paul Collection" pref="true">general view</relation>
+			<relation type="imageIs" relids="i_64808a2b-3e54-5296-aef2-62db72ea5ea6" refid="110273" source="EXC Priya Paul Collection" pref="true">front</relation>
 			<relation type="imageIs" relids="i_8a16151f-25c5-5ee5-8ffc-ee77fd5c831a" refid="108654" source="EXC Priya Paul Collection">back</relation>
 			<relation type="imageIs" relids="i_17d53cd7-b0d9-5e15-b452-5e02b17a96a6" refid="108657" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_d780b641-e495-502b-bf9c-ed523f35850a" refid="109837" source="EXC Priya Paul Collection">detail view</relation>
@@ -39,6 +35,8 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
@@ -94,7 +92,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:09">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:27">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

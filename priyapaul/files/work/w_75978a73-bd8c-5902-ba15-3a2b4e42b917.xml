@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -51,10 +53,6 @@ COOLS AND REFRESHES</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118557" type="corporate">HeidICON Image Database</name>
-				<refid>118557</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -74,39 +72,41 @@ COOLS AND REFRESHES</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="f896544c-107a-5873-b4d5-47c6310d1c00">
-				<term type="concept">rings (jewelry)</term>
+				<term type="descriptiveTopic">rings (jewelry)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term type="concept">pearl necklaces</term>
+				<term type="descriptiveTopic">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term type="concept">necklaces</term>
+				<term type="descriptiveTopic">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9058450-e8a4-5ea8-ae96-b0cff4e77a96">
-				<term type="product">make-up (cosmetics)</term>
+				<term type="descriptiveTopic">make-up (cosmetics)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
-				<term type="concept">pearl (animal material)</term>
+				<term type="descriptiveTopic">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
-				<term type="concept">hair oil</term>
+				<term type="descriptiveTopic">hair oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9bff4af-30d4-59f8-9356-c8a766e97095">
-				<term type="brand">Srivis-Amla hair oil (product)</term>
+				<term type="descriptiveTopic">Srivis-Amla hair oil (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a14be562-683e-57b2-9446-7cff4999aa55">
-				<term type="concept">earrings (jewelry)</term>
+				<term type="descriptiveTopic">earrings (jewelry)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -176,7 +176,7 @@ COPYRIGHT RESERVED</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:36">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:03:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

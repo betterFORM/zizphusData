@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -35,10 +37,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118961" type="corporate">HeidICON Image Database</name>
-				<refid>118961</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -62,24 +60,26 @@
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term type="concept">children (people by age group)</term>
+				<term type="descriptiveTopic">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="747cc752-b60c-5d8c-853a-4dba8a1c5b50">
-				<term type="concept">infants</term>
+				<term type="descriptiveTopic">infants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
-				<term type="concept">whiteness</term>
+				<term type="conceptTopic">whiteness</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term type="concept">white people</term>
+				<term type="conceptTopic">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf7de29c-dc86-5221-b1d0-f1ef5165575c">
-				<term type="concept">blonde hair</term>
+				<term type="descriptiveTopic">blonde hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="510eb761-83ea-598f-bbac-ab53d01b47e6">
-				<term type="concept">blonde</term>
+				<term type="descriptiveTopic">blonde</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -115,7 +115,7 @@ O'Connor, John J. 1989. What are TV Ads Selling to Children? Advertising Age, 60
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">O'Connor, John J. 1989. What are TV Ads Selling to Children? Advertising Age, 60.</ext:value>
+				<ext:value type="text">uuid-1960af7f-1278-36c7-920c-db540619ea48</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -157,7 +157,7 @@ O'Connor, John J. 1989. What are TV Ads Selling to Children? Advertising Age, 60
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:24">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

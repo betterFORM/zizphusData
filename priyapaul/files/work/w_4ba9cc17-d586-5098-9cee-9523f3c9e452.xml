@@ -7,7 +7,9 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -15,10 +17,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118400" type="corporate">HeidICON Image Database</name>
-				<refid>118400</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -33,10 +31,10 @@
 		<relationSet>
 			<relation type="imageIs" relids="i_a7bcdc4f-4afb-52db-8871-6c478c1babcc" refid="118400" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_e02e2c0a-dac6-5b45-b255-556d0a9e0439" refid="118403" source="EXC Priya Paul Collection">close-up view</relation>
-			<relation type="imageIs" relids="i_a6267d59-3c9c-5b25-ad93-6e9a0712121c" refid="118405" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_f9e45758-d279-59b4-9485-6f1d53a2b4b1" refid="118404" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_9d85de7a-14d7-5ec0-a2cd-7dd0060e2091" refid="118401" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_a6267d59-3c9c-5b25-ad93-6e9a0712121c" refid="118405" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_f284daac-1107-5c7d-8ddd-6bafd4969872" refid="118402" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_9d85de7a-14d7-5ec0-a2cd-7dd0060e2091" refid="118401" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -44,6 +42,8 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
@@ -83,24 +83,24 @@
 				<ext:value>close-up view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118405</ext:value>
-				<ext:value>i_a6267d59-3c9c-5b25-ad93-6e9a0712121c</ext:value>
-				<ext:value>close-up view</ext:value>
-			</ext:item>
-			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118404</ext:value>
 				<ext:value>i_f9e45758-d279-59b4-9485-6f1d53a2b4b1</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118401</ext:value>
-				<ext:value>i_9d85de7a-14d7-5ec0-a2cd-7dd0060e2091</ext:value>
-				<ext:value>detail view</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118405</ext:value>
+				<ext:value>i_a6267d59-3c9c-5b25-ad93-6e9a0712121c</ext:value>
+				<ext:value>close-up view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118402</ext:value>
 				<ext:value>i_f284daac-1107-5c7d-8ddd-6bafd4969872</ext:value>
 				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118401</ext:value>
+				<ext:value>i_9d85de7a-14d7-5ec0-a2cd-7dd0060e2091</ext:value>
+				<ext:value>detail view</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
@@ -110,7 +110,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:18">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:03:01">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

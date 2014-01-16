@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -18,7 +18,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-d8f3a034-fbbe-5c28-95fe-57d9f382216c">Yudhistira</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -44,7 +44,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -76,10 +78,6 @@ Calcutta</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118997" type="corporate">HeidICON Image Database</name>
-				<refid>118997</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -106,42 +104,44 @@ Calcutta</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term type="concept">festoon (motif)</term>
+				<term type="descriptiveTopic">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
-				<term type="concept">forests</term>
+				<term type="descriptiveTopic">forests</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9ef4338c-0564-5209-8a91-d1c3bd4d4821">
-				<term type="concept">huts (houses)</term>
+				<term type="descriptiveTopic">huts (houses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="78ba6b32-47d2-5d8a-bf11-c582409baad8">
-				<term type="concept">thatched roof</term>
+				<term type="descriptiveTopic">thatched roof</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ce6356f-5fe0-5260-905b-ce19d8803f5b">
-				<term type="concept">Akshaya Patra</term>
+				<term type="iconographicTopic">Akshaya Patra</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -191,7 +191,7 @@ http://www.holykitchens.com/Akshayapatra.htm, last accessed 2012-03-27, mytholog
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.holykitchens.com/Akshayapatra.htm</ext:value>
+				<ext:value type="url">uuid-67a57d5b-4cf0-3188-a503-9bb20a9e9f27</ext:value>
 				<ext:value type="accessed">2012-03-27</ext:value>
 				<ext:value type="comment">mythology behind the image</ext:value>
 				<ext:item type="agent">
@@ -235,7 +235,7 @@ Lord Krishna also once partakes food from the Akshaya Patra, when sage Durvasa a
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:07">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:22">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

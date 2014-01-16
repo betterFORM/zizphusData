@@ -70,10 +70,6 @@ Motor Spirit</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120942" type="corporate">HeidICON Image Database</name>
-				<refid>120942</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -87,24 +83,26 @@ Motor Spirit</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a11996a4-a33a-5a54-b6fa-d996f8216c1f">
-				<term type="concept">ships</term>
+				<term type="descriptiveTopic">ships</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="19cc928d-3d05-5e88-961e-1d640bb0e682">
-				<term type="concept">steamships</term>
+				<term type="descriptiveTopic">steamships</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9a4ffbd5-5bcb-51d5-a1e4-90e4b9581687">
-				<term type="concept">sailing ships</term>
+				<term type="descriptiveTopic">sailing ships</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -177,7 +175,7 @@ On this advertisement Calendar of 1937, there is a central maritime painting wit
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:03">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:18:05">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

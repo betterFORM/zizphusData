@@ -55,10 +55,6 @@ No. 488</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122943" type="corporate">HeidICON Image Database</name>
-				<refid>122943</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -85,27 +81,29 @@ No. 488</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="9b80dfe9-529b-566d-811c-3d2a6918fdaf">
-				<term type="concept">kings (people)</term>
+				<term type="iconographicTopic">kings (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9e695e4-1726-53fa-a215-e85230165e8a">
-				<term type="work (architecture)">palaces</term>
+				<term type="conceptTopic / iconographicTopic">palaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c7232ff6-e4c0-51c8-99a0-f2a788bf7d55">
-				<term type="work (epos)">Mahabharata</term>
+				<term type="iconographicTopic">Mahabharata</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -145,7 +143,7 @@ http://www.sangeetnatak.org/deshparva/natyadarshan/vastraharan.htm, last accesse
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.sangeetnatak.org/deshparva/natyadarshan/vastraharan.htm</ext:value>
+				<ext:value type="url">uuid-01663c65-cf86-3bfa-99ec-ffcd347d91fa</ext:value>
 				<ext:value type="accessed">2011-11-29</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -191,7 +189,7 @@ Quoted from http://www.sangeetnatak.org/deshparva/natyadarshan/vastraharan.htm, 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:15">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:18:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<dateSet>
@@ -43,10 +43,6 @@ From the picture in the Sir Ratan Tata Collection by kind permission of the Trus
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119755" type="corporate">HeidICON Image Database</name>
-				<refid>119755</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -66,42 +62,41 @@ From the picture in the Sir Ratan Tata Collection by kind permission of the Trus
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term type="geographic">Sun (star)</term>
+				<term type="descriptiveTopic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="7cc2666c-59e6-54a3-a82d-badc01f229e8">
-				<term type="work">Mughal architecture</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b27ed56a-1061-5368-b193-4ee92fc01e2d">
-				<term type="concept">gopi</term>
+				<term type="iconographicTopic">gopi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
-				<term type="work (daily)">Times of India</term>
+				<term type="otherTopic">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
-				<term type="concept">gardens</term>
+				<term type="descriptiveTopic">gardens</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term type="work">Times of India Yearbook</term>
+				<term type="otherTopic">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -152,7 +147,7 @@ The Persian inscriptions as well as the Mughal style architecture depicted on th
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:22">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:10:43">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

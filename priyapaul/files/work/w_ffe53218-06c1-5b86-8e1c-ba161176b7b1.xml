@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -44,10 +44,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108821" type="corporate">HeidICON Image Database</name>
-				<refid>108821</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -74,39 +70,41 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
-				<term type="concept">Hinduism</term>
+				<term type="conceptTopic">Hinduism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c0102a51-5293-573e-97e6-d863e90a33bf">
-				<term type="animal">birds (animals)</term>
+				<term type="descriptiveTopic">birds (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term type="concept">Hindu women</term>
+				<term type="conceptTopic">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bd955076-11a3-5295-aa36-73664c8b215d">
-				<term type="concept">drums (membranophones)</term>
+				<term type="descriptiveTopic">drums (membranophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f9e695e4-1726-53fa-a215-e85230165e8a">
-				<term type="work (architecture)">palaces</term>
+				<term type="conceptTopic / iconographicTopic">palaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="952898c6-20ba-5549-85f8-41e5f8f7c2d0">
-				<term type="brand">Best Turkey Red (product)</term>
+				<term type="descriptiveTopic">Best Turkey Red (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -148,7 +146,7 @@ http://www.astrojyoti.com/krishnaleela.htm, last accessed 2011-10-06, basic info
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Sax, William (1995). &quot;The Gods at Play: Lila in South Asia&quot;. Oxford: University press.</ext:value>
+				<ext:value type="text">uuid-cf02e447-412b-36bd-a84b-5465fb805517</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -157,7 +155,7 @@ http://www.astrojyoti.com/krishnaleela.htm, last accessed 2011-10-06, basic info
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Hauser Beatrix (2006). &quot;Durch den Körper sehen: Zur Präsenz der Götter bei der indischen Ramlila.&quot; in Fischer-Lichte, Erika, Robert Sollich, Sandra Umathum &amp; Mathias Warstat (ed.) &quot;Auf der Schwelle: Kunst, Risiken und Nebenwirkungen&quot;. Munich: Wilhelm Fink Verlag.</ext:value>
+				<ext:value type="text">uuid-ddccf468-8dd9-3c07-8fb8-7b0616469d43</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -168,7 +166,7 @@ http://www.astrojyoti.com/krishnaleela.htm, last accessed 2011-10-06, basic info
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.astrojyoti.com/krishnaleela.htm</ext:value>
+				<ext:value type="url">uuid-d51185e3-28bb-3c93-a490-51dcfe274502</ext:value>
 				<ext:value type="accessed">2011-10-06</ext:value>
 				<ext:value type="comment">basic information about Krishna Leela as quoted above.</ext:value>
 				<ext:item type="agent">
@@ -232,7 +230,7 @@ http://www.astrojyoti.com/krishnaleela.htm, last accessed 2011-10-06, basic info
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:13">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:36">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

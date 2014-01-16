@@ -28,10 +28,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/117995" type="corporate">HeidICON Image Database</name>
-				<refid>117995</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_43490194-9fa7-56e3-a2ff-c43598e262a0" refid="117995" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -44,38 +40,38 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="344a6b29-b2b4-5490-8024-2ab8751ed66d">
-				<term type="concept">cosmetics</term>
+				<term type="descriptiveTopic">cosmetics</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
-				<term type="concept">fair skin</term>
+				<term type="conceptTopic">fair skin</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
-				<term type="concept">hair oil</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">hair oil</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec384af3-848a-5e36-9ed3-be26f36e831b">
-				<term type="concept">floral patterns</term>
+				<term type="descriptiveTopic">Blume &lt;Motiv&gt;</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+				<term type="descriptiveTopic">Werbung</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Two images related to the advertisement of hair oil</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+			<worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -110,7 +106,7 @@ Two images with fair skinned long haired Indian women, one of them being concern
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:14:01">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:00:58">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -7,7 +7,9 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -15,10 +17,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120495" type="corporate">HeidICON Image Database</name>
-				<refid>120495</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -40,9 +38,11 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a7268665-ba9d-5c6f-b4fe-ccaaa7062497">
-				<term type="work (movie)">Jahan Ara (movie)</term>
+				<term type="iconographicTopic">Jahan Ara (movie, 1964)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -83,7 +83,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:16">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:27">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

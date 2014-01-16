@@ -44,10 +44,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118546" type="corporate">HeidICON Image Database</name>
-				<refid>118546</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -67,48 +63,50 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f8c0686-77ac-5a99-83ed-a8acedaf61bb">
-				<term type="animal">pigeons (general term)</term>
+				<term type="descriptiveTopic">pigeons (general term)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c0102a51-5293-573e-97e6-d863e90a33bf">
-				<term type="animal">birds (animals)</term>
+				<term type="descriptiveTopic">birds (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term type="plant">roses (plants)</term>
+				<term type="descriptiveTopic">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term type="concept">Hindu women</term>
+				<term type="conceptTopic">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f123956b-a998-547c-820d-afb32e723540">
-				<term type="concept">pink sari</term>
+				<term type="descriptiveTopic">pink sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="84fbe753-4d8a-5ecf-9175-a65856447dc6">
-				<term type="concept">pink (color)</term>
+				<term type="descriptiveTopic">pink (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
-				<term type="concept">fair skin</term>
+				<term type="conceptTopic">fair skin</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
-				<term type="concept">Bharatiya Nari</term>
+				<term type="conceptTopic">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="629384fb-9341-5fde-99ca-c49bc3b31b25">
-				<term type="concept">embroidery (visual works)</term>
+				<term type="descriptiveTopic">embroidery (visual works)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -152,7 +150,7 @@ image cut on left side and bottom (ma)</ext:value>
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -172,7 +170,7 @@ image cut on left side and bottom (ma)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:57">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:03:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

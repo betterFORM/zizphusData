@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -26,10 +26,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120579" type="corporate">HeidICON Image Database</name>
-				<refid>120579</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -57,12 +53,14 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term type="concept">peacock feather</term>
+				<term type="descriptiveTopic">peacock feather</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -90,7 +88,7 @@ http://www.123janmashtami.com/bal-krishna/index.html, last accessed 2011-20-09. 
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.123janmashtami.com/bal-krishna/index.html</ext:value>
+				<ext:value type="url">uuid-8344c65c-c987-3087-98f7-fe334b751819</ext:value>
 				<ext:value type="accessed">2011-20-09</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -130,7 +128,7 @@ http://www.123janmashtami.com/bal-krishna/index.html, last accessed 2011-20-09. 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:53">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:58">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

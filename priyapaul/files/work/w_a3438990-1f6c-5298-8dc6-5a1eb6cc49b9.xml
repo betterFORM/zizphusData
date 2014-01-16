@@ -44,10 +44,6 @@ Mysore</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119778" type="corporate">HeidICON Image Database</name>
-				<refid>119778</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -67,21 +63,23 @@ Mysore</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
-				<term type="animal">tigers (animals)</term>
+				<term type="descriptiveTopic">tigers (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
-				<term type="work (daily)">Times of India</term>
+				<term type="otherTopic">Times of India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
-				<term type="work">Times of India Yearbook</term>
+				<term type="otherTopic">Times of India Yearbook</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -136,7 +134,7 @@ Central on this advertisement is the head of a tiger in the mid section of the i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:35">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:10:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

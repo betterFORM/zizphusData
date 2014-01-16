@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108248" type="corporate">HeidICON Image Database</name>
-				<refid>108248</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -51,15 +47,20 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7278ca81-4b73-50af-9f36-5b8ca78e1008">
-				<term type="geographic">Mussoorie</term>
+				<term type="geographicPlace">Mussoorie</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3606d2bd-a29a-5124-a6c6-efa79b5af9bf">
-				<term type="concept">communication (function)</term>
+				<term type="conceptTopic">communication (function)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="bb96de14-ab4b-516a-807c-ba4533d510e8">
+				<term type="otherTopic">Nachricht</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -115,7 +116,7 @@ On this postcard, we see a view towards the village of Mussoorie, a famous hill 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:56:19">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

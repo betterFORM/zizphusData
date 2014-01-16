@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108233" type="corporate">HeidICON Image Database</name>
-				<refid>108233</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -50,24 +46,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="60671271-0213-5534-9c27-7c7d70eafb36">
-				<term type="concept">churches (buildings)</term>
+				<term type="descriptiveTopic">churches (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37fcc3e5-f33b-5e23-84b7-c9f48074f4e0">
-				<term type="geographic">Hyderabad</term>
+				<term type="geographicPlace">Hyderabad</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="825f7525-c14c-5dff-8e1c-7815e1d16361">
-				<term type="concept">bazaars</term>
+				<term type="descriptiveTopic">bazaars</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -77,7 +75,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">The Bazar and Clock Tower, Secunderabad, Hyderabad Deccan, India</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -116,7 +114,7 @@ On this postcard, the bazaar of the Central Indian city of Hyderabad can be seen
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:08">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

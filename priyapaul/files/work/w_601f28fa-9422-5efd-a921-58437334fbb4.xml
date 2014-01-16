@@ -7,7 +7,9 @@
 			</agent>
 		</agentSet>
 		<descriptionSet>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -15,10 +17,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118610" type="corporate">HeidICON Image Database</name>
-				<refid>118610</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -33,8 +31,8 @@
 		<relationSet>
 			<relation type="imageIs" relids="i_806f13a2-3369-5b47-afd8-5050a004be92" refid="118610" source="EXC Priya Paul Collection" pref="true">general view</relation>
 			<relation type="imageIs" relids="i_c790eb97-139c-5d9a-8c3a-7d1f1a9016e3" refid="118609" source="EXC Priya Paul Collection">detail view</relation>
-			<relation type="imageIs" relids="i_2e802865-9906-5880-9c16-ac368f6130cb" refid="118613" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_c7fcfd6a-a9d6-5c62-946f-1bb34db31f46" refid="118612" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_2e802865-9906-5880-9c16-ac368f6130cb" refid="118613" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_9aa6b384-db84-5b6c-86ef-3c3a669c1166" refid="118611" source="EXC Priya Paul Collection">detail view</relation>
 		</relationSet>
 		<rightsSet>
@@ -43,6 +41,8 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<techniqueSet>
 			<technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
 		</techniqueSet>
@@ -81,13 +81,13 @@
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118613</ext:value>
-				<ext:value>i_2e802865-9906-5880-9c16-ac368f6130cb</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118612</ext:value>
+				<ext:value>i_c7fcfd6a-a9d6-5c62-946f-1bb34db31f46</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118612</ext:value>
-				<ext:value>i_c7fcfd6a-a9d6-5c62-946f-1bb34db31f46</ext:value>
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/118613</ext:value>
+				<ext:value>i_2e802865-9906-5880-9c16-ac368f6130cb</ext:value>
 				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
@@ -103,7 +103,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:26">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:04:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -53,10 +53,6 @@ HAP [signet]</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119483" type="corporate">HeidICON Image Database</name>
-				<refid>119483</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -83,39 +79,41 @@ HAP [signet]</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term type="concept">national leader</term>
+				<term type="conceptTopic">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
-				<term type="concept">festoon (motif)</term>
+				<term type="descriptiveTopic">festoon (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5512566d-eab7-5ea2-a645-21e20952530a">
-				<term type="concept">caps (headgear)</term>
+				<term type="descriptiveTopic">caps (headgear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term type="concept">statues</term>
+				<term type="descriptiveTopic">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
-				<term type="plant">roses (plants)</term>
+				<term type="descriptiveTopic">roses (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="106a24b2-fa31-57bd-ac10-5434cf7940c0">
-				<term type="concept">jacket (garnments)</term>
+				<term type="descriptiveTopic">jacket (garnments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
-				<term type="concept">trade catalogs</term>
+				<term type="descriptiveTopic">trade catalogs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
-				<term type="concept">leaders (people)</term>
+				<term type="conceptTopic">leaders (people)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -151,7 +149,7 @@ http://www.subhaschandrabose.org/, last accessed on 2011-08-10, Collection of al
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.subhaschandrabose.org/</ext:value>
+				<ext:value type="url">uuid-6ebf11ab-4196-3408-8e42-fa8be2e12e04</ext:value>
 				<ext:value type="accessed">2011-08-10</ext:value>
 				<ext:value type="comment">Collection of all information related to Subhash Chandra Bose.</ext:value>
 				<ext:item type="agent">
@@ -199,7 +197,7 @@ http://www.subhaschandrabose.org/, last accessed on 2011-08-10, Collection of al
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:09:10">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:09:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

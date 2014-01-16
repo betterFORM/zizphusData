@@ -27,7 +27,7 @@
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-bcd2b886-3768-5ccc-83e7-cd3ca0f071c6">Riaz, Mushir</name>
+				<name vocab="local" type="personal" refid="uuid-bcd2b886-3768-5ccc-83e7-cd3ca0f071c6">Mushir-Riaz</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
@@ -68,10 +68,6 @@ Lyrics by Anand Bakshi</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119311" type="corporate">HeidICON Image Database</name>
-				<refid>119311</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -92,33 +88,35 @@ Lyrics by Anand Bakshi</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
-				<term type="concept">temples (buildings)</term>
+				<term type="descriptiveTopic">temples (buildings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b9e7cd78-8567-538f-bee1-15332207515d">
-				<term type="concept">meditation</term>
+				<term type="conceptTopic">meditation</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term type="worktype">lobby cards</term>
+				<term type="descriptiveTopic">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -154,7 +152,7 @@ http://www.imdb.com/title/tt0371558/, last accessed 2011-12-16, story line, lead
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0371558/</ext:value>
+				<ext:value type="url">uuid-cf0503d5-e85d-350f-a361-74b6a0423740</ext:value>
 				<ext:value type="accessed">2011-12-16</ext:value>
 				<ext:value type="comment">story line, leading actors, director.</ext:value>
 				<ext:item type="agent">
@@ -189,7 +187,7 @@ http://www.imdb.com/title/tt0371558/, last accessed 2011-12-16, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:31">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:11">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

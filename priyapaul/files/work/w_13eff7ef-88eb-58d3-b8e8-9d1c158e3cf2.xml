@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c19f9da6-753a-5e79-aa6d-3e0e2b5692a2">Parvati</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-088240fa-d01e-587a-bee4-7bf0ac401445">Shiva</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -24,7 +24,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<locationSet>
 			<location source="EXC" type="repository">
@@ -32,10 +34,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118979" type="corporate">HeidICON Image Database</name>
-				<refid>118979</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -58,27 +56,29 @@
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
-				<term type="concept">rivers</term>
+				<term type="descriptiveTopic">rivers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term type="concept">musical instruments</term>
+				<term type="descriptiveTopic">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e94ebaa3-75e2-5ae1-bbdc-50353fca8ce7">
-				<term type="concept">bridges (built works)</term>
+				<term type="descriptiveTopic">bridges (built works)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -104,7 +104,7 @@ See Jyotindra Jain. 2004. Indian Popular Culture. 'The Conquest of the World as 
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">See Jyotindra Jain. 2004. Indian Popular Culture. 'The Conquest of the World as Picture'. New Delhi</ext:value>
+				<ext:value type="text">uuid-a8d34026-17a8-37a0-8826-178420565858</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -137,7 +137,7 @@ See Jyotindra Jain. 2004. Indian Popular Culture. 'The Conquest of the World as 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:11:13">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -47,10 +47,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120459" type="corporate">HeidICON Image Database</name>
-				<refid>120459</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -83,36 +79,38 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
-				<term type="concept">statues</term>
+				<term type="descriptiveTopic">statues</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">
-				<term type="worktype">brochures</term>
+				<term type="descriptiveTopic">brochures</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4cb8647b-1710-5d9f-9875-313551406d9a">
-				<term type="concept">movie stars</term>
+				<term type="iconographicTopic">movie stars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7b83f5ae-06ae-5767-bf52-18a1f4d23183">
-				<term type="work (movie)">Meera Shyam (movie, 1976)</term>
+				<term type="iconographicTopic">Meera Shyam (movie, 1976)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="709203af-066e-52fa-8f5d-9ef2ce7c1faa">
-				<term type="concept">bags (costume accessories)</term>
+				<term type="descriptiveTopic">bags (costume accessories)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a255078a-289f-523a-9887-b7bcbd197d31">
-				<term type="concept">rudraksh</term>
+				<term type="iconographicTopic">rudraksh</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -144,7 +142,7 @@ Meera or Meerabai as she was known was one of the foremost saints of India and m
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.kamat.com/indica/faiths/bhakti/mirabai.htm</ext:value>
+				<ext:value type="url">uuid-8e1cb84f-eb78-37a9-9a2e-2b675b84ed27</ext:value>
 				<ext:value type="accessed">2011-11-15</ext:value>
 				<ext:value type="comment">Saint Meera,</ext:value>
 				<ext:item type="agent">
@@ -155,7 +153,7 @@ Meera or Meerabai as she was known was one of the foremost saints of India and m
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0378344/</ext:value>
+				<ext:value type="url">uuid-ad66de35-3dd3-3909-a9e9-631c03a77ee3</ext:value>
 				<ext:value type="accessed">2011-12-15</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -207,7 +205,7 @@ Meera or Meerabai as she was known was one of the foremost saints of India and m
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:24">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -57,10 +57,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118288" type="corporate">HeidICON Image Database</name>
-				<refid>118288</refid>
-			</location>
 		</locationSet>
 		<measurementsSet>
 			<notes>H 28 cm, W 20 cm</notes>
@@ -82,53 +78,56 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="27564901-d325-5e23-8ae1-2116b50931b3">
-				<term type="concept">seas</term>
+				<term type="descriptiveTopic">seas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d682edd8-6174-5fed-b5e8-e1dff9769f45">
-				<term type="concept">beaches</term>
+				<term type="descriptiveTopic">beaches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5baf3f4c-27ac-5b6b-a12a-0450ff4b9e56">
-				<term type="concept">bidi</term>
+				<term type="descriptiveTopic">bidi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term type="concept">white people</term>
+				<term type="conceptTopic">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf7de29c-dc86-5221-b1d0-f1ef5165575c">
-				<term type="concept">blonde hair</term>
+				<term type="descriptiveTopic">blonde hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
-				<term type="concept">smoking (activity)</term>
+				<term type="descriptiveTopic">smoking (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="23587ad0-932b-587d-967a-22100be8c901">
-				<term type="concept">rock</term>
+				<term type="descriptiveTopic">rock</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9e6aad9d-e671-5832-81c3-c9ad5f480fd8">
-				<term type="concept">Made in Japan</term>
+				<term type="conceptTopic">Made in Japan</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6c8dfe5-5dd1-584c-9b2e-d7d51c6ebd5e">
-				<term type="internal workflow">recheck-Hindi-title</term>
+				<term type="otherTopic">recheck-Hindi-title</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">January 1935 advertisement calendar for &quot;Pan ka Ikka&quot; bidi</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+			<worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -191,7 +190,7 @@ On this advertisement calendar for &quot;Pan ka ikka&quot; bidis, a blonde woman
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:03:09">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:02:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

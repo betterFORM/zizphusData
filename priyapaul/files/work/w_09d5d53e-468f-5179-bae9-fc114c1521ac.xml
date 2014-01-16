@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -37,10 +39,6 @@ Buy the beautiful &quot;Christmas-card&quot; carton</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108391" type="corporate">HeidICON Image Database</name>
-				<refid>108391</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -73,24 +71,26 @@ Buy the beautiful &quot;Christmas-card&quot; carton</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="627b8b90-1098-5849-a7e4-458817c404ae">
-				<term type="concept">Christmas</term>
+				<term type="conceptTopic">Christmas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
-				<term type="concept">smoking (activity)</term>
+				<term type="descriptiveTopic">smoking (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
-				<term type="concept">cigarette advertising</term>
+				<term type="descriptiveTopic">cigarette advertising</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d432cdec-1a91-5a10-9642-c0dde06e9e94">
-				<term type="brand">Chesterfield (brand)</term>
+				<term type="descriptiveTopic">Chesterfield (brand)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="83f1e1cd-3420-5a0e-b1ec-80b06f87b49b">
-				<term type="concept">season's greetings</term>
+				<term type="conceptTopic">season's greetings</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -137,29 +137,29 @@ http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+				<ext:value type="url">uuid-6ccfd164-82a9-3854-949e-0bd0f2fb039d</ext:value>
 				<ext:value type="accessed">2011-08-21</ext:value>
 				<ext:value type="comment">&quot;Breathtaking Classic Cigarette Ads&quot;</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tvparty.com/vaultcomcig.html</ext:value>
+				<ext:value type="url">uuid-23ccd6a9-d9ac-3ae9-8cff-98755bb00009</ext:value>
 				<ext:value type="accessed">2011-08-21</ext:value>
 				<ext:value type="comment">&quot;Cigarette Commercials: Cigarette Advertising on TV&quot; by Billy Ingram.</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Abu-Er-Rub, Laila</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -196,7 +196,7 @@ http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:13">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

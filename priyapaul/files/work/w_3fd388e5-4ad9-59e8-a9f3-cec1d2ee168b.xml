@@ -13,10 +13,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118025" type="corporate">HeidICON Image Database</name>
-				<refid>118025</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_fa6734c5-979c-5f1d-ba17-b3e0ddd06f57" refid="118025" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -29,17 +25,17 @@
 		</rightsSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a9d8f341-cd10-5a01-977c-6b53d775d4b6">
-				<term type="concept">Orientalism</term>
+				<term type="conceptTopic">Orientalism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6123501-8896-546c-9500-934dfbfe56d0">
-				<term type="concept">acrobats</term>
+				<term type="descriptiveTopic">acrobats</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Textile label showing acrobats</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+			<worktype vocab="local" source="EXC" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">greeting cards</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Commentary">
@@ -65,7 +61,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:04">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:01:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

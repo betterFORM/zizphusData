@@ -10,6 +10,11 @@
 				<name vocab="local" type="corporate" refid="uuid-c6de85e4-b8e7-5662-b6c4-0febd277322b">New Jahangir Mills</name>
 				<role vocab="marcrelator" type="code">cli</role>
   			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-f1639532-056d-5cd8-aee4-037f2be4b15b">Madari</name>
+				<role vocab="marcrelator" type="code">cli</role>
+  			</agent>
 		</agentSet>
 		<descriptionSet>
 			<description lang="eng" script="Latn">
@@ -46,10 +51,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106177" type="corporate">HeidICON Image Database</name>
-				<refid>106177</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -76,39 +77,38 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="b418eb78-22c2-5e67-a93d-9d999558bb7c">
-				<term type="animal">monkeys (animals)</term>
+				<term type="descriptiveTopic">monkeys (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0007bb8-44b6-58f3-9232-503aa15a7526">
-				<term type="concept">damarus</term>
+				<term type="descriptiveTopic">damarus</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="f1639532-056d-5cd8-aee4-037f2be4b15b">
-				<term type="concept">Madari</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dba54d8e-9e22-55d0-8a50-d06ef3bca440">
-				<term type="concept">animal training</term>
+				<term type="conceptTopic">animal training</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -143,7 +143,7 @@ http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html, 
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html</ext:value>
+				<ext:value type="url">uuid-054a7ba7-2a74-30a8-beea-50ede92f6e2f</ext:value>
 				<ext:value type="accessed">2011-09-09</ext:value>
 				<ext:value type="comment">basic information about Madari tribe.</ext:value>
 				<ext:item type="agent">
@@ -183,7 +183,7 @@ http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html, 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:07">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:01">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

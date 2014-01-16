@@ -24,7 +24,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -62,10 +64,6 @@ Gircarum Bombay.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119188" type="corporate">HeidICON Image Database</name>
-				<refid>119188</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -78,8 +76,8 @@ Gircarum Bombay.</text>
 		</measurementsSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_26d07769-e589-5a6f-8d71-06b423900899" refid="119188" source="EXC Priya Paul Collection" pref="true">general view</relation>
-			<relation type="imageIs" relids="i_435b1a0b-8f9d-5ac2-950a-3eaa4c9044b8" refid="119190" source="EXC Priya Paul Collection">close-up view</relation>
 			<relation type="imageIs" relids="i_e5570363-cafc-56e1-b661-e9cd5ea03454" refid="119191" source="EXC Priya Paul Collection">detail view</relation>
+			<relation type="imageIs" relids="i_435b1a0b-8f9d-5ac2-950a-3eaa4c9044b8" refid="119190" source="EXC Priya Paul Collection">close-up view</relation>
 		</relationSet>
 		<rightsSet>
 			<rights type="copyrighted">
@@ -87,54 +85,56 @@ Gircarum Bombay.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term type="concept">children (people by age group)</term>
+				<term type="descriptiveTopic">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="82d5c1af-a2ee-5f42-b887-d179c2369064">
-				<term type="concept">mothers</term>
+				<term type="descriptiveTopic">mothers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term type="concept">pearl necklaces</term>
+				<term type="descriptiveTopic">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term type="concept">necklaces</term>
+				<term type="descriptiveTopic">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
-				<term type="concept">pearl (animal material)</term>
+				<term type="descriptiveTopic">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37ccf96c-60b8-55f4-ac8c-ff7a50cd3988">
-				<term type="brand">Dongre's Baby Sirup (product)</term>
+				<term type="descriptiveTopic">Dongre's Baby Sirup (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
-				<term type="concept">black hair</term>
+				<term type="descriptiveTopic">black hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b4d47b06-58b7-5fbe-8fb7-89efa9f44d4d">
-				<term type="concept">syrup</term>
+				<term type="descriptiveTopic">syrup</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -198,14 +198,14 @@ On this advertisement for Dongre's Baby Syrup, a mother wearing a sari and jewel
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119190</ext:value>
-				<ext:value>i_435b1a0b-8f9d-5ac2-950a-3eaa4c9044b8</ext:value>
-				<ext:value>close-up view</ext:value>
-			</ext:item>
-			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119191</ext:value>
 				<ext:value>i_e5570363-cafc-56e1-b661-e9cd5ea03454</ext:value>
 				<ext:value>detail view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119190</ext:value>
+				<ext:value>i_435b1a0b-8f9d-5ac2-950a-3eaa4c9044b8</ext:value>
+				<ext:value>close-up view</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
@@ -215,7 +215,7 @@ On this advertisement for Dongre's Baby Syrup, a mother wearing a sari and jewel
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:44">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:07:36">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

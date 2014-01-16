@@ -37,10 +37,6 @@ Excel Tea Co
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120612" type="corporate">HeidICON Image Database</name>
-				<refid>120612</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -60,24 +56,26 @@ Excel Tea Co
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="27564901-d325-5e23-8ae1-2116b50931b3">
-				<term type="concept">seas</term>
+				<term type="descriptiveTopic">seas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term type="geographic">Sun (star)</term>
+				<term type="descriptiveTopic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d682edd8-6174-5fed-b5e8-e1dff9769f45">
-				<term type="concept">beaches</term>
+				<term type="descriptiveTopic">beaches</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
-				<term type="plant">palm trees</term>
+				<term type="descriptiveTopic">palm trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -130,7 +128,7 @@ On this advertiasement for the Excel Tea Company, a palm tree can be seen on a b
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:05">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:12">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

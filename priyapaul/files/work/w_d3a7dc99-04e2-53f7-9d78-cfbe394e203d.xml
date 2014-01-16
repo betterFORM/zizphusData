@@ -33,10 +33,6 @@ Made in Sweden</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108079" type="corporate">HeidICON Image Database</name>
-				<refid>108079</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -56,42 +52,47 @@ Made in Sweden</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d422a5e0-c57f-520d-b80d-9ce67fff49e1">
-				<term type="concept">hats</term>
+				<term type="descriptiveTopic">hats</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f211437-6bfe-5ae6-b29a-459b0f4bfef2">
-				<term type="animal">dogs (animals)</term>
+				<term type="descriptiveTopic">dogs (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
-				<term type="concept">matchbook</term>
+				<term type="descriptiveTopic">matchbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cd01c853-5c20-56f6-b3df-129c7c77652a">
-				<term type="concept">skirts (garments)</term>
+				<term type="descriptiveTopic">skirts (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2a19f0d6-02d0-5598-ab17-39056bf01957">
-				<term type="concept">Made in Sweden</term>
+				<term type="conceptTopic">Made in Sweden</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
-				<term type="worktype">matchboxes</term>
+				<term type="descriptiveTopic">matchboxes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="951542fd-5ed4-5db9-96eb-4237c0d236ad">
-				<term type="concept">ice skating</term>
+				<term type="descriptiveTopic">ice skating</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -142,7 +143,7 @@ This matchbox of &quot;Skater Matches&quot; depicts a young woman in a red skirt
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:54:51">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:36">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

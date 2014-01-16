@@ -36,10 +36,6 @@ Jan</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119731" type="corporate">HeidICON Image Database</name>
-				<refid>119731</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -71,16 +67,19 @@ Jan</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="209d9678-81bb-5057-9ec4-44cf4659eeac">
-				<term type="concept">Made in Austria</term>
+				<term type="conceptTopic">Made in Austria</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
-				<term type="concept">matchbook</term>
+				<term type="descriptiveTopic">matchbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
-				<term type="worktype">matchboxes</term>
+				<term type="descriptiveTopic">matchboxes</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+				<term type="conceptTopic">country of origin marks</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -119,7 +118,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; cf. http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-11-22</ext:value>
+				<ext:value type="text">uuid-e2b87a34-c918-3ef7-9ad6-a8a3d6c75728</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -130,13 +129,13 @@ http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Alisch, Johannes</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+				<ext:value type="url">uuid-e2b87a34-c918-3ef7-9ad6-a8a3d6c75728</ext:value>
 				<ext:value type="accessed">2010-11-22</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -147,7 +146,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://chandrakantha.com/biodata/gauhar_jan.html</ext:value>
+				<ext:value type="url">uuid-bfbfb2d2-60b1-35e0-9367-660d9d877567</ext:value>
 				<ext:value type="accessed">2010-11-23</ext:value>
 				<ext:value type="comment">biography of the artist Gauhar Jhan,</ext:value>
 				<ext:item type="agent">
@@ -202,7 +201,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:11">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:10:34">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

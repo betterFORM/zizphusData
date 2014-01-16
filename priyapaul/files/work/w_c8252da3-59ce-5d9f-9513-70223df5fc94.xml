@@ -66,10 +66,6 @@ Chowk, Cawnpore.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109895" type="corporate">HeidICON Image Database</name>
-				<refid>109895</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -96,21 +92,23 @@ Chowk, Cawnpore.</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="85b68025-ea57-5753-9e05-93cbddbab789">
-				<term type="concept">struggle for freedom</term>
+				<term type="conceptTopic">struggle for freedom</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8b41ef52-992d-532b-8e69-9ab992af8834">
-				<term type="concept">men (male humans)</term>
+				<term type="descriptiveTopic">men (male humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0503139a-1597-5d02-8990-e2f95d79a037">
-				<term type="concept">old man</term>
+				<term type="descriptiveTopic">old man</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="25b65620-7072-5fb0-9a92-1b62293f11f0">
-				<term type="concept">elderly</term>
+				<term type="descriptiveTopic">elderly</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -164,7 +162,7 @@ http://www.indianexpress.com/oldStory/968/, last accessed 2011-08-22, Abbas Tyab
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.indianexpress.com/oldStory/968/</ext:value>
+				<ext:value type="url">uuid-2ceafe74-c774-3489-9078-c0eafb0f5c9c</ext:value>
 				<ext:value type="accessed">2011-08-22</ext:value>
 				<ext:value type="comment">Abbas Tyabji's biography</ext:value>
 				<ext:item type="agent">
@@ -204,7 +202,7 @@ http://www.indianexpress.com/oldStory/968/, last accessed 2011-08-22, Abbas Tyab
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:00">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

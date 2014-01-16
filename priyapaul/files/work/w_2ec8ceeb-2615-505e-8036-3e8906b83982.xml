@@ -41,10 +41,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107958" type="corporate">HeidICON Image Database</name>
-				<refid>107958</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -76,24 +72,26 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term type="concept">children (people by age group)</term>
+				<term type="descriptiveTopic">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6994785f-702b-52aa-98c6-866390c2c2bc">
-				<term type="concept">Traditional Indian clothes</term>
+				<term type="descriptiveTopic">Traditional Indian clothes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -105,7 +103,7 @@
 		<worktypeSet>
 			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
 			<worktype vocab="local" source="EXC" refid="73280386-53ba-5365-8241-b8ced97391f7">studio portraits</worktype>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -133,25 +131,25 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.harappa.com/post4/jaipur0.html</ext:value>
+				<ext:value type="url">uuid-a8a256c1-434d-31fa-899a-ab69793f7da0</ext:value>
 				<ext:value type="accessed">2012-11-09</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imagesofasia.com/html/india/water-maid.html</ext:value>
+				<ext:value type="url">uuid-3783d952-dd57-3b5a-88c9-1488ae3104bc</ext:value>
 				<ext:value type="accessed">2012-11-09</ext:value>
 				<ext:value type="comment">image of a &quot;Water maid&quot; depicting the same woman and even the same decorative background</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -162,7 +160,7 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -177,7 +175,7 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-</ext:value>
+					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -215,7 +213,7 @@ http://www.harappa.com/post4/jaipur0.html, last accessed 2012-11-09,</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:14">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:56:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

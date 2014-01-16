@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-cc181db7-2bc1-53f7-b6dc-c5907aabe9dd">Durga</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -32,10 +32,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118545" type="corporate">HeidICON Image Database</name>
-				<refid>118545</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_2198294f-3784-5959-b8c0-514c025d183a" refid="118545" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -53,17 +49,17 @@
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Shivaji Durga Darshan</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+			<worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
 		</worktypeSet>
 		<ext:heidicon>
 			<ext:item type="f_description" status="0"  display="Full_Description">
@@ -87,7 +83,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York: Oxford University Press.</ext:value>
+				<ext:value type="text">uuid-4c6ffbee-5810-399c-916d-6c063c4fcfa0</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -96,7 +92,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">de Certeau, Michel 1984. &quot;The Practices of Everyday Life&quot; . Berkeley: University of California Press.</ext:value>
+				<ext:value type="text">uuid-9715bfc0-a84e-3de3-994c-bd987eef067e</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -105,7 +101,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Freitag, Sandria B. 2010. &quot;Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture&quot; http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (24.1.2011)</ext:value>
+				<ext:value type="text">uuid-c1faf8e6-0275-3799-8bc7-5de8dc2f219e</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -114,7 +110,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Braudel, Fernand 1981. &quot;The Structures of Everyday Life&quot;. London: Collins.</ext:value>
+				<ext:value type="text">uuid-84d6aee2-b3ee-3120-9923-3416c5ed7b3b</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -142,7 +138,7 @@ Storey, John 1999. &quot;Cultural Consumption and Everyday Life&quot;. New York:
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:03:45">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

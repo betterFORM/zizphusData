@@ -59,10 +59,6 @@ Chowk, Kanpur</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109901" type="corporate">HeidICON Image Database</name>
-				<refid>109901</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -94,18 +90,20 @@ Chowk, Kanpur</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="85b68025-ea57-5753-9e05-93cbddbab789">
-				<term type="concept">struggle for freedom</term>
+				<term type="conceptTopic">struggle for freedom</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c8683694-3e8b-52f1-855d-acaa4d8e8261">
-				<term type="worktype">portraits</term>
+				<term type="descriptiveTopic">portraits</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7b075039-3be1-5482-9fab-6be55b8e48bf">
-				<term type="concept">martyrs</term>
+				<term type="iconographicTopic">martyrs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -190,7 +188,7 @@ http://www.time.com/time/magazine/article/0,9171,822565-1,00.html, last accessed
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:16">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:59:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

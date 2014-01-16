@@ -40,10 +40,6 @@ Manchester</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108782" type="corporate">HeidICON Image Database</name>
-				<refid>108782</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -63,42 +59,44 @@ Manchester</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
-				<term type="plant">palm trees</term>
+				<term type="descriptiveTopic">palm trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a3fc3a5c-b000-5f87-ad37-f15b9f1eb8ef">
-				<term type="concept">robes (main garments)</term>
+				<term type="descriptiveTopic">robes (main garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a13bab28-a611-52ee-b1bc-69aae2dabb6a">
-				<term type="concept">slaves (people)</term>
+				<term type="conceptTopic">slaves (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e3b0a51b-8a1d-5af6-b624-59b5fab60de2">
-				<term type="concept">aristocrats</term>
+				<term type="conceptTopic">aristocrats</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e47d162e-40fe-5b14-a7dd-e8f839011c8a">
-				<term type="concept">capes (outerwear)</term>
+				<term type="descriptiveTopic">capes (outerwear)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -136,7 +134,7 @@ A textile label of  Graham, Manchester shows an  image of a nobleman, wearing a 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:07">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:35">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

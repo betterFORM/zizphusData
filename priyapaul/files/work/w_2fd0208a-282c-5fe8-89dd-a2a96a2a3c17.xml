@@ -54,10 +54,6 @@ Ghaziabad (U.P.) 201006</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118861" type="corporate">HeidICON Image Database</name>
-				<refid>118861</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -72,39 +68,41 @@ Ghaziabad (U.P.) 201006</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="747cc752-b60c-5d8c-853a-4dba8a1c5b50">
-				<term type="concept">infants</term>
+				<term type="descriptiveTopic">infants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="94a5efb7-b989-57ce-9543-bb9f43403256">
-				<term type="concept">vegetables</term>
+				<term type="descriptiveTopic">vegetables</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="925954ad-11c8-5edb-a164-f3d5649c81c6">
-				<term type="concept">water pumps</term>
+				<term type="descriptiveTopic">water pumps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c9b7db9c-bda8-5dd6-82db-339f18cdb3ba">
-				<term type="concept">cottages</term>
+				<term type="descriptiveTopic">cottages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e61eab37-a723-51bc-b617-0bc0da28cb84">
-				<term type="concept">fertilizer</term>
+				<term type="descriptiveTopic">fertilizer</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="12d0256f-73d3-5afe-bab7-d3914c2527c4">
-				<term type="concept">Indian village</term>
+				<term type="descriptiveTopic">Indian village</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="031830f0-5cdb-5577-b5f8-b22487cfc8e0">
-				<term type="corporation">Studio Svaras</term>
+				<term type="corporateName">Studio Svaras</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="eb53fa21-fe31-5428-a7b1-0f71986e8079">
-				<term type="concept">irrigation systems</term>
+				<term type="descriptiveTopic">irrigation systems</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -180,7 +178,7 @@ The usage of elements such as a water pump and electricity wires might intend to
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:44">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

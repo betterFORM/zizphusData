@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-088240fa-d01e-587a-bee4-7bf0ac401445">Shiva</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -63,10 +63,6 @@ Ajay Press Khodi</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118863" type="corporate">HeidICON Image Database</name>
-				<refid>118863</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -99,36 +95,38 @@ Ajay Press Khodi</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1bc7cb31-e0d4-5d41-9b2f-fbb783a80ce0">
-				<term type="concept">trishul (trident)</term>
+				<term type="iconographicTopic">trishul (trident)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term type="animal">snake</term>
+				<term type="descriptiveTopic">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ba3075b4-2471-56a5-bc06-fb4c8a788b76">
-				<term type="concept">devotional pictures</term>
+				<term type="iconographicTopic">devotional pictures</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cf13fdb5-676a-595d-b2ce-8249b1156c7f">
-				<term type="concept">Puja</term>
+				<term type="conceptTopic">Puja</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ba615510-1543-5302-b648-901bc76f1fee">
-				<term type="concept">devotees</term>
+				<term type="conceptTopic">devotees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="912115b8-0a5e-54d1-8d67-811750689e53">
-				<term type="concept">lingams</term>
+				<term type="descriptiveTopic">lingams</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d12b7f80-6417-52af-ae94-1179cd324e2c">
-				<term type="concept">sacrifices</term>
+				<term type="iconographicTopic">sacrifices</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -178,7 +176,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/97/index_3.html, last accessed 201
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Davis, Richard H. 2010. &quot;Temple in a Frame. God Posters For and Of Worship&quot;</ext:value>
+				<ext:value type="text">uuid-9822363a-680b-3e73-811e-37cf147ef6fd</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -189,7 +187,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/97/index_3.html, last accessed 201
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=81&amp;EId=97&amp;ImageId=14</ext:value>
+				<ext:value type="url">uuid-9822363a-680b-3e73-811e-37cf147ef6fd</ext:value>
 				<ext:value type="accessed">2011-08-02</ext:value>
 				<ext:value type="comment">Image in Tasveer Ghar gallery</ext:value>
 				<ext:item type="agent">
@@ -200,7 +198,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/97/index_3.html, last accessed 201
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/97/index_3.html</ext:value>
+				<ext:value type="url">uuid-9822363a-680b-3e73-811e-37cf147ef6fd</ext:value>
 				<ext:value type="accessed">2011-08-02</ext:value>
 				<ext:value type="comment">Tasveer Ghar essay referencing the image</ext:value>
 				<ext:item type="agent">
@@ -258,7 +256,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/97/index_3.html, last accessed 201
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:49">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:05:32">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

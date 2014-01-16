@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -46,10 +48,6 @@ Nai Sarak, New Delhi</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119056" type="corporate">HeidICON Image Database</name>
-				<refid>119056</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -71,51 +69,53 @@ Nai Sarak, New Delhi</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term type="concept">children (people by age group)</term>
+				<term type="descriptiveTopic">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
-				<term type="animal">swans</term>
+				<term type="descriptiveTopic">swans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="38badb36-8a99-5821-b97f-a64e3b6e0ce9">
-				<term type="concept">girls</term>
+				<term type="descriptiveTopic">girls</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="489bbc57-16cc-5f57-b489-8ab8375cfe8f">
-				<term type="concept">animals</term>
+				<term type="descriptiveTopic">animals</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term type="concept">musical instruments</term>
+				<term type="descriptiveTopic">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b8bec4ca-f38a-573c-b950-641275362104">
-				<term type="concept">parks (recreation areas)</term>
+				<term type="descriptiveTopic">parks (recreation areas)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9043bcfe-439b-5b01-8945-95d720f76a48">
-				<term type="concept">houses</term>
+				<term type="descriptiveTopic">houses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
-				<term type="concept">fair skin</term>
+				<term type="conceptTopic">fair skin</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e7eade51-a62c-536d-ad72-5805e2e49f58">
-				<term type="concept">harmoniums</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">harmoniums</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec384af3-848a-5e36-9ed3-be26f36e831b">
-				<term type="concept">floral patterns</term>
+				<term type="descriptiveTopic">Blume &lt;Motiv&gt;</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+				<term type="descriptiveTopic">Werbung</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -186,7 +186,7 @@ On this advertisement for Anand Singh &amp; Co. Harmoniums, we see two fair skin
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:22">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:43">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

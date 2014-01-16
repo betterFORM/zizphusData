@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109761" type="corporate">HeidICON Image Database</name>
-				<refid>109761</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -63,24 +59,26 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="960a637f-14ee-5292-83d8-73c05f1c2d81">
-				<term type="worktype">greeting cards</term>
+				<term type="descriptiveTopic">greeting cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="97a3dcf5-63f4-5a3c-8a10-fb7dd4072779">
-				<term type="greeting">Eid Mubarak (greetings)</term>
+				<term type="conceptTopic">Eid Mubarak (greetings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="351ee46d-61e1-5a93-ab0d-7b09d4cb8fa2">
-				<term type="concept">white people</term>
+				<term type="conceptTopic">white people</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cedec7f-30ff-5240-8107-7829ee512735">
-				<term type="concept">Eid cards</term>
+				<term type="descriptiveTopic">Eid cards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -114,7 +112,7 @@ Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim S
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Patterson, Steven, Postcards from the Raj, Patterns of Prejudice, Volume 40, Number 2, Routledge, May 2006, 142-158; also see Saloni Mathur, 1999.</ext:value>
+				<ext:value type="text">uuid-15811200-1c63-3945-8729-80395f8145cc</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -123,7 +121,7 @@ Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim S
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Mathur, Saloni, &quot;Wanted Native Views: Collecting colonial postcards of India,&quot; in Antionette Burton (ed.) Gender, Sexuality and Colonial Modernities, New York: Routledge, 1999, 95-115.</ext:value>
+				<ext:value type="text">uuid-386af3f6-72b3-3601-b871-928d2881ff45</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -134,7 +132,7 @@ Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim S
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/117/index_1.html</ext:value>
+				<ext:value type="url">uuid-d27ec885-52f6-35f6-b84f-f934b7d8a5b3</ext:value>
 				<ext:value type="accessed">2011-04-06</ext:value>
 				<ext:value type="comment">Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim South Asia.&quot;</ext:value>
 				<ext:item type="agent">
@@ -152,7 +150,7 @@ Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim S
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -201,7 +199,7 @@ Saeed, Yousuf 2011. &quot;Eid Mubarak: Cross-cultural Image Exchange in Muslim S
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:59:30">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:30">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

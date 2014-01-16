@@ -22,10 +22,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107944" type="corporate">HeidICON Image Database</name>
-				<refid>107944</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -45,18 +41,20 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
-				<term type="concept">cigarette advertising</term>
+				<term type="descriptiveTopic">cigarette advertising</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="89981ce6-5834-578e-a9f7-96d87c21635f">
-				<term type="worktype">cigarette cards</term>
+				<term type="descriptiveTopic">cigarette cards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -103,7 +101,7 @@ Cards of Wills's Cigarettes, Ogden's Cigarettes, Player's Cigarettes.</ext:value
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:14:04">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:47">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -42,10 +42,6 @@ BOMBAY.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118076" type="corporate">HeidICON Image Database</name>
-				<refid>118076</refid>
-			</location>
 		</locationSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_6210c325-55e4-5b82-8f92-7e62e7e63cf3" refid="118076" source="EXC Priya Paul Collection" pref="true">general view</relation>
@@ -60,25 +56,23 @@ BOMBAY.</text>
 		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>early 20th century</stylePeriod>
+			<stylePeriod vocab="LOCAL" refid="uuid-9053717d-df14-57da-a2cf-2aa3209aaa63">19th century</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
-			<subject source="EXC" vocab="LOCAL" refid="9053717d-df14-57da-a2cf-2aa3209aaa63">
-				<term type="time">19th century</term>
-			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="10c45a89-4ba3-593b-82a1-5e00a6bf1687">
-				<term type="geographic">Bombay</term>
+				<term type="geographicPlace">Bombay</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b231d6d8-c37b-5dc8-9659-80c29e8197e7">
-				<term type="concept">circuses (performances)</term>
+				<term type="descriptiveTopic">circuses (performances)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b2340835-33bd-5d41-800a-95ea3484daea">
-				<term type="worktype">labels (identifying artifacts)</term>
+				<term type="descriptiveTopic">labels (identifying artifacts)</term>
 			</subject>
 		</subjectSet>
 		<titleSet>
@@ -122,7 +116,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Nevile, Pran 1997. &quot;Lahore: A Sentimental Journey&quot; New Delhi: Harper Collins.</ext:value>
+				<ext:value type="text">uuid-e89defb0-37b5-3ce8-ac10-7f3fed94829b</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -131,7 +125,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Schmidt, Richard 1908. &quot;Fakire und Fakirtum im alten und modernen Indien&quot;. Berlin: Barsdorf.</ext:value>
+				<ext:value type="text">uuid-afd56566-a9ea-349e-9dfc-0d31f67393f0</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -140,7 +134,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Lamont, Peter and Crispin Bates 2007.&quot;Conjuring Images of India in Nineteenth-century Britain&quot; in Social History, Vol. 32(3).</ext:value>
+				<ext:value type="text">uuid-1cb96966-4d5d-331a-abe7-82db5e48b546</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -149,7 +143,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot; http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (12.11.2010)</ext:value>
+				<ext:value type="text">uuid-e2b87a34-c918-3ef7-9ad6-a8a3d6c75728</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -158,7 +152,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:value type="text">uuid-6279c268-0639-3809-8d4e-3e3e1c6c3536</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -207,7 +201,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:48">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:01:24">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119067" type="corporate">HeidICON Image Database</name>
-				<refid>119067</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -64,18 +60,20 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="959fa38f-be55-5eee-be1f-6c37a4c26ed6">
-				<term type="concept">coats (garments)</term>
+				<term type="descriptiveTopic">coats (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4b0eff81-18b6-5333-a35c-e688c999e2c9">
-				<term type="concept">politicians</term>
+				<term type="descriptiveTopic">politicians</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0a5f03d9-2d1d-51a2-8181-2aff34043977">
-				<term type="concept">neckties</term>
+				<term type="descriptiveTopic">neckties</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0c001e4-367f-557b-9542-e92cf25f6f8c">
-				<term type="internal workflow">recheck-Sri</term>
+				<term type="otherTopic">recheck-Sri</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -105,7 +103,7 @@ http://www.whitehouse.gov/about/presidents/johnfkennedy, last accessed 2012-06-0
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://millercenter.org/index.php/academic/americanpresident/kennedy</ext:value>
+				<ext:value type="url">uuid-eb73a0a0-6223-3679-a176-03c558a94f7e</ext:value>
 				<ext:value type="accessed">2012-06-06</ext:value>
 				<ext:value type="comment">facts at a glance about John F Kennedy</ext:value>
 				<ext:item type="agent">
@@ -116,7 +114,7 @@ http://www.whitehouse.gov/about/presidents/johnfkennedy, last accessed 2012-06-0
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.whitehouse.gov/about/presidents/johnfkennedy</ext:value>
+				<ext:value type="url">uuid-f3ef13d2-9875-346a-b154-d7675843dc1d</ext:value>
 				<ext:value type="accessed">2012-06-06</ext:value>
 				<ext:value type="comment">John F Kennedy biography at the White -house website</ext:value>
 				<ext:item type="agent">
@@ -172,7 +170,7 @@ http://www.whitehouse.gov/about/presidents/johnfkennedy, last accessed 2012-06-0
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:48">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

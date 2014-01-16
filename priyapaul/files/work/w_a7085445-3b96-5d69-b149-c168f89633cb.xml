@@ -33,10 +33,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108130" type="corporate">HeidICON Image Database</name>
-				<refid>108130</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -64,36 +60,38 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e8447050-0bc9-534f-931a-13c8dcd6803c">
-				<term type="concept">rural areas</term>
+				<term type="conceptTopic">rural areas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9043bcfe-439b-5b01-8945-95d720f76a48">
-				<term type="concept">houses</term>
+				<term type="descriptiveTopic">houses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="97a3dcf5-63f4-5a3c-8a10-fb7dd4072779">
-				<term type="greeting">Eid Mubarak (greetings)</term>
+				<term type="conceptTopic">Eid Mubarak (greetings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dcca3af6-be00-5392-aef7-16565d031365">
-				<term type="language">Urdu</term>
+				<term type="conceptTopic">Urdu (language)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fde44ada-be47-52ec-99ef-0a7ae52ed751">
-				<term type="concept">winter</term>
+				<term type="conceptTopic">winter</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7cedec7f-30ff-5240-8107-7829ee512735">
-				<term type="concept">Eid cards</term>
+				<term type="descriptiveTopic">Eid cards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -164,7 +162,7 @@ H. Ghulam Muhammad &amp; Sons, Mochi Gate, Lahore. Imprime in Italia. [on backsi
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:57:11">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

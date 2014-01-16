@@ -53,10 +53,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120477" type="corporate">HeidICON Image Database</name>
-				<refid>120477</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -78,33 +74,35 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0fced42e-bef4-52b0-ad72-3602d3bce2f8">
-				<term type="worktype">film poster</term>
+				<term type="descriptiveTopic">film poster</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e3e64bc0-a69c-53bc-864e-71bc752f335e">
-				<term type="work">Aap To Aise Na The (movie, 1980)</term>
+				<term type="iconographicTopic">Aap To Aise Na The (movie, 1980)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -134,7 +132,7 @@ http://www.imdb.com/title/tt0178198/, last accessed 2012-01-18, story plot, main
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0178198/</ext:value>
+				<ext:value type="url">uuid-68d15555-37e0-392f-af91-9e03c5949b86</ext:value>
 				<ext:value type="accessed">2012-01-18</ext:value>
 				<ext:value type="comment">story plot, main actors.</ext:value>
 				<ext:item type="agent">
@@ -189,7 +187,7 @@ http://www.imdb.com/title/tt0178198/, last accessed 2012-01-18, story plot, main
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:13">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:21">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

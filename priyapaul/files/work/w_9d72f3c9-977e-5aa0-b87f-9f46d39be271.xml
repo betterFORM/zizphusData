@@ -28,7 +28,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -57,10 +59,6 @@ Dongre
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119240" type="corporate">HeidICON Image Database</name>
-				<refid>119240</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -82,60 +80,62 @@ Dongre
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="98cdd292-9b30-5297-a6f8-99dfdfc40644">
-				<term type="concept">red sari</term>
+				<term type="descriptiveTopic">red sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c02fef98-ccbc-5652-9337-a0ec0de4595e">
-				<term type="concept">sunset</term>
+				<term type="descriptiveTopic">sunset</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="747cc752-b60c-5d8c-853a-4dba8a1c5b50">
-				<term type="concept">infants</term>
+				<term type="descriptiveTopic">infants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term type="concept">Hindu women</term>
+				<term type="conceptTopic">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
-				<term type="concept">forests</term>
+				<term type="descriptiveTopic">forests</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
-				<term type="concept">lakes (bodies of water)</term>
+				<term type="descriptiveTopic">lakes (bodies of water)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
-				<term type="concept">Bharatiya Nari</term>
+				<term type="conceptTopic">Bharatiya Nari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37ccf96c-60b8-55f4-ac8c-ff7a50cd3988">
-				<term type="brand">Dongre's Baby Sirup (product)</term>
+				<term type="descriptiveTopic">Dongre's Baby Sirup (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="94329588-dd90-5d0d-b0b5-fd2b80c78665">
-				<term type="concept">columns (architectural elements)</term>
+				<term type="descriptiveTopic">columns (architectural elements)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
-				<term type="concept">bottles</term>
+				<term type="descriptiveTopic">bottles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b6c8dfe5-5dd1-584c-9b2e-d7d51c6ebd5e">
-				<term type="internal workflow">recheck-Hindi-title</term>
+				<term type="otherTopic">recheck-Hindi-title</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b4d47b06-58b7-5fbe-8fb7-89efa9f44d4d">
-				<term type="concept">syrup</term>
+				<term type="descriptiveTopic">syrup</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">Kalender</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -193,7 +193,7 @@ This calendar of the month January of 1931 depicts a Hindu woman in a red sari a
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:04">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:07:50">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

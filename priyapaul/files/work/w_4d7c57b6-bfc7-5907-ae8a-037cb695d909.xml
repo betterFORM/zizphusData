@@ -8,17 +8,17 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-c19f9da6-753a-5e79-aa6d-3e0e2b5692a2">Parvati</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-088240fa-d01e-587a-bee4-7bf0ac401445">Shiva</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -62,10 +62,6 @@ Made in England</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120088" type="corporate">HeidICON Image Database</name>
-				<refid>120088</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -85,60 +81,62 @@ Made in England</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="8b649548-d3eb-5669-ab53-534befea688d">
-				<term type="concept">globes (cartographic spheres)</term>
+				<term type="descriptiveTopic">globes (cartographic spheres)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
-				<term type="geographic">Sun (star)</term>
+				<term type="descriptiveTopic">Sun (star)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
-				<term type="concept">mountains</term>
+				<term type="descriptiveTopic">mountains</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term type="concept">pearl necklaces</term>
+				<term type="descriptiveTopic">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
-				<term type="concept">crowns (headdresses)</term>
+				<term type="descriptiveTopic">crowns (headdresses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term type="concept">necklaces</term>
+				<term type="descriptiveTopic">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
-				<term type="animal">snake</term>
+				<term type="descriptiveTopic">snake</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="10e28811-2aa9-5c39-aa43-f235619449af">
-				<term type="concept">tridents (weapon)</term>
+				<term type="descriptiveTopic">tridents (weapon)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term type="concept">peacock feather</term>
+				<term type="descriptiveTopic">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
-				<term type="concept">pearl (animal material)</term>
+				<term type="descriptiveTopic">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="349e1a13-73e9-59dd-b1fd-aa267461c848">
-				<term type="concept">full moon</term>
+				<term type="descriptiveTopic">full moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b5859290-1538-5d89-97e2-2668abc19a58">
-				<term type="concept">terrestrial globes</term>
+				<term type="descriptiveTopic">terrestrial globes</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -196,7 +194,7 @@ Lord Krishna, in his appearance as a child, is climbing on a globe centered arou
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:53">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:12:49">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

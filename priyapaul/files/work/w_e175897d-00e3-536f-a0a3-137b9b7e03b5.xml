@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-b0383a4d-50ce-5db9-824d-16247aa14773">Sarasvati</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
 		<descriptionSet>
@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -34,10 +36,6 @@ LONDON, ENGLAND.</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118368" type="corporate">HeidICON Image Database</name>
-				<refid>118368</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -69,58 +67,58 @@ LONDON, ENGLAND.</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="0f1dfa65-78db-590e-8900-c575c2333c2c">
-				<term type="concept">white sari</term>
+				<term type="descriptiveTopic">white sari</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
-				<term type="concept">bindi</term>
+				<term type="iconographicTopic">bindi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f556a343-7ac9-5bef-b2d3-de6e78e498fe">
-				<term type="concept">four-armed</term>
+				<term type="iconographicTopic">four-armed</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term type="concept">pearl necklaces</term>
+				<term type="descriptiveTopic">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term type="concept">necklaces</term>
+				<term type="descriptiveTopic">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
-				<term type="concept">musical instruments</term>
+				<term type="descriptiveTopic">musical instruments</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b675fb76-330b-5b1f-80c7-1a150859c76a">
-				<term type="concept">sitars (Indian chordophones)</term>
+				<term type="descriptiveTopic">sitars (Indian chordophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2d1f2b2b-80e4-56fc-809d-0d28b51bb7c9">
-				<term type="brand">Vinolia soap (product)</term>
+				<term type="descriptiveTopic">Vinolia soap (product)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="93d4dd84-99a8-5d5d-9eef-e1b21db03ace">
-				<term type="concept">soap (organic material)</term>
+				<term type="descriptiveTopic">soap (organic material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
-				<term type="concept">soap advertisings</term>
+				<term type="descriptiveTopic">soap advertisings</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c3fc30a6-c4a3-511e-9540-3a4a4216199e">
-				<term type="concept">white (color)</term>
+				<term type="descriptiveTopic">white (color)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="394bf25b-0418-590d-809b-b31f176e95df">
-				<term type="animal">peacocks (animals)</term>
+				<term type="descriptiveTopic">peacocks (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
-				<term type="concept">peacock feather</term>
+				<term type="descriptiveTopic">peacock feather</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="f5b80cd3-ba75-5883-b946-de6ec60cea02">
-				<term type="concept">headdresses</term>
+				<term type="descriptiveTopic">headdresses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
-				<term type="concept">pearl (animal material)</term>
+				<term type="descriptiveTopic">pearl (animal material)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -164,7 +162,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Gadihoke, Sabika 2010. &quot;Selling Soap and Stardom: The Story of Lux&quot; http://www.tasveergharindia.net/cmsdesk/essay/104/index.html (9.12.2010)</ext:value>
+				<ext:value type="text">uuid-e47229f7-cd8d-3c39-903d-eec15ad4ee1f</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -173,7 +171,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Jain, Kajri 2007. &quot;Gods in the Bazaar: The Economies of Indian Calendar Art&quot;. Durham NC: Duke University Press.</ext:value>
+				<ext:value type="text">uuid-28d89cec-4cdf-38cf-9336-793cee5d1f80</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -182,7 +180,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Dyer, Richard and Christine Gledhill 2009. &quot;Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s&quot;. Urbana and Chicago: University of Illinois Press.</ext:value>
+				<ext:value type="text">uuid-f9f24f74-91ab-3abb-ac19-5b87e5d53674</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -191,7 +189,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</ext:value>
+				<ext:value type="text">uuid-f205bb56-24b9-3e10-a141-efd9471f353d</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -200,7 +198,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Advertising&quot;. Belmont, California: Wadsworth Publishing Co.</ext:value>
+				<ext:value type="text">uuid-9d545597-010a-3893-ac18-9bd528f79c7a</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -285,7 +283,7 @@ Sivulka, Julianne 1998. &quot;Soap, Sex and Cigarettes: A Cultural History of Ad
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:06:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:02:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

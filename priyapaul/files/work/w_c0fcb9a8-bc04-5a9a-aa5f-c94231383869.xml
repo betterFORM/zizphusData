@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120624" type="corporate">HeidICON Image Database</name>
-				<refid>120624</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -51,24 +47,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d422a5e0-c57f-520d-b80d-9ce67fff49e1">
-				<term type="concept">hats</term>
+				<term type="descriptiveTopic">hats</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b36d19fa-21bc-5e02-b8b0-a1d46aff9994">
-				<term type="concept">sex role</term>
+				<term type="conceptTopic">sex role</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
-				<term type="concept">smoking (activity)</term>
+				<term type="descriptiveTopic">smoking (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e5e453a3-84b0-5d48-b7e9-f2df780c4a62">
-				<term type="concept">cycle rickshaws (vehicles)</term>
+				<term type="descriptiveTopic">cycle rickshaws (vehicles)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -78,7 +76,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Just by way of a change</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+			<worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">Postkarte</worktype>
 			<worktype vocab="local" source="EXC" refid="439002b8-6c37-537a-b250-636cd927c04d">picture postcards</worktype>
 		</worktypeSet>
 		<ext:heidicon>
@@ -125,7 +123,7 @@ A woman drives a man up a hill on a cycle rickshaw. Both are wearing huts and re
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:49:41">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

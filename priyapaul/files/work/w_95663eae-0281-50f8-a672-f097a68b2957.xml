@@ -28,7 +28,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -58,10 +60,6 @@ Manchester</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118964" type="corporate">HeidICON Image Database</name>
-				<refid>118964</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -89,42 +87,44 @@ Manchester</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term type="concept">horses</term>
+				<term type="descriptiveTopic">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2a5cd23e-936c-5a59-a1e2-fe34e6e7ac7b">
-				<term type="concept">trains (vehicle groupings)</term>
+				<term type="descriptiveTopic">trains (vehicle groupings)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ca958fff-7874-5fa7-9ff8-e92d482e114f">
-				<term type="concept">factories</term>
+				<term type="descriptiveTopic">factories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="67b37a90-73ba-5cc8-b92d-05f01a99dc02">
-				<term type="concept">medals</term>
+				<term type="descriptiveTopic">medals</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
-				<term type="concept">printer's marks</term>
+				<term type="descriptiveTopic">printer's marks</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e94ebaa3-75e2-5ae1-bbdc-50353fca8ce7">
-				<term type="concept">bridges (built works)</term>
+				<term type="descriptiveTopic">bridges (built works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e50cb5a2-2241-5520-b464-46ff97c7ccff">
-				<term type="concept">thread</term>
+				<term type="descriptiveTopic">thread</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d1c6c147-f61f-5719-9fd1-dc4458fdbe5d">
-				<term type="concept">smoke</term>
+				<term type="descriptiveTopic">smoke</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6229a84b-0127-581b-8344-3001e4438ff1">
-				<term type="concept">aerial views</term>
+				<term type="descriptiveTopic">aerial views</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -218,7 +218,7 @@ http://www.gracesguide.co.uk/J._and_E._Waters_and_Co, last accessed 2012-09-17, 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:10:32">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:06:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -28,10 +28,6 @@ Bloomington Club, Bloomington, III.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109765" type="corporate">HeidICON Image Database</name>
-				<refid>109765</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -52,21 +48,24 @@ Bloomington Club, Bloomington, III.</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+			<stylePeriod vocab="LOCAL" refid="uuid-e2f6e5ba-1a71-5490-84d7-b965d7970d5a">Anglo-Mughal</stylePeriod>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="83f03ad1-8297-578d-89e4-c593cef44e6a">
-				<term type="concept">architectural drawings (visual works)</term>
+				<term type="descriptiveTopic">architectural drawings (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7e92472b-3caa-5f8a-a989-2e8e2b980481">
-				<term type="concept">colonialism</term>
+				<term type="conceptTopic">colonialism</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="e2f6e5ba-1a71-5490-84d7-b965d7970d5a">
-				<term type="concept">Colonial architecture</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="628a31fc-beaa-5b06-a18c-2d40e8d91a25">
-				<term type="concept">Bloomington Club</term>
+				<term type="descriptiveTopic">Bloomington Club</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="60992e03-4ceb-576c-bfbf-56af20d19e7b">
+				<term type="otherTopic">Kolonialstil</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -107,7 +106,7 @@ On this postcard the Bloomington Club, Bloomington, III., can be seen - a cubic 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:59:41">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:35">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

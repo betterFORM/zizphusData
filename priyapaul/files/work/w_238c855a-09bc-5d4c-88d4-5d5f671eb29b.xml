@@ -28,10 +28,6 @@ registered copyright</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118086" type="corporate">HeidICON Image Database</name>
-				<refid>118086</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -51,21 +47,23 @@ registered copyright</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c071ce1a-691e-59e8-97ba-861574604d8f">
-				<term type="animal">lion</term>
+				<term type="descriptiveTopic">lion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
-				<term type="plant">palm trees</term>
+				<term type="descriptiveTopic">palm trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="16c145b6-70a6-579d-ab2a-42f4591beecf">
-				<term type="concept">canvas</term>
+				<term type="descriptiveTopic">canvas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0eb3a448-120a-54cb-b22e-443db4fa82ae">
-				<term type="concept">easels</term>
+				<term type="descriptiveTopic">easels</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -116,7 +114,7 @@ The textile label shows a male lion standing on the grass in front of an easel, 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:21">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:01:29">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

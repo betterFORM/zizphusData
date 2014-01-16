@@ -25,7 +25,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -53,10 +55,6 @@ Bristol &amp; London</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/118656" type="corporate">HeidICON Image Database</name>
-				<refid>118656</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -78,30 +76,32 @@ Bristol &amp; London</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="d422a5e0-c57f-520d-b80d-9ce67fff49e1">
-				<term type="concept">hats</term>
+				<term type="descriptiveTopic">hats</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
-				<term type="concept">Western women</term>
+				<term type="conceptTopic">Western women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4396d207-5b25-503f-a276-97d5fd0d72ef">
-				<term type="concept">neckerchiefs</term>
+				<term type="descriptiveTopic">neckerchiefs</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
-				<term type="concept">cigarette advertising</term>
+				<term type="descriptiveTopic">cigarette advertising</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a7d83eb1-873b-5b5e-9c7b-c242d609a106">
-				<term type="brand">Capstan Navy Cut (product)</term>
+				<term type="descriptiveTopic">Capstan Navy Cut (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -183,7 +183,7 @@ Date taken from the printers' imprint. (ma)</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:55:46">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:04:23">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119999" type="corporate">HeidICON Image Database</name>
-				<refid>119999</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -50,66 +46,68 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
-				<term type="concept">children (people by age group)</term>
+				<term type="descriptiveTopic">children (people by age group)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ef8b896-8dbc-511d-a14c-97abc67bf367">
-				<term type="concept">tables (support furniture)</term>
+				<term type="descriptiveTopic">tables (support furniture)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="38badb36-8a99-5821-b97f-a64e3b6e0ce9">
-				<term type="concept">girls</term>
+				<term type="descriptiveTopic">girls</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9c62ec73-3841-5106-a5fd-2594f022ed15">
-				<term type="concept">boys</term>
+				<term type="descriptiveTopic">boys</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term type="concept">pearl necklaces</term>
+				<term type="descriptiveTopic">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term type="concept">necklaces</term>
+				<term type="descriptiveTopic">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c1b6ad-3105-55a8-b39b-cf71d9de6c66">
-				<term type="concept">windows</term>
+				<term type="descriptiveTopic">windows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
-				<term type="concept">matchbook</term>
+				<term type="descriptiveTopic">matchbook</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5baf3f4c-27ac-5b6b-a12a-0450ff4b9e56">
-				<term type="concept">bidi</term>
+				<term type="descriptiveTopic">bidi</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4666e2ff-4cf6-5025-9525-c0cc88c84df9">
-				<term type="concept">cigarettes</term>
+				<term type="descriptiveTopic">cigarettes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
-				<term type="concept">smoking (activity)</term>
+				<term type="descriptiveTopic">smoking (activity)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
-				<term type="concept">pearl (animal material)</term>
+				<term type="descriptiveTopic">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="94329588-dd90-5d0d-b0b5-fd2b80c78665">
-				<term type="concept">columns (architectural elements)</term>
+				<term type="descriptiveTopic">columns (architectural elements)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a76fe2c5-ac99-5330-8ab4-cbe5301ad6f6">
-				<term type="concept">drinks (beverage)</term>
+				<term type="descriptiveTopic">drinks (beverage)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
-				<term type="worktype">matchboxes</term>
+				<term type="descriptiveTopic">matchboxes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6428f072-af61-58f2-b70d-817cd93acba5">
-				<term type="concept">hairbands (ornaments)</term>
+				<term type="descriptiveTopic">hairbands (ornaments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
-				<term type="concept">bottles</term>
+				<term type="descriptiveTopic">bottles</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -162,7 +160,7 @@ A man and a woman, in western dress, he is smoking, sit at a table, possibly in 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:08:25">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:12:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

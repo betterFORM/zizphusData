@@ -30,7 +30,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -43,10 +45,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120802" type="corporate">HeidICON Image Database</name>
-				<refid>120802</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -74,24 +72,26 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7bc1a5ec-d17a-5c51-9650-0c4d7abc2327">
-				<term type="concept">prisons (institutions)</term>
+				<term type="descriptiveTopic">prisons (institutions)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">film stills</term>
+				<term type="descriptiveTopic">film stills</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b27e6f0-8717-5ee8-866a-a98f40015751">
-				<term type="work (movie)">Pinjre ke Panchhi (movie, 1966)</term>
+				<term type="iconographicTopic">Pinjre ke Panchhi (movie, 1966)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -124,7 +124,7 @@ http://www.imdb.com/title/tt0139529/, story plot, director, last accessed 2012-0
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0139529/</ext:value>
+				<ext:value type="url">uuid-bc48d5d3-73a8-3871-8123-86970923be42</ext:value>
 				<ext:value type="accessed">2012-01-18</ext:value>
 				<ext:value type="comment">story plot, director,</ext:value>
 				<ext:item type="agent">
@@ -172,7 +172,7 @@ http://www.imdb.com/title/tt0139529/, story plot, director, last accessed 2012-0
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:10">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:17:09">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

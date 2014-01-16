@@ -66,10 +66,6 @@ Sudesh Kumar</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119322" type="corporate">HeidICON Image Database</name>
-				<refid>119322</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -91,45 +87,47 @@ Sudesh Kumar</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="1a0d4361-0930-5f95-9b01-e90ec197f6d3">
-				<term type="concept">veils (headcloths)</term>
+				<term type="descriptiveTopic">veils (headcloths)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term type="worktype">lobby cards</term>
+				<term type="descriptiveTopic">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
-				<term type="concept">motion pictures (visual works)</term>
+				<term type="descriptiveTopic">motion pictures (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8dd1e4e9-1f7c-5fa4-8e2f-4a060fd56337">
-				<term type="concept">dancers</term>
+				<term type="descriptiveTopic">dancers</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
-				<term type="concept">film stills</term>
+				<term type="descriptiveTopic">film stills</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="52e578a3-694b-5c04-9803-7e12a426b206">
-				<term type="work (movie)">Uljhan (movie, 1975)</term>
+				<term type="iconographicTopic">Uljhan (movie, 1975)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -168,7 +166,7 @@ http://www.imdb.com/title/tt0230913/, story plot, leading actors, direcotr, last
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0230913/</ext:value>
+				<ext:value type="url">uuid-13772a98-2559-3c20-a30f-ae777e152f61</ext:value>
 				<ext:value type="accessed">2012-01-16</ext:value>
 				<ext:value type="comment">story plot, leading actors, direcotr,</ext:value>
 				<ext:item type="agent">
@@ -210,7 +208,7 @@ http://www.imdb.com/title/tt0230913/, story plot, leading actors, direcotr, last
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:03">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:14">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

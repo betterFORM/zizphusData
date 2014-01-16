@@ -19,7 +19,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -38,10 +40,6 @@ Heir-Apparent of Bikaner</text>
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119208" type="corporate">HeidICON Image Database</name>
-				<refid>119208</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -70,30 +68,32 @@ Heir-Apparent of Bikaner</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b80dfe9-529b-566d-811c-3d2a6918fdaf">
-				<term type="concept">kings (people)</term>
+				<term type="iconographicTopic">kings (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
-				<term type="concept">uniforms</term>
+				<term type="descriptiveTopic">uniforms</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3f19eeff-8fd0-5f9d-81ef-cb195af84393">
-				<term type="animal">camels (animals)</term>
+				<term type="descriptiveTopic">camels (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
-				<term type="animal">tigers (animals)</term>
+				<term type="descriptiveTopic">tigers (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -173,7 +173,7 @@ Source: http://en.wikipedia.org/wiki/Sadul_Singh_of_Bikaner, last accessed 2012-
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:56:32">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:07:42">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

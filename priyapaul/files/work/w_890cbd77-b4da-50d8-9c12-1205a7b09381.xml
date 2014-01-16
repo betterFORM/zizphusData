@@ -14,7 +14,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -37,10 +39,6 @@ ROCK</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120489" type="corporate">HeidICON Image Database</name>
-				<refid>120489</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -61,42 +59,47 @@ ROCK</text>
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="79617be6-bcef-5579-8b25-96ea746a0acb">
-				<term type="concept">braid</term>
+				<term type="descriptiveTopic">braid</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
-				<term type="concept">Hindu women</term>
+				<term type="conceptTopic">Hindu women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="057ba872-ba91-5b8b-858c-77c13aca26df">
-				<term type="concept">hair</term>
+				<term type="descriptiveTopic">hair</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ebc21342-acd3-5f79-bd08-e77f0da385c2">
-				<term type="concept">red lipstick</term>
+				<term type="descriptiveTopic">red lipstick</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
-				<term type="internal workflow">recheck-Matthias</term>
+				<term type="otherTopic">recheck-Matthias</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d6493cb4-6a3a-5249-a624-4afcbd67de1a">
-				<term type="concept">fireworks (explosive equipment)</term>
+				<term type="descriptiveTopic">fireworks (explosive equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec9b32dc-f9b3-5d14-81eb-1c7acf5bc346">
-				<term type="concept">rockets (projectiles, general)</term>
+				<term type="descriptiveTopic">rockets (projectiles, general)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">Frau</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="851d6cea-31f0-5238-b259-7afd423624fb">
-				<term type="concept">lipsticks</term>
+				<term type="descriptiveTopic">Lippenstift</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="cb1ea50b-48aa-516a-95dd-4c661ac9eade">
+				<term type="otherTopic">Zopf</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -152,7 +155,7 @@ The advertisement is filled out with a woman holding a bar with a rocket in her 
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:59">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:15:26">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

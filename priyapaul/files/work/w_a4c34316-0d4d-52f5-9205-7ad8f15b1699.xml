@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-048694c0-93ed-5b54-8923-fb9017e4b9ae">Rama</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-ec2e7db2-15f9-5a22-a8fb-c86471f48a9d">Ravana</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -61,10 +61,6 @@ Series No.25</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120093" type="corporate">HeidICON Image Database</name>
-				<refid>120093</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -96,45 +92,47 @@ Series No.25</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
-				<term type="concept">horses</term>
+				<term type="descriptiveTopic">horses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e3388827-cd10-5db5-8196-1915f6b7e405">
-				<term type="concept">battles</term>
+				<term type="conceptTopic">battles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3aac194e-887d-5016-a81a-598ebd840f2c">
-				<term type="concept">chariots (ancient vehicles)</term>
+				<term type="descriptiveTopic">chariots (ancient vehicles)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
-				<term type="concept">arrows</term>
+				<term type="descriptiveTopic">arrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
-				<term type="concept">bows (weapons)</term>
+				<term type="descriptiveTopic">bows (weapons)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b418eb78-22c2-5e67-a93d-9d999558bb7c">
-				<term type="animal">monkeys (animals)</term>
+				<term type="descriptiveTopic">monkeys (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3db1d222-d591-5e56-9c91-097667ccf170">
-				<term type="work (epic)">Ramayana</term>
+				<term type="iconographicTopic">Ramayana</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9b2c09f3-f24a-5c77-bbdb-b15cc1310764">
-				<term type="concept">scripts (writing)</term>
+				<term type="descriptiveTopic">scripts (writing)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0fdaf619-0e7c-5cab-8167-d0b3cc1cd392">
-				<term type="Script">Devanagari script</term>
+				<term type="otherTopic">Devanagari script</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">Werbung</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -180,7 +178,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Freitag, Sandria B. 2002. “The realm of the visual: Agency and modern civil society.” in: Contributions to Indian Sociology. 36 (1 &amp; 2). pp.: 365-397.</ext:value>
+				<ext:value type="text">uuid-21e9be6c-19f5-34b3-beeb-bdfc1c46ac8c</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -189,7 +187,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Masselos, Jim 2006. “A goddess for everyone: the mass production of divine images,” in Jackie Menzies, ed. Goddess Divine Energy. Sydney: Art Gallery of New South Wales and Thames and Hudson.</ext:value>
+				<ext:value type="text">uuid-9f554d89-50a1-3c12-92b6-d5ea20749cbe</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -198,7 +196,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html fig.9 (17.1.2011)</ext:value>
+				<ext:value type="text">uuid-e082ab00-a277-30a8-9414-075f27c5887a</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -262,7 +260,7 @@ Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot; htt
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:13:05">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:12:51">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

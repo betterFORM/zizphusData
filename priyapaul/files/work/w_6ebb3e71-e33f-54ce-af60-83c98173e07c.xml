@@ -39,10 +39,6 @@ Behind: Jubilee Cinema, DELHI-6.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109945" type="corporate">HeidICON Image Database</name>
-				<refid>109945</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -74,63 +70,65 @@ Behind: Jubilee Cinema, DELHI-6.</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
-				<term type="concept">moon</term>
+				<term type="descriptiveTopic">moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24ecbda1-c2c0-595c-9c2a-e0013681e619">
-				<term type="concept">stars</term>
+				<term type="descriptiveTopic">stars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8b41ef52-992d-532b-8e69-9ab992af8834">
-				<term type="concept">men (male humans)</term>
+				<term type="descriptiveTopic">men (male humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
-				<term type="concept">pearl necklaces</term>
+				<term type="descriptiveTopic">pearl necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
-				<term type="concept">couples</term>
+				<term type="descriptiveTopic">couples</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
-				<term type="concept">necklaces</term>
+				<term type="descriptiveTopic">necklaces</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="46a02fc3-d05e-5820-b206-00102b348075">
-				<term type="concept">crescent</term>
+				<term type="descriptiveTopic">crescent</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3f19eeff-8fd0-5f9d-81ef-cb195af84393">
-				<term type="animal">camels (animals)</term>
+				<term type="descriptiveTopic">camels (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="12274477-5c67-554f-bd76-558a3e60ba97">
-				<term type="concept">romantic love</term>
+				<term type="conceptTopic">romantic love</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="daff83d7-ee6e-50cb-8d4d-4092ebd4fb32">
-				<term type="work (film, legend/story/folk tale)">Laila Majnu (folk tale)</term>
+				<term type="iconographicTopic">Laila Majnu (folk tale)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="871fec22-afab-54b3-8edf-4104f3a933ef">
-				<term type="concept">love</term>
+				<term type="conceptTopic">love</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="dab93cc0-5354-53c9-83d2-a17dc5d92c57">
-				<term type="concept">interactionism (sociology)</term>
+				<term type="conceptTopic">interactionism (sociology)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="80783591-9cf3-58dc-a46f-a931841868ad">
-				<term type="concept">crescent moon</term>
+				<term type="descriptiveTopic">crescent moon</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
-				<term type="concept">pearl (animal material)</term>
+				<term type="descriptiveTopic">pearl (animal material)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="120ae93c-70d3-5ca5-8369-a43ea591f128">
-				<term type="concept">interaction (sociology)</term>
+				<term type="conceptTopic">interaction (sociology)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -187,7 +185,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Heritage&quot;. Studies in South Asian Film and Media 2(1): 41-55.</ext:value>
+				<ext:value type="text">uuid-920756f6-cf99-3140-a2a8-bc7f23007443</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -196,7 +194,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Kakar, Sudhir and Jonathan Ross. 1986. Tales of Love, Sex and Danger. New Delhi: Oxford University Press.</ext:value>
+				<ext:value type="text">uuid-f5df891a-81a2-32ff-9818-0193a2e5eac0</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -207,42 +205,42 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.thehindu.com/arts/cinema/article419176.ece</ext:value>
+				<ext:value type="url">uuid-05a6cc7b-293c-3981-bdfb-6b7ca77e2ac9</ext:value>
 				<ext:value type="accessed">2011-08-01</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.thehindu.com/arts/cinema/article419176.ece</ext:value>
+				<ext:value type="url">uuid-05a6cc7b-293c-3981-bdfb-6b7ca77e2ac9</ext:value>
 				<ext:value type="accessed">2012-07-02</ext:value>
 				<ext:value type="comment">review of the 1962 (Kerala Pictures) movie in &quot;The Hindu&quot;, May 1, 2010, by B. Vijayakumar</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Arnold, Matthias</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://festivals.iloveindia.com/valentines-day/famous-love-stories/laila-majnu.html</ext:value>
+				<ext:value type="url">uuid-8545fe9e-2b92-3c73-b2ce-5c5557c26f47</ext:value>
 				<ext:value type="accessed">2012-07-02</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
@@ -253,7 +251,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -264,7 +262,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -273,7 +271,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Brosius, Christiane</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -282,7 +280,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Brosius, Christiane</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -291,7 +289,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
@@ -300,7 +298,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Gruening, Simon</ext:value>
 					<ext:value type="agent-type">personal</ext:value>
-					<ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+					<ext:value type="refid">uuid-</ext:value>
 				</ext:item>
 			</ext:item>
 		</ext:heidicon>
@@ -327,7 +325,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:52">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:24">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

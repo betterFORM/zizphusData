@@ -38,10 +38,6 @@ Drossos &amp; Co. Alexandria, Cairo, Port Said, etc.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108381" type="corporate">HeidICON Image Database</name>
-				<refid>108381</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -68,21 +64,23 @@ Drossos &amp; Co. Alexandria, Cairo, Port Said, etc.</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
-				<term type="concept">bottles</term>
+				<term type="descriptiveTopic">bottles</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0390ac2a-dbd5-5df8-af8a-ee80637c674c">
-				<term type="concept">ale glasses</term>
+				<term type="descriptiveTopic">ale glasses</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a9df249d-0771-5c17-b8fd-b10127cdff14">
-				<term type="brand">Beck's (brand)</term>
+				<term type="descriptiveTopic">Beck's (brand)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -122,7 +120,7 @@ http://en.wikipedia.org/wiki/Beck%27s_Brewery, last accessed 2012-05-04, basic i
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://en.wikipedia.org/wiki/Beck%27s_Brewery</ext:value>
+				<ext:value type="url">uuid-ccdc8176-8172-3d0c-b3f1-1fe7e439cb78</ext:value>
 				<ext:value type="accessed">2012-05-04</ext:value>
 				<ext:value type="comment">basic information about the company.</ext:value>
 				<ext:item type="agent">
@@ -170,7 +168,7 @@ http://en.wikipedia.org/wiki/Beck%27s_Brewery, last accessed 2012-05-04, basic i
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:00:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

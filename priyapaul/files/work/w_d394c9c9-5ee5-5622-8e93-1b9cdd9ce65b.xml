@@ -134,10 +134,6 @@ Material for Upholstery.
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119679" type="corporate">HeidICON Image Database</name>
-				<refid>119679</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -158,15 +154,17 @@ Material for Upholstery.
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
-				<term type="worktype">advertisements</term>
+				<term type="descriptiveTopic">advertisements</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
-				<term type="concept">product advertisement</term>
+				<term type="descriptiveTopic">product advertisement</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d0c001e4-367f-557b-9542-e92cf25f6f8c">
-				<term type="internal workflow">recheck-Sri</term>
+				<term type="otherTopic">recheck-Sri</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -315,7 +313,7 @@ Material for Upholstery.
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:52:28">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:10:13">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -20,7 +20,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -48,10 +50,6 @@ and Gope.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120796" type="corporate">HeidICON Image Database</name>
-				<refid>120796</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -73,30 +71,32 @@ and Gope.</text>
 		</rightsSet>
  		<sourceSet>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ff2e490b-01b3-5ec3-bce0-482c8e3ed529">
-				<term type="concept">musicians</term>
+				<term type="descriptiveTopic">musicians</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="daff83d7-ee6e-50cb-8d4d-4092ebd4fb32">
-				<term type="work (film, legend/story/folk tale)">Laila Majnu (folk tale)</term>
+				<term type="iconographicTopic">Laila Majnu (folk tale)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
-				<term type="concept">motion pictures (visual works)</term>
+				<term type="descriptiveTopic">motion pictures (visual works)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8dd1e4e9-1f7c-5fa4-8e2f-4a060fd56337">
-				<term type="concept">dancers</term>
+				<term type="descriptiveTopic">dancers</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -146,7 +146,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Heritage&quot;. Studies in South Asian Film and Media 2(1): 41-55.</ext:value>
+				<ext:value type="text">uuid-920756f6-cf99-3140-a2a8-bc7f23007443</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -155,7 +155,7 @@ Roy, Anjali Gera. 2010. &quot;Bhakti and Ashiqi? Hindi Cinema's Syncretic Herita
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Kakar, Sudhir and Jonathan Ross. 1986. Tales of Love, Sex and Danger. New Delhi: Oxford University Press.</ext:value>
+				<ext:value type="text">uuid-f5df891a-81a2-32ff-9818-0193a2e5eac0</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -197,7 +197,7 @@ actors: Swarnalata, Nazir Ahmed Khan</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:49">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:17:06">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

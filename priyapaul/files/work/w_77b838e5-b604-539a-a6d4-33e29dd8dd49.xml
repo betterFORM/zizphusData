@@ -71,10 +71,6 @@ Vincent Studios</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120849" type="corporate">HeidICON Image Database</name>
-				<refid>120849</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
@@ -95,27 +91,29 @@ Vincent Studios</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term type="worktype">lobby cards</term>
+				<term type="descriptiveTopic">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2502395d-3b88-5061-a85d-579655d59693">
-				<term type="work">furniture</term>
+				<term type="descriptiveTopic">furniture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b1cf71e3-004e-5ca9-af3f-a86d3884e171">
-				<term type="concept">couches (reclining furniture)</term>
+				<term type="descriptiveTopic">couches (reclining furniture)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1ff9809d-2a79-52d6-a2b0-2795d6a278c6">
-				<term type="work (movie)">Dhoon (movie, 1953)</term>
+				<term type="iconographicTopic">Dhoon (movie, 1953)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -158,7 +156,7 @@ The film Dhoon, like other releases of the period was filmed inside studios. (gs
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0379254/</ext:value>
+				<ext:value type="url">uuid-a9efe469-3d41-3f63-b4b0-c3d3cceb258c</ext:value>
 				<ext:value type="accessed">2011-12-06</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -193,7 +191,7 @@ The film Dhoon, like other releases of the period was filmed inside studios. (gs
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:44">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:17:28">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

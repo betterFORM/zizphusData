@@ -8,16 +8,11 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
-				<role vocab="marcrelator" type="code">dpc</role>
-  			</agent>
-			<agent>
-				<culture/>
-				<name vocab="local" type="personal" refid="uuid-65d331c8-aea5-564e-a372-b0b6cd6f30df">Gandhi, Mohandas Karamchand</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-0813ec19-f470-5797-b003-eb5b34c0cc7d">Dayal, Prabhu</name>
+				<name vocab="local" type="personal" refid="uuid-65d331c8-aea5-564e-a372-b0b6cd6f30df">Gandhi, Mohandas Karamchand</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 		</agentSet>
@@ -30,7 +25,9 @@ Mother India in turn is shown perched on a partially visible map of India (shown
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">framing (processes)</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+				<text>framing (processes)</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -66,10 +63,6 @@ Rashtriya Chitra Prakashak Karyalaya, Cawnpore</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109745" type="corporate">HeidICON Image Database</name>
-				<refid>109745</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -94,22 +87,19 @@ Rashtriya Chitra Prakashak Karyalaya, Cawnpore</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term type="concept">national leader</term>
+				<term type="conceptTopic">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
-				<term type="concept">deities</term>
+				<term type="iconographicTopic">deities</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
-				<term type="geographic">India</term>
+				<term type="geographicPlace">India</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
-				<term type="concept">maps</term>
+				<term type="descriptiveTopic">maps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
-				<term type="concept">leaders (people)</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="57ee3339-e4a6-576c-a74c-cdcc94e12a1e">
-				<term type="geographic">Kanpur</term>
+				<term type="conceptTopic">leaders (people)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -177,7 +167,7 @@ Mahatma Gandhi in Mother India's lap</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:40">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:00:00">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

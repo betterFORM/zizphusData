@@ -46,10 +46,6 @@ The Bombay Company Ltd.</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/107865" type="corporate">HeidICON Image Database</name>
-				<refid>107865</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -83,34 +79,29 @@ The Bombay Company Ltd.</text>
 		</sourceSet>
 		<stylePeriodSet>
 			<stylePeriod>Mughal Empire</stylePeriod>
+			<stylePeriod vocab="LOCAL" refid="uuid-713bce21-8cae-59d4-a146-7a33333f9a8b">Mughal</stylePeriod>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="ee7ac7d6-2a41-5d77-85e0-0e8934621f46">
-				<term type="concept">emperors</term>
+				<term type="iconographicTopic">emperors</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="c1352e24-74bb-5cb1-94ef-f3b98db80084">
-				<term type="concept">Mughal Emperors</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
-				<term type="work">turbans</term>
+				<term type="descriptiveTopic">turbans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
-				<term type="internal workflow">recheck-Medialab</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="713bce21-8cae-59d4-a146-7a33333f9a8b">
-				<term type="concept">Mughal</term>
+				<term type="otherTopic">recheck-Medialab</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b2340835-33bd-5d41-800a-95ea3484daea">
-				<term type="worktype">labels (identifying artifacts)</term>
+				<term type="descriptiveTopic">labels (identifying artifacts)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -146,8 +137,7 @@ http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and
-Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
+				<ext:value type="text">uuid-6b8fa80b-8205-3560-828e-086e95200e1c</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -158,7 +148,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+				<ext:value type="url">uuid-6b8fa80b-8205-3560-828e-086e95200e1c</ext:value>
 				<ext:value type="accessed">2010-10-29</ext:value>
 				<ext:value type="comment"></ext:value>
 				<ext:item type="agent">
@@ -209,7 +199,7 @@ Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:04:32">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:58:46">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

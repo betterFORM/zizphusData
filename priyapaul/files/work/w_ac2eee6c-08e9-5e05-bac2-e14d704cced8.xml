@@ -12,11 +12,6 @@
   			</agent>
 			<agent>
 				<culture/>
-				<name vocab="local" type="personal" refid="uuid-277edd4a-e237-5b88-9775-ab2d90bb4292">Rajnikantho</name>
-				<role vocab="marcrelator" type="code">art</role>
-  			</agent>
-			<agent>
-				<culture/>
 				<name vocab="local" type="personal" refid="uuid-a4d4d622-0453-5010-94b8-2c0a33442340">Mahendran, J.</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
@@ -67,10 +62,6 @@ Deepa (Sex Bomb)</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119331" type="corporate">HeidICON Image Database</name>
-				<refid>119331</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -91,39 +82,41 @@ Deepa (Sex Bomb)</text>
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c07e97f6-6226-5231-85a7-28172d4e2454">
-				<term type="concept">fight</term>
+				<term type="conceptTopic">fight</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
-				<term type="worktype">lobby cards</term>
+				<term type="descriptiveTopic">lobby cards</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
-				<term type="concept">Hindi films</term>
+				<term type="conceptTopic">Hindi films</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
-				<term type="concept">saris (garments)</term>
+				<term type="descriptiveTopic">saris (garments)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
-				<term type="concept">spectacles (eye glasses)</term>
+				<term type="descriptiveTopic">spectacles (eye glasses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6fd4d06b-191e-589e-8b63-470b2ce1a306">
-				<term type="concept">handguns (small arms)</term>
+				<term type="descriptiveTopic">handguns (small arms)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="62a6c979-0065-5ddd-bbc5-cd053e784202">
-				<term type="work (movie)">Jhony Ustad (movie, 1980)</term>
+				<term type="iconographicTopic">Jhony Ustad (movie, 1980)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4710beb2-ecad-5fe9-841f-2713eb67123f">
-				<term type="concept">microphones</term>
+				<term type="descriptiveTopic">microphones</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -165,7 +158,7 @@ http://www.imdb.com/title/tt0187188/, last accessed 2011-12-23, story line, lead
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.imdb.com/title/tt0187188/</ext:value>
+				<ext:value type="url">uuid-60e3ffb5-2bfd-333c-b785-83efab74e169</ext:value>
 				<ext:value type="accessed">2011-12-23</ext:value>
 				<ext:value type="comment">story line, leading actors, director.</ext:value>
 				<ext:item type="agent">
@@ -220,7 +213,7 @@ http://www.imdb.com/title/tt0187188/, last accessed 2011-12-23, story line, lead
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:02:32">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:08:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

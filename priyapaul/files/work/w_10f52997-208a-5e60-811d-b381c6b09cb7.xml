@@ -8,12 +8,12 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-b3775c4d-66e8-51b7-9743-3db10425c1d2">Indra</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -36,10 +36,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/108716" type="corporate">HeidICON Image Database</name>
-				<refid>108716</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -67,42 +63,44 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
-				<term type="animal">elephants</term>
+				<term type="descriptiveTopic">Asian elephants (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="0c740b41-1daa-582f-9c09-b0fd1631e995">
-				<term type="concept">clouds</term>
+				<term type="descriptiveTopic">clouds</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
-				<term type="animal">cows</term>
+				<term type="descriptiveTopic">cows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
-				<term type="worktype">textile label</term>
+				<term type="descriptiveTopic">textile label</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
-				<term type="work">flutes (aerophones)</term>
+				<term type="descriptiveTopic">flutes (aerophones)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
-				<term type="concept">Indian men</term>
+				<term type="conceptTopic">Indian men</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
-				<term type="concept">Indian women</term>
+				<term type="conceptTopic">Indian women</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="385719c8-84dc-5a3a-95b0-4df7bbafe479">
-				<term type="geographic/concept?">Mount Govardhan</term>
+				<term type="iconographicTopic">Mount Govardhan</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="952898c6-20ba-5549-85f8-41e5f8f7c2d0">
-				<term type="brand">Best Turkey Red (product)</term>
+				<term type="descriptiveTopic">Best Turkey Red (product)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -132,7 +130,7 @@ http://festivals.iloveindia.com/diwali/govardhan-puja.html, last accessed 2012-0
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://festivals.iloveindia.com/diwali/govardhan-puja.html</ext:value>
+				<ext:value type="url">uuid-e1430494-a344-3e3c-9d6a-ea6ac9f76403</ext:value>
 				<ext:value type="accessed">2012-02-06</ext:value>
 				<ext:value type="comment">story of Krishna and Govardhan Parvat</ext:value>
 				<ext:item type="agent">
@@ -180,7 +178,7 @@ http://festivals.iloveindia.com/diwali/govardhan-puja.html, last accessed 2012-0
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:12:24">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:17">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

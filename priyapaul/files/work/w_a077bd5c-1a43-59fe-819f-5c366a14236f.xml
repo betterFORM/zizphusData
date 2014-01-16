@@ -27,10 +27,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120639" type="corporate">HeidICON Image Database</name>
-				<refid>120639</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -51,24 +47,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="c0102a51-5293-573e-97e6-d863e90a33bf">
-				<term type="animal">birds (animals)</term>
+				<term type="descriptiveTopic">birds (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
-				<term type="concept">trees</term>
+				<term type="descriptiveTopic">trees</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="627b8b90-1098-5849-a7e4-458817c404ae">
-				<term type="concept">Christmas</term>
+				<term type="conceptTopic">Christmas</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="10716526-e3e0-5466-9ca6-d5bd6342b9a8">
-				<term type="animal">pheasants (animals)</term>
+				<term type="descriptiveTopic">pheasants (animals)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
-				<term type="worktype">picture postcards</term>
+				<term type="descriptiveTopic">picture postcards</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -124,7 +122,7 @@ On this Christmas greeting card, we see 3 pheasants as well as the outline of so
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:50:34">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:16:22">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

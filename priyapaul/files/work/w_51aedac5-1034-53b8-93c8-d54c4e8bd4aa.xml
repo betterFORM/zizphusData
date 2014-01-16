@@ -8,7 +8,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-93b49709-83eb-503b-b1d4-08427c9f4414">Christ</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -18,7 +18,7 @@
 			<agent>
 				<culture/>
 				<name vocab="local" type="personal" refid="uuid-459b4de8-c2f9-55ec-9929-3b045a4941e3">Buddha</name>
-				<role vocab="marcrelator" type="code">dpc</role>
+				<role vocab="marcrelator" type="code">art</role>
   			</agent>
 			<agent>
 				<culture/>
@@ -74,10 +74,6 @@ AGRICULTURE</text>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/122993" type="corporate">HeidICON Image Database</name>
-				<refid>122993</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -114,67 +110,67 @@ AGRICULTURE</text>
 		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="44ac94f4-ee8b-58c8-b219-a380770a6c05">
-				<term type="concept">nations</term>
+				<term type="conceptTopic">nations</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term type="concept">national leader</term>
+				<term type="conceptTopic">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a11996a4-a33a-5a54-b6fa-d996f8216c1f">
-				<term type="concept">ships</term>
+				<term type="descriptiveTopic">ships</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9e472931-5729-5175-b0ad-fda0a51e5d23">
-				<term type="concept">crosses (motifs)</term>
+				<term type="iconographicTopic">crosses (motifs)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="124615a8-1fc5-51e3-8327-63c0763c7a5c">
-				<term type="concept">white cap</term>
+				<term type="descriptiveTopic">white cap</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
-				<term type="concept">glories</term>
+				<term type="iconographicTopic">glories</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d098726e-7f50-5762-89f5-d0abe5d31ac7">
-				<term type="concept">oceans</term>
+				<term type="descriptiveTopic">oceans</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="9690f13a-ec24-50a6-af14-6d414f45e156">
-				<term type="concept">villages</term>
+				<term type="descriptiveTopic">villages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="5512566d-eab7-5ea2-a645-21e20952530a">
-				<term type="concept">caps (headgear)</term>
+				<term type="descriptiveTopic">caps (headgear)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
-				<term type="plant">lotus (motif)</term>
+				<term type="descriptiveTopic">lotus (motif)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7827f591-4d4b-5f24-80b8-57c311eecdea">
-				<term type="concept">tractors (agricultural equipment)</term>
+				<term type="descriptiveTopic">tractors (agricultural equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="2f5c0838-4d89-5a07-9950-47075f45cc7d">
-				<term type="concept">agriculture</term>
+				<term type="conceptTopic">agriculture</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="b13fad2b-e13b-5bdf-865c-ecfddfbf0950">
-				<term type="concept">crucifixion</term>
+				<term type="iconographicTopic">crucifixion</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="41a891fd-ae61-50e0-be04-0030c44295e2">
-				<term type="concept">spectacles (eye glasses)</term>
+				<term type="descriptiveTopic">spectacles (eye glasses)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c5fdb294-2a89-51f8-8664-317a5b78ec64">
-				<term type="concept">plows (agricultural equipment)</term>
+				<term type="descriptiveTopic">plows (agricultural equipment)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4766f327-15c1-5e9c-bbe7-f5c010c59943">
-				<term type="concept">agricultural development</term>
+				<term type="conceptTopic">agricultural development</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="ec8a209b-e763-572c-9a9a-2997f5c6db70">
-				<term type="concept">harrows</term>
+				<term type="descriptiveTopic">harrows</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
-				<term type="concept">leaders (people)</term>
+				<term type="conceptTopic">leaders (people)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
-				<term type="worktype">posters</term>
+				<term type="descriptiveTopic">Poster</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -218,7 +214,7 @@ Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press.</
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Rajagopal, Arvind 2010. &quot;The Commodity Image in the (Post) Colony&quot;, http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-19</ext:value>
+				<ext:value type="text">uuid-e082ab00-a277-30a8-9414-075f27c5887a</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -227,7 +223,7 @@ Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press.</
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press.</ext:value>
+				<ext:value type="text">uuid-82d14fbe-fde3-3d83-b569-6f3c40640865</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">PPColl_editors, PPColl_editors</ext:value>
@@ -303,7 +299,7 @@ Pinney, Christopher. 2004. Photos of the Gods. Delhi: Oxford University Press.</
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:53:34">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:18:31">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

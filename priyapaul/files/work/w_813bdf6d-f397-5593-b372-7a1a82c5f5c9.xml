@@ -35,10 +35,6 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109930" type="corporate">HeidICON Image Database</name>
-				<refid>109930</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
@@ -58,27 +54,26 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="0c740b41-1daa-582f-9c09-b0fd1631e995">
-				<term type="concept">clouds</term>
+				<term type="descriptiveTopic">clouds</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
-				<term type="concept">women (female humans)</term>
+				<term type="descriptiveTopic">women (female humans)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
-				<term type="concept">dance</term>
+				<term type="descriptiveTopic">dance</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
-				<term type="internal workflow">checked</term>
+				<term type="otherTopic">checked</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c8683694-3e8b-52f1-855d-acaa4d8e8261">
-				<term type="worktype">portraits</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="fb400a82-f170-5237-9bfc-6d0680f00d37">
-				<term type="concept">photography</term>
+				<term type="descriptiveTopic">Bildnis</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -88,7 +83,7 @@
 			<title type="descriptive" pref="true" lang="eng" script="Latn">Dancing Woman</title>
 		</titleSet>
 		<worktypeSet>
-			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
+			<worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">Photographie</worktype>
 			<worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
 		</worktypeSet>
 		<ext:heidicon>
@@ -114,7 +109,7 @@ A woman wearing a pink dress can be seen dancing. The image looks ethereal becau
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:27">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:57:08">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

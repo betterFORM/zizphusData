@@ -10,6 +10,11 @@
 				<name vocab="local" type="personal" refid="uuid-ddaa9cf1-f534-56a7-8e66-7534b767bfce">Nehru, Jawaharlal</name>
 				<role vocab="marcrelator" type="code">art</role>
   			</agent>
+			<agent>
+				<culture/>
+				<name vocab="local" type="corporate" refid="uuid-a82e9738-f691-55f8-bf5e-a05e28f9459a">Swadeshi movement</name>
+				<role vocab="marcrelator" type="code">cli</role>
+  			</agent>
 		</agentSet>
 		<inscriptionSet>
 			<inscription>
@@ -22,10 +27,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/109893" type="corporate">HeidICON Image Database</name>
-				<refid>109893</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -46,30 +47,29 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="5461b1f0-2486-51e1-a63d-8e372d39e54f">
-				<term type="concept">books</term>
+				<term type="descriptiveTopic">books</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="124615a8-1fc5-51e3-8327-63c0763c7a5c">
-				<term type="concept">white cap</term>
-			</subject>
-			<subject source="EXC" vocab="LOCAL" refid="a82e9738-f691-55f8-bf5e-a05e28f9459a">
-				<term type="concept">Swadeshi movement</term>
+				<term type="descriptiveTopic">white cap</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="c8683694-3e8b-52f1-855d-acaa4d8e8261">
-				<term type="worktype">portraits</term>
+				<term type="descriptiveTopic">portraits</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="406ae82c-8d46-5965-8d0f-702f4687d346">
-				<term type="concept">pen (drawing and writing)</term>
+				<term type="descriptiveTopic">pen (drawing and writing)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="6138714d-8132-5952-9627-cf4c80e02390">
-				<term type="concept">topis (headdresses)</term>
+				<term type="descriptiveTopic">topis (headdresses)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -110,7 +110,7 @@
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:05:54">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:58:53">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

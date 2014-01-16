@@ -28,7 +28,9 @@
 					<role vocab="marcrelator" code="edt">Editor</role>
 				</author>
 			</description>
-			<description vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">surface-mounted</description>
+			<description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+				<text>surface-mounted</text>
+			</description>
 		</descriptionSet>
 		<inscriptionSet>
 			<inscription>
@@ -44,10 +46,6 @@
 			</location>
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
-			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/120798" type="corporate">HeidICON Image Database</name>
-				<refid>120798</refid>
 			</location>
 		</locationSet>
 		<materialSet>
@@ -80,27 +78,29 @@
 				<refid type="citation">$pages$</refid>
 			</source>
 		</sourceSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
-				<term type="concept">flowers (plants)</term>
+				<term type="descriptiveTopic">flowers (plants)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
-				<term type="concept">plants</term>
+				<term type="descriptiveTopic">plants</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
-				<term type="concept">jewelry</term>
+				<term type="descriptiveTopic">jewelry</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
-				<term type="concept">Bollywood</term>
+				<term type="conceptTopic">Bollywood</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="daff83d7-ee6e-50cb-8d4d-4092ebd4fb32">
-				<term type="work (film, legend/story/folk tale)">Laila Majnu (folk tale)</term>
+				<term type="iconographicTopic">Laila Majnu (folk tale)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
-				<term type="internal workflow">recheck</term>
+				<term type="otherTopic">recheck</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
-				<term type="internal workflow">recheck-Gerhard</term>
+				<term type="otherTopic">recheck-Gerhard</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -141,7 +141,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rl" status="0" display="comment:related_literature">
-				<ext:value type="text">Said, Edward 1995. &quot;Orientalism&quot;. London: Penguin Books.</ext:value>
+				<ext:value type="text">uuid-6279c268-0639-3809-8d4e-3e3e1c6c3536</ext:value>
 				<ext:item type="agent">
 					<ext:value type="role">Editor</ext:value>
 					<ext:value type="name">Schoenhofer, Gerhard</ext:value>
@@ -152,7 +152,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 		</ext:heidicon>
 		<ext:heidicon>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://cineplot.com/gobindram-filmography/</ext:value>
+				<ext:value type="url">uuid-798901af-50fb-3cb4-b1db-18f1c413562e</ext:value>
 				<ext:value type="accessed">2012-04-01</ext:value>
 				<ext:value type="comment">mention of the film and main crew</ext:value>
 				<ext:item type="agent">
@@ -163,7 +163,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 				</ext:item>
 			</ext:item>
 			<ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
-				<ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+				<ext:value type="url">uuid-e2b87a34-c918-3ef7-9ad6-a8a3d6c75728</ext:value>
 				<ext:value type="accessed">2010-11-22</ext:value>
 				<ext:value type="comment">Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy&quot;</ext:value>
 				<ext:item type="agent">
@@ -237,7 +237,7 @@ Thomas, Rosie 2010. &quot;Still Magic. An Aladdin's Cave of 1950s B-Movie Fantas
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:01:57">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:17:07">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

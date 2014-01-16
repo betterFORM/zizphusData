@@ -38,10 +38,6 @@ D.M.Khan Bros.
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/106096" type="corporate">HeidICON Image Database</name>
-				<refid>106096</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
@@ -62,18 +58,23 @@ D.M.Khan Bros.
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="31053f28-ef5f-5db6-bedb-0983ad9b9943">
-				<term type="concept">postage stamps</term>
+				<term type="descriptiveTopic">postage stamps</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e689f406-1b4b-5e85-97d7-1ea72891824c">
-				<term type="concept">text messages</term>
+				<term type="descriptiveTopic">text messages</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3606d2bd-a29a-5124-a6c6-efa79b5af9bf">
-				<term type="concept">communication (function)</term>
+				<term type="conceptTopic">communication (function)</term>
+			</subject>
+			<subject source="EXC" vocab="LOCAL" refid="bb96de14-ab4b-516a-807c-ba4533d510e8">
+				<term type="otherTopic">Nachricht</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -133,7 +134,7 @@ On the back of this postcard, we see an image of a woman with the name Hashinjan
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T18:07:33">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T17:55:16">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>

@@ -63,18 +63,14 @@
 			<location source="EXC" type="repository">
 				<name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
 			</location>
-			<location type="formerRepository">
-				<name vocab="local" refid="" href="http://heidicon.ub.uni-heidelberg.de/id/119259" type="corporate">HeidICON Image Database</name>
-				<refid>119259</refid>
-			</location>
 		</locationSet>
 		<materialSet>
 			<material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
 		</materialSet>
 		<relationSet>
 			<relation type="imageIs" relids="i_f66dd950-bb1a-55ed-87f4-cae0ca8aac2c" refid="119259" source="EXC Priya Paul Collection" pref="true">general view</relation>
-			<relation type="imageIs" relids="i_251d4854-1acd-51ce-b16e-a50eb5b3b63a" refid="119264" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_80c6dc7e-d29b-57bf-8974-414a31eb1f5c" refid="119261" source="EXC Priya Paul Collection">close-up view</relation>
+			<relation type="imageIs" relids="i_251d4854-1acd-51ce-b16e-a50eb5b3b63a" refid="119264" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_e469d477-0a3e-54f6-9cfb-c189665f49e1" refid="119262" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_cd6f25b9-3188-5cfe-8217-a2c1e98ed6c7" refid="119263" source="EXC Priya Paul Collection">detail view</relation>
 			<relation type="imageIs" relids="i_3a9de681-f02c-573e-85a4-c0539072e70b" refid="119260" source="EXC Priya Paul Collection">close-up view</relation>
@@ -85,45 +81,47 @@
 				<text>Copyrighted. Copyright with the original artists and publishers.</text>
 			</rights>
 		</rightsSet>
+		<stylePeriodSet>
+		</stylePeriodSet>
 		<subjectSet>
 			<subject source="EXC" vocab="LOCAL" refid="e36dcd57-8439-59ad-9e63-6934403a3a63">
-				<term type="concept">armies</term>
+				<term type="descriptiveTopic">armies</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
-				<term type="concept">flags</term>
+				<term type="descriptiveTopic">flags</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
-				<term type="concept">national leader</term>
+				<term type="conceptTopic">national leader</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="be497b44-653c-57e9-b96e-a8656a39b8dc">
-				<term type="concept">parades</term>
+				<term type="descriptiveTopic">parades</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="3c5e6969-b1bd-5f45-84de-b4ee4342bfad">
-				<term type="concept">airplanes</term>
+				<term type="descriptiveTopic">airplanes</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
-				<term type="worktype">calendars</term>
+				<term type="descriptiveTopic">calendars</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
-				<term type="internal workflow">recheck-new</term>
+				<term type="otherTopic">recheck-new</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="32bac633-9059-5ea1-9685-2316bac61731">
-				<term type="worktype">political posters</term>
+				<term type="descriptiveTopic">political posters</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="e749c727-bac2-5186-b892-3c18089b890e">
-				<term type="concept">tanks (military vehicles)</term>
+				<term type="descriptiveTopic">tanks (military vehicles)</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
-				<term type="internal workflow">recheck-problem</term>
+				<term type="otherTopic">recheck-problem</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
-				<term type="internal workflow">recheck-original-language</term>
+				<term type="otherTopic">recheck-original-language</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="4540d4b6-913d-5bbf-a5e6-9ef462aa2d3e">
-				<term type="concept">political art</term>
+				<term type="descriptiveTopic">political art</term>
 			</subject>
 			<subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
-				<term type="concept">leaders (people)</term>
+				<term type="conceptTopic">leaders (people)</term>
 			</subject>
 		</subjectSet>
 		<techniqueSet>
@@ -184,14 +182,14 @@ on the flag one character (shi 事) is missing from the full &quot;National Mili
 
 		<ext:heidicon>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
-				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119264</ext:value>
-				<ext:value>i_251d4854-1acd-51ce-b16e-a50eb5b3b63a</ext:value>
-				<ext:value>detail view</ext:value>
-			</ext:item>
-			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119261</ext:value>
 				<ext:value>i_80c6dc7e-d29b-57bf-8974-414a31eb1f5c</ext:value>
 				<ext:value>close-up view</ext:value>
+			</ext:item>
+			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119264</ext:value>
+				<ext:value>i_251d4854-1acd-51ce-b16e-a50eb5b3b63a</ext:value>
+				<ext:value>detail view</ext:value>
 			</ext:item>
 			<ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
 				<ext:value>http://heidicon.ub.uni-heidelberg.de/id/119262</ext:value>
@@ -216,7 +214,7 @@ on the flag one character (shi 事) is missing from the full &quot;National Mili
 			</ext:item>
 		</ext:heidicon>
 		<ext:heidicon>
-			<ext:administrative type="heidicon2vra" date="2013-08-20T17:58:56">
+			<ext:administrative type="heidicon2vra" date="2014-01-15T18:07:55">
 			</ext:administrative>
 		</ext:heidicon>
 	</work>
