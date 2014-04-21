@@ -11,7 +11,7 @@ declare variable $target external;
 
 declare variable $db-root := "/db";
 declare  variable $data-dir := "resources/";
-declare  variable $services-data-dir := $data-dir || "commons/";
+declare  variable $commons-data-dir := $data-dir || "commons/";
 
 declare variable $log-level := "INFO";
 
@@ -71,6 +71,6 @@ xmldb:move( $target || '/resources', '/db'),
 local:mkcol('/db/system/config/db', 'resources/commons'),
 xmldb:move( $target || '/system/config/db/resources/commons', '/db/system/config/db/resources/commons', 'collection.xconf'),
 util:log($log-level, "Permissions: Set permissions for record  data..."),
-local:set-collection-resource-permissions($db-root || "/" ||   $services-data-dir, $biblio-admin-user, $biblio-users-group, util:base-to-integer(0755, 8)),
+local:set-collection-resource-permissions($db-root || "/" || $commons-data-dir , $biblio-admin-user, $biblio-users-group, util:base-to-integer(0755, 8)),
 util:log($log-level, "...DONE")
 

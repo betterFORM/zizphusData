@@ -5,4 +5,9 @@
             <create qname="@id" type="xs:string"/>
         </range>
     </index>
+    <triggers>
+        <trigger event="create,delete,update" class="org.exist.versioning.VersioningTrigger">
+            <parameter name="overwrite" value="yes"/>
+        </trigger>
+    </triggers>
 </collection>
