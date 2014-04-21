@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="xar" name="ziziphusData">
-    <property name="project.version" value="2014.01.15"/>
-    <property name="project.app" value="ziziphusData"/>
+    <property name="ziziphus-data.version" value="2014.01.15"/>
+    <property name="ziziphus-data.app" value="ziziphusData"/>
+    
+    <property name="services-data.version" value="2014-03-05"/>
+    <property name="services-data.app" value="servicesData"/>
+    
     <property name="build.dir" value="build"/>
-    <target name="xar">
-        <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* .idea/* *.iml"/>
+    
+    
+    <target name="xar" depends="xar-ziziphus-data, xar-services-data"/>
+    
+    <target name="xar-ziziphus-data">
+        <mkdir dir="${build.dir}/ziziphus-data"/>
+        <zip basedir="data" destfile="${build.dir}/ziziphus-data/${ziziphus-data.app}-${ziziphus-data.version}.xar" excludes="${build.dir}/* .idea/* *.iml services/*"/>
     </target>
+    
+    <target name="xar-services-data">
+        <mkdir dir="${build.dir}/services-data"/>
+        <zip basedir="services" destfile="${build.dir}/services-data/${services-data.app}-${services-data.version}.xar" excludes="${build.dir}/* .idea/* *.iml data/*"/>
+    </target>
+    
     <target name="clean">
         <delete dir="${build.dir}"/>
     </target>
