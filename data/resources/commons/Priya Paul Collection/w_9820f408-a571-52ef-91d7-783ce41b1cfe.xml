@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_9820f408-a571-52ef-91d7-783ce41b1cfe" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-86274780-c326-5ade-b14a-ee24181b898f">Abu-Er-Rub, Laila</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A sample image with the title "Happy" from a catalogue of the Empire Calender Manufacturing Co. shows a girl with blond, curly hair and blue eyes laughing.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">[indecipherable artist's signature in the lower left corner of the image]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">HAPPY
+No. 616</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 25 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">25</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_911465aa-a273-53c8-9902-55e56713f72b" source="EXC Priya Paul Collection" pref="true" relids="i_911465aa-a273-53c8-9902-55e56713f72b">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+		</sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
+                <term type="conceptTopic">whiteness</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="071a3d2d-79c0-5d19-999a-96156831a272">
+                <term type="descriptiveTopic">eyes</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
+                <term type="descriptiveTopic">children (people by age group)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="13bad129-1196-5dd3-952d-503079de43b6">
+                <term type="descriptiveTopic">blue (color)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="057ba872-ba91-5b8b-858c-77c13aca26df">
+                <term type="descriptiveTopic">hair</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a390fa1c-83b6-5be0-b188-90d9755d5bba">
+                <term type="descriptiveTopic">blue eyes</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cf7de29c-dc86-5221-b1d0-f1ef5165575c">
+                <term type="descriptiveTopic">blonde hair</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="510eb761-83ea-598f-bbac-ab53d01b47e6">
+                <term type="descriptiveTopic">blonde</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
+                <term type="descriptiveTopic">trade catalogs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Happy</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+[indecipherable artist's signature in the lower left corner of the image]</ext:value>
+                <ext:value>text-en:
+HAPPY
+No. 616</ext:value>
+                <ext:value>description-en:
+A sample image with the title "Happy" from a catalogue of the Empire Calender Manufacturing Co. shows a girl with blond, curly hair and blue eyes laughing. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Blonde hair as well as red hair is a distinctive visual marker on images for being Western and therefore an almost exclusive marker for whiteness. Particularly children are often portrayed with blond hair, as this mirrors purity (John O'Connor) (la)</ext:value>
+                <ext:value>related literature:
+O'Connor, John J. 1989. What are TV Ads Selling to Children? Advertising Age, 60.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">O'Connor, John J. 1989. What are TV Ads Selling to Children? Advertising Age, 60.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Blonde hair as well as red hair is a distinctive visual marker on images for being Western and therefore an almost exclusive marker for whiteness. Particularly children are often portrayed with blond hair, as this mirrors purity</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">John O'Connor</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119515</ext:value>
+                <ext:value>119515</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:42:04"/>
+        </ext:heidicon>
+    </work>
+</vra>

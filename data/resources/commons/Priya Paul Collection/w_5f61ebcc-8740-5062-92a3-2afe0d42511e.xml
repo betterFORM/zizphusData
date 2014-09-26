@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_5f61ebcc-8740-5062-92a3-2afe0d42511e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-75bfb851-6796-5d0e-8886-db985e50b844">Mohan Bhatiya Associates</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1976</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1976</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The image is a page from a film brochure. In it, Meera is seen dressed in a white sari, holding a statue of Krishna in her hand, and carrying a bag. She has long hair and holy beads (rudraksh) are tied around a bun in her hair.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Mohan Bhatiya presents Meera Shyam in color.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 22 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">22</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_8f078c7a-b186-5c63-a083-64d267334b9f" source="EXC Priya Paul Collection" pref="true" relids="i_8f078c7a-b186-5c63-a083-64d267334b9f">front</relation>
+            <relation type="imageIs" refid="i_af949ca8-9079-57f9-9308-663bccb0d799" source="EXC Priya Paul Collection" relids="i_af949ca8-9079-57f9-9308-663bccb0d799">back</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.kamat.com/indica/faiths/bhakti/mirabai.htm</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.imdb.com/title/tt0378344/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bfacbc48-7b18-5629-afac-5d201d11ac9e">
+                <term type="descriptiveTopic">statues</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">
+                <term type="descriptiveTopic">brochures</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="709203af-066e-52fa-8f5d-9ef2ce7c1faa">
+                <term type="descriptiveTopic">bags (costume accessories)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4cb8647b-1710-5d9f-9875-313551406d9a">
+                <term type="iconographicTopic">movie stars</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7b83f5ae-06ae-5767-bf52-18a1f4d23183">
+                <term type="iconographicTopic">Meera Shyam (movie, 1976)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a255078a-289f-523a-9887-b7bcbd197d31">
+                <term type="iconographicTopic">rudraksh</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Meera Shyam</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Mohan Bhatiya presents Meera Shyam in color.</ext:value>
+                <ext:value>description-en:
+The image is a page from a film brochure. In it, Meera is seen dressed in a white sari, holding a statue of Krishna in her hand, and carrying a bag. She has long hair and holy beads (rudraksh) are tied around a bun in her hair. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>related hyperlinks:
+http://www.kamat.com/indica/faiths/bhakti/mirabai.htm, Saint Meera, last accessed 2011-11-15 (sp)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0378344/, last accessed 2011-12-15. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Meera or Meerabai as she was known was one of the foremost saints of India and mystic of the Sant tradition. Born in a royal family in Rajasthan she became an ardent Krishna devotee and considered him her eternal bridegroom. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.kamat.com/indica/faiths/bhakti/mirabai.htm</ext:value>
+                <ext:value type="accessed">2011-11-15</ext:value>
+                <ext:value type="comment">Saint Meera,</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0378344/</ext:value>
+                <ext:value type="accessed">2011-12-15</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Meera or Meerabai as she was known was one of the foremost saints of India and mystic of the Sant tradition. Born in a royal family in Rajasthan she became an ardent Krishna devotee and considered him her eternal bridegroom.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/117959</ext:value>
+                <ext:value>i_af949ca8-9079-57f9-9308-663bccb0d799</ext:value>
+                <ext:value>back</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.kamat.com/indica/faiths/bhakti/mirabai.htm</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.imdb.com/title/tt0378344/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120459</ext:value>
+                <ext:value>120459</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:38:52"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_53cae3a3-14e9-5bdd-9d4e-c9d650db7dbd" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-4d6cc12e-3714-568b-aeb7-853b3d0b2fd1">Dutt, Nargis</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-18a320a2-fe55-5d55-ab4e-e1e796fd2d6b">Kapoor, Raj</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-4ff2be52-274e-5d0e-a75e-070ecc146834">Nadira</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1955</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1955</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this lobby card for the Hindi movie "Shree 420", released in 1955, Nadira can be seen sitting at a table, dressed in an off-shoulder gown, wearing earrings and a necklace, and with a cigarette in a cigarette holder in her left hand. On her left, a woman looks towards her while a man standing behind her, leans against her chair, as he looks toward her. A hand from the left extends a pack of cards toward her.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">R.K. Studio Films. Shree 420. Directed by: Raj Kapoor.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 25 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">25</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_6c2b05ec-8eff-5bad-9009-3f8ccaa9aecb" source="EXC Priya Paul Collection" pref="true" relids="i_6c2b05ec-8eff-5bad-9009-3f8ccaa9aecb">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.imdb.com/title/tt0048613/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
+                <term type="conceptTopic">Western women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
+                <term type="descriptiveTopic">necklaces</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
+                <term type="descriptiveTopic">motion pictures (visual works)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d155ac44-f3d8-5567-a5d2-d6c1510e0026">
+                <term type="descriptiveTopic">smoking (activity)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="5d4e5bb3-d17d-53c2-aa27-d2df5ae669f2">
+                <term type="descriptiveTopic">bracelets (jewelry)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
+                <term type="descriptiveTopic">film stills</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e4125014-470c-57bf-a1fd-678929dea7c6">
+                <term type="descriptiveTopic">playing cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7b5f74f2-d739-5a95-a814-ea3376a643f8">
+                <term type="iconographicTopic">Shree 420 (movie, 1955)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Shree 420</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+R.K. Studio Films. Shree 420. Directed by: Raj Kapoor.</ext:value>
+                <ext:value>description-en:
+On this lobby card for the Hindi movie "Shree 420", released in 1955, Nadira can be seen sitting at a table, dressed in an off-shoulder gown, wearing earrings and a necklace, and with a cigarette in a cigarette holder in her left hand. On her left, a woman looks towards her while a man standing behind her, leans against her chair, as he looks toward her. A hand from the left extends a pack of cards toward her. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Storyline of the movie from the website imdb: Wearing torn Japanese shoes, English trousers, a red Russian cap, and a Hindustani heart, orphaned Ranbir Raj comes to Bombay to make his fortune. He pawns his gold medal, gambles with the money, loses everything, &amp; the balance is pick-pocketed. He ends up on the beach, meets with Vidya Shastri, a teacher who runs a private school, and both fall in love. Ranbir gets a job in a laundry. When he goes to deliver some clothes to Maya, she notices that he has a way with cards, gets him to accompany her to a casino of sorts, where he wins Rs.20000/-, which unfortunately is pocketed by Maya. Then a rich industrialist, Sonanand Dharmachand, approaches Ranbir, hires him to work for him, and soon Ranbir is on his way to a wealthy life. Vidya gets a first hand look at this wealthy life, and decides to break up with him. Sonachand teaches Ranbir that in order to make money one must never discriminate between the rich and poor... http://www.imdb.com/title/tt0048613/ (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0048613/, last accessed 2012-03-14, storyline, leading actors, director. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The people in the image are gambling. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0048613/</ext:value>
+                <ext:value type="accessed">2012-03-14</ext:value>
+                <ext:value type="comment">storyline, leading actors, director.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Storyline of the movie from the website imdb: Wearing torn Japanese shoes, English trousers, a red Russian cap, and a Hindustani heart, orphaned Ranbir Raj comes to Bombay to make his fortune. He pawns his gold medal, gambles with the money, loses everything, &amp; the balance is pick-pocketed. He ends up on the beach, meets with Vidya Shastri, a teacher who runs a private school, and both fall in love. Ranbir gets a job in a laundry. When he goes to deliver some clothes to Maya, she notices that he has a way with cards, gets him to accompany her to a casino of sorts, where he wins Rs.20000/-, which unfortunately is pocketed by Maya. Then a rich industrialist, Sonanand Dharmachand, approaches Ranbir, hires him to work for him, and soon Ranbir is on his way to a wealthy life. Vidya gets a first hand look at this wealthy life, and decides to break up with him. Sonachand teaches Ranbir that in order to make money one must never discriminate between the rich and poor... http://www.imdb.com/title/tt0048613/</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The people in the image are gambling.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.imdb.com/title/tt0048613/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119312</ext:value>
+                <ext:value>119312</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:33:06"/>
+        </ext:heidicon>
+    </work>
+</vra>

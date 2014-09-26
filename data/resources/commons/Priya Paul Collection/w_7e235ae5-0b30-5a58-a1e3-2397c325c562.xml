@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_7e235ae5-0b30-5a58-a1e3-2397c325c562" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-d2cc4115-678a-52e9-9355-98c04dece9cf">Jan, Gauhar</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A girl with red cheeks and black hair is depicted wearing Bangles as well as an indian style dress.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Gauhar
+Jan</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Made in Austria</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 15 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_210b7626-354b-5d14-8f0d-3ff579440271" source="EXC Priya Paul Collection" pref="true" relids="i_210b7626-354b-5d14-8f0d-3ff579440271">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/103/index_2.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>unknown</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="209d9678-81bb-5057-9ec4-44cf4659eeac">
+                <term type="conceptTopic">Made in Austria</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+                <term type="conceptTopic">country of origin marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
+                <term type="descriptiveTopic">matchbook</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
+                <term type="descriptiveTopic">matchboxes</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Gauhar Jan (made in Austria)</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">matchboxes</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Gauhar
+Jan</ext:value>
+                <ext:value>text-en:
+Made in Austria</ext:value>
+                <ext:value>description-en:
+A girl with red cheeks and black hair is depicted wearing Bangles as well as an indian style dress. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Gauhar Jan was a very noteworthy artist of Calcutta at the turn of the 20th century.  It seems strange that today she is largely unknown, but at the time, she was one of the most famous vocalist in India.  She was one of India's first recording stars.  She was as famous for her larger-than life lifestyle as she was for her artistic abilities.  One would not be out of line to say that she was India's first "recording superstar". (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Women whose bodies were on public display were most comfortably seen as ‘other’ to the Hindu mainstream: either of Anglo-European or Eurasian origin, or of Muslim tawaif (courtesan) background. In some cases, such as the recording artist and courtesan Gauhar Jaan, celebrated here on a matchbox cover, with pale skin and rosy cheeks, they were both. (Rosie Thomas)(gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://chandrakantha.com/biodata/gauhar_jan.html, biography of the artist Gauhar Jhan, last accessed 2010-11-23 (gs)</ext:value>
+                <ext:value>related literature:
+Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" cf. http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-11-22 (gs/ja)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-11-22 (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" cf. http://www.tasveergharindia.net/cmsdesk/essay/103/index.html last accessed 2010-11-22</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Alisch, Johannes</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+                <ext:value type="accessed">2010-11-22</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://chandrakantha.com/biodata/gauhar_jan.html</ext:value>
+                <ext:value type="accessed">2010-11-23</ext:value>
+                <ext:value type="comment">biography of the artist Gauhar Jhan,</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Gauhar Jan was a very noteworthy artist of Calcutta at the turn of the 20th century.  It seems strange that today she is largely unknown, but at the time, she was one of the most famous vocalist in India.  She was one of India's first recording stars.  She was as famous for her larger-than life lifestyle as she was for her artistic abilities.  One would not be out of line to say that she was India's first "recording superstar".</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Women whose bodies were on public display were most comfortably seen as ‘other’ to the Hindu mainstream: either of Anglo-European or Eurasian origin, or of Muslim tawaif (courtesan) background. In some cases, such as the recording artist and courtesan Gauhar Jaan, celebrated here on a matchbox cover, with pale skin and rosy cheeks, they were both.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Rosie Thomas</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/103/index_2.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119731</ext:value>
+                <ext:value>119731</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:28:51"/>
+        </ext:heidicon>
+    </work>
+</vra>

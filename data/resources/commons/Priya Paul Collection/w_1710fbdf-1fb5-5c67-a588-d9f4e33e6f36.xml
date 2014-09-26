@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_1710fbdf-1fb5-5c67-a588-d9f4e33e6f36" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-d65962e8-674a-5d18-9abf-f9796485dc6c">Natwarshyam</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-3b3fb80b-e5c6-521e-a3f5-535277aa8e7f">Sulochana</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-015162e7-5aff-570b-8d2c-faf50ff51f20">Khote, Durga</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-069a1ba1-9303-532b-b830-66db2639075c">Roy, Nirupama</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1956</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1956</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A color-tinted movie poster of the 1956 released Hindi film, Dwarikadheesh shows the two leading ladies, Durga Khote (left, she wears green and golden attire and a pink drape). She supports Rukmini and explains/argues with the depicted king (probably Rukmini's brother or father). Rukmini, played by the actress Nirupama Roy wears a worried look as she looks at the king(male actor). The king stands with an arrogant gesture and an arrogant look. He wears bejewelled crown and ornaments, and havily embroided clothes. 
+
+The film scene shows one of palace's royal halls, probably Rukmini's. At the back is a throne flanked by two ornate chairs.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-9d799ca6-24a1-539f-b5a0-023325f6c142">zaboravkk, zaboravkk</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Bhagyodaya Pictures 
+Directed by Natwarshyam
+Dwarikadheesh
+[...] not readable due to aging</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">द्वारकाधीश</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
+        </materialSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_0c86f768-929e-52a1-9c8d-63734b352b68" source="EXC Priya Paul Collection" pref="true" relids="i_0c86f768-929e-52a1-9c8d-63734b352b68">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="04e9db4b-418f-5510-9821-705b8291fcac">
+                <term type="descriptiveTopic">halls (interior spaces)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f5597a77-3119-5305-8de8-f85bcec5936e">
+                <term type="descriptiveTopic">thrones</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7a39e786-6444-5eb8-ae93-81d5cab64bf7">
+                <term type="iconographicTopic">Dwarikadheesh (movie, 1956)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Dwarikadheesh</title>
+            <title type="descriptive" pref="false">द्वारकाधीश</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Bhagyodaya Pictures 
+Directed by Natwarshyam
+Dwarikadheesh
+[...] not readable due to aging</ext:value>
+                <ext:value>text-hi:
+द्वारकाधीश</ext:value>
+                <ext:value>description-en:
+A color-tinted movie poster of the 1956 released Hindi film, Dwarikadheesh shows the two leading ladies, Durga Khote (left, she wears green and golden attire and a pink drape). She supports Rukmini and explains/argues with the depicted king (probably Rukmini's brother or father). Rukmini, played by the actress Nirupama Roy wears a worried look as she looks at the king(male actor). The king stands with an arrogant gesture and an arrogant look. He wears bejewelled crown and ornaments, and havily embroided clothes. 
+
+The film scene shows one of palace's royal halls, probably Rukmini's. At the back is a throne flanked by two ornate chairs. (gs/sb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+According to Hindu mythology Lord Krishna married Rukmini against the will of her father and brother (they were warring kingdoms/enemies). Lord Krishna eloped with Rukmini and married her in his palace. (gs/sb)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+/2239.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/2239.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">According to Hindu mythology Lord Krishna married Rukmini against the will of her father and brother (they were warring kingdoms/enemies). Lord Krishna eloped with Rukmini and married her in his palace.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">zaboravkk, zaboravkk</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-9d799ca6-24a1-539f-b5a0-023325f6c142</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120852</ext:value>
+                <ext:value>120852</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:39:46"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_e69de32e-4d79-5c0a-b111-3764e226e4d3" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-5abfa90e-edfc-56bb-bf3f-bb03c06480e7">Lakshmi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-8565ac3d-6aa5-53ca-9a69-3046d9e3aad1">I.G. Farbenindustrie Aktiengesellschaft</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-f805e21d-7f1e-5f73-b5e2-b2395ea981be">Havero Trading Co. Ltd.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement poster for I. G. Farbenindustrie &amp; Havero Trading Co. Ltd., we see a picture of the Hindu goddess Lakshmi, sitting on a lotus flower in a pond with two elephants. All are wearing extensive jewellery, Lakshmi is also holding two more lotus flowers in her hand. The scene takes place in a garden with some architectorial features in the background.
+There are several signets of the advertising companies and their products around the main image. Starting in the upper left clockwise: [unknown], A.G.F.A., I.G. Farben, BASF (1873 logo), Meister, Lucius &amp; Brüning [until 1974: Farbwerke Hoechst AG, today: Hoechst AG], Indanthren, Chemischen Fabrik Griesheim-Elektron, [unknown], [unknown], [unknown], Naphtol AS.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a">Gruening, Simon</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Calcutta. Madras. Del[hi]
+Cawnpor[e]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">HAVERO TRADING CO. LTD.
+(Incorporated in Holland)
+Sole Importers in India Burma &amp; Ceylon of 
+All the Aniline Dyes &amp; Chemicals manufactured by the
+[I]. G. FARBENINDUSTRIE AKTIENGESELLSCHAF[T]
+Frankfurt a/M (Germany)</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Bombay. [A]hmedabad. Karachi.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">A.G.F.A. [signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">IG [signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Indanthr[...] [signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">CFGE [signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Naphtol AS. [?] [dye]</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm,  portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_14e957b7-2e23-571f-b10e-af3cdc292c78" source="EXC Priya Paul Collection" pref="true" relids="i_14e957b7-2e23-571f-b10e-af3cdc292c78">general view</relation>
+            <relation type="imageIs" refid="i_de2ef11e-3a63-585e-a1c9-258280f6cba7" source="EXC Priya Paul Collection" relids="i_de2ef11e-3a63-585e-a1c9-258280f6cba7">detail view</relation>
+            <relation type="imageIs" refid="i_191ac83b-f554-57ff-9226-927f2218876d" source="EXC Priya Paul Collection" relids="i_191ac83b-f554-57ff-9226-927f2218876d">detail view</relation>
+            <relation type="imageIs" refid="i_2c332219-925a-53b9-8568-88569bcfcd5c" source="EXC Priya Paul Collection" relids="i_2c332219-925a-53b9-8568-88569bcfcd5c">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://de.wikipedia.org/wiki/Indanthron</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
+                <term type="conceptTopic">Hinduism</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
+                <term type="descriptiveTopic">Asian elephants (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="91cab5ac-e47a-5f8b-aee8-2ed659325bb1">
+                <term type="descriptiveTopic">horses</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="5669b7f2-1cea-5231-93cb-03d6599a60e3">
+                <term type="descriptiveTopic">water</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="489bbc57-16cc-5f57-b489-8ab8375cfe8f">
+                <term type="descriptiveTopic">animals</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
+                <term type="descriptiveTopic">plants</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
+                <term type="descriptiveTopic">lotus (motif)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a26bbe6e-e949-5ebf-a3f6-b2aaf680c4fb">
+                <term type="descriptiveTopic">eagles (birds)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
+                <term type="descriptiveTopic">architecture (object genre)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="73355413-0c59-560d-8b0c-9c15679fdc44">
+                <term type="descriptiveTopic">gardens</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+                <term type="descriptiveTopic">printer's marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a0f3e68b-1bc1-5b2b-940b-d970f99d9de5">
+                <term type="descriptiveTopic">ponds (water)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
+                <term type="iconographicTopic">deities</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Goddess Lakshmi in an advertisement of Havero Trading Co.Ltd. Frankfurt, Germany</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Calcutta. Madras. Del[hi]
+Cawnpor[e]</ext:value>
+                <ext:value>text-en:
+HAVERO TRADING CO. LTD.
+(Incorporated in Holland)
+Sole Importers in India Burma &amp; Ceylon of 
+All the Aniline Dyes &amp; Chemicals manufactured by the
+[I]. G. FARBENINDUSTRIE AKTIENGESELLSCHAF[T]
+Frankfurt a/M (Germany)</ext:value>
+                <ext:value>text-en:
+Bombay. [A]hmedabad. Karachi.</ext:value>
+                <ext:value>text-en:
+A.G.F.A. [signet]</ext:value>
+                <ext:value>text-en: 
+IG [signet]</ext:value>
+                <ext:value>text-en:
+Indanthr[...] [signet]</ext:value>
+                <ext:value>text-en:
+CFGE [signet]</ext:value>
+                <ext:value>text-en:
+Naphtol AS. [?] [dye]</ext:value>
+                <ext:value>description-en:
+On this advertisement poster for I. G. Farbenindustrie &amp; Havero Trading Co. Ltd., we see a picture of the Hindu goddess Lakshmi, sitting on a lotus flower in a pond with two elephants. All are wearing extensive jewellery, Lakshmi is also holding two more lotus flowers in her hand. The scene takes place in a garden with some architectorial features in the background.
+There are several signets of the advertising companies and their products around the main image. Starting in the upper left clockwise: [unknown], A.G.F.A., I.G. Farben, BASF (1873 logo), Meister, Lucius &amp; Brüning [until 1974: Farbwerke Hoechst AG, today: Hoechst AG], Indanthren, Chemischen Fabrik Griesheim-Elektron, [unknown], [unknown], [unknown], Naphtol AS. (gs/sg)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Naphtol AS., which is depicted in the upmost left signet, is a dye. (gs/sg).</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+CFGE is the shortform for "Chemische Fabrik Griesheim-Elektron". (gs/sg)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.sachsen-anhalt-wiki.de/index.php/Elektrochemische_Werke, last accessed 2012-01-06. (gs/sg)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The full word for Indanthr[...] is Indanthren, which is a colour additive, produced by the I. G. Farbenindustrie. (gs/sg)</ext:value>
+                <ext:value>related hyperlinks:
+http://de.wikipedia.org/wiki/Indanthron, last accessed 2012-06-01. (gs/sg)</ext:value>
+                <ext:value>related hyperlinks:
+http://de.wikipedia.org/w/index.php?title=Datei:BASF_Logo_1873.JPG&amp;filetimestamp=20060617012301, last accessed 2012-06-01. (sg)</ext:value>
+                <ext:value>related hyperlinks:
+http://logo.tworze.com/agfa-grafik-logo.htm, last accessed 2012-06-01. (sg)</ext:value>
+                <ext:value>related hyperlinks:
+http://de.wikipedia.org/w/index.php?title=Datei:Hoechst_AG_Firmenzeichen_1901.jpg&amp;filetimestamp=20061010091543, last accessed 2012-06-01. (sg)</ext:value>
+                <ext:value>related hyperlinks:
+http://ulrikedores.de/index.php?id=47, last accessed 2012-06-01. (sg)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+/20080430_0373.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118388</ext:value>
+                <ext:value>i_de2ef11e-3a63-585e-a1c9-258280f6cba7</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118386</ext:value>
+                <ext:value>i_191ac83b-f554-57ff-9226-927f2218876d</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118387</ext:value>
+                <ext:value>i_2c332219-925a-53b9-8568-88569bcfcd5c</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://de.wikipedia.org/wiki/Indanthron</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118385</ext:value>
+                <ext:value>118385</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:37:54"/>
+        </ext:heidicon>
+    </work>
+</vra>

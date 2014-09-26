@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a45e5cd5-4c68-582a-8778-ded5df67af85" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Lord Krishna can be seen playing his flute with Radha standing next to him while several women are dancing around them. The women are wearing ghagras (long skirts) with dupattas covering their heads. Both Radha and Krishna have a halo around their head. All of them are in a garden with trees behind them.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 12 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">12</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_fe085631-99e8-581e-839f-b65c345bd111" source="EXC Priya Paul Collection" pref="true" relids="i_fe085631-99e8-581e-839f-b65c345bd111">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
+                <term type="conceptTopic">Hindu women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+                <term type="descriptiveTopic">trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
+                <term type="descriptiveTopic">dance</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
+                <term type="descriptiveTopic">flutes (aerophones)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+                <term type="iconographicTopic">glories</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Krishna plays the flute</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+Lord Krishna can be seen playing his flute with Radha standing next to him while several women are dancing around them. The women are wearing ghagras (long skirts) with dupattas covering their heads. Both Radha and Krishna have a halo around their head. All of them are in a garden with trees behind them. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120090</ext:value>
+                <ext:value>120090</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:44:39"/>
+        </ext:heidicon>
+    </work>
+</vra>

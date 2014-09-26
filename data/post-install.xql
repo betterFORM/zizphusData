@@ -11,9 +11,9 @@ declare variable $log-level := "INFO";
 
 util:log($log-level, "Script: Running post-install script ..."),
 
-util:log($log-level, "Cleaning up ..."),
-xmldb:remove($target || '/resources'),
-xmldb:remove($target || '/system'), 
+util:log($log-level, "Cleaning up ...")
+,xmldb:remove($target || '/resources')
+,xmldb:remove($target || '/system')
 
 
-util:log($log-level, "...DONE")
+,util:log($log-level, "...DONE")

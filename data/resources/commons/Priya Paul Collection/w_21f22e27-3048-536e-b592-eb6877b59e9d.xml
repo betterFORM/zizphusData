@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_21f22e27-3048-536e-b592-eb6877b59e9d" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1934</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1934</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for Haig Scotch Whiskey, several images are depicted showing possible venues for the consumption of the advertised whiskey, such as at the theatre, on a train, plane, ship, or at a club or at home. Two of the advertised products are pictured in the center of the image.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">The Times of India Annual, 1934
+Don't be vague - ask for Haig
+On the train
+In the air
+For the home
+At the theatre
+On Board ship
+In the club
+No finer whisky goes into any bottle
+Good old Matured Scotch Whisky is the best and safest beverage at all times</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 30 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">30</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_433035b6-53b8-54ee-900f-6b14df21dc03" source="EXC Priya Paul Collection" pref="true" relids="i_433035b6-53b8-54ee-900f-6b14df21dc03">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="07fb047d-6c11-510e-9ff6-9955b2b14cca">
+                <term type="descriptiveTopic">theaters (buildings)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a11996a4-a33a-5a54-b6fa-d996f8216c1f">
+                <term type="descriptiveTopic">ships</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3c5e6969-b1bd-5f45-84de-b4ee4342bfad">
+                <term type="descriptiveTopic">airplanes</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2a5cd23e-936c-5a59-a1e2-fe34e6e7ac7b">
+                <term type="descriptiveTopic">trains (vehicle groupings)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="112bac83-ccb5-5208-97c3-308028506ba8">
+                <term type="descriptiveTopic">liquors</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="710dc022-528c-576c-a63f-68126731ff55">
+                <term type="descriptiveTopic">Haig Scotch Whiskey (product)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+                <term type="otherTopic">Times of India</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
+                <term type="otherTopic">Times of India Yearbook</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Haig Scotch Whisky</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+The Times of India Annual, 1934
+Don't be vague - ask for Haig
+On the train
+In the air
+For the home
+At the theatre
+On Board ship
+In the club
+No finer whisky goes into any bottle
+Good old Matured Scotch Whisky is the best and safest beverage at all times</ext:value>
+                <ext:value>description-en:
+On this advertisement for Haig Scotch Whiskey, several images are depicted showing possible venues for the consumption of the advertised whiskey, such as at the theatre, on a train, plane, ship, or at a club or at home. Two of the advertised products are pictured in the center of the image. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/1213.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/1213.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119853</ext:value>
+                <ext:value>119853</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:33:08"/>
+        </ext:heidicon>
+    </work>
+</vra>

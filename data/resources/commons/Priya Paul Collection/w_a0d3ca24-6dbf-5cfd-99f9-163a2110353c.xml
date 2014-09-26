@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a0d3ca24-6dbf-5cfd-99f9-163a2110353c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-92738bf8-9745-52a0-a3ed-b5be424fc86a">Sharma, M. L.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The image from a sample calender poster catalogue of the Empire Calender Manufacturing Co., Calcutta shows the entrance to a ghat (flight of steps leading to a river) in Mathura, the birth place of Krishna. Pilgrims - women, men and priests - can be seen walking towards the river to bath in it. The temple architecture behind is elaborate with carved pillars, domes and bells.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">M. L. Sharma</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">MATHURA GHAT
+No. 535</text>
+            </inscription>
+            <inscription>
+                <text type="signature">M. L. Sharma</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_0cff0b6c-8fa0-58b3-b484-a4d6f8f72ba5" source="EXC Priya Paul Collection" pref="true" relids="i_0cff0b6c-8fa0-58b3-b484-a4d6f8f72ba5">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
+                <term type="conceptTopic">Hinduism</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b5bc929d-89e8-5f06-a430-fcac61b2d807">
+                <term type="conceptTopic">pilgrimages</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
+                <term type="conceptTopic">Indian women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="32a1aacf-64a3-569d-affd-44ed9e8d90e7">
+                <term type="descriptiveTopic">temples (buildings)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
+                <term type="descriptiveTopic">women (female humans)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
+                <term type="descriptiveTopic">rivers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
+                <term type="descriptiveTopic">architecture (object genre)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b06b6ec6-20de-57e7-99fb-9c04c84cf78d">
+                <term type="descriptiveTopic">bells (idiophones)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
+                <term type="descriptiveTopic">turbans</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f54e4dba-32c7-5cf8-bffe-fc914bcf757f">
+                <term type="descriptiveTopic">ghats</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="dc0d4358-3e05-51a8-9919-0b4f19a9a181">
+                <term type="geographicPlace">Yamuna (river)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="623eb4d5-ddf4-5e80-a408-cde9939ed9e8">
+                <term type="geographicPlace">Mathura (Uttar Pradesh)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d699ec77-3968-5dc3-8a29-9478a8337113">
+                <term type="iconographicTopic">priests</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0123308f-a030-5263-8ee2-03a6c76c8a30">
+                <term type="iconographicTopic">shrines (structures)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Mathura Ghat</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Sharma, M. L.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+M. L. Sharma</ext:value>
+                <ext:value>text-en:
+MATHURA GHAT
+No. 535</ext:value>
+                <ext:value>description-en:
+The image from a sample calender poster catalogue of the Empire Calender Manufacturing Co., Calcutta shows the entrance to a ghat (flight of steps leading to a river) in Mathura, the birth place of Krishna. Pilgrims - women, men and priests - can be seen walking towards the river to bath in it. The temple architecture behind is elaborate with carved pillars, domes and bells. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/122962</ext:value>
+                <ext:value>122962</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:31:01"/>
+        </ext:heidicon>
+    </work>
+</vra>

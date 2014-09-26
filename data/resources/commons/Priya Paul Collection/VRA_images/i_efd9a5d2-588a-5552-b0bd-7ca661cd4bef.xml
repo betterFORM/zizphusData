@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <image id="i_efd9a5d2-588a-5552-b0bd-7ca661cd4bef" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4" href="t_metadata.f_preview.123049-122116-original.jpg">
+        <agentSet>
+            <agent>
+                <name vocab="local" refid="uuid-edeaf4e7-ee99-5733-a841-fdb06decebb5" pref="false" type="corporate">Cluster of Excellence "Asia and Europe in a Global Context", Heidelberg University.</name>
+                <role vocab="marcrelator" type="code">mdc</role>
+            </agent>
+            <agent>
+                <name vocab="local" refid="uuid-edf9fbf7-a154-5fc8-835e-9aff2e5d2d69" pref="true" type="corporate">Tasveer Ghar</name>
+                <role vocab="AAT" refid="300202383">digitizing</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>2008-09-13T00:04:00+02:00</earliestDate>
+                <latestDate>2008-09-13T00:04:00+02:00</latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description>This image was digitized and its metadata first edited in a collaborative project between Tasveer Ghar: A Digital Network of South Asian Popular Visual Culture and the Cluster of Excellence "Asia and Europe in a Global Context", Heidelberg University.</description>
+        </descriptionSet>
+        <locationSet>
+            <location type="repository">
+                <name vocab="local" refid="uuid-a86fcf82-1200-58c6-91d6-2d537f5b58e2" type="corporate">Heidelberg Research Architecture, Visual Resources</name>
+                <name type="geographic" vocab="TGN" refid="7005177" extent="inhabited place">Heidelberg</name>
+            </location>
+            <location type="formerRepository">
+                <name vocab="local" refid="uuid-6e9b4017-9136-51bd-83b2-fc6d8681e034" href="http://heidicon.ub.uni-heidelberg.de/id/123049" type="corporate">HeidICON Image Database</name>
+                <refid>123049</refid>
+            </location>
+        </locationSet>
+        <measurementsSet>
+            <measurements type="resolution" unit="ppi">0x0</measurements>
+            <measurements type="width" unit="px"/>
+            <measurements type="height" unit="px"/>
+            <measurements type="fileSize" unit="kb"/>
+            <measurements type="bitDepth" unit="bit">0</measurements>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageOf" refid="w_4d01ae4d-e48b-51ef-a87b-944edf8d825a" source="EXC Priya Paul Collection" relids="w_4d01ae4d-e48b-51ef-a87b-944edf8d825a">front</relation>
+        </relationSet>
+        <rightsSet>
+            <notes>The Priya Paul Collection. Reproduced with kind permission of the collector.</notes>
+            <rights type="copyrighted" href="http://priyapaulcollection.uni-hd.de">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <techniqueSet>
+            <technique vocab="local" refid="uuid-fc6b0d7d-c757-5bc2-aa52-b2c59bbd52f1">digital imaging</technique>
+        </techniqueSet>
+        <titleSet>
+            <title lang="eng" script="Latn" type="generalView">A view of Taj Mahal, in a sample of calender posters of Oriental Calender Manufacturing Ltd.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="AAT" refid="300215302">digital images</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/123049</ext:value>
+                <ext:value>123049</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:34:57"/>
+        </ext:heidicon>
+    </image>
+</vra>

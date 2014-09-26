@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_736bbec7-f2f4-5aa6-b02d-c15a8cb5d9c1" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Krishna as a child can be seen put on a tree, implicating that he will cause it to fall.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 12 cm, W 12 cm, circular</notes>
+            <measurements type="height" unit="cm">12</measurements>
+            <measurements type="width" unit="cm">12</measurements>
+            <measurements shape="circular"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_2aeaaadc-8482-535c-9812-30c03b4caba9" source="EXC Priya Paul Collection" pref="true" relids="i_2aeaaadc-8482-535c-9812-30c03b4caba9">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.123janmashtami.com/bal-krishna/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+                <term type="descriptiveTopic">trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
+                <term type="descriptiveTopic">peacock feather</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Bal Krishna on a textile label</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+Krishna as a child can be seen put on a tree, implicating that he will cause it to fall. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Bal Krishna is the childhood name of Lord Krishna and his many miracles are reflected in the Bal Leela from the period of his birth. Right from his birth, Lord Krishna showed many signs indicating his divine being. (gs)</ext:value>
+                <ext:value>related hyperlink:
+http://www.123janmashtami.com/bal-krishna/index.html, last accessed 2011-20-09. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.123janmashtami.com/bal-krishna/index.html</ext:value>
+                <ext:value type="accessed">2011-20-09</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Bal Krishna is the childhood name of Lord Krishna and his many miracles are reflected in the Bal Leela from the period of his birth. Right from his birth, Lord Krishna showed many signs indicating his divine being.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.123janmashtami.com/bal-krishna/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120579</ext:value>
+                <ext:value>120579</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:46:05"/>
+        </ext:heidicon>
+    </work>
+</vra>

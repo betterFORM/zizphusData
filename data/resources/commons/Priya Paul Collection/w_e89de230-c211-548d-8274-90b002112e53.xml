@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_e89de230-c211-548d-8274-90b002112e53" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_5de60dce-4c02-5d30-9db9-f0c0159cb418" source="EXC Priya Paul Collection" pref="true" relids="i_5de60dce-4c02-5d30-9db9-f0c0159cb418">front</relation>
+            <relation type="imageIs" refid="i_e59e2c36-01b3-5aa3-af61-6e4fc5648711" source="EXC Priya Paul Collection" relids="i_e59e2c36-01b3-5aa3-af61-6e4fc5648711">back</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">still from the film "Arzoo"</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1730.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1730.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/117929</ext:value>
+                <ext:value>i_e59e2c36-01b3-5aa3-af61-6e4fc5648711</ext:value>
+                <ext:value>back</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120339</ext:value>
+                <ext:value>120339</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:32:56"/>
+        </ext:heidicon>
+    </work>
+</vra>

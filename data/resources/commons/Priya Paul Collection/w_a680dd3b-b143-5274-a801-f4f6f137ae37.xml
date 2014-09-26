@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a680dd3b-b143-5274-a801-f4f6f137ae37" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-fde27ee8-e59d-5c42-b819-ee29b457e02a">Malhotra, Harmesh</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Hindi text of two songs from the film and a still which shows portrait of an actress wearing a white dress as well as basic jewellery standing together with a tiger.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="hin">PLEASE ENTER HERE</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 22 cm, W 17 cm, portrait</notes>
+            <measurements type="height" unit="cm">22</measurements>
+            <measurements type="width" unit="cm">17</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_8f9f6a1b-6006-5dcd-9f7e-53bd38a1513d" source="EXC Priya Paul Collection" pref="true" relids="i_8f9f6a1b-6006-5dcd-9f7e-53bd38a1513d">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.imdb.com/title/tt0236977/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0bb0db0b-6ffc-5fc0-8ab2-62d17000c387">
+                <term type="conceptTopic">Hindi film songs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
+                <term type="descriptiveTopic">tigers (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="50466105-3769-5549-8aa4-261a011c6ea7">
+                <term type="iconographicTopic">Amar Shakti (movie, 1978)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3e6f5a54-c466-5b0f-8550-d34bb7fee8e8">
+                <term type="otherTopic">Hindi (language)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Page of a songbook for the Hindi-movie "Amar Shakti"</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-hi:
+PLEASE ENTER HERE</ext:value>
+                <ext:value>description-en:
+Hindi text of two songs from the film and a still which shows portrait of an actress wearing a white dress as well as basic jewellery standing together with a tiger. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Storyline: In order to take over the kingdom, Shamsher Singh and Nahar Singh kill Yuvraj Gopal Singh and his wife, Roopa. The news of these deaths shocks the Maharaj who becomes seriously ill, but instead of treating him, the duo, with the help of the Hakim, poison him. They also believe that the heirs of this Kingdom, two young boys, Bada and Chhota Kumar, are also dead - paving the way for Shamsher to crown himself king. Years later Shamsher is still king, and has a daughter, Sunita, who he wants to get married to Kunver Ranjit Narayan Singh of Kishanganj. Shamsher does not know that the Bada and Chhota Kumars are still alive, while Shakti was taken in by a tribe of gypsies, Amar lives with his palace nanny, Leela, and believes she is his mother. The two princes will meet soon, not as friends and brothers though, but as enemies, as Shakti, a witness to his parents' killing, wants to kill Shamsher at any and all costs... cf. http://www.imdb.com/title/tt0236977/ (gs)</ext:value>
+                <ext:value>related hyperlink:
+http://www.imdb.com/title/tt0236977/, last accessed 2011-11-30, story plot, leading actors. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+/1830 inside.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0236977/</ext:value>
+                <ext:value type="accessed">2011-11-30</ext:value>
+                <ext:value type="comment">story plot, leading actors.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Storyline: In order to take over the kingdom, Shamsher Singh and Nahar Singh kill Yuvraj Gopal Singh and his wife, Roopa. The news of these deaths shocks the Maharaj who becomes seriously ill, but instead of treating him, the duo, with the help of the Hakim, poison him. They also believe that the heirs of this Kingdom, two young boys, Bada and Chhota Kumar, are also dead - paving the way for Shamsher to crown himself king. Years later Shamsher is still king, and has a daughter, Sunita, who he wants to get married to Kunver Ranjit Narayan Singh of Kishanganj. Shamsher does not know that the Bada and Chhota Kumars are still alive, while Shakti was taken in by a tribe of gypsies, Amar lives with his palace nanny, Leela, and believes she is his mother. The two princes will meet soon, not as friends and brothers though, but as enemies, as Shakti, a witness to his parents' killing, wants to kill Shamsher at any and all costs... cf. http://www.imdb.com/title/tt0236977/</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/1830 inside.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.imdb.com/title/tt0236977/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120455</ext:value>
+                <ext:value>120455</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:38:39"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_83302b72-fe12-5cce-b66f-ef5f574b6dee" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-94b707c2-c3f6-5ae7-bec8-0cc0136b040a">E. D. Sassoon &amp; Co. Ltd.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Krishna can be seen playing the flute with Rukmani reclining next to him in a palace. Both of them are depicted with halos around their heads, dressed in luxurious clothes and wearing jewellery. In the background, several plants as well as some pillars, a window and other architectural elements are depicted. In the far background one can see another palace-like building surrounded by palm trees and bushes.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Rukmani-Krishna-Ticket
+E. D. Sassoon &amp; Co. Ltd. Karachi.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">ई. डी. सासून. कम्पनीः कराचीः</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">रुकमनी-कृशन टिकीटः</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 25 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">25</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_fc298e2d-8f8b-552d-a374-6c066a78c51c" source="EXC Priya Paul Collection" pref="true" relids="i_fc298e2d-8f8b-552d-a374-6c066a78c51c">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="f9e695e4-1726-53fa-a215-e85230165e8a">
+                <term type="conceptTopic / iconographicTopic">palaces</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ce564016-385d-52bc-b28d-6199c2d05f60">
+                <term type="descriptiveTopic">pillars</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
+                <term type="descriptiveTopic">rivers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
+                <term type="descriptiveTopic">plants</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
+                <term type="descriptiveTopic">crowns (headdresses)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
+                <term type="descriptiveTopic">palm trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
+                <term type="descriptiveTopic">architecture (object genre)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
+                <term type="descriptiveTopic">flutes (aerophones)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8469f4b6-425c-5bd8-9911-20bac5f4650b">
+                <term type="descriptiveTopic">carpets</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b1cf71e3-004e-5ca9-af3f-a86d3884e171">
+                <term type="descriptiveTopic">couches (reclining furniture)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
+                <term type="descriptiveTopic">bottles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+                <term type="iconographicTopic">glories</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by E. D. Sassoon &amp; Co. Ltd.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Rukmani-Krishna-Ticket
+E. D. Sassoon &amp; Co. Ltd. Karachi.</ext:value>
+                <ext:value>text-hi:
+ई. डी. सासून. कम्पनीः कराचीः</ext:value>
+                <ext:value>text-hi:
+रुकमनी-कृशन टिकीटः</ext:value>
+                <ext:value>text-??
+enter text here</ext:value>
+                <ext:value>description-en:
+Krishna can be seen playing the flute with Rukmani reclining next to him in a palace. Both of them are depicted with halos around their heads, dressed in luxurious clothes and wearing jewellery. In the background, several plants as well as some pillars, a window and other architectural elements are depicted. In the far background one can see another palace-like building surrounded by palm trees and bushes. (gs/tb/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>torn</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/107866</ext:value>
+                <ext:value>107866</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:39:49"/>
+        </ext:heidicon>
+    </work>
+</vra>

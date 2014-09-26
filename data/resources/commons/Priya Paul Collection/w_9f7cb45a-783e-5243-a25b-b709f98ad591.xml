@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_9f7cb45a-783e-5243-a25b-b709f98ad591" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-c65baded-1fa5-5605-912a-d8cb1517da7e">Delhi Calendar Manufacturing Company</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1941</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1941</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This advertisement calendar by the Delhi Calendar Mfg. Co. from 1941, has an image of the shrine in Medina at the center. Flowers circle the image and a calendar for the year 1941 is in the lower section of the poster.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">For your services please always remember</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Delhi Calendar Mfg. Co.
+Kashmere Gate,
+Delhi.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">हमारे यहां उम्दा कैलेन्डर - क्रिसमस ,
+दिवाली और ईद कार्ड, ब्लौटर्स और
+छपे हुये फीते वगैरह २
+तैयार होते हैं।</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">यह हमारे कैलेन्डर
+का एक रंग के
+विज्ञापन का नमूना
+है जिसपर १२ महीनों 
+की तारीखें अंगरेजी
+कैलेन्डर की जमीन
+पर ही छापी गई 
+ हैं। नीचे ऊपर टीन
+और लटकाने का
+फीता लगाया जावेगा</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Specialist in:-
+High Class Calendars, Blotters, Tapes, New Year, Christmas, Dewali and I'ds Cards Manufacturers, Advertisers &amp; Field Creators for New Novelties.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">(...) not readable due to faulty scanning. (gs)</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">For Prices please see our Clause No. 8 of the Price List.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 38 cm, W 25 cm,  portrait</notes>
+            <measurements type="height" unit="cm">38</measurements>
+            <measurements type="width" unit="cm">25</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_d86c37ed-f714-58ea-a1e8-f408d0028069" source="EXC Priya Paul Collection" pref="true" relids="i_d86c37ed-f714-58ea-a1e8-f408d0028069">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
+                <term type="descriptiveTopic">calendars</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3966e5ef-29e0-5cad-a0ef-074f129b127b">
+                <term type="geographicPlace">Medina</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Shrine of the Prophet at Medina, in a 1941 calender advertisement of Delhi Calender Mfg.Co., Delhi.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+For your services please always remember</ext:value>
+                <ext:value>text-en:
+Delhi Calendar Mfg. Co.
+Kashmere Gate,
+Delhi.</ext:value>
+                <ext:value>text-hi:
+हमारे यहां उम्दा कैलेन्डर - क्रिसमस ,
+दिवाली और ईद कार्ड, ब्लौटर्स और
+छपे हुये फीते वगैरह २
+तैयार होते हैं।</ext:value>
+                <ext:value>text-hi:
+यह हमारे कैलेन्डर
+का एक रंग के
+विज्ञापन का नमूना
+है जिसपर १२ महीनों 
+की तारीखें अंगरेजी
+कैलेन्डर की जमीन
+पर ही छापी गई 
+ हैं। नीचे ऊपर टीन
+और लटकाने का
+फीता लगाया जावेगा</ext:value>
+                <ext:value>text-en:
+Specialist in:-
+High Class Calendars, Blotters, Tapes, New Year, Christmas, Dewali and I'ds Cards Manufacturers, Advertisers &amp; Field Creators for New Novelties.</ext:value>
+                <ext:value>text-en:
+(...) not readable due to faulty scanning. (gs)</ext:value>
+                <ext:value>text-en:
+For Prices please see our Clause No. 8 of the Price List.</ext:value>
+                <ext:value>description-en:
+This advertisement calendar by the Delhi Calendar Mfg. Co. from 1941, has an image of the shrine in Medina at the center. Flowers circle the image and a calendar for the year 1941 is in the lower section of the poster. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/672.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/672.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/109870</ext:value>
+                <ext:value>109870</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:34:14"/>
+        </ext:heidicon>
+    </work>
+</vra>

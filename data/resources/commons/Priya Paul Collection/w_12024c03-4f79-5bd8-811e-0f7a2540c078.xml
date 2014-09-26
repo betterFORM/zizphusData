@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_12024c03-4f79-5bd8-811e-0f7a2540c078" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-d8564c15-cade-5ffd-b6c9-3aedf33d0f2d">Dawes, Cecil L.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1937</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1937</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for Cooper's seeds, various vegetables are depicted.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Cooper's seeds of proven merit for market &amp; home gardeners
+Free illustrated Annual on request
+N. Cooper &amp; Co
+Seed Merchants
+Poona 
+- India -</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Cecil Dawes</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Cecil L. Dawes</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 15 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_9811b5b0-465d-5d13-b7c2-3e72ec026399" source="EXC Priya Paul Collection" pref="true" relids="i_9811b5b0-465d-5d13-b7c2-3e72ec026399">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="94a5efb7-b989-57ce-9543-bb9f43403256">
+                <term type="descriptiveTopic">vegetables</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2c27deb1-0a05-5ba2-a528-9a1e592726e8">
+                <term type="descriptiveTopic">Cooper's Seeds (brand)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="717ef34b-eb86-57d4-a849-f8c8a37d59a7">
+                <term type="descriptiveTopic">cabbage (vegetable)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7bc18e96-0407-5b03-807b-a9aa3ba9e62f">
+                <term type="descriptiveTopic">beetroot (vegetable)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b3c12af7-994c-5bd6-8164-c77b73fb633d">
+                <term type="descriptiveTopic">eggplant (vegetable)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="1719b852-a2c4-5d43-94ee-7efb7140621a">
+                <term type="descriptiveTopic">carrot (vegetable)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65bf59fd-b33b-5a8e-9d00-6044505ca84e">
+                <term type="descriptiveTopic">radish (vegetable)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="163a7bd2-1325-5453-ba58-d761fb7a75f8">
+                <term type="descriptiveTopic">pea (vegetable)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6716ad5c-1eda-595c-8b88-592e04cc176d">
+                <term type="descriptiveTopic">corncob</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+                <term type="otherTopic">Times of India</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
+                <term type="otherTopic">Times of India Yearbook</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for N. Cooper &amp; Co. Seed Merchants</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Dawes, Cecil L.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Cooper's seeds of proven merit for market &amp; home gardeners
+Free illustrated Annual on request
+N. Cooper &amp; Co
+Seed Merchants
+Poona 
+- India -</ext:value>
+                <ext:value>text-en:
+Cecil Dawes</ext:value>
+                <ext:value>description-en:
+On this advertisement for Cooper's seeds, various vegetables are depicted. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/1123.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/1123.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119787</ext:value>
+                <ext:value>119787</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:30:24"/>
+        </ext:heidicon>
+    </work>
+</vra>

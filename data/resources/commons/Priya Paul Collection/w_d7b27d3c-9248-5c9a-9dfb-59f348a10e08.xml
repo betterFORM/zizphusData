@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_d7b27d3c-9248-5c9a-9dfb-59f348a10e08" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-51d253d7-f9e6-5654-8588-b46d6053b6b9">Thomas J. Lipton Inc.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1937</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1937</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for Lipton's Tea, a white woman with blonde hair, can be seen standing in front of a table set with steaming cups of tea, a container of creamer, sugar and a saucer. On the second shelf of the table, platters of biscuits and shortbread can be seen. The blonde lady holds out her cup to a native tea picker who pours her tea from a tea pot, across the hedge. The tea picker has a basket tied to her back.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">The Times of Ceylon Christmas Number</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Tea Merchants
+By appointment to
+His Majesty
+The King</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">III A V S</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">A Cup full of Goodness
+from Lipton's Tea Gardens in Ceylon</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Lipton's
+Tea</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">World-Renowned
+Direct from Tea Garden to Tea Table</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Lipton, Ltd., Tea Planters, Ceylon. London - Paris - Cairo - Calcutta - Melbourne, etc.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 30 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">30</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_eaa96a0f-aab2-5f61-8a5c-f938eab2b318" source="EXC Priya Paul Collection" pref="true" relids="i_eaa96a0f-aab2-5f61-8a5c-f938eab2b318">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+		</sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>Colonial India</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="858d1451-3f0c-52d5-a388-4e88e5f459fb">
+                <term type="descriptiveTopic">teapots</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
+                <term type="descriptiveTopic">tea (beverage)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2da00547-3dee-5b48-8288-3c3ae822879d">
+                <term type="descriptiveTopic">biscuits (snack)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="432039d5-a19e-562f-b809-58d088031aea">
+                <term type="descriptiveTopic">Lipton's Tea</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cf3a9fdc-1712-5073-a037-be79a82991c7">
+                <term type="descriptiveTopic">tea plantations</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ecadb337-d65e-5a9c-aa21-df4ff05bf3b0">
+                <term type="descriptiveTopic">plantations</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+                <term type="otherTopic">Times of India</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
+                <term type="otherTopic">Times of India Yearbook</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Lipton's Tea</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+The Times of Ceylon Christmas Number</ext:value>
+                <ext:value>text-en:
+Tea Merchants
+By appointment to
+His Majesty
+The King</ext:value>
+                <ext:value>text-en:
+III A V S</ext:value>
+                <ext:value>text-en:
+A Cup full of Goodness
+from Lipton's Tea Gardens in Ceylon</ext:value>
+                <ext:value>text-en:
+Lipton's
+Tea</ext:value>
+                <ext:value>text-en:
+World-Renowned
+Direct from Tea Garden to Tea Table</ext:value>
+                <ext:value>text-en:
+Lipton, Ltd., Tea Planters, Ceylon. London - Paris - Cairo - Calcutta - Melbourne, etc.</ext:value>
+                <ext:value>description-en:
+On this advertisement for Lipton's Tea, a white woman with blonde hair, can be seen standing in front of a table set with steaming cups of tea, a container of creamer, sugar and a saucer. On the second shelf of the table, platters of biscuits and shortbread can be seen. The blonde lady holds out her cup to a native tea picker who pours her tea from a tea pot, across the hedge. The tea picker has a basket tied to her back. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+The most dramatic expansion of tea consumption—and the development of relatively standardized chai (produced by boiling tea leaves in a mixture of milk, water, and sugar, with optional spices such as cardamom, cinnamon, clove, ginger, or black pepper)—only occurred after 1947 and the ensuing transfer of majority ownership in tea estates (which, significantly, were exempted from the sweeping land-reform legislation of the Nehru-Congress era) and in tea wholesaling companies from British to Indian hands. This shift is exemplified in this image, which recapitulates the popular visual trope of "the journey of tea" from tea-garden to consumer. (Philip Lutgendorf)(gs)</ext:value>
+                <ext:value>related literature:
+Bhadra, Gautam 2005. "From an Imperial Product to a National Drink". Calcutta: CSSSC. (gs)</ext:value>
+                <ext:value>related literature:
+Chatterjee, Piya. 2001. "A Time for Tea." Durham, NC: Duke University Press. (gs)</ext:value>
+                <ext:value>related literature:
+Collingham, Elizabeth M. 2006. "Curry, a tale of cooks and conquerors." New York: Oxford University Press. (gs)</ext:value>
+                <ext:value>related literature:
+de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press. (gs)</ext:value>
+                <ext:value>related literature:
+Dutta, Arup Kumar. 1992. "Cha Garam, the tea story." Assam: Paloma Publications. (gs)</ext:value>
+                <ext:value>related literature:
+Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)(gs)</ext:value>
+                <ext:value>related literature:
+Mair, Victor, and Erling Hoh. 2009. "The True History of Tea." London: Thames &amp; Hudson. (gs)</ext:value>
+                <ext:value>related literature:
+Mintz, Sidney. 1985. "Sweetness and Power, the place of sugar in modern history". New York: Viking. (gs)</ext:value>
+                <ext:value>related literature:
+Storey, John 1999. "Cultural Consumption and Everyday Life". New York: Oxford University Press. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Lutgendorf, Philip 2010. Chai Why? The Triumph of Tea in India as Documented in the Priya Paul Collection http://www.tasveergharindia.net/cmsdesk/essay/89/index.html (18.4.2011)</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Mair, Victor, and Erling Hoh. 2009. "The True History of Tea." London: Thames &amp; Hudson.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Chatterjee, Piya. 2001. "A Time for Tea." Durham, NC: Duke University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Storey, John 1999. "Cultural Consumption and Everyday Life". New York: Oxford University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Bhadra, Gautam 2005. "From an Imperial Product to a National Drink". Calcutta: CSSSC.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Dutta, Arup Kumar. 1992. "Cha Garam, the tea story." Assam: Paloma Publications.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Collingham, Elizabeth M. 2006. "Curry, a tale of cooks and conquerors." New York: Oxford University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Mintz, Sidney. 1985. "Sweetness and Power, the place of sugar in modern history". New York: Viking.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The most dramatic expansion of tea consumption—and the development of relatively standardized chai (produced by boiling tea leaves in a mixture of milk, water, and sugar, with optional spices such as cardamom, cinnamon, clove, ginger, or black pepper)—only occurred after 1947 and the ensuing transfer of majority ownership in tea estates (which, significantly, were exempted from the sweeping land-reform legislation of the Nehru-Congress era) and in tea wholesaling companies from British to Indian hands. This shift is exemplified in this image, which recapitulates the popular visual trope of "the journey of tea" from tea-garden to consumer.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Philip Lutgendorf</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119782</ext:value>
+                <ext:value>119782</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:30:18"/>
+        </ext:heidicon>
+    </work>
+</vra>

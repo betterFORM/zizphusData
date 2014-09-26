@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_69857e9f-79ad-53f0-8eab-2af2535bdd20" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-517ca956-90b7-588a-86cb-5e41f6384039">Agha</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-f28aeb1e-6b4f-5d2d-a35a-bbaf9d90d582">Agha, Jalal</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-8a1f12ef-1052-5acc-ad6f-6e5ab3e65052">Ali, Anwar</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-aac17f0a-3c65-53b6-992c-c319a9016a4f">Ishwar, G.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-2d8a78df-6d39-5402-b3bd-b326875bc274">Sharif, Usman</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-9da31174-7484-5d05-951a-11be263887be">Shakeel Pictures</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A poster from the HIndi film Mere Gharib Nawaz showing a muslim shrine with a crown of pilgrims in front of it. The right side of the poster shows Kaba and Medina mosque (Saudia Arabia) with crescent moon ( popular Muslim icons) and the auspicious number 786. Mere Gharib Nawaz refers to "My Saint Moinuddin Chisti, Ajmer.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">N.A. Karim presents
+Shakeel Pictures
+786
+Mere Gharib Nawaz
+Direction G. Ishwar
+Music Kamal Rajasthani
+Produced by Abid Husain Usman Sharif</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">मेरे ग़रीब नवाज़</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="urd">میرے غریب نواز</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <measurementsSet>
+            <notes>H 15 cm, W  20 cm, landscape</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_9da0e06b-64a2-523b-aaae-a2a3f1c1fd78" source="EXC Priya Paul Collection" pref="true" relids="i_9da0e06b-64a2-523b-aaae-a2a3f1c1fd78">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.imdb.com/title/tt1159229/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod vocab="LOCAL" refid="uuid-713bce21-8cae-59d4-a146-7a33333f9a8b">Mughal</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="b3a53861-18b1-5119-aa01-e5de31526f5c">
+                <term type="conceptTopic">families</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
+                <term type="descriptiveTopic">architecture (object genre)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3966e5ef-29e0-5cad-a0ef-074f129b127b">
+                <term type="geographicPlace">Medina</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0123308f-a030-5263-8ee2-03a6c76c8a30">
+                <term type="iconographicTopic">shrines (structures)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8e82aa64-0da1-5bcf-ade4-f327528ee762">
+                <term type="iconographicTopic">Mere Gharib Nawaz (movie, 1973)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b620b956-9f92-5144-92bb-6ff398bf2d69">
+                <term type="iconographicTopic">pilgrims (people)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+            <technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Mere  Gharib Nawaz</title>
+            <title type="descriptive" pref="false">मेरे ग़रीब नवाज़; میرے غریب نواز</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+N.A. Karim presents
+Shakeel Pictures
+786
+Mere Gharib Nawaz
+Direction G. Ishwar
+Music Kamal Rajasthani
+Produced by Abid Husain Usman Sharif</ext:value>
+                <ext:value>text-hi:
+मेरे ग़रीब नवाज़</ext:value>
+                <ext:value>text-ur:
+میرے غریب نواز</ext:value>
+                <ext:value>description-en:
+A poster from the HIndi film Mere Gharib Nawaz showing a muslim shrine with a crown of pilgrims in front of it. The right side of the poster shows Kaba and Medina mosque (Saudia Arabia) with crescent moon ( popular Muslim icons) and the auspicious number 786. Mere Gharib Nawaz refers to "My Saint Moinuddin Chisti, Ajmer. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Story line of the movie: Mirza Baig and his wife live a wealthy lifestyle in Jaipur, India. They have been married for 15 years but have been unable to conceive. They have prayed and visited a number of holy Islamic sites, save for the Dhargah of Khwaja Gharib Nawaz in Ajmer. The couple travel to this holy site, which is thronged by Hindu, Sikh, Christian, and Muslim devotees, pray, and return home. Months later they are blessed with the birth of a baby boy who they name Yusuf. When Yusuf is 3, they re-visit the Dhargah for placing a Manat Ki Chaddhar. Years later Yusuf has grown up, has secured first class first in college and is considered a very eligible bachelor. His parents arrange his marriage, much to his dismay, a he has fallen in love with fellow-collegian, Salma, who comes from a middle-class background. He does not oppose his parents' choice and gets married - but is delighted when he finds out later that his bride is none other than Salma herself... (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+There have been various speculations about the mystical or religious significance of 786 in Islam for centuries. There is a famous poem praising Allah, titled Bismillah al-Rahman al-Rahim, which has exactly 786 letters. Some have argued that 786 is the number of days in which Allah created the world or the number of days in which Muhammad conquered the pagans of Mecca.
+All Arabic copies of the Koran have the mysterious figure 786 imprinted on them . No Arabic scholar has been able to determine the choice of this particular number as divine. It is an established fact that Muhammad was illiterate therefore it is obvious that he would not be able to differentiate numbers from letters.
+This "magical" number is none other than the Vedic holy letter "aum" written in Sanskrit (see the figure at the right). Anyone who knows Sanskrit can try reading the symbol for "aum" backwards in the Arabic way and magically the numbers 786 will appear! Muslims in their ignorance simply do not realise that this special number is nothing more than the holiest of Vedic symbols misread. 
+Quoted from: http://in.answers.yahoo.com/question/index?qid=20060914093358AABFxGs, last accessed 2011-12-08.(gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://in.answers.yahoo.com/question/index?qid=20060914093358AABFxGs, online forum, last accessed 2011-12-08. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt1159229/, last accessed 2011-12-08, story line, leading actors, director. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt1159229/</ext:value>
+                <ext:value type="accessed">2011-12-08</ext:value>
+                <ext:value type="comment">story line, leading actors, director.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://in.answers.yahoo.com/question/index?qid=20060914093358AABFxGs</ext:value>
+                <ext:value type="accessed">2011-12-08</ext:value>
+                <ext:value type="comment">online forum,</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">There have been various speculations about the mystical or religious significance of 786 in Islam for centuries. There is a famous poem praising Allah, titled Bismillah al-Rahman al-Rahim, which has exactly 786 letters. Some have argued that 786 is the number of days in which Allah created the world or the number of days in which Muhammad conquered the pagans of Mecca.
+All Arabic copies of the Koran have the mysterious figure 786 imprinted on them . No Arabic scholar has been able to determine the choice of this particular number as divine. It is an established fact that Muhammad was illiterate therefore it is obvious that he would not be able to differentiate numbers from letters.
+This "magical" number is none other than the Vedic holy letter "aum" written in Sanskrit (see the figure at the right). Anyone who knows Sanskrit can try reading the symbol for "aum" backwards in the Arabic way and magically the numbers 786 will appear! Muslims in their ignorance simply do not realise that this special number is nothing more than the holiest of Vedic symbols misread. 
+Quoted from: http://in.answers.yahoo.com/question/index?qid=20060914093358AABFxGs, last accessed 2011-12-08.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Story line of the movie: Mirza Baig and his wife live a wealthy lifestyle in Jaipur, India. They have been married for 15 years but have been unable to conceive. They have prayed and visited a number of holy Islamic sites, save for the Dhargah of Khwaja Gharib Nawaz in Ajmer. The couple travel to this holy site, which is thronged by Hindu, Sikh, Christian, and Muslim devotees, pray, and return home. Months later they are blessed with the birth of a baby boy who they name Yusuf. When Yusuf is 3, they re-visit the Dhargah for placing a Manat Ki Chaddhar. Years later Yusuf has grown up, has secured first class first in college and is considered a very eligible bachelor. His parents arrange his marriage, much to his dismay, a he has fallen in love with fellow-collegian, Salma, who comes from a middle-class background. He does not oppose his parents' choice and gets married - but is delighted when he finds out later that his bride is none other than Salma herself...</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>damaged</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.imdb.com/title/tt1159229/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/109978</ext:value>
+                <ext:value>109978</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:38:05"/>
+        </ext:heidicon>
+    </work>
+</vra>

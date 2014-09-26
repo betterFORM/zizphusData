@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_84db0e69-498d-5520-baf9-8f55df817630" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-59078366-083d-534f-b0d5-da3f3f37c90d">Draupadi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-d8f3a034-fbbe-5c28-95fe-57d9f382216c">Yudhistira</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-55a46171-2371-5767-9742-bce91f75c649">Banerjee, B. P.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1926</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1926</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The image shows Lord Krishna standing with a couple, Yudhistira and Draupadi, in front of a hut with a thatched roof. Draupadi kneels down as she holds an earthen pot. Yudhiatira is wearing a scared thread across his shoulders and folds in hands in front of his chest. Krishna, Yudhistira and Draupadi have glitter embossed into their clothes. Krishna is depicted with a halo around his head, and he is wearing a crown, a flower garland and jewellery. In the background, a forest with trees can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">B.P.Banerjee. 19[26] (smudged image)</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Sole Agents
+Roy Babajee &amp; Co
+(smudged image)
+Calcutta</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">दुर्वासाका पारण</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">One of Sri Krishna's Miracles</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">All rights reserved</text>
+            </inscription>
+            <inscription>
+                <text type="signature">B. P. Banerjee 1926</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_7b6ce4df-ee38-520a-be3c-5cd3532c4856" source="EXC Priya Paul Collection" pref="true" relids="i_7b6ce4df-ee38-520a-be3c-5cd3532c4856">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.holykitchens.com/Akshayapatra.htm</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+                <term type="descriptiveTopic">festoon (motif)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
+                <term type="descriptiveTopic">couples</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
+                <term type="descriptiveTopic">crowns (headdresses)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
+                <term type="descriptiveTopic">forests</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9ef4338c-0564-5209-8a91-d1c3bd4d4821">
+                <term type="descriptiveTopic">huts (houses)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="78ba6b32-47d2-5d8a-bf11-c582409baad8">
+                <term type="descriptiveTopic">thatched roof</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+                <term type="iconographicTopic">glories</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3ce6356f-5fe0-5260-905b-ce19d8803f5b">
+                <term type="iconographicTopic">Akshaya Patra</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">One of Srikrishna's Miracles</title>
+            <title type="descriptive" pref="false">दुर्वासाका पारण</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Banerjee, B. P.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+B.P.Banerjee. 19[26] (smudged image)</ext:value>
+                <ext:value>text-en:
+Sole Agents
+Roy Babajee &amp; Co
+(smudged image)
+Calcutta</ext:value>
+                <ext:value>text-hi:
+दुर्वासाका पारण</ext:value>
+                <ext:value>text-en:
+One of Sri Krishna's Miracles</ext:value>
+                <ext:value>text-en:
+All rights reserved</ext:value>
+                <ext:value>description-en:
+The image shows Lord Krishna standing with a couple, Yudhistira and Draupadi, in front of a hut with a thatched roof. Draupadi kneels down as she holds an earthen pot. Yudhiatira is wearing a scared thread across his shoulders and folds in hands in front of his chest. Krishna, Yudhistira and Draupadi have glitter embossed into their clothes. Krishna is depicted with a halo around his head, and he is wearing a crown, a flower garland and jewellery. In the background, a forest with trees can be seen. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>ansetzen Künstler &lt;B.P. Bannerjee&gt;</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+When the Pandavas began their exile in the forest, Yudhishtra was despondent at his inability to feed the holy sages and others who accompanied him. At this, Dhaumya, the priest of the Pandavas, counselled him to pray to Lord Surya. Pleased with Yudhishtira's prayers, Lord Surya blessed him with the Akshaya Patra, a vessel that would give unlimited food every day till Draupadi finished eating.
+ 
+Lord Krishna also once partakes food from the Akshaya Patra, when sage Durvasa arrived at the Pandavas' place with his disciples. When Durvasa arrived, there was no food left to serve him, since Draupadi had already finished eating. The Pandavas became anxious as to what they would feed such a venerable sage. While Durvasa and his disciples were away at the banks of the river bathing, Draupadi prayed to Lord Krishna for help. As always, they were once again saved by Him, who partook of a single grain of rice from the Akshaya Patra and announced that He was satisfied by the meal. This satiated the hunger of Durvasa and all his disciples too, as the satisfaction of Lord Krishna meant the satiation of the hunger of the whole Universe.</ext:value>
+                <ext:value>related hyperlinks: 
+http://www.holykitchens.com/Akshayapatra.htm, last accessed 2012-03-27, mythology behind the image (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.holykitchens.com/Akshayapatra.htm</ext:value>
+                <ext:value type="accessed">2012-03-27</ext:value>
+                <ext:value type="comment">mythology behind the image</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">When the Pandavas began their exile in the forest, Yudhishtra was despondent at his inability to feed the holy sages and others who accompanied him. At this, Dhaumya, the priest of the Pandavas, counselled him to pray to Lord Surya. Pleased with Yudhishtira's prayers, Lord Surya blessed him with the Akshaya Patra, a vessel that would give unlimited food every day till Draupadi finished eating.
+ 
+Lord Krishna also once partakes food from the Akshaya Patra, when sage Durvasa arrived at the Pandavas' place with his disciples. When Durvasa arrived, there was no food left to serve him, since Draupadi had already finished eating. The Pandavas became anxious as to what they would feed such a venerable sage. While Durvasa and his disciples were away at the banks of the river bathing, Draupadi prayed to Lord Krishna for help. As always, they were once again saved by Him, who partook of a single grain of rice from the Akshaya Patra and announced that He was satisfied by the meal. This satiated the hunger of Durvasa and all his disciples too, as the satisfaction of Lord Krishna meant the satiation of the hunger of the whole Universe.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Stains on poster &amp; curled from inside</ext:value>
+            </ext:item>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>frame good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.holykitchens.com/Akshayapatra.htm</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118997</ext:value>
+                <ext:value>118997</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:42:47"/>
+        </ext:heidicon>
+    </work>
+</vra>

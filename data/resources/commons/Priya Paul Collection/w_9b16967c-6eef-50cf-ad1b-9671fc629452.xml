@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_9b16967c-6eef-50cf-ad1b-9671fc629452" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>An image with the title "Lovely" in a sample calender poster from the Empire Calender Manufacturing Co., Calcutta showing a boy and a girl playing with a white pigeon and a white rabbit. The rabbit is sitting on the boy's shoulder while he pets the pigeon that the girl is holding in her hand. A building and some plants can be seen in the background.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-b90fdecd-e3c4-541b-956e-afac9f0c7866">Chithavong, Arina</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">TCM [publisher's signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">LOVELY
+No. 492</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_4fa037ec-4b09-52a4-91ba-cfef71d7738e" source="EXC Priya Paul Collection" pref="true" relids="i_4fa037ec-4b09-52a4-91ba-cfef71d7738e">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="adf9d29b-8aae-5d5f-bbf3-7ca6362e969d">
+                <term type="descriptiveTopic">buildings (structures)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
+                <term type="descriptiveTopic">children (people by age group)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="38badb36-8a99-5821-b97f-a64e3b6e0ce9">
+                <term type="descriptiveTopic">girls</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9c62ec73-3841-5106-a5fd-2594f022ed15">
+                <term type="descriptiveTopic">boys</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
+                <term type="descriptiveTopic">plants</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8f8c0686-77ac-5a99-83ed-a8acedaf61bb">
+                <term type="descriptiveTopic">pigeons (general term)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0b3818bd-32af-505f-b025-e3f07a743683">
+                <term type="descriptiveTopic">rabbits</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+                <term type="descriptiveTopic">printer's marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cd01c853-5c20-56f6-b3df-129c7c77652a">
+                <term type="descriptiveTopic">skirts (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d7e8a036-dea9-5195-a8f8-ecbf17b65cdb">
+                <term type="descriptiveTopic">ribbon (material)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Lovely</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+TCM [publisher's signet]</ext:value>
+                <ext:value>text-en:
+LOVELY
+No. 492</ext:value>
+                <ext:value>description-en:
+An image with the title "Lovely" in a sample calender poster from the Empire Calender Manufacturing Co., Calcutta showing a boy and a girl playing with a white pigeon and a white rabbit. The rabbit is sitting on the boy's shoulder while he pets the pigeon that the girl is holding in her hand. A building and some plants can be seen in the background. (ac/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/122945</ext:value>
+                <ext:value>122945</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:28:21"/>
+        </ext:heidicon>
+    </work>
+</vra>

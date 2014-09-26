@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repo:meta xmlns="http://exist-db.org/xquery/repo" xmlns:repo="http://exist-db.org/xquery/repo">
+    <repo:description>Cluster Service Data Bundle</repo:description>
+    <repo:author>betterFORM</repo:author>
+    <repo:website>http://www.betterform.de</repo:website>
+    <repo:status>beta</repo:status>
+    <repo:copyright>true</repo:copyright>
+    <repo:type>application</repo:type>
+    <repo:target>/clusterServicesData</repo:target>
+    <repo:prepare>pre-install.xql</repo:prepare>
+    <repo:finish>post-install.xql</repo:finish>
+    <repo:permissions user="editor" group="biblio.users" mode="0775"/>
+</repo:meta>

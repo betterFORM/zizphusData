@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_502b5f4a-b579-5207-b96b-7d279b0e11ef" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-92738bf8-9745-52a0-a3ed-b5be424fc86a">Sharma, M. L.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1941</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1941</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this 1942 Bengali calender, Krishna can be seen wearing a crown with a peacock feather, holding a flute in his left hand and standing in front of two cows. In the background, some plants and flowers can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="ben">ADD TEXT HERE</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">M. L. Sharma
+1941</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Shree Gopal No. 62 A</text>
+            </inscription>
+            <inscription>
+                <text type="signature">M. L. Sharma</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 38 cm, W 25 cm,  portrait</notes>
+            <measurements type="height" unit="cm">38</measurements>
+            <measurements type="width" unit="cm">25</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_46783520-d724-52e3-a3c5-2119d891a3ea" source="EXC Priya Paul Collection" pref="true" relids="i_46783520-d724-52e3-a3c5-2119d891a3ea">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="8bee5a77-bc94-5f39-bc83-97f8cf7fcc7b">
+                <term type="conceptTopic">Bengali</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
+                <term type="descriptiveTopic">plants</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4f848a69-601b-5e7b-af31-2db353bf1e0f">
+                <term type="descriptiveTopic">crowns (headdresses)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
+                <term type="descriptiveTopic">cows</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
+                <term type="descriptiveTopic">peacock feather</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9b2c09f3-f24a-5c77-bbdb-b15cc1310764">
+                <term type="descriptiveTopic">scripts (writing)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+                <term type="iconographicTopic">glories</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2a25e728-4803-5c3e-a29a-8b1ceaf3c6c2">
+                <term type="otherTopic">Bengali script</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Shree Gopal</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Sharma, M. L.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-bn:
+ADD TEXT HERE</ext:value>
+                <ext:value>text-en:
+M. L. Sharma
+1941</ext:value>
+                <ext:value>text-en:
+Shree Gopal No. 62 A</ext:value>
+                <ext:value>description-en:
+On this 1942 Bengali calender, Krishna can be seen wearing a crown with a peacock feather, holding a flute in his left hand and standing in front of two cows. In the background, some plants and flowers can be seen. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Gopal is another name for Krishna. (sp)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+677.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">677.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Gopal is another name for Krishna.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/109875</ext:value>
+                <ext:value>109875</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:34:28"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_360c54b7-dab9-5ff2-858a-69448f1f17b5" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-ce614148-0264-5f83-a437-858a0925ecd5">C. H. Gerrard &amp; Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Textile label showing a joker/acrobat balancing a globe/ball on his nose with 'Cotillon' written on it. The cloth he stands on is striped green and white and he is wearing what looks like a circus costume with bells dangling from the sleeves and hem. He is wearing red shoes and green and blue tights and a blue headdress.
+There are inscriptions on the border of each side. The one at the top is written in English, the three others at the left, right and bottom are written in fantasy scripts, probably imitating characters in Devanagari and Arabic scripts.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">C. H. Gerrard &amp; Co.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Cotillon</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Registered No. 55482</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 20 cm, L 17 cm, portrait</notes>
+            <measurements type="height" unit="cm">20</measurements>
+            <measurements type="width" unit="cm">17</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_c8344d41-fefc-5e69-ba34-7dfccfdcf094" source="EXC Priya Paul Collection" pref="true" relids="i_c8344d41-fefc-5e69-ba34-7dfccfdcf094">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=85&amp;EId=103&amp;ImageId=12</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>late 19th/early 20th century</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="b6123501-8896-546c-9500-934dfbfe56d0">
+                <term type="descriptiveTopic">acrobats</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="95fb30e1-9469-5cf1-8133-7d7e6d1a07be">
+                <term type="descriptiveTopic">Cotillon</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
+                <term type="descriptiveTopic">textile label</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b231d6d8-c37b-5dc8-9659-80c29e8197e7">
+                <term type="descriptiveTopic">circuses (performances)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="05f95e27-c86a-5202-850e-d8bb8470ff4b">
+                <term type="descriptiveTopic">jesters</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f4a0498d-0487-523e-a360-b1a833fb5be1">
+                <term type="descriptiveTopic">imaginative script</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9b2c09f3-f24a-5c77-bbdb-b15cc1310764">
+                <term type="descriptiveTopic">scripts (writing)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b2340835-33bd-5d41-800a-95ea3484daea">
+                <term type="descriptiveTopic">labels (identifying artifacts)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
+                <term type="otherTopic">recheck-problem</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Acrobat with Ball</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en: 
+C. H. Gerrard &amp; Co.</ext:value>
+                <ext:value>text-en:
+Cotillon</ext:value>
+                <ext:value>text-en:
+Registered No. 55482</ext:value>
+                <ext:value>description-en:
+Textile label showing a joker/acrobat balancing a globe/ball on his nose with 'Cotillon' written on it. The cloth he stands on is striped green and white and he is wearing what looks like a circus costume with bells dangling from the sleeves and hem. He is wearing red shoes and green and blue tights and a blue headdress.
+There are inscriptions on the border of each side. The one at the top is written in English, the three others at the left, right and bottom are written in fantasy scripts, probably imitating characters in Devanagari and Arabic scripts. (sp/ma)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Such imagery did indeed reflect some realities of subaltern performance culture: Indian ‘jugglers’ (magicians) were an integral part of the street culture of the bazaars, alongside acrobats, snake charmers, and performing animals, even as late as the 1930s. (quoted from Pran Neville, 1997) () (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Since the mid-eighteenth century the circus had been gradually introduced alongside this culture; by the start of the twentieth century Indian circuses, incorporating Indian traditional martial arts, acrobatics, magic and lion-taming acts, were travelling India’s entertainment circuits alongside circuses from Europe, Russia, Japan and elsewhere, inviting audiences to wonder at apparently impossible feats that confounded the rules of the ordinary world. All such shows celebrated bodies pushed to their extremes and wild beasts subdued by men’s - and women’s - remarkable powers. An underclass of artistes from European, middle-Eastern, Indian and Anglo-Indian backgrounds provided the bodies that peopled these extravaganzas, which were, in many senses, transcultural shows, seen as ambiguously both modern and traditional. European and Asian traditions merged to present hybrid fantasies of exotic otherness. Anecdotal accounts suggest circus images were almost as popular as Hindu gods and goddesses in the turn-of-century magic lantern shows that toured India. It is perhaps not surprising that circus scenes found their way onto textile labels designed to encourage Indian consumers to buy British wares. (Rosie Thomas)(gs)</ext:value>
+                <ext:value>related literature:
+Lamont, Peter and Crispin Bates 2007."Conjuring Images of India in Nineteenth-century Britain" in Social History, Vol. 32(3). (gs)</ext:value>
+                <ext:value>related literature:
+Nevile, Pran 1997. "Lahore: A Sentimental Journey" New Delhi: Harper Collins. (gs)</ext:value>
+                <ext:value>related literature:
+Said, Edward 1995. "Orientalism". London: Penguin Books. (gs)</ext:value>
+                <ext:value>related literature:
+Schmidt, Richard 1908. "Fakire und Fakirtum im alten und modernen Indien". Berlin: Barsdorf. (gs)</ext:value>
+                <ext:value>related literature:
+Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-12-11, Essay "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" by Rosie Thomas (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=85&amp;EId=103&amp;ImageId=12, last accessed 2011-08-04, image in Tasveer Ghar (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy"</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Nevile, Pran 1997. "Lahore: A Sentimental Journey" New Delhi: Harper Collins.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Schmidt, Richard 1908. "Fakire und Fakirtum im alten und modernen Indien". Berlin: Barsdorf.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Lamont, Peter and Crispin Bates 2007."Conjuring Images of India in Nineteenth-century Britain" in Social History, Vol. 32(3).</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Said, Edward 1995. "Orientalism". London: Penguin Books.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+                <ext:value type="accessed">2010-12-11</ext:value>
+                <ext:value type="comment">Essay "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" by Rosie Thomas</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=85&amp;EId=103&amp;ImageId=12</ext:value>
+                <ext:value type="accessed">2011-08-04</ext:value>
+                <ext:value type="comment">image in Tasveer Ghar</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Since the mid-eighteenth century the circus had been gradually introduced alongside this culture; by the start of the twentieth century Indian circuses, incorporating Indian traditional martial arts, acrobatics, magic and lion-taming acts, were travelling India’s entertainment circuits alongside circuses from Europe, Russia, Japan and elsewhere, inviting audiences to wonder at apparently impossible feats that confounded the rules of the ordinary world. All such shows celebrated bodies pushed to their extremes and wild beasts subdued by men’s - and women’s - remarkable powers. An underclass of artistes from European, middle-Eastern, Indian and Anglo-Indian backgrounds provided the bodies that peopled these extravaganzas, which were, in many senses, transcultural shows, seen as ambiguously both modern and traditional. European and Asian traditions merged to present hybrid fantasies of exotic otherness. Anecdotal accounts suggest circus images were almost as popular as Hindu gods and goddesses in the turn-of-century magic lantern shows that toured India. It is perhaps not surprising that circus scenes found their way onto textile labels designed to encourage Indian consumers to buy British wares.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Rosie Thomas</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Such imagery did indeed reflect some realities of subaltern performance culture: Indian ‘jugglers’ (magicians) were an integral part of the street culture of the bazaars, alongside acrobats, snake charmers, and performing animals, even as late as the 1930s. (quoted from Pran Neville, 1997)</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=85&amp;EId=103&amp;ImageId=12</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/106169</ext:value>
+                <ext:value>106169</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:37:15"/>
+        </ext:heidicon>
+    </work>
+</vra>

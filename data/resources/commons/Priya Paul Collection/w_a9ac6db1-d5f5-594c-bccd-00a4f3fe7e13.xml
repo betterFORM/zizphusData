@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a9ac6db1-d5f5-594c-bccd-00a4f3fe7e13" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-6feb4a67-786b-596e-97de-b65df062830a">Vinolia Co. Ltd.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>An advertisement of Vinoliya White Rose Soap in Urdu and English. The advertisement shows an Indian lady wearing a pink sari who plucks and carries white Indian roses in her basket.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Vinolia
+White Rose Soap</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="urd">ونولیا وائٹ روز صابن 
+ہندی گلاب کے پھلواری کی تروتازگی لاتا ہے</text>
+            </inscription>
+            <inscription>
+                <text type="other">Vinolia white rose sabun
+Hindi gulab ke phulwari ki tar-o tazgi lata hai.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Vinolia White Rose soap brings the freshness of an Indian rose.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_04391687-fb0b-501c-afc4-86594d8f8d1b" source="EXC Priya Paul Collection" pref="true" relids="i_04391687-fb0b-501c-afc4-86594d8f8d1b">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=86&amp;EId=104&amp;ImageId=15</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://tasveerghar.net/cmsdesk/essay/104/index_1.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>early 20th century</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
+                <term type="descriptiveTopic">roses (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2d1f2b2b-80e4-56fc-809d-0d28b51bb7c9">
+                <term type="descriptiveTopic">Vinolia soap (product)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="93d4dd84-99a8-5d5d-9eef-e1b21db03ace">
+                <term type="descriptiveTopic">soap (organic material)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f123956b-a998-547c-820d-afb32e723540">
+                <term type="descriptiveTopic">pink sari</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
+                <term type="descriptiveTopic">soap advertisings</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e3265401-52cf-5441-9996-60dccfebc3a5">
+                <term type="descriptiveTopic">baskets (containers)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6a7ef104-16e5-51b0-9f39-6f1bdab51d8e">
+                <term type="otherTopic">Fellows 2010</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Vinolia White Rose Soap</title>
+            <title type="descriptive" pref="false">ونولیا وائٹ روز صابن</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Vinolia
+White Rose Soap</ext:value>
+                <ext:value>text-ur:
+ونولیا وائٹ روز صابن 
+ہندی گلاب کے پھلواری کی تروتازگی لاتا ہے</ext:value>
+                <ext:value>text-transcription-ur:
+Vinolia white rose sabun
+Hindi gulab ke phulwari ki tar-o tazgi lata hai.</ext:value>
+                <ext:value>text-en:
+Vinolia White Rose soap brings the freshness of an Indian rose.</ext:value>
+                <ext:value>description-en:
+An advertisement of Vinoliya White Rose Soap in Urdu and English. The advertisement shows an Indian lady wearing a pink sari who plucks and carries white Indian roses in her basket. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+The Urdu text in the advertisement for Vinolia Soap featured in this image loosely translates as “Vinolia White Rose soap brings the freshness of an Indian rose.” While the woman wears a stylish blouse and sari, she seems Caucasian and holds an unmistakably English basket of roses! (Sabeena Gadihoke) (gs)</ext:value>
+                <ext:value>related literature:
+Dyer, Richard and Christine Gledhill 2009. "Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s". Urbana and Chicago: University of Illinois Press. (gs)</ext:value>
+                <ext:value>related literature:
+Gadihoke, Sabika 2010. "Selling Soap and Stardom: The Story of Lux",  http://www.tasveergharindia.net/cmsdesk/essay/104/index.html,  2010-12-13 (gs)</ext:value>
+                <ext:value>related literature:
+McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</ext:value>
+                <ext:value>related literature:
+Sivulka, Julianne 1998. "Soap, Sex and Cigarettes: A Cultural History of Advertising". Belmont, California: Wadsworth Publishing Co. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Dyer, Richard and Christine Gledhill 2009. "Wanted: Cultured ladies Only! Female Stardom and Cinema in India 1930s-1950s". Urbana and Chicago: University of Illinois Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Gadihoke, Sabika 2010. "Selling Soap and Stardom: The Story of Lux",  http://www.tasveergharindia.net/cmsdesk/essay/104/index.html,  2010-12-13</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Sivulka, Julianne 1998. "Soap, Sex and Cigarettes: A Cultural History of Advertising". Belmont, California: Wadsworth Publishing Co.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The Urdu text in the advertisement for Vinolia Soap featured in this image loosely translates as “Vinolia White Rose soap brings the freshness of an Indian rose.” While the woman wears a stylish blouse and sari, she seems Caucasian and holds an unmistakably English basket of roses!</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sabeena Gadihoke</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=86&amp;EId=104&amp;ImageId=15</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://tasveerghar.net/cmsdesk/essay/104/index_1.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/139337</ext:value>
+                <ext:value>139337</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:50:44"/>
+        </ext:heidicon>
+    </work>
+</vra>

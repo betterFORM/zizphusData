@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_99ca9a31-720d-5771-beef-c728446c5462" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-8c341a75-5c2a-5b39-a545-20ab1032b2b2">Kaliya</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-6984e2ff-b897-587e-958c-12f1d674c63b">Madras, A. P.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-bcf2184f-d306-5914-8eb9-84e984155cbc">Burmah-Shell</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e9cc4e6f-bc9b-5bb9-b1ec-2ff69c3eec33">Imperial Chemical Industries (India) Ltd.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1939</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1939</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for Burmah-Shell from 1939 we see Lord Krishna dancing on the head of demon snake Kaliya. On the river shores in the background some large trees and other plants with grazing cattle are depicted, as well as a vast body of water.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Burmah-Shell
+Oil Storage &amp; Distributing Co. of India Ltd</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Agents:
+Moolchand Bahetti
+Station Road, Jodhpur.
+(Incorporated in England)</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">1939</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Kerosene - Motor Spirit
+Fuel &amp; Diesel Oils
+Shelltox
+Mineral Turpentine
+Mexphalte - Spramex</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">BOC</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Industrial Lubricants
+Motor Oils &amp; Greases
+Malariol
+Wax &amp; Candles
+Colas - Stearine</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Burmah-Shell</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">A. P. Madras</text>
+            </inscription>
+            <inscription>
+                <text type="signature">A. P. Madras</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 45 cm, W 38 cm,  portrait</notes>
+            <measurements type="height" unit="cm">45</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_25c109b0-b342-5179-bec2-af2b1a5b7c37" source="EXC Priya Paul Collection" pref="true" relids="i_25c109b0-b342-5179-bec2-af2b1a5b7c37">general view</relation>
+            <relation type="imageIs" refid="i_f0522275-d7c5-5274-93ad-1853434309f8" source="EXC Priya Paul Collection" relids="i_f0522275-d7c5-5274-93ad-1853434309f8">close-up view</relation>
+            <relation type="imageIs" refid="i_bf5839b9-a9a9-53bc-a225-81913b1b37d9" source="EXC Priya Paul Collection" relids="i_bf5839b9-a9a9-53bc-a225-81913b1b37d9">close-up view</relation>
+            <relation type="imageIs" refid="i_2a38ad76-625b-5068-b711-52a33cea4d3c" source="EXC Priya Paul Collection" relids="i_2a38ad76-625b-5068-b711-52a33cea4d3c">detail view</relation>
+            <relation type="imageIs" refid="i_f43bc115-773e-50b2-8906-bdcdbe46fb2e" source="EXC Priya Paul Collection" relids="i_f43bc115-773e-50b2-8906-bdcdbe46fb2e">close-up view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=82&amp;EId=100&amp;ImageId=16</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.indiankanoon.org/doc/328052/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>early 20th century</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
+                <term type="descriptiveTopic">rivers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e1843b1e-dbc3-59fa-862b-ad2576503b22">
+                <term type="descriptiveTopic">cows</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
+                <term type="descriptiveTopic">snake</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a865e5b9-2093-5654-b0c7-f27651e030b7">
+                <term type="descriptiveTopic">white bull</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cebadea2-33d9-57b4-880b-9c4dbe09a61b">
+                <term type="descriptiveTopic">bulls (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
+                <term type="descriptiveTopic">dance</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4202ea17-7569-5c60-821a-587cb3b59f7e">
+                <term type="iconographicTopic">Kaliya Daman</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fefa1a29-babd-51b3-9940-7af9fb3c1596">
+                <term type="otherTopic">recheck-iconography</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement calendar for Oil Storage &amp; Distributing Co. of India Ltd.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Madras, A. P.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Burmah-Shell
+Oil Storage &amp; Distributing Co. of India Ltd</ext:value>
+                <ext:value>text-en:
+Agents:
+Moolchand Bahetti
+Station Road, Jodhpur.
+(Incorporated in England)</ext:value>
+                <ext:value>text-en:
+1939</ext:value>
+                <ext:value>text-en:
+Kerosene - Motor Spirit
+Fuel &amp; Diesel Oils
+Shelltox
+Mineral Turpentine
+Mexphalte - Spramex</ext:value>
+                <ext:value>text-en:
+BOC</ext:value>
+                <ext:value>text-en:
+Industrial Lubricants
+Motor Oils &amp; Greases
+Malariol
+Wax &amp; Candles
+Colas - Stearine</ext:value>
+                <ext:value>text-en:
+Burmah-Shell</ext:value>
+                <ext:value>text-en:
+A. P. Madras</ext:value>
+                <ext:value>description-en:
+On this advertisement for Burmah-Shell from 1939 we see Lord Krishna dancing on the head of demon snake Kaliya. On the river shores in the background some large trees and other plants with grazing cattle are depicted, as well as a vast body of water. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+A 1939 calendar and advertisement for an English company, Burmah Shell, “oil storage and distribution company,” and its agents in Jodhpur, Moolchand Bahetti and Co.  (In 1976 Burmah Shell was nationalized and became a public sector undertaking, now called Bharat Petroleum.) The picture shows Lord Krishna with the black snake Kaliya, in a scene usually described as Kaliya-mardan, Krishna punishing the snake Kaliya. Kaliya Mardan is also the subject of a 1919 film by Dadasaheb Phalke, with the same title. (Arvind Rajagopal)(gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+This image presents a more familiar devotional scene with calendars advertising the company’s products. Aestheticization does not necessarily displace devotionalism, but co-exists with it, as English multinational corporations qualify their commitment to “realism” by a demotic religious idiom convenient for the market. We might be tempted to call this a process of partial secularization accomplished through market-based religious imagery. But “religion” here does not correlate with a unified authority such as with the church. There is no single religious authority, on the contrary, whether within Hinduism or Islam (these examples are from the former, clearly). Nor is there a domain that is demarcated from the religious, whether as profane or as secular. Similarly if the outcome is partial secularization, it is achieved not through the privatization of religion, but by its enlarged public presence. (Arvind Rajagopal)(gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+In this image, we see that Hindu imagery accompanies the names of businesses and the text above and below frames and surrounds the images of the gods. The relationship suggested between the god images and commerce is a close one. (Arvind Rajagopal)(gs)</ext:value>
+                <ext:value>related literature:
+Rajagopal, Arvind 2010. "The Commodity Image in the (Post) Colony" http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-18 (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.indiankanoon.org/doc/328052/, last accessed 2011-09-14, basic information about Burmah Shell as quored above. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The Burma Shell Oil Storage and Distributing Company of India Limited is a well-known company which produces manufactures, distributes and sells mineral oil, petroleum, etc. including aviation spirit. It carries on business inter alia in Calcutta in the distribution and sale of oil. It has a supply station at Dum-Dum Aerodrome, from which motor spirit for aviation purposes called "aviation spirit" is supplied to aircraft, including foreign-bound aircraft. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Rajagopal, Arvind 2010. "The Commodity Image in the (Post) Colony" http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, last accessed 2011-01-18</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.indiankanoon.org/doc/328052/</ext:value>
+                <ext:value type="accessed">2011-09-14</ext:value>
+                <ext:value type="comment">basic information about Burmah Shell as quored above.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">In this image, we see that Hindu imagery accompanies the names of businesses and the text above and below frames and surrounds the images of the gods. The relationship suggested between the god images and commerce is a close one.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Arvind Rajagopal</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">A 1939 calendar and advertisement for an English company, Burmah Shell, “oil storage and distribution company,” and its agents in Jodhpur, Moolchand Bahetti and Co.  (In 1976 Burmah Shell was nationalized and became a public sector undertaking, now called Bharat Petroleum.) The picture shows Lord Krishna with the black snake Kaliya, in a scene usually described as Kaliya-mardan, Krishna punishing the snake Kaliya. Kaliya Mardan is also the subject of a 1919 film by Dadasaheb Phalke, with the same title.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Arvind Rajagopal</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">This image presents a more familiar devotional scene with calendars advertising the company’s products. Aestheticization does not necessarily displace devotionalism, but co-exists with it, as English multinational corporations qualify their commitment to “realism” by a demotic religious idiom convenient for the market. We might be tempted to call this a process of partial secularization accomplished through market-based religious imagery. But “religion” here does not correlate with a unified authority such as with the church. There is no single religious authority, on the contrary, whether within Hinduism or Islam (these examples are from the former, clearly). Nor is there a domain that is demarcated from the religious, whether as profane or as secular. Similarly if the outcome is partial secularization, it is achieved not through the privatization of religion, but by its enlarged public presence.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Arvind Rajagopal</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The Burma Shell Oil Storage and Distributing Company of India Limited is a well-known company which produces manufactures, distributes and sells mineral oil, petroleum, etc. including aviation spirit. It carries on business inter alia in Calcutta in the distribution and sale of oil. It has a supply station at Dum-Dum Aerodrome, from which motor spirit for aviation purposes called "aviation spirit" is supplied to aircraft, including foreign-bound aircraft.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>torn</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118234</ext:value>
+                <ext:value>i_f0522275-d7c5-5274-93ad-1853434309f8</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118232</ext:value>
+                <ext:value>i_bf5839b9-a9a9-53bc-a225-81913b1b37d9</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118231</ext:value>
+                <ext:value>i_2a38ad76-625b-5068-b711-52a33cea4d3c</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118233</ext:value>
+                <ext:value>i_f43bc115-773e-50b2-8906-bdcdbe46fb2e</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=82&amp;EId=100&amp;ImageId=16</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url3" status="0" display="URL3">
+                <ext:value type="url3">http://www.indiankanoon.org/doc/328052/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118230</ext:value>
+                <ext:value>118230</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:30:54"/>
+        </ext:heidicon>
+    </work>
+</vra>

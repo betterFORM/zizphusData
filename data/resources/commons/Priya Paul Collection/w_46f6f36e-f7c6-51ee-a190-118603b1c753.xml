@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_46f6f36e-f7c6-51ee-a190-118603b1c753" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-debc21eb-564b-52f1-97d2-f48a73c3b6b9">Oriental Calendar Manufacturing Company</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The image with the title "Looking" in a sample calender poster catalogue from the Empire Calender Manufacturing Co., Calcutta shows a fair skinned woman looking towards the viewer with a slight smile. She is wearing a green sari. A red scarf is wrapped over her left shoulder. On her forehead a bindi can be seen. Also she wears flowers in her hair</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a">Gruening, Simon</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">LOOKING
+No. 505</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_a94cec01-59e8-5088-bb63-1b5be84ffcdb" source="EXC Priya Paul Collection" pref="true" relids="i_a94cec01-59e8-5088-bb63-1b5be84ffcdb">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+		</sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="c6f1d3d8-e08f-56d6-9b1b-4a2d64a238b4">
+                <term type="conceptTopic">smiles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
+                <term type="conceptTopic">Hindu women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
+                <term type="conceptTopic">fair skin</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+                <term type="conceptTopic">Bharatiya Nari</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3fdf7d56-65c2-56ae-b427-91cd4fed9d46">
+                <term type="descriptiveTopic">green sari</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
+                <term type="descriptiveTopic">women (female humans)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2e729391-6532-52d8-8683-1602a3277fec">
+                <term type="descriptiveTopic">red (color)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="007aac02-3559-5d47-85ca-b82dae273f5b">
+                <term type="descriptiveTopic">rivers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="98daf338-9562-511f-bec1-1d5283acbdd3">
+                <term type="descriptiveTopic">red scarves</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9827e405-f6ac-5aa3-a3ac-e065214711f2">
+                <term type="descriptiveTopic">green (color)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
+                <term type="iconographicTopic">bindi</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Looking</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+LOOKING
+No. 505</ext:value>
+                <ext:value>description-en:
+The image with the title "Looking" in a sample calender poster catalogue from the Empire Calender Manufacturing Co., Calcutta shows a fair skinned woman looking towards the viewer with a slight smile. She is wearing a green sari. A red scarf is wrapped over her left shoulder. On her forehead a bindi can be seen. Also she wears flowers in her hair (gs/sg)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+The concept of looking is a special one in Hinduism. "Darshan" means literally touching with the eyes and is practiced especially in temples with the images of the deities. (gs)</ext:value>
+                <ext:value>related literature:
+Eck, Diana L. 1998. "Darshan. Seeing the divine image in India" New York: Colombia University Press. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Eck, Diana L. 1998. "Darshan. Seeing the divine image in India" New York: Colombia University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The concept of looking is a special one in Hinduism. "Darshan" means literally touching with the eyes and is practiced especially in temples with the images of the deities.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/122950</ext:value>
+                <ext:value>122950</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:29:09"/>
+        </ext:heidicon>
+    </work>
+</vra>

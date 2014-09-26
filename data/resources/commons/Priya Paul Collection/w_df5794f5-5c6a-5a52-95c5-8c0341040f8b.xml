@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_df5794f5-5c6a-5a52-95c5-8c0341040f8b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-bff732b5-f73b-5c60-9e5b-d32a565be612">Kapoor, Shashi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-18a320a2-fe55-5d55-ab4e-e1e796fd2d6b">Kapoor, Raj</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-0fd88be1-4531-56ad-bcb5-3efe7d96a736">Zeenat Aman</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-18bdfa84-797e-51a6-8e84-a3145c944b04">Kudalkar, Laxmikant Shantaram</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-e418fd16-f2d7-5697-9300-8a0409a7c988">Sharma, Pyarelal Ramprasad</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-93fa8902-bf20-55ef-a5bf-4c3a316f4813">Laxmikant - Pyarelal</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1978</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1978</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this page from a film brochure for the Hindi film "Satyam Shivam Sundaram", released in 1978, a pair of roses and the title of the film in Roman script can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Our next ...
+RK Films 
+Raj Kapoor's 
+Satyam Shivam Sundaram
+Eastmancolor
+Designed &amp; Printed by "Kolortone"</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 20 cm, L 27 cm, landscape</notes>
+            <measurements type="height" unit="cm">20</measurements>
+            <measurements type="width" unit="cm">27</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_af5cb334-07d1-58e5-b82c-f13ebb2f97c4" source="EXC Priya Paul Collection" pref="true" relids="i_af5cb334-07d1-58e5-b82c-f13ebb2f97c4">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.imdb.com/title/tt0078204/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
+                <term type="descriptiveTopic">roses (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">
+                <term type="descriptiveTopic">brochures</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
+                <term type="descriptiveTopic">film stills</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="736f564f-4b52-5a87-a4c0-947f63b3b60d">
+                <term type="iconographicTopic">Satyam Shivam Sundaram (movie, 1978)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Satyam Shivam Sundaram</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Our next ...
+RK Films 
+Raj Kapoor's 
+Satyam Shivam Sundaram
+Eastmancolor
+Designed &amp; Printed by "Kolortone"</ext:value>
+                <ext:value>description-en:
+On this page from a film brochure for the Hindi film "Satyam Shivam Sundaram", released in 1978, a pair of roses and the title of the film in Roman script can be seen. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Story line of the movie: As Pandit Shyam Sunder prayed in Bhagwan Shivji's temple on the occasion of Janamashtami, his wife gives birth to a daughter, Rupa, and passes away, leaving her child to bear the brunt of being an ill-omen. Years later, Rupa burns her face from a frying pot, thus disfiguring the right side of her face completely, so much so that when she matures, the scar being so hideous, that no one in the village nor surrounding area wants to marry her. Then an Engineer named Rajeev arrives from Bombay, he approaches Shyam Sunder to seek his permission and blessings, so that he can marry Rupa. Protesting strongly, Rupa is asked to marry Rajeev and re-locate to his house. When Rajeev finds out that his wife is disfigured, he refuses to have to do anything with her. Then one day when he returns from a trip out of town, he is told that Rupa is expecting his child. Watch what impact this has on Rajiv and what he does to expose Rupa in the community. cf. http://www.imdb.com/title/tt0078204/ (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0078204/, story plot, leading actors, director, last accessed 2011-12-29. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0078204/</ext:value>
+                <ext:value type="accessed">2011-12-29</ext:value>
+                <ext:value type="comment">story plot, leading actors, director,</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Story line of the movie: As Pandit Shyam Sunder prayed in Bhagwan Shivji's temple on the occasion of Janamashtami, his wife gives birth to a daughter, Rupa, and passes away, leaving her child to bear the brunt of being an ill-omen. Years later, Rupa burns her face from a frying pot, thus disfiguring the right side of her face completely, so much so that when she matures, the scar being so hideous, that no one in the village nor surrounding area wants to marry her. Then an Engineer named Rajeev arrives from Bombay, he approaches Shyam Sunder to seek his permission and blessings, so that he can marry Rupa. Protesting strongly, Rupa is asked to marry Rajeev and re-locate to his house. When Rajeev finds out that his wife is disfigured, he refuses to have to do anything with her. Then one day when he returns from a trip out of town, he is told that Rupa is expecting his child. Watch what impact this has on Rajiv and what he does to expose Rupa in the community. cf. http://www.imdb.com/title/tt0078204/</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.imdb.com/title/tt0078204/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120439</ext:value>
+                <ext:value>120439</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:37:38"/>
+        </ext:heidicon>
+    </work>
+</vra>

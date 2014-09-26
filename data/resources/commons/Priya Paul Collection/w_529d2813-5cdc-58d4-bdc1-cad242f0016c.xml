@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_529d2813-5cdc-58d4-bdc1-cad242f0016c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-23f8a72d-8146-59a7-a914-6b553fa16d1e">Das, Sushil</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-8306b8a1-fb01-5ed7-940f-551d5912a710">Roy, Bina</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This sample image in the catalogue of Empire Calendar Manufacturing Co. shows the Bollywood actress Bina Rai. The actress can be seen standing in front of a window and wearing a sari. In the background, the full moon as well as a tendril with flowers can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Sushil Das..</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">BINA RAI</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Sushil Das</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 25 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">25</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_938ca851-e661-5e10-bb85-46b771837f61" source="EXC Priya Paul Collection" pref="true" relids="i_938ca851-e661-5e10-bb85-46b771837f61">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="1d815bae-85f3-5c1f-a66a-8ca10105ede7">
+                <term type="descriptiveTopic">moon</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a2c1b6ad-3105-55a8-b39b-cf71d9de6c66">
+                <term type="descriptiveTopic">windows</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a921b3b7-f369-5d1f-af74-c6e82309b203">
+                <term type="descriptiveTopic">catalogs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="82928f81-b36b-5819-be69-3fdda0646f67">
+                <term type="descriptiveTopic">vines</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="eff8de2f-9616-5eb9-ae5a-69b823c38431">
+                <term type="descriptiveTopic">actresses</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f9597553-50b0-54c9-941d-95813851a3b7">
+                <term type="descriptiveTopic">curtains (window hangings)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
+                <term type="descriptiveTopic">trade catalogs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Bina Rai</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Das, Sushil</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Sushil Das..</ext:value>
+                <ext:value>text-en:
+BINA RAI</ext:value>
+                <ext:value>description-en:
+This sample image in the catalogue of Empire Calendar Manufacturing Co. shows the Bollywood actress Bina Rai. The actress can be seen standing in front of a window and wearing a sari. In the background, the full moon as well as a tendril with flowers can be seen. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Bina Roy</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119486</ext:value>
+                <ext:value>119486</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:40:39"/>
+        </ext:heidicon>
+    </work>
+</vra>

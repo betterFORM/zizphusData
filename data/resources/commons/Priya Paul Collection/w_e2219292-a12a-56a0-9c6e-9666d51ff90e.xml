@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_e2219292-a12a-56a0-9c6e-9666d51ff90e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-2966151b-543f-5a77-bbf1-91396206d367">Jahanara</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-91b60b26-decc-5f43-a36f-56217e9ac3b0">Kumar, Vinod</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-732116f0-bd3e-5c22-b005-5e1c9b666a3d">Mahipal</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-2ca870d1-591c-5d27-9c22-ef426432f658">Pahalwan, Vasantrao</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1964</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1964</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A young woman, probably one of the main actresses of the 1964 released movie "Jahan Ara" is depicted dancing in a palace like surrounding that is dominated by Mughal influences. The throne behind her is sominatred by several peacock feathers.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
+        </materialSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_716e81fc-f888-52c5-b6d5-f7f582ff65e7" source="EXC Priya Paul Collection" pref="true" relids="i_716e81fc-f888-52c5-b6d5-f7f582ff65e7">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.imdb.com/title/tt0137847/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod vocab="LOCAL" refid="uuid-713bce21-8cae-59d4-a146-7a33333f9a8b">Mughal</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c07330ed-d4cd-50b7-be79-13a81c122ac0">
+                <term type="conceptTopic">adaptations</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
+                <term type="descriptiveTopic">architecture (object genre)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
+                <term type="descriptiveTopic">motion pictures (visual works)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="aabbc697-061e-58d1-9daa-e21ad8ce9273">
+                <term type="descriptiveTopic">peacock feather</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a7268665-ba9d-5c6f-b4fe-ccaaa7062497">
+                <term type="iconographicTopic">Jahan Ara (movie, 1964)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a60cd437-c423-540f-801f-5764a7cfa488">
+                <term type="iconographicTopic">princesses</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Film still of Jahan Ara</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+A young woman, probably one of the main actresses of the 1964 released movie "Jahan Ara" is depicted dancing in a palace like surrounding that is dominated by Mughal influences. The throne behind her is sominatred by several peacock feathers. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+The Movie "Jahan Ara" is about the princess of the same name who has lived in India between 1614 and 1681 and was the oldest daughter from Sha Jahan and his main wife Mumtaz Mahal. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+After the early death of her mother she took most of the duties over from her. Therefore we can assume, that she had a major influence on the creation and the design of the Taj Mahal. Vinod Kumar is focusing in his movie from 1964 on the unfullfilled love between Jahan Ara and her childhood friend Mirza Yusuf Changezi; Shah Jahan did not allow the marriage. (Catherine B. Asher) (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0137847/plotsummary, last accessed 2010-10-28. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010-10-28. (gs)</ext:value>
+                <ext:value>related literature:
+Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-18. 18. (gs)</ext:value>
+                <ext:value>related literature:
+Butenschön, Andrea 2004. The Life of a Mughal Princess. Jahānarā Begam, daughter of Shāhjahān. Lahore: Sang-e-Meel Publications. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-18. 18.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Butenschön, Andrea 2004. The Life of a Mughal Princess. Jahānarā Begam, daughter of Shāhjahān. Lahore: Sang-e-Meel Publications.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0137847/plotsummary</ext:value>
+                <ext:value type="accessed">2010-10-28</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+                <ext:value type="accessed">2010-10-28</ext:value>
+                <ext:value type="comment">Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The Movie "Jahan Ara" is about the princess of the same name who has lived in India between 1614 and 1681 and was the oldest daughter from Sha Jahan and his main wife Mumtaz Mahal.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">After the early death of her mother she took most of the duties over from her. Therefore we can assume, that she had a major influence on the creation and the design of the Taj Mahal. Vinod Kumar is focusing in his movie from 1964 on the unfullfilled love between Jahan Ara and her childhood friend Mirza Yusuf Changezi; Shah Jahan did not allow the marriage.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Catherine B. Asher</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url3" status="0" display="URL3">
+                <ext:value type="url3">http://www.imdb.com/title/tt0137847/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120859</ext:value>
+                <ext:value>120859</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:41:33"/>
+        </ext:heidicon>
+    </work>
+</vra>

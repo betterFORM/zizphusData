@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_49bc6e1d-ac08-5127-803a-ab2c59c008ab" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-185eaa8d-7fbe-5c6e-b026-6dbfb5a56ccd">Bachchan, Amitabh</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-41664ec4-c2dd-5b80-a17c-0cf5bc48858b">Patil, Smita</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-94bdd493-d520-59a8-8864-fa0c53828d62">Mehra, Prakash</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1982</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1982</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Amitabh Bachchan and Smita Patil laugh while hugging in the rain.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Chaudhry Enterprises'
+Namak Halaal
+Cinemascope
+eastmancolor</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">directed by
+Prakash Mehra
+produced by
+Satyendra Pal
+music
+Bappi Lahiri</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 22 cm, W 17 cm, portrait</notes>
+            <measurements type="height" unit="cm">22</measurements>
+            <measurements type="width" unit="cm">17</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_3edcba02-356f-5f12-909d-607c36419eb8" source="EXC Priya Paul Collection" pref="true" relids="i_3edcba02-356f-5f12-909d-607c36419eb8">front</relation>
+            <relation type="imageIs" refid="i_c391ee98-8eeb-5488-925e-af84db37fb50" source="EXC Priya Paul Collection" relids="i_c391ee98-8eeb-5488-925e-af84db37fb50">back</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+		</sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>late 20th century</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
+                <term type="descriptiveTopic">posters</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
+                <term type="descriptiveTopic">motion pictures (visual works)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0fced42e-bef4-52b0-ad72-3602d3bce2f8">
+                <term type="descriptiveTopic">film poster</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Namak Halaal</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Chaudhry Enterprises'
+Namak Halaal
+Cinemascope
+eastmancolor</ext:value>
+                <ext:value>text-en:
+directed by
+Prakash Mehra
+produced by
+Satyendra Pal
+music
+Bappi Lahiri</ext:value>
+                <ext:value>description-en:
+Amitabh Bachchan and Smita Patil laugh while hugging in the rain. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Namak Halaal (The Loyal One, Prakash Mehra, 1982) was a star vehicle production for Amitabh Bachchan, presenting him with the opportunity to display his skills. Like the poster publicity of most major films, Namak Halaal also sought to showcase its elaborate ensemble form – a concoction of comedy, drama, action and romance. (Ranjani Mazumdar) (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+We see Bachchan and Smita Patil captured in a “moment” that directly references their dance in the rain to the films hit song “Aaj rapat jaye to hume na dikhayyo.” The same poster’s literal rendition makes it different from the more abstract forms of the other Bachchan posters. One could easily refer to this as a “sequence poster” which wants to highlight the music of the film. Namak Halaal’s release takes place in the midst of the explosion in the consumer electronic industry. The cassette boom which started around 1980, expanded rapidly with the rising sale of cassettes in the next few years. (Ranjani Mazumdar) (gs)</ext:value>
+                <ext:value>related literature:
+Dasgupta, Susmita 2006. "Amitabh. The making of a superstar." New Delhi: Penguin Books. (gs)</ext:value>
+                <ext:value>related literature:
+Ghosh, Avijit 1996 “India’s Journey with Amitabh Bachchan” The Pioneer, November 24. (gs)</ext:value>
+                <ext:value>related literature:
+Mazumdar, Ranjani 2010. "The Man Who Was Seen Too Much: Amitabh Bachchan on Film Posters." cf. http://www.tasveergharindia.net/cmsdesk/essay/106/index.html last accessed 2011-11-09 (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/106/index.html last accessed 2011-11-09 (gs/ja)</ext:value>
+                <ext:value>related literature:
+Singhal, Rahul (ed) 2004. "Mega star of Bollywood. Amitabh Bachchan." Delhi, India: Pentagon Paperbooks. (gs/ja)</ext:value>
+                <ext:value>related literature:
+Somaaya, Bhawana (ed) 2000. "Amitabh Bachchan, the legend." New Delhi: Macmillan India. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-1980/, last accessed 2010-11-09 (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Dasgupta, Susmita 2006. "Amitabh. The making of a superstar." New Delhi: Penguin Books.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Singhal, Rahul (ed) 2004. "Mega star of Bollywood. Amitabh Bachchan." Delhi, India: Pentagon Paperbooks.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Alisch, Johannes</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Somaaya, Bhawana (ed) 2000. "Amitabh Bachchan, the legend." New Delhi: Macmillan India.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Mazumdar, Ranjani 2010. "The Man Who Was Seen Too Much: Amitabh Bachchan on Film Posters." cf. http://www.tasveergharindia.net/cmsdesk/essay/106/index.html last accessed 2011-11-09</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Ghosh, Avijit 1996 “India’s Journey with Amitabh Bachchan” The Pioneer, November 24.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/106/index.html</ext:value>
+                <ext:value type="accessed">2011-11-09</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Alisch, Johannes</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-1980/</ext:value>
+                <ext:value type="accessed">2010-11-09</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Namak Halaal (The Loyal One, Prakash Mehra, 1982) was a star vehicle production for Amitabh Bachchan, presenting him with the opportunity to display his skills. Like the poster publicity of most major films, Namak Halaal also sought to showcase its elaborate ensemble form – a concoction of comedy, drama, action and romance.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Ranjani Mazumdar</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">We see Bachchan and Smita Patil captured in a “moment” that directly references their dance in the rain to the films hit song “Aaj rapat jaye to hume na dikhayyo.” The same poster’s literal rendition makes it different from the more abstract forms of the other Bachchan posters. One could easily refer to this as a “sequence poster” which wants to highlight the music of the film. Namak Halaal’s release takes place in the midst of the explosion in the consumer electronic industry. The cassette boom which started around 1980, expanded rapidly with the rising sale of cassettes in the next few years.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Ranjani Mazumdar</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/117953</ext:value>
+                <ext:value>i_c391ee98-8eeb-5488-925e-af84db37fb50</ext:value>
+                <ext:value>back</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120445</ext:value>
+                <ext:value>120445</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:38:00"/>
+        </ext:heidicon>
+    </work>
+</vra>

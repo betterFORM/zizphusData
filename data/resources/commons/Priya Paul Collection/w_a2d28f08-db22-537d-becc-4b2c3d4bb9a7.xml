@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a2d28f08-db22-537d-becc-4b2c3d4bb9a7" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-59570487-101f-5a49-b808-8e93cd287171">Kapoor, Prithviraj</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-d91bcc20-de46-56f2-9bd3-cc1314800da6">Abbas, Khwaja Ahmad</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-8dc04a72-1cf7-54ff-bcaf-1eda20c5b287">Naya Sansar</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1965</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1965</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this lobby card for the Hindi movie "Aasman Mahal", released in 1965, two male actors can be seen smiling at each other. One of them, obviously a muslim, wears a topi and has a beard and a moustache whereas the other wears a suit and tie and holds a white hat in his right hand. The image is slightly damaged on the edges, probably due to water.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Naya Sansar's
+Aasman Mahal</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">produced &amp; directed by K.A. Abbas</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <measurementsSet>
+            <notes>H 20 cm, W 30 cm, landscape</notes>
+            <measurements type="height" unit="cm">20</measurements>
+            <measurements type="width" unit="cm">30</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_47e06f0e-f8f6-5b3c-b326-fc80cb157780" source="EXC Priya Paul Collection" pref="true" relids="i_47e06f0e-f8f6-5b3c-b326-fc80cb157780">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.answers.com/topic/aasman-mahal</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.ofdb.de/film/97151,Aasman-Mahal</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.filmsofindia.com/movie-synopsis.php?id=640</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="c6f1d3d8-e08f-56d6-9b1b-4a2d64a238b4">
+                <term type="conceptTopic">smiles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8c60e188-b032-54dc-ab94-e6eecbf05bd6">
+                <term type="conceptTopic">antiques (object genre)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="13ba2929-2d95-5054-b11f-2850ed2e3a0e">
+                <term type="descriptiveTopic">sherwani (garnments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="69210fe5-3e7d-56c1-9fdb-cdbb95c57789">
+                <term type="descriptiveTopic">stores</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6138714d-8132-5952-9627-cf4c80e02390">
+                <term type="descriptiveTopic">topis (headdresses)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="73fed00a-4e53-5763-80b3-cfc823768bfc">
+                <term type="descriptiveTopic">showcases</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Aasman Mahal</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Naya Sansar's
+Aasman Mahal</ext:value>
+                <ext:value>text-en:
+produced &amp; directed by K.A. Abbas</ext:value>
+                <ext:value>description-en:
+On this lobby card for the Hindi movie "Aasman Mahal", released in 1965, two male actors can be seen smiling at each other. One of them, obviously a muslim, wears a topi and has a beard and a moustache whereas the other wears a suit and tie and holds a white hat in his right hand. The image is slightly damaged on the edges, probably due to water. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+The plot of "Aasman Mahal": An elderly retired official contends with his drunken playboy son and the passage into a new era in this somber drama. The nabob is content to spend the rest of his days in his crumbling castle and refuses to go outside. He turns down the offer of millions of dollars to have his castle turned into a luxury hotel, choosing to live in impoverished dignity. His son finds salvation through the love of a beautiful young peasant girl. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.answers.com/topic/aasman-mahal last accessed 2011-08-01, Plot of the movie (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.ofdb.de/film/97151,Aasman-Mahal last accessed 2011-08-01, cast and crew details (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.answers.com/topic/aasman-mahal</ext:value>
+                <ext:value type="accessed">2011-08-01</ext:value>
+                <ext:value type="comment">Plot of the movie</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.ofdb.de/film/97151,Aasman-Mahal</ext:value>
+                <ext:value type="accessed">2011-08-01</ext:value>
+                <ext:value type="comment">cast and crew details</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The plot of "Aasman Mahal": An elderly retired official contends with his drunken playboy son and the passage into a new era in this somber drama. The nabob is content to spend the rest of his days in his crumbling castle and refuses to go outside. He turns down the offer of millions of dollars to have his castle turned into a luxury hotel, choosing to live in impoverished dignity. His son finds salvation through the love of a beautiful young peasant girl.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>damaged</ext:value>
+            </ext:item>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>image cropped</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Naya Sansar (producer)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.answers.com/topic/aasman-mahal</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.ofdb.de/film/97151,Aasman-Mahal</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url3" status="0" display="URL3">
+                <ext:value type="url3">http://www.filmsofindia.com/movie-synopsis.php?id=640</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120228</ext:value>
+                <ext:value>120228</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:28:53"/>
+        </ext:heidicon>
+    </work>
+</vra>

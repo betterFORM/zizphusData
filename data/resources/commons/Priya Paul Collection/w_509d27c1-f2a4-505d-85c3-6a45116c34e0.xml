@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_509d27c1-f2a4-505d-85c3-6a45116c34e0" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-7b799212-bc20-50d5-8b39-785e2df7c160">H. A. Mirza and Sons.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1900 - 1930</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1900 - 1930</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The image shows a river side view of the monuments Summan Burj, Jahangiri Mahal, Khas Mahal, and so on. A water-filled moat surrounding the monuments can also be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">33874</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Summan Burj, Jahangiri Mahal, Khas Mahal, etc from the river side, Agra.
+Built by Akber the Great in 1599 A. D.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 15 cm, W 20 cm, landscape</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_bcfc7402-9b00-5ef2-9453-55807faded5d" source="EXC Priya Paul Collection" pref="true" relids="i_bcfc7402-9b00-5ef2-9453-55807faded5d">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/114/index_3.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=91&amp;EId=114&amp;ImageId=16</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod vocab="LOCAL" refid="uuid-713bce21-8cae-59d4-a146-7a33333f9a8b">Mughal</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
+                <term type="descriptiveTopic">architecture (object genre)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
+                <term type="descriptiveTopic">picture postcards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a534015e-9178-5040-a211-7e733525c283">
+                <term type="geographicPlace">India</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8d83b013-d1e2-563c-bcc5-4ff2493a5f70">
+                <term type="geographicPlace">Uttar Pradesh</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6fed8133-cef1-579e-8c65-9a7982f73362">
+                <term type="geographicPlace">Agra</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="dc0d4358-3e05-51a8-9919-0b4f19a9a181">
+                <term type="geographicPlace">Yamuna (river)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Summan Burj, Jahangiri Mahal, Khas Mahal, etc from the river side, Agra, built by Akbar the great in 1599 A.D.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+33874</ext:value>
+                <ext:value>text-en: 
+Summan Burj, Jahangiri Mahal, Khas Mahal, etc from the river side, Agra.
+Built by Akber the Great in 1599 A. D.</ext:value>
+                <ext:value>description-en:
+The image shows a river side view of the monuments Summan Burj, Jahangiri Mahal, Khas Mahal, and so on. A water-filled moat surrounding the monuments can also be seen. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+H.A. Mirza and Sons is a company that essentially held the monopoly on the Delhi market for postcards between about 1900 to the 1930s. The cards were printed in Germany so their images often crossed the ocean multiple times as they were photographed in India, printed in Europe, returned to India and then often mailed again across the seas. The H.A. Mirza cards generally illustrated buildings associated with the Uprising of 1857-58, hill stations and Indian Islamic architecture, although they also sold images of Mecca and Medina to Muslims too poor to go on the Hajj. (Catherine B. Asher) (gs)</ext:value>
+                <ext:value>related literature:
+Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010-10-29, Tasveer Ghar essay. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+                <ext:value type="accessed">2010-10-29</ext:value>
+                <ext:value type="comment">Tasveer Ghar essay.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">H.A. Mirza and Sons is a company that essentially held the monopoly on the Delhi market for postcards between about 1900 to the 1930s. The cards were printed in Germany so their images often crossed the ocean multiple times as they were photographed in India, printed in Europe, returned to India and then often mailed again across the seas. The H.A. Mirza cards generally illustrated buildings associated with the Uprising of 1857-58, hill stations and Indian Islamic architecture, although they also sold images of Mecca and Medina to Muslims too poor to go on the Hajj.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Catherine B. Asher</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/114/index_3.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=91&amp;EId=114&amp;ImageId=16</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/107980</ext:value>
+                <ext:value>107980</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:43:50"/>
+        </ext:heidicon>
+    </work>
+</vra>

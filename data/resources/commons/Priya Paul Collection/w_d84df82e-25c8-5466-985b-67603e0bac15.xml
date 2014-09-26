@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_d84df82e-25c8-5466-985b-67603e0bac15" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-41f6a817-56dc-5762-a600-2351145d7aaf">M. Vadilal &amp; Co</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this inside page of a sample booklet, we see two pictures, one of a woman wearing Sari and holding a child, another one with a girl having a book on her fold and  taking a smell of a flower in her hand.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">M. Vadilal &amp; Co. Ahmedabad.
+Ticket Printers.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">(Regd.) No. 1005.
+(Regd.) No. 1006.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">M. V. &amp; Co.,
+M. V. &amp; Co.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 20 cm, W 25 cm, landscape</notes>
+            <measurements type="height" unit="cm">20</measurements>
+            <measurements type="width" unit="cm">25</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_d86b61c9-4f98-5a16-8608-564bb90cbe75" source="EXC Priya Paul Collection" pref="true" relids="i_d86b61c9-4f98-5a16-8608-564bb90cbe75">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+		</sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>1920 - 1930</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
+                <term type="descriptiveTopic">children (people by age group)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="82d5c1af-a2ee-5f42-b887-d179c2369064">
+                <term type="descriptiveTopic">mothers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="13bad129-1196-5dd3-952d-503079de43b6">
+                <term type="descriptiveTopic">blue (color)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
+                <term type="descriptiveTopic">trade catalogs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">M.Vadilal &amp; Co. samples 1005, 1006</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+M. Vadilal &amp; Co. Ahmedabad.
+Ticket Printers.</ext:value>
+                <ext:value>text-en:
+(Regd.) No. 1005.
+(Regd.) No. 1006.</ext:value>
+                <ext:value>text-en:
+M. V. &amp; Co.,
+M. V. &amp; Co.</ext:value>
+                <ext:value>description-en:
+On this inside page of a sample booklet, we see two pictures, one of a woman wearing Sari and holding a child, another one with a girl having a book on her fold and  taking a smell of a flower in her hand. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+An inside page of above sample booklet, showing two images that could be chosen for use on a label, circa 1920-1930. This series has focused on women, alone or with children or husband.  All subjects are (upper) middle class, complete with backgrounds, foregrounds, and “props” to indicate lifestyle and various (leisure) activities. (Sandria B. Freitag)(gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Artists resided throughout the subcontinent and were identified and retained by the printers to create these images (with more and less intervention by the publishers, depending on the clout they exercised). The images were gathered up by the printing companies and then produced (sometimes in India, sometimes in Europe), after which they were dispersed back out through regional networks. Selection of which images to distribute took place at several steps along these marketing routes, but local purveyors most often offered a quite wide range of choices, so that all local market demands could be met. There was virtually no specialization (such as by caste or religion, or by theme, style, etc.) that would mark out artist, printer, or purveyor as everyone tried to meet diverse market needs. (Sandria B. Freitag) (gs)</ext:value>
+                <ext:value>related literature:
+Braudel, Fernand 1981. "The Structures of Everyday Life". London: Collins. (gs)</ext:value>
+                <ext:value>related literature:
+de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press. (gs)</ext:value>
+                <ext:value>related literature:
+Freitag, Sandria B. 2010. "Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture" http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (22.1.2011)(gs)</ext:value>
+                <ext:value>related literature:
+Storey, John 1999. "Cultural Consumption and Everyday Life". New York: Oxford University Press. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Storey, John 1999. "Cultural Consumption and Everyday Life". New York: Oxford University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Braudel, Fernand 1981. "The Structures of Everyday Life". London: Collins.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Freitag, Sandria B. 2010. "Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture" http://www.tasveergharindia.net/cmsdesk/essay/96/index.html (22.1.2011)</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">An inside page of above sample booklet, showing two images that could be chosen for use on a label, circa 1920-1930. This series has focused on women, alone or with children or husband.  All subjects are (upper) middle class, complete with backgrounds, foregrounds, and “props” to indicate lifestyle and various (leisure) activities.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sandria B. Freitag</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Artists resided throughout the subcontinent and were identified and retained by the printers to create these images (with more and less intervention by the publishers, depending on the clout they exercised). The images were gathered up by the printing companies and then produced (sometimes in India, sometimes in Europe), after which they were dispersed back out through regional networks. Selection of which images to distribute took place at several steps along these marketing routes, but local purveyors most often offered a quite wide range of choices, so that all local market demands could be met. There was virtually no specialization (such as by caste or religion, or by theme, style, etc.) that would mark out artist, printer, or purveyor as everyone tried to meet diverse market needs.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sandria B. Freitag</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/109824</ext:value>
+                <ext:value>109824</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:32:16"/>
+        </ext:heidicon>
+    </work>
+</vra>

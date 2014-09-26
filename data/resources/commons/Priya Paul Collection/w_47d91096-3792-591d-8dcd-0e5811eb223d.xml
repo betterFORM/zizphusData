@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_47d91096-3792-591d-8dcd-0e5811eb223d" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-349c1534-d17c-570d-943e-d6fa68628672">Ram, Malkhi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>(In clock-wise order)1. Japani Aurat (a Japanese woman) 2. Yahudi Ki Ladki (a jew girl) 3. Kashmiri Aurat (a woman from Kashmir) 4. Dehati Aurat (a rural woman).</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn">
+                <text>A page from a picture album.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="other">Malkhi Ram Musavvir, Lahore</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Malkhi Ram</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>20 cm x 12 cm, portrait</notes>
+            <measurements type="height" unit="cm">20</measurements>
+            <measurements type="width" unit="cm">12</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_d2797267-4344-5eee-9e2c-6b5f118cfb33" source="EXC Priya Paul Collection" pref="true" relids="i_d2797267-4344-5eee-9e2c-6b5f118cfb33">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="dcca3af6-be00-5392-aef7-16565d031365">
+                <term type="conceptTopic">Urdu (language)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b6b4a8d4-f514-5883-b3ec-368ce15bed2d">
+                <term type="iconographicTopic">Kok Shastar</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Page no. 20 of Risala Kok Shastra, Lahore</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>ملکھی رام</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Ram, Malkhi</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+(In clock-wise order)1. Japani Aurat (a Japanese woman) 2. Yahudi Ki Ladki (a jew girl) 3. Kashmiri Aurat (a woman from Kashmir) 4. Dehati Aurat (a rural woman).</ext:value>
+                <ext:value>description-en:
+A page from a picture album.</ext:value>
+                <ext:value>text-transcription-ur:
+Malkhi Ram Musavvir, Lahore</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/238.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_ksignatur_zeichen" status="0" display="artist_signature_characters">
+                <ext:value>ملکھی رام مصور، لاہو</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_ksignatur_umschrift" status="0" display="artist_signature_transcription">
+                <ext:value>Malkhi Ram Musavvir, Lahore</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/238.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Torn</ext:value>
+            </ext:item>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>yellowish due to ageing</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/108093</ext:value>
+                <ext:value>108093</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:49:15"/>
+        </ext:heidicon>
+    </work>
+</vra>

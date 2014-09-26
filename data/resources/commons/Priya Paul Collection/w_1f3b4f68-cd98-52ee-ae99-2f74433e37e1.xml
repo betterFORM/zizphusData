@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_1f3b4f68-cd98-52ee-ae99-2f74433e37e1" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-38e22f70-ccd7-505b-a1ff-0c34a32bc053">Olette &lt;artist&gt;</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A pair of beggars stand on the street. One of them wears a red cloth where as the other one is nearly naked, wearing only a turban and a cloth around his hip.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Olette</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Olette</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 12 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">12</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_3f3fc570-0fd8-5d8a-b317-0bcb266dfd2f" source="EXC Priya Paul Collection" pref="true" relids="i_3f3fc570-0fd8-5d8a-b317-0bcb266dfd2f">front</relation>
+            <relation type="imageIs" refid="i_bf70e42d-fb81-559d-a87b-15e79f86284e" source="EXC Priya Paul Collection" relids="i_bf70e42d-fb81-559d-a87b-15e79f86284e">back</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2ef9db03-586c-5633-8ff3-5b4228f51fca">
+                <term type="descriptiveTopic">fakirs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
+                <term type="descriptiveTopic">turbans</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
+                <term type="descriptiveTopic">picture postcards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+                <term type="otherTopic">recheck-new</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Fakirs, in a postcard, published by Raphael Tuck &amp; Sons, under 'native life-India series, postcard no.7408</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Olette</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+A pair of beggars stand on the street. One of them wears a red cloth where as the other one is nearly naked, wearing only a turban and a cloth around his hip. (gs)</ext:value>
+                <ext:value>text-en:
+Olette</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/228b.tif</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The fakirs are a large body of religious fanatics. They go naked or in filthy rags and partake only of the meanest food, and that without request or truth, chastity, internal purity, constant repentance, and contemplation of Deity. In the East Indies, the [...].</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The fakirs are a large body of religious fanatics. They go naked or in filthy rags and partake only of the meanest food, and that without request or truth, chastity, internal purity, constant repentance, and contemplation of Deity. In the East Indies, the [...].</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/228b.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Torn</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/108072</ext:value>
+                <ext:value>i_bf70e42d-fb81-559d-a87b-15e79f86284e</ext:value>
+                <ext:value>back</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/109756</ext:value>
+                <ext:value>109756</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:29:41"/>
+        </ext:heidicon>
+    </work>
+</vra>

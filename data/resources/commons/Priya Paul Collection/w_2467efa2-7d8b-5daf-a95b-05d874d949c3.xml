@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_2467efa2-7d8b-5daf-a95b-05d874d949c3" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-ba21cc6d-11fd-599f-b1c5-54e234034504">Singh, Bhagat</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-46739f49-9aaf-5965-93cc-a613adb1b19e">Azad, Chandra Shekhar</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_04b91b21-f4f9-5cd5-a646-a3e75589a427" source="EXC Priya Paul Collection" pref="true" relids="i_04b91b21-f4f9-5cd5-a646-a3e75589a427">general view</relation>
+            <relation type="imageIs" refid="i_e069af16-0a52-5c63-afd5-e53909595f7b" source="EXC Priya Paul Collection" relids="i_e069af16-0a52-5c63-afd5-e53909595f7b">detail view</relation>
+            <relation type="imageIs" refid="i_b4405729-7635-53a1-bc26-0ceb49e7281c" source="EXC Priya Paul Collection" relids="i_b4405729-7635-53a1-bc26-0ceb49e7281c">detail view</relation>
+            <relation type="imageIs" refid="i_b104d394-786c-5b8f-a52a-ec2c36c21339" source="EXC Priya Paul Collection" relids="i_b104d394-786c-5b8f-a52a-ec2c36c21339">detail view</relation>
+            <relation type="imageIs" refid="i_bd8de150-6e91-5e12-beac-74235b8981fc" source="EXC Priya Paul Collection" relids="i_bd8de150-6e91-5e12-beac-74235b8981fc">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Poster showing struggle for independence and the martyr Shaheed Bhagat Singh</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080410_0107.jpg</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080410_0107.jpg</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Bhagat Singh</ext:value>
+            </ext:item>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Chandrashekhar Azad</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118164</ext:value>
+                <ext:value>i_e069af16-0a52-5c63-afd5-e53909595f7b</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118165</ext:value>
+                <ext:value>i_b4405729-7635-53a1-bc26-0ceb49e7281c</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118162</ext:value>
+                <ext:value>i_b104d394-786c-5b8f-a52a-ec2c36c21339</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118163</ext:value>
+                <ext:value>i_bd8de150-6e91-5e12-beac-74235b8981fc</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118161</ext:value>
+                <ext:value>118161</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:28:52"/>
+        </ext:heidicon>
+    </work>
+</vra>

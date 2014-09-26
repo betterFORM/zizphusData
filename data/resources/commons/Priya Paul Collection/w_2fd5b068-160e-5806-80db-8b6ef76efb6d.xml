@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_2fd5b068-160e-5806-80db-8b6ef76efb6d" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-fb46653b-c583-5bc2-aa12-211b93c8b7da">Ilford Ltd.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>vor 1945</date>
+                </earliestDate>
+                <latestDate>
+                    <date>vor 1945</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for Ilford Photographic Plates, Papers &amp; Films, an image of a toddler petting a dog is at the centre. On either side of this central image, are bows with sailing ships below them. The lower section gives the contact details of the Ilford company.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Ilford</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Photographic Plates. Papers &amp; Films</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Negative on an Ilford Film
+Printed on Intona
+Ilford Self-Toning P.O.P</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Telegrams: Plates, Ilford.
+Telephone: Ilford-13 (3 Lines)
+Ilford, Ltd. Ilford, London, England</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Codes used: A.B.C. 4, 5 &amp; 6th Editions
+Bentley's Cpmplete Phrase Code
+Marconi International 
+Ilford Private Codes</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_d8d403e2-8577-5132-b04a-4e7ec027db1e" source="EXC Priya Paul Collection" pref="true" relids="i_d8d403e2-8577-5132-b04a-4e7ec027db1e">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://en.wikipedia.org/wiki/Ilford_Photo</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.photomemorabilia.co.uk/Ilford/Chronology.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="a11996a4-a33a-5a54-b6fa-d996f8216c1f">
+                <term type="descriptiveTopic">ships</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
+                <term type="descriptiveTopic">children (people by age group)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2f211437-6bfe-5ae6-b29a-459b0f4bfef2">
+                <term type="descriptiveTopic">dogs (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="747cc752-b60c-5d8c-853a-4dba8a1c5b50">
+                <term type="descriptiveTopic">infants</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fb400a82-f170-5237-9bfc-6d0680f00d37">
+                <term type="descriptiveTopic">photography</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="19cc928d-3d05-5e88-961e-1d640bb0e682">
+                <term type="descriptiveTopic">steamships</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+                <term type="descriptiveTopic">printer's marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of "Ilford", photographic plates, papers and films</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Ilford</ext:value>
+                <ext:value>text-en:
+Photographic Plates. Papers &amp; Films</ext:value>
+                <ext:value>text-en:
+Negative on an Ilford Film
+Printed on Intona
+Ilford Self-Toning P.O.P</ext:value>
+                <ext:value>text-en:
+Telegrams: Plates, Ilford.
+Telephone: Ilford-13 (3 Lines)
+Ilford, Ltd. Ilford, London, England</ext:value>
+                <ext:value>text-en:
+Codes used: A.B.C. 4, 5 &amp; 6th Editions
+Bentley's Cpmplete Phrase Code
+Marconi International 
+Ilford Private Codes</ext:value>
+                <ext:value>description-en:
+On this advertisement for Ilford Photographic Plates, Papers &amp; Films, an image of a toddler petting a dog is at the centre. On either side of this central image, are bows with sailing ships below them. The lower section gives the contact details of the Ilford company. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Ilford Photo is a manufacturer of photographic materials known worldwide for its black-and-white film and papers and chemicals, as well as its range of Ilfochrome and Ilfocolor colour printing materials. Ilfochrome was formerly called Cibachrome, developed in partnership with the Swiss company CIBA-Geigy. Formerly, it published the Ilford Manual Of Photography, a comprehensive manual of everything photographic, including the optics, physics and chemistry of photography, along with recipes for many developers. 
+Source: http://en.wikipedia.org/wiki/Ilford_Photo (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://en.wikipedia.org/wiki/Ilford_Photo, basic information about the company, last accessed 2012-05-10. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080627_1695.jpg</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+According to http://www.photomemorabilia.co.uk/Ilford/Chronology.html Alfred Harman introduced his 'paddle-steamer' trade mark for Ilford in 1886. After World War II it was dropped in favor of the advertising slogan: "Ilford Films for Faces &amp; Places". Therefore the advertisement may be dated to before 1945. (ma)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+P.O.P. or POP stands for "Printing Out Paper," cf. http://www.silverprint.co.uk/info/yespap.html. (ma)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://en.wikipedia.org/wiki/Ilford_Photo</ext:value>
+                <ext:value type="accessed">2012-05-10</ext:value>
+                <ext:value type="comment">basic information about the company,</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">According to http://www.photomemorabilia.co.uk/Ilford/Chronology.html Alfred Harman introduced his 'paddle-steamer' trade mark for Ilford in 1886. After World War II it was dropped in favor of the advertising slogan: "Ilford Films for Faces &amp; Places". Therefore the advertisement may be dated to before 1945.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Arnold, Matthias</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Ilford Photo is a manufacturer of photographic materials known worldwide for its black-and-white film and papers and chemicals, as well as its range of Ilfochrome and Ilfocolor colour printing materials. Ilfochrome was formerly called Cibachrome, developed in partnership with the Swiss company CIBA-Geigy. Formerly, it published the Ilford Manual Of Photography, a comprehensive manual of everything photographic, including the optics, physics and chemistry of photography, along with recipes for many developers. 
+Source: http://en.wikipedia.org/wiki/Ilford_Photo</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/20080627_1695.jpg</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">P.O.P. or POP stands for "Printing Out Paper," cf. http://www.silverprint.co.uk/info/yespap.html.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Arnold, Matthias</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://en.wikipedia.org/wiki/Ilford_Photo</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.photomemorabilia.co.uk/Ilford/Chronology.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118911</ext:value>
+                <ext:value>118911</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:38:56"/>
+        </ext:heidicon>
+    </work>
+</vra>

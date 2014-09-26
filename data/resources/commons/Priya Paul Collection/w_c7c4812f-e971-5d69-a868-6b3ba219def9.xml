@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_c7c4812f-e971-5d69-a868-6b3ba219def9" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>An image with the title "Karwan" in a sample calender poster of Empire Calender Manufacturing Co., Calcutta depicts three camels and four men at an oasis. One camel with its rider on it is drinking from a pond while one camel rests and another stands loaded with goods. There is a man sitting on the sand to the right of the image. In the background buildings with domes, a pyramid and desert landscape can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">TCM [publisher's signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">KARAWAN
+No. 560 (B?)</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 38 cm, W 50 cm, landscape</notes>
+            <measurements type="height" unit="cm">38</measurements>
+            <measurements type="width" unit="cm">50</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_0a591bb0-335e-5ee6-8e45-b0042cad7899" source="EXC Priya Paul Collection" pref="true" relids="i_0a591bb0-335e-5ee6-8e45-b0042cad7899">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="5512566d-eab7-5ea2-a645-21e20952530a">
+                <term type="descriptiveTopic">caps (headgear)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="5669b7f2-1cea-5231-93cb-03d6599a60e3">
+                <term type="descriptiveTopic">water</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="1c12c44a-df02-5e98-80ef-3cca1c2356d8">
+                <term type="descriptiveTopic">pyramids (tombs or platforms)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
+                <term type="descriptiveTopic">palm trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3f19eeff-8fd0-5f9d-81ef-cb195af84393">
+                <term type="descriptiveTopic">camels (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c02fef98-ccbc-5652-9337-a0ec0de4595e">
+                <term type="descriptiveTopic">sunset</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8ccc6ebe-b8d6-5072-b95b-cde863fa88f7">
+                <term type="descriptiveTopic">deserts</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+                <term type="descriptiveTopic">printer's marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0a917488-1981-58d9-a9d9-db929975a4e6">
+                <term type="descriptiveTopic">domes (architectural element)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="189c3d5c-0f3a-57ca-8ca8-a0c8ad33c984">
+                <term type="descriptiveTopic">oases (landscapes)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Karwan</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+TCM [publisher's signet]</ext:value>
+                <ext:value>text-en:
+KARAWAN
+No. 560 (B?)</ext:value>
+                <ext:value>description-en:
+An image with the title "Karwan" in a sample calender poster of Empire Calender Manufacturing Co., Calcutta depicts three camels and four men at an oasis. One camel with its rider on it is drinking from a pond while one camel rests and another stands loaded with goods. There is a man sitting on the sand to the right of the image. In the background buildings with domes, a pyramid and desert landscape can be seen. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+The image possibly is meant to depict a landscape in Egypt given the pyramid in the background. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The image possibly is meant to depict a landscape in Egypt given the pyramid in the background.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>cut on bottom</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/122982</ext:value>
+                <ext:value>122982</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:32:04"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_5a1e63b1-5ab8-53e1-b12b-128f8c40b25e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Two Indian women in two different settings: On the right, a traditionally sari clad bindi wearing woman can be seen in front of a darkish background. On the left, a jewellery wearing fair skinned Indian woman is sitting behind a huge fruit basket. Some buildings with typical architecture for the subcontinent are depicted in the background.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">143</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_a628c81b-a2e4-5e6c-ab35-e5b5c435abfe" source="EXC Priya Paul Collection" pref="true" relids="i_a628c81b-a2e4-5e6c-ab35-e5b5c435abfe">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
+                <term type="conceptTopic">Indian women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="344a6b29-b2b4-5490-8024-2ab8751ed66d">
+                <term type="descriptiveTopic">cosmetics</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="02b51bb8-ee58-5656-b7a2-83dd610accc4">
+                <term type="descriptiveTopic">fruit baskets</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b765a077-bc5c-5102-b0c0-6e16f52e71e8">
+                <term type="descriptiveTopic">hair oil</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
+                <term type="iconographicTopic">bindi</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+                <term type="otherTopic">recheck-new</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Two images of advertisement of hair oil</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+143</ext:value>
+                <ext:value>description-en:
+Two Indian women in two different settings: On the right, a traditionally sari clad bindi wearing woman can be seen in front of a darkish background. On the left, a jewellery wearing fair skinned Indian woman is sitting behind a huge fruit basket. Some buildings with typical architecture for the subcontinent are depicted in the background. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1961b.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1961b.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/117994</ext:value>
+                <ext:value>117994</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:43:31"/>
+        </ext:heidicon>
+    </work>
+</vra>

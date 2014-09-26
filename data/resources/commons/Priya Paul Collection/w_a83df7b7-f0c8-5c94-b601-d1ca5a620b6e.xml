@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a83df7b7-f0c8-5c94-b601-d1ca5a620b6e" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A woman grooming her long black hair stands by a small wooden table with toiletries. She wears a green sari and bracelets on both arms and holds a mirror in her left hand.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>10 cm x 5 cm, portrait</notes>
+            <measurements type="height" unit="cm">10</measurements>
+            <measurements type="width" unit="cm">5</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_768bb28b-070b-525b-b197-16e2a39791bb" source="EXC Priya Paul Collection" pref="true" relids="i_768bb28b-070b-525b-b197-16e2a39791bb">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="8da4da80-6dc2-5734-bc3f-022f5ee4b80c">
+                <term type="conceptTopic">grooming</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ed5adaee-e891-54c9-bd3d-5a664acc9306">
+                <term type="descriptiveTopic">mirrors</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3fdf7d56-65c2-56ae-b427-91cd4fed9d46">
+                <term type="descriptiveTopic">green sari</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="151b1875-3232-5cc5-b69d-b904e0a6fec2">
+                <term type="descriptiveTopic">combs (grooming tools)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
+                <term type="descriptiveTopic">black hair</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">A woman grooms herself</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+            <worktype vocab="local" source="EXC" refid="6cc28a30-ae55-58c8-a507-73c9cc22edac">packing material</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+A woman grooming her long black hair stands by a small wooden table with toiletries. She wears a green sari and bracelets on both arms and holds a mirror in her left hand.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/1920.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/1920.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120554</ext:value>
+                <ext:value>120554</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:44:39"/>
+        </ext:heidicon>
+    </work>
+</vra>

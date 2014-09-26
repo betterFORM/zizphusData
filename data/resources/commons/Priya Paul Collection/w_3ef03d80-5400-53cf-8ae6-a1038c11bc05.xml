@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_3ef03d80-5400-53cf-8ae6-a1038c11bc05" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-ba7fa408-a6cf-589b-8765-ad477a2e2a31">Vishnu</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-39dd09fa-ce57-53dd-a852-1203bb512e1b">Varaha</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-debc21eb-564b-52f1-97d2-f48a73c3b6b9">Oriental Calendar Manufacturing Company</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A print of the third incarnation of Vishnu, known as Varaha rescuing the earth which was seized by the demon, Hiranyaksha. Here the earth is depicted in the form of a globe. Varaha as seen in the print has the head of a boar and the body of a man, eight hands and holds various weapons and religious and symbolic articles.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 12 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">12</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_f4b586f9-094a-5176-a5f7-90f47ae7f409" source="EXC Priya Paul Collection" pref="true" relids="i_f4b586f9-094a-5176-a5f7-90f47ae7f409">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=93&amp;EId=116&amp;ImageId=28</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
+                <term type="conceptTopic">Hindu women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+                <term type="conceptTopic">Bharatiya Nari</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8b649548-d3eb-5669-ab53-534befea688d">
+                <term type="descriptiveTopic">globes (cartographic spheres)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b5859290-1538-5d89-97e2-2668abc19a58">
+                <term type="descriptiveTopic">terrestrial globes</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Varaha Rescuing The Earth</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+A print of the third incarnation of Vishnu, known as Varaha rescuing the earth which was seized by the demon, Hiranyaksha. Here the earth is depicted in the form of a globe. Varaha as seen in the print has the head of a boar and the body of a man, eight hands and holds various weapons and religious and symbolic articles. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Vishnu in his third incarnation as the boar (Varaha) lifts up earth using his horns. The earth is shown here as a gridded terrestrial globe instead of the customary goddess Prithvi. (Sumathi Ramaswamy)(gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+In monumental art, votive images, and illuminated manuscripts from the middle centuries of the first millennium C. E., Earth (Prithvi, Bhu Devi) was conventionally depicted as a demure young woman who clings to the large virile boar as he rescues her from the clutches of evil. Note that in this print—as indeed in many other such visualizations of this primeval event over the course of the 20th century—the anthropomorphic female divinity gives way to the impersonal spherical globe with grids and territories marked on its surface. Rather than “science” triumphing over “religion,” there is an easy co-existence as divine body and geo-body rest side by side. (Sumathi Ramaswamy)(gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.gsbkerala.com/varaha.htm, last accessed 2011-08-22, Story of Varaha (sp)</ext:value>
+                <ext:value>related literature:
+Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan. (gs)</ext:value>
+                <ext:value>related literature:
+Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97. (gs)</ext:value>
+                <ext:value>related literature:
+Neumayer, Erwin, and Christine Schelberger. 2008."Bharat mata: India's freedom movement in popular art". Delhi: Oxford University Press. (gs)</ext:value>
+                <ext:value>related literature:
+Ramaswamy, Sumathi. 2007. Of Gods and Globes: The Territorialisation of Hindu Deities in Popular Visual Culture. In India's Popular Culture: Iconic Spaces and Fluid Images, edited by J. Jain. Mumbai: Marg Publications, pp. 19-31. (gs)</ext:value>
+                <ext:value>related literature:
+Ramaswamy, Sumathi 2010. The Goddess and the Nation. Mapping Mother India. London: Duke University Press. (gs)</ext:value>
+                <ext:value>related literature:
+Ramaswamy, Sumathi 2011. "Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection". (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html, last accessed 2011-03-30, Tasveer Ghar essay (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Ramaswamy, Sumathi 2011. "Artful Mapping in Bazaar India. Cartographic Reflections on the Priya Paul Collection".</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Nair, P. Thankappan. 1987. Indian National Songs and Symbols. Calcutta: Firma KLM Pvt. Ltd, pp. 74-97.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Ramaswamy, Sumathi. 2007. Of Gods and Globes: The Territorialisation of Hindu Deities in Popular Visual Culture. In India's Popular Culture: Iconic Spaces and Fluid Images, edited by J. Jain. Mumbai: Marg Publications, pp. 19-31.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Ramaswamy, Sumathi 2010. The Goddess and the Nation. Mapping Mother India. London: Duke University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Menon, V.P. 1956. The Story of the Integration of the Indian States. New York: Macmillan.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Neumayer, Erwin, and Christine Schelberger. 2008."Bharat mata: India's freedom movement in popular art". Delhi: Oxford University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html</ext:value>
+                <ext:value type="accessed">2011-03-30</ext:value>
+                <ext:value type="comment">Tasveer Ghar essay</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.gsbkerala.com/varaha.htm</ext:value>
+                <ext:value type="accessed">2011-08-22</ext:value>
+                <ext:value type="comment">Story of Varaha</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Vishnu in his third incarnation as the boar (Varaha) lifts up earth using his horns. The earth is shown here as a gridded terrestrial globe instead of the customary goddess Prithvi.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sumathi Ramaswamy</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">In monumental art, votive images, and illuminated manuscripts from the middle centuries of the first millennium C. E., Earth (Prithvi, Bhu Devi) was conventionally depicted as a demure young woman who clings to the large virile boar as he rescues her from the clutches of evil. Note that in this print—as indeed in many other such visualizations of this primeval event over the course of the 20th century—the anthropomorphic female divinity gives way to the impersonal spherical globe with grids and territories marked on its surface. Rather than “science” triumphing over “religion,” there is an easy co-existence as divine body and geo-body rest side by side.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sumathi Ramaswamy</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/116/index_1.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=93&amp;EId=116&amp;ImageId=28</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120892</ext:value>
+                <ext:value>120892</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:43:56"/>
+        </ext:heidicon>
+    </work>
+</vra>

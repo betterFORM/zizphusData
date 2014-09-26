@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_2845a92b-58a4-53c5-8eec-fe602b57951b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-4e80c54f-d35c-5b5c-903b-58f3ebbaabbe">Banshi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>An Image of a shop for different clothes with several visitors (women as well as men and children) in a sample calender poster of Empire Calender Manufacturing Co., Calcutta.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Modern Store
+No. 503</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">HAP [publisher's signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Banshi</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Banshi</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_db0009ed-b931-50b9-bcc3-dea8b00b65b1" source="EXC Priya Paul Collection" pref="true" relids="i_db0009ed-b931-50b9-bcc3-dea8b00b65b1">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
+                <term type="descriptiveTopic">children (people by age group)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
+                <term type="descriptiveTopic">couples</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2d51c14a-2624-5bee-a70f-ee591c38c7e8">
+                <term type="descriptiveTopic">sales personnel</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b82eba21-ae64-5fb5-bfd0-603be910517e">
+                <term type="descriptiveTopic">interior spaces</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c8524c21-24c0-516f-9e41-7c5cb9363fc9">
+                <term type="descriptiveTopic">shopping</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+                <term type="descriptiveTopic">printer's marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="938f1c58-afdb-5897-9f21-3a89dba194d9">
+                <term type="descriptiveTopic">textiles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Modern Store</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Banshi</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Modern Store
+No. 503</ext:value>
+                <ext:value>text-en:
+HAP [publisher's signet]</ext:value>
+                <ext:value>text-en:
+Banshi</ext:value>
+                <ext:value>description-en:
+An Image of a shop for different clothes with several visitors (women as well as men and children) in a sample calender poster of Empire Calender Manufacturing Co., Calcutta. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+This is a similar image as ID 118787 ("Jewellery Shop") in that it depicts orderly shopping in a showroom with fabrics for making clothes, and by using similar patterns of representation, such as western-dressed children (looking like miniaturised adults), and items of both 'modern lifestyle' and 'tradition', most of the latter being associated with women. An accountant/shop owner dressed in western suit with tie writes a bill, the other 6  peons are dressed in white shirts and pyjama. Women all wear Sari and are accompanied by their husbands.() (cb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">This is a similar image as ID 118787 ("Jewellery Shop") in that it depicts orderly shopping in a showroom with fabrics for making clothes, and by using similar patterns of representation, such as western-dressed children (looking like miniaturised adults), and items of both 'modern lifestyle' and 'tradition', most of the latter being associated with women. An accountant/shop owner dressed in western suit with tie writes a bill, the other 6  peons are dressed in white shirts and pyjama. Women all wear Sari and are accompanied by their husbands.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Brosius, Christiane</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/122949</ext:value>
+                <ext:value>122949</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:29:09"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_374ade76-e34f-5a3c-89af-f98ae482c36b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this lobby card for the 1961 released Hindi film "Apsara", we see two of the leading actors, probably Pradeep Kumar and Padmini. She is dancing while he is sitting on a throne enjoying her performance.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Chitralaya presents
+Apsara</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">ADD TEXT HERE</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_8617af62-e730-557c-970f-d675366f88d4" source="EXC Priya Paul Collection" pref="true" relids="i_8617af62-e730-557c-970f-d675366f88d4">general view</relation>
+            <relation type="imageIs" refid="i_4105a77c-e71e-5ad4-ac09-126020be4a7c" source="EXC Priya Paul Collection" relids="i_4105a77c-e71e-5ad4-ac09-126020be4a7c">detail view</relation>
+            <relation type="imageIs" refid="i_605fd915-8d95-5535-9932-52d313990b3c" source="EXC Priya Paul Collection" relids="i_605fd915-8d95-5535-9932-52d313990b3c">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f5597a77-3119-5305-8de8-f85bcec5936e">
+                <term type="descriptiveTopic">thrones</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
+                <term type="descriptiveTopic">dance</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
+                <term type="descriptiveTopic">film stills</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+                <term type="otherTopic">recheck-new</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">still from the film "Apsara"</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Chitralaya presents
+Apsara</ext:value>
+                <ext:value>text-hi:
+ADD TEXT HERE</ext:value>
+                <ext:value>description-en:
+On this lobby card for the 1961 released Hindi film "Apsara", we see two of the leading actors, probably Pradeep Kumar and Padmini. She is dancing while he is sitting on a throne enjoying her performance. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1714.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1714.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/117925</ext:value>
+                <ext:value>i_4105a77c-e71e-5ad4-ac09-126020be4a7c</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/117924</ext:value>
+                <ext:value>i_605fd915-8d95-5535-9932-52d313990b3c</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120323</ext:value>
+                <ext:value>120323</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:32:09"/>
+        </ext:heidicon>
+    </work>
+</vra>

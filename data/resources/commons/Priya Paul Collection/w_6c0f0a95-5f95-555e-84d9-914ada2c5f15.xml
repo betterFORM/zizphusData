@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_6c0f0a95-5f95-555e-84d9-914ada2c5f15" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1906</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1906</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this picture postcard, the Swedish town Trelleborg can be seen. The lower section hosts a written message in Englih. The postcard is dated March 13, 1906.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="swa">Kontinentgatan/Trelleborg,</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>W 15 cm, H10 cm, portrait</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">0</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_71ca5b07-28dd-5b2e-9544-67429fb362e1" source="EXC Priya Paul Collection" pref="true" relids="i_71ca5b07-28dd-5b2e-9544-67429fb362e1">front</relation>
+            <relation type="imageIs" refid="i_015df4b9-7788-5716-b3e7-585ed00a3470" source="EXC Priya Paul Collection" relids="i_015df4b9-7788-5716-b3e7-585ed00a3470">back</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2a19f0d6-02d0-5598-ab17-39056bf01957">
+                <term type="conceptTopic">Made in Sweden</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3606d2bd-a29a-5124-a6c6-efa79b5af9bf">
+                <term type="conceptTopic">communication (function)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+                <term type="conceptTopic">country of origin marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9690f13a-ec24-50a6-af14-6d414f45e156">
+                <term type="descriptiveTopic">villages</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e689f406-1b4b-5e85-97d7-1ea72891824c">
+                <term type="descriptiveTopic">texts (document genres)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
+                <term type="descriptiveTopic">picture postcards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="74a78662-9d12-5d21-bdd4-e5e0bf3b8b61">
+                <term type="descriptiveTopic">messages</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+                <term type="otherTopic">recheck-new</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Kontinentgatan I Trelleboro</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-sw:
+Kontinentgatan/Trelleborg,</ext:value>
+                <ext:value>description-en:
+On this picture postcard, the Swedish town Trelleborg can be seen. The lower section hosts a written message in Englih. The postcard is dated March 13, 1906. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/275b.tif</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Trelleborg is a locality and the seat of Trelleborg Municipality, Skåne County, Sweden with 28,290 inhabitants in 2010. It is the southernmost town in Sweden. (copied from http://en.wikipedia.org/wiki/Trelleborg, last accessed 2012-09-27). (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Trelleborg is a locality and the seat of Trelleborg Municipality, Skåne County, Sweden with 28,290 inhabitants in 2010. It is the southernmost town in Sweden. (copied from http://en.wikipedia.org/wiki/Trelleborg, last accessed 2012-09-27).</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/275b.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/108190</ext:value>
+                <ext:value>i_015df4b9-7788-5716-b3e7-585ed00a3470</ext:value>
+                <ext:value>back</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/109773</ext:value>
+                <ext:value>109773</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:30:18"/>
+        </ext:heidicon>
+    </work>
+</vra>

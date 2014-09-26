@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_cacbc692-8b9c-5125-a4a7-d4a6e674866d" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-1e44f25e-5166-5583-b457-687ef2cd2401">Kapoor, Rishi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1930</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1930</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this calender from 1930 from the soap manufacturer Erasmic, a couple dressed in richly embroidered clothes can be seen in a palace like surrounding. The man holds a box of soap in his hands and looks toward the woman who holds a flower garland in her hands. A table in the foreground holds a container of perfume and other products by Erasmic.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">ERASMIC
+Fine Soaps &amp; Perfumes</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="urd">ADD TEXT HERE</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="tam">ADD TEXT HERE</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 33 cm, W 25 cm, portrait</notes>
+            <measurements type="height" unit="cm">33</measurements>
+            <measurements type="width" unit="cm">25</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_2728a1cb-6156-5532-93fa-09d2c3f075a7" source="EXC Priya Paul Collection" pref="true" relids="i_2728a1cb-6156-5532-93fa-09d2c3f075a7">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>1930s</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="93d4dd84-99a8-5d5d-9eef-e1b21db03ace">
+                <term type="descriptiveTopic">soap (organic material)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="109a5e8e-fba6-5b79-a630-aaca8f9a2a4c">
+                <term type="descriptiveTopic">soap advertisings</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Erasmic Fine Soaps and Perfumes</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+ERASMIC
+Fine Soaps &amp; Perfumes</ext:value>
+                <ext:value>text-ur:
+ADD TEXT HERE</ext:value>
+                <ext:value>text-:
+ADD TEXT HERE</ext:value>
+                <ext:value>text-ta:
+ADD TEXT HERE</ext:value>
+                <ext:value>text-:
+ADD TEXT HERE</ext:value>
+                <ext:value>text-:
+ADD TEXT HERE</ext:value>
+                <ext:value>description-en:
+On this calender from 1930 from the soap manufacturer Erasmic, a couple dressed in richly embroidered clothes can be seen in a palace like surrounding. The man holds a box of soap in his hands and looks toward the woman who holds a flower garland in her hands. A table in the foreground holds a container of perfume and other products by Erasmic. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+More striking than the romanticized Orient evoked in this calendar selling Erasmic soap and perfumes (which begs the question about whom this was actually meant for!) is the allusion to diverse transnational constituencies. With text describing its high quality product in Urdu, Gujarati, Tamil, Burmese and Sinhala, the calendar was clearly meant to travel to other British colonies in the subcontinent. The use of all these texts acquires greater significance if we look at the histories and journeys of languages through trans-border migrations and indentured labour. (Sabeena Gadihoke)(gs)</ext:value>
+                <ext:value>related literature:
+Gadihoke, Sabika 2010. "Selling Soap and Stardom: The Story of Lux" http://www.tasveergharindia.net/cmsdesk/essay/104/index.html, last accessed 2010-12-13 (gs)</ext:value>
+                <ext:value>related literature:
+Jain, Kajri 2007. "Gods in the Bazaar: The Economies of Indian Calendar Art". Durham NC: Duke University Press. (gs)</ext:value>
+                <ext:value>related literature:
+McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale. (gs)</ext:value>
+                <ext:value>related literature:
+Said, Edward 1995. "Orientalism". London: Penguin Books. (gs)</ext:value>
+                <ext:value>related literature:
+Sivulka, Julianne 1998. "Soap, Sex and Cigarettes: A Cultural History of Advertising". Belmont, California: Wadsworth Publishing Co. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Jain, Kajri 2007. "Gods in the Bazaar: The Economies of Indian Calendar Art". Durham NC: Duke University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">McClintock, Anne 2001. “Soft Soaping Empire: Commodity Racism and Imperial Advertising” in Double Crossings: Madness, Sexuality and Imperialism. Vancouver, Canada: Ronsdale.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Sivulka, Julianne 1998. "Soap, Sex and Cigarettes: A Cultural History of Advertising". Belmont, California: Wadsworth Publishing Co.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Gadihoke, Sabika 2010. "Selling Soap and Stardom: The Story of Lux" http://www.tasveergharindia.net/cmsdesk/essay/104/index.html, last accessed 2010-12-13</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Said, Edward 1995. "Orientalism". London: Penguin Books.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">More striking than the romanticized Orient evoked in this calendar selling Erasmic soap and perfumes (which begs the question about whom this was actually meant for!) is the allusion to diverse transnational constituencies. With text describing its high quality product in Urdu, Gujarati, Tamil, Burmese and Sinhala, the calendar was clearly meant to travel to other British colonies in the subcontinent. The use of all these texts acquires greater significance if we look at the histories and journeys of languages through trans-border migrations and indentured labour.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sabeena Gadihoke</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/104/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120918</ext:value>
+                <ext:value>120918</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:45:53"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_e3fdc386-f7e9-5a4c-940d-e9debdfe0719" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-b2759fa0-e1f8-58d3-a9cc-4b60f9078ade">Ravi Varma Press</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A female dancer performing on a galloping horse that is pepped by a tamer in the center of a circus arena. In the background some seemingly noble people are watching the procedure.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">CIRCUS TICKET.
+BOMBAY.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">A. D. C.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Registered.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Ravi Varma - Press, Karla - Lonavla.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_6210c325-55e4-5b82-8f92-7e62e7e63cf3" source="EXC Priya Paul Collection" pref="true" relids="i_6210c325-55e4-5b82-8f92-7e62e7e63cf3">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+		</sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>early 20th century</stylePeriod>
+            <stylePeriod vocab="LOCAL" refid="uuid-9053717d-df14-57da-a2cf-2aa3209aaa63">19th century</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
+                <term type="descriptiveTopic">textile label</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b231d6d8-c37b-5dc8-9659-80c29e8197e7">
+                <term type="descriptiveTopic">circuses (performances)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b2340835-33bd-5d41-800a-95ea3484daea">
+                <term type="descriptiveTopic">labels (identifying artifacts)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="10c45a89-4ba3-593b-82a1-5e00a6bf1687">
+                <term type="geographicPlace">Bombay</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Circus Ticket, Bombay</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+CIRCUS TICKET.
+BOMBAY.</ext:value>
+                <ext:value>text-en:
+A. D. C.</ext:value>
+                <ext:value>text-en:
+Registered.</ext:value>
+                <ext:value>text-en:
+Ravi Varma - Press, Karla - Lonavla.</ext:value>
+                <ext:value>description-en:
+A female dancer performing on a galloping horse that is pepped by a tamer in the center of a circus arena. In the background some seemingly noble people are watching the procedure. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Such imagery did indeed reflect some realities of subaltern performance culture: Indian ‘jugglers’ (magicians) were an integral part of the street culture of the bazaars, alongside acrobats, snake charmers, and performing animals, even as late as the 1930s. (Pran Neville)(gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Since the mid-eighteenth century the circus had been gradually introduced alongside this culture; by the start of the twentieth century Indian circuses, incorporating Indian traditional martial arts, acrobatics, magic and lion-taming acts, were travelling India’s entertainment circuits alongside circuses from Europe, Russia, Japan and elsewhere, inviting audiences to wonder at apparently impossible feats that confounded the rules of the ordinary world. All such shows celebrated bodies pushed to their extremes and wild beasts subdued by men’s - and women’s - remarkable powers. An underclass of artistes from European, middle-Eastern, Indian and Anglo-Indian backgrounds provided the bodies that peopled these extravaganzas, which were, in many senses, transcultural shows, seen as ambiguously both modern and traditional. European and Asian traditions merged to present hybrid fantasies of exotic otherness. Anecdotal accounts suggest circus images were almost as popular as Hindu gods and goddesses in the turn-of-century magic lantern shows that toured India. It is perhaps not surprising that circus scenes found their way onto textile labels designed to encourage Indian consumers to buy British wares. (Rosie Thomas)(gs)</ext:value>
+                <ext:value>related literature:
+Lamont, Peter and Crispin Bates 2007."Conjuring Images of India in Nineteenth-century Britain" in Social History, Vol. 32(3). (gs)</ext:value>
+                <ext:value>related literature:
+Nevile, Pran 1997. "Lahore: A Sentimental Journey" New Delhi: Harper Collins. (gs)</ext:value>
+                <ext:value>related literature:
+Said, Edward 1995. "Orientalism". London: Penguin Books. (gs)</ext:value>
+                <ext:value>related literature:
+Schmidt, Richard 1908. "Fakire und Fakirtum im alten und modernen Indien". Berlin: Barsdorf. (gs)</ext:value>
+                <ext:value>related literature:
+Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (12.11.2010) (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Nevile, Pran 1997. "Lahore: A Sentimental Journey" New Delhi: Harper Collins.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Schmidt, Richard 1908. "Fakire und Fakirtum im alten und modernen Indien". Berlin: Barsdorf.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Lamont, Peter and Crispin Bates 2007."Conjuring Images of India in Nineteenth-century Britain" in Social History, Vol. 32(3).</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" http://www.tasveergharindia.net/cmsdesk/essay/103/index.html (12.11.2010)</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Said, Edward 1995. "Orientalism". London: Penguin Books.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Such imagery did indeed reflect some realities of subaltern performance culture: Indian ‘jugglers’ (magicians) were an integral part of the street culture of the bazaars, alongside acrobats, snake charmers, and performing animals, even as late as the 1930s.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Pran Neville</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Since the mid-eighteenth century the circus had been gradually introduced alongside this culture; by the start of the twentieth century Indian circuses, incorporating Indian traditional martial arts, acrobatics, magic and lion-taming acts, were travelling India’s entertainment circuits alongside circuses from Europe, Russia, Japan and elsewhere, inviting audiences to wonder at apparently impossible feats that confounded the rules of the ordinary world. All such shows celebrated bodies pushed to their extremes and wild beasts subdued by men’s - and women’s - remarkable powers. An underclass of artistes from European, middle-Eastern, Indian and Anglo-Indian backgrounds provided the bodies that peopled these extravaganzas, which were, in many senses, transcultural shows, seen as ambiguously both modern and traditional. European and Asian traditions merged to present hybrid fantasies of exotic otherness. Anecdotal accounts suggest circus images were almost as popular as Hindu gods and goddesses in the turn-of-century magic lantern shows that toured India. It is perhaps not surprising that circus scenes found their way onto textile labels designed to encourage Indian consumers to buy British wares.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Rosie Thomas</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118076</ext:value>
+                <ext:value>118076</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:47:44"/>
+        </ext:heidicon>
+    </work>
+</vra>

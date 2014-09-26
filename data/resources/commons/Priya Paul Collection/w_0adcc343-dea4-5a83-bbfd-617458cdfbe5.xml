@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_0adcc343-dea4-5a83-bbfd-617458cdfbe5" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-45bb815a-a472-5b47-b7a1-dd93c467f10e">Radha</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-b1d59e8a-741e-5266-bc1c-7f82634d131a">Ciba Dyes Limited</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1952</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1952</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Lord Krishna is depicted sitting by a pond, in which waterlilies grow and swans swim. He is playing his flute while Radha is standing over him and draping a flower garland around his neck. A small rivulet flows to the pond and is surrounded by a scenic meadow with flowers and trees. Around the main image are several other images and the image is titled "Ciba Dyes".</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Ciba Dyes Limited.
+Sole Distributors in India for the Dyes &amp; Chemicals of
+Ciba Limited Basle (Switzerland)</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 35 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">35</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_67309956-acad-591b-b14b-10ef9fbe6b06" source="EXC Priya Paul Collection" pref="true" relids="i_67309956-acad-591b-b14b-10ef9fbe6b06">general view</relation>
+            <relation type="imageIs" refid="i_37582d1b-7af9-5d0b-8e77-83f4b047bef9" source="EXC Priya Paul Collection" relids="i_37582d1b-7af9-5d0b-8e77-83f4b047bef9">detail view</relation>
+            <relation type="imageIs" refid="i_6a74573b-16e4-57d3-a06a-214cab9f81ca" source="EXC Priya Paul Collection" relids="i_6a74573b-16e4-57d3-a06a-214cab9f81ca">detail view</relation>
+            <relation type="imageIs" refid="i_bc673a8a-e292-5a43-bae4-067e04e530ea" source="EXC Priya Paul Collection" relids="i_bc673a8a-e292-5a43-bae4-067e04e530ea">close-up view</relation>
+            <relation type="imageIs" refid="i_a5b375de-9cec-56ef-8603-add214ff92b1" source="EXC Priya Paul Collection" relids="i_a5b375de-9cec-56ef-8603-add214ff92b1">close-up view</relation>
+            <relation type="imageIs" refid="i_abb38d05-df4c-5a86-8d80-42f63061d508" source="EXC Priya Paul Collection" relids="i_abb38d05-df4c-5a86-8d80-42f63061d508">close-up view</relation>
+            <relation type="imageIs" refid="i_63da6add-2417-5d92-b305-1522ec203e7a" source="EXC Priya Paul Collection" relids="i_63da6add-2417-5d92-b305-1522ec203e7a">close-up view</relation>
+            <relation type="imageIs" refid="i_8eaac7f7-e130-5a52-b8f3-634408017136" source="EXC Priya Paul Collection" relids="i_8eaac7f7-e130-5a52-b8f3-634408017136">close-up view</relation>
+            <relation type="imageIs" refid="i_9d876b2c-816c-5c82-89ba-a866bcc80cc8" source="EXC Priya Paul Collection" relids="i_9d876b2c-816c-5c82-89ba-a866bcc80cc8">detail view</relation>
+            <relation type="imageIs" refid="i_324e3ad4-9ac1-59bb-9c5a-84240ea2f942" source="EXC Priya Paul Collection" relids="i_324e3ad4-9ac1-59bb-9c5a-84240ea2f942">close-up view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+                <term type="descriptiveTopic">festoon (motif)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
+                <term type="descriptiveTopic">swans</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
+                <term type="descriptiveTopic">rivers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a607ab4d-4d55-5515-9767-bb12040c3bdf">
+                <term type="descriptiveTopic">landscapes (environments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
+                <term type="descriptiveTopic">flutes (aerophones)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4dee7143-913a-546d-b30b-e1ab98f1a0b3">
+                <term type="descriptiveTopic">water lilies (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a0f3e68b-1bc1-5b2b-940b-d970f99d9de5">
+                <term type="descriptiveTopic">ponds (water)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">1952 Advertisement calendar for Ciba Dyes Limited</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Ciba Dyes Limited.
+Sole Distributors in India for the Dyes &amp; Chemicals of
+Ciba Limited Basle (Switzerland)</ext:value>
+                <ext:value>description-en:
+Lord Krishna is depicted sitting by a pond, in which waterlilies grow and swans swim. He is playing his flute while Radha is standing over him and draping a flower garland around his neck. A small rivulet flows to the pond and is surrounded by a scenic meadow with flowers and trees. Around the main image are several other images and the image is titled "Ciba Dyes". (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118467</ext:value>
+                <ext:value>i_37582d1b-7af9-5d0b-8e77-83f4b047bef9</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118471</ext:value>
+                <ext:value>i_6a74573b-16e4-57d3-a06a-214cab9f81ca</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118474</ext:value>
+                <ext:value>i_bc673a8a-e292-5a43-bae4-067e04e530ea</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118473</ext:value>
+                <ext:value>i_a5b375de-9cec-56ef-8603-add214ff92b1</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118470</ext:value>
+                <ext:value>i_abb38d05-df4c-5a86-8d80-42f63061d508</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118469</ext:value>
+                <ext:value>i_63da6add-2417-5d92-b305-1522ec203e7a</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118468</ext:value>
+                <ext:value>i_8eaac7f7-e130-5a52-b8f3-634408017136</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118472</ext:value>
+                <ext:value>i_9d876b2c-816c-5c82-89ba-a866bcc80cc8</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118466</ext:value>
+                <ext:value>i_324e3ad4-9ac1-59bb-9c5a-84240ea2f942</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118465</ext:value>
+                <ext:value>118465</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:41:34"/>
+        </ext:heidicon>
+    </work>
+</vra>

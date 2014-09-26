@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_eb7f47b9-3c69-5ce8-b852-e9b51158990a" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-af321bf5-dea5-5e57-ba81-21f09bad8a18">Shakuntala</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-d6dbe511-0883-5b96-b890-fd7f901959be">Kalidasa</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-4e80c54f-d35c-5b5c-903b-58f3ebbaabbe">Banshi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Illustration in a calendar sample showing the story of Sakuntala, an ancient Indian play written by Kalidasa, showing a woman with a deer groomed by two other women in front of a hut, while a man with his army approaches from a forest. In the background at the horizon line a lake and mountains can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a">Gruening, Simon</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Banshi</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">HAP [manufacturer's signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Sakuntala
+No. 473</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Banshi</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_3618e4fd-3ef9-5410-8685-d4ed12440e68" source="EXC Priya Paul Collection" pref="true" relids="i_3618e4fd-3ef9-5410-8685-d4ed12440e68">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="e36dcd57-8439-59ad-9e63-6934403a3a63">
+                <term type="descriptiveTopic">armies</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
+                <term type="descriptiveTopic">mountains</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+                <term type="descriptiveTopic">festoon (motif)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f674a6fc-bd8c-505a-a0c8-13ec564a55b6">
+                <term type="descriptiveTopic">spears (weapons)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+                <term type="descriptiveTopic">trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d9dd4950-4421-58b0-8c4c-6948f8311099">
+                <term type="descriptiveTopic">deer (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
+                <term type="descriptiveTopic">lakes (bodies of water)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="888a51f9-f4a9-5650-ad5f-679c20dde22a">
+                <term type="descriptiveTopic">yellow (color)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="06e05211-e15e-563d-a4ac-f9b555be755b">
+                <term type="descriptiveTopic">horizon line</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cf659b4d-e759-5642-aaa1-5f4907058a38">
+                <term type="descriptiveTopic">footpaths</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9ef4338c-0564-5209-8a91-d1c3bd4d4821">
+                <term type="descriptiveTopic">huts (houses)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="78ba6b32-47d2-5d8a-bf11-c582409baad8">
+                <term type="descriptiveTopic">thatched roof</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="74486317-b2ef-5c4a-b8cd-86cddf2f9f94">
+                <term type="descriptiveTopic">yellow sari</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="75ba1119-bd95-565a-b0af-6832480e4039">
+                <term type="descriptiveTopic">shrubs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
+                <term type="iconographicTopic">bindi</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Sakuntala</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Banshi</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Banshi</ext:value>
+                <ext:value>text-en:
+HAP [manufacturer's signet]</ext:value>
+                <ext:value>text-en:
+Sakuntala
+No. 473</ext:value>
+                <ext:value>description-en:
+Illustration in a calendar sample showing the story of Sakuntala, an ancient Indian play written by Kalidasa, showing a woman with a deer groomed by two other women in front of a hut, while a man with his army approaches from a forest. In the background at the horizon line a lake and mountains can be seen. (gs/sg)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+20080522_1214.jpg</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">20080522_1214.jpg</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/123074</ext:value>
+                <ext:value>123074</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:47:55"/>
+        </ext:heidicon>
+    </work>
+</vra>

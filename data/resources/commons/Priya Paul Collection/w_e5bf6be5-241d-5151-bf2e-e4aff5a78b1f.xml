@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_e5bf6be5-241d-5151-bf2e-e4aff5a78b1f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-876b7ae6-8f6d-58f9-b704-7fd4fe1f9ab6">Shantilal Omprakash</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement calendar for Officer Lungies, we see a Hindu deity in the center, probably Sita or Lakshmi, sitting on a lotus flower with a halo around her head and two elephants on her sides. The calender has four rotating wheels for adjusting month, weekday, and the number of the day. The object slightly resembles  a stage with printed red curtains on both sides. The lower section hosts contact details of Shantalal Omprakash.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Men's Wear
+Officer 
+Lungies
+Good For Wear 
+Round The Year</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">SO products</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Number of Qualities
+101, 201, 301, 401, 501, 601, 701, etc.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="ben">ADD TEXT HERE</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Victory Brand Lungi</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Jahangir Brand Lungi</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Shantilal Omprakash
+Phone: 33-7330
+134, Jamunalal Bazaz Street, Calcutta - 7.
+Gram: Fancy Lungi</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 38 cm, W 50 cm, landscape</notes>
+            <measurements type="height" unit="cm">38</measurements>
+            <measurements type="width" unit="cm">50</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_0f88b14c-0549-529a-9af4-e52fc90f2835" source="EXC Priya Paul Collection" pref="true" relids="i_0f88b14c-0549-529a-9af4-e52fc90f2835">general view</relation>
+            <relation type="imageIs" refid="i_bab4d8e0-0685-5468-8d0e-b150a35d35d6" source="EXC Priya Paul Collection" relids="i_bab4d8e0-0685-5468-8d0e-b150a35d35d6">detail view</relation>
+            <relation type="imageIs" refid="i_f1bb39fe-76b0-5e6d-95c5-4ada8f5e3d31" source="EXC Priya Paul Collection" relids="i_f1bb39fe-76b0-5e6d-95c5-4ada8f5e3d31">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
+                <term type="conceptTopic">Hinduism</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fb107ceb-8a15-5622-9cd8-19a0d5f6138b">
+                <term type="descriptiveTopic">Asian elephants (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="24e716e9-9902-5dac-99bf-23144ceab072">
+                <term type="descriptiveTopic">lotus (motif)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
+                <term type="descriptiveTopic">calendars</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="938f1c58-afdb-5897-9f21-3a89dba194d9">
+                <term type="descriptiveTopic">textiles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="28a21dab-4db9-5cba-bf44-5651d19a5505">
+                <term type="descriptiveTopic">Officer Lungies (product)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="84b16676-4cef-5868-9e31-1585cc035620">
+                <term type="descriptiveTopic">sarongs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e8dbc7bf-55c7-5381-b849-975c7f04431c">
+                <term type="descriptiveTopic">rotating wheel</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
+                <term type="iconographicTopic">deities</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+                <term type="iconographicTopic">glories</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+                <term type="otherTopic">recheck-new</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2a25e728-4803-5c3e-a29a-8b1ceaf3c6c2">
+                <term type="otherTopic">Bengali script</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Textile label by Shantilal Omprakash</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Men's Wear
+Officer 
+Lungies
+Good For Wear 
+Round The Year</ext:value>
+                <ext:value>text-en:
+SO products</ext:value>
+                <ext:value>text-en:
+Number of Qualities
+101, 201, 301, 401, 501, 601, 701, etc.</ext:value>
+                <ext:value>text-bn:
+ADD TEXT HERE</ext:value>
+                <ext:value>text-en:
+Victory Brand Lungi</ext:value>
+                <ext:value>text-en:
+Jahangir Brand Lungi</ext:value>
+                <ext:value>text-en:
+Shantilal Omprakash
+Phone: 33-7330
+134, Jamunalal Bazaz Street, Calcutta - 7.
+Gram: Fancy Lungi</ext:value>
+                <ext:value>description-en:
+On this advertisement calendar for Officer Lungies, we see a Hindu deity in the center, probably Sita or Lakshmi, sitting on a lotus flower with a halo around her head and two elephants on her sides. The calender has four rotating wheels for adjusting month, weekday, and the number of the day. The object slightly resembles  a stage with printed red curtains on both sides. The lower section hosts contact details of Shantalal Omprakash. (gs/ma)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/20080627_1704.jpg</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/20080627_1704.jpg</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118922</ext:value>
+                <ext:value>i_bab4d8e0-0685-5468-8d0e-b150a35d35d6</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118921</ext:value>
+                <ext:value>i_f1bb39fe-76b0-5e6d-95c5-4ada8f5e3d31</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118920</ext:value>
+                <ext:value>118920</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:39:19"/>
+        </ext:heidicon>
+    </work>
+</vra>

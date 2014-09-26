@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_290449bf-3289-55ac-9a92-677632cb63f5" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-0f31711e-19f2-53de-9c36-1db23797cd58">Yokoston</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for Yokostone tyres, a cycle rickshaw and three kinds of tyres are depicted in front of a plain yellow background.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">AC</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">योकोस्टोन टायर 
+अधिक चले कम  घिसे
+निर्माता: आहूजा कॉन्टिनेंटल लिमिटेड, बैंगलोर</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">NQA
+ISO 9002
+REGISTERED COMPANY
+UKAS
+QUALITY
+MANAGEMENT</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="187b2740-af93-54ad-aeaf-acdb00a48f74" type="medium">tin (metal)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 12 cm, W 22 cm, landscape</notes>
+            <measurements type="height" unit="cm">12</measurements>
+            <measurements type="width" unit="cm">22</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_1b8b3bd9-6a16-5a44-bd1d-8307b9692ae3" source="EXC Priya Paul Collection" pref="true" relids="i_1b8b3bd9-6a16-5a44-bd1d-8307b9692ae3">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6579c529-6378-588d-beec-94d4d81c394c">
+                <term type="descriptiveTopic">tires</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e5e453a3-84b0-5d48-b7e9-f2df780c4a62">
+                <term type="descriptiveTopic">cycle rickshaws (vehicles)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Yokoston tires</title>
+            <title type="descriptive" pref="false">योकोस्टोन टायर आहूजा कॉन्टिनेंटल लिमिटेड बैंगलोर</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+AC</ext:value>
+                <ext:value>text-hi:
+योकोस्टोन टायर 
+अधिक चले कम  घिसे
+निर्माता: आहूजा कॉन्टिनेंटल लिमिटेड, बैंगलोर</ext:value>
+                <ext:value>text-en:
+NQA
+ISO 9002
+REGISTERED COMPANY
+UKAS
+QUALITY
+MANAGEMENT</ext:value>
+                <ext:value>description-en:
+On this advertisement for Yokostone tyres, a cycle rickshaw and three kinds of tyres are depicted in front of a plain yellow background. (gs/tb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Yokostone is a South-India based exporteur and manufacturer of bicycle and car tyres. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Yokostone is a South-India based exporteur and manufacturer of bicycle and car tyres.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/107876</ext:value>
+                <ext:value>107876</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:40:06"/>
+        </ext:heidicon>
+    </work>
+</vra>

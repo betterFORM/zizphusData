@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.vraweb.org/vracore4.htm file:/H:/VRA%20Core/heidelberg-VRA-xsd/vra-strictCluster.xsd">    
+    <image id="i_image1" refid="a19.jpg" href="" source="The Paul Crook Collection">   <!-->Not entirely clear how these ids work in the context of CC3-->
+      <dateSet>
+          <date type="creation">
+              <earliestDate>2013-11-25T11:15:11</earliestDate>
+              <latestDate>2013-11-25T11:15:11</latestDate>           
+          </date>
+      </dateSet>
+      <locationSet>
+          <location type="formerRepository" refid="accession">AC 012</location>
+          <location type="formerRepository" refid="sourceid">A19</location>
+      </locationSet>
+        <measurementsSet>
+          <measurements type="width" unit="px">3941</measurements>
+          <measurements type="height" unit="px">2721</measurements>
+          <!--measurements type="fileSize" unit="kb">319.87 - can't get CC3 to match JSON here - cf geometry</measurements-->
+      </measurementsSet>
+      <relationSet>
+          <relation type="imageOf" refid="w_526a527edf34610943000008" source="University of Westminster Chinese Poster Collection"></relation>
+      </relationSet>
+      <rightsSet>
+          <rights></rights>
+      </rightsSet>
+    </image>
+    
+    <image id="i_image2" refid=""></image> <!-->etc<-->
+ 
+</vra>

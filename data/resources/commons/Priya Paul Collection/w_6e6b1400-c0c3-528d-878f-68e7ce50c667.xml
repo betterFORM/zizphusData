@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_6e6b1400-c0c3-528d-878f-68e7ce50c667" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-f3d698f2-671c-5a80-ac15-cdc0acec61a6">Seyne, C.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-debc21eb-564b-52f1-97d2-f48a73c3b6b9">Oriental Calendar Manufacturing Company</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This image from the Oriental Calender Manufacturing Company shows a woman, wearing western clothes, preparing tean and snacks. In the background, an opened window with a view towards the mountains can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">TCM [publisher's signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">C. Seyne.</text>
+            </inscription>
+            <inscription>
+                <text type="signature">C. Seyne</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 25 cm, W 20 cm,  portrait</notes>
+            <measurements type="height" unit="cm">25</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_6bd6e334-b39f-500f-a4cc-f50ebec80f8b" source="EXC Priya Paul Collection" pref="true" relids="i_6bd6e334-b39f-500f-a4cc-f50ebec80f8b">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=79&amp;EId=95&amp;ImageId=7</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>1940s</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="e38635c9-239d-529e-b2ef-09d0617e47a8">
+                <term type="conceptTopic">perception of women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
+                <term type="descriptiveTopic">women (female humans)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c8683694-3e8b-52f1-855d-acaa4d8e8261">
+                <term type="descriptiveTopic">portraits</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a2c1b6ad-3105-55a8-b39b-cf71d9de6c66">
+                <term type="descriptiveTopic">windows</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
+                <term type="descriptiveTopic">tea (beverage)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Portrait of a lady preparing for snacks</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+TCM [publisher's signet]</ext:value>
+                <ext:value>text-en:
+C. Seyne.</ext:value>
+                <ext:value>description-en:
+This image from the Oriental Calender Manufacturing Company shows a woman, wearing western clothes, preparing tean and snacks. In the background, an opened window with a view towards the mountains can be seen. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+This image, depicting a woman leaning over a tea table spread with a china tea service, flowers in a vase, and snacks, reminds us that that comfort was carefully designed, rather than left to chance. Here the shapes of the flowers in the vase are repeated in the pattern of the table-cloth, while the framed landscape hanging on the wall itself echoes the real vista visible out the open window.  The woman herself looks as if she is posing for a picture: she certainly has prepared her appearance carefully, with her sari worn in the westernized Parsi style, careful makeup, and modern haircut.  Whether in the more urban space of the woman on the phone, or in the bucolic setting of the woman pouring tea in front of snow-clad mountains and workers plucking tea, the emphasis is not on architectural space or the social relationships of those who inhabit that space.  Instead it is on the refined comforts of everyday life—a life to which, as Philip Lutgendorf’s essay “Chai Why?” shows, the consumption of tea has become a central ritual.  Here struggles over basic necessities or the labor of the tea pickers in the distance have been replaced with lighter amusements and more cultured achievements. (Abigail McGowan)(gs)</ext:value>
+                <ext:value>related literature:
+Braudel, Fernand 1981. "The Structures of Everyday Life". London: Collins. (gs)</ext:value>
+                <ext:value>related literature:
+de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+Freitag, Sandria B. 2010. "Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture" http://www.tasveergharindia.net/cmsdesk/essay/96/index.html last accessed 2011-04-12 (gs)</ext:value>
+                <ext:value>related literature:
+Freitag, Sandria 2007. "South Asian Ways of Seeing; Muslim Ways of Knowing: The Indian Muslim Niche Market in Posters" in Indian Economic and Social History Review, 44:3 (2007):297-331 (gs).</ext:value>
+                <ext:value>related hyperlinks:
+McGowan, Abigail 2010. "Modernity at Home: Leisure, Autonomy and the New Woman in India" http://www.tasveergharindia.net/cmsdesk/essay/95/index.html last accessed 2011-04-12 (gs)</ext:value>
+                <ext:value>related literature:
+Storey, John 1999. "Cultural Consumption and Everyday Life". New York: Oxford University Press. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Freitag, Sandria 2007. "South Asian Ways of Seeing; Muslim Ways of Knowing: The Indian Muslim Niche Market in Posters" in Indian Economic and Social History Review, 44:3 (2007):297-331 (gs).</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Braudel, Fernand 1981. "The Structures of Everyday Life". London: Collins.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Storey, John 1999. "Cultural Consumption and Everyday Life". New York: Oxford University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</ext:value>
+                <ext:value type="accessed">2011-04-12</ext:value>
+                <ext:value type="comment">Freitag, Sandria B. 2010. "Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture"</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</ext:value>
+                <ext:value type="accessed">2011-04-12</ext:value>
+                <ext:value type="comment">McGowan, Abigail 2010. "Modernity at Home: Leisure, Autonomy and the New Woman in India"</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">This image, depicting a woman leaning over a tea table spread with a china tea service, flowers in a vase, and snacks, reminds us that that comfort was carefully designed, rather than left to chance. Here the shapes of the flowers in the vase are repeated in the pattern of the table-cloth, while the framed landscape hanging on the wall itself echoes the real vista visible out the open window.  The woman herself looks as if she is posing for a picture: she certainly has prepared her appearance carefully, with her sari worn in the westernized Parsi style, careful makeup, and modern haircut.  Whether in the more urban space of the woman on the phone, or in the bucolic setting of the woman pouring tea in front of snow-clad mountains and workers plucking tea, the emphasis is not on architectural space or the social relationships of those who inhabit that space.  Instead it is on the refined comforts of everyday life—a life to which, as Philip Lutgendorf’s essay “Chai Why?” shows, the consumption of tea has become a central ritual.  Here struggles over basic necessities or the labor of the tea pickers in the distance have been replaced with lighter amusements and more cultured achievements.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Abigail McGowan</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=79&amp;EId=95&amp;ImageId=7</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/95/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/109849</ext:value>
+                <ext:value>109849</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:33:22"/>
+        </ext:heidicon>
+    </work>
+</vra>

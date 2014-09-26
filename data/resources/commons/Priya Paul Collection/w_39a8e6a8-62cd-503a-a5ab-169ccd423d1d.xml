@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_39a8e6a8-62cd-503a-a5ab-169ccd423d1d" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-aeb5f58e-77b7-5cc7-8621-e64b26a25f97">W.D. &amp; H.O. Wills</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1910</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1910</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This is an advertisement calendar for  "Wild Woodbine" cigarettes. On the upper section of the image the advertised product alongside, illustrations of flowers can be seen. The lower section shows the calendar page for January 1910.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">"Wild
+Woodbine"
+Cigarettes</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">W. D. &amp; H. O. Wills.
+Bristol &amp; London.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">10 Cigarettes</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">January. 1910.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">979</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 12 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">12</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_24aaad7a-a289-527e-88a3-9132870bf9c9" source="EXC Priya Paul Collection" pref="true" relids="i_24aaad7a-a289-527e-88a3-9132870bf9c9">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://en.wikipedia.org/wiki/Woodbine_%28cigarette%29</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.time.com/time/magazine/article/0,9171,1905530,00.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ebb69a2e-22b0-5f48-b771-be0e3287b9d2">
+                <term type="descriptiveTopic">ornaments</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
+                <term type="descriptiveTopic">calendars</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec384af3-848a-5e36-9ed3-be26f36e831b">
+                <term type="descriptiveTopic">floral patterns</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4666e2ff-4cf6-5025-9525-c0cc88c84df9">
+                <term type="descriptiveTopic">cigarettes</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="582b6532-7143-5785-9004-ca45c7d000f7">
+                <term type="descriptiveTopic">cigarette advertising</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="14115aae-9066-5d30-ba93-d18b5950ad7e">
+                <term type="descriptiveTopic">Wild Woodbine Cigarettes (product)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">1910 Advertisement calendar for Wild Woodbine cigarettes</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+"Wild
+Woodbine"
+Cigarettes</ext:value>
+                <ext:value>text-en:
+W. D. &amp; H. O. Wills.
+Bristol &amp; London.</ext:value>
+                <ext:value>text-en:
+10 Cigarettes</ext:value>
+                <ext:value>text-en:
+January. 1910.</ext:value>
+                <ext:value>text-en:
+979</ext:value>
+                <ext:value>description-en:
+This is an advertisement calendar for  "Wild Woodbine" cigarettes. On the upper section of the image the advertised product alongside, illustrations of flowers can be seen. The lower section shows the calendar page for January 1910. (gs/tb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Woodbine is a brand of cigarette made in England by W. D. &amp; H. O. Wills (now Imperial Tobacco) since 1888. In the early 1970s Woodbine Cigarettes were released in Australia as "Wild Woodbine". Noted for its strong unfiltered cigarettes, the brand was popular in the early 20th century, especially with soldiers during World War I and World War II. A filtered version was launched in the United Kingdom in 1948, but was discontinued in 1988. 
+Source: Wikipedia (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+/2233.tif</ext:value>
+                <ext:value>related hyperlinks:
+http://en.wikipedia.org/wiki/Woodbine_%28cigarette%29, last accessed 2012-04-16. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html,
+last accessed 2011-08-21, Tom Coyle's "Cigarettes" Project #5 (la)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tvparty.com/vaultcomcig.html, last accessed 2011-08-21, "Cigarette Commercials: Cigarette Advertising on TV" by Billy Ingram (la)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0, last accessed 2011-08-21 (la)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.time.com/time/magazine/article/0,9171,1905530,00.html, last accessed 2011-08-21, "Breathtaking Classic Cigarette Ads" (la)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://otal.umd.edu/~vg/amst205.S97/vj05/cigad.html</ext:value>
+                <ext:value type="accessed">2011-08-21</ext:value>
+                <ext:value type="comment">Tom Coyle's "Cigarettes" Project #5</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tvparty.com/vaultcomcig.html</ext:value>
+                <ext:value type="accessed">2011-08-21</ext:value>
+                <ext:value type="comment">"Cigarette Commercials: Cigarette Advertising on TV" by Billy Ingram</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+                <ext:value type="accessed">2011-08-21</ext:value>
+                <ext:value type="comment">"Breathtaking Classic Cigarette Ads"</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://en.wikipedia.org/wiki/Woodbine_%28cigarette%29</ext:value>
+                <ext:value type="accessed">2012-04-16</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.life.com/gallery/43871/breathtaking-classic-cigarette-ads#index/0</ext:value>
+                <ext:value type="accessed">2011-08-21</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Abu-Er-Rub, Laila</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-af3618b2-0484-5e95-b722-cf114669106c</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Woodbine is a brand of cigarette made in England by W. D. &amp; H. O. Wills (now Imperial Tobacco) since 1888. In the early 1970s Woodbine Cigarettes were released in Australia as "Wild Woodbine". Noted for its strong unfiltered cigarettes, the brand was popular in the early 20th century, especially with soldiers during World War I and World War II. A filtered version was launched in the United Kingdom in 1948, but was discontinued in 1988. 
+Source: Wikipedia</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/2233.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://en.wikipedia.org/wiki/Woodbine_%28cigarette%29</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.time.com/time/magazine/article/0,9171,1905530,00.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120845</ext:value>
+                <ext:value>120845</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:37:32"/>
+        </ext:heidicon>
+    </work>
+</vra>

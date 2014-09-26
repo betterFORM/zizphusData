@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_648f83b0-4975-5762-993d-9091f7134afc" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-dde887e3-1493-5cc9-89f9-17304415039b">Bagree Brothers</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for the Bikaner based company Bagree Brothers, H.H. Sri Sadul Singhji Bahadur, the last last reigning Maharaja from Bikaner, is pictured. He is wearing a highly ornamented uniform. There are flower ornaments around his picture. On the lower right section, another man in uniform can be seen as well. The lower section hosts pictures of camels and a deserted landscape.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Tele. Add. "Freshstock."
+With best compliments from
+Bagree Bros.
+Bikaner
+Captain His Highness
+Maharaj Kumar Sri Sadul Sighji Bahadur,
+Heir-Apparent of Bikaner</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_3726e659-62e4-5280-9895-0c389235683b" source="EXC Priya Paul Collection" pref="true" relids="i_3726e659-62e4-5280-9895-0c389235683b">general view</relation>
+            <relation type="imageIs" refid="i_8b85c37d-eb0f-5cfb-8a46-eace53a87910" source="EXC Priya Paul Collection" relids="i_8b85c37d-eb0f-5cfb-8a46-eace53a87910">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://en.wikipedia.org/wiki/Sadul_Singh_of_Bikaner</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="841c3c55-1062-5f95-bc4e-d5a925a21abc">
+                <term type="descriptiveTopic">uniforms</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3f19eeff-8fd0-5f9d-81ef-cb195af84393">
+                <term type="descriptiveTopic">camels (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
+                <term type="descriptiveTopic">tigers (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9b80dfe9-529b-566d-811c-3d2a6918fdaf">
+                <term type="iconographicTopic">kings (people)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Poster of Maharaj Kumar Sri Sadul Singhji Bahadur</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Tele. Add. "Freshstock."
+With best compliments from
+Bagree Bros.
+Bikaner
+Captain His Highness
+Maharaj Kumar Sri Sadul Sighji Bahadur,
+Heir-Apparent of Bikaner</ext:value>
+                <ext:value>description-en:
+On this advertisement for the Bikaner based company Bagree Brothers, H.H. Sri Sadul Singhji Bahadur, the last last reigning Maharaja from Bikaner, is pictured. He is wearing a highly ornamented uniform. There are flower ornaments around his picture. On the lower right section, another man in uniform can be seen as well. The lower section hosts pictures of camels and a deserted landscape. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+From wikipedia: Sadul Singh (7 September 1902-25 September 1950) was the last reigning Maharaja of Bikaner from 2 February 1943 to 15 August 1947, continuing as Head of the House of Bikaner until his death. The eldest surviving son of Sir Ganga Singh, Sir Sadul Singh had, for the thirty years leading up to his succession, been serving in many important posts for his father. He had been a Page of Honour at the coronation of King George V and had attended him at the durbar in Delhi. In 1919, Sir Sadul was present at the Paris Peace Conference and attended the 1924 meeting of the League of Nations. He served as Chief Minister of Bikaner from 1920 to 1925 and fought in the Second World War in Persia, the Middle East and Burma. As the time for Indian independence drew near, Sir Sadul was among the first princes to accede to the Dominion of India, which he did on 7 August 1947. On 30 March 1949, Sir Sadul merged Bikaner into the United State of Greater Rajasthan, and died in London a year later, aged 48. He was succeeded by his eldest son, Maharaja Dr. Karni Singh. 
+Source: http://en.wikipedia.org/wiki/Sadul_Singh_of_Bikaner, last accessed 2012-05-30 (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+/200804250131.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/200804250131.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">From wikipedia: Sadul Singh (7 September 1902-25 September 1950) was the last reigning Maharaja of Bikaner from 2 February 1943 to 15 August 1947, continuing as Head of the House of Bikaner until his death. The eldest surviving son of Sir Ganga Singh, Sir Sadul Singh had, for the thirty years leading up to his succession, been serving in many important posts for his father. He had been a Page of Honour at the coronation of King George V and had attended him at the durbar in Delhi. In 1919, Sir Sadul was present at the Paris Peace Conference and attended the 1924 meeting of the League of Nations. He served as Chief Minister of Bikaner from 1920 to 1925 and fought in the Second World War in Persia, the Middle East and Burma. As the time for Indian independence drew near, Sir Sadul was among the first princes to accede to the Dominion of India, which he did on 7 August 1947. On 30 March 1949, Sir Sadul merged Bikaner into the United State of Greater Rajasthan, and died in London a year later, aged 48. He was succeeded by his eldest son, Maharaja Dr. Karni Singh. 
+Source: http://en.wikipedia.org/wiki/Sadul_Singh_of_Bikaner, last accessed 2012-05-30</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119209</ext:value>
+                <ext:value>i_8b85c37d-eb0f-5cfb-8a46-eace53a87910</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://en.wikipedia.org/wiki/Sadul_Singh_of_Bikaner</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119208</ext:value>
+                <ext:value>119208</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:29:15"/>
+        </ext:heidicon>
+    </work>
+</vra>

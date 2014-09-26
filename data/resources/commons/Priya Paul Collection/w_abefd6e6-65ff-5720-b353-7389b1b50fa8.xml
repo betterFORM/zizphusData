@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_abefd6e6-65ff-5720-b353-7389b1b50fa8" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-7cc79ffe-c41e-5da5-bf9e-4f174a58252c">Ramakrishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-b48d1160-e490-5472-8f4d-938355ab4cea">Kali</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-643b9fbe-8dee-5340-a8ef-5c17b7d71bb6">Chakraborty, P.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-13273e4f-ccfa-53b0-bff4-86dabcb81ba2">Sarada</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Goddess Kali stops a train to save her devotees Ramakrishna Paramhansa and his wife who were crossing the railway track in a palanquin.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">P. chakraborty</text>
+            </inscription>
+            <inscription>
+                <text type="signature">P. chakraborty</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>53 cm x 49 cm</notes>
+            <measurements type="height" unit="cm">53</measurements>
+            <measurements type="width" unit="cm">49</measurements>
+            <measurements shape=""/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_0704a934-c61d-51ac-a1fb-14380ade9fe5" source="EXC Priya Paul Collection" pref="true" relids="i_0704a934-c61d-51ac-a1fb-14380ade9fe5">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="f51c85a9-cd88-5269-abeb-a61e2dfb7c71">
+                <term type="conceptTopic">railroads</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2a5cd23e-936c-5a59-a1e2-fe34e6e7ac7b">
+                <term type="descriptiveTopic">trains (vehicle groupings)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="167b7071-54bf-5a0b-90ed-4e561657d185">
+                <term type="iconographicTopic">palanquins</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e37cbfac-5bd2-5e82-b51d-0e5c82d0c5f9">
+                <term type="iconographicTopic">litters</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Goddess Kali in defence of devotees</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Chakraborty, P.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+Goddess Kali stops a train to save her devotees Ramakrishna Paramhansa and his wife who were crossing the railway track in a palanquin.</ext:value>
+                <ext:value>text-en:
+P. chakraborty</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/20080604_1431.jpg</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/20080604_1431.jpg</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118831</ext:value>
+                <ext:value>118831</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:34:56"/>
+        </ext:heidicon>
+    </work>
+</vra>

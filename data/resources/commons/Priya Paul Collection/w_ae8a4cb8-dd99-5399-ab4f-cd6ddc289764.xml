@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_ae8a4cb8-dd99-5399-ab4f-cd6ddc289764" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-f16038a5-7630-5bb9-8d9e-a3d5f7faa3a2">Sita</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-048694c0-93ed-5b54-8923-fb9017e4b9ae">Rama</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-92738bf8-9745-52a0-a3ed-b5be424fc86a">Sharma, M. L.</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-d56be6d9-8a5b-51cd-9021-fb2eab791859">Sabri</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A sample image from a catalogue of Empire Calender Manufacturing Co. with the title "Sabri Ke Ber" which translates to "Sabri's Berries". It is a reference to the story of Rama, seen here with bow and arrow while he was in exile in the forest, and that of his ardent devotee Sabri (was from a lower caste-Bhil). Here she is seen kneeling at his feet offering him the berries she had picked. Behind Rama Sita stands and looks toward Sabri while holding on to a branch with flowers. Rama, Sita and Sabri are dressed in simple clothes. Sita is wearing a flower garland and bracelet. Rama is wearing flowers in his hair and holy bead (Rudraksh) necklace. A waterfall, a lake and mountains can be seen in the background.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Sabri-Ke-Ber
+No. 653</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">M. L. Sharma</text>
+            </inscription>
+            <inscription>
+                <text type="signature">M. L. Sharma</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 25 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">25</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_97224133-05a8-5139-b1e6-360e8213bbf0" source="EXC Priya Paul Collection" pref="true" relids="i_97224133-05a8-5139-b1e6-360e8213bbf0">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
+                <term type="conceptTopic">Hinduism</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
+                <term type="descriptiveTopic">mountains</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+                <term type="descriptiveTopic">festoon (motif)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8d27a0-4d79-54d8-bc99-98dce092cec2">
+                <term type="descriptiveTopic">arrows</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="56281032-b1d8-5e50-beab-a65e6c39318c">
+                <term type="descriptiveTopic">bows (weapons)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="901dd9d4-9dfd-5fea-ab44-4dd02d31bfb8">
+                <term type="descriptiveTopic">quivers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+                <term type="descriptiveTopic">trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="40344771-1132-5fc6-acf5-9757c17a99d9">
+                <term type="descriptiveTopic">waterfalls (natural bodies of water)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
+                <term type="descriptiveTopic">lakes (bodies of water)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d4aa369d-d266-5acb-afdb-e2ef9c323ed1">
+                <term type="descriptiveTopic">meadows</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="5d4e5bb3-d17d-53c2-aa27-d2df5ae669f2">
+                <term type="descriptiveTopic">bracelets (jewelry)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
+                <term type="descriptiveTopic">trade catalogs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0b0e7261-1443-59d8-b468-62bbadd4616c">
+                <term type="iconographicTopic">deities</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3db1d222-d591-5e56-9c91-097667ccf170">
+                <term type="iconographicTopic">Ramayana</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d12b7f80-6417-52af-ae94-1179cd324e2c">
+                <term type="iconographicTopic">sacrifices</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Sabri-Ke-Ber</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Sharma, M. L.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Sabri-Ke-Ber
+No. 653</ext:value>
+                <ext:value>text-en:
+M. L. Sharma</ext:value>
+                <ext:value>description-en:
+A sample image from a catalogue of Empire Calender Manufacturing Co. with the title "Sabri Ke Ber" which translates to "Sabri's Berries". It is a reference to the story of Rama, seen here with bow and arrow while he was in exile in the forest, and that of his ardent devotee Sabri (was from a lower caste-Bhil). Here she is seen kneeling at his feet offering him the berries she had picked. Behind Rama Sita stands and looks toward Sabri while holding on to a branch with flowers. Rama, Sita and Sabri are dressed in simple clothes. Sita is wearing a flower garland and bracelet. Rama is wearing flowers in his hair and holy bead (Rudraksh) necklace. A waterfall, a lake and mountains can be seen in the background. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+This is possibly a depiction of the story in which Sabri tastes the berries she picks before offering them to Rama. She does this so that he gets to eat only the sweetest berries. This story shows that no matter what caste one belongs to or what behaviour (that of Sabri pre-tasting the berries) one displays, what the Lord acknowledges in an individual is true devotion. The story about Sabri ends with Lord Ram granting her salvation.() (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">This is possibly a depiction of the story in which Sabri tastes the berries she picks before offering them to Rama. She does this so that he gets to eat only the sweetest berries. This story shows that no matter what caste one belongs to or what behaviour (that of Sabri pre-tasting the berries) one displays, what the Lord acknowledges in an individual is true devotion. The story about Sabri ends with Lord Ram granting her salvation.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119454</ext:value>
+                <ext:value>119454</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:39:14"/>
+        </ext:heidicon>
+    </work>
+</vra>

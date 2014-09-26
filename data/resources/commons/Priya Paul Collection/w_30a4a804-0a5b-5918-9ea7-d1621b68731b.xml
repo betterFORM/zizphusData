@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_30a4a804-0a5b-5918-9ea7-d1621b68731b" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-65d331c8-aea5-564e-a372-b0b6cd6f30df">Gandhi, Mohandas Karamchand</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-ddaa9cf1-f534-56a7-8e66-7534b767bfce">Nehru, Jawaharlal</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-dc78c966-8c82-5611-9e03-7e44c0449108">Prasad, Rajendra</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-4e80c54f-d35c-5b5c-903b-58f3ebbaabbe">Banshi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this sample calendar poster of Empire Calendar Manufacturing Co., Calcutta, we can see several agricultural workers being busy with planting, plowing the fields, watering and harvesting crops. Central in this image is a big waterpump. At the horizon, placed in the skies, we can see Pandit Nehru, Mohandas K. Gandhi (with a halo) and Lal Bahadur Shastri (right).</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">HAP [publisher's signet]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Banshi</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Agriculture
+No. 502</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Banshi</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_57844350-2fdb-5a5b-ad40-86fdfa992001" source="EXC Priya Paul Collection" pref="true" relids="i_57844350-2fdb-5a5b-ad40-86fdfa992001">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/100/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>1960s</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="44ac94f4-ee8b-58c8-b219-a380770a6c05">
+                <term type="conceptTopic">nations</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
+                <term type="conceptTopic">national leader</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="08097816-9bf5-5378-ac65-9097ca80ab46">
+                <term type="conceptTopic">everyday life</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2f5c0838-4d89-5a07-9950-47075f45cc7d">
+                <term type="conceptTopic">agriculture</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4766f327-15c1-5e9c-bbe7-f5c010c59943">
+                <term type="conceptTopic">agricultural development</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="609273b1-6f24-5044-8b1f-3824c8666b3f">
+                <term type="conceptTopic">mechanical farming</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="5f75b6bf-5d31-5719-a63b-fe01670a9cd5">
+                <term type="conceptTopic">modernization</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="917ce2d6-fbbb-5dbb-82b9-87e232c37bff">
+                <term type="conceptTopic">rural life</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="1c5c689f-6b9d-5abd-86b9-5d71fb439820">
+                <term type="conceptTopic">leaders (people)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e1523b29-a8dc-5d3a-be67-13e2ff43f9f1">
+                <term type="descriptiveTopic">swans</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3478a0d8-bc3b-5395-84ef-e44f2a04f6a1">
+                <term type="descriptiveTopic">peasants</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="1c15d0ad-68a0-587f-9469-7358e1c0e0d8">
+                <term type="descriptiveTopic">field (land)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="5669b7f2-1cea-5231-93cb-03d6599a60e3">
+                <term type="descriptiveTopic">water</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e519b951-dceb-5c52-a8f0-24377c8b906d">
+                <term type="descriptiveTopic">crop</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="60548934-7f80-5d62-8246-e9ece04af2db">
+                <term type="descriptiveTopic">plants</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="186d56da-04a0-5639-89a3-3ea58949b6f3">
+                <term type="descriptiveTopic">harvests</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7827f591-4d4b-5f24-80b8-57c311eecdea">
+                <term type="descriptiveTopic">tractors (agricultural equipment)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="925954ad-11c8-5edb-a164-f3d5649c81c6">
+                <term type="descriptiveTopic">water pumps</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c5fdb294-2a89-51f8-8664-317a5b78ec64">
+                <term type="descriptiveTopic">plows (agricultural equipment)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f5a8a3b6-4512-5145-974f-aced133c94d0">
+                <term type="descriptiveTopic">paddy fields</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a0f3e68b-1bc1-5b2b-940b-d970f99d9de5">
+                <term type="descriptiveTopic">ponds (water)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="eb53fa21-fe31-5428-a7b1-0f71986e8079">
+                <term type="descriptiveTopic">irrigation systems</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+                <term type="iconographicTopic">glories</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
+                <term type="otherTopic">recheck-problem</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Agriculture</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Banshi</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+HAP [publisher's signet]</ext:value>
+                <ext:value>text-en:
+Banshi</ext:value>
+                <ext:value>text-en:
+Agriculture
+No. 502</ext:value>
+                <ext:value>description-en:
+On this sample calendar poster of Empire Calendar Manufacturing Co., Calcutta, we can see several agricultural workers being busy with planting, plowing the fields, watering and harvesting crops. Central in this image is a big waterpump. At the horizon, placed in the skies, we can see Pandit Nehru, Mohandas K. Gandhi (with a halo) and Lal Bahadur Shastri (right).</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+On this image we have scenes of agricultural development, with mechanical farming presumably meant to signal modernization. Whether they are meant to domesticate technologies that are considered strange and threatening, or to extend the spiritual or political charisma of national leaders  to technology and agricultural development, they reflect an interesting compositional strategy. (Arvind Rajagopal)(gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The absence of women on the fields perhaps helps to locate the picture in terms of date and region, but it may appeal to prevailing patriarchal assumptions to render the image better able to circulate, presenting as it does male peasant labor alongside national leadership. Depiction of agricultural scenes alone would be uncertain in their meaning, presumably – even the sight of a prosperous field would not necessarily signal prosperity for all the viewers of these pictures. Images of technological development too do not necessarily provide the grounds of their own authority. But the figures of Gandhi, Nehru and Rajendra Prasad in both, imply an assurance that these scenes benefits from the moral authority of political leaders, with the halo around Gandhi suggesting he is both. The picture of a man driving bullocks on a field, encountering a boy on a tractor, with thatched roofs in the background, proposes, perhaps, the possibility of a reconciliation between the Gandhian republic and Nehruvian industrialism. The bubble in which this picture is contained, between sea and sky, and above the heads of political leaders, could indicate an idea as much as a real event. At any rate, political, technical and theological conventions intersect here, in a complex attempt at developmental propaganda, albeit one from below. (Arvind Rajagopal) (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The emphasis on technologies as they change agrarian life is the heart of the poster, especially the tractor and water pump. (Sandria B. Freitag) (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+This image provides an important, complementary revelation about setting and subject matter, both this time from the Nehruvian third ‘moment’ but in sharp contrast to the second moment in theme. When the Priya Paul collection is viewed in its entirety, one of the striking differences between the second and third ‘moments’ of image-production, is the re-incorporation of rural life in constructions of the everyday. Where this had featured – at least as an ethnographic location in British-produced labels of the first moment – it is much reduced as a place in the imaginings of the nationalist period. Instead, we are taken inside, to interiors as abstractly domestic and middle-class as they are modern and implicitly urban. In the third period of production, even the rural can be modern and so can be reincorporated as an imagined and desired locale of the everyday. Indeed, in the independent Nehruvian India, agriculture is explicitly recognized as an essential, even key, contributor to the nation’s well-being. (Sandria B. Freitag) (gs)</ext:value>
+                <ext:value>related literature:
+Braudel, Fernand 1981. "The Structures of Everyday Life". London: Collins. (gs)</ext:value>
+                <ext:value>related literature:
+de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press. (gs)</ext:value>
+                <ext:value>related literature:
+Freitag, Sandria B. 2010. "Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture" http://www.tasveergharindia.net/cmsdesk/essay/96/index.html, last accessed 2011-01-24 (gs)</ext:value>
+                <ext:value>related literature:
+Rajagopal, Arvind 2010. "The Commodity Image in the (Post) Colony" http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, 2011-01-18 (gs)</ext:value>
+                <ext:value>related literature:
+Khilnani, Sunil. 1997. The Idea of India. Delhi: OUP</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/96/index.html, last accessed 2012-06-04, Tasveerghar essay (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/100/index.html, last accessed 2012-06-04, Tasveerghar essay (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Khilnani, Sunil. 1997. The Idea of India. Delhi: OUP</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Braudel, Fernand 1981. "The Structures of Everyday Life". London: Collins.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Rajagopal, Arvind 2010. "The Commodity Image in the (Post) Colony" http://www.tasveergharindia.net/cmsdesk/essay/100/index_1.html, 2011-01-18</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Freitag, Sandria B. 2010. "Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture" http://www.tasveergharindia.net/cmsdesk/essay/96/index.html, last accessed 2011-01-24</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/100/index.html</ext:value>
+                <ext:value type="accessed">2012-06-04</ext:value>
+                <ext:value type="comment">Tasveerghar essay</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</ext:value>
+                <ext:value type="accessed">2012-06-04</ext:value>
+                <ext:value type="comment">Tasveerghar essay</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The emphasis on technologies as they change agrarian life is the heart of the poster, especially the tractor and water pump.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sandria B. Freitag</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The absence of women on the fields perhaps helps to locate the picture in terms of date and region, but it may appeal to prevailing patriarchal assumptions to render the image better able to circulate, presenting as it does male peasant labor alongside national leadership. Depiction of agricultural scenes alone would be uncertain in their meaning, presumably – even the sight of a prosperous field would not necessarily signal prosperity for all the viewers of these pictures. Images of technological development too do not necessarily provide the grounds of their own authority. But the figures of Gandhi, Nehru and Rajendra Prasad in both, imply an assurance that these scenes benefits from the moral authority of political leaders, with the halo around Gandhi suggesting he is both. The picture of a man driving bullocks on a field, encountering a boy on a tractor, with thatched roofs in the background, proposes, perhaps, the possibility of a reconciliation between the Gandhian republic and Nehruvian industrialism. The bubble in which this picture is contained, between sea and sky, and above the heads of political leaders, could indicate an idea as much as a real event. At any rate, political, technical and theological conventions intersect here, in a complex attempt at developmental propaganda, albeit one from below.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Arvind Rajagopal</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">This image provides an important, complementary revelation about setting and subject matter, both this time from the Nehruvian third ‘moment’ but in sharp contrast to the second moment in theme. When the Priya Paul collection is viewed in its entirety, one of the striking differences between the second and third ‘moments’ of image-production, is the re-incorporation of rural life in constructions of the everyday. Where this had featured – at least as an ethnographic location in British-produced labels of the first moment – it is much reduced as a place in the imaginings of the nationalist period. Instead, we are taken inside, to interiors as abstractly domestic and middle-class as they are modern and implicitly urban. In the third period of production, even the rural can be modern and so can be reincorporated as an imagined and desired locale of the everyday. Indeed, in the independent Nehruvian India, agriculture is explicitly recognized as an essential, even key, contributor to the nation’s well-being.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sandria B. Freitag</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">On this image we have scenes of agricultural development, with mechanical farming presumably meant to signal modernization. Whether they are meant to domesticate technologies that are considered strange and threatening, or to extend the spiritual or political charisma of national leaders  to technology and agricultural development, they reflect an interesting compositional strategy.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Arvind Rajagopal</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/100/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/122948</ext:value>
+                <ext:value>122948</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:28:39"/>
+        </ext:heidicon>
+    </work>
+</vra>

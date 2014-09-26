@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_e2d3ac9f-dc1d-50b1-808d-489325d919a7" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for surma (kohl), a woman is applying kohl in her eyes. She is wearing jewellery and a blue sari. The advertised product is shown in the lower right section of the image.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Alluring
+Eyes!</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">with
+Datoo Manjee
+Real Pearl's
+SURMA
+
+??
+add text here</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_db57bc52-25fb-5722-a34b-94272dfd8858" source="EXC Priya Paul Collection" pref="true" relids="i_db57bc52-25fb-5722-a34b-94272dfd8858">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://en.wikipedia.org/wiki/Kohl_%28cosmetics%29</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
+                <term type="conceptTopic">Hindu women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2dc41de8-094d-5ebb-9102-57134ee405fe">
+                <term type="descriptiveTopic">pearl necklaces</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2edfbae3-c4f8-51bd-9837-37f34859510d">
+                <term type="descriptiveTopic">necklaces</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="344a6b29-b2b4-5490-8024-2ab8751ed66d">
+                <term type="descriptiveTopic">cosmetics</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a9058450-e8a4-5ea8-ae96-b0cff4e77a96">
+                <term type="descriptiveTopic">make-up (cosmetics)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="98f8cf1d-afba-5a84-ac8d-d33899eddffa">
+                <term type="descriptiveTopic">pearl (animal material)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="968e55ea-39e9-5270-a497-a99cfe405ad4">
+                <term type="descriptiveTopic">Surma</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b9fd403e-c486-5edf-afbf-f020774fc7c8">
+                <term type="descriptiveTopic">kohl</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="96947a51-478b-5932-a8d4-4c8d8f2e9f4b">
+                <term type="descriptiveTopic">black hair</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a14be562-683e-57b2-9446-7cff4999aa55">
+                <term type="descriptiveTopic">earrings (jewelry)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="808946a6-7ba4-5c1f-96ac-2a1268d686eb">
+                <term type="iconographicTopic">bindi</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="20fb45d1-c582-5b02-90e7-19fc89df5218">
+                <term type="otherTopic">recheck-Tony</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Advertisement for Real Pearl's Surma</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Alluring
+Eyes!</ext:value>
+                <ext:value>text-en:
+with
+Datoo Manjee
+Real Pearl's
+SURMA
+
+text-??
+add text here</ext:value>
+                <ext:value>description-en:
+On this advertisement for surma (kohl), a woman is applying kohl in her eyes. She is wearing jewellery and a blue sari. The advertised product is shown in the lower right section of the image. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priyapaul/neuimport_07august/1193.tif</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Kohl is an ancient eye cosmetic. It was made by grinding galena (lead sulfide) and other ingredients. It is widely used in South Asia, the Middle East, North Africa, the Horn of Africa, and parts of West Africa to darken the eyelids and as mascara for the eyelashes. It is used mostly by women, but also some men and children. 
+Source: Wikipedia (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://en.wikipedia.org/wiki/Kohl_%28cosmetics%29, last accessed 2012-04-16. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://en.wikipedia.org/wiki/Kohl_%28cosmetics%29</ext:value>
+                <ext:value type="accessed">2012-04-16</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Kohl is an ancient eye cosmetic. It was made by grinding galena (lead sulfide) and other ingredients. It is widely used in South Asia, the Middle East, North Africa, the Horn of Africa, and parts of West Africa to darken the eyelids and as mascara for the eyelashes. It is used mostly by women, but also some men and children. 
+Source: Wikipedia</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/data/easydb/import/exc asia and europe/priyapaul/neuimport_07august/1193.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://en.wikipedia.org/wiki/Kohl_%28cosmetics%29</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119833</ext:value>
+                <ext:value>119833</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:32:14"/>
+        </ext:heidicon>
+    </work>
+</vra>

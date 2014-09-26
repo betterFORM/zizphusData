@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_577805fe-9ec2-5f7a-af44-f277ea86a8b5" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-ad0fa7f1-ce18-5247-8f19-3e17b5686637">United Merchants Company Ltd.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This textile label of the United Merchants Company Ltd. shows a musician playing a sitar. He is wearing a topi and is sitting on a carpet with a tiger pattern.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">The United Merchants Co. Ltd.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Trade Mark</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Bombay</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 15 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_9e19472d-b1b5-5ca5-98dc-525fc0d0474a" source="EXC Priya Paul Collection" pref="true" relids="i_9e19472d-b1b5-5ca5-98dc-525fc0d0474a">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a428e6c6-cb1a-5952-aec3-0038067aef0e">
+                <term type="descriptiveTopic">decorations (ornaments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec384af3-848a-5e36-9ed3-be26f36e831b">
+                <term type="descriptiveTopic">floral patterns</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ff2e490b-01b3-5ec3-bce0-482c8e3ed529">
+                <term type="descriptiveTopic">musicians</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
+                <term type="descriptiveTopic">musical instruments</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b675fb76-330b-5b1f-80c7-1a150859c76a">
+                <term type="descriptiveTopic">sitars (Indian chordophones)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8469f4b6-425c-5bd8-9911-20bac5f4650b">
+                <term type="descriptiveTopic">carpets</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f4a0498d-0487-523e-a360-b1a833fb5be1">
+                <term type="descriptiveTopic">imaginative script</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6138714d-8132-5952-9627-cf4c80e02390">
+                <term type="descriptiveTopic">topis (headdresses)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
+                <term type="otherTopic">recheck-Matthias</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of The United Merchants Co. Ltd.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+The United Merchants Co. Ltd.</ext:value>
+                <ext:value>text-en:
+Trade Mark</ext:value>
+                <ext:value>text-en:
+Bombay</ext:value>
+                <ext:value>text-:
+ADD TEXT HERE</ext:value>
+                <ext:value>description-en:
+This textile label of the United Merchants Company Ltd. shows a musician playing a sitar. He is wearing a topi and is sitting on a carpet with a tiger pattern. (gs/ms/tb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+1419.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">1419.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120058</ext:value>
+                <ext:value>120058</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:42:59"/>
+        </ext:heidicon>
+    </work>
+</vra>

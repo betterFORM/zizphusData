@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a7a0050e-3398-5260-844d-115d5a363f08" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A collection of matchboxes with the following content or words depicted:
+1. Sirius
+2. Oomrao Jan
+3. Kadambari
+4. Chabuk Swari
+5. Untitled (a couple under a tree)
+6. Untitled (a portrait of a European woman)
+7. Kadam Lila
+8. Under the shade of the palm
+9. Untitled (an Indian woman vested with a sari and blouse)
+10. Untitled (a European woman with her hand on her head)
+11. Untitled (a European woman with a hat, in black and white)
+12. ?:o 5017
+13. Dadja Stambole
+14. Mermaid
+15. Untitled (a European woman with her hands clasped together)
+16. Woman &amp; tigers
+17. Hindu Lady
+18. Untitled (a European woman, smelling flowers)
+19. Untitled (three Indian women sitting together)
+20. Queen of England
+21. Delavarjan
+22. The Grace
+23. Untitled (a European woman in blue and red dress)
+24. Kolumna Zygmunta III Warszawa, Polski Monopol, Zapa?czany
+25. The Sundari
+26. Indian Beauty
+27. Dancing Girl
+28. Tanjore Beauty
+29. Untitled (an Indian woman wearing a sari)
+30. La Hamaca, the swing.
+All matchbox covers except for one (No. 24) bear the inscription "made in Sweden".</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 7 cm, W 5 cm, portrait</notes>
+            <measurements type="height" unit="cm">7</measurements>
+            <measurements type="width" unit="cm">5</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_e879bd66-f532-5a10-b777-c04ab5002f3e" source="EXC Priya Paul Collection" pref="true" relids="i_e879bd66-f532-5a10-b777-c04ab5002f3e">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
+                <term type="conceptTopic">Hindu women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="87f0a4fc-7d85-5131-b530-2d91ae38028f">
+                <term type="conceptTopic">Western women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2a19f0d6-02d0-5598-ab17-39056bf01957">
+                <term type="conceptTopic">Made in Sweden</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f868db64-83f6-5d30-9158-0aacea827ab7">
+                <term type="conceptTopic">country of origin marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="13ed44ab-16b4-5096-8894-20d24787ddb9">
+                <term type="descriptiveTopic">matchbook</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">
+                <term type="descriptiveTopic">matchboxes</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="560499b4-eb13-5e69-9df0-8361ae923325">
+                <term type="iconographicTopic">queens (people)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
+                <term type="otherTopic">recheck-Matthias</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="5acbf595-8fb3-59b2-ade2-be46b9fa81f7">collage (technique)</technique>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">30 Matchbox covers</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="e2ffddec-1c86-5f86-bc8a-0199afaa71b7">matchboxes</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+A collection of matchboxes with the following content or words depicted:
+1. Sirius
+2. Oomrao Jan
+3. Kadambari
+4. Chabuk Swari
+5. Untitled (a couple under a tree)
+6. Untitled (a portrait of a European woman)
+7. Kadam Lila
+8. Under the shade of the palm
+9. Untitled (an Indian woman vested with a sari and blouse)
+10. Untitled (a European woman with her hand on her head)
+11. Untitled (a European woman with a hat, in black and white)
+12. ?:o 5017
+13. Dadja Stambole
+14. Mermaid
+15. Untitled (a European woman with her hands clasped together)
+16. Woman &amp; tigers
+17. Hindu Lady
+18. Untitled (a European woman, smelling flowers)
+19. Untitled (three Indian women sitting together)
+20. Queen of England
+21. Delavarjan
+22. The Grace
+23. Untitled (a European woman in blue and red dress)
+24. Kolumna Zygmunta III Warszawa, Polski Monopol, Zapa?czany
+25. The Sundari
+26. Indian Beauty
+27. Dancing Girl
+28. Tanjore Beauty
+29. Untitled (an Indian woman wearing a sari)
+30. La Hamaca, the swing.
+All matchbox covers except for one (No. 24) bear the inscription "made in Sweden".</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+229.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">229.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/108077</ext:value>
+                <ext:value>108077</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:48:22"/>
+        </ext:heidicon>
+    </work>
+</vra>

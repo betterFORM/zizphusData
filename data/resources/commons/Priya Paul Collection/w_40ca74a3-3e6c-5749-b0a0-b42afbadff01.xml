@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_40ca74a3-3e6c-5749-b0a0-b42afbadff01" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>2010</date>
+                </earliestDate>
+                <latestDate>
+                    <date>2010</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Absatz-Testeintrag
+Hier beginnt der Absatz.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43">Alisch, Johannes</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn">
+                <text>Test entry .</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-df06eec5-5fde-51a8-a53e-c2128a44dc43">Alisch, Johannes</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">some English text</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">some more English text. (ja)</text>
+            </inscription>
+            <inscription>
+                <text type="other">some haga huga. (ja)</text>
+            </inscription>
+            <inscription>
+                <text type="translation">some Zulu text translated. (ja)</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Testrecord_Künstlersignatur (Übersetzung)</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Akita / Senshû Museum der Stadt Akita</name>
+            </location>
+            <location type="formerOwner">
+                <note>Testrecord_Provenience Karl-Jaspers-Center</note>
+            </location>
+            <location source="GND" type="site">
+                <name type="geographic" vocab="local">Testrecord_Fundkontext Projekt 007</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="03e3dfe2-867b-509f-836b-d3c436c31b36" type="medium">wood (plant material)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>5 x 3 inch, oval</notes>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_93d52424-a024-55d2-92b4-ca14275caeb9" source="EXC Priya Paul Collection" pref="true" relids="i_93d52424-a024-55d2-92b4-ca14275caeb9">general view</relation>
+            <relation type="imageIs" refid="i_90321618-9554-5a72-80e4-3945d4f07961" source="EXC Priya Paul Collection" relids="i_90321618-9554-5a72-80e4-3945d4f07961">Testeintrag_associated image was anderes</relation>
+            <relation type="imageIs" refid="i_da730a25-0f3a-57d6-b0d2-84451820aa85" source="EXC Priya Paul Collection" relids="i_da730a25-0f3a-57d6-b0d2-84451820aa85">Testeintrag_associated image noch was anderes</relation>
+            <relation type="imageIs" refid="i_5d19d31a-9aff-5851-bfc0-ecf850d3d4f6" source="EXC Priya Paul Collection" relids="i_5d19d31a-9aff-5851-bfc0-ecf850d3d4f6">Testeintrag_associated image Schokoladeneis</relation>
+            <relation type="imageIs" refid="i_71d75ead-87f6-5e12-b840-401fd82abfe8" source="EXC Priya Paul Collection" relids="i_71d75ead-87f6-5e12-b840-401fd82abfe8">Testeintrag_associated image Pittiplatsch</relation>
+            <relation type="imageIs" refid="i_ea6ff9e6-8454-57bf-9ec3-2178d06cf65d" source="EXC Priya Paul Collection" relids="i_ea6ff9e6-8454-57bf-9ec3-2178d06cf65d">Testeintrag_associated image titel</relation>
+            <relation type="imageIs" refid="i_cc7e6774-492e-56da-a76b-0f5da09d3fed" source="EXC Priya Paul Collection" relids="i_cc7e6774-492e-56da-a76b-0f5da09d3fed">Testeintrag_associated image PingPong</relation>
+            <relation type="imageIs" refid="i_3760460c-589b-54f5-92fd-876d1b2abf34" source="EXC Priya Paul Collection" relids="i_3760460c-589b-54f5-92fd-876d1b2abf34">Testeintrag_associated image homing missile</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.asia-europe.uni-heidelberg.de/en/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.asia-europe.uni-heidelberg.de/en/research/heidelberg-research-architecture/hra-databases/cluster-databases/transcultural-image-database/collections.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=heidelberg+vossstrasse&amp;sll=49.443575,8.706322&amp;sspn=0.166528,0.445976&amp;ie=UTF8&amp;hq=&amp;hnear=Vo%C3%9Fstra%C3%9Fe,+69115+Heidelberg,+Baden-W%C3%BCrttemberg,+Germany&amp;ll=49.409549,8.688941&amp;spn=0.010415,0.</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>Testrecord_Epoch 21st century</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="c7689fc3-5d97-5138-9580-133df0790a46">copper engravings (visual works)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Testrecord_20120316_title</title>
+            <title type="descriptive" pref="false">Testrecord_Titel-Umschrift Assalamo alaikum</title>
+            <title type="descriptive" pref="false">Testrecord_Titel-Zeichen; 中文; السلام علیکُم عید مبارک</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+            <worktype>Testrecord_Form/Genre Photography</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Testrecord_Artist(characters)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>董其昌</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_serientitel" status="0" display="Serientitel">
+                <ext:value>Testrecord_Serientitel</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_serientitel_umschrift" status="0" display="Serientitel Umschrift">
+                <ext:value>Testrecord_Serientitel-Umschrift äöüß</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_serientitel_zeichen" status="0" display="Serientitel Zeichen">
+                <ext:value>Testrecord_Serientitel (Zeichen) 這是中文</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description:
+Testrecord description Nr. 2 Beschreibung (ma)</ext:value>
+                <ext:value>description-en:
+Absatz-Testeintrag
+Hier beginnt der Absatz. (ja)</ext:value>
+                <ext:value>description-en:
+Test entry description. (ja)</ext:value>
+                <ext:value>text-en:
+some English text</ext:value>
+                <ext:value>text-en:
+some more English text. (ja)</ext:value>
+                <ext:value>text-transcription-zu:
+some haga huga. (ja)</ext:value>
+                <ext:value>text-translation-en:
+some Zulu text translated. (ja)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_detail" status="0" display="Detail/Element">
+                <ext:value>Testrecord_Detail/Element 
+葉了怒目查
+Neuer Dummy-record
+äöüß Zeilenumbruch
+
+(vorher gabs ne leere Zeile)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_gattung_umschrift" status="0" display="Gattung Umschrift">
+                <ext:value>Testrecord_Form/Genre transcript des brauch mer fast nie net</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_gattung_zeichen" status="0" display="Gattung Zeichen">
+                <ext:value>Testrecord_Form/Genre characters 攝影</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>Cluster_cut_warp_flat_IMG_9110.jpg
+
+Below testentry take from image #109966
+Kommentar</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The Picture of the Taj Mahal is regularely seen as a decorative element in either muslim or hindu households. The Taj Mahal can be called a national icon. (Catherine B. Asher) (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+It was contructed by the mughal emperor, Shah Jahan in memory of his queen, Mumtaz Mahal. The Taj Mahal is the ultimate symbol of love. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+It features among seven wonders of the world and it is located at Agra, India. (AC)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The Taj Mahal located in the Indian City Agra (Uttar Pradesh) is seen as a symbol for the love between the Mughal Emperor Shah Jahan and his Wife Mumtaz Mahal. The couple on the image is probably supposed to be the royal couple, but as Mumtaz Mahal was observing purdah (cover-up) all her life, her depiction on this poster must be imagination Shah Jahans devotion to Mumtaz Mahal was most likely genuine for she accompanied him on all his campaigns, and during and after their marriage he fathered no children other than hers. Mughal chronicles report at length on the emperor’s profound grief at her death. The saga of their love and the emperor’s despair over her death became legend. (Catherine B. Asher) (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.boloji.com/poetry/0400-0500/0449.htm, last accessed 2010.10.18 (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://binaguptapoetry.com/shrine-of-love-taj-mahal-386.htm (18.10.2010) (gs)</ext:value>
+                <ext:value>related hyperlinks:
+www.imdb.com/title/tt0242509/, last accessed 2012-02-28, story line, main actors. (gs)</ext:value>
+                <ext:value>related literature:
+Wayne E. Begley, “The Myth of the Taj Mahal and a New Theory of Its Symbolic Meaning,” Art Bulletin 61 (1979), 7-37. (gs)</ext:value>
+                <ext:value>related literature:
+Asher, Catherine B. 2010. Fantasizing the Mughals and
+Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (19.10.2010) (gs)</ext:value>
+                <ext:value>related literature:
+Cyran, Eberhardt (1993). Taj Mahal. Die Erinnerungen des Kaisers Sha Jahan." Heilbronn: Salzer. (gs)</ext:value>
+                <ext:value>related literature:
+Preston, Diana (2007). "A teardrop on the cheek of time. The story of the Taj Mahal". London: Doubleday. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_ksignatur_zeichen" status="0" display="artist_signature_characters">
+                <ext:value>Testrecord_Testeintrag Künstlersignatur (Schriftzeichen) 這是中文</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_ksignatur_umschrift" status="0" display="artist_signature_transcription">
+                <ext:value>Testrecord_Künstlersignatur (Umschrift)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Preston, Diana (2007). "A teardrop on the cheek of time. The story of the Taj Mahal". London: Doubleday.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Cyran, Eberhardt (1993). Taj Mahal. Die Erinnerungen des Kaisers Sha Jahan." Heilbronn: Salzer.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Wayne E. Begley, “The Myth of the Taj Mahal and a New Theory of Its Symbolic Meaning,” Art Bulletin 61 (1979), 7-37.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Asher, Catherine B. 2010. Fantasizing the Mughals and
+Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html (19.10.2010)</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">www.imdb.com/title/tt0242509/</ext:value>
+                <ext:value type="accessed">2012-02-28</ext:value>
+                <ext:value type="comment">story line, main actors.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://binaguptapoetry.com/shrine-of-love-taj-mahal-386.htm</ext:value>
+                <ext:value type="accessed"/>
+                <ext:value type="comment">(18.10.2010)</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.boloji.com/poetry/0400-0500/0449.htm</ext:value>
+                <ext:value type="accessed">2010-10-18</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">It features among seven wonders of the world and it is located at Agra, India.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Chithavong, Arina</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-b90fdecd-e3c4-541b-956e-afac9f0c7866</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The Taj Mahal located in the Indian City Agra (Uttar Pradesh) is seen as a symbol for the love between the Mughal Emperor Shah Jahan and his Wife Mumtaz Mahal. The couple on the image is probably supposed to be the royal couple, but as Mumtaz Mahal was observing purdah (cover-up) all her life, her depiction on this poster must be imagination Shah Jahans devotion to Mumtaz Mahal was most likely genuine for she accompanied him on all his campaigns, and during and after their marriage he fathered no children other than hers. Mughal chronicles report at length on the emperor’s profound grief at her death. The saga of their love and the emperor’s despair over her death became legend.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Catherine B. Asher</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">It was contructed by the mughal emperor, Shah Jahan in memory of his queen, Mumtaz Mahal. The Taj Mahal is the ultimate symbol of love.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The Picture of the Taj Mahal is regularely seen as a decorative element in either muslim or hindu households. The Taj Mahal can be called a national icon.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Catherine B. Asher</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Testrecord_Context in PPcoll: state of preservation</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Testrecord_Persons Karl Marx</ext:value>
+            </ext:item>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Mahatma Gandhi</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/176114</ext:value>
+                <ext:value>i_90321618-9554-5a72-80e4-3945d4f07961</ext:value>
+                <ext:value>Testeintrag_associated image was anderes</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/176115</ext:value>
+                <ext:value>i_da730a25-0f3a-57d6-b0d2-84451820aa85</ext:value>
+                <ext:value>Testeintrag_associated image noch was anderes</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/176118</ext:value>
+                <ext:value>i_5d19d31a-9aff-5851-bfc0-ecf850d3d4f6</ext:value>
+                <ext:value>Testeintrag_associated image Schokoladeneis</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/176117</ext:value>
+                <ext:value>i_71d75ead-87f6-5e12-b840-401fd82abfe8</ext:value>
+                <ext:value>Testeintrag_associated image Pittiplatsch</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/176112</ext:value>
+                <ext:value>i_ea6ff9e6-8454-57bf-9ec3-2178d06cf65d</ext:value>
+                <ext:value>Testeintrag_associated image titel</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/176116</ext:value>
+                <ext:value>i_cc7e6774-492e-56da-a76b-0f5da09d3fed</ext:value>
+                <ext:value>Testeintrag_associated image PingPong</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/176119</ext:value>
+                <ext:value>i_3760460c-589b-54f5-92fd-876d1b2abf34</ext:value>
+                <ext:value>Testeintrag_associated image homing missile</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.asia-europe.uni-heidelberg.de/en/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.asia-europe.uni-heidelberg.de/en/research/heidelberg-research-architecture/hra-databases/cluster-databases/transcultural-image-database/collections.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url3" status="0" display="URL3">
+                <ext:value type="url3">http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=heidelberg+vossstrasse&amp;sll=49.443575,8.706322&amp;sspn=0.166528,0.445976&amp;ie=UTF8&amp;hq=&amp;hnear=Vo%C3%9Fstra%C3%9Fe,+69115+Heidelberg,+Baden-W%C3%BCrttemberg,+Germany&amp;ll=49.409549,8.688941&amp;spn=0.010415,0.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/226566</ext:value>
+                <ext:value>226566</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:51:09"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_0b32536c-aeca-53ee-aa5a-1f43398268f1" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A collection of four picture postcards: The first one on the upper left shows Mr. B.R. Dutt in hunger strike, protesting against the bad conditions for political prisoners. A man with a halo around his head is standing next to him. On the right, a woman can be seen on the shores of a river, seemingly having an unusual encounter with a ghost carrying his own head on a plate. The lower left image shows Mata India, India's geo body, in her typical iconography, with tricolor flag and spinning wheel. The last image on the lower right shows a couple of men, partly wearing flower garlands and bindis. All four images carry different information concerning their publishers.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Fighting for the emancipation of Political Prisoners.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Mr. B. R. Dutt on hunger strike
+"The mission of late Jatin who died fighting for the betterment of Political Prisoners must be fought to the finished."
+Imperial Picture House Anarkali Lahore</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">No. 2004 Copyright
+Coronattion Press Cawnpore 
+Publishers.
+Ganganarian Beharilal, 
+Post Box No. 57
+Cawnpore</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Sri Bharat Mata
+Punjabi Press, Delhi</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">B.B. Press Lucknow</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">ADD TEXT HERE</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 15 cm, H 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_cc4b7e2b-0f7d-58a7-9b40-2159e1bf17c1" source="EXC Priya Paul Collection" pref="true" relids="i_cc4b7e2b-0f7d-58a7-9b40-2159e1bf17c1">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="59aa25e0-c595-5e13-b93e-e3504c739cd6">
+                <term type="conceptTopic">Hindu nationalism</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c15a508b-6394-5b93-ae14-b90d74b868be">
+                <term type="conceptTopic">nationalism</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="01450e48-7a4c-53d0-bef0-dca6fe8a373e">
+                <term type="conceptTopic">Hinduism</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6af58f88-7f34-545e-9a30-d88dd22e9ceb">
+                <term type="descriptiveTopic">festoon (motif)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a5a5d700-ad58-59c8-95b1-7f82f2fae90e">
+                <term type="descriptiveTopic">rivers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
+                <term type="descriptiveTopic">Indian flag</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7bc1a5ec-d17a-5c51-9650-0c4d7abc2327">
+                <term type="descriptiveTopic">prisons (institutions)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="439002b8-6c37-537a-b250-636cd927c04d">
+                <term type="descriptiveTopic">picture postcards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+                <term type="iconographicTopic">glories</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+                <term type="otherTopic">recheck-new</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">four postcards with nationalist themes, including mother India on a map of India</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2aa27e64-0748-5eed-bd91-099fc1edf47f">postcards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Fighting for the emancipation of Political Prisoners.</ext:value>
+                <ext:value>text-en:
+Mr. B. R. Dutt on hunger strike
+"The mission of late Jatin who died fighting for the betterment of Political Prisoners must be fought to the finished."
+Imperial Picture House Anarkali Lahore</ext:value>
+                <ext:value>text-en: 
+No. 2004 Copyright
+Coronattion Press Cawnpore 
+Publishers.
+Ganganarian Beharilal, 
+Post Box No. 57
+Cawnpore</ext:value>
+                <ext:value>text-en: 
+Sri Bharat Mata
+Punjabi Press, Delhi</ext:value>
+                <ext:value>text-en:
+B.B. Press Lucknow</ext:value>
+                <ext:value>text-hi:
+ADD TEXT HERE</ext:value>
+                <ext:value>description-en:
+A collection of four picture postcards: The first one on the upper left shows Mr. B.R. Dutt in hunger strike, protesting against the bad conditions for political prisoners. A man with a halo around his head is standing next to him. On the right, a woman can be seen on the shores of a river, seemingly having an unusual encounter with a ghost carrying his own head on a plate. The lower left image shows Mata India, India's geo body, in her typical iconography, with tricolor flag and spinning wheel. The last image on the lower right shows a couple of men, partly wearing flower garlands and bindis. All four images carry different information concerning their publishers. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/2045.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/2045.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120674</ext:value>
+                <ext:value>120674</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:28:41"/>
+        </ext:heidicon>
+    </work>
+</vra>

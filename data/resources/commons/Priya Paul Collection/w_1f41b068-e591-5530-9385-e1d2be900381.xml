@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_1f41b068-e591-5530-9385-e1d2be900381" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1945</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1945</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The image shows a fat man wearing a loose salwar (pants) and kurta (Indian style shirt) and holding his hands to his chest. A woman is on her knees next to him and holding one hand to her chest and the other reaches out towards the man. She is dressed in a fitted salwar kameez and kneels on a tiger hide. They are in an open space with a latticed wall behind them and several lamps can be seen hanging from the ceiling. Both the man and the woman are wearing headdresses.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="e869f2a2-bbec-5d1f-a015-d1f8cefad575">
+                <text>surface-mounted</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Hind Pictures present
+Laila Majnu
+A. BENGAL FILM RELEASE</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">लैला मजनुं</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="urd">لیلی مجنون</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">starring
+SWARNALATA
+NAZIR
+and GOPE</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 25 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">25</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_1a11a4cc-da76-5535-baad-6b1e6490307d" source="EXC Priya Paul Collection" pref="true" relids="i_1a11a4cc-da76-5535-baad-6b1e6490307d">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+		</sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e3d90b31-d015-5f0f-9b69-7844b074ef32">
+                <term type="descriptiveTopic">lamps (lighting devices)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d5948ba8-5ab8-5065-bc79-0c3d471a75e1">
+                <term type="descriptiveTopic">kameez (garnments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2da4f9b0-738c-5b0b-a1d8-1cccce2bb8ef">
+                <term type="descriptiveTopic">kurta (garnments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f5b80cd3-ba75-5883-b946-de6ec60cea02">
+                <term type="descriptiveTopic">headdresses</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="de00b82b-4e4c-59ce-8667-9c509e176943">
+                <term type="descriptiveTopic">shalwar</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="23074a6b-d81e-5423-a43c-89d55ca26b35">
+                <term type="descriptiveTopic">tiger skin rug</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="daff83d7-ee6e-50cb-8d4d-4092ebd4fb32">
+                <term type="iconographicTopic">Laila Majnu (folk tale)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="ea935392-d4c7-5801-968f-9da25f4a6780">gelatin silver prints</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Laila Majnu</title>
+            <title type="descriptive" pref="false">लैला मजनुं</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="794bef07-8b23-5ece-a426-60be06dcda8f">photographs</worktype>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Hind Pictures present
+Laila Majnu
+A. BENGAL FILM RELEASE</ext:value>
+                <ext:value>text-hi:
+लैला मजनुं</ext:value>
+                <ext:value>text-ur:
+لیلی مجنون</ext:value>
+                <ext:value>text-en:
+starring
+SWARNALATA
+NAZIR
+and GOPE</ext:value>
+                <ext:value>description-en:
+The image shows a fat man wearing a loose salwar (pants) and kurta (Indian style shirt) and holding his hands to his chest. A woman is on her knees next to him and holding one hand to her chest and the other reaches out towards the man. She is dressed in a fitted salwar kameez and kneels on a tiger hide. They are in an open space with a latticed wall behind them and several lamps can be seen hanging from the ceiling. Both the man and the woman are wearing headdresses. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/2170.tif</ext:value>
+                <ext:value>related literature:
+Kakar, Sudhir and Jonathan Ross. 1986. Tales of Love, Sex and Danger. New Delhi: Oxford University Press.</ext:value>
+                <ext:value>related literature:
+Roy, Anjali Gera. 2010. "Bhakti and Ashiqi? Hindi Cinema's Syncretic Heritage". Studies in South Asian Film and Media 2(1): 41-55.</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+A stamp which reads: Bengal Films Exchange, Calcutta. (sg)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Roy, Anjali Gera. 2010. "Bhakti and Ashiqi? Hindi Cinema's Syncretic Heritage". Studies in South Asian Film and Media 2(1): 41-55.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Kakar, Sudhir and Jonathan Ross. 1986. Tales of Love, Sex and Danger. New Delhi: Oxford University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">A stamp which reads: Bengal Films Exchange, Calcutta.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Gruening, Simon</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/2170.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>holes &amp; stains</ext:value>
+            </ext:item>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>yellowed</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120797</ext:value>
+                <ext:value>120797</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:34:08"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_ca3a8c62-65e5-5fe1-9064-f9eb9c3b1f71" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-0f86c459-d414-531d-8a05-2b73aa8f9f6e">Dharmendra</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-a038c6e8-5092-51f3-8823-25c7dfca30d4">Malini, Hema</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-6d2aec88-f9d1-53b5-9f59-1f60716d1bfc">Chatterjee, Basu</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-6a7d7c9d-3828-5fa0-9d50-fd8bd143bb38">Singh, Bikram</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-878c1ee0-137f-5c1f-9d22-9c9b7070413f">Singh, Kanwar Ajit</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1976</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1976</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this image from a lobby card for the Hindi movie "Dillagi" released in 1978, Dharmendra and Hema Malini, can be seen walking together in a forest. On their right, is a tree with graffiti on it. On the lower left section of the image, a painting of a rose placed inside a book can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Bikramjeet Films
+presents
+Basu Chatterjs's
+Dillagi
+Produced by Bikram Singh - Ajit Singh
+Music Rajesh Roshan
+Lyrics Yogesh</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_3945b94f-ea1a-58a6-a738-37c1df41f6ae" source="EXC Priya Paul Collection" pref="true" relids="i_3945b94f-ea1a-58a6-a738-37c1df41f6ae">general view</relation>
+            <relation type="imageIs" refid="i_166286a4-88fc-52ad-b9d9-d19d2423a9dc" source="EXC Priya Paul Collection" relids="i_166286a4-88fc-52ad-b9d9-d19d2423a9dc">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.imdb.com/title/tt0157540/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
+                <term type="descriptiveTopic">couples</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+                <term type="descriptiveTopic">trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e57ca63d-8ca2-5534-9e3f-5688fa3ffb18">
+                <term type="descriptiveTopic">roses (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
+                <term type="descriptiveTopic">forests</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="939cb831-b49b-521d-9fa0-e48920ce2228">
+                <term type="iconographicTopic">Dillagi (movie, 1978)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Dillagi</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Bikramjeet Films
+presents
+Basu Chatterjs's
+Dillagi
+Produced by Bikram Singh - Ajit Singh
+Music Rajesh Roshan
+Lyrics Yogesh</ext:value>
+                <ext:value>description-en:
+On this image from a lobby card for the Hindi movie "Dillagi" released in 1978, Dharmendra and Hema Malini, can be seen walking together in a forest. On their right, is a tree with graffiti on it. On the lower left section of the image, a painting of a rose placed inside a book can be seen. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Story line of the movie from the website imdb: Phoolrenu lives in Kashipur with her widowed mom, and younger brother, Ramesh. She teaches Chemistry in distant Roop Narayan Girls' College, where because of her unfriendly and cold disposition she has been nicknamed 'carbon dioxide'. It is here that she meets the new Sanskrit Lecturer, Swarnkamal, who instantly falls head-over-heels in love with her, while she openly detests him; his manner of teaching Sanskrit; the teachings of Maha-Kavi Kali-Das; the romance between Lord Shankar and Devi Parvati; and the love poems that are having a detrimental effect on the entire female student body. Swarnkamal's overtures towards her, especially during the festival of color, Holi; then his asking her to be his Shakuntala during a play; his visit to Kashipur, amongst others, appear to bear no fruit. It is then he learns that he does have a place in her heart, but wants him to go through proper channels by responding to her matrimonial advertisement in a newspaper... (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0157540/, last accessed 2011-12-18, story line, leading actors, director. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0157540/</ext:value>
+                <ext:value type="accessed">2011-12-18</ext:value>
+                <ext:value type="comment">story line, leading actors, director.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Story line of the movie from the website imdb: Phoolrenu lives in Kashipur with her widowed mom, and younger brother, Ramesh. She teaches Chemistry in distant Roop Narayan Girls' College, where because of her unfriendly and cold disposition she has been nicknamed 'carbon dioxide'. It is here that she meets the new Sanskrit Lecturer, Swarnkamal, who instantly falls head-over-heels in love with her, while she openly detests him; his manner of teaching Sanskrit; the teachings of Maha-Kavi Kali-Das; the romance between Lord Shankar and Devi Parvati; and the love poems that are having a detrimental effect on the entire female student body. Swarnkamal's overtures towards her, especially during the festival of color, Holi; then his asking her to be his Shakuntala during a play; his visit to Kashipur, amongst others, appear to bear no fruit. It is then he learns that he does have a place in her heart, but wants him to go through proper channels by responding to her matrimonial advertisement in a newspaper...</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/123069</ext:value>
+                <ext:value>i_166286a4-88fc-52ad-b9d9-d19d2423a9dc</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.imdb.com/title/tt0157540/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119328</ext:value>
+                <ext:value>119328</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:33:45"/>
+        </ext:heidicon>
+    </work>
+</vra>

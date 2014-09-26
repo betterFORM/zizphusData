@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://exist-db.org/vra/extension" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+  <work id="w_fea43f3d-b279-526c-8e9d-0235bb4bfd1c" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+    <agentSet>
+      <agent>
+        <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+        <role vocab="marcrelator" type="code">col</role>
+      </agent>
+      <agent>
+        <culture/>
+        <name vocab="local" type="corporate" refid="uuid-c65baded-1fa5-5605-912a-d8cb1517da7e">Delhi Calendar Manufacturing Company</name>
+        <role vocab="marcrelator" type="code">cli</role>
+      </agent>
+    </agentSet>
+    <dateSet>
+      <date type="creation">
+        <earliestDate>
+          <date>1941</date>
+        </earliestDate>
+        <latestDate>
+          <date>1941</date>
+        </latestDate>
+      </date>
+    </dateSet>
+    <descriptionSet>
+      <description lang="eng" script="Latn">
+        <text>A calendar advertisement  of Delhi Calendar Mfg.Co., Delhi from 1941is showing a nature scene with a waterfall, mountains, a forest, trees and the sun. A calendar of April 1941 is posted below the picture.</text>
+        <author>
+          <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+          <role vocab="marcrelator" type="code">mdc</role>
+        </author>
+      </description>
+      <description lang="eng" script="Latn">
+        <text>This is a sample record, data may be outdated. The original record may be accessed at w_f578db5d-6e74-5629-b426-9eb008339e09</text>
+        <author>
+          <name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
+          <role vocab="marcrelator" type="code">edt</role>
+          <name vocab="local" type="corporate" refid="uuid-492ff6ac-d4b8-5d8a-b6c9-58287f9184cb">PPColl_editors</name>
+          <role vocab="marcrelator" type="code">edt</role>
+        </author>
+        <author/>
+      </description>
+    </descriptionSet>
+    <inscriptionSet>
+      <inscription>
+        <text type="text" lang="eng">For your Services please Always Remember</text>
+      </inscription>
+      <inscription>
+        <text type="text" lang="eng">Delhi Calendar Mfg. Co.,
+Kashmere Gate,
+DELHI.</text>
+      </inscription>
+      <inscription>
+        <text type="text" lang="eng">Specialist in:
+High Class Calendars, Blotters, Tapes, New Year, Christmas, Dewali and I'ds Cards Manufacturers, Advertisers &amp; Field Creators for New Novelties.</text>
+      </inscription>
+      <inscription>
+        <text type="text" lang="eng">This is a sample
+of our complete
+Calendar
+with
+advertisement in
+single Colour
+&amp;
+Monthly date
+pad in 12 sheets.
+The Tin Mount-
+ing will also be
+done on Bottom
+&amp; Top with a
+Hanging Tape.</text>
+      </inscription>
+      <inscription>
+        <text type="text" lang="hin">ADD TEXT HERE</text>
+      </inscription>
+      <inscription>
+        <text type="text" lang="urd">ADD TEXT HERE</text>
+      </inscription>
+      <inscription>
+        <text type="text" lang="eng">Prices please see our Clause no. 7 of the Price List.
+NEW YEAR</text>
+      </inscription>
+    </inscriptionSet>
+    <locationSet>
+      <location source="EXC" type="repository">
+        <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+      </location>
+      <location source="EXC" type="repository">
+        <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+      </location>
+    </locationSet>
+    <materialSet>
+      <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+    </materialSet>
+    <measurementsSet>
+      <notes>H 38 cm, W 25 cm,  portrait</notes>
+      <measurements type="height" unit="cm">38</measurements>
+      <measurements type="width" unit="cm">25</measurements>
+      <measurements shape="portrait"/>
+    </measurementsSet>
+    <relationSet>
+      <relation type="imageIs" refid="i_658d5429-8eab-578e-9069-729a1910329e" source="EXC Priya Paul Collection" pref="true">general view</relation>
+    </relationSet>
+    <rightsSet>
+      <rights type="copyrighted">
+        <rightsHolder/>
+        <text>Copyrighted. Copyright with the original artists and publishers.</text>
+      </rights>
+    </rightsSet>
+    <subjectSet>
+      <subject source="EXC" vocab="LOCAL" refid="4a3a539e-303c-5d39-89ff-db860c33abf6">
+        <term type="conceptTopic">nature</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="350c63f5-06b2-5ffb-84a8-5119026f7230">
+        <term type="descriptiveTopic">Sun (star)</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="673d0b1a-3753-53e6-a397-f13384501b2b">
+        <term type="descriptiveTopic">mountains</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="a607ab4d-4d55-5515-9767-bb12040c3bdf">
+        <term type="descriptiveTopic">landscapes (environments)</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+        <term type="descriptiveTopic">advertisements</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
+        <term type="descriptiveTopic">calendars</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+        <term type="descriptiveTopic">trees</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
+        <term type="descriptiveTopic">forests</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="d9dd4950-4421-58b0-8c4c-6948f8311099">
+        <term type="descriptiveTopic">deer (animals)</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="40344771-1132-5fc6-acf5-9757c17a99d9">
+        <term type="descriptiveTopic">waterfalls (natural bodies of water)</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+        <term type="otherTopic">recheck</term>
+      </subject>
+      <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+        <term type="otherTopic">recheck-original-language</term>
+      </subject>
+    </subjectSet>
+    <techniqueSet>
+      <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+    </techniqueSet>
+    <titleSet>
+      <title type="descriptive" pref="true" lang="eng" script="Latn">Calendar advertisement of Delhi Calendar Mfg. Co.</title>
+    </titleSet>
+    <worktypeSet>
+      <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+      <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+    </worktypeSet>
+    <ext:heidicon>
+      <ext:item type="f_description" status="0" display="Full_Description">
+        <ext:value>text-en:
+For your Services please Always Remember</ext:value>
+        <ext:value>text-en:
+Delhi Calendar Mfg. Co.,
+Kashmere Gate,
+DELHI.</ext:value>
+        <ext:value>text-en:
+Specialist in:
+High Class Calendars, Blotters, Tapes, New Year, Christmas, Dewali and I'ds Cards Manufacturers, Advertisers &amp; Field Creators for New Novelties.</ext:value>
+        <ext:value>text-en:
+This is a sample
+of our complete
+Calendar
+with
+advertisement in
+single Colour
+&amp;
+Monthly date
+pad in 12 sheets.
+The Tin Mount-
+ing will also be
+done on Bottom
+&amp; Top with a
+Hanging Tape.</ext:value>
+        <ext:value>text-hi: 
+ADD TEXT HERE</ext:value>
+        <ext:value>text-ur:
+ADD TEXT HERE</ext:value>
+        <ext:value>text-en:
+Prices please see our Clause no. 7 of the Price List.
+NEW YEAR</ext:value>
+        <ext:value>description-en:
+A calendar advertisement  of Delhi Calendar Mfg.Co., Delhi from 1941is showing a nature scene with a waterfall, mountains, a forest, trees and the sun. A calendar of April 1941 is posted below the picture.</ext:value>
+      </ext:item>
+    </ext:heidicon>
+    <ext:heidicon>
+      <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+        <ext:value>good</ext:value>
+      </ext:item>
+    </ext:heidicon>
+    <ext:heidicon>
+      <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+        <ext:value>http://heidicon.ub.uni-heidelberg.de/id/109868</ext:value>
+        <ext:value>109868</ext:value>
+      </ext:item>
+    </ext:heidicon>
+    <ext:heidicon>
+      <ext:administrative type="heidicon2vra" date="2014-03-11T15:34:09">
+			</ext:administrative>
+    </ext:heidicon>
+  </work>
+</vra>

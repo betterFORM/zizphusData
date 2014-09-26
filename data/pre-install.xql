@@ -13,15 +13,18 @@ declare variable $log-level := "INFO";
 declare variable $biblio-admin-user := "editor";
 declare variable $biblio-users-group := "biblio.users";
 
-declare variable $pp-dir := "/resources/commons/Priya_Paul_Collection";
+declare variable $pp-dir := "/resources/commons/Priya Paul Collection";
 declare variable $pp-collection := "/db" || $pp-dir;
+
+declare variable $collection-permissions as xs:integer := util:base-to-integer(0755, 8);
+declare variable $resource-permissions as xs:integer := util:base-to-integer(0600, 8);
 
 (: START helper function :)
 declare function local:mkcol-recursive($collection, $components) {
     if (exists($components)) then
         let $newColl := concat($collection, "/", $components[1])
         return (
-            xmldb:create-collection($collection, $components[1]),
+            xmldb:create-collection(xmldb:encode($collection), xmldb:encode($components[1])),
             local:mkcol-recursive($newColl, subsequence($components, 2))
         )
     else
@@ -34,18 +37,18 @@ declare function local:mkcol($collection, $path) {
 };
 
 (: Helper function manage resource permissions :)
-declare function local:set-collection-resource-permissions($collection as xs:string, $owner as xs:string, $group as xs:string, $permissions as xs:int) {
+declare function local:set-collection-resource-permissions($collection as xs:string, $owner as xs:string, $group as xs:string) {
     if(xmldb:collection-available($collection))
     then (
         let $resources :=
-            for $resource in xmldb:get-child-resources($collection)
+            for $resource in xmldb:get-child-resources(xmldb:encode($collection))
                 return
-                    xmldb:set-resource-permissions($collection, $resource, $owner, $group, $permissions)
+                    xmldb:set-resource-permissions(xmldb:encode($collection), $resource, $owner, $group, $resource-permissions)
         let $collections :=
             for $child-collection in  xmldb:get-child-collections($collection)
-                         let $permission := xmldb:set-collection-permissions($collection || "/" || $child-collection, $owner, $group, $permissions)
+                         let $permission := xmldb:set-collection-permissions(xmldb:encode($collection || "/" || $child-collection), $owner, $group, $collection-permissions)
                          return 
-                                 local:set-collection-resource-permissions($collection || "/" || $child-collection, $owner, $group, $permissions)
+                                 local:set-collection-resource-permissions(xmldb:encode($collection || "/" || $child-collection), $owner, $group)
          return ()
     ) else ()
 };
@@ -67,14 +70,15 @@ local:mkcol('/db/', $pp-dir || '/VRA_images'),
 local:mkcol('/db/system/config/db', 'resources/commons'),
 util:log($log-level, "...DONE"),
 
-util:log($log-level, "Storing files ..."),
-xmldb:store-files-from-pattern($pp-collection, $dir || $pp-dir, "w_*.xml"),
-xmldb:store-files-from-pattern($pp-collection || '/VRA_images', $dir || $pp-dir || '/VRA_images', "i_*.xml"),
+
+util:log($log-level, "Storing files ..." || xmldb:encode($pp-collection) || ":" ||$dir || $pp-dir),
+xmldb:store-files-from-pattern(xmldb:encode($pp-collection), $dir || $pp-dir, "w_*.xml"),
+xmldb:store-files-from-pattern(xmldb:encode($pp-collection || '/VRA_images'), $dir || $pp-dir || '/VRA_images', "i_*.xml"),
 xmldb:store-files-from-pattern('/db/system/config/db/resources/commons', $dir || '/system/config/db/resources/commons', '*.xconf'),
 util:log($log-level, "...DONE"),
 
 util:log($log-level, "Permissions: Set permissions for record  data..."),
-local:set-collection-resource-permissions('/db/resources/commons/Priya_Paul_Collection', $biblio-admin-user, $biblio-users-group, util:base-to-integer(0755, 8)),
+local:set-collection-resource-permissions('/db/resources/commons/Priya Paul Collection', $biblio-admin-user, $biblio-users-group),
 util:log($log-level, "...DONE"),
 
 util:log($log-level, "... ALL DONE")

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_45cf3d46-6577-58c8-bfb3-5c5a4c6b4cc5" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>50 cm x 35 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">35</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_f5935e90-280d-5112-9007-ceb54e7175ca" source="EXC Priya Paul Collection" pref="true" relids="i_f5935e90-280d-5112-9007-ceb54e7175ca">general view</relation>
+            <relation type="imageIs" refid="i_c9036de7-1fff-5c4f-8dca-797cf46d9bbd" source="EXC Priya Paul Collection" relids="i_c9036de7-1fff-5c4f-8dca-797cf46d9bbd">close-up view</relation>
+            <relation type="imageIs" refid="i_b40a2fd2-087b-53db-b71b-c91cb41e25b4" source="EXC Priya Paul Collection" relids="i_b40a2fd2-087b-53db-b71b-c91cb41e25b4">detail view</relation>
+            <relation type="imageIs" refid="i_dd2e8861-351b-5120-a4e5-54d7cbafbb15" source="EXC Priya Paul Collection" relids="i_dd2e8861-351b-5120-a4e5-54d7cbafbb15">detail view</relation>
+            <relation type="imageIs" refid="i_47d72219-5fc7-5674-8816-0561d2ab8764" source="EXC Priya Paul Collection" relids="i_47d72219-5fc7-5674-8816-0561d2ab8764">close-up view</relation>
+            <relation type="imageIs" refid="i_3d02b6d9-c918-573b-82f7-d23d469d4763" source="EXC Priya Paul Collection" relids="i_3d02b6d9-c918-573b-82f7-d23d469d4763">close-up view</relation>
+            <relation type="imageIs" refid="i_dbcc22ae-2966-5d9d-8fc3-92662af776fd" source="EXC Priya Paul Collection" relids="i_dbcc22ae-2966-5d9d-8fc3-92662af776fd">close-up view</relation>
+            <relation type="imageIs" refid="i_3e63c3bb-4bfe-5827-a2de-c70ba5ce07ee" source="EXC Priya Paul Collection" relids="i_3e63c3bb-4bfe-5827-a2de-c70ba5ce07ee">detail view</relation>
+            <relation type="imageIs" refid="i_17960bd6-a2b3-5179-8a54-bf73ae1c8395" source="EXC Priya Paul Collection" relids="i_17960bd6-a2b3-5179-8a54-bf73ae1c8395">detail view</relation>
+            <relation type="imageIs" refid="i_7cc45ece-2191-5bed-a776-0b52d2812f8a" source="EXC Priya Paul Collection" relids="i_7cc45ece-2191-5bed-a776-0b52d2812f8a">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">1938 Advertisement calendar for Naphtol A. J.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/20080502_0467.jpg</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/20080502_0467.jpg</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118477</ext:value>
+                <ext:value>i_c9036de7-1fff-5c4f-8dca-797cf46d9bbd</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118482</ext:value>
+                <ext:value>i_b40a2fd2-087b-53db-b71b-c91cb41e25b4</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118480</ext:value>
+                <ext:value>i_dd2e8861-351b-5120-a4e5-54d7cbafbb15</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118476</ext:value>
+                <ext:value>i_47d72219-5fc7-5674-8816-0561d2ab8764</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118478</ext:value>
+                <ext:value>i_3d02b6d9-c918-573b-82f7-d23d469d4763</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118479</ext:value>
+                <ext:value>i_dbcc22ae-2966-5d9d-8fc3-92662af776fd</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118484</ext:value>
+                <ext:value>i_3e63c3bb-4bfe-5827-a2de-c70ba5ce07ee</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118481</ext:value>
+                <ext:value>i_17960bd6-a2b3-5179-8a54-bf73ae1c8395</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118483</ext:value>
+                <ext:value>i_7cc45ece-2191-5bed-a776-0b52d2812f8a</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118475</ext:value>
+                <ext:value>118475</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:42:03"/>
+        </ext:heidicon>
+    </work>
+</vra>

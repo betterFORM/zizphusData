@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_d2831acc-8692-5da7-8fce-36e18a0a14b2" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-f152e49d-11da-51c7-8129-5aa1d8221fcb">Hall, Sydney Prior</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1876</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1876</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>In this image the Prince of Wales is listening to a native band playing several types of instruments while visiting Poonah in Maharashtra. The prince is holding his palm behind his ear and is dressed in a royal uniform with medals on his jacket and a hat. There are some people squatting on the ground and looking towards him. One of them can be seen using the hand gesture (salaam) to salute him while another can be seen with folded hands (namaste). Most of the men are wearing turbans. A woman with a baby and another woman who has a sari draped over her head and covering most of her face can also be seen. In the background some plants and the painting or wall hanging of a tiger can also be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">"Shahzada Passes!"</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Native band at Poonah.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">S.P. Hall
+Prince of Wales
+1876</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="15f999c3-5f12-570c-a3c7-15678f571734" type="medium">cardboard</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 17 cm, W 22 cm, landscape</notes>
+            <measurements type="height" unit="cm">17</measurements>
+            <measurements type="width" unit="cm">22</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_f4e40c5d-7674-57cf-b528-5854cd77ed7c" source="EXC Priya Paul Collection" pref="true" relids="i_f4e40c5d-7674-57cf-b528-5854cd77ed7c">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.irfca.org/docs/history/prince-of-wales.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="0a5b4158-ad71-584c-9daf-23bf517b4f6d">
+                <term type="conceptTopic">music</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65f36a57-8263-55f7-9b35-85aa21b58576">
+                <term type="descriptiveTopic">children (people by age group)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="720e64b8-85e1-51be-b557-723948ff918d">
+                <term type="descriptiveTopic">bands (ensembles)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ff1a28af-6706-5092-8a78-3c2ff6638507">
+                <term type="descriptiveTopic">tigers (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
+                <term type="descriptiveTopic">turbans</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="106a24b2-fa31-57bd-ac10-5434cf7940c0">
+                <term type="descriptiveTopic">jacket (garnments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bc02e85c-81d9-599b-acee-67a1b8ab314c">
+                <term type="geographicPlace">Pune</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9965d483-852d-511d-8f6a-fc6c3cb00fc5">
+                <term type="otherName">Prince of Wales (title)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="e48c5bff-0049-5508-9a54-5381254e21b2">lithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Prince of Wales</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Hall, S. P.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+"Shahzada Passes!"</ext:value>
+                <ext:value>text-en:
+Native band at Poonah.</ext:value>
+                <ext:value>text-en:
+S.P. Hall
+Prince of Wales
+1876</ext:value>
+                <ext:value>description-en:
+In this image the Prince of Wales is listening to a native band playing several types of instruments while visiting Poonah in Maharashtra. The prince is holding his palm behind his ear and is dressed in a royal uniform with medals on his jacket and a hat. There are some people squatting on the ground and looking towards him. One of them can be seen using the hand gesture (salaam) to salute him while another can be seen with folded hands (namaste). Most of the men are wearing turbans. A woman with a baby and another woman who has a sari draped over her head and covering most of her face can also be seen. In the background some plants and the painting or wall hanging of a tiger can also be seen. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+The Indians in the picture have been depicted with very strong expressions. Some of them look almost angry. The illustration has very strong stereotypical and colonial undertones. The word 'Shahzada' translates to 'crown prince'. 'Poonah' is the old spelling of Pune, an important city in Maharashtra. (sp)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.irfca.org/docs/history/prince-of-wales.html, last accessed on 2011-08-01, Details about the Prince of Wales visit to Bombay, Pune and other places (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.irfca.org/docs/history/prince-of-wales.html</ext:value>
+                <ext:value type="accessed">2011-08-01</ext:value>
+                <ext:value type="comment">Details about the Prince of Wales visit to Bombay, Pune and other places</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The Indians in the picture have been depicted with very strong expressions. Some of them look almost angry. The illustration has very strong stereotypical and colonial undertones. The word 'Shahzada' translates to 'crown prince'. 'Poonah' is the old spelling of Pune, an important city in Maharashtra.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.irfca.org/docs/history/prince-of-wales.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120878</ext:value>
+                <ext:value>120878</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:43:00"/>
+        </ext:heidicon>
+    </work>
+</vra>

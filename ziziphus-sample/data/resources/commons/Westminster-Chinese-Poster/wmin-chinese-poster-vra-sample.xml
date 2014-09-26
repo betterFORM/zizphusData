@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.vraweb.org/vracore4.htm file:/H:/VRA%20Core/heidelberg-VRA-xsd/vra-strictCluster.xsd">
+    <work id="w_526a527edf34610943000008" source="University of Westminster Chinese Posters Collection" refid="766">
+      <agentSet>
+          <display>Han Xiang</display>
+          <agent>
+              <name type="personal" refid="5389bdd3c89859931f000177">Han, Xiang</name>
+              <role vocab="AAT" refid="300386240">poster artists</role>
+          </agent>
+      </agentSet>
+      <culturalContextSet>
+          <culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/tools/vocabularies/guidelines/ulan_4_7_appendix_g_nationality_place.html" refid="936010">Chinese</culturalContext>
+      </culturalContextSet>
+        <dateSet>
+          <date type="creation">
+            <earliestDate>
+                <date>1972-10</date>
+            </earliestDate>
+            <latestDate>
+                <date>1972-10</date>
+            </latestDate>
+          </date>
+      </dateSet>
+      <descriptionSet>
+          <description lang="eng" script="Latn">
+              <text>Soldier and peasants holding Double Happiness flag; crowds in the background, with banners, instruments, horses and carts, trucks.</text>
+          </description>
+      </descriptionSet>
+      <inscriptionSet>
+          <inscription>
+              <position>Bottom left</position>
+              <text type="caption" lang="zho">庆丰收</text>
+              <text type="other">Qìng fēngshōu</text>
+              <text type="other">qing fengshou</text>
+              <text type="translation" lang="eng">Celebrating a good harvest</text>
+          </inscription>
+          <inscription>
+              <position>Top centre</position>
+              <text type="text" lang="zho">路线是个纲；纲举目张，以粮为纲全面发展</text>
+              <text type="translation">Banners read: The Party line is the key; grasp the line and the details will be manifested. Make grain production the key and the whole economy will develop.</text>
+          </inscription>
+      </inscriptionSet>
+      <locationSet>
+          <location type="repository">
+              <name type="corporate">University of Westminster</name>
+              <name type="geographic" vocab="TGN" refid="7018934" extent="borough">City of Westminster (borough)</name>
+              <name type="geographic" vocab="TGN" refid="7011781" extent="inhabited place">London</name>
+              <name type="geographic" vocab="TGN" refid="7008591" extent="nation">United Kingdom</name>           
+          </location>
+          <location type="publication">
+              <name type="geographic" vocab="TGN" refid="7002077" extent="province">Hebei</name>
+          </location>
+      </locationSet>
+      <materialSet>
+          <!--
+          <material>
+              no materials information held in freizo - can we assume all posters are on paper?
+          </material>
+          -->
+      </materialSet>
+      <measurementsSet>
+          <!--
+          <measurements>
+              no information available on original poster size
+          </measurements>
+          -->
+      </measurementsSet>
+      <relationSet>
+          <relation type="imageIs" refid="i_image1"></relation>
+          <relation type="imageIs" refid="i_image2"></relation>
+      </relationSet>
+      <rightsSet>
+          <rights></rights>
+      </rightsSet>
+      <sourceSet>
+          <display>University of Westminster Chinese Poster Collection</display>
+          <source>Price: 0.12 yuan</source>
+          <!-->source tag could possibly be used to hold permanent URI for work?<-->
+      </sourceSet>
+      <stylePeriodSet>
+          <stylePeriod></stylePeriod>
+      </stylePeriodSet>
+      <subjectSet>
+          <display>grain production; Hebei; celebrate; double happiness;
+              crowds; 囍; 双喜; 粮; Paul Crook; 河北，庆丰收; agriculture
+          </display>
+          <subject>
+              <term type="personalName">Crook, Paul</term>
+          </subject>
+          <subject>
+              <term type="builtworkPlace">Hebei</term>
+          </subject>
+          <subject>
+              <term type="descriptiveTopic" vocab="AAT" refid="300260323">harvest festivals</term>
+          </subject>
+          <subject>
+              <term type="descriptiveTopic" vocab="AAT" refid="300054463">agriculture</term>
+          </subject>
+          <subject>
+              <term type="otherTopic">grain production</term>
+          </subject>
+          <subject>
+              <term type="otherTopic">celebrate</term>
+          </subject>
+          <subject>
+              <term type="otherTopic">double happiness</term>
+          </subject>
+          <subject>
+              <term type="otherTopic">囍</term>
+          </subject>
+          <subject>
+              <term type="otherTopic">双喜</term>
+          </subject>
+          <subject>
+              <term type="otherTopic"> 河北，庆丰收</term>
+          </subject>
+      </subjectSet>
+      <techniqueSet>
+          <!--
+          <technique>No information. Can we assume offset printing for all posters?</technique>
+          -->
+      </techniqueSet>
+      <textrefSet>
+          <!--
+          <textref>could possibly use this for recording redundant reference numbers?</textref>
+          -->
+      </textrefSet>
+        <titleSet>
+          <title type="descriptive">Celebrating a Good Harvest</title>
+      </titleSet>
+      <worktypeSet>
+          <worktype vocab="AAT" refid="300027221">posters</worktype>
+      </worktypeSet>
+    </work>  
+</vra>

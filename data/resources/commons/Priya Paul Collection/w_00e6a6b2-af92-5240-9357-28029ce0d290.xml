@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_00e6a6b2-af92-5240-9357-28029ce0d290" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-804eef42-072b-5b71-b446-5338f0f3e0f6">Tagore, Sharmila</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-5c39ec2a-ff86-5ca1-b36a-ab266ec9621b">Dutt, Sunil</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-26dcf2d5-89f0-5cec-b0c5-dc06930f06ba">Kumar, Amar</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-18bdfa84-797e-51a6-8e84-a3145c944b04">Kudalkar, Laxmikant Shantaram</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-e418fd16-f2d7-5697-9300-8a0409a7c988">Sharma, Pyarelal Ramprasad</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-93fa8902-bf20-55ef-a5bf-4c3a316f4813">Laxmikant - Pyarelal</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1969</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1969</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>A lobby card for the Hindi movie "Pyasi Sham" has two of the main actors, Sunil Dutt and Sharmila Tagore, sitting at a table. She is wearing a red sari and jewellery and is reaching out with her left hand towards a bottle of liquor next to Sunil Dutt. He clutches her palm to stop her as he stares straight ahead.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Kewaljit Productions</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Pyasi Sham</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Eastmancolor</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Direction Amar Kumar
+Music Laxmikant Pyarelal
+Produced by Kewal Kumar</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_a013736c-1511-5364-bb9c-add972060a2b" source="EXC Priya Paul Collection" pref="true" relids="i_a013736c-1511-5364-bb9c-add972060a2b">general view</relation>
+            <relation type="imageIs" refid="i_2f941413-fbd5-5e5d-8ac9-6bd03530eed8" source="EXC Priya Paul Collection" relids="i_2f941413-fbd5-5e5d-8ac9-6bd03530eed8">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.imdb.com/title/tt0064856/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
+                <term type="descriptiveTopic">couples</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="112bac83-ccb5-5208-97c3-308028506ba8">
+                <term type="descriptiveTopic">liquors</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
+                <term type="descriptiveTopic">bottles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fffce412-d5e9-5913-9917-f38a8561a0ac">
+                <term type="iconographicTopic">Pyasi Sham (movie, 1969)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Pyasi Sham</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Kewaljit Productions</ext:value>
+                <ext:value>text-en:
+Pyasi Sham</ext:value>
+                <ext:value>text-en: 
+Eastmancolor</ext:value>
+                <ext:value>text-en:
+Direction Amar Kumar
+Music Laxmikant Pyarelal
+Produced by Kewal Kumar</ext:value>
+                <ext:value>description-en:
+A lobby card for the Hindi movie "Pyasi Sham" has two of the main actors, Sunil Dutt and Sharmila Tagore, sitting at a table. She is wearing a red sari and jewellery and is reaching out with her left hand towards a bottle of liquor next to Sunil Dutt. He clutches her palm to stop her as he stares straight ahead. (gs/tb/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Story line of the movie: Raja lives an upper middle-classed lifestyle in Bombay along with his sister, Laaj, and runs an audio store 'Musicals'. He is a close friend of Ashok, who lives a wealthy lifestyle in Worli Seaface along with his widower dad, Shankarlal and grandfather. Both friends get together and arrange Laaj's marriage with an orphan, Ravi. Relations between the two become tense when both fall in love with Madhu Sinha, the daughter of Ishwarprasad, Shankarlal's estranged childhood friend, but are resolved after Ashok finds out that Madhu really loves Raja. Ishwarprasad arranges their marriage, but before that could take place, Ravi disappears, Laaj is devastated, and Raja takes to alcohol, refuses to marry Madhu, and hides a terrible secret that he cannot disclose to anyone. cf. http://www.imdb.com/title/tt0064856/ (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0064856/, movie plot, leading actors, director, last accessed 2011-12-28. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0064856/</ext:value>
+                <ext:value type="accessed">2011-12-28</ext:value>
+                <ext:value type="comment">movie plot, leading actors, director,</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Story line of the movie: Raja lives an upper middle-classed lifestyle in Bombay along with his sister, Laaj, and runs an audio store 'Musicals'. He is a close friend of Ashok, who lives a wealthy lifestyle in Worli Seaface along with his widower dad, Shankarlal and grandfather. Both friends get together and arrange Laaj's marriage with an orphan, Ravi. Relations between the two become tense when both fall in love with Madhu Sinha, the daughter of Ishwarprasad, Shankarlal's estranged childhood friend, but are resolved after Ashok finds out that Madhu really loves Raja. Ishwarprasad arranges their marriage, but before that could take place, Ravi disappears, Laaj is devastated, and Raja takes to alcohol, refuses to marry Madhu, and hides a terrible secret that he cannot disclose to anyone. cf. http://www.imdb.com/title/tt0064856/</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/123066</ext:value>
+                <ext:value>i_2f941413-fbd5-5e5d-8ac9-6bd03530eed8</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.imdb.com/title/tt0064856/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119301</ext:value>
+                <ext:value>119301</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:32:37"/>
+        </ext:heidicon>
+    </work>
+</vra>

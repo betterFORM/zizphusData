@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a26d2aaa-fe6f-5552-aeca-36fd8b8949cc" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-5ba495c7-73f2-5d74-a7ce-4b6c01c3b09b">Faulkner and Son</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This advertisement for Faulkern's boots &amp; shoes shows some of the advertised boots and shoes on a black and white advertisement poster along with detailed s, the address of the firm and the prices.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">You've seen them at Ascot-
+Roehampton, Epsom and Lords; you've met them on the moors, by trout streams and in the hunting field; everywhere in fact where English sporting men and women foregather - because wherever good looking, comfortable footwear is needed, you will find Faulkner's Boots &amp; shoes. 
+Famous for 60 years.
+This self-measurement apparatus, which we invented and used all through the war, will ensure perfect fitting. Sent on application
+Established 1871
+Prices from:-                  £        s.     d.
+Riding boots-Ladies    9       19     6
+Gentlemen's                  9       19     6
+Shoes-Ladies               4        12    6
+Gentlemen's                  4        15    6
+
+Faulkner &amp; Son
+51 and 52, South Molton Street
+Bond Street- London, W.I
+9, Bridge Street - Cambridge
+51, East 42nd Street, New York</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 15 cm, W 10 cm, portrait</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_a9509b62-f430-5588-8268-17a1a2696b0a" source="EXC Priya Paul Collection" pref="true" relids="i_a9509b62-f430-5588-8268-17a1a2696b0a">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="871b50a9-0b2b-5030-b9ca-80684acc2e82">
+                <term type="descriptiveTopic">shoes (footwear)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="28e3f236-e17e-55f2-a01b-d00db6368ccb">
+                <term type="descriptiveTopic">boots (footwear)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+                <term type="otherTopic">Times of India</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
+                <term type="otherTopic">Times of India Yearbook</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Faulkner's Boots &amp; Shoes</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+You've seen them at Ascot-
+Roehampton, Epsom and Lords; you've met them on the moors, by trout streams and in the hunting field; everywhere in fact where English sporting men and women foregather - because wherever good looking, comfortable footwear is needed, you will find Faulkner's Boots &amp; shoes. 
+Famous for 60 years.
+This self-measurement apparatus, which we invented and used all through the war, will ensure perfect fitting. Sent on application
+Established 1871
+Prices from:-                  £        s.     d.
+Riding boots-Ladies    9       19     6
+Gentlemen's                  9       19     6
+Shoes-Ladies               4        12    6
+Gentlemen's                  4        15    6
+
+Faulkner &amp; Son
+51 and 52, South Molton Street
+Bond Street- London, W.I
+9, Bridge Street - Cambridge
+51, East 42nd Street, New York</ext:value>
+                <ext:value>description-en:
+This advertisement for Faulkern's boots &amp; shoes shows some of the advertised boots and shoes on a black and white advertisement poster along with detailed descriptions, the address of the firm and the prices. (gs/sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/1107.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/1107.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119771</ext:value>
+                <ext:value>119771</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:29:55"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_9d72f3c9-977e-5aa0-b87f-9f46d39be271" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1931</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1931</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This calendar of the month January of 1931 depicts a Hindu woman in a red sari and her baby are sitting on the grass in front of a lake and a forest. A bottle of Dongre's Baby Sirup is depicted next to them.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="hin">ADD TEXT HERE</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">डोंगरे का बालामृत.</text>
+            </inscription>
+            <inscription>
+                <text type="translation">Dongre's Balamrit</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Dongre's Balamrit
+K.T.
+Dongre
+&amp; Co Bombay</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">1931 JANUARY</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, L 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_1bdec3ea-6cf1-5a49-b39a-f5e6731ad855" source="EXC Priya Paul Collection" pref="true" relids="i_1bdec3ea-6cf1-5a49-b39a-f5e6731ad855">general view</relation>
+            <relation type="imageIs" refid="i_bf225e4c-fb6c-5cd4-ae07-743c148b2b12" source="EXC Priya Paul Collection" relids="i_bf225e4c-fb6c-5cd4-ae07-743c148b2b12">detail view</relation>
+            <relation type="imageIs" refid="i_ec5d9d3e-e0c3-5948-ac6e-e4bd09efefdc" source="EXC Priya Paul Collection" relids="i_ec5d9d3e-e0c3-5948-ac6e-e4bd09efefdc">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="27dcc0d5-5d98-5d7e-bc64-2ee2b0760693">
+                <term type="conceptTopic">Hindu women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="f0a66022-0cfc-5969-9867-775c451e34d3">
+                <term type="conceptTopic">Bharatiya Nari</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="98cdd292-9b30-5297-a6f8-99dfdfc40644">
+                <term type="descriptiveTopic">red sari</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+                <term type="descriptiveTopic">trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c02fef98-ccbc-5652-9337-a0ec0de4595e">
+                <term type="descriptiveTopic">sunset</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="747cc752-b60c-5d8c-853a-4dba8a1c5b50">
+                <term type="descriptiveTopic">infants</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
+                <term type="descriptiveTopic">forests</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7d4cc4c7-70b6-54e0-8e76-f4df83560ff4">
+                <term type="descriptiveTopic">lakes (bodies of water)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="37ccf96c-60b8-55f4-ac8c-ff7a50cd3988">
+                <term type="descriptiveTopic">Dongre's Baby Sirup (product)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="94329588-dd90-5d0d-b0b5-fd2b80c78665">
+                <term type="descriptiveTopic">columns (architectural elements)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
+                <term type="descriptiveTopic">bottles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b4d47b06-58b7-5fbe-8fb7-89efa9f44d4d">
+                <term type="descriptiveTopic">syrup</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
+                <term type="otherTopic">recheck-Matthias</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b6c8dfe5-5dd1-584c-9b2e-d7d51c6ebd5e">
+                <term type="otherTopic">recheck-Hindi-title</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Dongre's Balamrit</title>
+            <title type="descriptive" pref="false">डोंगरे का बालामृत.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-hi:
+ADD TEXT HERE</ext:value>
+                <ext:value>text-hi:
+डोंगरे का बालामृत.</ext:value>
+                <ext:value>text-translation-en:
+Dongre's Balamrit</ext:value>
+                <ext:value>text-en:
+Dongre's Balamrit
+K.T.
+Dongre
+&amp; Co Bombay</ext:value>
+                <ext:value>text-en:
+1931 JANUARY</ext:value>
+                <ext:value>description-en:
+This calendar of the month January of 1931 depicts a Hindu woman in a red sari and her baby are sitting on the grass in front of a lake and a forest. A bottle of Dongre's Baby Sirup is depicted next to them. (ms/gs/tb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>torn</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119241</ext:value>
+                <ext:value>i_bf225e4c-fb6c-5cd4-ae07-743c148b2b12</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119243</ext:value>
+                <ext:value>i_ec5d9d3e-e0c3-5948-ac6e-e4bd09efefdc</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119240</ext:value>
+                <ext:value>119240</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:30:18"/>
+        </ext:heidicon>
+    </work>
+</vra>

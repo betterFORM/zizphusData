@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_2b94aef4-4fd4-5a07-9709-fb4aea20bd72" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-b3ad4894-fb33-52b9-ae64-e87471c9aec7">A &amp; F Harvey</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1932</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1932</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement-calendar for A&amp;F Harvey from the year 1932, a group of bypassers can be seen standing around a snake charmer, sitting under a tree and playing a melody for his snake.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">A&amp;F Harvey Merchants &amp; Cotton Spinners
+Madura Mills Co. Ltd.
+Tuticorn Madura and Ambasamudram
+Madras Presicency
+South India
+London Correspondents
+Harvey [...] [not readable] Agency Limited</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="ben">PLEASE ENTER HERE</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm,  portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_6ea3ffb2-8a6e-5548-9fbb-a09369ccf494" source="EXC Priya Paul Collection" pref="true" relids="i_6ea3ffb2-8a6e-5548-9fbb-a09369ccf494">general view</relation>
+            <relation type="imageIs" refid="i_41e88d68-0924-5d64-b30d-8958d3bc3376" source="EXC Priya Paul Collection" relids="i_41e88d68-0924-5d64-b30d-8958d3bc3376">detail view</relation>
+            <relation type="imageIs" refid="i_ed0b548b-03f3-5c74-8a45-14e42440c46e" source="EXC Priya Paul Collection" relids="i_ed0b548b-03f3-5c74-8a45-14e42440c46e">close-up view</relation>
+            <relation type="imageIs" refid="i_de0a1529-9be0-5d8c-853f-c050d5f42ca1" source="EXC Priya Paul Collection" relids="i_de0a1529-9be0-5d8c-853f-c050d5f42ca1">detail view</relation>
+            <relation type="imageIs" refid="i_8c0763d0-d7dd-55b9-8c7b-a107b95629d3" source="EXC Priya Paul Collection" relids="i_8c0763d0-d7dd-55b9-8c7b-a107b95629d3">detail view</relation>
+            <relation type="imageIs" refid="i_891c2c07-ae4c-567d-9074-de1c9e5badd5" source="EXC Priya Paul Collection" relids="i_891c2c07-ae4c-567d-9074-de1c9e5badd5">detail view</relation>
+            <relation type="imageIs" refid="i_32d8fac6-5509-504e-8862-605d1141e538" source="EXC Priya Paul Collection" relids="i_32d8fac6-5509-504e-8862-605d1141e538">detail view</relation>
+            <relation type="imageIs" refid="i_fd9c00e7-b521-50bc-b53d-6db06c61498f" source="EXC Priya Paul Collection" relids="i_fd9c00e7-b521-50bc-b53d-6db06c61498f">close-up view</relation>
+            <relation type="imageIs" refid="i_1ec124ab-a526-515e-8a00-ee5077be693e" source="EXC Priya Paul Collection" relids="i_1ec124ab-a526-515e-8a00-ee5077be693e">close-up view</relation>
+            <relation type="imageIs" refid="i_4384d206-aca8-54df-be65-8c0f7a6bf7ba" source="EXC Priya Paul Collection" relids="i_4384d206-aca8-54df-be65-8c0f7a6bf7ba">detail view</relation>
+            <relation type="imageIs" refid="i_20791bd5-73a0-578f-b7c2-8bf81f374fea" source="EXC Priya Paul Collection" relids="i_20791bd5-73a0-578f-b7c2-8bf81f374fea">detail view</relation>
+            <relation type="imageIs" refid="i_91eef53a-51a4-54e1-99d2-9db4228ea3a4" source="EXC Priya Paul Collection" relids="i_91eef53a-51a4-54e1-99d2-9db4228ea3a4">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
+                <term type="descriptiveTopic">calendars</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
+                <term type="descriptiveTopic">snake</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+                <term type="descriptiveTopic">trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="9c5748ad-fc60-5146-a94d-fb6f362640f3">
+                <term type="descriptiveTopic">musical instruments</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3d39f83b-ac28-5508-9bd8-754b3f130305">
+                <term type="descriptiveTopic">snake charmers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
+                <term type="descriptiveTopic">turbans</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
+                <term type="descriptiveTopic">flutes (aerophones)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">A snake-charmer performs, in an advertisement calender of A&amp;F Harvey Ltd. (1932)</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+A&amp;F Harvey Merchants &amp; Cotton Spinners
+Madura Mills Co. Ltd.
+Tuticorn Madura and Ambasamudram
+Madras Presicency
+South India
+London Correspondents
+Harvey [...] [not readable] Agency Limited</ext:value>
+                <ext:value>text-bn:
+PLEASE ENTER HERE</ext:value>
+                <ext:value>description-en:
+On this advertisement-calendar for A&amp;F Harvey from the year 1932, a group of bypassers can be seen standing around a snake charmer, sitting under a tree and playing a melody for his snake. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/20080430_0326.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/20080430_0326.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118357</ext:value>
+                <ext:value>i_41e88d68-0924-5d64-b30d-8958d3bc3376</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118351</ext:value>
+                <ext:value>i_ed0b548b-03f3-5c74-8a45-14e42440c46e</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118348</ext:value>
+                <ext:value>i_de0a1529-9be0-5d8c-853f-c050d5f42ca1</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118356</ext:value>
+                <ext:value>i_8c0763d0-d7dd-55b9-8c7b-a107b95629d3</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118354</ext:value>
+                <ext:value>i_891c2c07-ae4c-567d-9074-de1c9e5badd5</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118349</ext:value>
+                <ext:value>i_32d8fac6-5509-504e-8862-605d1141e538</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118347</ext:value>
+                <ext:value>i_fd9c00e7-b521-50bc-b53d-6db06c61498f</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118352</ext:value>
+                <ext:value>i_1ec124ab-a526-515e-8a00-ee5077be693e</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118350</ext:value>
+                <ext:value>i_4384d206-aca8-54df-be65-8c0f7a6bf7ba</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118353</ext:value>
+                <ext:value>i_20791bd5-73a0-578f-b7c2-8bf81f374fea</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118355</ext:value>
+                <ext:value>i_91eef53a-51a4-54e1-99d2-9db4228ea3a4</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118346</ext:value>
+                <ext:value>118346</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:35:56"/>
+        </ext:heidicon>
+    </work>
+</vra>

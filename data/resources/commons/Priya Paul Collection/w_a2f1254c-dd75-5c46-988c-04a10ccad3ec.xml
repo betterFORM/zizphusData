@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a2f1254c-dd75-5c46-988c-04a10ccad3ec" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-23f8a72d-8146-59a7-a914-6b553fa16d1e">Das, Sushil</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>In this sample image with the title "Display" from a catalogue of the Empire Calender Manufacturing Co. a fair skinned woman wearing a short skirt with her underwear peeking out is depicted tying on roller skates to her shoes. The foot which she holds has the skates on while the other roller skate rests near a dog beside her. The skates have ribbon ties. She has a red scarf around her neck and wears a well-fitted, short sleeved sweater and a frilly short skirt. A pot of flowers rests next to her on the ledge that she is perched on. There is a copyright reserved stamp with the publisher's mark "ECM" on the image.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Sushil Das..</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">DISPLAY
+No. 630</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">copy right 
+reserved 
+ECM [publisher's signet]</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Sushil Das</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 25 cm, W 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">25</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_f5918446-e18f-5a8f-b8ae-4668d5cdb813" source="EXC Priya Paul Collection" pref="true" relids="i_f5918446-e18f-5a8f-b8ae-4668d5cdb813">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <stylePeriodSet>
+            <stylePeriod>1940s</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="1a89efdf-be08-51d4-9cea-487ea1db3f3b">
+                <term type="conceptTopic">whiteness</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ff1ab8b7-efbe-5fa5-ac84-b3d21e127b77">
+                <term type="conceptTopic">fair skin</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2f211437-6bfe-5ae6-b29a-459b0f4bfef2">
+                <term type="descriptiveTopic">dogs (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="871b50a9-0b2b-5030-b9ca-80684acc2e82">
+                <term type="descriptiveTopic">shoes (footwear)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="93390ee4-7b39-51e5-a6be-22fe2f7905f2">
+                <term type="descriptiveTopic">miniskirts</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3617f0c7-5304-5176-9040-9efad6c820b3">
+                <term type="descriptiveTopic">printer's marks</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cd01c853-5c20-56f6-b3df-129c7c77652a">
+                <term type="descriptiveTopic">skirts (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6dc64c00-d0fd-59f4-b914-0f4db80e3dec">
+                <term type="descriptiveTopic">roller skates</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
+                <term type="descriptiveTopic">trade catalogs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Display</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Das, Sushil</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Sushil Das..</ext:value>
+                <ext:value>text-en:
+DISPLAY
+No. 630</ext:value>
+                <ext:value>text-en:
+copy right 
+reserved 
+ECM [publisher's signet]</ext:value>
+                <ext:value>description-en:
+In this sample image with the title "Display" from a catalogue of the Empire Calender Manufacturing Co. a fair skinned woman wearing a short skirt with her underwear peeking out is depicted tying on roller skates to her shoes. The foot which she holds has the skates on while the other roller skate rests near a dog beside her. The skates have ribbon ties. She has a red scarf around her neck and wears a well-fitted, short sleeved sweater and a frilly short skirt. A pot of flowers rests next to her on the ledge that she is perched on. There is a copyright reserved stamp with the publisher's mark "ECM" on the image. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+This picture was perhaps used by shoe stores as publicity material. The lady has been portrayed as possessing a carefree and uninhibited personality which is contrary to the socially accepted behaviour for women in India at that time. (sp)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+It is fairly unusual to depict a woman in such a short skirt for an Indian market. In any way, this would be an elitish, urban consumer segment that knows when and how to wear high heels, and can associate 'leisure' and pleasure with roller skates. The shoe for men also suggests an urban and western way of dressing. The 'Indian' edge slips in through the sandal on the left. (cb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">It is fairly unusual to depict a woman in such a short skirt for an Indian market. In any way, this would be an elitish, urban consumer segment that knows when and how to wear high heels, and can associate 'leisure' and pleasure with roller skates. The shoe for men also suggests an urban and western way of dressing. The 'Indian' edge slips in through the sandal on the left.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Brosius, Christiane</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">This picture was perhaps used by shoe stores as publicity material. The lady has been portrayed as possessing a carefree and uninhibited personality which is contrary to the socially accepted behaviour for women in India at that time.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119506</ext:value>
+                <ext:value>119506</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:41:38"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_f7669807-70a5-5991-99a5-31ef8dc49bd8" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The image shows a woman, wearing an off-shoulder white dress with purple flowers in her hair, against a green background. There is a small bunch of purple flowers also pinned near her right shoulder. The image is framed in a blue, yellow and rust colored frame.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-dc8e6805-ec52-547a-993f-586ebd9681cc">Padmanabhan, Sridevi</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_6cc23f40-fb31-58cf-a3ef-c79a2d5b8810" source="EXC Priya Paul Collection" pref="true" relids="i_6cc23f40-fb31-58cf-a3ef-c79a2d5b8810">front</relation>
+            <relation type="imageIs" refid="i_fc5c8edd-690d-5b19-8750-00677643d382" source="EXC Priya Paul Collection" relids="i_fc5c8edd-690d-5b19-8750-00677643d382">back</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2afb3431-0ff7-51fc-aca3-559416741e66">
+                <term type="descriptiveTopic">flowers (plants)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a2c8f248-4afc-5ddc-886c-e86ccc875cbf">
+                <term type="descriptiveTopic">women (female humans)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="334ddc14-ee9e-5771-9e4f-80546b768f29">
+                <term type="descriptiveTopic">dresses (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ebc21342-acd3-5f79-bd08-e77f0da385c2">
+                <term type="descriptiveTopic">red lipstick</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="1ee434ed-4486-57e0-9d8c-33b6440c27b3">
+                <term type="descriptiveTopic">compartments</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d0c001e4-367f-557b-9542-e92cf25f6f8c">
+                <term type="otherTopic">recheck-Sri</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Hair Oil Advertisement</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+The image shows a woman, wearing an off-shoulder white dress with purple flowers in her hair, against a green background. There is a small bunch of purple flowers also pinned near her right shoulder. The image is framed in a blue, yellow and rust colored frame. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1963a.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neulieferung_der_bilder_ohne_raster/1963a.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118003</ext:value>
+                <ext:value>i_fc5c8edd-690d-5b19-8750-00677643d382</ext:value>
+                <ext:value>back</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118002</ext:value>
+                <ext:value>118002</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:43:57"/>
+        </ext:heidicon>
+    </work>
+</vra>

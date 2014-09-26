@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_7326b857-cac8-5c75-bce9-b68513df5736" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-65b17df2-f3f5-5439-bc9a-f9574da16339">Vivekananda, Swami</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-a1621c82-d56e-5b80-9df4-2ff7a71f61c2">Chowdhury, Sudhir</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e56887bc-fb57-5307-b9d3-42a6d4cb78d2">Empire Calendar Manufacturing Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Image in a sample calender poster of Empire Calender Manufacturing Co., Calcutta shows Swami Vivekananda in America. He stands in front of map of North America with the Pacific ocean as well as the Atlantic. In the background, several well known buildings of central Chicago can be seen (skyscraper and other architectural elements).</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Asia
+America
+Pacipic Ocean</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Swami Vivekanand
+No. 319</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Sudhir Chowdhury</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Sudhir Chowdhury</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_9b5a84ad-e5cd-575f-b65e-4bc4def574e8" source="EXC Priya Paul Collection" pref="true" relids="i_9b5a84ad-e5cd-575f-b65e-4bc4def574e8">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="5c50860e-d23c-572f-aabb-05b3cf6f0d79">
+                <term type="conceptTopic">cities</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0c2d6d26-9caa-5511-8257-dfef92694e12">
+                <term type="conceptTopic">cosmopolitans (people)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8b649548-d3eb-5669-ab53-534befea688d">
+                <term type="descriptiveTopic">globes (cartographic spheres)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="60671271-0213-5534-9c27-7c7d70eafb36">
+                <term type="descriptiveTopic">churches (buildings)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="1f38e8c6-a91c-54de-a947-76b31257484a">
+                <term type="descriptiveTopic">skyscrapers</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="51324a0f-7b9d-58e0-bfd1-e4b290f9925c">
+                <term type="descriptiveTopic">world maps</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3ba794ce-4a17-544f-ad51-7cc4a49a3b4c">
+                <term type="descriptiveTopic">maps</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b5859290-1538-5d89-97e2-2668abc19a58">
+                <term type="descriptiveTopic">terrestrial globes</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b24f4a87-fd3b-5f2b-98d1-a58250ceea70">
+                <term type="geographicPlace">Chicago</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4d71e798-e8e7-536f-a70c-85d0c5c32ee0">
+                <term type="geographicPlace">North America</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
+                <term type="otherTopic">recheck-problem</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Swami Vivekanand</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Chowdhury, Sudhir</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Asia
+America
+Pacipic Ocean</ext:value>
+                <ext:value>text-en:
+Swami Vivekanand
+No. 319</ext:value>
+                <ext:value>text-en:
+Sudhir Chowdhury</ext:value>
+                <ext:value>description-en:
+Image in a sample calender poster of Empire Calender Manufacturing Co., Calcutta shows Swami Vivekananda in America. He stands in front of map of North America with the Pacific ocean as well as the Atlantic. In the background, several well known buildings of central Chicago can be seen (skyscraper and other architectural elements).</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+The image emphasizes Vivekanandas visit to North America in 1897 for the World Congress of Religions. It was the first visit of a teacher of the Hindu philosophy in the USA. He emphasized the difference of the monotheistic religions and Hinduism as well as the too material culture of the west. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hinduism that manages, simultaneously, to nurture an idea of a Hindu chauvinist masculinity and superiority. This counts for several Hindu nationalist organisations (Sangh Parivar) active in India and abroad. The backdrop of the city also displays Vivekananda as a cosmopolitan who stands confidently in a cityscape that was not known in India at that time.() (cb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The image emphasizes Vivekanandas visit to North America in 1897 for the World Congress of Religions. It was the first visit of a teacher of the Hindu philosophy in the USA. He emphasized the difference of the monotheistic religions and Hinduism as well as the too material culture of the west.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Vivekananda is heralded by many as pioneer of a 'modern' and forward-looking Hinduism that manages, simultaneously, to nurture an idea of a Hindu chauvinist masculinity and superiority. This counts for several Hindu nationalist organisations (Sangh Parivar) active in India and abroad. The backdrop of the city also displays Vivekananda as a cosmopolitan who stands confidently in a cityscape that was not known in India at that time.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Brosius, Christiane</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-94393b72-eeb3-5cce-9d28-a9e6164d47b0</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118798</ext:value>
+                <ext:value>118798</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:33:30"/>
+        </ext:heidicon>
+    </work>
+</vra>

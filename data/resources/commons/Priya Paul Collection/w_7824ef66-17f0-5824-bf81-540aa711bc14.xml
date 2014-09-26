@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_7824ef66-17f0-5824-bf81-540aa711bc14" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-5abfa90e-edfc-56bb-bf3f-bb03c06480e7">Lakshmi</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-6a2e3bc2-f7f2-534f-bcac-5870a237313e">Ravi Varma, Raja</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1930</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1930</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The goddess Lakshmi is depicted, wearing a rose coloured Sari and standing on a lotus flower in the middle of a small lake. In the background an elephant, some swans, a river, several trees and a mountain can be seen.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+            <description lang="eng" script="Latn" vocab="LOCAL" refid="687bd7ca-1185-5511-8938-1f351c94a5eb">
+                <text>framing (processes)</text>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 50 cm, W 38 cm, portrait</notes>
+            <measurements type="height" unit="cm">50</measurements>
+            <measurements type="width" unit="cm">38</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_0afb0fd2-f130-57a0-8cb1-cb168df37ce3" source="EXC Priya Paul Collection" pref="true" relids="i_0afb0fd2-f130-57a0-8cb1-cb168df37ce3">general view</relation>
+            <relation type="imageIs" refid="i_a44a1697-c586-549e-a2c1-401cd556ad74" source="EXC Priya Paul Collection" relids="i_a44a1697-c586-549e-a2c1-401cd556ad74">detail view</relation>
+            <relation type="imageIs" refid="i_37da6c63-39f1-5e1b-ae68-f4e270f3dda2" source="EXC Priya Paul Collection" relids="i_37da6c63-39f1-5e1b-ae68-f4e270f3dda2">detail view</relation>
+            <relation type="imageIs" refid="i_6e27ff33-8ab4-5015-b4ff-f502b9144397" source="EXC Priya Paul Collection" relids="i_6e27ff33-8ab4-5015-b4ff-f502b9144397">close-up view</relation>
+            <relation type="imageIs" refid="i_c811ccb7-bbe2-5ba5-b573-2b985c784203" source="EXC Priya Paul Collection" relids="i_c811ccb7-bbe2-5ba5-b573-2b985c784203">detail view</relation>
+            <relation type="imageIs" refid="i_48c60977-306f-5e1b-9e6c-4c3fa3abbacc" source="EXC Priya Paul Collection" relids="i_48c60977-306f-5e1b-9e6c-4c3fa3abbacc">detail view</relation>
+            <relation type="imageIs" refid="i_77be4763-9bd1-5932-9508-0f885ec7f4c4" source="EXC Priya Paul Collection" relids="i_77be4763-9bd1-5932-9508-0f885ec7f4c4">detail view</relation>
+            <relation type="imageIs" refid="i_3fe8f8cb-bdf7-5a3f-8acb-3073ef208bb5" source="EXC Priya Paul Collection" relids="i_3fe8f8cb-bdf7-5a3f-8acb-3073ef208bb5">detail view</relation>
+            <relation type="imageIs" refid="i_18010282-88cd-59b6-84e6-ead071f3555b" source="EXC Priya Paul Collection" relids="i_18010282-88cd-59b6-84e6-ead071f3555b">detail view</relation>
+            <relation type="imageIs" refid="i_f4f3944f-1c0c-5e7f-9a68-0746b2bed24c" source="EXC Priya Paul Collection" relids="i_f4f3944f-1c0c-5e7f-9a68-0746b2bed24c">detail view</relation>
+            <relation type="imageIs" refid="i_0c180f50-0a66-582e-b382-16e3d0a14c97" source="EXC Priya Paul Collection" relids="i_0c180f50-0a66-582e-b382-16e3d0a14c97">close-up view</relation>
+            <relation type="imageIs" refid="i_75539fab-a7a6-5d71-8e81-e9348af4de80" source="EXC Priya Paul Collection" relids="i_75539fab-a7a6-5d71-8e81-e9348af4de80">detail view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+		</sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="2d1f2b2b-80e4-56fc-809d-0d28b51bb7c9">
+                <term type="descriptiveTopic">Vinolia soap (product)</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Vinolia</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Ravi Varma, Raja</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+The goddess Lakshmi is depicted, wearing a rose coloured Sari and standing on a lotus flower in the middle of a small lake. In the background an elephant, some swans, a river, several trees and a mountain can be seen. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Generally, subsequent poster artists have not appropriated Varma’s narrative scenes, but certain iconic designs of his have provided the starting point for prolific artistic adaptation.  These themes include his renderings of standing Lakshmi, seated Sarasvati, and the family of Shiva. (Richard H. Davis)(gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The original design dates back to c. 1894. (sg)</ext:value>
+                <ext:value>related literature:
+Davis, Richard H. 2010. "Temple in a Frame. God Posters For and Of Worship" http://www.tasveergharindia.net/cmsdesk/essay/97/index.html (09.01.2011)(gs)</ext:value>
+                <ext:value>related literature:
+Neumayer, Erwin and Christine Schellberger 2003. "Popular Indian Art. Raja Ravi Varma and the printed gods of India." New Delhi: Oxford University Press. (gs)</ext:value>
+                <ext:value>related literature:
+Ravi Varma, Raja and I.M.E. Veniyoor 2007. "Ravi Varma Raji. the most celebrated painter of India, 1848 - 1906" Bangalore: Parsram Mangharam. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Neumayer, Erwin and Christine Schellberger 2003. "Popular Indian Art. Raja Ravi Varma and the printed gods of India." New Delhi: Oxford University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Ravi Varma, Raja and I.M.E. Veniyoor 2007. "Ravi Varma Raji. the most celebrated painter of India, 1848 - 1906" Bangalore: Parsram Mangharam.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Davis, Richard H. 2010. "Temple in a Frame. God Posters For and Of Worship" http://www.tasveergharindia.net/cmsdesk/essay/97/index.html (09.01.2011)</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The original design dates back to c. 1894.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Gruening, Simon</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-3ddbb996-d531-5a4e-9a25-16aacdf9ed7a</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Generally, subsequent poster artists have not appropriated Varma’s narrative scenes, but certain iconic designs of his have provided the starting point for prolific artistic adaptation.  These themes include his renderings of standing Lakshmi, seated Sarasvati, and the family of Shiva.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Richard H. Davis</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>damaged</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118519</ext:value>
+                <ext:value>i_a44a1697-c586-549e-a2c1-401cd556ad74</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118525</ext:value>
+                <ext:value>i_37da6c63-39f1-5e1b-ae68-f4e270f3dda2</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118517</ext:value>
+                <ext:value>i_6e27ff33-8ab4-5015-b4ff-f502b9144397</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118524</ext:value>
+                <ext:value>i_c811ccb7-bbe2-5ba5-b573-2b985c784203</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118522</ext:value>
+                <ext:value>i_48c60977-306f-5e1b-9e6c-4c3fa3abbacc</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118520</ext:value>
+                <ext:value>i_77be4763-9bd1-5932-9508-0f885ec7f4c4</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118521</ext:value>
+                <ext:value>i_3fe8f8cb-bdf7-5a3f-8acb-3073ef208bb5</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118518</ext:value>
+                <ext:value>i_18010282-88cd-59b6-84e6-ead071f3555b</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118526</ext:value>
+                <ext:value>i_f4f3944f-1c0c-5e7f-9a68-0746b2bed24c</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118516</ext:value>
+                <ext:value>i_0c180f50-0a66-582e-b382-16e3d0a14c97</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118523</ext:value>
+                <ext:value>i_75539fab-a7a6-5d71-8e81-e9348af4de80</ext:value>
+                <ext:value>detail view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/118515</ext:value>
+                <ext:value>118515</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:44:03"/>
+        </ext:heidicon>
+    </work>
+</vra>

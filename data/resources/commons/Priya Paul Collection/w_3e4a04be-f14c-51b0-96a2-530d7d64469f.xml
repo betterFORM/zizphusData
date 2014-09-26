@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_3e4a04be-f14c-51b0-96a2-530d7d64469f" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-49b3b1e4-9ae3-5cfb-9fc7-f01989188e21">Dunlop</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The watercolor image depicts a green Rolls Royce convertible car in front of a city-gate driving towards the viewer. Two bearded Indian men with turbans are sitting in the front seats and a woman in an Indian dress in the fond. Coconut palms and onion domes, the city walls, a gate and some dwellings can be seen in the background. Apparently, the hexagonal minaret tower of a mosque [?] sticks out in the middle. The bottom of the image shows the advertisement text. Some people standing in the street are shown in the background.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">DUNLOP
+THE STANDARD BY WHICH ALL TYRES ARE JUDGED</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Y.2796 [car plate]</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>30 cm x 20 cm, portrait</notes>
+            <measurements type="height" unit="cm">30</measurements>
+            <measurements type="width" unit="cm">20</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_baa2a8a4-76ef-5c9f-9bb2-d60137c773c1" source="EXC Priya Paul Collection" pref="true" relids="i_baa2a8a4-76ef-5c9f-9bb2-d60137c773c1">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="5c50860e-d23c-572f-aabb-05b3cf6f0d79">
+                <term type="conceptTopic">cities</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="70765077-7713-5245-8172-aa5e5346885e">
+                <term type="conceptTopic">car industry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
+                <term type="conceptTopic">Indian men</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
+                <term type="conceptTopic">Indian women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="4abbbd5e-a5b7-5f6a-9520-aab3de480b5a">
+                <term type="conceptTopic">exoticism</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b733984e-4492-5750-b0f1-07c1f9c6e262">
+                <term type="descriptiveTopic">automobiles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e4626e10-7bde-5f21-aa75-d5654c3bba49">
+                <term type="descriptiveTopic">coconut (fruit)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="5607ff54-8fa7-5f7b-8611-6e0c57d5dfe4">
+                <term type="descriptiveTopic">Rolls-Royce (brand)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="5d06b10d-1b4a-5d4f-93c2-81278f766391">
+                <term type="descriptiveTopic">convertibles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Dunlop Tyres Advertisement</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="41ef1870-0081-5c1d-a22b-107f0e1b086b">watercolors (paintings)</worktype>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+The watercolor image depicts a green Rolls Royce convertible car in front of a city-gate driving towards the viewer. Two bearded Indian men with turbans are sitting in the front seats and a woman in an Indian dress in the fond. Coconut palms and onion domes, the city walls, a gate and some dwellings can be seen in the background. Apparently, the hexagonal minaret tower of a mosque [?] sticks out in the middle. The bottom of the image shows the advertisement text. Some people standing in the street are shown in the background.</ext:value>
+                <ext:value>text-en:
+DUNLOP
+THE STANDARD BY WHICH ALL TYRES ARE JUDGED</ext:value>
+                <ext:value>text-en:
+Y.2796 [car plate]</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/2093.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/2093.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120722</ext:value>
+                <ext:value>120722</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:30:31"/>
+        </ext:heidicon>
+    </work>
+</vra>

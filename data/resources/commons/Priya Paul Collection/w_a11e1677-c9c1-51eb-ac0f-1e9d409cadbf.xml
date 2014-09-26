@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a11e1677-c9c1-51eb-ac0f-1e9d409cadbf" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-2966151b-543f-5a77-bbf1-91396206d367">Jahanara</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-91b60b26-decc-5f43-a36f-56217e9ac3b0">Kumar, Vinod</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-aff1c52b-5b53-5054-8cd2-fc2969585efb">Sinha, Mala</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-11be0dcd-4080-5487-9460-b04fbec7d68c">Bhushan, Bharat</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1964</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1964</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The color-tinted movie poster shows the protagonists Mala Sinha (female) and Bharat Bhushan (the male) sitting together intimately in the royal Mughal palace (The Red Fort, Delhi). The royal hall is in inlaid white marble and has a pillared canopy and a fountain in the middle.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-9d799ca6-24a1-539f-b5a0-023325f6c142">zaboravkk, zaboravkk</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="3bb2d971-9842-5ae4-9df0-14afecf70bb1" type="medium">photographic paper</material>
+        </materialSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_255be2db-9358-573e-b6b1-45f8bf1c9006" source="EXC Priya Paul Collection" pref="true" relids="i_255be2db-9358-573e-b6b1-45f8bf1c9006">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.imdb.com/title/tt0137847/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod vocab="LOCAL" refid="uuid-713bce21-8cae-59d4-a146-7a33333f9a8b">Mughal</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="5216183f-2db0-5982-9417-693caa3528e8">
+                <term type="builtworkPlace">Red Fort (Delhi)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e2401328-5acd-5a23-ab09-2d44da01180f">
+                <term type="conceptTopic">Hindi films</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="04e9db4b-418f-5510-9821-705b8291fcac">
+                <term type="descriptiveTopic">halls (interior spaces)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cb8fb1a2-8905-5eca-99d2-fbebc6f07b39">
+                <term type="descriptiveTopic">couples</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="04033e75-6402-59a1-a7cf-048026c494de">
+                <term type="descriptiveTopic">architecture (object genre)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="222c4b2f-7d73-554f-81e7-c4b89d9758b7">
+                <term type="descriptiveTopic">fountains</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a7268665-ba9d-5c6f-b4fe-ccaaa7062497">
+                <term type="iconographicTopic">Jahan Ara (movie, 1964)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="6688815e-8d89-55fb-91ca-14c288014a8c">color prints (photographs)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Film Still of Jahan Ara</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>description-en:
+The color-tinted movie poster shows the protagonists Mala Sinha (female) and Bharat Bhushan (the male) sitting together intimately in the royal Mughal palace (The Red Fort, Delhi). The royal hall is in inlaid white marble and has a pillared canopy and a fountain in the middle.(gs/sb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+This cinema lobby card from Jahan Ara (Vinod Kumar, 1964) encapsulates the dream-like beauty of a quasi-Mughal imaginary. (Rosie Thomas)(gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights. (Rosie Thomas) (gs)</ext:value>
+                <ext:value>related literature:
+Said, Edward 1995. "Orientalism". London: Penguin Books. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy" http://www.tasveergharindia.net/cmsdesk/essay/103/index.html, last accessed 2010-11-22. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0137847/plotsummary, last accessed 2010-10-28. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar. http://www.tasveergharindia.net/cmsdesk/essay/114/index.html, last accessed 2010-10-28. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+The movie recounts the story of the ill-fated love between Jahan Ara, the daughter of the Mughal emperor Shah Jahan and Mirza Yusuf Changezi. (sp)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Said, Edward 1995. "Orientalism". London: Penguin Books.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0137847/plotsummary</ext:value>
+                <ext:value type="accessed">2010-10-28</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+                <ext:value type="accessed">2010-11-22</ext:value>
+                <ext:value type="comment">Thomas, Rosie 2010. "Still Magic. An Aladdin's Cave of 1950s B-Movie Fantasy"</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+                <ext:value type="accessed">2010-10-28</ext:value>
+                <ext:value type="comment">Asher, Catherine B. 2010. Fantasizing the Mughals and Popular Perceptions of the Taj Mahal. Tasveer Ghar.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">This cinema lobby card from Jahan Ara (Vinod Kumar, 1964) encapsulates the dream-like beauty of a quasi-Mughal imaginary.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Rosie Thomas</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Two genres dominated India’s B-movie circuit in the 1950s: stunt and fantasy films – otherwise referred to as ‘fighting’ and ‘magic’ (or ‘jadoo’) films. The former refers to all manner of action films, which invariably drew openly on the Hollywood ‘low’ genres popular in India since the silent era. India’s fantasy films, on the other hand, were spun around magical and wondrous happenings in a quasi-Arabian Islamicate setting, most drawing loosely on oral and literary traditions of the Arabian Nights.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Rosie Thomas</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">The movie recounts the story of the ill-fated love between Jahan Ara, the daughter of the Mughal emperor Shah Jahan and Mirza Yusuf Changezi.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Padmanabhan, Sridevi</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-dc8e6805-ec52-547a-993f-586ebd9681cc</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.tasveergharindia.net/cmsdesk/essay/103/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/114/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url3" status="0" display="URL3">
+                <ext:value type="url3">http://www.imdb.com/title/tt0137847/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120860</ext:value>
+                <ext:value>120860</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:41:39"/>
+        </ext:heidicon>
+    </work>
+</vra>

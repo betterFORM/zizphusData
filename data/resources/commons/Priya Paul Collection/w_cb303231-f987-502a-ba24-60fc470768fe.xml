@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_cb303231-f987-502a-ba24-60fc470768fe" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-185eaa8d-7fbe-5c6e-b026-6dbfb5a56ccd">Bachchan, Amitabh</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-0f86c459-d414-531d-8a05-2b73aa8f9f6e">Dharmendra</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-8d8eb37e-cada-5686-a464-faa9aba0f1e4">Anand, Vijay</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-3c5d7d56-c987-5405-a489-4618efe77490">Kwakar &lt;artist&gt;</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1980</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1980</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Amitabh Bachchan with Dharmendra descending through a rope. Dharmendra has a gun in his hand. Close up of different characters like Raza Murad, etc is also in view.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Ram
+Balram</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Eastmancolor</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Vijay Anand
+music Laxmikant Pyarelal
+lyrics Anand Bakshi
+produced by Tito</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Kwakar?</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Kwakar</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 17 cm, W 27 cm, landscape</notes>
+            <measurements type="height" unit="cm">17</measurements>
+            <measurements type="width" unit="cm">27</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_f2d8df69-35a1-5029-b1fd-79aa7d0d9bc0" source="EXC Priya Paul Collection" pref="true" relids="i_f2d8df69-35a1-5029-b1fd-79aa7d0d9bc0">front</relation>
+            <relation type="imageIs" refid="i_bd7b88be-d329-58c6-ae5d-3371f0ef3f25" source="EXC Priya Paul Collection" relids="i_bd7b88be-d329-58c6-ae5d-3371f0ef3f25">back</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-1980/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-1980/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>late 20th century</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="11be686d-58fc-534d-b2d0-141c871dff79">
+                <term type="conceptTopic">Bollywood</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
+                <term type="descriptiveTopic">posters</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="92ec74b7-bfcb-5488-826a-b67395e147c6">
+                <term type="descriptiveTopic">motion pictures (visual works)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0fced42e-bef4-52b0-ad72-3602d3bce2f8">
+                <term type="descriptiveTopic">film poster</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="cee97fe0-7978-5699-adff-3ded4f1c79f7">
+                <term type="iconographicTopic">Ram Balram (movie, 1980</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
+                <term type="otherTopic">recheck-problem</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Ram Balram</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="629f3c8f-0d72-5e2d-94b9-8ef26d0eceec">brochures</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Kwakar</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Ram
+Balram</ext:value>
+                <ext:value>text-en:
+Eastmancolor</ext:value>
+                <ext:value>text-en:
+Vijay Anand
+music Laxmikant Pyarelal
+lyrics Anand Bakshi
+produced by Tito</ext:value>
+                <ext:value>text-en:
+Kwakar?</ext:value>
+                <ext:value>description-en:
+Amitabh Bachchan with Dharmendra descending through a rope. Dharmendra has a gun in his hand. Close up of different characters like Raza Murad, etc is also in view. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Ram Balram was released in 1980 as a big budget multi-starrer directed by Vijay Anand. (Ranjani Mazumdar) (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+This kind of poster draws our attention to two things. First, the 1970s magnified the scale of action in cinema to a level that involved large production crews since action sequences, like dance sequences, require skilled stunt men and women.22 Secondly, action came to be recognized by the industry as one of the most marketable and spectacular aspects of a film, displayed here through a depiction of technology as spectacle. (Ranjani Mazumdar) (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Ram-Balram was third movie of Amitabh-Dharmendra after Sholay and Chupke Chupke. This movie was expected to be another Sholay. But comparison to Sholay always works in negative way for any movie. Ram-Balram was no exception. Movie opens to thunder response with packed houses all over, but couldn’t meet the set expectations. After three houseful weeks, it fells on 4th week and wrapped under 5 Crore in 25 weeks of run. However 5 Crore was huge amount in 1980 which if adjusted today come close to 80 Crore. Movie was distributed @1 Crore for bombay territory and rest part of India costs 1.5 Crore. Over 2.5 Crore of investment and 3.5 Crore Distribution share makes it 1 Crore earner movie which if adjusted today comes to 16 Crore. 16 Crore distribution profit in contemporary term is blockbuster run, but in 1980 when Bachchan movies are expected much more, Ram-Balram was termed as just Semi-Hit. (gs)</ext:value>
+                <ext:value>related literature:
+Dasgupta, Susmita 2006. "Amitabh. The making of a superstar." New Delhi: Penguin Books. (gs)</ext:value>
+                <ext:value>related literature:
+Ghosh, Avijit 1996 “India’s Journey with Amitabh Bachchan” The Pioneer, November 24. (gs)</ext:value>
+                <ext:value>related literature:
+Mazumdar, Ranjani 2010. "The Man Who Was Seen Too Much: Amitabh Bachchan on Film Posters ." http://www.tasveergharindia.net/cmsdesk/essay/106/index.html, lastr accessed 2010-11-09. (gs)</ext:value>
+                <ext:value>related literature:
+Singhal, Rahul (ed) 2004. "Mega star of Bollywood. Amitabh Bachchan." Delhi, India: Pentagon Paperbooks. (gs/ja)</ext:value>
+                <ext:value>related literature:
+Somaaya, Bhawana (ed) 2000. "Amitabh Bachchan, the legend." New Delhi: Macmillan India. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-1980/, last accessed 2010-11-09 (gs/ja)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Dasgupta, Susmita 2006. "Amitabh. The making of a superstar." New Delhi: Penguin Books.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Mazumdar, Ranjani 2010. "The Man Who Was Seen Too Much: Amitabh Bachchan on Film Posters ." http://www.tasveergharindia.net/cmsdesk/essay/106/index.html, lastr accessed 2010-11-09.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Singhal, Rahul (ed) 2004. "Mega star of Bollywood. Amitabh Bachchan." Delhi, India: Pentagon Paperbooks.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Alisch, Johannes</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Somaaya, Bhawana (ed) 2000. "Amitabh Bachchan, the legend." New Delhi: Macmillan India.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Ghosh, Avijit 1996 “India’s Journey with Amitabh Bachchan” The Pioneer, November 24.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-1980/</ext:value>
+                <ext:value type="accessed">2010-11-09</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Alisch, Johannes</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Ram Balram was released in 1980 as a big budget multi-starrer directed by Vijay Anand.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Ranjani Mazumdar</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Ram-Balram was third movie of Amitabh-Dharmendra after Sholay and Chupke Chupke. This movie was expected to be another Sholay. But comparison to Sholay always works in negative way for any movie. Ram-Balram was no exception. Movie opens to thunder response with packed houses all over, but couldn’t meet the set expectations. After three houseful weeks, it fells on 4th week and wrapped under 5 Crore in 25 weeks of run. However 5 Crore was huge amount in 1980 which if adjusted today come close to 80 Crore. Movie was distributed @1 Crore for bombay territory and rest part of India costs 1.5 Crore. Over 2.5 Crore of investment and 3.5 Crore Distribution share makes it 1 Crore earner movie which if adjusted today comes to 16 Crore. 16 Crore distribution profit in contemporary term is blockbuster run, but in 1980 when Bachchan movies are expected much more, Ram-Balram was termed as just Semi-Hit.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">This kind of poster draws our attention to two things. First, the 1970s magnified the scale of action in cinema to a level that involved large production crews since action sequences, like dance sequences, require skilled stunt men and women.22 Secondly, action came to be recognized by the industry as one of the most marketable and spectacular aspects of a film, displayed here through a depiction of technology as spectacle.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Ranjani Mazumdar</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Amitabh Bachchan</ext:value>
+            </ext:item>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Dharmendra</ext:value>
+            </ext:item>
+            <ext:item type="f_personen" vocab="" refid="" status="0" display="personen">
+                <ext:value>Ajit</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120399</ext:value>
+                <ext:value>i_bd7b88be-d329-58c6-ae5d-3371f0ef3f25</ext:value>
+                <ext:value>back</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-1980/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://bollybusiness.wordpress.com/2009/11/28/this-week-from-past-ram-balram-1980/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120400</ext:value>
+                <ext:value>120400</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:35:25"/>
+        </ext:heidicon>
+    </work>
+</vra>

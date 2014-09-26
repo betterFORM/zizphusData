@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_33b7ff69-b69d-5cc1-9d6e-c3b6ca8285bf" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-459b4de8-c2f9-55ec-9929-3b045a4941e3">Buddha</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-d1e3ef1f-fceb-5ffd-a2bc-b07012c98ef4">Avantika Prakashan</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Front hard cover of a "Sample" album, "Art Pictorial Calendars" by Avantika Prakashan, Kanpur. The album cover is 10" x 15" in size and shows an image of "Buddha" on it.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">SAMPLE</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">ALBUM</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Art Pictorial
+CALENDARS
+IN
+10'' x 15''
+SIZE</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">AVANTIKA PRANKASHAN
+Printers, Publishers, Diary &amp; Calendars Manufacturors,
+JWALA PRASAD CONTRACTOR LAKE (?)
+Jwala Bhawan - GWALTOLI
+KANPUR.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <measurementsSet>
+            <notes>H 15 cm, W 10 cm</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">10</measurements>
+            <measurements shape=""/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_b9ae4b5c-fea7-5d93-b25b-53e5c05b7520" source="EXC Priya Paul Collection" pref="true" relids="i_b9ae4b5c-fea7-5d93-b25b-53e5c05b7520">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=80&amp;EId=96&amp;ImageId=9</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>1930 - 1940</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="affc17fe-eb39-5bf2-a4e0-9455baa8fff9">
+                <term type="descriptiveTopic">trade catalogs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7c11a519-3ab8-5047-ab64-78587d6cbd98">
+                <term type="descriptiveTopic">covers (gathered matter components)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="57ee3339-e4a6-576c-a74c-cdcc94e12a1e">
+                <term type="geographicPlace">Kanpur</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d644b6d4-908d-5807-b85b-0aca21706a27">
+                <term type="otherTopic">Art Pictorial Calendars</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Cover of a sample album of Art Pictorial calendars</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="f4deecfb-099a-5e46-a587-8a9672a734ed">hardcover books</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+SAMPLE</ext:value>
+                <ext:value>text-en:
+ALBUM</ext:value>
+                <ext:value>text-en:
+Art Pictorial
+CALENDARS
+IN
+10'' x 15''
+SIZE</ext:value>
+                <ext:value>text-en:
+AVANTIKA PRANKASHAN
+Printers, Publishers, Diary &amp; Calendars Manufacturors,
+JWALA PRASAD CONTRACTOR LAKE (?)
+Jwala Bhawan - GWALTOLI
+KANPUR.</ext:value>
+                <ext:value>description-en:
+Front hard cover of a "Sample" album, "Art Pictorial Calendars" by Avantika Prakashan, Kanpur. The album cover is 10" x 15" in size and shows an image of "Buddha" on it. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Artists resided throughout the subcontinent and were identified and retained by the printers to create these images (with more and less intervention by the publishers, depending on the clout they exercised). The images were gathered up by the printing companies and then produced (sometimes in India, sometimes in Europe), after which they were dispersed back out through regional networks. Selection of which images to distribute took place at several steps along these marketing routes, but local purveyors most often offered a quite wide range of choices, so that all local market demands could be met. There was virtually no specialization (such as by caste or religion, or by theme, style, etc.) that would mark out artist, printer, or purveyor as everyone tried to meet diverse market needs. (Sandria B. Freitag) (gs)</ext:value>
+                <ext:value>related literature:
+Braudel, Fernand 1981. "The Structures of Everyday Life". London: Collins. (gs)</ext:value>
+                <ext:value>related literature:
+de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press. (gs)</ext:value>
+                <ext:value>related literature:
+Freitag, Sandria B. 2010. "Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture"</ext:value>
+                <ext:value>related hyperlinks:
+http://www.tasveergharindia.net/cmsdesk/essay/96/index.html last accessed 2011-01-22, Tasveer Ghar essay (gs)</ext:value>
+                <ext:value>related literature:
+Storey, John 1999. "Cultural Consumption and Everyday Life". New York: Oxford University Press. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Storey, John 1999. "Cultural Consumption and Everyday Life". New York: Oxford University Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">de Certeau, Michel 1984. "The Practices of Everyday Life" . Berkeley: University of California Press.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Braudel, Fernand 1981. "The Structures of Everyday Life". London: Collins.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Freitag, Sandria B. 2010. "Consumption and identity: Imagining ‘Everyday Life’ Through Popular Visual Culture"</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</ext:value>
+                <ext:value type="accessed">2011-01-22</ext:value>
+                <ext:value type="comment">Tasveer Ghar essay</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Artists resided throughout the subcontinent and were identified and retained by the printers to create these images (with more and less intervention by the publishers, depending on the clout they exercised). The images were gathered up by the printing companies and then produced (sometimes in India, sometimes in Europe), after which they were dispersed back out through regional networks. Selection of which images to distribute took place at several steps along these marketing routes, but local purveyors most often offered a quite wide range of choices, so that all local market demands could be met. There was virtually no specialization (such as by caste or religion, or by theme, style, etc.) that would mark out artist, printer, or purveyor as everyone tried to meet diverse market needs.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Author</ext:value>
+                    <ext:value type="name">Sandria B. Freitag</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">$UUID$</ext:value>
+                </ext:item>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://tasveergharindia.net/cmsdesk/viewgallery.aspx?id=80&amp;EId=96&amp;ImageId=9</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.tasveergharindia.net/cmsdesk/essay/96/index.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/139333</ext:value>
+                <ext:value>139333</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:47:22"/>
+        </ext:heidicon>
+    </work>
+</vra>

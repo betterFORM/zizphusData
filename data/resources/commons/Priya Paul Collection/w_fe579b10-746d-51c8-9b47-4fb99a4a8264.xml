@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_fe579b10-746d-51c8-9b47-4fb99a4a8264" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-664f87db-93fc-53c2-bcc1-94d6a30fe186">Krishna</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-544068d9-0881-5ff2-a968-b9b35e0858a2">Guru Harikishan Sahib</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-b2f0e016-2a57-5772-bb1e-a0e3a90c7c97">Krishna Industry Work</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-e464a6c4-8034-5a6f-be16-46cc61064891">Gopal Calendar Menu Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-7a346e89-9eb7-5383-8538-c99ab8fc071b">Punjabi Press, Delhi</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1958</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1958</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This calendar from Krishna Industry Work, Vyavar, Rajasthan, India, shows the eighth Sikh guru, Guru Harkishan Sahib. It was published for 1958 by Gopal Calendar Menu Co., Vyavar. The poster is framed. The picture is signed by Punjabi Press, Delhi.
+The four corners of the posters are illustrated with small drawings: a woman in an oval frame (upper left), Krishna playing the flute (upper right), bearded dwarf marching with a big drum (lower left and right corners). In the center of the lower part a drawing shows a snake in the grass.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-009f50e1-2a8e-5896-89a1-665effeff19c">Arnold, Matthias</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">8 [red sticker, handwritten, upper left corner]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Try once "Ajgar Soap" use always</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">अजगर छाप साबुन</text>
+            </inscription>
+            <inscription>
+                <text type="other">Ajgar Chhaap Saabun</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">निर्माता:- कृष्णा इण्डस्ट्रीयल वर्क्स, ब्यावर</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">[along the left side of the illustration of the snake]
+सफ़ेद 
+व 
+चमकदार 
+धुलाई
+के
+लिए
+?
+अजगर 
+छाप 
+साबुन</text>
+            </inscription>
+            <inscription>
+                <text type="translation">For a white and sparkling wash- Ajgar stamp soap</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">[along the right side of the illustration of the snake]
+अब 
+हमेशा!
+अजगर 
+साबुन  
+ही
+धुलाई
+के
+काम 
+मे
+लाईये!</text>
+            </inscription>
+            <inscription>
+                <text type="translation">Always use Ajgar stamp soap when washing!</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Guru Harkishen Saheb Ji [underneath Hindi text]</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Punjabi Press, Delhi [signature on image]</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Punjabi Press, Delhi</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_1051309a-ec60-5cd3-b345-a71813897b91" source="EXC Priya Paul Collection" pref="true" relids="i_1051309a-ec60-5cd3-b345-a71813897b91">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.sgpc.net/gurus/guruharkrishan.asp</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="8a38287d-5715-54be-b7bf-f359b2333059">
+                <term type="conceptTopic">Indian men</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ebb69a2e-22b0-5f48-b771-be0e3287b9d2">
+                <term type="descriptiveTopic">ornaments</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="aba55135-7965-5acc-93e8-730cd0bd8bd0">
+                <term type="descriptiveTopic">feather (material)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2900064a-03e7-5d24-9651-b20a9a3d7a6e">
+                <term type="descriptiveTopic">dwarfs</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">
+                <term type="descriptiveTopic">calendars</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b7b1d335-4d23-59d7-be90-39f089ceb89f">
+                <term type="descriptiveTopic">snake</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
+                <term type="descriptiveTopic">turbans</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6426548e-2d2c-5887-89d1-a6943b1abe35">
+                <term type="descriptiveTopic">flutes (aerophones)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bd955076-11a3-5295-aa36-73664c8b215d">
+                <term type="descriptiveTopic">drums (membranophones)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="3b86ea94-9dbe-53d1-8beb-0c8f37a4416a">
+                <term type="iconographicTopic">glories</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fee592d8-d85a-5f0d-bbe6-05be1bb08fdf">
+                <term type="iconographicTopic">religious posters</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a631ebcb-b6bd-5b0d-9736-c31921f0fac7">
+                <term type="iconographicTopic">Sikhs (people)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d7e59f38-e7d8-54bf-91b8-d16cc4f9ba81">
+                <term type="otherTopic">recheck-problem</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="987839c1-73e5-5c70-aec8-9826da6fe83a">
+                <term type="otherTopic">recheck-original-language</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b6c8dfe5-5dd1-584c-9b2e-d7d51c6ebd5e">
+                <term type="otherTopic">recheck-Hindi-title</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">1958 Advertisement calendar for Ajgar Soap</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="37e0ef55-0bad-54b1-8ded-1082206c6016">calendars</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+8 [red sticker, handwritten, upper left corner]</ext:value>
+                <ext:value>text-en:
+Try once "Ajgar Soap" use always</ext:value>
+                <ext:value>text-hi:
+अजगर छाप साबुन</ext:value>
+                <ext:value>text-transcription-hi:
+Ajgar Chhaap Saabun</ext:value>
+                <ext:value>text-hi:
+निर्माता:- कृष्णा इण्डस्ट्रीयल वर्क्स, ब्यावर</ext:value>
+                <ext:value>text-hi:
+[along the left side of the illustration of the snake]
+सफ़ेद 
+व 
+चमकदार 
+धुलाई
+के
+लिए
+?
+अजगर 
+छाप 
+साबुन</ext:value>
+                <ext:value>text-translation-en:
+For a white and sparkling wash- Ajgar stamp soap</ext:value>
+                <ext:value>text-hi:
+[along the right side of the illustration of the snake]
+अब 
+हमेशा!
+अजगर 
+साबुन  
+ही
+धुलाई
+के
+काम 
+मे
+लाईये!</ext:value>
+                <ext:value>text-translation-en:
+Always use Ajgar stamp soap when washing!</ext:value>
+                <ext:value>text-en:
+Guru Harkishen Saheb Ji [underneath Hindi text]</ext:value>
+                <ext:value>text-en:
+Punjabi Press, Delhi [signature on image]</ext:value>
+                <ext:value>description-en:
+This calendar from Krishna Industry Work, Vyavar, Rajasthan, India, shows the eighth Sikh guru, Guru Harkishan Sahib. It was published for 1958 by Gopal Calendar Menu Co., Vyavar. The poster is framed. The picture is signed by Punjabi Press, Delhi.
+The four corners of the posters are illustrated with small drawings: a woman in an oval frame (upper left), Krishna playing the flute (upper right), bearded dwarf marching with a big drum (lower left and right corners). In the center of the lower part a drawing shows a snake in the grass. (gs/ma)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Guru Harkrishan Sahib was born on Sawan Vadi 10 (8 Sawan), Bikrami Samvat 1713 (July 7, 1656) at Kiratpur Sahib. He was the second son of Guru Har Rai Sahib and Mata Krishan Kaur Ji (Sulakhni Ji), cf. http://www.sgpc.net/gurus/guruharkrishan.asp. (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.sgpc.net/gurus/guruharkrishan.asp, last accessed 2011-09-16, basic info-page about Guru Har Krishan Sahib (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.sgpc.net/gurus/guruharkrishan.asp</ext:value>
+                <ext:value type="accessed">2011-09-16</ext:value>
+                <ext:value type="comment">basic info-page about Guru Har Krishan Sahib</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Guru Harkrishan Sahib was born on Sawan Vadi 10 (8 Sawan), Bikrami Samvat 1713 (July 7, 1656) at Kiratpur Sahib. He was the second son of Guru Har Rai Sahib and Mata Krishan Kaur Ji (Sulakhni Ji), cf. http://www.sgpc.net/gurus/guruharkrishan.asp.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>poster torn on lower side</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.sgpc.net/gurus/guruharkrishan.asp</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/139324</ext:value>
+                <ext:value>139324</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:46:47"/>
+        </ext:heidicon>
+    </work>
+</vra>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_0011205f-7d3d-5e9f-bf36-662a564d10c0" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-2998d526-9be9-5518-936b-ba70fa17b774">Bharat Mata</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-65d331c8-aea5-564e-a372-b0b6cd6f30df">Gandhi, Mohandas Karamchand</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-08d25ba7-3212-579f-82e3-bb1d7eaa4e40">M. V. &amp; Co</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>ca. 1932</date>
+                </earliestDate>
+                <latestDate>
+                    <date>ca. 1932</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>The picture shows Mohandas K Gandhi clad in a dhoti being welcomed by Mother India holding the Indian flag. He has just disembarked from the steamer "Pilsna" which fills the background. Part of the gangway is depicted to the right, a distant ship can be seen on the left hand side.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-efcf5d51-0cf3-54d1-997e-256762188efb">, </name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="hin">Please add original language here</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Ex. S. S. Pilsna, Welcomed by Desh Sevika.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">PILSNA</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">M.V.&amp;Co.</text>
+            </inscription>
+            <inscription>
+                <text type="signature">M. V. &amp; Co.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>20 cm x 30 cm, landscape</notes>
+            <measurements type="height" unit="cm">20</measurements>
+            <measurements type="width" unit="cm">30</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_c32d7027-1f80-5847-a7c6-29c09ae7c11c" source="EXC Priya Paul Collection" pref="true" relids="i_c32d7027-1f80-5847-a7c6-29c09ae7c11c">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.gandhimedia.org/cgi-bin/gm/gm.cgi?direct=Images/Photographs/Personalities/Mahatma_Gandhi/1931_-_1932&amp;img=795</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+            <source>
+                <name>http://www.gandhi-manibhavan.org/eduresources/chap21.htm</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <stylePeriodSet>
+            <stylePeriod>Early 1930s</stylePeriod>
+        </stylePeriodSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="44750451-00da-55b9-bd98-4036cdd413a2">
+                <term type="conceptTopic">national leader</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="69ed35b5-2652-56b6-be29-27e7e44d52d8">
+                <term type="descriptiveTopic">dhoti</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="68efbf5f-c957-52a0-8ed6-f1f4e05b85f8">
+                <term type="descriptiveTopic">flags</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a11996a4-a33a-5a54-b6fa-d996f8216c1f">
+                <term type="descriptiveTopic">ships</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">
+                <term type="descriptiveTopic">posters</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="32bac633-9059-5ea1-9685-2316bac61731">
+                <term type="descriptiveTopic">political posters</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e5f95fa4-63c1-5a4a-a67e-5752b41a363d">
+                <term type="descriptiveTopic">Indian flag</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="19cc928d-3d05-5e88-961e-1d640bb0e682">
+                <term type="descriptiveTopic">steamships</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="34bba04d-a33f-5675-bdde-2d430d4b2ee5">
+                <term type="iconographicTopic">Father of the Nation</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7993f322-d861-5c2c-8bb5-4d99b36790fa">
+                <term type="otherTopic">checked</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="inscribed" pref="true" lang="eng" script="Latn">Ex. S. S. Pilsna, welcomed by Desh Sevika.</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-hi:
+Please add original language here</ext:value>
+                <ext:value>text-en:
+Ex. S. S. Pilsna, Welcomed by Desh Sevika.</ext:value>
+                <ext:value>text-en:
+PILSNA</ext:value>
+                <ext:value>text-en:
+M.V.&amp;Co.</ext:value>
+                <ext:value>description-en:
+The picture shows Mohandas K Gandhi clad in a dhoti being welcomed by Mother India holding the Indian flag. He has just disembarked from the steamer "Pilsna" which fills the background. Part of the gangway is depicted to the right, a distant ship can be seen on the left hand side.</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/467.tif</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+On board of the steamship SS Pilsna Gandhi arrived in Bombay December 28, 1931 on his journey from Europe -where he attended the second "Round Table Conference"- back to India. cf. http://www.gandhimedia.org/cgi-bin/gm/gm.cgi?direct=Images/Photographs/Personalities/Mahatma_Gandhi/1931_-_1932&amp;img=795 (ma)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Image poorly stitched, the seam is visible a s dark shadow in the middle of the image. (ma)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+"Desh Sevika" refers to the Desh Sevika Sangha (DSS, Women Serving the Country), which is a suborganisation of the Rashtriya Swayamsevak Sangh (RSS, National Patriotic Organization). cf. http://www.indianetzone.com/50/women_during_civil_disobedience_movement_mumbai.htm (ma)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.gandhi-manibhavan.org/eduresources/chap21.htm, last accessed 2013-02-28, memoires of a swiss couple traveling with Gandhi from Europe to India in december 1931 (ma)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.gandhimedia.org/cgi-bin/gm/gm.cgi?direct=Images/Photographs/Personalities/Mahatma_Gandhi/1931_-_1932&amp;img=795, last accessed 2013-02-28, collection of photographs from Gandhis journey on board of the SS Pilsna (ma)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.indianetzone.com/50/women_during_civil_disobedience_movement_mumbai.htm, last accessed 2013-02-28, website about "Women During Civil Disobedience Movement in Mumbai" (ma)</ext:value>
+                <ext:value>related literature:
+Forbes, Geraldine Hancock. "The Politics of Respectability: Indian Women and the Indian National Congress", in: Forbes, G. Women in Colonial India: Essays on Politics, Medicine, and Historiography, pp.28-62</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rl" status="0" display="comment:related_literature">
+                <ext:value type="text">Forbes, Geraldine Hancock. "The Politics of Respectability: Indian Women and the Indian National Congress", in: Forbes, G. Women in Colonial India: Essays on Politics, Medicine, and Historiography, pp.28-62</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.indianetzone.com/50/women_during_civil_disobedience_movement_mumbai.htm</ext:value>
+                <ext:value type="accessed">2013-02-28</ext:value>
+                <ext:value type="comment">website about "Women During Civil Disobedience Movement in Mumbai"</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Arnold, Matthias</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.gandhimedia.org/cgi-bin/gm/gm.cgi?direct=Images/Photographs/Personalities/Mahatma_Gandhi/1931_-_1932&amp;img=795</ext:value>
+                <ext:value type="accessed">2013-02-28</ext:value>
+                <ext:value type="comment">collection of photographs from Gandhis journey on board of the SS Pilsna</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Arnold, Matthias</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.gandhi-manibhavan.org/eduresources/chap21.htm</ext:value>
+                <ext:value type="accessed">2013-02-28</ext:value>
+                <ext:value type="comment">memoires of a swiss couple traveling with Gandhi from Europe to India in december 1931</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Arnold, Matthias</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">"Desh Sevika" refers to the Desh Sevika Sangha (DSS, Women Serving the Country), which is a suborganisation of the Rashtriya Swayamsevak Sangh (RSS, National Patriotic Organization). cf. http://www.indianetzone.com/50/women_during_civil_disobedience_movement_mumbai.htm</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Arnold, Matthias</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Image poorly stitched, the seam is visible a s dark shadow in the middle of the image.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Arnold, Matthias</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">On board of the steamship SS Pilsna Gandhi arrived in Bombay December 28, 1931 on his journey from Europe -where he attended the second "Round Table Conference"- back to India. cf. http://www.gandhimedia.org/cgi-bin/gm/gm.cgi?direct=Images/Photographs/Personalities/Mahatma_Gandhi/1931_-_1932&amp;img=795</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Arnold, Matthias</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-009f50e1-2a8e-5896-89a1-665effeff19c</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/467.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.gandhimedia.org/cgi-bin/gm/gm.cgi?direct=Images/Photographs/Personalities/Mahatma_Gandhi/1931_-_1932&amp;img=795</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url2" status="0" display="URL2">
+                <ext:value type="url2">http://www.gandhi-manibhavan.org/eduresources/chap21.htm</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/110274</ext:value>
+                <ext:value>110274</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:38:53"/>
+        </ext:heidicon>
+    </work>
+</vra>

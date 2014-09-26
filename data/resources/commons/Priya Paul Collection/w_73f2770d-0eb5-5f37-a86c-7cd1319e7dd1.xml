@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_73f2770d-0eb5-5f37-a86c-7cd1319e7dd1" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="personal" refid="uuid-682dd13b-790a-5a73-9a6f-aa7ac2744cc7">Stone, Lawrence</name>
+                <role vocab="marcrelator" type="code">art</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>Two bottles of the advertised product with two full beer glasses can be seen on this advertisement of the German beer brewer Beck. The right upper section of the painting by Lawrence Stone hosts the well known  logo of the company.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Agents for Beck's beers
+Spencer &amp; Co., Ltd. Bombay, Karachi, Calcutta, Madras, Delhi
+Cargills, Ltd. Colombo
+Drossos &amp; Co. Alexandria, Cairo, Port Said, etc.</text>
+            </inscription>
+            <inscription>
+                <text type="signature">Lawrence Stone</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 30 cm, W 17 cm, portrait</notes>
+            <measurements type="height" unit="cm">30</measurements>
+            <measurements type="width" unit="cm">17</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_18e9aaee-f997-502b-b398-8fec91019085" source="EXC Priya Paul Collection" pref="true" relids="i_18e9aaee-f997-502b-b398-8fec91019085">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://en.wikipedia.org/wiki/Beck%27s_Brewery</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6915773e-cb3b-56ee-9c86-38b43ad850f7">
+                <term type="descriptiveTopic">bottles</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="0390ac2a-dbd5-5df8-af8a-ee80637c674c">
+                <term type="descriptiveTopic">ale glasses</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="a9df249d-0771-5c17-b8fd-b10127cdff14">
+                <term type="descriptiveTopic">Beck's (brand)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Beck's Beer</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="8373d6f0-a4f0-5198-a092-25ff4af2c41f">posters</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_autor_zeichen" status="0" display="Artist (characters)">
+                <ext:value>Stone, Lawrence</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Agents for Beck's beers
+Spencer &amp; Co., Ltd. Bombay, Karachi, Calcutta, Madras, Delhi
+Cargills, Ltd. Colombo
+Drossos &amp; Co. Alexandria, Cairo, Port Said, etc.</ext:value>
+                <ext:value>description-en:
+Two bottles of the advertised product with two full beer glasses can be seen on this advertisement of the German beer brewer Beck. The right upper section of the painting by Lawrence Stone hosts the well known  logo of the company. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Beck's Brewery, also known as Brauerei Beck &amp; Co., is a German brewery in the northern German city of Bremen. Owned by local families until February 2002, it was then sold to Interbrew for 1.8 billion euros. The brewery was formed under the name Kaiserbrauerei Beck &amp; May o.H.G. in 1873 by Lüder Rutenberg, Heinrich Beck and Thomas May. In 1875, Thomas May left the brewery which then became known as Kaiserbrauerei Beck &amp; Co. Beck's ranks fifth among Germany's best selling breweries. Beck's is still growing in the German market, but it is still not a major brewer in Germany. Beck's produces parts of its beers by other companies which are owned by Beck's such as Löwenbräu in Munich and Hasseröder in Wernigerrode. Beck's in Bremen is the logistic German Headquarters of InBev. All advertising and logistics for the companies owned by InBev Germany is steered from there for this Market. (http://en.wikipedia.org/wiki/Beck%27s_Brewery) ()(gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://en.wikipedia.org/wiki/Beck%27s_Brewery, last accessed 2012-05-04, basic information about the company. (gs)</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+/403.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://en.wikipedia.org/wiki/Beck%27s_Brewery</ext:value>
+                <ext:value type="accessed">2012-05-04</ext:value>
+                <ext:value type="comment">basic information about the company.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Beck's Brewery, also known as Brauerei Beck &amp; Co., is a German brewery in the northern German city of Bremen. Owned by local families until February 2002, it was then sold to Interbrew for 1.8 billion euros. The brewery was formed under the name Kaiserbrauerei Beck &amp; May o.H.G. in 1873 by Lüder Rutenberg, Heinrich Beck and Thomas May. In 1875, Thomas May left the brewery which then became known as Kaiserbrauerei Beck &amp; Co. Beck's ranks fifth among Germany's best selling breweries. Beck's is still growing in the German market, but it is still not a major brewer in Germany. Beck's produces parts of its beers by other companies which are owned by Beck's such as Löwenbräu in Munich and Hasseröder in Wernigerrode. Beck's in Bremen is the logistic German Headquarters of InBev. All advertising and logistics for the companies owned by InBev Germany is steered from there for this Market. (http://en.wikipedia.org/wiki/Beck%27s_Brewery)</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/403.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://en.wikipedia.org/wiki/Beck%27s_Brewery</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/108381</ext:value>
+                <ext:value>108381</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:34:42"/>
+        </ext:heidicon>
+    </work>
+</vra>

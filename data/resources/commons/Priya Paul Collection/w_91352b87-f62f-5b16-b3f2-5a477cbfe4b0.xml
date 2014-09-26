@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_91352b87-f62f-5b16-b3f2-5a477cbfe4b0" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-c6de85e4-b8e7-5662-b6c4-0febd277322b">New Jahangir Mills</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-f1639532-056d-5cd8-aee4-037f2be4b15b">Madari</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>This textile label of New Jahangir Mills Bhavnagar shows a monkey with his master sitting under a tree. The madari (street performer with animal), clad in traditional clothing, has a stick and a damru (a drum) in his hands and is training his monkey with it.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d71f0b41-8640-58b1-9549-9a3447418a2a">Buchwald, Tony</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Regd</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">New Jahangir Mills Bhavnagar.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="hin">मदारी छाप</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 22 cm, W 17 cm, portrait</notes>
+            <measurements type="height" unit="cm">22</measurements>
+            <measurements type="width" unit="cm">17</measurements>
+            <measurements shape="portrait"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_69ce57be-908c-5518-8247-3edfa0151f3c" source="EXC Priya Paul Collection" pref="true" relids="i_69ce57be-908c-5518-8247-3edfa0151f3c">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="dba54d8e-9e22-55d0-8a50-d06ef3bca440">
+                <term type="conceptTopic">animal training</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b418eb78-22c2-5e67-a93d-9d999558bb7c">
+                <term type="descriptiveTopic">monkeys (animals)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="7862d0bd-418e-5438-870b-58bbc640eb0e">
+                <term type="descriptiveTopic">trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">
+                <term type="descriptiveTopic">textile label</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d0007bb8-44b6-58f3-9232-503aa15a7526">
+                <term type="descriptiveTopic">damarus</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2929d0b5-473a-56ba-a56c-f4e80e338e41">
+                <term type="descriptiveTopic">turbans</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="bb1d842f-4b29-5eee-a085-269d58cd6cb4">
+                <term type="otherTopic">recheck</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="c06dd31c-01d4-52fc-90ae-47a10d6519db">
+                <term type="otherTopic">recheck-Medialab</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6ba42f26-3dec-5f62-b078-0d9f5c762130">
+                <term type="otherTopic">recheck-Matthias</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="05e81717-b5c1-552f-bafc-950a0f1ad2df">chromolithographs</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">Textile label of New Jahangir Mills Bhavnagar</title>
+            <title type="descriptive" pref="false">मदारी छाप</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="b64e275b-fe28-50db-a1e8-63a7fc7d0a85">textile label</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Regd</ext:value>
+                <ext:value>text-en:
+New Jahangir Mills Bhavnagar.</ext:value>
+                <ext:value>text-hi:
+मदारी छाप</ext:value>
+                <ext:value>description-en:
+This textile label of New Jahangir Mills Bhavnagar shows a monkey with his master sitting under a tree. The madari (street performer with animal), clad in traditional clothing, has a stick and a damru (a drum) in his hands and is training his monkey with it.  (gs/ms/tb)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+Madari are a nomadic tribe, popularly known as snake-charmer. They are believed to be the offspring of Rajput father and Muslim mother. Their verbal interaction takes place in Gujarati and Hindi language. This tribal populace can be examined with a visit to Gujarat and the tribal villages in Assam. The Madari tribal folk are skillful in trapping the snakes, monkeys and Sloth bear, which help them organize some local programmes and earn a few penny. While many of them fill their breadbasket with snake-charming and jugglery, some of them deals in selling indigenous medicinal herbs. This 'Desi Jari Butiwala', sometimes, moves from place to place with their trapped animals, entertain people and also sell the herbal medicines. The Madari tribe do not observe regular rites and rituals. The only celebration takes place during after the marriage ceremony and after the birth of the child. The festive mood jazzed with the a grand feast and with the local drinks, offered to the panch(council of caste leaders) members during the occasion. An interesting fact lies in their diet type that this tribes have strong affinity towards non-vegetarian cuisines but strictly restrict themselves to vegetarian food-staff during their merriment. Madaris are in between the Hindu and Muslim religion. The rituals following the birth and life highlights the influence of Hindu culture, while the rites after the dead gets merged with rules as per the Muslim religion. The dead are buried in the earth and a stretching observance of 12 days ends up with the arrangement of community feast. cf. http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html, last accessed 2011-09-09 () (gs)</ext:value>
+                <ext:value>related hyperlink:
+http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html, last accessed 2011-09-09, basic information about Madari tribe. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html</ext:value>
+                <ext:value type="accessed">2011-09-09</ext:value>
+                <ext:value type="comment">basic information about Madari tribe.</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Madari are a nomadic tribe, popularly known as snake-charmer. They are believed to be the offspring of Rajput father and Muslim mother. Their verbal interaction takes place in Gujarati and Hindi language. This tribal populace can be examined with a visit to Gujarat and the tribal villages in Assam. The Madari tribal folk are skillful in trapping the snakes, monkeys and Sloth bear, which help them organize some local programmes and earn a few penny. While many of them fill their breadbasket with snake-charming and jugglery, some of them deals in selling indigenous medicinal herbs. This 'Desi Jari Butiwala', sometimes, moves from place to place with their trapped animals, entertain people and also sell the herbal medicines. The Madari tribe do not observe regular rites and rituals. The only celebration takes place during after the marriage ceremony and after the birth of the child. The festive mood jazzed with the a grand feast and with the local drinks, offered to the panch(council of caste leaders) members during the occasion. An interesting fact lies in their diet type that this tribes have strong affinity towards non-vegetarian cuisines but strictly restrict themselves to vegetarian food-staff during their merriment. Madaris are in between the Hindu and Muslim religion. The rituals following the birth and life highlights the influence of Hindu culture, while the rites after the dead gets merged with rules as per the Muslim religion. The dead are buried in the earth and a stretching observance of 12 days ends up with the arrangement of community feast. cf. http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html, last accessed 2011-09-09</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>Good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://tribes-of-india.blogspot.com/2009/04/madari-tribe-or-snake-charmer.html</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/106177</ext:value>
+                <ext:value>106177</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:37:42"/>
+        </ext:heidicon>
+    </work>
+</vra>

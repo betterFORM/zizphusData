@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_9933919f-471a-5797-9347-7b87b67294e8" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+        </agentSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this lobby card for the 1965 released Hindi film "Arzoo", we see a dancing scene with several sari clothed Indian women on a glade in front of a forest.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Indian National Pictures Ltd. presents
+WP
+Kamini Kaushal
+Dilip Kumar
+"Arzoo"
+Shangrila
+Directed by Shaheed Latif</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_b12ff5a3-e8ed-555b-ad4b-507ac2240552" source="EXC Priya Paul Collection" pref="true" relids="i_b12ff5a3-e8ed-555b-ad4b-507ac2240552">general view</relation>
+            <relation type="imageIs" refid="i_10712082-48a6-5a56-83e2-6b5f9c32feca" source="EXC Priya Paul Collection" relids="i_10712082-48a6-5a56-83e2-6b5f9c32feca">close-up view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <sourceSet>
+            <source>
+                <name>http://www.imdb.com/title/tt0058921/</name>
+                <refid type="URI">$UUID$</refid>
+                <refid type="citation">$pages$</refid>
+            </source>
+        </sourceSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
+                <term type="conceptTopic">Indian women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">
+                <term type="descriptiveTopic">lobby cards</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="65392e6c-cd3f-5b38-b32e-3ce6307d73f2">
+                <term type="descriptiveTopic">dance</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="107e847d-72b0-54f9-9057-b373db96a343">
+                <term type="descriptiveTopic">forests</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="b1245532-bddd-5f71-94f9-31427bf50ebc">
+                <term type="descriptiveTopic">film stills</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e38f299d-a3ca-5956-b7b6-c8f61581e43f">
+                <term type="otherTopic">recheck-new</term>
+            </subject>
+        </subjectSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">still from the film "Arzoo"</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="2b8821c7-f7f8-5bb8-952e-28194e2b3ac1">lobby cards</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Indian National Pictures Ltd. presents
+WP
+Kamini Kaushal
+Dilip Kumar
+"Arzoo"
+Shangrila
+Directed by Shaheed Latif</ext:value>
+                <ext:value>description-en:
+On this lobby card for the 1965 released Hindi film "Arzoo", we see a dancing scene with several sari clothed Indian women on a glade in front of a forest. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1735.tif</ext:value>
+                <ext:value>explanatory comments/crosstagging:
+Story line of the movie: After completing his medical studies, Gopal (Rajendra Kumar) takes a break and goes on holiday in Kashmir. There he meets with Usha (Sadhana) and both fall in love with each other. Back home, Gopal has a close friend, Ramesh (Feroze Khan), whose dad (Brahm Bhardwaj) wants him to marry Usha as an arranged marriage. Ramesh likes Usha and is willing to marry her. In the meantime, Gopal finds out that Ramesh is going to be married to Usha and decides not to pursue his romance with Usha. When Ramesh and Gopal's sister, Sarla (Nazima) convince Gopal that Usha only loves him, he reveals a dark secret to them, which may convince them that he is not right for Usha. Copied from: http://www.imdb.com/title/tt0058921/, last accessed 2012-08-13 (gs)</ext:value>
+                <ext:value>related hyperlinks:
+http://www.imdb.com/title/tt0058921/, last accessed 2012-08-13. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_rh" status="0" display="comment:related_hyperlinks">
+                <ext:value type="url">http://www.imdb.com/title/tt0058921/</ext:value>
+                <ext:value type="accessed">2012-08-13</ext:value>
+                <ext:value type="comment"/>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/data/easydb/import/exc asia and europe/priya paul/neuimport_07august/1735.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">Story line of the movie: After completing his medical studies, Gopal (Rajendra Kumar) takes a break and goes on holiday in Kashmir. There he meets with Usha (Sadhana) and both fall in love with each other. Back home, Gopal has a close friend, Ramesh (Feroze Khan), whose dad (Brahm Bhardwaj) wants him to marry Usha as an arranged marriage. Ramesh likes Usha and is willing to marry her. In the meantime, Gopal finds out that Ramesh is going to be married to Usha and decides not to pursue his romance with Usha. When Ramesh and Gopal's sister, Sarla (Nazima) convince Gopal that Usha only loves him, he reveals a dark secret to them, which may convince them that he is not right for Usha. Copied from: http://www.imdb.com/title/tt0058921/, last accessed 2012-08-13</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">Schoenhofer, Gerhard</ext:value>
+                    <ext:value type="agent-type">personal</ext:value>
+                    <ext:value type="refid">uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_bildverknuepfung" vocab="" refid="" status="0" display="bildverknuepfung">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/117930</ext:value>
+                <ext:value>i_10712082-48a6-5a56-83e2-6b5f9c32feca</ext:value>
+                <ext:value>close-up view</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_url1" status="0" display="URL1">
+                <ext:value type="url1">http://www.imdb.com/title/tt0058921/</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/120344</ext:value>
+                <ext:value>120344</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:33:06"/>
+        </ext:heidicon>
+    </work>
+</vra>

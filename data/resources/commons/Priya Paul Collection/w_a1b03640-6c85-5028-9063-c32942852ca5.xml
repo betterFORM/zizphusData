@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:ext="http://exist-db.org/vra/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_a1b03640-6c85-5028-9063-c32942852ca5" source="EXC Priya Paul Collection" refid="c_b9827ec8-6b66-5d98-9f5e-ca12b58044c4">
+        <agentSet>
+            <agent>
+                <name vocab="local" type="personal" refid="uuid-2d9170ef-2e41-537c-8a78-28b7be563ae7">Paul, Priya</name>
+                <role vocab="marcrelator" type="code">col</role>
+            </agent>
+            <agent>
+                <culture/>
+                <name vocab="local" type="corporate" refid="uuid-85074c92-f181-5286-97c7-265e748599d0">Moosa Omer &amp; Co.</name>
+                <role vocab="marcrelator" type="code">cli</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <date type="creation">
+                <earliestDate>
+                    <date>1937</date>
+                </earliestDate>
+                <latestDate>
+                    <date>1937</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <description lang="eng" script="Latn">
+                <text>On this advertisement for Moosa Omer &amp; Co glassware &amp; cutlery, an Indian woman wearing a Sari as well as some jewellery can be seen serving a tea set with palm trees depicted on it. In the center, a detailed  of the shop as well as the products offered are pictured. The  is framed by a range of examples of dishes, cutlery, glassware and dinner services.</text>
+                <author>
+                    <name vocab="local" type="personal" refid="uuid-d4f4f076-3fb9-5544-95bf-29ba8cb16992">Schoenhofer, Gerhard</name>
+                    <role vocab="marcrelator" type="code">mdc</role>
+                </author>
+            </description>
+        </descriptionSet>
+        <inscriptionSet>
+            <inscription>
+                <text type="text" lang="eng">Glassware, Crockery, Cutlery, Tea Sets, Coffee Services, Dinner Services, Crystalware, Etc.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Visit Bombay's biggest house for Glassware, Crockery and Cutlery. So spacious the show rooms and so varied the stock that your choice is cound to be 100% satisfactory. Contrary to your expectations, prices are the low possible level. Up-country orders carefully executed.</text>
+            </inscription>
+            <inscription>
+                <text type="text" lang="eng">Moosa Omer &amp; Co., 
+Corner of Mahomedali Road, Opp. Crawford Market, Bombay 3.</text>
+            </inscription>
+        </inscriptionSet>
+        <locationSet>
+            <location source="EXC" type="repository">
+                <name type="corporate" vocab="local" refid="uuid-1544a228-b79f-5cd9-a2ac-ff357ef3da5b">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+            <location source="EXC" type="repository">
+                <name type="geographic" vocab="local" refid="">Delhi / The Priya Paul Collection of Popular Art</name>
+            </location>
+        </locationSet>
+        <materialSet>
+            <material vocab="LOCAL" refid="ce497196-b1b5-52ee-9f08-bb6627e56ef2" type="medium">paper (fiber product)</material>
+        </materialSet>
+        <measurementsSet>
+            <notes>H 15 cm, W 22 cm, landscape</notes>
+            <measurements type="height" unit="cm">15</measurements>
+            <measurements type="width" unit="cm">22</measurements>
+            <measurements shape="landscape"/>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" refid="i_bcc92c4b-a267-5799-a8c3-12fee815a6be" source="EXC Priya Paul Collection" pref="true" relids="i_bcc92c4b-a267-5799-a8c3-12fee815a6be">general view</relation>
+        </relationSet>
+        <rightsSet>
+            <rights type="copyrighted">
+                <rightsHolder/>
+                <text>Copyrighted. Copyright with the original artists and publishers.</text>
+            </rights>
+        </rightsSet>
+        <subjectSet>
+            <subject source="EXC" vocab="LOCAL" refid="d20f79fd-38c3-5b8b-8e4a-8fb6c4171397">
+                <term type="conceptTopic">Indian women</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="858d1451-3f0c-52d5-a388-4e88e5f459fb">
+                <term type="descriptiveTopic">teapots</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d2f00888-184f-5124-b7a1-e9446f25dbaf">
+                <term type="descriptiveTopic">plates (dishes)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="212c6ca2-786e-5325-b90f-68a22b1c1bdb">
+                <term type="descriptiveTopic">cups (drinking vessels)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="fa6616f5-f242-521a-843c-c5b084cc7845">
+                <term type="descriptiveTopic">advertisements</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="e96f2402-7aa3-539e-99cf-6bce03f8b2b4">
+                <term type="descriptiveTopic">product advertisement</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="6c55ceea-ca70-5617-a4f4-761ca8c5e062">
+                <term type="descriptiveTopic">palm trees</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="d04923d6-3e84-56f1-8bcb-ac9e50bfc215">
+                <term type="descriptiveTopic">jewelry</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="ec448b73-22cd-57e0-b986-e02942411d1f">
+                <term type="descriptiveTopic">saris (garments)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="84c3935b-37be-5f63-a287-8795a4875ea9">
+                <term type="descriptiveTopic">tea (beverage)</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8d0982d8-b20d-597f-87b8-b2aaa99b96fd">
+                <term type="descriptiveTopic">cutlery</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="8f2488b3-cb7b-59ec-b4fc-b615a93a423c">
+                <term type="otherTopic">Times of India</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="55426fc7-dd87-5e47-9194-4be6a7da97d8">
+                <term type="otherTopic">recheck-Gerhard</term>
+            </subject>
+            <subject source="EXC" vocab="LOCAL" refid="29f97326-77c6-57be-89cc-0bbea414b87a">
+                <term type="otherTopic">Times of India Yearbook</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="LOCAL" refid="9f5fddf6-ee5f-5aa5-8d7a-a13ad68b41b8">prints (visual works)</technique>
+        </techniqueSet>
+        <titleSet>
+            <title type="descriptive" pref="true" lang="eng" script="Latn">An advertisement of Moosa Omer &amp; Co., Bombay</title>
+        </titleSet>
+        <worktypeSet>
+            <worktype vocab="local" source="EXC" refid="fa6616f5-f242-521a-843c-c5b084cc7845">advertisements</worktype>
+            <worktype vocab="local" source="EXC" refid="3a554b84-a107-5bb4-b8b2-7f84c2e30f04">pages</worktype>
+        </worktypeSet>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Description">
+                <ext:value>text-en:
+Glassware, Crockery, Cutlery, Tea Sets, Coffee Services, Dinner Services, Crystalware, Etc.</ext:value>
+                <ext:value>text-en:
+Visit Bombay's biggest house for Glassware, Crockery and Cutlery. So spacious the show rooms and so varied the stock that your choice is cound to be 100% satisfactory. Contrary to your expectations, prices are the low possible level. Up-country orders carefully executed.</ext:value>
+                <ext:value>text-en:
+Moosa Omer &amp; Co., 
+Corner of Mahomedali Road, Opp. Crawford Market, Bombay 3.</ext:value>
+                <ext:value>description-en:
+On this advertisement for Moosa Omer &amp; Co glassware &amp; cutlery, an Indian woman wearing a Sari as well as some jewellery can be seen serving a tea set with palm trees depicted on it. In the center, a detailed description of the shop as well as the products offered are pictured. The description is framed by a range of examples of dishes, cutlery, glassware and dinner services. (gs)</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_description" status="0" display="Full_Commentary">
+                <ext:value>explanatory comments/crosstagging:
+/1117.tif</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="t_ecs" status="0" display="comment:explanatory_comments_crosstagging">
+                <ext:value type="text">/1117.tif</ext:value>
+                <ext:item type="agent">
+                    <ext:value type="role">Editor</ext:value>
+                    <ext:value type="name">PPColl_ed</ext:value>
+                    <ext:value type="agent-type">corporate</ext:value>
+                </ext:item>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_zusammenhang" status="0" display="zusammenhang">
+                <ext:value>good</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:item type="f_id_heidicon" status="0" display="Heidicon image_id">
+                <ext:value>http://heidicon.ub.uni-heidelberg.de/id/119781</ext:value>
+                <ext:value>119781</ext:value>
+            </ext:item>
+        </ext:heidicon>
+        <ext:heidicon>
+            <ext:administrative type="heidicon2vra" date="2014-03-11T15:30:18"/>
+        </ext:heidicon>
+    </work>
+</vra>
